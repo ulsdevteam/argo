@@ -1,8 +1,4 @@
 from rest_framework import serializers
-from rest_framework.fields import empty
-from django_elasticsearch_dsl_drf.serializers import DocumentSerializer
-
-from .elasticsearch.documents import Agent
 
 
 class DateSerializer(serializers.Serializer):
@@ -35,15 +31,27 @@ class ExternalIdentifierSerializer(serializers.Serializer):
 
 
 class AgentSerializer(serializers.Serializer):
-    id = serializers.CharField(read_only=True)
-    title = serializers.CharField(read_only=True)
-    description = serializers.CharField(read_only=True)
-    type = serializers.CharField(read_only=True)
+    id = serializers.CharField()
+    title = serializers.CharField()
+    description = serializers.CharField()
+    type = serializers.CharField()
     dates = DateSerializer(many=True)
     notes = NoteSerializer(many=True)
     external_identifiers = ExternalIdentifierSerializer(many=True)
 
 
 class AgentListSerializer(serializers.Serializer):
-    id = serializers.CharField(read_only=True)
-    title = serializers.CharField(read_only=True)
+    id = serializers.CharField()
+    title = serializers.CharField()
+
+
+class TermSerializer(serializers.Serializer):
+    id = serializers.CharField()
+    title = serializers.CharField()
+    type = serializers.CharField()
+    external_identifiers = ExternalIdentifierSerializer(many=True)
+
+
+class TermListSerializer(serializers.Serializer):
+    id = serializers.CharField()
+    title = serializers.CharField()
