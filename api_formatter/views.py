@@ -21,7 +21,7 @@ from django_elasticsearch_dsl_drf.filter_backends import (
     IdsFilterBackend,
     OrderingFilterBackend,
     DefaultOrderingFilterBackend,
-    SearchFilterBackend,
+    CompoundSearchFilterBackend,
 )
 from django_elasticsearch_dsl_drf.pagination import PageNumberPagination
 
@@ -80,7 +80,7 @@ class AgentViewSet(DocumentViewSet):
         IdsFilterBackend,
         OrderingFilterBackend,
         DefaultOrderingFilterBackend,
-        SearchFilterBackend,
+        CompoundSearchFilterBackend,
     ]
 
     filter_fields = {
