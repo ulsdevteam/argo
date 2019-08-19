@@ -25,8 +25,11 @@ from django_elasticsearch_dsl_drf.filter_backends import (
 )
 from django_elasticsearch_dsl_drf.pagination import PageNumberPagination
 
-from .elasticsearch.documents import Agent
-from .serializers import AgentSerializer, AgentListSerializer
+from .elasticsearch.documents import Agent, Term
+from .serializers import (
+    AgentSerializer, AgentListSerializer,
+    TermSerializer, TermListSerializer
+    )
 
 
 class DocumentViewSet(ReadOnlyModelViewSet):
@@ -38,7 +41,7 @@ class DocumentViewSet(ReadOnlyModelViewSet):
         )
         self.index = self.document._index._name
         if not Index(self.index).exists():
-            raise Http404("Index does not exist")
+            raise Http404("Index `{}` does not exist".format(self.index))
         self.mapping = self.document._doc_type.mapping.properties.name
         self.search = Search(
             using=self.client,
@@ -69,6 +72,7 @@ class DocumentViewSet(ReadOnlyModelViewSet):
 
 class AgentViewSet(DocumentViewSet):
     document = Agent
+    ordering_fields = {}
 
     def get_serializer_class(self):
         if self.action == 'list':
@@ -79,7 +83,6 @@ class AgentViewSet(DocumentViewSet):
         FilteringFilterBackend,
         IdsFilterBackend,
         OrderingFilterBackend,
-        DefaultOrderingFilterBackend,
         CompoundSearchFilterBackend,
     ]
 
@@ -99,8 +102,12 @@ class AgentViewSet(DocumentViewSet):
         'type': 'type.raw',
     }
 
-    ordering_fields = {
-        # 'id': 'id',
-        # 'title': 'title.raw',
-    }
-    # ordering = ('title',)
+
+class TermViewSet(DocumentViewSet):
+    document = Term
+    ordering_fields = {}
+
+    def get_serializer_class(self):
+        if self.action == 'list':
+            return TermListSerializer
+        return TermSerializer
