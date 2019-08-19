@@ -40,3 +40,13 @@ class Agent(Document):
 
     class Index:
         name = 'agents'
+
+
+class Term(Document):
+    id = Text()
+    title = Text(analyzer='snowball', fields={'raw': Keyword()})
+    type = Text()
+    external_identifiers = Nested(ExternalIdentifier)
+
+    class Index:
+        name = 'terms'
