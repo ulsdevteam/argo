@@ -1,0 +1,68 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "event", 
+      "end": "2019-08-19", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "event", 
+      "end": "2019-08-19", 
+      "type": "inclusive"
+    }
+  ], 
+  "description": "Aute qui quis fugiat do eiusmod laborum laboris incididunt excepteur voluptate ut eiusmod. Commodo mollit cupidatat do nisi dolor cillum. Occaecat adipisicing deserunt magna excepteur occaecat cupidatat tempor exercitation. Sint labore fugiat reprehenderit irure non labore cillum dolore ipsum eiusmod mollit cupidatat dolore non.", 
+  "title": "Vance Foundation", 
+  "notes": [
+    {
+      "source": "cartographer", 
+      "type": "physfacet", 
+      "subnotes": [
+        {
+          "content": [
+            "esse quis culpa duis laborum aliquip", 
+            "enim irure magna proident labore cillum", 
+            "enim ut labore deserunt non exercitation", 
+            "ut fugiat culpa magna et dolore", 
+            "mollit proident labore ex irure qui"
+          ], 
+          "type": "Ordered List"
+        }
+      ], 
+      "title": "cillum in velit"
+    }, 
+    {
+      "source": "wikipedia", 
+      "type": "inscription", 
+      "subnotes": [
+        {
+          "content": [
+            "consectetur cillum commodo non qui esse", 
+            "tempor do qui laboris commodo voluptate", 
+            "est laboris mollit elit aute ex", 
+            "cillum officia sit et irure occaecat", 
+            "veniam aute elit elit commodo deserunt"
+          ], 
+          "type": "Defined List"
+        }
+      ], 
+      "title": "ex duis culpa"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d5ae54ae2a79222233d3911"
+    }, 
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5ae54a16eb41a7f5711476"
+    }
+  ], 
+  "type": "organization", 
+  "id": "b7eb29c0-5da6-44d0-b76f-9930f8c475fb"
+}

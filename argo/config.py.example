@@ -12,4 +12,10 @@ ALLOWED_HOSTS = ['localhost', 'argo-web']
 
 BASE_DIR = ''
 
-STATIC_ROOT = '/static'
+STATIC_ROOT = '/static/'
+
+ELASTICSEARCH_DSL = {
+    'default': {
+        'hosts': 'localhost:9200'
+    },
+}

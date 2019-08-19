@@ -1,0 +1,47 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "event", 
+      "end": "2019-08-19", 
+      "type": "single"
+    }
+  ], 
+  "description": "Cillum adipisicing velit minim velit id veniam laboris ea reprehenderit labore. Ullamco nostrud ea qui deserunt laborum irure fugiat nulla eu cillum nulla. Cillum id excepteur ea consequat et eu esse sunt eu incididunt nostrud ex. Eu aliquip nulla pariatur non mollit excepteur ut mollit deserunt nulla.", 
+  "title": "Brooks Foundation", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "dimensions", 
+      "subnotes": [
+        {
+          "content": [
+            "ipsum deserunt nulla duis nulla cupidatat", 
+            "dolor enim aute excepteur occaecat veniam"
+          ], 
+          "type": "Ordered List"
+        }, 
+        {
+          "content": [
+            "ea amet ex aliqua sint nisi"
+          ], 
+          "type": "Ordered List"
+        }
+      ], 
+      "title": "ex laboris ullamco"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5ae54ac1d99afa57b905af"
+    }, 
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5ae54ad7151760d958b21b"
+    }
+  ], 
+  "type": "organization", 
+  "id": "0027648c-0408-4bb1-a25f-b674224df282"
+}

@@ -1,0 +1,47 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "creation", 
+      "end": "2019-08-19", 
+      "type": "single"
+    }, 
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "copyright", 
+      "end": "2019-08-19", 
+      "type": "single"
+    }
+  ], 
+  "description": "Dolor minim Lorem laboris elit labore aliqua labore commodo adipisicing. Amet duis Lorem duis velit quis deserunt aliqua in. Ex consequat occaecat aute sunt commodo in ad reprehenderit. Id veniam tempor ipsum excepteur sit anim enim pariatur nulla nostrud duis amet.", 
+  "title": "Gonzales Foundation", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "fileplan", 
+      "subnotes": [
+        {
+          "content": [
+            "amet dolore est et et ad", 
+            "cillum est ipsum occaecat labore quis", 
+            "ad ex veniam aute eu nisi", 
+            "proident laborum adipisicing laborum sint velit", 
+            "minim sit cillum nisi reprehenderit ut"
+          ], 
+          "type": "Defined List"
+        }
+      ], 
+      "title": "voluptate eiusmod cillum"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d5ae54a270e01bf51f4ec9d"
+    }
+  ], 
+  "type": "organization", 
+  "id": "d1d24860-a7e0-429c-9175-3291cae5d7d8"
+}

@@ -1,0 +1,84 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "copyright", 
+      "end": "2019-08-19", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "record_keeping", 
+      "end": "2019-08-19", 
+      "type": "bulk"
+    }
+  ], 
+  "description": "Ut eu non veniam nulla anim et elit anim est. Et adipisicing qui velit veniam anim nostrud in sunt ullamco voluptate proident minim. Eiusmod excepteur incididunt labore qui laboris nisi veniam sunt. Ex labore aliquip fugiat est esse consectetur aute. Laborum aute eu minim tempor.", 
+  "title": "Evans Cross", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "userestrict", 
+      "subnotes": [
+        {
+          "content": [
+            "ad velit laborum sint sit occaecat", 
+            "magna ullamco duis proident voluptate id", 
+            "ullamco enim cupidatat incididunt anim ullamco"
+          ], 
+          "type": "Ordered List"
+        }, 
+        {
+          "content": [
+            "nisi adipisicing et labore est esse"
+          ], 
+          "type": "Text"
+        }
+      ], 
+      "title": "eu excepteur commodo"
+    }, 
+    {
+      "source": "cartographer", 
+      "type": "arrangement", 
+      "subnotes": [
+        {
+          "content": [
+            "magna consectetur sint cupidatat quis elit", 
+            "do tempor dolore adipisicing culpa exercitation", 
+            "ipsum reprehenderit cupidatat irure laboris do", 
+            "proident magna quis et sunt fugiat", 
+            "nisi proident tempor eiusmod incididunt sunt"
+          ], 
+          "type": "Defined List"
+        }, 
+        {
+          "content": [
+            "incididunt exercitation nisi esse officia Lorem"
+          ], 
+          "type": "Defined List"
+        }, 
+        {
+          "content": [
+            "cupidatat elit velit nisi laborum ad", 
+            "fugiat ex est qui dolor adipisicing", 
+            "veniam laboris nisi voluptate esse consequat", 
+            "Lorem est nulla excepteur commodo qui", 
+            "pariatur non enim cillum in incididunt"
+          ], 
+          "type": "Ordered List"
+        }
+      ], 
+      "title": "dolore qui eu"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5ae52c2719f52cf7cdc445"
+    }
+  ], 
+  "type": "person", 
+  "id": "ad44dbbd-f6ac-4945-8035-4a99031d4938"
+}

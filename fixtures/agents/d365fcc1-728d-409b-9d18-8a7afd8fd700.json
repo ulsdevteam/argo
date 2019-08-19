@@ -1,0 +1,58 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "issued", 
+      "end": "2019-08-19", 
+      "type": "single"
+    }, 
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "digitized", 
+      "end": "2019-08-19", 
+      "type": "bulk"
+    }
+  ], 
+  "description": "Exercitation ullamco esse ea et sit duis esse nulla cillum officia anim eu eiusmod eu. Dolor sint sint cupidatat sint. Ipsum sint consequat ex duis deserunt aliqua deserunt excepteur qui reprehenderit sit. Quis sunt sunt deserunt esse et labore velit id aliqua exercitation.", 
+  "title": "Montgomery Foundation", 
+  "notes": [
+    {
+      "source": "wikidata", 
+      "type": "restrictions", 
+      "subnotes": [
+        {
+          "content": [
+            "deserunt mollit et elit cillum quis", 
+            "est sit commodo occaecat exercitation eu", 
+            "exercitation aliquip sunt labore Lorem labore"
+          ], 
+          "type": "Ordered List"
+        }, 
+        {
+          "content": [
+            "irure proident laboris laboris aliqua consectetur", 
+            "ipsum excepteur dolore ea pariatur est", 
+            "cupidatat magna magna nostrud fugiat elit", 
+            "laboris nisi minim et esse dolore"
+          ], 
+          "type": "Defined List"
+        }
+      ], 
+      "title": "excepteur in elit"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d5ae54a379dd0567c837605"
+    }, 
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5ae54a944aea8e70246868"
+    }
+  ], 
+  "type": "organization", 
+  "id": "d365fcc1-728d-409b-9d18-8a7afd8fd700"
+}

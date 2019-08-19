@@ -1,0 +1,59 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "agent_relation", 
+      "end": "2019-08-19", 
+      "type": "bulk"
+    }
+  ], 
+  "description": "Tempor nisi Lorem duis sint enim mollit cillum do consectetur voluptate qui deserunt. Id incididunt cupidatat Lorem est magna exercitation. Cupidatat velit sit ea laboris id exercitation incididunt nulla commodo excepteur ex. Eu anim duis irure quis labore magna Lorem esse mollit culpa occaecat deserunt nisi culpa. Fugiat Lorem elit qui non cupidatat sit tempor ea excepteur id fugiat laboris. Nulla voluptate reprehenderit est sunt ad consequat anim cillum ut occaecat id et consectetur duis. Officia proident sunt ut reprehenderit tempor elit nostrud incididunt minim.", 
+  "title": "Fowler Foundation", 
+  "notes": [
+    {
+      "source": "wikidata", 
+      "type": "expiration", 
+      "subnotes": [
+        {
+          "content": [
+            "Lorem qui dolore adipisicing incididunt eu", 
+            "nostrud deserunt ipsum mollit velit culpa", 
+            "dolor quis pariatur veniam amet nostrud"
+          ], 
+          "type": "Ordered List"
+        }, 
+        {
+          "content": [
+            "incididunt ea tempor exercitation mollit officia", 
+            "nisi aute adipisicing irure irure nulla"
+          ], 
+          "type": "Ordered List"
+        }, 
+        {
+          "content": [
+            "in esse officia excepteur deserunt velit", 
+            "qui aliquip nisi fugiat ullamco veniam", 
+            "aliqua aute sint ad elit duis", 
+            "quis dolore aute et cupidatat labore", 
+            "nulla proident aute laboris id in"
+          ], 
+          "type": "Text"
+        }
+      ], 
+      "title": "aute esse fugiat"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5ae54a64987682fb063e50"
+    }, 
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5ae54af872c2a57b47dc70"
+    }
+  ], 
+  "type": "organization", 
+  "id": "20a2b421-285d-4756-8f5d-235a0cacd7c0"
+}

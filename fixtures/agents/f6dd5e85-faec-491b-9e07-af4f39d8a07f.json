@@ -1,0 +1,69 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "existence", 
+      "end": "2019-08-19", 
+      "type": "single"
+    }
+  ], 
+  "description": "Sint consectetur ex nisi ex. Incididunt excepteur laboris et nulla nisi esse. Do et dolor dolor ea reprehenderit esse elit ad sint voluptate quis.", 
+  "title": "Rogers Bentley", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "altformavail", 
+      "subnotes": [
+        {
+          "content": [
+            "esse cupidatat proident culpa est officia", 
+            "cillum dolore nostrud labore tempor elit", 
+            "adipisicing consequat elit cillum in ut", 
+            "commodo ea minim incididunt commodo nisi", 
+            "aliquip ex tempor aute fugiat ullamco"
+          ], 
+          "type": "Text"
+        }, 
+        {
+          "content": [
+            "sit laboris aute fugiat consequat eiusmod"
+          ], 
+          "type": "Text"
+        }, 
+        {
+          "content": [
+            "ut quis velit nostrud irure minim", 
+            "aliquip aute commodo eiusmod laboris tempor", 
+            "reprehenderit esse ullamco esse ad est", 
+            "velit do sunt commodo non nostrud"
+          ], 
+          "type": "Ordered List"
+        }
+      ], 
+      "title": "duis minim nulla"
+    }, 
+    {
+      "source": "wikipedia", 
+      "type": "separatedmaterial", 
+      "subnotes": [
+        {
+          "content": [
+            "nostrud tempor dolor sunt nulla excepteur", 
+            "et ea culpa minim laboris minim"
+          ], 
+          "type": "Ordered List"
+        }
+      ], 
+      "title": "magna elit aliqua"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5ae52cff2ab3cd7f9809c2"
+    }
+  ], 
+  "type": "person", 
+  "id": "f6dd5e85-faec-491b-9e07-af4f39d8a07f"
+}

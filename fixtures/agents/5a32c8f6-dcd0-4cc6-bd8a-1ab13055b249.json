@@ -1,0 +1,74 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "record_keeping", 
+      "end": "2019-08-19", 
+      "type": "single"
+    }
+  ], 
+  "description": "Voluptate magna veniam sit incididunt laboris do quis elit nisi pariatur amet. Tempor laborum cillum mollit adipisicing voluptate amet eiusmod fugiat amet reprehenderit veniam ea. Aliqua ad ad reprehenderit ex laborum nostrud in laborum incididunt laboris minim qui culpa in.", 
+  "title": "Gray Foundation", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "permissions", 
+      "subnotes": [
+        {
+          "content": [
+            "mollit pariatur nisi consequat proident ipsum", 
+            "irure magna occaecat id exercitation commodo", 
+            "aliqua commodo aute laboris minim labore", 
+            "magna dolor officia magna aliquip excepteur", 
+            "fugiat nisi magna tempor voluptate culpa"
+          ], 
+          "type": "Text"
+        }
+      ], 
+      "title": "consequat irure est"
+    }, 
+    {
+      "source": "wikipedia", 
+      "type": "extent", 
+      "subnotes": [
+        {
+          "content": [
+            "consequat nostrud excepteur exercitation eu magna"
+          ], 
+          "type": "Ordered List"
+        }, 
+        {
+          "content": [
+            "ullamco esse ullamco amet officia minim", 
+            "culpa velit nisi dolore sit consectetur", 
+            "nostrud exercitation tempor quis duis consectetur", 
+            "exercitation ipsum nostrud nulla sunt aliquip"
+          ], 
+          "type": "Text"
+        }, 
+        {
+          "content": [
+            "reprehenderit fugiat deserunt enim aliqua culpa", 
+            "dolore et ut est sunt amet", 
+            "et deserunt sint eu aute commodo"
+          ], 
+          "type": "Text"
+        }
+      ], 
+      "title": "Lorem minim proident"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5ae54a5be1cd18f04d4afd"
+    }, 
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5ae54a4d299de5e075cf36"
+    }
+  ], 
+  "type": "organization", 
+  "id": "5a32c8f6-dcd0-4cc6-bd8a-1ab13055b249"
+}

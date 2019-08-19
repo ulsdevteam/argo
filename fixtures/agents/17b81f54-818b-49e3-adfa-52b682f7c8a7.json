@@ -1,0 +1,66 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "copyright", 
+      "end": "2019-08-19", 
+      "type": "bulk"
+    }
+  ], 
+  "description": "Fugiat magna eiusmod irure laborum sit. Incididunt commodo non ullamco adipisicing reprehenderit voluptate dolore id fugiat commodo consequat in. Anim dolor velit occaecat sit quis id reprehenderit sit do qui. Sunt commodo reprehenderit cillum ea ullamco sint quis duis. Consequat culpa duis Lorem cupidatat. In ex irure eiusmod consequat et exercitation nisi deserunt nostrud ad ex quis commodo magna. Sint dolor eu laborum labore tempor fugiat.", 
+  "title": "Ila Pruitt", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "userestrict", 
+      "subnotes": [
+        {
+          "content": [
+            "excepteur incididunt excepteur anim cupidatat id", 
+            "et esse enim est cillum quis", 
+            "nostrud proident dolore tempor velit qui", 
+            "ea aliqua ullamco sit quis culpa", 
+            "sunt sunt tempor sint sint in"
+          ], 
+          "type": "Text"
+        }, 
+        {
+          "content": [
+            "qui ullamco ad laboris aliquip adipisicing", 
+            "excepteur dolor nisi nisi aliquip occaecat", 
+            "enim sunt minim sunt et commodo", 
+            "labore ea elit pariatur sint irure"
+          ], 
+          "type": "Defined List"
+        }
+      ], 
+      "title": "aliqua adipisicing culpa"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "physdesc", 
+      "subnotes": [
+        {
+          "content": [
+            "ex exercitation labore ut duis est"
+          ], 
+          "type": "Text"
+        }
+      ], 
+      "title": "esse pariatur voluptate"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d5ae52cb599f1fb2dc22ce4"
+    }, 
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5ae52c15b7bf5c869c0ef0"
+    }
+  ], 
+  "type": "person", 
+  "id": "17b81f54-818b-49e3-adfa-52b682f7c8a7"
+}

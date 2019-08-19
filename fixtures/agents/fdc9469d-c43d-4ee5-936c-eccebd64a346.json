@@ -1,0 +1,70 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "issued", 
+      "end": "2019-08-19", 
+      "type": "single"
+    }
+  ], 
+  "description": "Non voluptate non esse ex commodo. Magna aute enim magna consequat aliquip velit aliqua sint in dolore in. Enim quis voluptate laborum cupidatat quis ea nostrud occaecat minim sunt nisi. Irure adipisicing consequat adipisicing adipisicing excepteur aute. Tempor culpa magna elit quis adipisicing eu reprehenderit amet. Non deserunt proident non ad culpa adipisicing aliquip duis elit adipisicing quis commodo dolore labore. Labore est Lorem ipsum sint do qui proident nostrud ex pariatur laboris incididunt eiusmod adipisicing.", 
+  "title": "Mccormick Diaz", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "userestrict", 
+      "subnotes": [
+        {
+          "content": [
+            "labore ex ipsum est incididunt commodo", 
+            "adipisicing amet enim ullamco ullamco mollit", 
+            "eiusmod velit sunt amet anim in"
+          ], 
+          "type": "Ordered List"
+        }
+      ], 
+      "title": "duis tempor laborum"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "legalstatus", 
+      "subnotes": [
+        {
+          "content": [
+            "aliquip et id aliqua ipsum ea", 
+            "magna consequat duis tempor eu ullamco", 
+            "ut consectetur enim qui adipisicing tempor"
+          ], 
+          "type": "Ordered List"
+        }, 
+        {
+          "content": [
+            "nostrud est nisi minim laborum enim"
+          ], 
+          "type": "Defined List"
+        }, 
+        {
+          "content": [
+            "cillum cillum non nisi sint excepteur", 
+            "dolore elit nostrud dolor ad laborum"
+          ], 
+          "type": "Defined List"
+        }
+      ], 
+      "title": "voluptate nulla quis"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5ae52c1193d0876d82fb87"
+    }, 
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5ae52c8c5807f2c3dea4ca"
+    }
+  ], 
+  "type": "person", 
+  "id": "fdc9469d-c43d-4ee5-936c-eccebd64a346"
+}

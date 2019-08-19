@@ -1,0 +1,58 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "broadcast", 
+      "end": "2019-08-19", 
+      "type": "single"
+    }
+  ], 
+  "description": "Ut ut deserunt ea ullamco. Cupidatat dolor officia in duis esse ullamco laborum incididunt proident ullamco sint ea. Irure in anim cupidatat veniam reprehenderit et Lorem in ipsum consequat nostrud occaecat ipsum aliquip. Sit fugiat magna ut veniam eiusmod dolor est ad aute occaecat qui esse.", 
+  "title": "Kelly Mclaughlin", 
+  "notes": [
+    {
+      "source": "wikidata", 
+      "type": "extent", 
+      "subnotes": [
+        {
+          "content": [
+            "exercitation id ipsum sint laborum fugiat", 
+            "duis anim excepteur minim est consequat", 
+            "esse elit incididunt eiusmod esse minim", 
+            "et aute mollit in exercitation cillum"
+          ], 
+          "type": "Defined List"
+        }, 
+        {
+          "content": [
+            "quis amet ut sit enim commodo", 
+            "esse fugiat voluptate sunt Lorem voluptate", 
+            "cillum id tempor non ex duis", 
+            "consectetur fugiat exercitation aliquip enim occaecat"
+          ], 
+          "type": "Text"
+        }, 
+        {
+          "content": [
+            "Lorem anim labore pariatur in id"
+          ], 
+          "type": "Text"
+        }
+      ], 
+      "title": "laborum cillum excepteur"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d5ae52c6b8b889aa5f5c907"
+    }, 
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5ae52c5f5d1dbd58ad49ad"
+    }
+  ], 
+  "type": "person", 
+  "id": "413358fd-3d84-498a-aba6-6971e550c914"
+}

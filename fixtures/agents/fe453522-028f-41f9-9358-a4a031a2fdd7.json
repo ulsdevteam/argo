@@ -1,0 +1,38 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "agent_relation", 
+      "end": "2019-08-19", 
+      "type": "inclusive"
+    }
+  ], 
+  "description": "Est velit consectetur qui aliquip velit excepteur cillum pariatur aute magna dolor occaecat dolore consequat. Officia qui eiusmod officia minim enim elit id. Nisi eiusmod aute ut proident mollit aliqua elit.", 
+  "title": "Kirk family", 
+  "notes": [
+    {
+      "source": "wikidata", 
+      "type": "accessrestrict", 
+      "subnotes": [
+        {
+          "content": [
+            "et irure officia cupidatat magna dolor", 
+            "cupidatat elit irure laboris eiusmod dolore", 
+            "nulla ullamco adipisicing mollit tempor eu"
+          ], 
+          "type": "Text"
+        }
+      ], 
+      "title": "sunt tempor mollit"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d5ae4138840380ed5ac51e7"
+    }
+  ], 
+  "type": "family", 
+  "id": "fe453522-028f-41f9-9358-a4a031a2fdd7"
+}

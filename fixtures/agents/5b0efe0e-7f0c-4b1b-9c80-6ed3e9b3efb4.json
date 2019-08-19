@@ -1,0 +1,61 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "publication", 
+      "end": "2019-08-19", 
+      "type": "single"
+    }, 
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "publication", 
+      "end": "2019-08-19", 
+      "type": "inclusive"
+    }
+  ], 
+  "description": "Laboris consequat elit est consequat occaecat nulla consectetur amet sunt tempor proident consectetur fugiat aute. Et magna pariatur adipisicing cillum occaecat non duis officia sit est veniam in aute eu. Cupidatat dolor cupidatat fugiat voluptate occaecat. Pariatur nostrud non dolore excepteur ipsum in irure laborum. Ut veniam et excepteur nisi sunt incididunt elit anim aliqua.", 
+  "title": "Horn family", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "permissions", 
+      "subnotes": [
+        {
+          "content": [
+            "cillum magna voluptate enim dolore qui"
+          ], 
+          "type": "Ordered List"
+        }, 
+        {
+          "content": [
+            "excepteur minim laboris commodo nostrud pariatur", 
+            "est incididunt ad aliqua minim nulla", 
+            "consequat adipisicing duis fugiat dolor aliquip", 
+            "nisi ullamco ut quis commodo velit"
+          ], 
+          "type": "Ordered List"
+        }, 
+        {
+          "content": [
+            "voluptate proident ut nulla consequat qui", 
+            "non nisi sunt amet sit officia", 
+            "ex dolore velit adipisicing nulla enim", 
+            "excepteur cillum dolor consequat nostrud voluptate"
+          ], 
+          "type": "Text"
+        }
+      ], 
+      "title": "officia ad aute"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5ae413e418fe1179489bbb"
+    }
+  ], 
+  "type": "family", 
+  "id": "5b0efe0e-7f0c-4b1b-9c80-6ed3e9b3efb4"
+}

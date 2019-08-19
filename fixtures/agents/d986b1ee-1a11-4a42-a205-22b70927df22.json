@@ -1,0 +1,69 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "other", 
+      "end": "2019-08-19", 
+      "type": "inclusive"
+    }
+  ], 
+  "description": "Irure in veniam sunt in. Ex veniam aute qui eiusmod. Commodo cillum magna sint sint exercitation ad consequat sint enim. Est culpa laborum consectetur enim esse est incididunt aute velit. Adipisicing cillum in aliqua ullamco ullamco quis. Pariatur ea do aliquip commodo nisi sit in nulla eiusmod culpa irure amet fugiat. Ipsum laboris ad dolor quis.", 
+  "title": "Miles Hines", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "extension", 
+      "subnotes": [
+        {
+          "content": [
+            "aliquip id consequat dolor enim aliquip", 
+            "qui sit dolor dolore voluptate dolore", 
+            "ad eiusmod culpa adipisicing minim officia"
+          ], 
+          "type": "Defined List"
+        }
+      ], 
+      "title": "ad sunt laborum"
+    }, 
+    {
+      "source": "wikipedia", 
+      "type": "additional_information", 
+      "subnotes": [
+        {
+          "content": [
+            "cupidatat commodo incididunt non reprehenderit fugiat"
+          ], 
+          "type": "Ordered List"
+        }, 
+        {
+          "content": [
+            "mollit exercitation aliquip mollit ut deserunt"
+          ], 
+          "type": "Ordered List"
+        }, 
+        {
+          "content": [
+            "culpa amet qui id aliqua minim", 
+            "nulla nisi voluptate mollit esse tempor", 
+            "reprehenderit dolor fugiat esse ipsum excepteur"
+          ], 
+          "type": "Defined List"
+        }
+      ], 
+      "title": "magna occaecat non"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5ae52c4672455a5f72a423"
+    }, 
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5ae52c9bc6485f2c8eb8d2"
+    }
+  ], 
+  "type": "person", 
+  "id": "d986b1ee-1a11-4a42-a205-22b70927df22"
+}

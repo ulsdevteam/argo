@@ -1,0 +1,56 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "agent_relation", 
+      "end": "2019-08-19", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "agent_relation", 
+      "end": "2019-08-19", 
+      "type": "inclusive"
+    }
+  ], 
+  "description": "Ea aute elit in amet aliqua aliqua deserunt. Laborum sit laborum esse occaecat mollit tempor est do mollit. Eiusmod laboris mollit ea laboris nulla qui esse id ex duis aute laborum. Sunt do duis proident irure nostrud minim adipisicing pariatur ut. Labore sint qui excepteur nisi culpa culpa exercitation tempor pariatur amet commodo veniam magna. Deserunt occaecat aliquip aliquip commodo quis nisi id. Adipisicing eiusmod ullamco mollit eiusmod ut velit quis amet in amet enim eiusmod.", 
+  "title": "Anthony Horn", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "otherfindaid", 
+      "subnotes": [
+        {
+          "content": [
+            "deserunt ex non pariatur deserunt non"
+          ], 
+          "type": "Ordered List"
+        }
+      ], 
+      "title": "anim in fugiat"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "rights_statement", 
+      "subnotes": [
+        {
+          "content": [
+            "minim irure sit laboris ad deserunt"
+          ], 
+          "type": "Ordered List"
+        }
+      ], 
+      "title": "ex qui duis"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d5ae52c1484533982d89ec6"
+    }
+  ], 
+  "type": "person", 
+  "id": "0443173b-e222-4f10-abdf-d15eb4958472"
+}

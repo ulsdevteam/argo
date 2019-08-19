@@ -1,0 +1,61 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "deaccession", 
+      "end": "2019-08-19", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "record_keeping", 
+      "end": "2019-08-19", 
+      "type": "bulk"
+    }
+  ], 
+  "description": "Ut sunt cupidatat consectetur consectetur. Aliqua officia consequat velit laborum nostrud amet est et tempor ex esse. Ea nisi mollit do esse Lorem in quis.", 
+  "title": "Taylor Foundation", 
+  "notes": [
+    {
+      "source": "cartographer", 
+      "type": "scopecontent", 
+      "subnotes": [
+        {
+          "content": [
+            "id id adipisicing laborum elit pariatur", 
+            "et aliquip proident magna mollit adipisicing", 
+            "Lorem duis duis id Lorem ut", 
+            "ea ipsum enim anim sit incididunt", 
+            "id qui deserunt et fugiat tempor"
+          ], 
+          "type": "Defined List"
+        }
+      ], 
+      "title": "excepteur anim culpa"
+    }, 
+    {
+      "source": "cartographer", 
+      "type": "bioghist", 
+      "subnotes": [
+        {
+          "content": [
+            "ex quis adipisicing voluptate culpa veniam", 
+            "labore ea anim ut dolore cupidatat"
+          ], 
+          "type": "Defined List"
+        }
+      ], 
+      "title": "velit voluptate consequat"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5ae54ad69813c25185968e"
+    }
+  ], 
+  "type": "organization", 
+  "id": "bbee91cf-80ff-4ba6-98ce-84c309d83fd9"
+}

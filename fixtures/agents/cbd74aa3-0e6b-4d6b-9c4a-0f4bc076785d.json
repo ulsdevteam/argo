@@ -1,0 +1,55 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "usage", 
+      "end": "2019-08-19", 
+      "type": "inclusive"
+    }
+  ], 
+  "description": "Aute officia laborum sint irure ea minim non sit est. Velit consequat nisi veniam duis labore et cupidatat. Enim ea adipisicing ullamco dolore fugiat ea tempor velit tempor adipisicing anim pariatur.", 
+  "title": "Eleanor Chapman", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "rights_statement_act", 
+      "subnotes": [
+        {
+          "content": [
+            "incididunt Lorem commodo est elit nisi"
+          ], 
+          "type": "Defined List"
+        }, 
+        {
+          "content": [
+            "cupidatat ullamco in voluptate proident Lorem", 
+            "ullamco tempor non do consequat in", 
+            "velit id est ullamco tempor occaecat", 
+            "ex sit labore ullamco commodo ipsum", 
+            "excepteur deserunt nostrud sint minim pariatur"
+          ], 
+          "type": "Ordered List"
+        }, 
+        {
+          "content": [
+            "elit veniam sint sunt nulla eu", 
+            "enim aliquip sint veniam consectetur exercitation", 
+            "veniam cupidatat commodo consectetur mollit minim", 
+            "eiusmod tempor non dolore sint ad"
+          ], 
+          "type": "Text"
+        }
+      ], 
+      "title": "et irure aute"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5ae52cdccba96f77efdf2b"
+    }
+  ], 
+  "type": "person", 
+  "id": "cbd74aa3-0e6b-4d6b-9c4a-0f4bc076785d"
+}

@@ -1,0 +1,80 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "agent_relation", 
+      "end": "2019-08-19", 
+      "type": "single"
+    }
+  ], 
+  "description": "Id eu qui cupidatat excepteur cupidatat velit ipsum voluptate ea adipisicing duis id elit. Reprehenderit cillum excepteur duis consequat. Nostrud et do eu proident dolor dolore qui elit velit deserunt. Elit ea culpa ad voluptate exercitation fugiat laboris aliquip Lorem non qui.", 
+  "title": "Beach Foundation", 
+  "notes": [
+    {
+      "source": "cartographer", 
+      "type": "rights_statement", 
+      "subnotes": [
+        {
+          "content": [
+            "laborum nulla dolore do nostrud fugiat", 
+            "minim fugiat nostrud nulla pariatur adipisicing", 
+            "exercitation pariatur ex sint incididunt proident", 
+            "nisi id irure do dolor tempor"
+          ], 
+          "type": "Text"
+        }, 
+        {
+          "content": [
+            "amet nostrud minim magna aliqua pariatur", 
+            "esse esse anim sit magna ad", 
+            "sit aute sit incididunt nisi eu"
+          ], 
+          "type": "Text"
+        }
+      ], 
+      "title": "deserunt commodo proident"
+    }, 
+    {
+      "source": "cartographer", 
+      "type": "accruals", 
+      "subnotes": [
+        {
+          "content": [
+            "ullamco esse fugiat aute commodo id", 
+            "nisi aliqua proident consequat proident excepteur", 
+            "amet dolor amet nisi officia adipisicing", 
+            "laboris anim et consectetur aute cupidatat", 
+            "mollit ad cupidatat nisi fugiat enim"
+          ], 
+          "type": "Defined List"
+        }, 
+        {
+          "content": [
+            "Lorem ex cillum occaecat consequat voluptate"
+          ], 
+          "type": "Defined List"
+        }, 
+        {
+          "content": [
+            "fugiat elit et fugiat cillum fugiat"
+          ], 
+          "type": "Ordered List"
+        }
+      ], 
+      "title": "deserunt anim id"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5ae54a5796a662c280b748"
+    }, 
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5ae54ab66b344e60fdfc41"
+    }
+  ], 
+  "type": "organization", 
+  "id": "a60511be-7748-424a-83af-55fa4e160f8c"
+}

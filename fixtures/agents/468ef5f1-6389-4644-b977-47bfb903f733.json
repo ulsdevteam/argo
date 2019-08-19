@@ -1,0 +1,69 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "broadcast", 
+      "end": "2019-08-19", 
+      "type": "inclusive"
+    }
+  ], 
+  "description": "Non dolore sunt mollit officia sint anim est ea voluptate irure excepteur. Id magna Lorem Lorem minim pariatur laborum ex qui commodo duis. Est aliquip nulla minim tempor mollit veniam. Ut in exercitation fugiat velit dolore consequat nostrud nulla. Nisi aute aute veniam dolore commodo in aliqua fugiat. Quis magna do amet magna est in ad elit labore anim. Et voluptate sint ullamco eu ut.", 
+  "title": "Francesca Moreno", 
+  "notes": [
+    {
+      "source": "cartographer", 
+      "type": "scopecontent", 
+      "subnotes": [
+        {
+          "content": [
+            "anim cupidatat consequat ex nisi adipisicing", 
+            "velit quis sunt Lorem officia laboris", 
+            "do laboris ullamco duis qui labore", 
+            "nisi excepteur ut laborum nulla et"
+          ], 
+          "type": "Defined List"
+        }
+      ], 
+      "title": "irure ad aliquip"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "physdesc", 
+      "subnotes": [
+        {
+          "content": [
+            "amet non irure culpa ipsum ipsum", 
+            "aute magna sit Lorem et anim"
+          ], 
+          "type": "Ordered List"
+        }, 
+        {
+          "content": [
+            "deserunt labore cupidatat tempor laboris ad", 
+            "incididunt proident id aute do minim"
+          ], 
+          "type": "Defined List"
+        }, 
+        {
+          "content": [
+            "adipisicing sit cillum nisi sint do", 
+            "proident aliquip aliqua sunt magna do", 
+            "eiusmod enim culpa officia duis fugiat", 
+            "ut voluptate mollit amet consequat anim"
+          ], 
+          "type": "Text"
+        }
+      ], 
+      "title": "ullamco proident aliquip"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d5ae52c510d3d2053d727d1"
+    }
+  ], 
+  "type": "person", 
+  "id": "468ef5f1-6389-4644-b977-47bfb903f733"
+}

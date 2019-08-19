@@ -1,0 +1,48 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "publication", 
+      "end": "2019-08-19", 
+      "type": "single"
+    }
+  ], 
+  "description": "Consectetur velit in dolore nisi. Sunt anim in nisi veniam enim dolore aliqua tempor officia velit. Culpa dolore dolor ea consequat eiusmod do laborum velit consequat magna ipsum aliqua dolor. Ad consectetur culpa do dolor ipsum sint sunt pariatur. Sunt anim sunt tempor cupidatat incididunt dolor nisi Lorem Lorem id do cillum. Ullamco ea nostrud proident sint aliquip nulla velit id do.", 
+  "title": "Pruitt Page", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "arrangement", 
+      "subnotes": [
+        {
+          "content": [
+            "amet fugiat irure nulla culpa id"
+          ], 
+          "type": "Ordered List"
+        }, 
+        {
+          "content": [
+            "pariatur aliquip sit duis nisi id", 
+            "Lorem mollit sit irure consectetur incididunt", 
+            "qui proident nulla nostrud anim anim"
+          ], 
+          "type": "Text"
+        }
+      ], 
+      "title": "laborum ipsum do"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5ae52cabace5d9b9cfd978"
+    }, 
+    {
+      "source": "wikidata", 
+      "identifier": "5d5ae52cce0de4f6e3320ace"
+    }
+  ], 
+  "type": "person", 
+  "id": "015c7894-8d08-4e17-8384-004217200bc0"
+}

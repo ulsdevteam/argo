@@ -1,0 +1,66 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "copyright", 
+      "end": "2019-08-19", 
+      "type": "single"
+    }, 
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "copyright", 
+      "end": "2019-08-19", 
+      "type": "inclusive"
+    }
+  ], 
+  "description": "Non ut non enim ipsum. Aliquip et est eiusmod incididunt occaecat aliquip aliqua. Ipsum et qui irure ex deserunt non voluptate elit occaecat sit sit anim. Quis sunt adipisicing ipsum adipisicing consequat ad amet.", 
+  "title": "Lee Foundation", 
+  "notes": [
+    {
+      "source": "wikidata", 
+      "type": "materials", 
+      "subnotes": [
+        {
+          "content": [
+            "irure quis pariatur occaecat tempor minim", 
+            "tempor dolor exercitation officia culpa cillum", 
+            "nisi ut nostrud reprehenderit ad fugiat"
+          ], 
+          "type": "Defined List"
+        }, 
+        {
+          "content": [
+            "dolore ut esse eiusmod ea in", 
+            "eu mollit qui in laborum sint", 
+            "nulla cupidatat velit ut est adipisicing", 
+            "ex ipsum excepteur officia eu non"
+          ], 
+          "type": "Text"
+        }, 
+        {
+          "content": [
+            "consequat non deserunt deserunt elit commodo", 
+            "enim incididunt culpa aliqua deserunt incididunt", 
+            "laboris consequat quis enim aute in"
+          ], 
+          "type": "Text"
+        }
+      ], 
+      "title": "laboris duis ea"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5ae54a045c1e5f7da08a9c"
+    }, 
+    {
+      "source": "wikidata", 
+      "identifier": "5d5ae54a5520db19fa11fb2d"
+    }
+  ], 
+  "type": "organization", 
+  "id": "26463495-9170-42fa-a313-91a8feaafcd2"
+}

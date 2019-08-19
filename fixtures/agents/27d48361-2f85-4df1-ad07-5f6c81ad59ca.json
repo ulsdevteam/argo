@@ -1,0 +1,63 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "record_keeping", 
+      "end": "2019-08-19", 
+      "type": "inclusive"
+    }
+  ], 
+  "description": "Eiusmod nostrud cupidatat sunt ut aliquip aliqua ad ad ad ad consectetur eu sint quis. Do et dolore est anim do veniam ut ea nostrud do cillum culpa. Irure magna pariatur velit nulla cillum voluptate adipisicing occaecat et. Cupidatat amet mollit nisi consequat voluptate culpa nisi ea sint magna pariatur cillum occaecat.", 
+  "title": "Hunter family", 
+  "notes": [
+    {
+      "source": "wikidata", 
+      "type": "prefercite", 
+      "subnotes": [
+        {
+          "content": [
+            "eu non anim tempor deserunt est"
+          ], 
+          "type": "Text"
+        }, 
+        {
+          "content": [
+            "occaecat proident eu nostrud culpa ullamco", 
+            "id officia incididunt aute ex occaecat"
+          ], 
+          "type": "Text"
+        }
+      ], 
+      "title": "qui officia anim"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "bibliography", 
+      "subnotes": [
+        {
+          "content": [
+            "Lorem eu magna quis ullamco deserunt", 
+            "labore velit culpa enim exercitation voluptate", 
+            "Lorem non deserunt consectetur in elit", 
+            "sint ex consequat ex voluptate ullamco"
+          ], 
+          "type": "Text"
+        }
+      ], 
+      "title": "aliqua in cupidatat"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5ae4134133afdcfde08d26"
+    }, 
+    {
+      "source": "wikidata", 
+      "identifier": "5d5ae41370493f0b68d5d60c"
+    }
+  ], 
+  "type": "family", 
+  "id": "27d48361-2f85-4df1-ad07-5f6c81ad59ca"
+}

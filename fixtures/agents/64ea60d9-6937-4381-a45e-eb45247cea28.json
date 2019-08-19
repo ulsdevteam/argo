@@ -1,0 +1,88 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "issued", 
+      "end": "2019-08-19", 
+      "type": "single"
+    }, 
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "creation", 
+      "end": "2019-08-19", 
+      "type": "inclusive"
+    }
+  ], 
+  "description": "Lorem consequat aliquip adipisicing pariatur ipsum ex. Velit aliquip duis sint incididunt do excepteur nostrud reprehenderit. Commodo exercitation eiusmod cupidatat Lorem est voluptate. Cupidatat nisi exercitation adipisicing sunt magna proident.", 
+  "title": "Conley Foundation", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "altformavail", 
+      "subnotes": [
+        {
+          "content": [
+            "cillum sint duis officia labore sunt", 
+            "minim ea exercitation proident fugiat nostrud", 
+            "Lorem eu in in Lorem in", 
+            "ad esse pariatur consectetur laboris do"
+          ], 
+          "type": "Text"
+        }, 
+        {
+          "content": [
+            "adipisicing cillum do ad velit commodo", 
+            "consequat et laborum non nulla minim", 
+            "veniam pariatur deserunt dolor ex magna", 
+            "magna voluptate exercitation ea quis et", 
+            "ipsum quis proident in fugiat Lorem"
+          ], 
+          "type": "Defined List"
+        }
+      ], 
+      "title": "sint commodo sint"
+    }, 
+    {
+      "source": "wikipedia", 
+      "type": "restrictions", 
+      "subnotes": [
+        {
+          "content": [
+            "labore sint cillum reprehenderit sint duis", 
+            "magna ut id culpa duis ut", 
+            "est consectetur ex mollit occaecat laborum", 
+            "laborum veniam fugiat tempor minim in", 
+            "Lorem labore non reprehenderit quis deserunt"
+          ], 
+          "type": "Text"
+        }, 
+        {
+          "content": [
+            "commodo excepteur ad in id non", 
+            "veniam anim elit laborum do qui", 
+            "eu pariatur ut nostrud proident ex", 
+            "non elit ullamco duis adipisicing labore"
+          ], 
+          "type": "Text"
+        }, 
+        {
+          "content": [
+            "velit enim dolore excepteur esse exercitation"
+          ], 
+          "type": "Defined List"
+        }
+      ], 
+      "title": "tempor pariatur fugiat"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5ae54a3c17edc0c24a5f50"
+    }
+  ], 
+  "type": "organization", 
+  "id": "64ea60d9-6937-4381-a45e-eb45247cea28"
+}

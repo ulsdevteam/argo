@@ -1,0 +1,71 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "agent_relation", 
+      "end": "2019-08-19", 
+      "type": "bulk"
+    }
+  ], 
+  "description": "Id veniam labore exercitation consequat. Fugiat excepteur deserunt reprehenderit aliqua est sint nostrud incididunt mollit ea. Mollit voluptate tempor incididunt id dolor deserunt officia ad eiusmod fugiat mollit incididunt esse quis. In officia ea elit laborum laboris. Elit culpa ex officia eiusmod sit aute nulla labore ipsum et aute mollit pariatur. Amet commodo duis exercitation eiusmod commodo mollit nisi velit velit proident Lorem est. Commodo ex nostrud fugiat aute tempor quis nisi ut consectetur.", 
+  "title": "Newman family", 
+  "notes": [
+    {
+      "source": "wikidata", 
+      "type": "prefercite", 
+      "subnotes": [
+        {
+          "content": [
+            "aliqua non do aliquip magna proident", 
+            "non mollit eu enim laborum culpa", 
+            "sunt reprehenderit esse non sunt ipsum"
+          ], 
+          "type": "Ordered List"
+        }, 
+        {
+          "content": [
+            "dolore exercitation velit in qui non", 
+            "cupidatat elit nostrud sit nostrud cupidatat", 
+            "est aute nulla esse voluptate velit"
+          ], 
+          "type": "Text"
+        }, 
+        {
+          "content": [
+            "amet dolore adipisicing duis et duis", 
+            "nisi anim quis tempor est dolor", 
+            "esse et commodo et aliquip adipisicing"
+          ], 
+          "type": "Defined List"
+        }
+      ], 
+      "title": "ea eu cupidatat"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "relatedmaterial", 
+      "subnotes": [
+        {
+          "content": [
+            "ipsum do est in officia non"
+          ], 
+          "type": "Defined List"
+        }
+      ], 
+      "title": "irure consequat velit"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5ae413e9ed45276d2842c1"
+    }, 
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5ae41392a4cb52126bc703"
+    }
+  ], 
+  "type": "family", 
+  "id": "b8d11bf6-50c8-4fdd-9d9c-2e8a87ad283d"
+}
