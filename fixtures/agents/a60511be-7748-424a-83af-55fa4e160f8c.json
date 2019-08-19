@@ -22,7 +22,7 @@
             "exercitation pariatur ex sint incididunt proident", 
             "nisi id irure do dolor tempor"
           ], 
-          "type": "Text"
+          "type": "text"
         }, 
         {
           "content": [
@@ -30,7 +30,7 @@
             "esse esse anim sit magna ad", 
             "sit aute sit incididunt nisi eu"
           ], 
-          "type": "Text"
+          "type": "text"
         }
       ], 
       "title": "deserunt commodo proident"
@@ -47,19 +47,19 @@
             "laboris anim et consectetur aute cupidatat", 
             "mollit ad cupidatat nisi fugiat enim"
           ], 
-          "type": "Defined List"
+          "type": "definedlist"
         }, 
         {
           "content": [
             "Lorem ex cillum occaecat consequat voluptate"
           ], 
-          "type": "Defined List"
+          "type": "definedlist"
         }, 
         {
           "content": [
             "fugiat elit et fugiat cillum fugiat"
           ], 
-          "type": "Ordered List"
+          "type": "orderedlist"
         }
       ], 
       "title": "deserunt anim id"

@@ -29,7 +29,7 @@
             "Lorem eu in in Lorem in", 
             "ad esse pariatur consectetur laboris do"
           ], 
-          "type": "Text"
+          "type": "text"
         }, 
         {
           "content": [
@@ -39,7 +39,7 @@
             "magna voluptate exercitation ea quis et", 
             "ipsum quis proident in fugiat Lorem"
           ], 
-          "type": "Defined List"
+          "type": "definedlist"
         }
       ], 
       "title": "sint commodo sint"
@@ -56,7 +56,7 @@
             "laborum veniam fugiat tempor minim in", 
             "Lorem labore non reprehenderit quis deserunt"
           ], 
-          "type": "Text"
+          "type": "text"
         }, 
         {
           "content": [
@@ -65,13 +65,13 @@
             "eu pariatur ut nostrud proident ex", 
             "non elit ullamco duis adipisicing labore"
           ], 
-          "type": "Text"
+          "type": "text"
         }, 
         {
           "content": [
             "velit enim dolore excepteur esse exercitation"
           ], 
-          "type": "Defined List"
+          "type": "definedlist"
         }
       ], 
       "title": "tempor pariatur fugiat"

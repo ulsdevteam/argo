@@ -19,13 +19,13 @@
           "content": [
             "voluptate quis magna aliqua voluptate est"
           ], 
-          "type": "Text"
+          "type": "text"
         }, 
         {
           "content": [
             "esse velit amet ipsum et ipsum"
           ], 
-          "type": "Ordered List"
+          "type": "orderedlist"
         }, 
         {
           "content": [
@@ -33,7 +33,7 @@
             "laborum aliquip sit culpa id aliquip", 
             "reprehenderit dolor ea elit laboris in"
           ], 
-          "type": "Ordered List"
+          "type": "orderedlist"
         }
       ], 
       "title": "consectetur culpa id"

@@ -19,14 +19,14 @@
           "content": [
             "eu non anim tempor deserunt est"
           ], 
-          "type": "Text"
+          "type": "text"
         }, 
         {
           "content": [
             "occaecat proident eu nostrud culpa ullamco", 
             "id officia incididunt aute ex occaecat"
           ], 
-          "type": "Text"
+          "type": "text"
         }
       ], 
       "title": "qui officia anim"
@@ -42,7 +42,7 @@
             "Lorem non deserunt consectetur in elit", 
             "sint ex consequat ex voluptate ullamco"
           ], 
-          "type": "Text"
+          "type": "text"
         }
       ], 
       "title": "aliqua in cupidatat"

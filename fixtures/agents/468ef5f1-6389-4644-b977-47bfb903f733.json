@@ -22,7 +22,7 @@
             "do laboris ullamco duis qui labore", 
             "nisi excepteur ut laborum nulla et"
           ], 
-          "type": "Defined List"
+          "type": "definedlist"
         }
       ], 
       "title": "irure ad aliquip"
@@ -36,14 +36,14 @@
             "amet non irure culpa ipsum ipsum", 
             "aute magna sit Lorem et anim"
           ], 
-          "type": "Ordered List"
+          "type": "orderedlist"
         }, 
         {
           "content": [
             "deserunt labore cupidatat tempor laboris ad", 
             "incididunt proident id aute do minim"
           ], 
-          "type": "Defined List"
+          "type": "definedlist"
         }, 
         {
           "content": [
@@ -52,7 +52,7 @@
             "eiusmod enim culpa officia duis fugiat", 
             "ut voluptate mollit amet consequat anim"
           ], 
-          "type": "Text"
+          "type": "text"
         }
       ], 
       "title": "ullamco proident aliquip"

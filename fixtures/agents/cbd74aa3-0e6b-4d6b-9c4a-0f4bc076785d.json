@@ -19,7 +19,7 @@
           "content": [
             "incididunt Lorem commodo est elit nisi"
           ], 
-          "type": "Defined List"
+          "type": "definedlist"
         }, 
         {
           "content": [
@@ -29,7 +29,7 @@
             "ex sit labore ullamco commodo ipsum", 
             "excepteur deserunt nostrud sint minim pariatur"
           ], 
-          "type": "Ordered List"
+          "type": "orderedlist"
         }, 
         {
           "content": [
@@ -38,7 +38,7 @@
             "veniam cupidatat commodo consectetur mollit minim", 
             "eiusmod tempor non dolore sint ad"
           ], 
-          "type": "Text"
+          "type": "text"
         }
       ], 
       "title": "et irure aute"

@@ -19,7 +19,7 @@
           "content": [
             "dolore laboris et aute elit aute"
           ], 
-          "type": "Defined List"
+          "type": "definedlist"
         }, 
         {
           "content": [
@@ -27,7 +27,7 @@
             "incididunt minim deserunt dolore deserunt sint", 
             "ex cupidatat consequat fugiat ea est"
           ], 
-          "type": "Defined List"
+          "type": "definedlist"
         }, 
         {
           "content": [
@@ -37,7 +37,7 @@
             "duis do commodo officia veniam est", 
             "id voluptate aliquip qui sint dolore"
           ], 
-          "type": "Ordered List"
+          "type": "orderedlist"
         }
       ], 
       "title": "elit adipisicing aute"
@@ -50,7 +50,7 @@
           "content": [
             "non veniam pariatur ea esse duis"
           ], 
-          "type": "Ordered List"
+          "type": "orderedlist"
         }
       ], 
       "title": "irure qui anim"

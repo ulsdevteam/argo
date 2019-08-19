@@ -19,7 +19,7 @@
           "content": [
             "ipsum culpa anim aliquip qui quis"
           ], 
-          "type": "Text"
+          "type": "text"
         }, 
         {
           "content": [
@@ -27,7 +27,7 @@
             "nisi nisi Lorem fugiat aliqua et", 
             "incididunt pariatur ut aliqua id in"
           ], 
-          "type": "Defined List"
+          "type": "definedlist"
         }
       ], 
       "title": "nulla sunt dolore"

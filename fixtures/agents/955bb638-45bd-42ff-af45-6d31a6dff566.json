@@ -22,14 +22,14 @@
             "amet occaecat qui veniam aute excepteur", 
             "veniam irure proident Lorem sit eu"
           ], 
-          "type": "Defined List"
+          "type": "definedlist"
         }, 
         {
           "content": [
             "mollit minim ad ex non exercitation", 
             "id est nulla voluptate occaecat magna"
           ], 
-          "type": "Defined List"
+          "type": "definedlist"
         }, 
         {
           "content": [
@@ -38,7 +38,7 @@
             "aute esse sit esse aliqua in", 
             "tempor dolore ea esse aliqua est"
           ], 
-          "type": "Text"
+          "type": "text"
         }
       ], 
       "title": "nisi enim labore"
@@ -55,7 +55,7 @@
             "excepteur occaecat aliqua dolor ullamco aliqua", 
             "duis et amet dolore sint magna"
           ], 
-          "type": "Defined List"
+          "type": "definedlist"
         }
       ], 
       "title": "cillum aliqua eiusmod"

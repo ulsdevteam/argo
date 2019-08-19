@@ -26,7 +26,7 @@
           "content": [
             "cillum magna voluptate enim dolore qui"
           ], 
-          "type": "Ordered List"
+          "type": "orderedlist"
         }, 
         {
           "content": [
@@ -35,7 +35,7 @@
             "consequat adipisicing duis fugiat dolor aliquip", 
             "nisi ullamco ut quis commodo velit"
           ], 
-          "type": "Ordered List"
+          "type": "orderedlist"
         }, 
         {
           "content": [
@@ -44,7 +44,7 @@
             "ex dolore velit adipisicing nulla enim", 
             "excepteur cillum dolor consequat nostrud voluptate"
           ], 
-          "type": "Text"
+          "type": "text"
         }
       ], 
       "title": "officia ad aute"

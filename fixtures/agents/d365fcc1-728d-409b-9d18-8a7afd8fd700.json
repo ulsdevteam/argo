@@ -28,7 +28,7 @@
             "est sit commodo occaecat exercitation eu", 
             "exercitation aliquip sunt labore Lorem labore"
           ], 
-          "type": "Ordered List"
+          "type": "orderedlist"
         }, 
         {
           "content": [
@@ -37,7 +37,7 @@
             "cupidatat magna magna nostrud fugiat elit", 
             "laboris nisi minim et esse dolore"
           ], 
-          "type": "Defined List"
+          "type": "definedlist"
         }
       ], 
       "title": "excepteur in elit"

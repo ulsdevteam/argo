@@ -22,7 +22,7 @@
             "dolore aliqua fugiat officia minim incididunt", 
             "et velit commodo ea in nostrud"
           ], 
-          "type": "Ordered List"
+          "type": "orderedlist"
         }, 
         {
           "content": [
@@ -30,7 +30,7 @@
             "laboris reprehenderit laborum sit sint aliquip", 
             "aliquip non cillum eiusmod id enim"
           ], 
-          "type": "Defined List"
+          "type": "definedlist"
         }
       ], 
       "title": "veniam sit in"

@@ -21,7 +21,7 @@
             "sint eu excepteur voluptate sint aute", 
             "eiusmod dolor aliquip ea proident enim"
           ], 
-          "type": "Text"
+          "type": "text"
         }, 
         {
           "content": [
@@ -31,7 +31,7 @@
             "fugiat quis officia laborum sit do", 
             "aute eu eu officia nisi in"
           ], 
-          "type": "Defined List"
+          "type": "definedlist"
         }, 
         {
           "content": [
@@ -40,7 +40,7 @@
             "veniam aliquip veniam incididunt laboris id", 
             "eu nisi fugiat quis sit ut"
           ], 
-          "type": "Text"
+          "type": "text"
         }
       ], 
       "title": "id quis non"
@@ -53,7 +53,7 @@
           "content": [
             "sint commodo exercitation et velit ut"
           ], 
-          "type": "Ordered List"
+          "type": "orderedlist"
         }
       ], 
       "title": "ex excepteur labore"

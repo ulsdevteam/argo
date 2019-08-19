@@ -30,7 +30,7 @@
             "ad laborum quis elit culpa exercitation", 
             "consectetur voluptate cupidatat officia est laborum"
           ], 
-          "type": "Defined List"
+          "type": "definedlist"
         }
       ], 
       "title": "reprehenderit cupidatat velit"
@@ -43,7 +43,7 @@
           "content": [
             "incididunt non in id eu aute"
           ], 
-          "type": "Defined List"
+          "type": "definedlist"
         }
       ], 
       "title": "id ullamco aliquip"

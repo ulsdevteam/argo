@@ -22,7 +22,7 @@
             "esse elit incididunt eiusmod esse minim", 
             "et aute mollit in exercitation cillum"
           ], 
-          "type": "Defined List"
+          "type": "definedlist"
         }, 
         {
           "content": [
@@ -31,13 +31,13 @@
             "cillum id tempor non ex duis", 
             "consectetur fugiat exercitation aliquip enim occaecat"
           ], 
-          "type": "Text"
+          "type": "text"
         }, 
         {
           "content": [
             "Lorem anim labore pariatur in id"
           ], 
-          "type": "Text"
+          "type": "text"
         }
       ], 
       "title": "laborum cillum excepteur"

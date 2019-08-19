@@ -21,14 +21,14 @@
             "nostrud deserunt ipsum mollit velit culpa", 
             "dolor quis pariatur veniam amet nostrud"
           ], 
-          "type": "Ordered List"
+          "type": "orderedlist"
         }, 
         {
           "content": [
             "incididunt ea tempor exercitation mollit officia", 
             "nisi aute adipisicing irure irure nulla"
           ], 
-          "type": "Ordered List"
+          "type": "orderedlist"
         }, 
         {
           "content": [
@@ -38,7 +38,7 @@
             "quis dolore aute et cupidatat labore", 
             "nulla proident aute laboris id in"
           ], 
-          "type": "Text"
+          "type": "text"
         }
       ], 
       "title": "aute esse fugiat"

@@ -19,7 +19,7 @@
           "content": [
             "amet fugiat irure nulla culpa id"
           ], 
-          "type": "Ordered List"
+          "type": "orderedlist"
         }, 
         {
           "content": [
@@ -27,7 +27,7 @@
             "Lorem mollit sit irure consectetur incididunt", 
             "qui proident nulla nostrud anim anim"
           ], 
-          "type": "Text"
+          "type": "text"
         }
       ], 
       "title": "laborum ipsum do"

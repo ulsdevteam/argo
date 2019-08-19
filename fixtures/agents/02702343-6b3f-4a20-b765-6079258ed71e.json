@@ -28,13 +28,13 @@
             "aute aliqua amet duis ex et", 
             "ipsum sunt labore esse ullamco aute"
           ], 
-          "type": "Text"
+          "type": "text"
         }, 
         {
           "content": [
             "anim eu nostrud fugiat ipsum proident"
           ], 
-          "type": "Text"
+          "type": "text"
         }, 
         {
           "content": [
@@ -44,7 +44,7 @@
             "reprehenderit Lorem est cupidatat minim elit", 
             "do incididunt adipisicing ea qui in"
           ], 
-          "type": "Ordered List"
+          "type": "orderedlist"
         }
       ], 
       "title": "magna sint in"

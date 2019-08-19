@@ -28,13 +28,13 @@
             "magna ullamco duis proident voluptate id", 
             "ullamco enim cupidatat incididunt anim ullamco"
           ], 
-          "type": "Ordered List"
+          "type": "orderedlist"
         }, 
         {
           "content": [
             "nisi adipisicing et labore est esse"
           ], 
-          "type": "Text"
+          "type": "text"
         }
       ], 
       "title": "eu excepteur commodo"
@@ -51,13 +51,13 @@
             "proident magna quis et sunt fugiat", 
             "nisi proident tempor eiusmod incididunt sunt"
           ], 
-          "type": "Defined List"
+          "type": "definedlist"
         }, 
         {
           "content": [
             "incididunt exercitation nisi esse officia Lorem"
           ], 
-          "type": "Defined List"
+          "type": "definedlist"
         }, 
         {
           "content": [
@@ -67,7 +67,7 @@
             "Lorem est nulla excepteur commodo qui", 
             "pariatur non enim cillum in incididunt"
           ], 
-          "type": "Ordered List"
+          "type": "orderedlist"
         }
       ], 
       "title": "dolore qui eu"

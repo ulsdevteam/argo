@@ -23,13 +23,13 @@
             "commodo ea minim incididunt commodo nisi", 
             "aliquip ex tempor aute fugiat ullamco"
           ], 
-          "type": "Text"
+          "type": "text"
         }, 
         {
           "content": [
             "sit laboris aute fugiat consequat eiusmod"
           ], 
-          "type": "Text"
+          "type": "text"
         }, 
         {
           "content": [
@@ -38,7 +38,7 @@
             "reprehenderit esse ullamco esse ad est", 
             "velit do sunt commodo non nostrud"
           ], 
-          "type": "Ordered List"
+          "type": "orderedlist"
         }
       ], 
       "title": "duis minim nulla"
@@ -52,7 +52,7 @@
             "nostrud tempor dolor sunt nulla excepteur", 
             "et ea culpa minim laboris minim"
           ], 
-          "type": "Ordered List"
+          "type": "orderedlist"
         }
       ], 
       "title": "magna elit aliqua"

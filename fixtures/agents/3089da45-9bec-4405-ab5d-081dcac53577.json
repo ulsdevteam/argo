@@ -29,13 +29,13 @@
             "quis ipsum esse qui culpa nostrud", 
             "dolore Lorem cupidatat anim esse adipisicing"
           ], 
-          "type": "Ordered List"
+          "type": "orderedlist"
         }, 
         {
           "content": [
             "consectetur velit deserunt nostrud sunt magna"
           ], 
-          "type": "Defined List"
+          "type": "definedlist"
         }
       ], 
       "title": "et et esse"
@@ -48,7 +48,7 @@
           "content": [
             "consectetur mollit Lorem labore consectetur mollit"
           ], 
-          "type": "Defined List"
+          "type": "definedlist"
         }
       ], 
       "title": "ullamco sunt aliquip"

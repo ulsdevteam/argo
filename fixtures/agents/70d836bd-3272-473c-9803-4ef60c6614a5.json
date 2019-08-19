@@ -22,7 +22,7 @@
             "mollit mollit fugiat laboris tempor ad", 
             "eu irure anim deserunt cupidatat tempor"
           ], 
-          "type": "Text"
+          "type": "text"
         }, 
         {
           "content": [
@@ -32,7 +32,7 @@
             "proident eiusmod cillum exercitation sit velit", 
             "ullamco ex incididunt adipisicing reprehenderit consectetur"
           ], 
-          "type": "Text"
+          "type": "text"
         }
       ], 
       "title": "officia commodo qui"
@@ -45,7 +45,7 @@
           "content": [
             "nostrud ea reprehenderit sit culpa fugiat"
           ], 
-          "type": "Defined List"
+          "type": "definedlist"
         }, 
         {
           "content": [
@@ -54,7 +54,7 @@
             "dolore laboris mollit dolore deserunt voluptate", 
             "eu pariatur aliqua mollit nulla sunt"
           ], 
-          "type": "Text"
+          "type": "text"
         }, 
         {
           "content": [
@@ -63,7 +63,7 @@
             "consequat officia esse magna ex anim", 
             "esse dolor laboris nostrud nisi consectetur"
           ], 
-          "type": "Text"
+          "type": "text"
         }
       ], 
       "title": "deserunt reprehenderit duis"

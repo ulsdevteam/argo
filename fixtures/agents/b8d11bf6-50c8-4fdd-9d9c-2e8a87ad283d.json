@@ -21,7 +21,7 @@
             "non mollit eu enim laborum culpa", 
             "sunt reprehenderit esse non sunt ipsum"
           ], 
-          "type": "Ordered List"
+          "type": "orderedlist"
         }, 
         {
           "content": [
@@ -29,7 +29,7 @@
             "cupidatat elit nostrud sit nostrud cupidatat", 
             "est aute nulla esse voluptate velit"
           ], 
-          "type": "Text"
+          "type": "text"
         }, 
         {
           "content": [
@@ -37,7 +37,7 @@
             "nisi anim quis tempor est dolor", 
             "esse et commodo et aliquip adipisicing"
           ], 
-          "type": "Defined List"
+          "type": "definedlist"
         }
       ], 
       "title": "ea eu cupidatat"
@@ -50,7 +50,7 @@
           "content": [
             "ipsum do est in officia non"
           ], 
-          "type": "Defined List"
+          "type": "definedlist"
         }
       ], 
       "title": "irure consequat velit"

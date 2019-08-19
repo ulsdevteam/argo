@@ -30,7 +30,7 @@
             "elit ullamco reprehenderit duis ad ut", 
             "voluptate do tempor sit et mollit"
           ], 
-          "type": "Ordered List"
+          "type": "orderedlist"
         }, 
         {
           "content": [
@@ -38,7 +38,7 @@
             "irure dolore amet mollit consequat incididunt", 
             "magna et eiusmod consequat magna sunt"
           ], 
-          "type": "Text"
+          "type": "text"
         }
       ], 
       "title": "ea aute anim"

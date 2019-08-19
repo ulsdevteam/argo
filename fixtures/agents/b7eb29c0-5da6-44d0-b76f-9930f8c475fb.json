@@ -30,7 +30,7 @@
             "ut fugiat culpa magna et dolore", 
             "mollit proident labore ex irure qui"
           ], 
-          "type": "Ordered List"
+          "type": "orderedlist"
         }
       ], 
       "title": "cillum in velit"
@@ -47,7 +47,7 @@
             "cillum officia sit et irure occaecat", 
             "veniam aute elit elit commodo deserunt"
           ], 
-          "type": "Defined List"
+          "type": "definedlist"
         }
       ], 
       "title": "ex duis culpa"

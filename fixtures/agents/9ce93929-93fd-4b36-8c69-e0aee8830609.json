@@ -21,13 +21,13 @@
             "eiusmod aute nisi eu in enim", 
             "reprehenderit excepteur velit anim reprehenderit consectetur"
           ], 
-          "type": "Defined List"
+          "type": "definedlist"
         }, 
         {
           "content": [
             "qui mollit deserunt consectetur dolor ex"
           ], 
-          "type": "Defined List"
+          "type": "definedlist"
         }
       ], 
       "title": "Lorem ipsum id"
@@ -43,7 +43,7 @@
             "ea reprehenderit reprehenderit irure veniam proident", 
             "enim adipisicing laboris consequat duis enim"
           ], 
-          "type": "Ordered List"
+          "type": "orderedlist"
         }, 
         {
           "content": [
@@ -53,7 +53,7 @@
             "cupidatat sit consequat dolor adipisicing cillum", 
             "reprehenderit proident aliquip ullamco consequat anim"
           ], 
-          "type": "Text"
+          "type": "text"
         }
       ], 
       "title": "magna duis minim"

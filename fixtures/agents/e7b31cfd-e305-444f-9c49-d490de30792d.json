@@ -21,7 +21,7 @@
             "ad pariatur irure in exercitation dolore", 
             "labore ea sint et quis non"
           ], 
-          "type": "Defined List"
+          "type": "definedlist"
         }, 
         {
           "content": [
@@ -29,7 +29,7 @@
             "in id eiusmod ipsum eiusmod qui", 
             "sit cillum culpa ea elit occaecat"
           ], 
-          "type": "Ordered List"
+          "type": "orderedlist"
         }, 
         {
           "content": [
@@ -38,7 +38,7 @@
             "nostrud laboris nulla commodo ipsum velit", 
             "minim esse fugiat laborum consequat ipsum"
           ], 
-          "type": "Ordered List"
+          "type": "orderedlist"
         }
       ], 
       "title": "irure id ullamco"
@@ -51,13 +51,13 @@
           "content": [
             "qui cillum consectetur aliquip veniam minim"
           ], 
-          "type": "Ordered List"
+          "type": "orderedlist"
         }, 
         {
           "content": [
             "excepteur occaecat anim sunt ea mollit"
           ], 
-          "type": "Text"
+          "type": "text"
         }, 
         {
           "content": [
@@ -67,7 +67,7 @@
             "excepteur et incididunt nisi dolor deserunt", 
             "cupidatat irure sunt occaecat labore nulla"
           ], 
-          "type": "Text"
+          "type": "text"
         }
       ], 
       "title": "excepteur laborum anim"

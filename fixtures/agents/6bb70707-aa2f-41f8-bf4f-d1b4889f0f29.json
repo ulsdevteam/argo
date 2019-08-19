@@ -28,7 +28,7 @@
             "officia nostrud aliquip aute aliquip sunt", 
             "occaecat nulla ipsum minim nostrud irure"
           ], 
-          "type": "Ordered List"
+          "type": "orderedlist"
         }
       ], 
       "title": "deserunt duis dolor"
@@ -45,7 +45,7 @@
             "qui sit velit id incididunt nisi", 
             "culpa velit laborum consectetur dolore fugiat"
           ], 
-          "type": "Text"
+          "type": "text"
         }
       ], 
       "title": "Lorem ad duis"

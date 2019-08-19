@@ -21,7 +21,7 @@
             "adipisicing amet enim ullamco ullamco mollit", 
             "eiusmod velit sunt amet anim in"
           ], 
-          "type": "Ordered List"
+          "type": "orderedlist"
         }
       ], 
       "title": "duis tempor laborum"
@@ -36,20 +36,20 @@
             "magna consequat duis tempor eu ullamco", 
             "ut consectetur enim qui adipisicing tempor"
           ], 
-          "type": "Ordered List"
+          "type": "orderedlist"
         }, 
         {
           "content": [
             "nostrud est nisi minim laborum enim"
           ], 
-          "type": "Defined List"
+          "type": "definedlist"
         }, 
         {
           "content": [
             "cillum cillum non nisi sint excepteur", 
             "dolore elit nostrud dolor ad laborum"
           ], 
-          "type": "Defined List"
+          "type": "definedlist"
         }
       ], 
       "title": "voluptate nulla quis"

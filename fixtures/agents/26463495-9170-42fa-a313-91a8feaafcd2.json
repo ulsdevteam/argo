@@ -28,7 +28,7 @@
             "tempor dolor exercitation officia culpa cillum", 
             "nisi ut nostrud reprehenderit ad fugiat"
           ], 
-          "type": "Defined List"
+          "type": "definedlist"
         }, 
         {
           "content": [
@@ -37,7 +37,7 @@
             "nulla cupidatat velit ut est adipisicing", 
             "ex ipsum excepteur officia eu non"
           ], 
-          "type": "Text"
+          "type": "text"
         }, 
         {
           "content": [
@@ -45,7 +45,7 @@
             "enim incididunt culpa aliqua deserunt incididunt", 
             "laboris consequat quis enim aute in"
           ], 
-          "type": "Text"
+          "type": "text"
         }
       ], 
       "title": "laboris duis ea"

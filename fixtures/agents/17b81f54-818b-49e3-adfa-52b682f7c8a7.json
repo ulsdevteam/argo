@@ -23,7 +23,7 @@
             "ea aliqua ullamco sit quis culpa", 
             "sunt sunt tempor sint sint in"
           ], 
-          "type": "Text"
+          "type": "text"
         }, 
         {
           "content": [
@@ -32,7 +32,7 @@
             "enim sunt minim sunt et commodo", 
             "labore ea elit pariatur sint irure"
           ], 
-          "type": "Defined List"
+          "type": "definedlist"
         }
       ], 
       "title": "aliqua adipisicing culpa"
@@ -45,7 +45,7 @@
           "content": [
             "ex exercitation labore ut duis est"
           ], 
-          "type": "Text"
+          "type": "text"
         }
       ], 
       "title": "esse pariatur voluptate"

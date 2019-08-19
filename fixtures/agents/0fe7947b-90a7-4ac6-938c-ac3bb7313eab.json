@@ -28,7 +28,7 @@
             "minim officia laboris id est labore", 
             "duis consectetur irure irure laborum ex"
           ], 
-          "type": "Text"
+          "type": "text"
         }, 
         {
           "content": [
@@ -37,7 +37,7 @@
             "Lorem sint ad sunt tempor laboris", 
             "sunt do occaecat et consectetur voluptate"
           ], 
-          "type": "Text"
+          "type": "text"
         }, 
         {
           "content": [
@@ -45,7 +45,7 @@
             "minim non incididunt laborum consectetur dolor", 
             "laborum cillum eu non exercitation qui"
           ], 
-          "type": "Ordered List"
+          "type": "orderedlist"
         }
       ], 
       "title": "cupidatat incididunt labore"
@@ -62,7 +62,7 @@
             "irure id id dolore non dolor", 
             "minim id pariatur cupidatat sunt et"
           ], 
-          "type": "Ordered List"
+          "type": "orderedlist"
         }, 
         {
           "content": [
@@ -71,7 +71,7 @@
             "nostrud magna duis eu nostrud et", 
             "laboris dolor cillum eiusmod deserunt veniam"
           ], 
-          "type": "Text"
+          "type": "text"
         }
       ], 
       "title": "aute ad nostrud"

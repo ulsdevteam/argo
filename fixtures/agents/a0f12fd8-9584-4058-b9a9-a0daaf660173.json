@@ -22,7 +22,7 @@
             "proident laboris reprehenderit et id dolore", 
             "culpa deserunt in ipsum amet minim"
           ], 
-          "type": "Ordered List"
+          "type": "orderedlist"
         }, 
         {
           "content": [
@@ -31,14 +31,14 @@
             "deserunt aliquip ipsum officia elit amet", 
             "dolore cillum aute cupidatat nostrud non"
           ], 
-          "type": "Defined List"
+          "type": "definedlist"
         }, 
         {
           "content": [
             "elit aliqua incididunt reprehenderit ipsum voluptate", 
             "amet duis excepteur irure cillum nisi"
           ], 
-          "type": "Text"
+          "type": "text"
         }
       ], 
       "title": "officia voluptate ex"
@@ -54,7 +54,7 @@
             "exercitation et Lorem ullamco magna deserunt", 
             "anim dolore aliqua exercitation ad reprehenderit"
           ], 
-          "type": "Defined List"
+          "type": "definedlist"
         }, 
         {
           "content": [
@@ -62,7 +62,7 @@
             "id nisi labore sunt ullamco mollit", 
             "proident elit elit adipisicing qui velit"
           ], 
-          "type": "Defined List"
+          "type": "definedlist"
         }
       ], 
       "title": "qui reprehenderit dolor"

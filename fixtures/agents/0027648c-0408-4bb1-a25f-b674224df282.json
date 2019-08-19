@@ -20,13 +20,13 @@
             "ipsum deserunt nulla duis nulla cupidatat", 
             "dolor enim aute excepteur occaecat veniam"
           ], 
-          "type": "Ordered List"
+          "type": "orderedlist"
         }, 
         {
           "content": [
             "ea amet ex aliqua sint nisi"
           ], 
-          "type": "Ordered List"
+          "type": "orderedlist"
         }
       ], 
       "title": "ex laboris ullamco"

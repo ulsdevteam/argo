@@ -27,7 +27,7 @@
             "dolor sit reprehenderit minim veniam commodo", 
             "ea non consequat aliqua proident eu"
           ], 
-          "type": "Ordered List"
+          "type": "orderedlist"
         }, 
         {
           "content": [
@@ -36,7 +36,7 @@
             "proident anim commodo nostrud ullamco est", 
             "anim occaecat minim proident et laboris"
           ], 
-          "type": "Ordered List"
+          "type": "orderedlist"
         }
       ], 
       "title": "velit do nulla"

@@ -30,14 +30,14 @@
             "do cupidatat in qui quis aliqua", 
             "enim et proident deserunt aliquip cupidatat"
           ], 
-          "type": "Text"
+          "type": "text"
         }, 
         {
           "content": [
             "nulla mollit ipsum ipsum enim id", 
             "velit eu duis in commodo culpa"
           ], 
-          "type": "Defined List"
+          "type": "definedlist"
         }, 
         {
           "content": [
@@ -46,7 +46,7 @@
             "nostrud consectetur tempor nisi amet officia", 
             "adipisicing eiusmod voluptate exercitation dolor eiusmod"
           ], 
-          "type": "Ordered List"
+          "type": "orderedlist"
         }
       ], 
       "title": "id officia dolor"

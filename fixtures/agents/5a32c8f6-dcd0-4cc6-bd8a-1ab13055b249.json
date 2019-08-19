@@ -23,7 +23,7 @@
             "magna dolor officia magna aliquip excepteur", 
             "fugiat nisi magna tempor voluptate culpa"
           ], 
-          "type": "Text"
+          "type": "text"
         }
       ], 
       "title": "consequat irure est"
@@ -36,7 +36,7 @@
           "content": [
             "consequat nostrud excepteur exercitation eu magna"
           ], 
-          "type": "Ordered List"
+          "type": "orderedlist"
         }, 
         {
           "content": [
@@ -45,7 +45,7 @@
             "nostrud exercitation tempor quis duis consectetur", 
             "exercitation ipsum nostrud nulla sunt aliquip"
           ], 
-          "type": "Text"
+          "type": "text"
         }, 
         {
           "content": [
@@ -53,7 +53,7 @@
             "dolore et ut est sunt amet", 
             "et deserunt sint eu aute commodo"
           ], 
-          "type": "Text"
+          "type": "text"
         }
       ], 
       "title": "Lorem minim proident"
