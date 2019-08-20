@@ -1,8 +1,6 @@
 from rest_framework import serializers
 
 # TODO: check on date versus datetime
-# TODO: consistent naming for date start and end
-# TODO: camel case versus snake case
 # TODO: allow_null fields
 
 
@@ -57,20 +55,20 @@ class NoteSerializer(serializers.Serializer):
 
 class RightsGrantedSerializer(serializers.Serializer):
     act = serializers.CharField()
-    dateStart = serializers.DateField()
-    dateEnd = serializers.DateField()
+    begin = serializers.DateField()
+    end = serializers.DateField()
     restriction = serializers.CharField()
     notes = NoteSerializer(many=True)
 
 
 class RightsStatementSerializer(serializers.Serializer):
-    determinationDate = serializers.DateField()
+    determination_date = serializers.DateField()
     type = serializers.CharField()
-    rightsType = serializers.CharField()
-    dateStart = serializers.DateField()
-    dateEnd = serializers.DateField()
-    copyrightStatus = serializers.CharField()
-    otherBasis = serializers.CharField()
+    rights_type = serializers.CharField()
+    begin = serializers.DateField()
+    end = serializers.DateField()
+    copyright_status = serializers.CharField()
+    other_basis = serializers.CharField()
     jurisdiction = serializers.CharField()
     notes = NoteSerializer(many=True)
     rights_granted = RightsGrantedSerializer(many=True)
