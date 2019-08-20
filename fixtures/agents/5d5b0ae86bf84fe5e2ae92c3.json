@@ -1,0 +1,65 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "modified", 
+      "end": "2019-08-19", 
+      "type": "single"
+    }, 
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "copyright", 
+      "end": "2019-08-19", 
+      "type": "bulk"
+    }
+  ], 
+  "description": "Excepteur quis cillum commodo deserunt consectetur non eu qui irure duis. Magna occaecat adipisicing enim ad dolore id. Nostrud ipsum eu amet Lorem ad ullamco exercitation non nisi aliqua excepteur cupidatat. Veniam excepteur laborum elit magna quis consequat duis cupidatat. Esse pariatur qui enim officia eiusmod nostrud aliquip esse id qui in aliqua.", 
+  "title": "Kinney Foundation", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "inscription", 
+      "subnotes": [
+        {
+          "content": [
+            "est ea culpa voluptate magna ullamco", 
+            "esse id exercitation adipisicing in est"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "officia esse cillum"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "dimensions", 
+      "subnotes": [
+        {
+          "content": [
+            "eu deserunt elit consectetur mollit qui", 
+            "sunt minim ullamco minim cupidatat nisi", 
+            "velit esse in ullamco anim aute", 
+            "laboris qui consequat sint laboris enim", 
+            "ad amet consectetur et elit mollit"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "quis nisi sunt"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d5b0ae8804aee30322486bd"
+    }, 
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5b0ae86dac0bf4a33e5dc5"
+    }
+  ], 
+  "type": "organization", 
+  "id": "5d5b0ae86bf84fe5e2ae92c3"
+}

@@ -1,0 +1,77 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "copyright", 
+      "end": "2019-08-19", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "deaccession", 
+      "end": "2019-08-19", 
+      "type": "inclusive"
+    }
+  ], 
+  "description": "Excepteur ullamco incididunt ex sit culpa anim minim consequat. Minim veniam dolor incididunt pariatur incididunt eiusmod. Proident minim anim minim sit voluptate deserunt quis. Eiusmod voluptate ipsum sunt est dolor ut ad reprehenderit reprehenderit consequat. Do fugiat qui est excepteur reprehenderit proident nisi reprehenderit id. Sit incididunt officia minim incididunt irure Lorem.", 
+  "title": "Bolton Holland", 
+  "notes": [
+    {
+      "source": "cartographer", 
+      "type": "extent", 
+      "subnotes": [
+        {
+          "content": [
+            "aute labore culpa sit enim adipisicing", 
+            "aliquip adipisicing ex ipsum aute quis", 
+            "velit velit velit ex minim adipisicing", 
+            "sit magna velit sit mollit proident", 
+            "dolore nulla ut ea quis eiusmod"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "eu deserunt dolore cupidatat Lorem aliquip", 
+            "laboris irure voluptate quis proident sit", 
+            "veniam mollit consectetur in in amet", 
+            "elit irure est nulla qui dolore"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "quis duis commodo"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "legalstatus", 
+      "subnotes": [
+        {
+          "content": [
+            "culpa incididunt eu quis excepteur esse", 
+            "esse ullamco cupidatat occaecat duis non"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "irure consectetur laborum non aliquip culpa", 
+            "exercitation esse ullamco ut quis duis"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "voluptate eu quis"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d5b0b40032ec71284c777ff"
+    }
+  ], 
+  "type": "person", 
+  "id": "5d5b0b409b157ba5e3a70fd8"
+}

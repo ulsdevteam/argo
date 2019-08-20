@@ -1,0 +1,48 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "usage", 
+      "end": "2019-08-19", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "publication", 
+      "end": "2019-08-19", 
+      "type": "inclusive"
+    }
+  ], 
+  "description": "Pariatur in incididunt ex ut in quis adipisicing eu eiusmod consectetur aliqua et culpa. Velit incididunt Lorem nostrud ut pariatur exercitation irure quis consequat consequat. Est commodo non dolor qui sit consectetur enim nulla officia. Ex cillum laboris magna qui dolore aliquip reprehenderit.", 
+  "title": "Jacqueline Macdonald", 
+  "notes": [
+    {
+      "source": "cartographer", 
+      "type": "userestrict", 
+      "subnotes": [
+        {
+          "content": [
+            "aliquip duis anim tempor id quis", 
+            "enim magna incididunt incididunt deserunt do"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "officia et minim"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5b0b41f444d83ac8c66961"
+    }, 
+    {
+      "source": "wikidata", 
+      "identifier": "5d5b0b4183f1c0b1091efca4"
+    }
+  ], 
+  "type": "person", 
+  "id": "5d5b0b418d74bb9e6a5b5b95"
+}

@@ -1,0 +1,66 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "broadcast", 
+      "end": "2019-08-19", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "copyright", 
+      "end": "2019-08-19", 
+      "type": "single"
+    }
+  ], 
+  "description": "Adipisicing nostrud elit nostrud reprehenderit adipisicing est. Ea eiusmod sunt non irure voluptate minim excepteur veniam. Anim laboris sint id ipsum ex laborum labore enim irure voluptate velit tempor ipsum enim.", 
+  "title": "Clements family", 
+  "notes": [
+    {
+      "source": "cartographer", 
+      "type": "relatedmaterial", 
+      "subnotes": [
+        {
+          "content": [
+            "cillum id nostrud et esse adipisicing", 
+            "id nisi ad laborum quis labore", 
+            "consectetur fugiat dolore quis laborum amet", 
+            "magna ut aliqua reprehenderit aute ex"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "sit pariatur consectetur dolor excepteur est", 
+            "aute proident ex laboris occaecat esse"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "aliquip ullamco fugiat"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "permissions", 
+      "subnotes": [
+        {
+          "content": [
+            "excepteur adipisicing in nulla laboris ad"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "eu esse esse"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5b0b58fbe07f128be5692c"
+    }
+  ], 
+  "type": "family", 
+  "id": "5d5b0b582a2e95c6c42feb70"
+}

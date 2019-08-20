@@ -1,0 +1,76 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "creation", 
+      "end": "2019-08-19", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "event", 
+      "end": "2019-08-19", 
+      "type": "inclusive"
+    }
+  ], 
+  "description": "Exercitation laborum do eu ex id duis consectetur ullamco eu voluptate aliquip deserunt. Sunt in minim id cupidatat dolor do consequat et amet deserunt nulla officia nisi. Pariatur quis exercitation ex qui do pariatur fugiat aliqua minim cillum anim.", 
+  "title": "Gordon family", 
+  "notes": [
+    {
+      "source": "wikidata", 
+      "type": "accessrestrict", 
+      "subnotes": [
+        {
+          "content": [
+            "ad in proident culpa esse ea", 
+            "ea tempor ullamco aute ex velit", 
+            "sit eiusmod adipisicing tempor id veniam", 
+            "consectetur laboris sint duis do sint"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "ullamco sunt non id nisi enim"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "ipsum magna eu"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "permissions", 
+      "subnotes": [
+        {
+          "content": [
+            "duis ut velit consequat ad adipisicing", 
+            "nulla Lorem proident officia aliquip qui", 
+            "laborum irure exercitation voluptate duis elit", 
+            "anim aliqua sunt anim reprehenderit labore", 
+            "id sit enim dolore veniam anim"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "culpa qui quis ex tempor ea", 
+            "reprehenderit duis exercitation fugiat tempor excepteur"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "do dolore nisi"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d5b0b580028f88e42fc3d20"
+    }
+  ], 
+  "type": "family", 
+  "id": "5d5b0b58afbb9b6119488750"
+}

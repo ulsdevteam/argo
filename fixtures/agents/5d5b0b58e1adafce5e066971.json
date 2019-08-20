@@ -1,0 +1,90 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "issued", 
+      "end": "2019-08-19", 
+      "type": "single"
+    }
+  ], 
+  "description": "Lorem mollit cupidatat excepteur ea id culpa nisi eiusmod do velit laborum velit eu ex. Nostrud ut sunt ullamco et consequat ut incididunt esse tempor id ut occaecat proident. Amet culpa in incididunt qui nostrud. Anim non duis fugiat consectetur. Mollit fugiat nostrud excepteur pariatur pariatur minim nostrud aliqua ad non exercitation minim. Eu ex eu nulla ex id cupidatat culpa nisi.", 
+  "title": "Gibson family", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "accruals", 
+      "subnotes": [
+        {
+          "content": [
+            "nisi proident ipsum dolore esse deserunt", 
+            "pariatur ad amet ut nulla irure", 
+            "pariatur aliqua deserunt in in proident", 
+            "labore pariatur consectetur duis magna laborum"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "minim exercitation id culpa irure elit", 
+            "aute minim fugiat occaecat ipsum irure", 
+            "proident sit exercitation culpa reprehenderit occaecat", 
+            "cupidatat laborum veniam eiusmod mollit eiusmod", 
+            "eiusmod commodo sint quis culpa dolore"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "cupidatat qui sit ex laborum id", 
+            "reprehenderit do nostrud velit in voluptate"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "voluptate Lorem sint"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "phystech", 
+      "subnotes": [
+        {
+          "content": [
+            "occaecat incididunt consequat sit ipsum commodo", 
+            "cillum laborum labore aliqua enim pariatur", 
+            "nisi laborum dolore occaecat reprehenderit cupidatat", 
+            "dolore ipsum excepteur enim officia excepteur", 
+            "non excepteur culpa do fugiat magna"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "labore enim ut sint labore incididunt", 
+            "incididunt ad ad consequat deserunt irure", 
+            "mollit labore ut et id dolore"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "ipsum est consectetur ad ex do", 
+            "ea mollit adipisicing consequat ex et", 
+            "cupidatat elit laborum enim commodo minim", 
+            "aliquip mollit incididunt est nulla excepteur"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "consectetur veniam aliqua"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5b0b58a433e2e79500d700"
+    }
+  ], 
+  "type": "family", 
+  "id": "5d5b0b58e1adafce5e066971"
+}

@@ -1,0 +1,83 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "usage", 
+      "end": "2019-08-19", 
+      "type": "single"
+    }, 
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "usage", 
+      "end": "2019-08-19", 
+      "type": "inclusive"
+    }
+  ], 
+  "description": "Nostrud proident labore cillum consequat duis. Occaecat eiusmod cillum aliquip irure qui deserunt mollit ea elit adipisicing adipisicing. Culpa nulla anim do cillum cillum cupidatat. Do esse incididunt excepteur occaecat id reprehenderit. Culpa fugiat non nisi Lorem duis minim dolore enim ullamco qui. Labore consequat occaecat id sint.", 
+  "title": "Kline Foundation", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "expiration", 
+      "subnotes": [
+        {
+          "content": [
+            "laborum sit in in in quis", 
+            "anim quis aliquip magna id nisi", 
+            "eu eiusmod occaecat tempor reprehenderit proident", 
+            "eiusmod aute excepteur aute nisi quis"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "sunt in nostrud"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "rights_statement_act", 
+      "subnotes": [
+        {
+          "content": [
+            "aliquip sit ex et tempor nostrud", 
+            "est commodo ullamco fugiat sint aliquip", 
+            "fugiat est est quis eiusmod labore", 
+            "sit anim minim exercitation et eu", 
+            "aliqua eiusmod duis enim labore enim"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "veniam dolor cupidatat dolore deserunt consectetur", 
+            "do aliqua qui incididunt mollit officia", 
+            "aliqua anim ea anim laboris esse", 
+            "fugiat velit consequat et sunt labore", 
+            "in reprehenderit commodo laboris aliqua mollit"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "Lorem tempor adipisicing nostrud nulla aliquip"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "esse labore laboris"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d5b0ae850bc5f1ebd18c018"
+    }, 
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5b0ae80382f0b7d419839f"
+    }
+  ], 
+  "type": "organization", 
+  "id": "5d5b0ae8fc65c6821e967199"
+}

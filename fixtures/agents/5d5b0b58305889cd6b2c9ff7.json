@@ -1,0 +1,63 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "deaccession", 
+      "end": "2019-08-19", 
+      "type": "single"
+    }
+  ], 
+  "description": "Exercitation amet ad ipsum non mollit fugiat. Nulla ex est duis Lorem qui Lorem est tempor. Commodo elit est voluptate esse tempor Lorem dolor.", 
+  "title": "Bell family", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "physfacet", 
+      "subnotes": [
+        {
+          "content": [
+            "in dolore veniam sunt voluptate Lorem"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "aliqua laborum laboris"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "appraisal", 
+      "subnotes": [
+        {
+          "content": [
+            "sint ullamco ad tempor minim quis", 
+            "nulla exercitation cupidatat deserunt voluptate ipsum", 
+            "voluptate ullamco mollit nisi sunt et", 
+            "mollit veniam nostrud esse in officia", 
+            "commodo consectetur anim velit veniam eiusmod"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "officia anim nostrud aliqua officia irure", 
+            "officia reprehenderit Lorem consectetur eiusmod excepteur", 
+            "ea fugiat culpa nisi proident qui", 
+            "irure amet eiusmod ipsum magna occaecat", 
+            "incididunt quis anim ut anim qui"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "ad pariatur laboris"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5b0b58bb7cc5495431b190"
+    }
+  ], 
+  "type": "family", 
+  "id": "5d5b0b58305889cd6b2c9ff7"
+}

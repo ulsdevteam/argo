@@ -1,0 +1,88 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "modified", 
+      "end": "2019-08-19", 
+      "type": "single"
+    }, 
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "modified", 
+      "end": "2019-08-19", 
+      "type": "inclusive"
+    }
+  ], 
+  "description": "Aliquip nostrud enim ex irure aliqua proident qui sit adipisicing. Magna aliqua non laboris nisi non do nisi qui incididunt cillum. Ad ullamco reprehenderit in dolore proident. Ex duis cillum nostrud id incididunt voluptate.", 
+  "title": "Simon Blankenship", 
+  "notes": [
+    {
+      "source": "cartographer", 
+      "type": "extension", 
+      "subnotes": [
+        {
+          "content": [
+            "elit tempor adipisicing cillum sunt deserunt", 
+            "culpa anim cupidatat reprehenderit non ex", 
+            "sint ut in est et nisi", 
+            "pariatur deserunt Lorem exercitation ut cupidatat"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "amet consequat cillum incididunt consectetur velit", 
+            "anim nostrud nulla ut cillum tempor", 
+            "elit culpa aliquip commodo dolor sit", 
+            "laborum voluptate laborum qui culpa exercitation"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "ad proident exercitation"
+    }, 
+    {
+      "source": "cartographer", 
+      "type": "bibliography", 
+      "subnotes": [
+        {
+          "content": [
+            "ea sit sint veniam cillum ea", 
+            "do nostrud aliquip sit sit nulla", 
+            "elit consectetur est cupidatat cupidatat aute"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "ex sint exercitation nisi fugiat esse", 
+            "aute nisi ullamco ad occaecat nostrud", 
+            "ex velit commodo duis ea ex", 
+            "sint eiusmod magna dolore irure laboris", 
+            "magna labore excepteur elit fugiat anim"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "excepteur nulla adipisicing do ea laboris", 
+            "labore ex ullamco mollit proident mollit", 
+            "exercitation proident aute reprehenderit culpa laboris"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "ea incididunt ipsum"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5b0b40a5375fc5ee9348fa"
+    }
+  ], 
+  "type": "person", 
+  "id": "5d5b0b40b3eacf374846da59"
+}

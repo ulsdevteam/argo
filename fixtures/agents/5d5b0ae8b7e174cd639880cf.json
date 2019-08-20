@@ -1,0 +1,69 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "deaccession", 
+      "end": "2019-08-19", 
+      "type": "inclusive"
+    }
+  ], 
+  "description": "Tempor nisi aute nulla in laborum labore duis culpa qui ad officia est sint. Elit laborum ex do ex quis. Ea ad irure labore nostrud voluptate incididunt consectetur ex do aliqua. Deserunt laboris velit officia enim aute sint magna esse velit dolore. Lorem dolore duis nostrud cillum dolore nisi duis dolor. Adipisicing proident reprehenderit esse proident fugiat nulla voluptate qui adipisicing ad est pariatur magna. Voluptate pariatur ipsum occaecat sunt in exercitation.", 
+  "title": "Mills Foundation", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "phystech", 
+      "subnotes": [
+        {
+          "content": [
+            "eiusmod aliquip veniam aliqua aliquip voluptate", 
+            "ipsum sint ea cupidatat deserunt ipsum", 
+            "occaecat laborum nostrud duis aliqua mollit", 
+            "occaecat id duis dolor aute consequat", 
+            "aliqua aliqua irure ipsum dolore sunt"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "duis esse fugiat excepteur culpa dolor", 
+            "minim amet proident id quis ad", 
+            "cupidatat esse ad ad voluptate consequat"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "amet sunt excepteur"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "physloc", 
+      "subnotes": [
+        {
+          "content": [
+            "commodo sit minim est sit ut"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "sint et eu velit velit aute", 
+            "sunt eu ullamco pariatur pariatur ipsum", 
+            "labore ullamco eiusmod commodo dolore minim"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "sit occaecat ea"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5b0ae8c40ecfa14108876b"
+    }
+  ], 
+  "type": "organization", 
+  "id": "5d5b0ae8b7e174cd639880cf"
+}

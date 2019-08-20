@@ -1,0 +1,79 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "existence", 
+      "end": "2019-08-19", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "publication", 
+      "end": "2019-08-19", 
+      "type": "bulk"
+    }
+  ], 
+  "description": "Sint eu pariatur adipisicing non adipisicing est. In ut laborum do dolore tempor deserunt et voluptate anim Lorem minim elit occaecat. Officia amet officia incididunt ea laboris proident eiusmod. Voluptate officia culpa Lorem reprehenderit elit voluptate esse ullamco.", 
+  "title": "Gaines family", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "appraisal", 
+      "subnotes": [
+        {
+          "content": [
+            "cupidatat minim nostrud labore ut velit", 
+            "tempor elit minim quis qui eiusmod"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "aliqua velit tempor aliquip sit incididunt"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "eu sunt ullamco"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "extension", 
+      "subnotes": [
+        {
+          "content": [
+            "eiusmod duis elit excepteur excepteur voluptate", 
+            "aute ad esse eiusmod ipsum nulla", 
+            "laborum nulla minim quis commodo ea", 
+            "ea laborum dolore irure labore sunt"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "eu sunt fugiat aliqua est laborum", 
+            "duis aliqua veniam irure adipisicing labore", 
+            "eu consequat ea eiusmod laborum elit", 
+            "sit id mollit adipisicing non sunt"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "aliquip excepteur esse"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5b0b58771d2c9de7588497"
+    }, 
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5b0b5832cf93ff4f824452"
+    }
+  ], 
+  "type": "family", 
+  "id": "5d5b0b58a2815a69b3bed6f1"
+}

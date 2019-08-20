@@ -1,0 +1,69 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "deaccession", 
+      "end": "2019-08-19", 
+      "type": "single"
+    }
+  ], 
+  "description": "Qui eu incididunt ad enim duis excepteur fugiat. Irure irure labore anim cupidatat pariatur irure nulla anim. Nulla eiusmod consequat consectetur officia quis amet veniam voluptate.", 
+  "title": "Kaufman family", 
+  "notes": [
+    {
+      "source": "wikidata", 
+      "type": "otherfindaid", 
+      "subnotes": [
+        {
+          "content": [
+            "voluptate occaecat aute ad anim nisi", 
+            "excepteur aliquip velit non quis nostrud", 
+            "dolore consequat amet in aute laborum", 
+            "ipsum reprehenderit exercitation est commodo cupidatat"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "id dolore dolor culpa culpa anim", 
+            "sit ullamco veniam do sint velit"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "nisi est duis"
+    }, 
+    {
+      "source": "cartographer", 
+      "type": "rights_statement_act", 
+      "subnotes": [
+        {
+          "content": [
+            "labore qui ut esse incididunt minim", 
+            "esse proident consequat velit aliqua non", 
+            "do deserunt in anim exercitation incididunt"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "non reprehenderit nisi aliqua quis aliquip", 
+            "enim ipsum nulla sunt amet est", 
+            "velit sit tempor id amet aliquip"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "ut cillum velit"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d5b0b58c61206974f7454d3"
+    }
+  ], 
+  "type": "family", 
+  "id": "5d5b0b5833ff1604d4a2d58a"
+}

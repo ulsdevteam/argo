@@ -1,0 +1,54 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "broadcast", 
+      "end": "2019-08-19", 
+      "type": "single"
+    }, 
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "other", 
+      "end": "2019-08-19", 
+      "type": "bulk"
+    }
+  ], 
+  "description": "Dolore proident fugiat nisi sint ea sint dolor Lorem. Tempor deserunt incididunt tempor ipsum officia reprehenderit veniam velit non nisi ex. Pariatur sunt dolor culpa qui dolore nostrud fugiat laborum. Ad tempor quis adipisicing ipsum mollit adipisicing ad adipisicing commodo ad veniam. In consequat mollit ad elit adipisicing consectetur dolore adipisicing. Laboris id mollit officia ea nulla aliqua aliquip. Id duis deserunt aliquip voluptate ea quis ea occaecat cupidatat.", 
+  "title": "Carson Wilkerson", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "appraisal", 
+      "subnotes": [
+        {
+          "content": [
+            "non esse in exercitation sit ut", 
+            "aliquip dolore est adipisicing ad sint", 
+            "mollit commodo anim do non et", 
+            "enim nisi do do laboris Lorem", 
+            "nisi est officia ex ea officia"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "amet fugiat tempor esse sint eu", 
+            "officia sint sit ipsum aute reprehenderit"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "aliqua ullamco tempor"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d5b0b413a436e9b00a890c9"
+    }
+  ], 
+  "type": "person", 
+  "id": "5d5b0b417c88df2667db8f8e"
+}

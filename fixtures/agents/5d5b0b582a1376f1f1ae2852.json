@@ -1,0 +1,94 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "record_keeping", 
+      "end": "2019-08-19", 
+      "type": "inclusive"
+    }
+  ], 
+  "description": "Veniam sint laboris ea et aute reprehenderit irure esse voluptate. Excepteur deserunt tempor nisi nulla incididunt. Id enim dolore nisi cillum duis sunt consequat culpa tempor deserunt. Adipisicing deserunt ex minim ad. Dolor amet nisi incididunt quis dolor.", 
+  "title": "Schultz family", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "odd", 
+      "subnotes": [
+        {
+          "content": [
+            "ea irure qui Lorem in ullamco", 
+            "consequat velit anim tempor do qui", 
+            "sit aliqua Lorem est culpa commodo"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "dolor elit deserunt aute fugiat do", 
+            "nulla in excepteur deserunt dolor irure", 
+            "ut Lorem occaecat incididunt ullamco sit", 
+            "cillum labore amet mollit non cupidatat"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "ullamco occaecat et officia excepteur adipisicing", 
+            "sit sit laborum esse culpa reprehenderit", 
+            "ea elit ut mollit adipisicing fugiat", 
+            "et laboris eiusmod aute pariatur mollit", 
+            "esse elit id in occaecat est"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "Lorem dolore ex"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "originalsloc", 
+      "subnotes": [
+        {
+          "content": [
+            "ipsum velit nisi ullamco ex ut", 
+            "laborum qui excepteur nulla culpa ipsum", 
+            "ad anim culpa est tempor est"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "magna tempor eu id duis mollit", 
+            "velit ut pariatur occaecat pariatur proident", 
+            "aliquip fugiat sit amet Lorem nulla", 
+            "tempor mollit et voluptate et est", 
+            "voluptate mollit dolor cupidatat cupidatat eu"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "dolor ex adipisicing exercitation laboris do", 
+            "deserunt irure veniam ad sit non", 
+            "dolore consectetur enim proident id magna"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "tempor et irure"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5b0b583c59430fc0d95e1d"
+    }, 
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5b0b5813dde50f7b766bcd"
+    }
+  ], 
+  "type": "family", 
+  "id": "5d5b0b582a1376f1f1ae2852"
+}

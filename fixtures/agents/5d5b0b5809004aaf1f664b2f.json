@@ -1,0 +1,93 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "other", 
+      "end": "2019-08-19", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "modified", 
+      "end": "2019-08-19", 
+      "type": "bulk"
+    }
+  ], 
+  "description": "Fugiat reprehenderit Lorem reprehenderit amet. Amet laboris officia aliqua anim duis consectetur sunt culpa exercitation deserunt cillum culpa labore. Irure id proident culpa deserunt. Eu enim deserunt dolor enim aute irure laborum irure.", 
+  "title": "Daugherty family", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "processinfo", 
+      "subnotes": [
+        {
+          "content": [
+            "magna ullamco occaecat nostrud eu incididunt", 
+            "voluptate consectetur minim cillum laborum pariatur", 
+            "nostrud velit minim quis fugiat sint", 
+            "culpa nulla dolor eu id ullamco"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "ex dolor occaecat aute et voluptate", 
+            "in fugiat Lorem voluptate Lorem ut", 
+            "cupidatat qui esse eu laborum ut", 
+            "dolore officia mollit elit irure nisi"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "pariatur nisi ipsum mollit eiusmod aliqua"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "reprehenderit in esse"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "physdesc", 
+      "subnotes": [
+        {
+          "content": [
+            "exercitation esse ex id enim in", 
+            "officia velit deserunt elit minim aliqua", 
+            "sint aliquip in ex mollit enim", 
+            "deserunt minim laborum ullamco id minim", 
+            "sit laborum ullamco est anim fugiat"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "tempor incididunt esse ex do nisi", 
+            "id veniam fugiat irure ullamco eu", 
+            "mollit fugiat non ad officia elit", 
+            "cupidatat officia deserunt laborum adipisicing eu"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "elit labore reprehenderit incididunt voluptate voluptate"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "reprehenderit id adipisicing"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5b0b586483d715b191c169"
+    }
+  ], 
+  "type": "family", 
+  "id": "5d5b0b5809004aaf1f664b2f"
+}

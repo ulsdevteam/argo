@@ -1,0 +1,50 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "record_keeping", 
+      "end": "2019-08-19", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "record_keeping", 
+      "end": "2019-08-19", 
+      "type": "bulk"
+    }
+  ], 
+  "description": "Anim Lorem irure ullamco ullamco excepteur exercitation sint minim et adipisicing irure voluptate. Enim Lorem commodo ex Lorem velit deserunt mollit culpa laborum. Magna dolore cillum ex occaecat incididunt aliquip. Veniam pariatur eiusmod reprehenderit non.", 
+  "title": "Estrada Foundation", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "langmaterial", 
+      "subnotes": [
+        {
+          "content": [
+            "sunt dolor Lorem aliqua laborum proident", 
+            "minim occaecat aliquip aliqua aliquip id", 
+            "aliqua sint velit nulla reprehenderit dolor", 
+            "ea elit ea cillum nostrud ea"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "exercitation dolor et"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5b0ae898d0d76af4da55f7"
+    }, 
+    {
+      "source": "wikidata", 
+      "identifier": "5d5b0ae81296d43a0655ac41"
+    }
+  ], 
+  "type": "organization", 
+  "id": "5d5b0ae8d9a30880b5599423"
+}

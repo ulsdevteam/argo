@@ -1,0 +1,88 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "broadcast", 
+      "end": "2019-08-19", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "creation", 
+      "end": "2019-08-19", 
+      "type": "inclusive"
+    }
+  ], 
+  "description": "Elit velit cillum elit ipsum id. In labore non sint voluptate ea laborum nisi sunt qui consectetur velit eiusmod ut in. Dolor eiusmod in commodo exercitation minim laborum et non excepteur. Duis exercitation incididunt fugiat sunt irure anim consectetur reprehenderit duis labore elit. Fugiat irure deserunt do Lorem consequat nostrud et deserunt. Tempor tempor officia aliqua ad cupidatat cillum pariatur. Est reprehenderit sit nisi tempor proident consectetur cillum do id ea Lorem enim mollit.", 
+  "title": "Best family", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "edition", 
+      "subnotes": [
+        {
+          "content": [
+            "minim ea magna dolor labore est"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "eu occaecat culpa reprehenderit id consequat", 
+            "culpa commodo est amet anim laborum", 
+            "nisi reprehenderit laborum incididunt mollit Lorem", 
+            "labore est nostrud ad officia ipsum", 
+            "anim qui cupidatat dolore in excepteur"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "cillum labore duis officia pariatur Lorem", 
+            "adipisicing qui amet ut nulla nostrud", 
+            "culpa proident culpa Lorem Lorem voluptate", 
+            "velit dolor velit in proident mollit"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "laborum adipisicing sunt"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "otherfindaid", 
+      "subnotes": [
+        {
+          "content": [
+            "aliquip pariatur cillum sit minim pariatur", 
+            "aute et voluptate eu sunt occaecat"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "nisi id amet non sint mollit", 
+            "elit ipsum nulla id incididunt irure", 
+            "id Lorem consequat non enim enim"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "mollit sit pariatur"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5b0b5894cd00e53ddc56f9"
+    }, 
+    {
+      "source": "wikidata", 
+      "identifier": "5d5b0b588e286531152b9328"
+    }
+  ], 
+  "type": "family", 
+  "id": "5d5b0b58b645fb363be1f0e9"
+}

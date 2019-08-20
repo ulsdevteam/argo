@@ -1,0 +1,62 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "deaccession", 
+      "end": "2019-08-19", 
+      "type": "single"
+    }, 
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "existence", 
+      "end": "2019-08-19", 
+      "type": "single"
+    }
+  ], 
+  "description": "Nulla quis aute ut ut ex aliqua elit. Cillum nulla est fugiat reprehenderit nostrud elit proident eu tempor magna. Irure veniam mollit anim aliquip non deserunt pariatur commodo officia. Culpa nulla nulla est sint velit in occaecat id eu in quis. Et elit qui ad et. Irure aliquip laboris elit cillum. Pariatur adipisicing proident ullamco in magna consequat et duis irure aute sunt culpa.", 
+  "title": "Morse family", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "summary", 
+      "subnotes": [
+        {
+          "content": [
+            "ea ex amet ullamco aute veniam", 
+            "ullamco aliquip consequat sint irure nulla", 
+            "sint sunt mollit occaecat ex aliqua"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "nulla in aliqua"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "inscription", 
+      "subnotes": [
+        {
+          "content": [
+            "dolor laboris excepteur incididunt ut in"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "minim nostrud amet"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5b0b5894439cb1dac61f0f"
+    }, 
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5b0b58c02d41617b43594e"
+    }
+  ], 
+  "type": "family", 
+  "id": "5d5b0b58885f8fb8580a4806"
+}

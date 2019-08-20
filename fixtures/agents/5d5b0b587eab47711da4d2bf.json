@@ -1,0 +1,72 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "existence", 
+      "end": "2019-08-19", 
+      "type": "inclusive"
+    }
+  ], 
+  "description": "Consequat adipisicing dolore amet excepteur ad elit magna sunt mollit magna anim laboris cupidatat magna. Commodo laborum officia esse enim. Ipsum pariatur nostrud culpa ex. Est adipisicing deserunt non anim mollit anim qui. Anim cillum proident sint velit incididunt dolore.", 
+  "title": "May family", 
+  "notes": [
+    {
+      "source": "cartographer", 
+      "type": "physloc", 
+      "subnotes": [
+        {
+          "content": [
+            "non adipisicing proident eu fugiat sunt"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "laboris sint sunt duis magna commodo", 
+            "elit irure veniam ipsum est magna", 
+            "tempor reprehenderit non laborum deserunt exercitation", 
+            "irure ut aliquip non irure ut", 
+            "nostrud adipisicing anim minim dolore ad"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "sint consectetur culpa tempor Lorem sunt", 
+            "consectetur ullamco nulla occaecat voluptate ut"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "reprehenderit nulla proident"
+    }, 
+    {
+      "source": "wikipedia", 
+      "type": "physfacet", 
+      "subnotes": [
+        {
+          "content": [
+            "commodo est fugiat aute officia sunt", 
+            "deserunt voluptate magna et eu proident", 
+            "do voluptate adipisicing ullamco irure eu"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "ullamco commodo cillum"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5b0b5803cb7fc13a26c1ff"
+    }, 
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5b0b58421822c2f428ce69"
+    }
+  ], 
+  "type": "family", 
+  "id": "5d5b0b587eab47711da4d2bf"
+}

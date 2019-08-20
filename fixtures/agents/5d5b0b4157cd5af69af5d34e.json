@@ -1,0 +1,76 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "broadcast", 
+      "end": "2019-08-19", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "other", 
+      "end": "2019-08-19", 
+      "type": "bulk"
+    }
+  ], 
+  "description": "Minim nulla occaecat qui consectetur et proident in minim proident eiusmod et. Quis Lorem voluptate commodo cillum reprehenderit incididunt commodo ex. Fugiat sint duis ullamco aliqua Lorem incididunt irure labore incididunt excepteur voluptate. Exercitation ipsum officia ipsum irure ex eu incididunt id.", 
+  "title": "Dena Bean", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "physloc", 
+      "subnotes": [
+        {
+          "content": [
+            "qui ad exercitation tempor id et", 
+            "nisi aliqua fugiat deserunt esse irure", 
+            "magna commodo fugiat enim adipisicing consequat", 
+            "consequat qui sint amet enim in"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "ut dolor excepteur minim consequat ipsum", 
+            "velit consequat ipsum ut eu ipsum", 
+            "sint labore cillum adipisicing consequat eiusmod"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "enim id elit"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "accessrestrict", 
+      "subnotes": [
+        {
+          "content": [
+            "eiusmod minim fugiat esse do exercitation", 
+            "mollit elit amet sint incididunt ullamco", 
+            "ex ad consequat duis aliqua officia", 
+            "pariatur sint ad esse cupidatat quis"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "cupidatat proident dolor consequat dolore laborum"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "incididunt est minim"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5b0b417930203c02195c20"
+    }
+  ], 
+  "type": "person", 
+  "id": "5d5b0b4157cd5af69af5d34e"
+}

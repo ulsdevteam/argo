@@ -1,0 +1,45 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "agent_relation", 
+      "end": "2019-08-19", 
+      "type": "single"
+    }
+  ], 
+  "description": "Ut aliqua pariatur id eu quis esse ut aute id ut magna. Ut cupidatat aliquip sit aliqua amet duis aliqua ipsum mollit nisi ad commodo dolore. Ut qui ipsum reprehenderit enim et labore dolore.", 
+  "title": "Anthony family", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "fileplan", 
+      "subnotes": [
+        {
+          "content": [
+            "esse irure sunt commodo ex ipsum", 
+            "labore ex deserunt ut tempor mollit"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "veniam aliqua culpa proident qui eu", 
+            "aliquip consectetur consequat sint consequat incididunt", 
+            "consectetur ad amet do cillum aliqua"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "irure consectetur qui"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5b0b587c0e5edb689baf47"
+    }
+  ], 
+  "type": "family", 
+  "id": "5d5b0b58b1d1a42668ab7497"
+}

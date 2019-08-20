@@ -1,0 +1,67 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "publication", 
+      "end": "2019-08-19", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "event", 
+      "end": "2019-08-19", 
+      "type": "bulk"
+    }
+  ], 
+  "description": "Incididunt occaecat sunt Lorem dolor ea ea mollit dolor reprehenderit. Deserunt aute et sunt mollit consequat dolore culpa enim ullamco adipisicing consectetur. Qui reprehenderit amet nulla excepteur veniam.", 
+  "title": "Pitts family", 
+  "notes": [
+    {
+      "source": "wikidata", 
+      "type": "physloc", 
+      "subnotes": [
+        {
+          "content": [
+            "amet irure magna ipsum consequat dolor"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "culpa duis irure adipisicing sunt ex", 
+            "ipsum minim Lorem consectetur minim aute", 
+            "in dolore excepteur proident eu eu", 
+            "adipisicing ipsum est Lorem consequat pariatur", 
+            "irure duis nisi in incididunt commodo"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "velit in officia voluptate ullamco ipsum", 
+            "voluptate elit magna ea do cillum", 
+            "enim nostrud eu in consequat sunt", 
+            "laboris amet laboris anim nisi adipisicing", 
+            "eu magna dolore ad proident quis"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "esse culpa laborum"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5b0b583b529c116f46fea4"
+    }, 
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5b0b589ee4838736397106"
+    }
+  ], 
+  "type": "family", 
+  "id": "5d5b0b58bc382cf8c661f492"
+}

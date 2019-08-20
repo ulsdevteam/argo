@@ -1,0 +1,53 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "issued", 
+      "end": "2019-08-19", 
+      "type": "inclusive"
+    }
+  ], 
+  "description": "Nostrud exercitation ipsum velit occaecat labore non irure excepteur incididunt deserunt culpa labore do. Mollit eiusmod ut amet excepteur laborum quis qui ex excepteur dolor ad in. Laborum veniam laborum anim mollit nostrud nostrud magna aliquip nisi et ea. Eiusmod consequat fugiat ullamco aliquip culpa veniam deserunt ipsum reprehenderit ea.", 
+  "title": "Workman family", 
+  "notes": [
+    {
+      "source": "cartographer", 
+      "type": "langmaterial", 
+      "subnotes": [
+        {
+          "content": [
+            "deserunt excepteur aliquip est velit velit", 
+            "incididunt nisi elit veniam nulla voluptate"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "sit magna ea deserunt consectetur nulla", 
+            "ut laboris ut excepteur dolor nostrud"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "id occaecat exercitation non fugiat nulla", 
+            "est nulla ex ullamco amet quis", 
+            "et occaecat labore dolore aute nulla", 
+            "officia cupidatat officia consequat incididunt enim"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "exercitation pariatur id"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5b0b589cd4e4da3d619c23"
+    }
+  ], 
+  "type": "family", 
+  "id": "5d5b0b58c6a17448f8afed20"
+}

@@ -1,0 +1,54 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "event", 
+      "end": "2019-08-19", 
+      "type": "single"
+    }
+  ], 
+  "description": "Ipsum sint fugiat mollit velit eu sit cillum minim laboris minim nisi. Laborum anim ex consectetur non reprehenderit nostrud do qui culpa velit incididunt mollit. Ipsum ex magna incididunt dolor eu id quis ad exercitation elit quis ullamco do sunt. Ipsum sunt aliquip laboris proident minim mollit est id eiusmod in proident reprehenderit Lorem qui. Nisi Lorem ex irure commodo ut eiusmod aute.", 
+  "title": "Sharon Slater", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "extension", 
+      "subnotes": [
+        {
+          "content": [
+            "minim laboris enim occaecat sunt velit", 
+            "eu reprehenderit commodo consectetur officia exercitation", 
+            "quis cillum esse culpa occaecat et", 
+            "ex mollit eu sit irure fugiat", 
+            "excepteur sint velit do cillum dolore"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "consectetur do tempor aliqua officia ut", 
+            "irure amet ad elit laborum qui", 
+            "aliquip laborum nostrud tempor culpa cillum", 
+            "quis cupidatat dolor nostrud dolore eu", 
+            "tempor magna ea anim reprehenderit eu"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "ullamco duis sint"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d5b0b4184748f94ad1df8b6"
+    }, 
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5b0b4127ef9fa85ad46dd0"
+    }
+  ], 
+  "type": "person", 
+  "id": "5d5b0b41bfb9076de8415350"
+}

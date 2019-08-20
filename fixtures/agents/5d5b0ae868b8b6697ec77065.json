@@ -1,0 +1,72 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "modified", 
+      "end": "2019-08-19", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "creation", 
+      "end": "2019-08-19", 
+      "type": "bulk"
+    }
+  ], 
+  "description": "Velit cillum ea nisi sint magna sunt cupidatat esse nulla. Et do ex culpa nulla reprehenderit laboris. Excepteur exercitation esse amet exercitation ad laboris laboris. Cupidatat qui reprehenderit do ut in ut id est irure cillum excepteur. Tempor consequat occaecat officia esse eu do Lorem cupidatat enim exercitation.", 
+  "title": "Mack Foundation", 
+  "notes": [
+    {
+      "source": "cartographer", 
+      "type": "prefercite", 
+      "subnotes": [
+        {
+          "content": [
+            "do labore tempor irure officia veniam", 
+            "nostrud et amet non et ex", 
+            "et incididunt tempor est labore pariatur", 
+            "duis in esse ipsum laboris laborum"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "minim velit elit id nisi eiusmod"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "ipsum do elit"
+    }, 
+    {
+      "source": "cartographer", 
+      "type": "extent", 
+      "subnotes": [
+        {
+          "content": [
+            "enim dolore fugiat occaecat cillum amet", 
+            "nulla deserunt occaecat dolor sit cupidatat"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "proident anim anim quis dolore id"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "laborum Lorem ex"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5b0ae858a370c4ab4655c5"
+    }
+  ], 
+  "type": "organization", 
+  "id": "5d5b0ae868b8b6697ec77065"
+}

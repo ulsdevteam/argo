@@ -1,0 +1,80 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "creation", 
+      "end": "2019-08-19", 
+      "type": "bulk"
+    }
+  ], 
+  "description": "Occaecat laboris velit in adipisicing non cillum in culpa sunt pariatur sint fugiat. In pariatur adipisicing deserunt velit sint nisi ipsum pariatur minim et incididunt dolore reprehenderit. Et minim amet adipisicing adipisicing. Sit ullamco excepteur duis qui et veniam tempor sunt. Occaecat dolore dolore ut aliquip aute esse magna nostrud qui officia sit.", 
+  "title": "Vang Foundation", 
+  "notes": [
+    {
+      "source": "wikidata", 
+      "type": "bioghist", 
+      "subnotes": [
+        {
+          "content": [
+            "esse aliqua in veniam cillum veniam", 
+            "irure incididunt et velit et sunt", 
+            "dolor sint eiusmod eu aliqua qui"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "incididunt dolore ipsum consequat quis amet", 
+            "voluptate cupidatat officia minim laborum ad", 
+            "eiusmod consectetur aliquip do cupidatat ea", 
+            "sit sint qui eu officia aute", 
+            "ex enim culpa laboris nisi dolore"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "proident sunt dolore"
+    }, 
+    {
+      "source": "cartographer", 
+      "type": "relatedmaterial", 
+      "subnotes": [
+        {
+          "content": [
+            "anim sit ipsum enim do consequat", 
+            "culpa dolore in quis aliquip velit", 
+            "anim magna cupidatat cillum ea anim", 
+            "culpa anim anim incididunt sit consectetur"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "mollit ullamco elit exercitation cillum veniam", 
+            "reprehenderit nisi tempor dolor Lorem tempor", 
+            "mollit ea cillum adipisicing eiusmod ut", 
+            "consequat occaecat eiusmod elit incididunt nisi", 
+            "excepteur magna adipisicing incididunt aute eu"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "id eu deserunt anim amet cillum"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "elit fugiat in"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5b0ae84b803941257cdb91"
+    }
+  ], 
+  "type": "organization", 
+  "id": "5d5b0ae8bb01e00901cc6c46"
+}

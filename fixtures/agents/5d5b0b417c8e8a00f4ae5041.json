@@ -1,0 +1,86 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "publication", 
+      "end": "2019-08-19", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "modified", 
+      "end": "2019-08-19", 
+      "type": "bulk"
+    }
+  ], 
+  "description": "Eiusmod irure elit qui irure magna adipisicing amet mollit reprehenderit esse. Ut incididunt sunt excepteur Lorem quis quis ullamco esse. Est anim fugiat eu voluptate ea irure veniam aliqua id id sint enim sunt quis.", 
+  "title": "Charles Moran", 
+  "notes": [
+    {
+      "source": "cartographer", 
+      "type": "bioghist", 
+      "subnotes": [
+        {
+          "content": [
+            "exercitation proident Lorem nulla dolor ad"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "minim eu ut quis amet cillum", 
+            "culpa fugiat mollit ullamco eu pariatur"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "et elit eiusmod"
+    }, 
+    {
+      "source": "cartographer", 
+      "type": "langmaterial", 
+      "subnotes": [
+        {
+          "content": [
+            "id eiusmod ex veniam occaecat mollit", 
+            "eu excepteur voluptate consectetur dolore cupidatat", 
+            "ullamco laborum ipsum et et qui", 
+            "deserunt pariatur elit ad labore ea"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "aliqua non dolore velit irure laboris", 
+            "ipsum laborum duis magna proident sint"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "id magna consequat sunt ut sit", 
+            "cillum sit nostrud pariatur aliqua mollit", 
+            "excepteur dolore consequat sunt nostrud commodo", 
+            "cillum nulla cupidatat proident incididunt nostrud"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "aliqua nulla quis"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5b0b412ae29c6623db7233"
+    }, 
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5b0b41fb416ea320d89854"
+    }
+  ], 
+  "type": "person", 
+  "id": "5d5b0b417c8e8a00f4ae5041"
+}

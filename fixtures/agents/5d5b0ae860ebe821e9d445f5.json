@@ -1,0 +1,55 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "digitized", 
+      "end": "2019-08-19", 
+      "type": "single"
+    }, 
+    {
+      "expression": "Aug 19th, 2019 - Aug 19th, 2019", 
+      "begin": "2019-08-19", 
+      "label": "event", 
+      "end": "2019-08-19", 
+      "type": "single"
+    }
+  ], 
+  "description": "Minim sunt mollit incididunt culpa eu minim in laboris pariatur cillum aliqua officia. Ea ad quis ex occaecat magna aute voluptate veniam ullamco. Occaecat nisi dolor elit culpa exercitation quis commodo eu fugiat dolor ipsum laborum tempor. Occaecat excepteur adipisicing esse proident duis laboris deserunt ipsum sint nulla. Sit nulla consequat ad mollit aliquip. Laboris irure velit culpa laboris fugiat elit aliqua.", 
+  "title": "Harrison Foundation", 
+  "notes": [
+    {
+      "source": "wikidata", 
+      "type": "index", 
+      "subnotes": [
+        {
+          "content": [
+            "nisi eiusmod occaecat exercitation ex ullamco", 
+            "dolore dolore dolore duis non qui", 
+            "ad cillum sint quis veniam occaecat"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "exercitation anim et velit excepteur eu", 
+            "Lorem proident proident cupidatat magna amet", 
+            "qui aliquip Lorem excepteur proident amet", 
+            "elit qui amet exercitation commodo qui", 
+            "culpa eu commodo dolore mollit magna"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "reprehenderit sunt ullamco"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5b0ae8d91bd43a74d52728"
+    }
+  ], 
+  "type": "organization", 
+  "id": "5d5b0ae860ebe821e9d445f5"
+}
