@@ -13,7 +13,7 @@ before_install:
   - cp argo/config.py.example argo/config.py
   - docker-compose up -d
   - sleep 20s
-  - docker-compose exec gemini-web pip install coverage
+  - docker-compose exec argo-web pip install coverage
 install: true
 before_script:
   - curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
