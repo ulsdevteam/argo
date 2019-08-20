@@ -1,12 +1,17 @@
 from django.conf import settings
-from elasticsearch_dsl import Date, Document, InnerDoc, Index, Keyword, Nested, Text
+from elasticsearch_dsl import Date, Document, Float, InnerDoc, Index, Keyword, Nested, Text
 
 from .analyzers import html_strip
 
 
 class ExternalIdentifier(InnerDoc):
     source = Text()
-    identififier = Text()
+    identifier = Text()
+
+
+class Extent(InnerDoc):
+    value = Float()
+    type = Text()
 
 
 class Date(InnerDoc):
@@ -15,6 +20,11 @@ class Date(InnerDoc):
     expression = Text()
     type = Text()
     label = Text()
+
+
+class Language(InnerDoc):
+    expression = Text()
+    identifier = Text()
 
 
 class Subnote(InnerDoc):
@@ -29,6 +39,31 @@ class Note(InnerDoc):
     subnotes = Nested(Subnote)
 
 
+class URI(InnerDoc):
+    ref = Text()
+
+
+class RightsGranted(InnerDoc):
+    act = Text()
+    dateStart = Date()
+    dateEnd = Date()
+    restriction = Text()
+    notes = Nested(Note)
+
+
+class RightsStatement(InnerDoc):
+    determinationDate = Date()
+    type = Text()
+    rightsType = Text()
+    dateStart = Date()
+    dateEnd = Date()
+    copyrightStatus = Text()
+    otherBasis = Text()
+    jurisdiction = Text()
+    notes = Nested(Note)
+    rights_granted = Nested(RightsGranted)
+
+
 class Agent(Document):
     id = Text()
     title = Text(analyzer='snowball', fields={'raw': Keyword()})
@@ -40,6 +75,25 @@ class Agent(Document):
 
     class Index:
         name = 'agents'
+
+
+class Object(Document):
+    id = Text()
+    title = Text(analyzer='snowball', fields={'raw': Keyword()})
+    type = Text()
+    dates = Nested(Date)
+    languages = Nested(Language)
+    extents = Nested(Extent)
+    notes = Nested(Note)
+    rights_statements = Nested(RightsStatement)
+    external_identifiers = Nested(ExternalIdentifier)
+    agents = Nested(URI)
+    terms = Nested(URI)
+    ancestors = Nested(URI)
+    children = Nested(URI)
+
+    class Index:
+        name = 'objects'
 
 
 class Term(Document):
