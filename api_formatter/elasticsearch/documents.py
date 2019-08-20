@@ -90,7 +90,6 @@ class Object(Document):
     agents = Nested(URI)
     terms = Nested(URI)
     ancestors = Nested(URI)
-    children = Nested(URI)
 
     class Index:
         name = 'objects'
