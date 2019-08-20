@@ -4,6 +4,11 @@ from rest_framework import serializers
 # TODO: allow_null fields
 
 
+class BaseListSerializer(serializers.Serializer):
+    id = serializers.CharField()
+    title = serializers.CharField()
+
+
 class AncestorSerializer(serializers.Serializer):
     # TODO: add ancestor serializer
     pass
@@ -88,9 +93,28 @@ class AgentSerializer(serializers.Serializer):
     external_identifiers = ExternalIdentifierSerializer(many=True)
 
 
-class AgentListSerializer(serializers.Serializer):
+class AgentListSerializer(BaseListSerializer): pass
+
+
+class CollectionSerializer(serializers.Serializer):
     id = serializers.CharField()
     title = serializers.CharField()
+    type = serializers.CharField()
+    level = serializers.CharField()
+    dates = DateSerializer(many=True)
+    languages = LanguageSerializer(many=True)
+    extents = ExtentSerializer(many=True)
+    notes = NoteSerializer(many=True, allow_null=True)
+    rights_statements = RightsStatementSerializer(many=True, allow_null=True)
+    external_identifiers = ExternalIdentifierSerializer(many=True)
+    agents = URISerializer(many=True, allow_null=True)
+    creators = URISerializer(many=True, allow_null=True)
+    terms = URISerializer(many=True, allow_null=True)
+    ancestors = AncestorSerializer(allow_null=True)
+    children = ChildrenSerializer(allow_null=True)
+
+
+class CollectionListSerializer(BaseListSerializer): pass
 
 
 class ObjectSerializer(serializers.Serializer):
@@ -106,12 +130,9 @@ class ObjectSerializer(serializers.Serializer):
     agents = URISerializer(many=True, allow_null=True)
     terms = URISerializer(many=True, allow_null=True)
     ancestors = AncestorSerializer(allow_null=True)
-    children = ChildrenSerializer(allow_null=True)
 
 
-class ObjectListSerializer(serializers.Serializer):
-    id = serializers.CharField()
-    title = serializers.CharField()
+class ObjectListSerializer(BaseListSerializer): pass
 
 
 class TermSerializer(serializers.Serializer):
@@ -121,6 +142,4 @@ class TermSerializer(serializers.Serializer):
     external_identifiers = ExternalIdentifierSerializer(many=True)
 
 
-class TermListSerializer(serializers.Serializer):
-    id = serializers.CharField()
-    title = serializers.CharField()
+class TermListSerializer(BaseListSerializer): pass
