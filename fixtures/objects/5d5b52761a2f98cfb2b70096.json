@@ -1,0 +1,186 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 20th, 2019 - Aug 20th, 2019", 
+      "begin": "2019-08-20", 
+      "label": "agent_relation", 
+      "end": "2019-08-20", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Aug 20th, 2019 - Aug 20th, 2019", 
+      "begin": "2019-08-20", 
+      "label": "digitized", 
+      "end": "2019-08-20", 
+      "type": "single"
+    }, 
+    {
+      "expression": "Aug 20th, 2019 - Aug 20th, 2019", 
+      "begin": "2019-08-20", 
+      "label": "publication", 
+      "end": "2019-08-20", 
+      "type": "bulk"
+    }
+  ], 
+  "ancestors": [], 
+  "extents": [
+    {
+      "type": "gigabytes", 
+      "value": "4.58"
+    }, 
+    {
+      "type": "megabytes", 
+      "value": "1.46"
+    }
+  ], 
+  "title": "Id nulla sit ea ex velit veniam.", 
+  "notes": [
+    {
+      "source": "cartographer", 
+      "type": "bioghist", 
+      "subnotes": [
+        {
+          "content": [
+            "excepteur veniam aute labore reprehenderit excepteur", 
+            "ea laboris sunt cillum exercitation nostrud", 
+            "deserunt pariatur voluptate reprehenderit ullamco consequat", 
+            "laborum exercitation velit consequat laboris nostrud", 
+            "culpa qui duis qui mollit sit"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "id mollit culpa eiusmod cupidatat nulla", 
+            "irure Lorem proident deserunt dolore eu", 
+            "adipisicing qui Lorem velit consectetur magna", 
+            "cillum consequat quis voluptate voluptate incididunt"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "cupidatat anim fugiat"
+    }, 
+    {
+      "source": "cartographer", 
+      "type": "physdesc", 
+      "subnotes": [
+        {
+          "content": [
+            "ullamco do culpa et commodo voluptate", 
+            "Lorem occaecat ad laboris dolor ex", 
+            "nisi ex enim sint nisi in", 
+            "tempor esse exercitation voluptate consectetur officia", 
+            "sint consequat culpa nulla exercitation qui"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "labore ullamco exercitation anim reprehenderit est", 
+            "duis id consectetur magna nulla nostrud", 
+            "labore commodo veniam ut proident velit"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "ad magna ipsum incididunt eu sint", 
+            "veniam deserunt occaecat ea cupidatat est", 
+            "in cillum id ipsum ex cupidatat", 
+            "sunt anim dolore deserunt nostrud mollit"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "nisi voluptate minim"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "accruals", 
+      "subnotes": [
+        {
+          "content": [
+            "irure velit tempor Lorem aliqua sint", 
+            "eu nostrud dolor velit mollit sint", 
+            "sit ad incididunt reprehenderit irure incididunt", 
+            "commodo id sint pariatur aliqua velit", 
+            "consequat laboris sint Lorem nisi qui"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "proident magna in irure magna Lorem"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "velit labore exercitation qui in qui"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "Lorem nulla sint"
+    }, 
+    {
+      "source": "wikipedia", 
+      "type": "altformavail", 
+      "subnotes": [
+        {
+          "content": [
+            "do incididunt consequat fugiat pariatur cupidatat", 
+            "labore do nostrud ea ea excepteur", 
+            "consectetur sunt velit aliqua ex minim", 
+            "elit ea reprehenderit cupidatat duis ut"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "laborum qui aliquip nisi laboris adipisicing", 
+            "nisi excepteur magna adipisicing voluptate elit", 
+            "excepteur ullamco pariatur cillum do tempor", 
+            "laboris velit incididunt cillum sit aliquip", 
+            "est incididunt nisi magna sunt voluptate"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "occaecat et elit"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d5b5276708d13df14c379f5"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/721", 
+      "type": "collection"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "eng", 
+      "expression": "Esperanto"
+    }, 
+    {
+      "identifier": "eng", 
+      "expression": "Esperanto"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_person/864", 
+      "type": "person"
+    }
+  ], 
+  "terms": [], 
+  "type": "object", 
+  "id": "5d5b52761a2f98cfb2b70096"
+}

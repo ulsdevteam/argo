@@ -1,0 +1,240 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 20th, 2019 - Aug 20th, 2019", 
+      "begin": "2019-08-20", 
+      "label": "record_keeping", 
+      "end": "2019-08-20", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Aug 20th, 2019 - Aug 20th, 2019", 
+      "begin": "2019-08-20", 
+      "label": "broadcast", 
+      "end": "2019-08-20", 
+      "type": "single"
+    }, 
+    {
+      "expression": "Aug 20th, 2019 - Aug 20th, 2019", 
+      "begin": "2019-08-20", 
+      "label": "creation", 
+      "end": "2019-08-20", 
+      "type": "single"
+    }
+  ], 
+  "ancestors": [], 
+  "extents": [
+    {
+      "type": "reels", 
+      "value": "1.92"
+    }, 
+    {
+      "type": "terabytes", 
+      "value": "3.93"
+    }
+  ], 
+  "title": "Velit quis culpa fugiat ea enim occaecat mollit nostrud exercitation ullamco enim proident.", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "fileplan", 
+      "subnotes": [
+        {
+          "content": [
+            "aliquip laboris duis voluptate ullamco ullamco", 
+            "anim velit nisi aliqua consequat eiusmod", 
+            "id pariatur esse nulla velit incididunt", 
+            "consectetur do reprehenderit reprehenderit quis id"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "ipsum culpa enim mollit duis nostrud", 
+            "esse laborum proident sit occaecat aliqua", 
+            "Lorem proident nisi esse do elit", 
+            "nulla esse aute aliquip non nisi", 
+            "in fugiat laboris labore duis aliquip"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "qui ipsum ex"
+    }, 
+    {
+      "source": "cartographer", 
+      "type": "index", 
+      "subnotes": [
+        {
+          "content": [
+            "consectetur quis est qui anim quis"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "et id nisi"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "scopecontent", 
+      "subnotes": [
+        {
+          "content": [
+            "quis officia do cillum enim aliqua", 
+            "ex reprehenderit aliquip laboris ad laborum"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "proident excepteur ullamco ipsum mollit mollit", 
+            "id duis veniam veniam dolor irure"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "elit esse labore aliqua Lorem enim", 
+            "nulla excepteur voluptate enim reprehenderit magna", 
+            "qui incididunt sit nisi ad nostrud", 
+            "et aliquip dolore nulla pariatur Lorem"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "ipsum nisi duis"
+    }, 
+    {
+      "source": "wikipedia", 
+      "type": "materialspec", 
+      "subnotes": [
+        {
+          "content": [
+            "commodo veniam sint sunt eu aliqua", 
+            "ad adipisicing sit veniam esse magna", 
+            "esse elit ea exercitation sunt dolore"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "occaecat sit dolore non esse exercitation", 
+            "dolore Lorem enim et deserunt et", 
+            "quis officia quis ad officia cillum"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "eiusmod enim proident duis occaecat do", 
+            "sint cupidatat sint ipsum excepteur et", 
+            "consequat laboris voluptate do amet culpa", 
+            "consequat sunt sint nostrud in voluptate", 
+            "commodo cupidatat nulla aute enim ad"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "pariatur labore commodo"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5b527692591803304e3845"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/objects/733", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/collections/493", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/objects/387", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/collections/997", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/38", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/715", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/objects/54", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/collections/81", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/307", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/624", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/142", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/objects/942", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/objects/412", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/collections/78", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/3", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/745", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/objects/684", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/collections/368", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/objects/598", 
+      "type": "object"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "epo", 
+      "expression": "English"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [], 
+  "terms": [
+    {
+      "ref": "/terms/775"
+    }
+  ], 
+  "type": "object", 
+  "id": "5d5b527616dc02489046b1f3"
+}

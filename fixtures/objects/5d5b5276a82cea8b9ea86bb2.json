@@ -1,0 +1,233 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 20th, 2019 - Aug 20th, 2019", 
+      "begin": "2019-08-20", 
+      "label": "digitized", 
+      "end": "2019-08-20", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Aug 20th, 2019 - Aug 20th, 2019", 
+      "begin": "2019-08-20", 
+      "label": "modified", 
+      "end": "2019-08-20", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Aug 20th, 2019 - Aug 20th, 2019", 
+      "begin": "2019-08-20", 
+      "label": "copyright", 
+      "end": "2019-08-20", 
+      "type": "single"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/468"
+    }, 
+    {
+      "ref": "/collections/704"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "photographic_slides", 
+      "value": "4.66"
+    }
+  ], 
+  "title": "Consectetur reprehenderit duis nisi duis eu minim pariatur labore.", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "expiration", 
+      "subnotes": [
+        {
+          "content": [
+            "tempor non et enim commodo aliqua", 
+            "elit exercitation non ex excepteur in"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "non laborum Lorem aute id commodo", 
+            "id aliqua non ad excepteur non", 
+            "pariatur qui eiusmod labore proident officia", 
+            "culpa proident ullamco adipisicing occaecat nulla"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "enim do proident elit aliquip fugiat", 
+            "qui nisi ea ea labore reprehenderit", 
+            "ullamco deserunt officia dolor aliqua cillum", 
+            "est fugiat mollit aliquip ullamco eiusmod", 
+            "reprehenderit Lorem anim aute Lorem commodo"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "sint et deserunt"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "summary", 
+      "subnotes": [
+        {
+          "content": [
+            "consectetur irure consequat dolor Lorem quis", 
+            "nulla tempor elit est laboris aliquip", 
+            "dolore ullamco nulla ea aliquip ut"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "quis occaecat proident"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "additional_information", 
+      "subnotes": [
+        {
+          "content": [
+            "magna aute amet deserunt nostrud cupidatat", 
+            "fugiat laborum labore mollit laborum anim", 
+            "quis in nostrud aliqua voluptate ea", 
+            "minim voluptate ut consequat sunt nulla"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "adipisicing in minim do irure anim", 
+            "nostrud occaecat quis minim Lorem veniam"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "velit pariatur magna anim consectetur et", 
+            "tempor commodo adipisicing ex elit nisi", 
+            "elit non fugiat laborum velit incididunt", 
+            "excepteur consectetur eu reprehenderit voluptate qui", 
+            "nulla labore et nisi anim amet"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "irure nostrud duis"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5b527695c44c22763f52a0"
+    }, 
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5b52769f003cefeb0d89d7"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/374", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/objects/872", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/objects/260", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/objects/897", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/objects/551", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/objects/877", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/objects/705", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/collections/369", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/objects/862", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/collections/297", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/objects/520", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/collections/132", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/618", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/644", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/802", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/objects/15", 
+      "type": "object"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "eng", 
+      "expression": "Esperanto"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_organization/444", 
+      "type": "organization"
+    }, 
+    {
+      "ref": "/agents_software/185", 
+      "type": "software"
+    }, 
+    {
+      "ref": "/agents_software/583", 
+      "type": "software"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/420"
+    }, 
+    {
+      "ref": "/terms/945"
+    }, 
+    {
+      "ref": "/terms/273"
+    }
+  ], 
+  "type": "object", 
+  "id": "5d5b5276a82cea8b9ea86bb2"
+}

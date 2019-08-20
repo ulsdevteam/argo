@@ -1,0 +1,113 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 20th, 2019 - Aug 20th, 2019", 
+      "begin": "2019-08-20", 
+      "label": "deaccession", 
+      "end": "2019-08-20", 
+      "type": "bulk"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/348"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "reels", 
+      "value": "4.2"
+    }, 
+    {
+      "type": "gigabytes", 
+      "value": "4.81"
+    }
+  ], 
+  "title": "Do consequat nisi excepteur qui.", 
+  "notes": [
+    {
+      "source": "cartographer", 
+      "type": "separatedmaterial", 
+      "subnotes": [
+        {
+          "content": [
+            "qui dolore laborum labore quis in", 
+            "ullamco ea nostrud labore occaecat culpa", 
+            "exercitation et tempor dolore Lorem et"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "commodo anim id"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "bioghist", 
+      "subnotes": [
+        {
+          "content": [
+            "magna magna id ut magna labore"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "consectetur qui qui veniam adipisicing sint"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "consectetur mollit Lorem"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5b5276b86e50d3e718a80a"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/objects/827", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/collections/168", 
+      "type": "collection"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "spa", 
+      "expression": "Esperanto"
+    }, 
+    {
+      "identifier": "eng", 
+      "expression": "Spanish"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_family/429", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents_organization/987", 
+      "type": "organization"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/330"
+    }, 
+    {
+      "ref": "/terms/299"
+    }, 
+    {
+      "ref": "/terms/272"
+    }
+  ], 
+  "type": "object", 
+  "id": "5d5b5276041085dd86a3205a"
+}

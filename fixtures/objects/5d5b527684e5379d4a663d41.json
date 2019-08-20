@@ -1,0 +1,163 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 20th, 2019 - Aug 20th, 2019", 
+      "begin": "2019-08-20", 
+      "label": "publication", 
+      "end": "2019-08-20", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Aug 20th, 2019 - Aug 20th, 2019", 
+      "begin": "2019-08-20", 
+      "label": "issued", 
+      "end": "2019-08-20", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Aug 20th, 2019 - Aug 20th, 2019", 
+      "begin": "2019-08-20", 
+      "label": "issued", 
+      "end": "2019-08-20", 
+      "type": "inclusive"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/227"
+    }, 
+    {
+      "ref": "/collections/401"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "volumes", 
+      "value": "4.45"
+    }
+  ], 
+  "title": "Commodo aliqua quis eiusmod adipisicing id do velit aute eu deserunt occaecat nisi officia.", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "type_note", 
+      "subnotes": [
+        {
+          "content": [
+            "laborum ut pariatur consequat ea eu", 
+            "elit non commodo Lorem cupidatat ipsum", 
+            "aute esse duis ea esse nisi"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "fugiat ea labore"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "otherfindaid", 
+      "subnotes": [
+        {
+          "content": [
+            "minim dolore proident veniam incididunt adipisicing"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "voluptate adipisicing dolor ex duis tempor", 
+            "cupidatat ad sit ad consequat elit", 
+            "ea laboris ipsum cillum occaecat qui", 
+            "consectetur velit consectetur quis dolore laborum", 
+            "in excepteur minim nostrud incididunt officia"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "laboris id laboris"
+    }, 
+    {
+      "source": "wikipedia", 
+      "type": "materialspec", 
+      "subnotes": [
+        {
+          "content": [
+            "aliqua ea sunt sunt elit ex", 
+            "nulla ea officia nisi voluptate sit", 
+            "ex enim dolore officia officia anim", 
+            "voluptate adipisicing ullamco aute qui mollit"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "ex duis reprehenderit"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5b5276cc01ec835b0c95cc"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/575", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/68", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/506", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/733", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/objects/449", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/collections/336", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/objects/33", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/collections/481", 
+      "type": "collection"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "eng", 
+      "expression": "English"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_software/101", 
+      "type": "software"
+    }, 
+    {
+      "ref": "/agents_person/240", 
+      "type": "person"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/690"
+    }, 
+    {
+      "ref": "/terms/579"
+    }
+  ], 
+  "type": "object", 
+  "id": "5d5b527684e5379d4a663d41"
+}

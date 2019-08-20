@@ -1,0 +1,234 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 20th, 2019 - Aug 20th, 2019", 
+      "begin": "2019-08-20", 
+      "label": "modified", 
+      "end": "2019-08-20", 
+      "type": "bulk"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/409"
+    }, 
+    {
+      "ref": "/collections/592"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "leaves", 
+      "value": "1.48"
+    }
+  ], 
+  "title": "Velit eiusmod reprehenderit enim magna mollit magna Lorem mollit.", 
+  "notes": [
+    {
+      "source": "cartographer", 
+      "type": "odd", 
+      "subnotes": [
+        {
+          "content": [
+            "eu anim proident velit do officia", 
+            "ex amet consequat qui excepteur id"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "est tempor aute"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "relatedmaterial", 
+      "subnotes": [
+        {
+          "content": [
+            "consectetur consectetur magna sint velit pariatur", 
+            "ad enim labore pariatur enim culpa", 
+            "nulla dolor labore ex laborum eiusmod"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "non enim commodo voluptate culpa eiusmod", 
+            "veniam voluptate non dolore consequat amet"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "cupidatat ullamco sit velit aliqua deserunt", 
+            "do consectetur qui anim anim cupidatat", 
+            "cillum aute deserunt amet culpa dolor", 
+            "et veniam proident culpa anim Lorem", 
+            "mollit ex veniam ipsum adipisicing esse"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "cillum labore commodo"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "physfacet", 
+      "subnotes": [
+        {
+          "content": [
+            "ad officia reprehenderit voluptate deserunt occaecat", 
+            "reprehenderit quis elit officia do ipsum", 
+            "ex nostrud sunt Lorem pariatur eiusmod", 
+            "eu eiusmod amet incididunt mollit nostrud"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "non anim excepteur id deserunt culpa", 
+            "excepteur Lorem in deserunt ex amet", 
+            "quis duis exercitation deserunt proident anim", 
+            "cillum eu minim eu dolor in", 
+            "enim ex ea occaecat dolor magna"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "do reprehenderit laboris commodo anim tempor", 
+            "amet cupidatat sit est aliquip proident", 
+            "laboris aute velit dolor deserunt aliquip", 
+            "ut anim laborum sunt adipisicing non"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "non nisi occaecat"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "custodhist", 
+      "subnotes": [
+        {
+          "content": [
+            "minim esse minim pariatur enim proident", 
+            "consectetur adipisicing pariatur reprehenderit proident nostrud", 
+            "anim non elit eu sit veniam", 
+            "occaecat sint qui aliquip excepteur eu"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "qui sunt veniam reprehenderit Lorem ad"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "consectetur amet eu cupidatat eiusmod reprehenderit", 
+            "eiusmod est id non commodo labore", 
+            "dolore sint deserunt non ea culpa", 
+            "Lorem pariatur veniam labore enim duis"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "quis amet consequat"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d5b527633fadf2d0aeb687d"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/objects/897", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/objects/239", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/objects/205", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/collections/102", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/objects/195", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/objects/351", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/collections/224", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/382", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/530", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/objects/280", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/collections/588", 
+      "type": "collection"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "spa", 
+      "expression": "Spanish"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_person/99", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents_family/745", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents_family/71", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents_software/792", 
+      "type": "software"
+    }, 
+    {
+      "ref": "/agents_organization/308", 
+      "type": "organization"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/346"
+    }, 
+    {
+      "ref": "/terms/93"
+    }, 
+    {
+      "ref": "/terms/504"
+    }
+  ], 
+  "type": "object", 
+  "id": "5d5b5276615bc26634ab0759"
+}

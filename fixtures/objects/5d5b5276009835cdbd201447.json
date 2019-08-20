@@ -1,0 +1,272 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 20th, 2019 - Aug 20th, 2019", 
+      "begin": "2019-08-20", 
+      "label": "creation", 
+      "end": "2019-08-20", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Aug 20th, 2019 - Aug 20th, 2019", 
+      "begin": "2019-08-20", 
+      "label": "creation", 
+      "end": "2019-08-20", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Aug 20th, 2019 - Aug 20th, 2019", 
+      "begin": "2019-08-20", 
+      "label": "usage", 
+      "end": "2019-08-20", 
+      "type": "inclusive"
+    }
+  ], 
+  "ancestors": [], 
+  "extents": [
+    {
+      "type": "terabytes", 
+      "value": "4.94"
+    }, 
+    {
+      "type": "volumes", 
+      "value": "4.02"
+    }
+  ], 
+  "title": "Labore aute duis incididunt veniam sint cillum reprehenderit do nostrud.", 
+  "notes": [
+    {
+      "source": "wikidata", 
+      "type": "inscription", 
+      "subnotes": [
+        {
+          "content": [
+            "sunt ex aliqua mollit aliquip deserunt", 
+            "aliquip est cupidatat pariatur ex magna", 
+            "cillum nostrud excepteur fugiat incididunt aliqua", 
+            "labore veniam consectetur voluptate magna fugiat", 
+            "fugiat laborum id ullamco mollit laboris"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "consectetur Lorem proident eiusmod dolor nulla", 
+            "veniam exercitation ullamco consectetur anim esse", 
+            "fugiat tempor esse dolor fugiat minim", 
+            "ipsum aute consequat labore veniam sunt"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "ex ea in ullamco laboris reprehenderit", 
+            "est sunt fugiat consequat sit id"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "laborum incididunt officia"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "extension", 
+      "subnotes": [
+        {
+          "content": [
+            "est labore exercitation laboris esse ex", 
+            "anim commodo qui mollit mollit tempor", 
+            "irure nulla est Lorem duis nisi", 
+            "eiusmod culpa ullamco non velit sint", 
+            "exercitation duis deserunt deserunt cillum nulla"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "velit nulla in et sunt nostrud"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "enim occaecat minim nisi laboris et", 
+            "voluptate officia cillum officia sint ullamco", 
+            "incididunt ullamco aliqua excepteur officia culpa", 
+            "exercitation eu nulla in magna ad", 
+            "ea laboris Lorem ipsum esse Lorem"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "veniam laborum esse"
+    }, 
+    {
+      "source": "cartographer", 
+      "type": "prefercite", 
+      "subnotes": [
+        {
+          "content": [
+            "nisi exercitation laborum et ullamco nisi", 
+            "minim ad commodo commodo elit pariatur", 
+            "nulla commodo officia sunt ex exercitation"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "cillum enim pariatur proident voluptate irure", 
+            "ex elit tempor veniam elit dolore", 
+            "do ullamco est id consequat mollit", 
+            "est officia nisi ad reprehenderit eiusmod"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "voluptate commodo commodo dolor pariatur reprehenderit", 
+            "consequat id velit aute incididunt adipisicing", 
+            "fugiat aliqua id commodo elit ea", 
+            "non eiusmod laboris minim aliqua veniam", 
+            "Lorem excepteur qui est nisi sunt"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "fugiat do nulla"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "physloc", 
+      "subnotes": [
+        {
+          "content": [
+            "laborum incididunt enim enim laboris aute", 
+            "dolor officia pariatur ut voluptate aliqua", 
+            "occaecat fugiat sint deserunt deserunt ea", 
+            "ullamco aute qui proident incididunt consequat"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "tempor exercitation quis"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d5b5276c680bb33599d53d0"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/950", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/objects/64", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/collections/998", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/677", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/objects/550", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/collections/671", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/objects/547", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/objects/270", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/collections/442", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/234", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/966", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/511", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/objects/210", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/collections/11", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/objects/907", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/objects/745", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/objects/477", 
+      "type": "object"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "epo", 
+      "expression": "Spanish"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_person/558", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents_organization/1", 
+      "type": "organization"
+    }, 
+    {
+      "ref": "/agents_person/766", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents_person/409", 
+      "type": "person"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/975"
+    }, 
+    {
+      "ref": "/terms/705"
+    }, 
+    {
+      "ref": "/terms/950"
+    }, 
+    {
+      "ref": "/terms/346"
+    }
+  ], 
+  "type": "object", 
+  "id": "5d5b5276009835cdbd201447"
+}

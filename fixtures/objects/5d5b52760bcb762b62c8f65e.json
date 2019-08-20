@@ -1,0 +1,207 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 20th, 2019 - Aug 20th, 2019", 
+      "begin": "2019-08-20", 
+      "label": "digitized", 
+      "end": "2019-08-20", 
+      "type": "single"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/972"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "terabytes", 
+      "value": "4.26"
+    }
+  ], 
+  "title": "Labore consectetur dolore reprehenderit do in ea in velit elit quis irure et in eu.", 
+  "notes": [
+    {
+      "source": "wikidata", 
+      "type": "rights_statement", 
+      "subnotes": [
+        {
+          "content": [
+            "nisi cupidatat magna adipisicing amet aute", 
+            "laboris laboris occaecat est mollit labore", 
+            "excepteur occaecat pariatur ullamco aliquip qui", 
+            "sit ex dolor officia cupidatat magna", 
+            "officia et reprehenderit nostrud aliquip eu"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "aliquip exercitation mollit ad qui consectetur", 
+            "enim anim velit velit eiusmod cillum", 
+            "quis nulla deserunt magna minim anim", 
+            "qui amet aliquip duis labore deserunt"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "quis veniam laboris quis ullamco adipisicing", 
+            "exercitation elit ex mollit nisi et", 
+            "cillum exercitation labore non sint cupidatat", 
+            "nostrud laborum cillum commodo sit occaecat", 
+            "irure exercitation sit ea pariatur reprehenderit"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "reprehenderit non aliquip"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "physloc", 
+      "subnotes": [
+        {
+          "content": [
+            "minim excepteur Lorem consequat duis et", 
+            "in pariatur pariatur consequat ullamco nisi", 
+            "amet id cillum tempor fugiat fugiat"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "amet in deserunt quis ea deserunt", 
+            "dolore elit amet qui veniam consectetur", 
+            "amet dolore nisi id eiusmod labore", 
+            "dolore ad eiusmod aute ut pariatur"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "laboris nulla et exercitation ipsum exercitation"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "ex aliquip aliquip"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "relatedmaterial", 
+      "subnotes": [
+        {
+          "content": [
+            "commodo eu veniam velit aliqua elit", 
+            "esse reprehenderit officia reprehenderit amet labore"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "occaecat pariatur sit tempor qui excepteur", 
+            "ad nostrud enim nisi enim anim", 
+            "exercitation consequat cupidatat minim non aliqua", 
+            "minim et id irure nisi dolore", 
+            "aute consectetur velit ipsum aliqua eu"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "sunt velit exercitation"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d5b527611c27003ce2a857e"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/objects/980", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/objects/529", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/collections/102", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/554", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/540", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/79", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/objects/749", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/collections/207", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/objects/928", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/objects/557", 
+      "type": "object"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "spa", 
+      "expression": "Esperanto"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_organization/278", 
+      "type": "organization"
+    }, 
+    {
+      "ref": "/agents_family/358", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents_organization/198", 
+      "type": "organization"
+    }, 
+    {
+      "ref": "/agents_family/206", 
+      "type": "family"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/61"
+    }, 
+    {
+      "ref": "/terms/18"
+    }, 
+    {
+      "ref": "/terms/786"
+    }, 
+    {
+      "ref": "/terms/987"
+    }, 
+    {
+      "ref": "/terms/568"
+    }
+  ], 
+  "type": "object", 
+  "id": "5d5b52760bcb762b62c8f65e"
+}

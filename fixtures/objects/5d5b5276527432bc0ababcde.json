@@ -1,0 +1,170 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 20th, 2019 - Aug 20th, 2019", 
+      "begin": "2019-08-20", 
+      "label": "other", 
+      "end": "2019-08-20", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Aug 20th, 2019 - Aug 20th, 2019", 
+      "begin": "2019-08-20", 
+      "label": "usage", 
+      "end": "2019-08-20", 
+      "type": "inclusive"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/680"
+    }, 
+    {
+      "ref": "/collections/710"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "volumes", 
+      "value": "3.41"
+    }
+  ], 
+  "title": "Quis irure deserunt magna sint.", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "extension", 
+      "subnotes": [
+        {
+          "content": [
+            "et occaecat aute deserunt voluptate elit", 
+            "dolore do mollit esse pariatur incididunt", 
+            "anim sunt anim commodo eu anim", 
+            "minim qui officia cillum cupidatat ea"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "ea minim veniam sit aliqua sint"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "ad sint aliquip excepteur aute sunt", 
+            "dolore culpa consectetur sunt laboris dolor", 
+            "consectetur deserunt aliquip ex occaecat excepteur"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "deserunt proident nulla"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "altformavail", 
+      "subnotes": [
+        {
+          "content": [
+            "et do est deserunt Lorem in", 
+            "reprehenderit mollit deserunt duis commodo ullamco", 
+            "commodo laborum do exercitation exercitation commodo"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "esse amet ad sit voluptate non"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "qui do cupidatat aute commodo nostrud", 
+            "ut in exercitation amet ex occaecat", 
+            "fugiat in nulla do ea voluptate", 
+            "irure excepteur ullamco ea aute Lorem"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "elit sit labore"
+    }, 
+    {
+      "source": "wikipedia", 
+      "type": "type_note", 
+      "subnotes": [
+        {
+          "content": [
+            "ex elit eiusmod non ex commodo", 
+            "aliquip ex cillum non incididunt sint"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "consequat velit velit id est incididunt"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "reprehenderit eu irure"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5b5276210b7c903babe30f"
+    }, 
+    {
+      "source": "wikidata", 
+      "identifier": "5d5b52764bf22df6a048bae0"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/842", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/objects/642", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/collections/456", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/228", 
+      "type": "collection"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "spa", 
+      "expression": "English"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [], 
+  "terms": [
+    {
+      "ref": "/terms/657"
+    }, 
+    {
+      "ref": "/terms/498"
+    }, 
+    {
+      "ref": "/terms/650"
+    }, 
+    {
+      "ref": "/terms/649"
+    }, 
+    {
+      "ref": "/terms/581"
+    }
+  ], 
+  "type": "object", 
+  "id": "5d5b5276527432bc0ababcde"
+}

@@ -1,0 +1,187 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 20th, 2019 - Aug 20th, 2019", 
+      "begin": "2019-08-20", 
+      "label": "usage", 
+      "end": "2019-08-20", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Aug 20th, 2019 - Aug 20th, 2019", 
+      "begin": "2019-08-20", 
+      "label": "digitized", 
+      "end": "2019-08-20", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Aug 20th, 2019 - Aug 20th, 2019", 
+      "begin": "2019-08-20", 
+      "label": "event", 
+      "end": "2019-08-20", 
+      "type": "bulk"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/670"
+    }, 
+    {
+      "ref": "/collections/224"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "document box(es)", 
+      "value": "2.99"
+    }, 
+    {
+      "type": "terabytes", 
+      "value": "4.45"
+    }
+  ], 
+  "title": "Dolor cupidatat in qui fugiat.", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "userestrict", 
+      "subnotes": [
+        {
+          "content": [
+            "occaecat irure proident veniam reprehenderit minim", 
+            "reprehenderit dolor laboris ea quis minim", 
+            "quis irure sint tempor laboris voluptate"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "dolore commodo enim mollit ut quis", 
+            "qui aliquip sunt veniam minim consequat", 
+            "occaecat sint sit proident ea ea", 
+            "elit excepteur voluptate sint nostrud culpa"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "Lorem ipsum velit aliqua aute commodo"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "duis fugiat sit"
+    }, 
+    {
+      "source": "wikipedia", 
+      "type": "restrictions", 
+      "subnotes": [
+        {
+          "content": [
+            "nisi dolor id in irure cillum", 
+            "sit excepteur adipisicing velit sunt labore", 
+            "nostrud commodo deserunt exercitation ea Lorem", 
+            "do veniam ex qui ut eiusmod", 
+            "fugiat id aliqua proident consectetur amet"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "laboris dolore qui enim ad laborum", 
+            "eu excepteur ex dolor consectetur sit", 
+            "sunt irure ipsum sunt pariatur nulla", 
+            "magna duis sit minim tempor ea"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "dolor sunt sint duis labore laborum", 
+            "ipsum sunt sint sunt officia occaecat", 
+            "cupidatat deserunt exercitation quis Lorem sunt"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "culpa magna sit"
+    }, 
+    {
+      "source": "wikipedia", 
+      "type": "accessrestrict", 
+      "subnotes": [
+        {
+          "content": [
+            "ut reprehenderit in fugiat eiusmod irure"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "excepteur fugiat elit"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5b527604d549b72792f247"
+    }, 
+    {
+      "source": "wikidata", 
+      "identifier": "5d5b5276f8139663186a9aa8"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/791", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/23", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/674", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/511", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/533", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/objects/146", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/collections/972", 
+      "type": "collection"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "spa", 
+      "expression": "Esperanto"
+    }, 
+    {
+      "identifier": "epo", 
+      "expression": "English"
+    }, 
+    {
+      "identifier": "spa", 
+      "expression": "English"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_software/995", 
+      "type": "software"
+    }
+  ], 
+  "terms": [], 
+  "type": "object", 
+  "id": "5d5b5276c4a5c1bf22a15910"
+}

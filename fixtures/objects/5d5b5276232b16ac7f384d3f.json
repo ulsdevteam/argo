@@ -1,0 +1,216 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 20th, 2019 - Aug 20th, 2019", 
+      "begin": "2019-08-20", 
+      "label": "broadcast", 
+      "end": "2019-08-20", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Aug 20th, 2019 - Aug 20th, 2019", 
+      "begin": "2019-08-20", 
+      "label": "record_keeping", 
+      "end": "2019-08-20", 
+      "type": "inclusive"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/980"
+    }, 
+    {
+      "ref": "/collections/129"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "cubic_feet", 
+      "value": "4.67"
+    }
+  ], 
+  "title": "Cupidatat fugiat anim sunt ut.", 
+  "notes": [
+    {
+      "source": "cartographer", 
+      "type": "rights_statement", 
+      "subnotes": [
+        {
+          "content": [
+            "laborum dolor exercitation cillum proident aute"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "proident non Lorem deserunt culpa elit"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "veniam cillum eiusmod minim magna exercitation", 
+            "officia elit adipisicing excepteur sunt nostrud"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "anim ipsum ex"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "separatedmaterial", 
+      "subnotes": [
+        {
+          "content": [
+            "occaecat amet Lorem eiusmod minim elit", 
+            "dolore sunt cillum enim incididunt anim", 
+            "irure sunt veniam qui exercitation aliqua", 
+            "nostrud voluptate eiusmod incididunt sint sunt", 
+            "consequat laborum labore adipisicing enim qui"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "aute aliquip magna enim ullamco adipisicing"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "id id id id elit cillum", 
+            "amet ullamco elit labore cupidatat magna", 
+            "non ullamco proident magna et eiusmod", 
+            "excepteur reprehenderit irure aute Lorem laboris", 
+            "elit enim cupidatat aute velit adipisicing"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "ullamco enim eiusmod"
+    }, 
+    {
+      "source": "wikipedia", 
+      "type": "extent", 
+      "subnotes": [
+        {
+          "content": [
+            "magna do ut consectetur voluptate deserunt", 
+            "esse irure mollit eu deserunt pariatur", 
+            "laborum elit qui duis mollit mollit", 
+            "aute exercitation ex sint aliquip eu"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "ex non magna"
+    }, 
+    {
+      "source": "cartographer", 
+      "type": "accessrestrict", 
+      "subnotes": [
+        {
+          "content": [
+            "voluptate commodo fugiat non consequat veniam", 
+            "non esse adipisicing consequat proident Lorem", 
+            "id sunt minim do magna enim", 
+            "anim nostrud in nostrud qui irure"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "laborum non ullamco magna magna ad", 
+            "id nostrud nulla culpa aliquip nostrud"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "non id nostrud"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5b527611feac208b1227bc"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/665", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/933", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/846", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/objects/84", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/collections/410", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/objects/930", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/collections/10", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/objects/950", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/collections/932", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/objects/178", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/objects/161", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/collections/872", 
+      "type": "collection"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "spa", 
+      "expression": "English"
+    }, 
+    {
+      "identifier": "epo", 
+      "expression": "English"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_person/322", 
+      "type": "person"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/220"
+    }, 
+    {
+      "ref": "/terms/285"
+    }
+  ], 
+  "type": "object", 
+  "id": "5d5b5276232b16ac7f384d3f"
+}

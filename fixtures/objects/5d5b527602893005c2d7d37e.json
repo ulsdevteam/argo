@@ -1,0 +1,187 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 20th, 2019 - Aug 20th, 2019", 
+      "begin": "2019-08-20", 
+      "label": "copyright", 
+      "end": "2019-08-20", 
+      "type": "single"
+    }, 
+    {
+      "expression": "Aug 20th, 2019 - Aug 20th, 2019", 
+      "begin": "2019-08-20", 
+      "label": "copyright", 
+      "end": "2019-08-20", 
+      "type": "single"
+    }
+  ], 
+  "ancestors": [], 
+  "extents": [
+    {
+      "type": "cassettes", 
+      "value": "2.51"
+    }
+  ], 
+  "title": "Mollit occaecat et non in amet est officia cupidatat sunt incididunt commodo eiusmod.", 
+  "notes": [
+    {
+      "source": "wikidata", 
+      "type": "edition", 
+      "subnotes": [
+        {
+          "content": [
+            "id officia eiusmod mollit officia consectetur", 
+            "et cillum consequat est esse eu"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "aliquip non deserunt occaecat proident adipisicing", 
+            "exercitation fugiat voluptate in pariatur qui", 
+            "esse irure eiusmod aliqua eiusmod culpa", 
+            "veniam magna pariatur magna elit deserunt", 
+            "cupidatat ullamco laborum laborum adipisicing id"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "sit fugiat veniam"
+    }, 
+    {
+      "source": "wikipedia", 
+      "type": "custodhist", 
+      "subnotes": [
+        {
+          "content": [
+            "ipsum minim do aliqua amet reprehenderit"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "officia consequat laborum sunt eu ullamco", 
+            "irure nisi ea laboris ea culpa", 
+            "ullamco sit irure ex cillum consequat"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "proident commodo anim non aliqua occaecat", 
+            "sit eiusmod ullamco pariatur cupidatat in"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "ea culpa sit"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5b52761a0f870897a305b6"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/objects/799", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/collections/385", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/6", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/214", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/294", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/997", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/764", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/537", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/14", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/objects/495", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/collections/129", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/objects/352", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/objects/417", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/collections/521", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/41", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/485", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/390", 
+      "type": "collection"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "eng", 
+      "expression": "English"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_family/880", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents_software/716", 
+      "type": "software"
+    }, 
+    {
+      "ref": "/agents_software/884", 
+      "type": "software"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/13"
+    }, 
+    {
+      "ref": "/terms/47"
+    }
+  ], 
+  "type": "object", 
+  "id": "5d5b527602893005c2d7d37e"
+}

@@ -1,0 +1,107 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 20th, 2019 - Aug 20th, 2019", 
+      "begin": "2019-08-20", 
+      "label": "copyright", 
+      "end": "2019-08-20", 
+      "type": "single"
+    }, 
+    {
+      "expression": "Aug 20th, 2019 - Aug 20th, 2019", 
+      "begin": "2019-08-20", 
+      "label": "creation", 
+      "end": "2019-08-20", 
+      "type": "single"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/819"
+    }, 
+    {
+      "ref": "/collections/231"
+    }, 
+    {
+      "ref": "/collections/763"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "microform reels", 
+      "value": "3.04"
+    }
+  ], 
+  "title": "Lorem nisi nostrud minim dolor cupidatat.", 
+  "notes": [
+    {
+      "source": "wikidata", 
+      "type": "processinfo", 
+      "subnotes": [
+        {
+          "content": [
+            "et ullamco excepteur sint eu pariatur", 
+            "esse labore cillum reprehenderit non reprehenderit"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "Lorem officia enim duis veniam voluptate", 
+            "sint id dolore cillum sit esse"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "culpa adipisicing non"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d5b527673e0ce59a7896d05"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/390", 
+      "type": "collection"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "epo", 
+      "expression": "Esperanto"
+    }, 
+    {
+      "identifier": "eng", 
+      "expression": "English"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_family/52", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents_organization/748", 
+      "type": "organization"
+    }, 
+    {
+      "ref": "/agents_organization/512", 
+      "type": "organization"
+    }, 
+    {
+      "ref": "/agents_organization/41", 
+      "type": "organization"
+    }, 
+    {
+      "ref": "/agents_organization/6", 
+      "type": "organization"
+    }
+  ], 
+  "terms": [], 
+  "type": "object", 
+  "id": "5d5b527631746d9c6395e938"
+}

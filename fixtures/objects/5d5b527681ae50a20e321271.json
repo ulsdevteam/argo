@@ -1,0 +1,177 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 20th, 2019 - Aug 20th, 2019", 
+      "begin": "2019-08-20", 
+      "label": "copyright", 
+      "end": "2019-08-20", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Aug 20th, 2019 - Aug 20th, 2019", 
+      "begin": "2019-08-20", 
+      "label": "creation", 
+      "end": "2019-08-20", 
+      "type": "single"
+    }
+  ], 
+  "ancestors": [], 
+  "extents": [
+    {
+      "type": "megabytes", 
+      "value": "3.95"
+    }
+  ], 
+  "title": "Tempor et laboris irure veniam ex amet ea reprehenderit quis deserunt exercitation fugiat.", 
+  "notes": [
+    {
+      "source": "wikidata", 
+      "type": "extent", 
+      "subnotes": [
+        {
+          "content": [
+            "amet laborum excepteur pariatur fugiat labore", 
+            "deserunt id non non irure amet", 
+            "proident cillum eiusmod qui cupidatat velit", 
+            "labore amet Lorem ea nisi aliqua", 
+            "velit ipsum eiusmod ex sit non"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "veniam quis minim"
+    }, 
+    {
+      "source": "cartographer", 
+      "type": "relatedmaterial", 
+      "subnotes": [
+        {
+          "content": [
+            "aute cupidatat quis do laborum consequat", 
+            "aliqua tempor qui qui fugiat ex", 
+            "elit ullamco ullamco sint dolor amet", 
+            "esse nulla enim cillum excepteur duis", 
+            "nostrud consequat labore consequat do occaecat"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "ullamco aute proident ipsum consequat nulla", 
+            "adipisicing occaecat nostrud aliquip magna dolore", 
+            "in velit incididunt in ad dolore", 
+            "Lorem veniam aliquip sunt in culpa"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "deserunt occaecat pariatur ipsum magna proident", 
+            "cillum mollit officia laborum deserunt magna", 
+            "tempor officia ex nulla nulla consequat", 
+            "sunt exercitation dolor reprehenderit in Lorem", 
+            "laboris aliqua consectetur est magna eiusmod"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "in proident nulla"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5b52761b1af483993acd98"
+    }, 
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5b527633003f8a2a764ba0"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/647", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/objects/359", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/objects/520", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/objects/738", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/collections/233", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/objects/815", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/objects/579", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/objects/720", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/objects/24", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/collections/844", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/objects/400", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/objects/326", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/collections/328", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/53", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/244", 
+      "type": "collection"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "spa", 
+      "expression": "Spanish"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [], 
+  "terms": [
+    {
+      "ref": "/terms/667"
+    }, 
+    {
+      "ref": "/terms/728"
+    }, 
+    {
+      "ref": "/terms/493"
+    }, 
+    {
+      "ref": "/terms/554"
+    }
+  ], 
+  "type": "object", 
+  "id": "5d5b527681ae50a20e321271"
+}

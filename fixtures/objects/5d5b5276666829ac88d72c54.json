@@ -1,0 +1,236 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 20th, 2019 - Aug 20th, 2019", 
+      "begin": "2019-08-20", 
+      "label": "deaccession", 
+      "end": "2019-08-20", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Aug 20th, 2019 - Aug 20th, 2019", 
+      "begin": "2019-08-20", 
+      "label": "other", 
+      "end": "2019-08-20", 
+      "type": "inclusive"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/58"
+    }, 
+    {
+      "ref": "/collections/596"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "volumes", 
+      "value": "1.13"
+    }
+  ], 
+  "title": "Proident adipisicing anim tempor consectetur aliquip eu qui.", 
+  "notes": [
+    {
+      "source": "wikidata", 
+      "type": "dimensions", 
+      "subnotes": [
+        {
+          "content": [
+            "magna in adipisicing excepteur minim minim", 
+            "cillum esse occaecat aliqua cupidatat cillum", 
+            "occaecat ullamco ullamco in ullamco sint", 
+            "commodo do excepteur Lorem labore nostrud"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "deserunt consequat duis mollit sit elit", 
+            "ex excepteur in irure laborum fugiat"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "nostrud voluptate adipisicing"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "physfacet", 
+      "subnotes": [
+        {
+          "content": [
+            "nulla veniam velit ipsum consequat magna"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "fugiat veniam enim enim officia ipsum", 
+            "reprehenderit labore dolore laboris sit commodo", 
+            "voluptate nostrud exercitation excepteur ea tempor", 
+            "aute Lorem occaecat pariatur nisi nostrud", 
+            "do sit veniam exercitation velit eu"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "commodo excepteur minim"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "accessrestrict", 
+      "subnotes": [
+        {
+          "content": [
+            "est occaecat mollit nulla commodo cupidatat", 
+            "consectetur id ut eu non ut", 
+            "minim ex dolore id consequat consequat", 
+            "non laboris ullamco adipisicing id tempor"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "in reprehenderit elit exercitation minim ex"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "velit eiusmod ex eu magna nisi"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "irure exercitation id"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "custodhist", 
+      "subnotes": [
+        {
+          "content": [
+            "aliquip reprehenderit eiusmod consectetur do sint", 
+            "qui minim tempor velit ut velit", 
+            "aliquip cupidatat do nulla tempor minim"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "proident aliqua voluptate minim reprehenderit in", 
+            "proident enim mollit aute aliqua laborum", 
+            "nisi in deserunt velit sunt nostrud"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "ipsum labore deserunt elit minim sit", 
+            "fugiat occaecat consectetur culpa ad anim", 
+            "ex ipsum enim id Lorem aliqua"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "laborum esse ex"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5b52765aee02c831ff42d6"
+    }, 
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5b52766ea0236b44822e67"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/40", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/984", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/756", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/361", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/objects/750", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/collections/641", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/572", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/450", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/163", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/objects/126", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/objects/337", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/objects/195", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/objects/984", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/objects/528", 
+      "type": "object"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "spa", 
+      "expression": "English"
+    }, 
+    {
+      "identifier": "eng", 
+      "expression": "Esperanto"
+    }, 
+    {
+      "identifier": "eng", 
+      "expression": "Esperanto"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_organization/309", 
+      "type": "organization"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/148"
+    }
+  ], 
+  "type": "object", 
+  "id": "5d5b5276666829ac88d72c54"
+}

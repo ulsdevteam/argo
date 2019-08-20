@@ -1,0 +1,175 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 20th, 2019 - Aug 20th, 2019", 
+      "begin": "2019-08-20", 
+      "label": "event", 
+      "end": "2019-08-20", 
+      "type": "bulk"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/932"
+    }, 
+    {
+      "ref": "/collections/984"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "files", 
+      "value": "1.58"
+    }, 
+    {
+      "type": "reels", 
+      "value": "3.43"
+    }
+  ], 
+  "title": "Adipisicing laborum id nisi aliquip mollit laborum sunt amet mollit in id dolor.", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "physloc", 
+      "subnotes": [
+        {
+          "content": [
+            "duis amet consequat dolore dolore quis", 
+            "laboris qui esse elit culpa sunt", 
+            "officia pariatur fugiat occaecat anim laborum"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "deserunt reprehenderit eiusmod"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "dimensions", 
+      "subnotes": [
+        {
+          "content": [
+            "aliquip consectetur tempor veniam velit eu", 
+            "mollit minim ut minim non officia", 
+            "consectetur incididunt nisi esse anim Lorem", 
+            "ullamco aute nisi duis consectetur veniam"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "adipisicing anim ex"
+    }, 
+    {
+      "source": "wikipedia", 
+      "type": "extent", 
+      "subnotes": [
+        {
+          "content": [
+            "qui laboris pariatur eu veniam culpa"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "exercitation cillum deserunt proident minim proident"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "anim cillum sit"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d5b5276f388f77e48536ee9"
+    }, 
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5b5276ef850474d40c1b54"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/36", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/720", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/objects/494", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/collections/321", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/270", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/482", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/683", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/objects/620", 
+      "type": "object"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "eng", 
+      "expression": "Spanish"
+    }, 
+    {
+      "identifier": "eng", 
+      "expression": "Esperanto"
+    }, 
+    {
+      "identifier": "epo", 
+      "expression": "Esperanto"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_family/340", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents_organization/345", 
+      "type": "organization"
+    }, 
+    {
+      "ref": "/agents_software/430", 
+      "type": "software"
+    }, 
+    {
+      "ref": "/agents_person/249", 
+      "type": "person"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/616"
+    }, 
+    {
+      "ref": "/terms/679"
+    }, 
+    {
+      "ref": "/terms/699"
+    }, 
+    {
+      "ref": "/terms/301"
+    }
+  ], 
+  "type": "object", 
+  "id": "5d5b527632fbf3ac0c3bb025"
+}

@@ -1,0 +1,177 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 20th, 2019 - Aug 20th, 2019", 
+      "begin": "2019-08-20", 
+      "label": "publication", 
+      "end": "2019-08-20", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Aug 20th, 2019 - Aug 20th, 2019", 
+      "begin": "2019-08-20", 
+      "label": "issued", 
+      "end": "2019-08-20", 
+      "type": "bulk"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/103"
+    }, 
+    {
+      "ref": "/collections/455"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "files", 
+      "value": "3.59"
+    }
+  ], 
+  "title": "Consectetur fugiat eu excepteur laboris in tempor officia eu excepteur labore.", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "note", 
+      "subnotes": [
+        {
+          "content": [
+            "sunt sint reprehenderit deserunt est in"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "ipsum nisi eiusmod"
+    }, 
+    {
+      "source": "wikipedia", 
+      "type": "dimensions", 
+      "subnotes": [
+        {
+          "content": [
+            "do laborum magna est amet labore", 
+            "cillum laboris irure non culpa nulla", 
+            "consectetur aliqua mollit proident ullamco officia"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "proident labore ipsum"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d5b5276392395960f571692"
+    }, 
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5b5276a8211c9817218da2"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/644", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/456", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/393", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/objects/553", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/objects/78", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/collections/709", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/621", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/objects/696", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/collections/296", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/objects/377", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/objects/554", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/collections/914", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/objects/89", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/objects/283", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/objects/562", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/collections/413", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/59", 
+      "type": "collection"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "eng", 
+      "expression": "Esperanto"
+    }, 
+    {
+      "identifier": "eng", 
+      "expression": "Esperanto"
+    }, 
+    {
+      "identifier": "spa", 
+      "expression": "Esperanto"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_organization/113", 
+      "type": "organization"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/836"
+    }, 
+    {
+      "ref": "/terms/491"
+    }, 
+    {
+      "ref": "/terms/110"
+    }
+  ], 
+  "type": "object", 
+  "id": "5d5b52762e9ddc176d700415"
+}

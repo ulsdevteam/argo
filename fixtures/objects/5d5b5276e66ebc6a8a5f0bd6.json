@@ -1,0 +1,158 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 20th, 2019 - Aug 20th, 2019", 
+      "begin": "2019-08-20", 
+      "label": "record_keeping", 
+      "end": "2019-08-20", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Aug 20th, 2019 - Aug 20th, 2019", 
+      "begin": "2019-08-20", 
+      "label": "broadcast", 
+      "end": "2019-08-20", 
+      "type": "inclusive"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/631"
+    }, 
+    {
+      "ref": "/collections/118"
+    }, 
+    {
+      "ref": "/collections/577"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "terabytes", 
+      "value": "1.84"
+    }, 
+    {
+      "type": "linear_feet", 
+      "value": "1.23"
+    }
+  ], 
+  "title": "Consequat sint deserunt tempor minim ut.", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "appraisal", 
+      "subnotes": [
+        {
+          "content": [
+            "cillum sint culpa deserunt cupidatat commodo", 
+            "qui duis anim deserunt esse reprehenderit", 
+            "fugiat dolor consectetur aliquip culpa qui", 
+            "et et ad deserunt et est", 
+            "dolore sint excepteur irure sint ipsum"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "sint Lorem nostrud veniam pariatur dolor", 
+            "ea adipisicing do adipisicing ex in", 
+            "id anim qui velit aliquip amet"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "eu sit veniam sunt pariatur aute", 
+            "aliquip fugiat velit fugiat sint sunt", 
+            "mollit anim voluptate eiusmod id reprehenderit", 
+            "cillum cupidatat mollit labore officia est", 
+            "commodo est mollit esse do commodo"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "eu eu cillum"
+    }, 
+    {
+      "source": "wikipedia", 
+      "type": "appraisal", 
+      "subnotes": [
+        {
+          "content": [
+            "sint incididunt dolore do ad eu"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "excepteur minim ullamco"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d5b5276547f1d1597d86e73"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/objects/937", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/collections/791", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/objects/643", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/objects/843", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/collections/581", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/objects/83", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/objects/706", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/collections/958", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/objects/492", 
+      "type": "object"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "spa", 
+      "expression": "Esperanto"
+    }, 
+    {
+      "identifier": "spa", 
+      "expression": "Spanish"
+    }, 
+    {
+      "identifier": "spa", 
+      "expression": "Spanish"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_person/813", 
+      "type": "person"
+    }
+  ], 
+  "terms": [], 
+  "type": "object", 
+  "id": "5d5b5276e66ebc6a8a5f0bd6"
+}

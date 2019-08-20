@@ -1,0 +1,132 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 20th, 2019 - Aug 20th, 2019", 
+      "begin": "2019-08-20", 
+      "label": "creation", 
+      "end": "2019-08-20", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Aug 20th, 2019 - Aug 20th, 2019", 
+      "begin": "2019-08-20", 
+      "label": "record_keeping", 
+      "end": "2019-08-20", 
+      "type": "inclusive"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/594"
+    }, 
+    {
+      "ref": "/collections/23"
+    }, 
+    {
+      "ref": "/collections/80"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "reels", 
+      "value": "1.5"
+    }
+  ], 
+  "title": "Et laborum nisi minim consequat.", 
+  "notes": [
+    {
+      "source": "cartographer", 
+      "type": "legalstatus", 
+      "subnotes": [
+        {
+          "content": [
+            "mollit mollit irure proident culpa enim", 
+            "ullamco eiusmod amet consectetur nostrud nostrud", 
+            "occaecat esse dolore duis aliquip aute", 
+            "sit magna dolor amet aliqua fugiat", 
+            "ullamco ad cupidatat consectetur veniam commodo"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "veniam duis elit exercitation deserunt nostrud"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "dolor deserunt velit"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5b52765ced1308705d3d19"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/879", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/781", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/objects/884", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/collections/12", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/objects/991", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/collections/614", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/308", 
+      "type": "collection"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "spa", 
+      "expression": "Esperanto"
+    }, 
+    {
+      "identifier": "eng", 
+      "expression": "Spanish"
+    }, 
+    {
+      "identifier": "epo", 
+      "expression": "Spanish"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_organization/949", 
+      "type": "organization"
+    }, 
+    {
+      "ref": "/agents_family/866", 
+      "type": "family"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/213"
+    }, 
+    {
+      "ref": "/terms/189"
+    }
+  ], 
+  "type": "object", 
+  "id": "5d5b5276bd15e62871cd6c3c"
+}

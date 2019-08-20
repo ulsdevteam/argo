@@ -1,0 +1,201 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 20th, 2019 - Aug 20th, 2019", 
+      "begin": "2019-08-20", 
+      "label": "modified", 
+      "end": "2019-08-20", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Aug 20th, 2019 - Aug 20th, 2019", 
+      "begin": "2019-08-20", 
+      "label": "agent_relation", 
+      "end": "2019-08-20", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Aug 20th, 2019 - Aug 20th, 2019", 
+      "begin": "2019-08-20", 
+      "label": "other", 
+      "end": "2019-08-20", 
+      "type": "inclusive"
+    }
+  ], 
+  "ancestors": [], 
+  "extents": [
+    {
+      "type": "box(es)", 
+      "value": "1.39"
+    }
+  ], 
+  "title": "Qui incididunt dolore dolor veniam commodo.", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "accessrestrict", 
+      "subnotes": [
+        {
+          "content": [
+            "velit proident nisi non nulla elit", 
+            "commodo consectetur ex cupidatat ullamco aliquip"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "eu cillum sunt enim officia culpa"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "irure deserunt est occaecat qui officia", 
+            "commodo velit anim sit excepteur id", 
+            "eiusmod laborum sit sint consectetur sint", 
+            "nisi est nisi reprehenderit quis magna", 
+            "sint tempor officia minim consequat do"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "elit velit ut"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5b52768581cb17410a5cf6"
+    }, 
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5b5276f67a981565efad8e"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/979", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/957", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/318", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/objects/49", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/collections/194", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/233", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/613", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/875", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/417", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/objects/204", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/collections/60", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/632", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/objects/257", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/collections/318", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/collections/525", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/objects/892", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/collections/763", 
+      "type": "collection"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "epo", 
+      "expression": "Esperanto"
+    }, 
+    {
+      "identifier": "epo", 
+      "expression": "Esperanto"
+    }, 
+    {
+      "identifier": "eng", 
+      "expression": "Esperanto"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_organization/171", 
+      "type": "organization"
+    }, 
+    {
+      "ref": "/agents_family/306", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents_family/41", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents_organization/251", 
+      "type": "organization"
+    }, 
+    {
+      "ref": "/agents_family/191", 
+      "type": "family"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/47"
+    }, 
+    {
+      "ref": "/terms/894"
+    }, 
+    {
+      "ref": "/terms/804"
+    }, 
+    {
+      "ref": "/terms/936"
+    }, 
+    {
+      "ref": "/terms/700"
+    }
+  ], 
+  "type": "object", 
+  "id": "5d5b5276e6e923b3c2842dd0"
+}

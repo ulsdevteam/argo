@@ -1,0 +1,182 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 20th, 2019 - Aug 20th, 2019", 
+      "begin": "2019-08-20", 
+      "label": "creation", 
+      "end": "2019-08-20", 
+      "type": "single"
+    }, 
+    {
+      "expression": "Aug 20th, 2019 - Aug 20th, 2019", 
+      "begin": "2019-08-20", 
+      "label": "agent_relation", 
+      "end": "2019-08-20", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Aug 20th, 2019 - Aug 20th, 2019", 
+      "begin": "2019-08-20", 
+      "label": "agent_relation", 
+      "end": "2019-08-20", 
+      "type": "bulk"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/699"
+    }, 
+    {
+      "ref": "/collections/531"
+    }, 
+    {
+      "ref": "/collections/801"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "box(es)", 
+      "value": "4.63"
+    }
+  ], 
+  "title": "Aute deserunt in do mollit anim anim non.", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "phystech", 
+      "subnotes": [
+        {
+          "content": [
+            "ullamco adipisicing nulla reprehenderit fugiat aliquip", 
+            "anim deserunt nostrud ea occaecat dolore", 
+            "mollit non amet incididunt consectetur ad", 
+            "nostrud id ullamco amet mollit incididunt"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "duis sint in anim do incididunt", 
+            "magna reprehenderit fugiat magna deserunt nostrud"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "mollit minim officia"
+    }, 
+    {
+      "source": "cartographer", 
+      "type": "expiration", 
+      "subnotes": [
+        {
+          "content": [
+            "officia ea duis pariatur dolore enim", 
+            "aute consequat fugiat aliqua tempor elit", 
+            "nostrud consectetur eu occaecat tempor consectetur", 
+            "eu laborum ex cupidatat incididunt excepteur"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "nulla id reprehenderit aute est Lorem"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "aute cillum ea"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "bioghist", 
+      "subnotes": [
+        {
+          "content": [
+            "reprehenderit anim elit et voluptate dolor", 
+            "culpa eu elit anim elit non"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "velit ipsum proident minim nostrud do", 
+            "tempor mollit non culpa ipsum dolor"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "duis laboris commodo eu fugiat consequat"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "aliquip enim incididunt"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5b52765a72d2c913279307"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/666", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/objects/172", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/collections/161", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/objects/1", 
+      "type": "object"
+    }, 
+    {
+      "ref": "/collections/512", 
+      "type": "collection"
+    }, 
+    {
+      "ref": "/objects/927", 
+      "type": "object"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "epo", 
+      "expression": "Esperanto"
+    }, 
+    {
+      "identifier": "eng", 
+      "expression": "Esperanto"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_organization/620", 
+      "type": "organization"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/167"
+    }, 
+    {
+      "ref": "/terms/679"
+    }, 
+    {
+      "ref": "/terms/320"
+    }, 
+    {
+      "ref": "/terms/381"
+    }
+  ], 
+  "type": "object", 
+  "id": "5d5b52764b7d8076cc2e195a"
+}
