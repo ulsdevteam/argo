@@ -7,12 +7,13 @@ from django.urls import reverse
 from elasticsearch_dsl import connections, Search, Index
 from rest_framework.test import APIRequestFactory
 
-from .elasticsearch.documents import Agent, Object, Term
-from .views import AgentViewSet, ObjectViewSet, TermViewSet
+from .elasticsearch.documents import Agent, Collection, Object, Term
+from .views import AgentViewSet, CollectionViewSet, ObjectViewSet, TermViewSet
 from argo import settings
 
 TYPE_MAP = (
     ('agents', Agent, AgentViewSet, 'agent-list', 'agent-detail'),
+    ('collections', Collection, CollectionViewSet, 'collection-list', 'collection-detail'),
     ('objects', Object, ObjectViewSet, 'object-list', 'object-detail'),
     ('terms', Term, TermViewSet, 'term-list', 'term-detail'),
 )
