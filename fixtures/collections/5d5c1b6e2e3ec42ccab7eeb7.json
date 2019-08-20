@@ -1,0 +1,192 @@
+{
+  "dates": [
+    {
+      "expression": "Jun 27th, 1916 - Jul 23rd, 1965", 
+      "begin": "1916-06-27", 
+      "label": "creation", 
+      "end": "1965-07-23", 
+      "type": "bulk"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/101"
+    }, 
+    {
+      "ref": "/collections/920"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "microform reels", 
+      "value": "4.54"
+    }, 
+    {
+      "type": "gigabytes", 
+      "value": "1.46"
+    }
+  ], 
+  "level": "item", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "restrictions", 
+      "subnotes": [
+        {
+          "content": [
+            "commodo amet cillum consectetur amet nisi", 
+            "nisi sunt cillum sint aliqua amet", 
+            "eiusmod culpa aliquip tempor ullamco culpa"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "sunt aliqua elit velit voluptate occaecat", 
+            "occaecat est deserunt ipsum cillum eu", 
+            "laboris culpa voluptate mollit cillum duis"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "et consequat est aliqua non nulla", 
+            "in voluptate nisi mollit ad consectetur", 
+            "culpa nostrud aute mollit deserunt dolor", 
+            "dolore adipisicing nulla voluptate laborum deserunt", 
+            "do do fugiat nostrud Lorem laboris"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "nostrud nisi esse"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "originalsloc", 
+      "subnotes": [
+        {
+          "content": [
+            "laborum et minim aute voluptate irure", 
+            "nulla sunt excepteur reprehenderit aliquip duis", 
+            "deserunt amet do est aliqua ex", 
+            "excepteur quis est irure esse non", 
+            "reprehenderit minim officia duis sit occaecat"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "cupidatat ad aliqua"
+    }, 
+    {
+      "source": "wikipedia", 
+      "type": "userestrict", 
+      "subnotes": [
+        {
+          "content": [
+            "fugiat Lorem nostrud dolor irure adipisicing", 
+            "deserunt ex ea voluptate eu velit", 
+            "qui tempor magna culpa consequat incididunt", 
+            "do sit voluptate reprehenderit labore ex"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "qui et esse"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "processinfo", 
+      "subnotes": [
+        {
+          "content": [
+            "anim nisi nulla est anim non", 
+            "elit ex veniam irure qui aliquip", 
+            "mollit Lorem duis amet occaecat tempor", 
+            "ullamco cillum enim nostrud ea laboris"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "esse culpa amet laborum voluptate enim", 
+            "voluptate ullamco nostrud et adipisicing duis"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "laboris nostrud ea ipsum ullamco occaecat", 
+            "quis sunt nisi adipisicing velit officia", 
+            "in voluptate quis culpa magna dolore", 
+            "in eiusmod eiusmod ut adipisicing occaecat", 
+            "dolore sint nostrud ea nostrud commodo"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "enim ex non"
+    }
+  ], 
+  "title": "Reprehenderit pariatur cillum minim adipisicing.", 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5c1b6e956d6271a2fbb26f"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/888"
+    }, 
+    {
+      "ref": "/collections/988"
+    }, 
+    {
+      "ref": "/collections/943"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "eng", 
+      "expression": "English"
+    }, 
+    {
+      "identifier": "eng", 
+      "expression": "English"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_software/265", 
+      "type": "software"
+    }, 
+    {
+      "ref": "/agents_person/345", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents_organization/563", 
+      "type": "organization"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/850"
+    }, 
+    {
+      "ref": "/terms/786"
+    }, 
+    {
+      "ref": "/terms/765"
+    }
+  ], 
+  "creators": [
+    {
+      "ref": "/agents/family/61", 
+      "type": "family"
+    }
+  ], 
+  "id": "5d5c1b6e2e3ec42ccab7eeb7"
+}

@@ -1,0 +1,173 @@
+{
+  "dates": [
+    {
+      "expression": "May 28th, 1944 - Dec 2nd, 1988", 
+      "begin": "1944-05-28", 
+      "label": "copyright", 
+      "end": "1988-12-02", 
+      "type": "inclusive"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/419"
+    }, 
+    {
+      "ref": "/collections/125"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "cassettes", 
+      "value": "2.02"
+    }, 
+    {
+      "type": "files", 
+      "value": "3.45"
+    }
+  ], 
+  "level": "series", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "separatedmaterial", 
+      "subnotes": [
+        {
+          "content": [
+            "adipisicing aliqua elit aute minim dolor", 
+            "culpa reprehenderit proident eu nostrud amet", 
+            "nostrud enim velit consectetur id laborum", 
+            "ipsum cupidatat veniam aliquip exercitation amet", 
+            "laboris tempor nulla est aliquip consequat"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "laboris velit ullamco"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "type_note", 
+      "subnotes": [
+        {
+          "content": [
+            "ut deserunt eu veniam minim labore", 
+            "et in officia elit non cupidatat", 
+            "deserunt cupidatat duis minim proident ad", 
+            "amet eiusmod adipisicing commodo elit nisi", 
+            "reprehenderit non laborum id non amet"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "ex ad anim ipsum in nisi", 
+            "quis occaecat excepteur dolore occaecat quis", 
+            "cupidatat magna ullamco laborum sit mollit", 
+            "ullamco tempor eiusmod aliquip commodo culpa", 
+            "officia fugiat excepteur excepteur adipisicing aliqua"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "in eu enim"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "custodhist", 
+      "subnotes": [
+        {
+          "content": [
+            "duis non mollit mollit irure deserunt", 
+            "nostrud excepteur eiusmod cillum ullamco ullamco", 
+            "aliqua ullamco aliqua incididunt aliquip amet", 
+            "eu in duis enim et non", 
+            "aliquip irure laborum exercitation non quis"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "id cillum qui"
+    }, 
+    {
+      "source": "cartographer", 
+      "type": "bioghist", 
+      "subnotes": [
+        {
+          "content": [
+            "aute consectetur duis fugiat pariatur reprehenderit", 
+            "esse nisi excepteur commodo officia ullamco", 
+            "est dolor eu laboris mollit enim", 
+            "esse ullamco anim nulla dolore fugiat", 
+            "magna ullamco cupidatat do irure id"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "officia Lorem minim qui irure enim"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "amet deserunt in in eu fugiat", 
+            "labore incididunt do adipisicing non magna"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "esse proident proident"
+    }
+  ], 
+  "title": "Amet quis aliqua consectetur aliquip enim culpa commodo nisi elit do consectetur voluptate sunt.", 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5c1b6e6b540e55a8c3ef4a"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/79"
+    }, 
+    {
+      "ref": "/collections/829"
+    }, 
+    {
+      "ref": "/collections/573"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "eng", 
+      "expression": "Esperanto"
+    }, 
+    {
+      "identifier": "epo", 
+      "expression": "Esperanto"
+    }, 
+    {
+      "identifier": "eng", 
+      "expression": "Esperanto"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [], 
+  "terms": [
+    {
+      "ref": "/terms/563"
+    }
+  ], 
+  "creators": [
+    {
+      "ref": "/agents/software/246", 
+      "type": "software"
+    }, 
+    {
+      "ref": "/agents/family/619", 
+      "type": "family"
+    }
+  ], 
+  "id": "5d5c1b6ea0db2e696e23c546"
+}

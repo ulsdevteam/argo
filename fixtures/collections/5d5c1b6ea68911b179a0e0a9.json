@@ -1,0 +1,129 @@
+{
+  "dates": [
+    {
+      "expression": "Dec 11th, 1950 - Sep 11th, 1979", 
+      "begin": "1950-12-11", 
+      "label": "broadcast", 
+      "end": "1979-09-11", 
+      "type": "single"
+    }, 
+    {
+      "expression": "Nov 18th, 1945 - Sep 2nd, 1962", 
+      "begin": "1945-11-18", 
+      "label": "publication", 
+      "end": "1962-09-02", 
+      "type": "single"
+    }, 
+    {
+      "expression": "Feb 28th, 1936 - Feb 21st, 1981", 
+      "begin": "1936-02-28", 
+      "label": "other", 
+      "end": "1981-02-21", 
+      "type": "bulk"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/786"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "linear_feet", 
+      "value": "2.81"
+    }
+  ], 
+  "level": "recordgrp", 
+  "notes": [
+    {
+      "source": "cartographer", 
+      "type": "arrangement", 
+      "subnotes": [
+        {
+          "content": [
+            "enim culpa reprehenderit aliqua adipisicing occaecat", 
+            "exercitation qui ut id velit sint", 
+            "Lorem non aliquip est eu minim", 
+            "mollit quis laboris nulla consequat mollit"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "ipsum ea esse eiusmod sit elit", 
+            "sit et eiusmod nostrud tempor ea", 
+            "anim consequat culpa laborum ad est", 
+            "ex aliquip cillum duis laboris Lorem"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "ea anim ea dolore quis aliqua", 
+            "esse amet minim quis ut elit", 
+            "nulla laboris veniam velit tempor veniam", 
+            "fugiat velit excepteur ex ut ipsum"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "cillum commodo fugiat"
+    }
+  ], 
+  "title": "Tempor quis officia culpa voluptate mollit.", 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d5c1b6e908b439e4a44dac6"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/435"
+    }, 
+    {
+      "ref": "/collections/870"
+    }, 
+    {
+      "ref": "/collections/137"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "eng", 
+      "expression": "English"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_organization/801", 
+      "type": "organization"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/92"
+    }, 
+    {
+      "ref": "/terms/493"
+    }, 
+    {
+      "ref": "/terms/967"
+    }, 
+    {
+      "ref": "/terms/890"
+    }
+  ], 
+  "creators": [
+    {
+      "ref": "/agents/software/823", 
+      "type": "software"
+    }, 
+    {
+      "ref": "/agents/person/801", 
+      "type": "person"
+    }
+  ], 
+  "id": "5d5c1b6ea68911b179a0e0a9"
+}

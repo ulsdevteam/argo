@@ -1,0 +1,185 @@
+{
+  "dates": [
+    {
+      "expression": "Apr 28th, 1942 - Aug 11th, 1970", 
+      "begin": "1942-04-28", 
+      "label": "event", 
+      "end": "1970-08-11", 
+      "type": "bulk"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/645"
+    }, 
+    {
+      "ref": "/collections/582"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "files", 
+      "value": "3.96"
+    }, 
+    {
+      "type": "linear_feet", 
+      "value": "1.5"
+    }
+  ], 
+  "level": "series", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "processinfo", 
+      "subnotes": [
+        {
+          "content": [
+            "elit laboris sit sint qui reprehenderit"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "ea veniam fugiat do fugiat deserunt", 
+            "quis officia consequat duis anim exercitation", 
+            "anim fugiat nisi reprehenderit cupidatat qui"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "pariatur est qui velit laboris ex", 
+            "eiusmod eiusmod excepteur voluptate incididunt in", 
+            "pariatur excepteur duis nulla labore eu", 
+            "dolore laborum cupidatat nisi sit labore"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "enim deserunt consectetur"
+    }, 
+    {
+      "source": "cartographer", 
+      "type": "rights_statement_act", 
+      "subnotes": [
+        {
+          "content": [
+            "enim esse magna anim irure elit", 
+            "nisi adipisicing elit est anim velit", 
+            "Lorem exercitation aliqua veniam deserunt consectetur"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "eiusmod fugiat deserunt Lorem occaecat veniam", 
+            "incididunt elit esse sint deserunt dolore"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "id aute ea"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "permissions", 
+      "subnotes": [
+        {
+          "content": [
+            "dolor proident adipisicing duis dolore velit", 
+            "laboris amet et Lorem id duis"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "cupidatat incididunt quis qui aliqua in", 
+            "in aute proident veniam cillum eu"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "anim fugiat labore"
+    }
+  ], 
+  "title": "Nostrud amet culpa cupidatat minim aliquip nostrud esse eu eu ad reprehenderit.", 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5c1b6e4a83b41e7303ad67"
+    }, 
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5c1b6e4293d3fb6d0fa982"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/511"
+    }, 
+    {
+      "ref": "/collections/789"
+    }, 
+    {
+      "ref": "/collections/782"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "epo", 
+      "expression": "English"
+    }, 
+    {
+      "identifier": "epo", 
+      "expression": "English"
+    }, 
+    {
+      "identifier": "eng", 
+      "expression": "Esperanto"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_person/472", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents_software/502", 
+      "type": "software"
+    }, 
+    {
+      "ref": "/agents_family/292", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents_software/938", 
+      "type": "software"
+    }, 
+    {
+      "ref": "/agents_person/827", 
+      "type": "person"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/721"
+    }, 
+    {
+      "ref": "/terms/508"
+    }, 
+    {
+      "ref": "/terms/521"
+    }, 
+    {
+      "ref": "/terms/842"
+    }
+  ], 
+  "creators": [
+    {
+      "ref": "/agents/organization/956", 
+      "type": "organization"
+    }
+  ], 
+  "id": "5d5c1b6ee4ea7ef8405e1ef7"
+}
