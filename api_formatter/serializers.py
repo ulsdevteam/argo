@@ -1,3 +1,4 @@
+from django.urls import reverse
 from rest_framework import serializers
 
 # TODO: check on date versus datetime
@@ -5,8 +6,12 @@ from rest_framework import serializers
 
 
 class BaseListSerializer(serializers.Serializer):
-    id = serializers.CharField()
+    uri = serializers.SerializerMethodField()
     title = serializers.CharField()
+
+    def get_uri(self, obj):
+        basename = self.context.get('view').basename
+        return reverse('{}-detail'.format(basename), kwargs={"pk": obj.id})
 
 
 class AncestorSerializer(serializers.Serializer):
