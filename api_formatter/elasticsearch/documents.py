@@ -77,6 +77,27 @@ class Agent(Document):
         name = 'agents'
 
 
+class Collection(Document):
+    id = Text()
+    title = Text(analyzer='snowball', fields={'raw': Keyword()})
+    type = Text()
+    level = Text()
+    dates = Nested(Date)
+    languages = Nested(Language)
+    extents = Nested(Extent)
+    notes = Nested(Note)
+    rights_statements = Nested(RightsStatement)
+    external_identifiers = Nested(ExternalIdentifier)
+    agents = Nested(URI)  # TODO: do agents need a role?
+    terms = Nested(URI)
+    creators = Nested(URI)  # TODO: should this be part of agents?
+    ancestors = Nested(URI)
+    children = Nested(URI)
+
+    class Index:
+        name = 'collections'
+
+
 class Object(Document):
     id = Text()
     title = Text(analyzer='snowball', fields={'raw': Keyword()})
@@ -87,7 +108,7 @@ class Object(Document):
     notes = Nested(Note)
     rights_statements = Nested(RightsStatement)
     external_identifiers = Nested(ExternalIdentifier)
-    agents = Nested(URI)
+    agents = Nested(URI)  # TODO: do agents need a role?
     terms = Nested(URI)
     ancestors = Nested(URI)
 
