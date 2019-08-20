@@ -17,6 +17,8 @@ TYPE_MAP = (
     ('terms', Term, TermViewSet, 'term-list', 'term-detail'),
 )
 
+# TODO: test filtering, ordering, etc
+
 
 class TestAPI(TestCase):
     def setUp(self):
