@@ -4,12 +4,18 @@ import shortuuid
 
 from django.test import TestCase
 from django.urls import reverse
-from elasticsearch_dsl import connections, Search
+from elasticsearch_dsl import connections, Search, Index
 from rest_framework.test import APIRequestFactory
 
 from .elasticsearch.documents import Agent, Object, Term
 from .views import AgentViewSet, ObjectViewSet, TermViewSet
 from argo import settings
+
+TYPE_MAP = (
+    ('agents', Agent, AgentViewSet, 'agent-list', 'agent-detail'),
+    ('objects', Object, ObjectViewSet, 'object-list', 'object-detail'),
+    ('terms', Term, TermViewSet, 'term-list', 'term-detail'),
+)
 
 
 class TestAPI(TestCase):
@@ -34,27 +40,19 @@ class TestAPI(TestCase):
     def list_view(self, view, viewset, obj_length):
         request = self.factory.get(reverse(view))
         response = viewset.as_view(actions={"get": "list"})(request)
-        self.assertEqual(obj_length, int(response.data['count']))
+        self.assertEqual(obj_length, int(response.data['count']),
+                         "Number of documents in index for View {} did not match number indexed".format(view))
 
     def detail_view(self, view, viewset, pk):
         request = self.factory.get(reverse(view, args=[pk]))
         response = viewset.as_view(actions={"get": "retrieve"})(request, pk=pk)
-        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.status_code, 200,
+                         "View {} in ViewSet {} did not return 200 for document {}".format(view, viewset, pk))
 
-    def test_agents(self):
-        added_ids = self.index_fixture_data('fixtures/agents', Agent)
-        self.list_view('agent-list', AgentViewSet, len(added_ids))
-        for agent_id in added_ids:
-            self.detail_view('agent-detail', AgentViewSet, agent_id)
-
-    def test_objects(self):
-        added_ids = self.index_fixture_data('fixtures/objects', Object)
-        self.list_view('object-list', ObjectViewSet, len(added_ids))
-        for term_id in added_ids:
-            self.detail_view('object-detail', ObjectViewSet, term_id)
-
-    def test_terms(self):
-        added_ids = self.index_fixture_data('fixtures/terms', Term)
-        self.list_view('term-list', TermViewSet, len(added_ids))
-        for term_id in added_ids:
-            self.detail_view('term-detail', TermViewSet, term_id)
+    def test_documents(self):
+        for t in TYPE_MAP:
+            added_ids = self.index_fixture_data('fixtures/{}'.format(t[0]), t[1])
+            Index(name=t[0]).refresh()
+            self.list_view(t[3], t[2], len(added_ids))
+            for ident in added_ids:
+                self.detail_view(t[4], t[2], ident)
