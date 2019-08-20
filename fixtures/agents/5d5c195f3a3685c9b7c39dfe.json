@@ -1,0 +1,59 @@
+{
+  "dates": [
+    {
+      "expression": "Mar 6th, 1914 - Oct 30th, 2015", 
+      "begin": "1914-03-06", 
+      "label": "broadcast", 
+      "end": "2015-10-30", 
+      "type": "inclusive"
+    }
+  ], 
+  "description": "Reprehenderit consectetur nisi do id elit. Veniam incididunt eiusmod culpa cupidatat enim ut fugiat anim Lorem id eu. Sint aliqua pariatur mollit elit ad elit veniam Lorem reprehenderit consequat eiusmod eiusmod. In officia id ex aliqua veniam ipsum esse. Magna esse tempor commodo Lorem ad magna elit aliquip reprehenderit esse aute proident ullamco deserunt.", 
+  "title": "Bean Foundation", 
+  "notes": [
+    {
+      "source": "wikidata", 
+      "type": "custodhist", 
+      "subnotes": [
+        {
+          "content": [
+            "in ullamco enim veniam et velit", 
+            "nisi elit aute commodo qui consequat"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "excepteur minim officia"
+    }, 
+    {
+      "source": "cartographer", 
+      "type": "expiration", 
+      "subnotes": [
+        {
+          "content": [
+            "amet in aute enim amet aliqua", 
+            "aliquip nostrud Lorem commodo commodo adipisicing", 
+            "nisi voluptate excepteur nulla do ullamco"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "ea et veniam proident mollit laborum", 
+            "non commodo aliquip sunt minim occaecat"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "enim do magna"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5c195fe44e8cdf04885215"
+    }
+  ], 
+  "type": "organization", 
+  "id": "5d5c195f3a3685c9b7c39dfe"
+}

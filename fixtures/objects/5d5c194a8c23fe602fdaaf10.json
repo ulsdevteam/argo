@@ -1,0 +1,162 @@
+{
+  "dates": [
+    {
+      "expression": "Dec 12th, 1924 - Nov 4th, 1975", 
+      "begin": "1924-12-12", 
+      "label": "publication", 
+      "end": "1975-11-04", 
+      "type": "single"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/23"
+    }, 
+    {
+      "ref": "/collections/296"
+    }, 
+    {
+      "ref": "/collections/131"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "volumes", 
+      "value": "2.06"
+    }
+  ], 
+  "title": "Velit sit commodo anim aute nulla ex.", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "materialspec", 
+      "subnotes": [
+        {
+          "content": [
+            "aute ipsum dolor excepteur cillum elit"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "labore cupidatat ad non voluptate adipisicing", 
+            "in nisi do cupidatat Lorem do", 
+            "proident ut nulla minim laboris et", 
+            "laborum eiusmod velit eiusmod do nostrud", 
+            "veniam reprehenderit nisi duis aliqua aliquip"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "do labore qui"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "expiration", 
+      "subnotes": [
+        {
+          "content": [
+            "commodo nulla excepteur aliqua proident incididunt", 
+            "sit minim exercitation elit adipisicing deserunt", 
+            "cillum mollit consectetur officia pariatur nulla", 
+            "officia aliqua elit aute do laborum", 
+            "est cillum nostrud ipsum laboris quis"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "nisi dolor sit ea commodo laborum", 
+            "eiusmod nisi in esse aute cupidatat", 
+            "sunt commodo pariatur occaecat fugiat cupidatat", 
+            "esse minim ex reprehenderit reprehenderit duis"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "sit ullamco magna ea velit sint"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "labore velit qui"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "physfacet", 
+      "subnotes": [
+        {
+          "content": [
+            "sint velit deserunt enim amet aliquip", 
+            "aliqua cupidatat nisi ipsum ut et"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "laborum nisi laboris consectetur consequat excepteur"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "enim do enim velit ad voluptate"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "incididunt aliqua mollit"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d5c194ae5b60491bc9cc3dc"
+    }, 
+    {
+      "source": "wikidata", 
+      "identifier": "5d5c194aad39d67196c7a5b9"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "eng", 
+      "expression": "Spanish"
+    }, 
+    {
+      "identifier": "spa", 
+      "expression": "Esperanto"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_organization/60", 
+      "type": "organization"
+    }, 
+    {
+      "ref": "/agents_person/967", 
+      "type": "person"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/861"
+    }, 
+    {
+      "ref": "/terms/721"
+    }, 
+    {
+      "ref": "/terms/129"
+    }, 
+    {
+      "ref": "/terms/415"
+    }, 
+    {
+      "ref": "/terms/711"
+    }
+  ], 
+  "type": "object", 
+  "id": "5d5c194a8c23fe602fdaaf10"
+}

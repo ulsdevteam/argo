@@ -1,0 +1,56 @@
+{
+  "dates": [
+    {
+      "expression": "Jun 15th, 1936 - Jan 23rd, 1962", 
+      "begin": "1936-06-15", 
+      "label": "usage", 
+      "end": "1962-01-23", 
+      "type": "single"
+    }
+  ], 
+  "description": "Ex sunt ea exercitation commodo proident veniam. Cillum sint excepteur culpa incididunt. Laborum dolor et in magna in cillum fugiat in tempor nostrud quis ex esse aliquip.", 
+  "title": "Gallegos family", 
+  "notes": [
+    {
+      "source": "cartographer", 
+      "type": "extension", 
+      "subnotes": [
+        {
+          "content": [
+            "minim ut nulla velit sit cupidatat", 
+            "est et ea non dolor mollit", 
+            "in in sit sit anim cillum"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "nulla laboris cupidatat adipisicing deserunt veniam", 
+            "incididunt eiusmod eu amet eiusmod incididunt", 
+            "reprehenderit proident velit irure ullamco excepteur"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "cillum aliqua est incididunt do sunt"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "anim aliqua cillum"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5c19783677ebc3b5e77e52"
+    }, 
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5c1978faa61291d1929427"
+    }
+  ], 
+  "type": "family", 
+  "id": "5d5c1978dbc4ead5718cf24a"
+}

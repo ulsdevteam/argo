@@ -1,0 +1,37 @@
+{
+  "dates": [
+    {
+      "expression": "May 18th, 1936 - Dec 19th, 1990", 
+      "begin": "1936-05-18", 
+      "label": "issued", 
+      "end": "1990-12-19", 
+      "type": "single"
+    }
+  ], 
+  "description": "Laborum ullamco consequat pariatur officia nulla non enim. Pariatur non Lorem dolore enim sit laboris ad mollit voluptate sunt eu sunt fugiat. Ut do excepteur id officia aliqua ea deserunt aute pariatur. Adipisicing ut consequat veniam duis do anim excepteur consequat laboris culpa eu aliqua laboris. Officia ut voluptate esse ullamco irure laboris officia sit sint.", 
+  "title": "Sandoval Bauer", 
+  "notes": [
+    {
+      "source": "cartographer", 
+      "type": "extent", 
+      "subnotes": [
+        {
+          "content": [
+            "irure do incididunt elit mollit deserunt", 
+            "mollit dolor voluptate aliquip dolore do"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "incididunt quis quis"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d5c196e641a6dffe1e8e469"
+    }
+  ], 
+  "type": "person", 
+  "id": "5d5c196e3b9ea94ee9ad8a6c"
+}

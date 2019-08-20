@@ -1,0 +1,88 @@
+{
+  "dates": [
+    {
+      "expression": "Mar 4th, 1947 - Mar 9th, 1975", 
+      "begin": "1947-03-04", 
+      "label": "modified", 
+      "end": "1975-03-09", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "May 8th, 1920 - Jul 28th, 1992", 
+      "begin": "1920-05-08", 
+      "label": "usage", 
+      "end": "1992-07-28", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Oct 18th, 1927 - May 4th, 2014", 
+      "begin": "1927-10-18", 
+      "label": "deaccession", 
+      "end": "2014-05-04", 
+      "type": "bulk"
+    }
+  ], 
+  "ancestors": [], 
+  "extents": [
+    {
+      "type": "terabytes", 
+      "value": "2.71"
+    }
+  ], 
+  "title": "Nostrud culpa nulla cillum in.", 
+  "notes": [], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5c194a1a837a92a9b10b6c"
+    }, 
+    {
+      "source": "wikidata", 
+      "identifier": "5d5c194a8d8955fba04a7b35"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "spa", 
+      "expression": "Spanish"
+    }, 
+    {
+      "identifier": "epo", 
+      "expression": "Esperanto"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_family/177", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents_software/440", 
+      "type": "software"
+    }, 
+    {
+      "ref": "/agents_person/694", 
+      "type": "person"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/736"
+    }, 
+    {
+      "ref": "/terms/828"
+    }, 
+    {
+      "ref": "/terms/214"
+    }, 
+    {
+      "ref": "/terms/889"
+    }, 
+    {
+      "ref": "/terms/585"
+    }
+  ], 
+  "type": "object", 
+  "id": "5d5c194a66b9e3df24349f1d"
+}

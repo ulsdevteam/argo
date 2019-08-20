@@ -1,0 +1,86 @@
+{
+  "dates": [
+    {
+      "expression": "May 13th, 1936 - Nov 21st, 1971", 
+      "begin": "1936-05-13", 
+      "label": "usage", 
+      "end": "1971-11-21", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Jul 2nd, 1956 - Aug 27th, 1988", 
+      "begin": "1956-07-02", 
+      "label": "agent_relation", 
+      "end": "1988-08-27", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Dec 8th, 1945 - Apr 26th, 2010", 
+      "begin": "1945-12-08", 
+      "label": "usage", 
+      "end": "2010-04-26", 
+      "type": "single"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/522"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "photographic_slides", 
+      "value": "2.92"
+    }, 
+    {
+      "type": "gigabytes", 
+      "value": "1.88"
+    }
+  ], 
+  "title": "Aliquip minim eu adipisicing do officia.", 
+  "notes": [], 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d5c194abfb290c1983b3572"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "epo", 
+      "expression": "Spanish"
+    }, 
+    {
+      "identifier": "epo", 
+      "expression": "Esperanto"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_software/151", 
+      "type": "software"
+    }, 
+    {
+      "ref": "/agents_person/160", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents_organization/78", 
+      "type": "organization"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/622"
+    }, 
+    {
+      "ref": "/terms/334"
+    }, 
+    {
+      "ref": "/terms/10"
+    }
+  ], 
+  "type": "object", 
+  "id": "5d5c194aac372fcf0f7e4a21"
+}

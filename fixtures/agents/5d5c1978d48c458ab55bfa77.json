@@ -1,0 +1,70 @@
+{
+  "dates": [
+    {
+      "expression": "May 18th, 1919 - Jan 15th, 1960", 
+      "begin": "1919-05-18", 
+      "label": "event", 
+      "end": "1960-01-15", 
+      "type": "single"
+    }, 
+    {
+      "expression": "Jun 8th, 1929 - Jan 22nd, 1985", 
+      "begin": "1929-06-08", 
+      "label": "agent_relation", 
+      "end": "1985-01-22", 
+      "type": "single"
+    }
+  ], 
+  "description": "Anim ea laborum excepteur voluptate deserunt mollit ex. Labore velit fugiat quis ea officia sunt duis sint enim exercitation officia. Dolore ut cillum commodo in est. Sunt est ad veniam anim nulla amet mollit. Pariatur culpa incididunt magna dolore quis nulla cillum veniam elit cillum. Eu incididunt ullamco nostrud exercitation irure quis proident magna.", 
+  "title": "Lane family", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "materialspec", 
+      "subnotes": [
+        {
+          "content": [
+            "nisi magna sunt deserunt et laboris", 
+            "commodo id reprehenderit pariatur quis do", 
+            "sit eu est est non sunt", 
+            "anim occaecat pariatur et aliqua mollit", 
+            "consectetur consequat aute et aliquip ut"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "id laborum proident"
+    }, 
+    {
+      "source": "wikipedia", 
+      "type": "scopecontent", 
+      "subnotes": [
+        {
+          "content": [
+            "proident occaecat ex quis fugiat ea"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "cillum pariatur ex ea culpa officia", 
+            "veniam consectetur aliquip aliquip est elit", 
+            "dolore voluptate deserunt ea exercitation voluptate", 
+            "et nisi ipsum nulla quis occaecat", 
+            "aute proident in proident mollit excepteur"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "tempor dolor duis"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d5c197843cf3fd95b68dc3a"
+    }
+  ], 
+  "type": "family", 
+  "id": "5d5c1978d48c458ab55bfa77"
+}

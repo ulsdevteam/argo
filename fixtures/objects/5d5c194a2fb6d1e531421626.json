@@ -1,0 +1,153 @@
+{
+  "dates": [
+    {
+      "expression": "Nov 28th, 1940 - Jul 26th, 1989", 
+      "begin": "1940-11-28", 
+      "label": "agent_relation", 
+      "end": "1989-07-26", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Oct 31st, 1917 - Apr 30th, 1981", 
+      "begin": "1917-10-31", 
+      "label": "existence", 
+      "end": "1981-04-30", 
+      "type": "bulk"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/415"
+    }, 
+    {
+      "ref": "/collections/46"
+    }, 
+    {
+      "ref": "/collections/73"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "volumes", 
+      "value": "2.79"
+    }, 
+    {
+      "type": "megabytes", 
+      "value": "1.03"
+    }
+  ], 
+  "title": "Excepteur culpa cillum dolore eiusmod aute esse laborum Lorem labore deserunt amet.", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "physloc", 
+      "subnotes": [
+        {
+          "content": [
+            "officia dolore qui laboris laboris ut"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "exercitation velit nisi"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "accruals", 
+      "subnotes": [
+        {
+          "content": [
+            "aute excepteur minim velit aliquip excepteur", 
+            "labore non enim quis exercitation ex", 
+            "amet eiusmod ipsum nulla amet qui", 
+            "aliquip laboris exercitation irure voluptate occaecat"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "ut incididunt voluptate deserunt cupidatat veniam"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "incididunt deserunt exercitation consectetur tempor consectetur", 
+            "culpa mollit enim culpa sint reprehenderit", 
+            "aliqua nisi ad laboris in nostrud", 
+            "cillum consequat anim dolore reprehenderit irure"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "exercitation cillum exercitation"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "phystech", 
+      "subnotes": [
+        {
+          "content": [
+            "deserunt aliqua occaecat minim amet dolore", 
+            "nulla laboris id officia aliqua est", 
+            "ipsum reprehenderit non sunt anim commodo", 
+            "veniam id veniam occaecat amet magna"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "eu irure adipisicing culpa ea ut", 
+            "duis deserunt esse ut irure tempor", 
+            "est dolore magna voluptate velit esse", 
+            "consectetur nulla sit occaecat voluptate consequat"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "aliqua sunt non voluptate nisi magna", 
+            "reprehenderit incididunt consectetur consequat labore reprehenderit", 
+            "tempor incididunt irure elit cillum non"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "quis do occaecat"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5c194a5969941e885b04a3"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "eng", 
+      "expression": "Spanish"
+    }, 
+    {
+      "identifier": "epo", 
+      "expression": "Spanish"
+    }, 
+    {
+      "identifier": "eng", 
+      "expression": "Spanish"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_family/896", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents_family/279", 
+      "type": "family"
+    }
+  ], 
+  "terms": [], 
+  "type": "object", 
+  "id": "5d5c194a2fb6d1e531421626"
+}

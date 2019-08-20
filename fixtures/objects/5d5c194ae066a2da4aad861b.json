@@ -1,0 +1,163 @@
+{
+  "dates": [
+    {
+      "expression": "Dec 13th, 1933 - Dec 6th, 2015", 
+      "begin": "1933-12-13", 
+      "label": "existence", 
+      "end": "2015-12-06", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Aug 2nd, 1956 - May 22nd, 2015", 
+      "begin": "1956-08-02", 
+      "label": "broadcast", 
+      "end": "2015-05-22", 
+      "type": "inclusive"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/132"
+    }, 
+    {
+      "ref": "/collections/710"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "photographic_slides", 
+      "value": "3.08"
+    }
+  ], 
+  "title": "Labore ut sint reprehenderit esse aliquip qui adipisicing.", 
+  "notes": [
+    {
+      "source": "cartographer", 
+      "type": "note", 
+      "subnotes": [
+        {
+          "content": [
+            "laborum elit et minim esse enim", 
+            "deserunt anim dolor dolor Lorem sunt", 
+            "ut elit laborum reprehenderit aliqua Lorem"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "exercitation tempor do do consequat fugiat", 
+            "culpa esse exercitation ullamco minim dolor", 
+            "qui deserunt Lorem enim ut minim", 
+            "sit velit eiusmod consectetur occaecat nostrud"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "reprehenderit fugiat est"
+    }, 
+    {
+      "source": "wikipedia", 
+      "type": "index", 
+      "subnotes": [
+        {
+          "content": [
+            "consequat eu amet quis non duis", 
+            "sit eiusmod pariatur irure est officia", 
+            "ea culpa officia do et laborum", 
+            "laborum tempor fugiat ex dolor laborum", 
+            "pariatur veniam nisi ad enim culpa"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "tempor et enim qui sunt nulla", 
+            "cupidatat amet adipisicing duis occaecat voluptate", 
+            "excepteur est laboris velit id dolore"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "culpa ex occaecat"
+    }, 
+    {
+      "source": "cartographer", 
+      "type": "rights_statement_act", 
+      "subnotes": [
+        {
+          "content": [
+            "ut est culpa in anim labore"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "cillum magna cillum"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "scopecontent", 
+      "subnotes": [
+        {
+          "content": [
+            "ullamco mollit aliqua adipisicing irure quis", 
+            "eu nulla minim et qui voluptate", 
+            "voluptate in aliqua cupidatat mollit deserunt", 
+            "nisi cupidatat labore ex nulla fugiat"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "cupidatat ullamco aliqua"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5c194a22c3ca08bd58c7e0"
+    }, 
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5c194a19d5c61fac2ffb61"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "epo", 
+      "expression": "English"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_family/424", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents_family/747", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents_software/419", 
+      "type": "software"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/862"
+    }, 
+    {
+      "ref": "/terms/473"
+    }, 
+    {
+      "ref": "/terms/862"
+    }, 
+    {
+      "ref": "/terms/618"
+    }, 
+    {
+      "ref": "/terms/74"
+    }
+  ], 
+  "type": "object", 
+  "id": "5d5c194ae066a2da4aad861b"
+}

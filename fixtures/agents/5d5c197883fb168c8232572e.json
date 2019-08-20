@@ -1,0 +1,82 @@
+{
+  "dates": [
+    {
+      "expression": "Feb 21st, 1925 - Apr 9th, 1993", 
+      "begin": "1925-02-21", 
+      "label": "digitized", 
+      "end": "1993-04-09", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "May 10th, 1947 - Feb 6th, 2019", 
+      "begin": "1947-05-10", 
+      "label": "event", 
+      "end": "2019-02-06", 
+      "type": "inclusive"
+    }
+  ], 
+  "description": "Irure adipisicing pariatur qui amet nostrud. Adipisicing anim do sint sint dolor enim ad exercitation adipisicing qui reprehenderit. Nostrud ullamco enim elit dolore officia sit excepteur ut anim culpa aute esse.", 
+  "title": "Alston family", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "inscription", 
+      "subnotes": [
+        {
+          "content": [
+            "id aliqua velit dolore magna in", 
+            "aliqua pariatur duis est ex esse"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "ea eiusmod magna consequat laboris laborum", 
+            "aliquip do dolor quis dolore est", 
+            "ullamco duis in et enim amet", 
+            "sit velit officia voluptate irure do"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "labore eiusmod minim nulla nisi mollit", 
+            "id magna qui reprehenderit occaecat nulla", 
+            "consectetur Lorem ut magna sit amet", 
+            "deserunt ipsum est elit consectetur id"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "cupidatat nulla sit"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "materialspec", 
+      "subnotes": [
+        {
+          "content": [
+            "pariatur ea ex Lorem ad et", 
+            "mollit et aliquip consectetur eiusmod qui", 
+            "laborum deserunt in exercitation occaecat labore", 
+            "deserunt incididunt ipsum qui ex est"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "consequat est incididunt"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d5c1978b1134e744932968b"
+    }, 
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5c19785500913e9418646c"
+    }
+  ], 
+  "type": "family", 
+  "id": "5d5c197883fb168c8232572e"
+}

@@ -1,0 +1,155 @@
+{
+  "dates": [
+    {
+      "expression": "May 22nd, 1935 - Jun 12th, 2014", 
+      "begin": "1935-05-22", 
+      "label": "deaccession", 
+      "end": "2014-06-12", 
+      "type": "inclusive"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/289"
+    }, 
+    {
+      "ref": "/collections/547"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "box(es)", 
+      "value": "1.59"
+    }
+  ], 
+  "title": "Mollit eiusmod commodo esse fugiat incididunt ea consequat commodo elit.", 
+  "notes": [
+    {
+      "source": "wikidata", 
+      "type": "userestrict", 
+      "subnotes": [
+        {
+          "content": [
+            "ut deserunt culpa veniam officia cillum", 
+            "veniam cupidatat sint dolor dolor laboris", 
+            "incididunt duis nulla ad labore eu", 
+            "proident sunt ex eiusmod occaecat commodo", 
+            "ullamco mollit Lorem ut pariatur officia"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "officia nulla magna quis in nulla", 
+            "dolor voluptate magna commodo consectetur cupidatat", 
+            "consectetur aliquip tempor consectetur deserunt eu"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "ex dolor officia"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "prefercite", 
+      "subnotes": [
+        {
+          "content": [
+            "cupidatat in nostrud fugiat aliquip tempor", 
+            "aliquip in elit eu nisi minim", 
+            "pariatur laboris deserunt mollit amet laborum", 
+            "cupidatat anim cupidatat excepteur nulla eiusmod"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "laborum esse nulla magna laborum in"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "officia exercitation pariatur"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "langmaterial", 
+      "subnotes": [
+        {
+          "content": [
+            "voluptate laboris minim adipisicing non aliquip", 
+            "enim mollit nisi incididunt voluptate amet", 
+            "deserunt eu ullamco qui elit aliqua"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "anim incididunt duis do velit esse", 
+            "elit anim duis esse do id", 
+            "elit amet in id veniam et"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "proident irure irure"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d5c194a6dd9f3f7844c4844"
+    }, 
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5c194a0617fcb645462e27"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "spa", 
+      "expression": "English"
+    }, 
+    {
+      "identifier": "eng", 
+      "expression": "Esperanto"
+    }, 
+    {
+      "identifier": "epo", 
+      "expression": "Spanish"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_family/429", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents_family/365", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents_person/624", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents_family/27", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents_software/103", 
+      "type": "software"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/144"
+    }, 
+    {
+      "ref": "/terms/466"
+    }
+  ], 
+  "type": "object", 
+  "id": "5d5c194a729288c405ac4842"
+}

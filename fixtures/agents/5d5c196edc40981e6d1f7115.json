@@ -1,0 +1,59 @@
+{
+  "dates": [
+    {
+      "expression": "Nov 20th, 1948 - Oct 25th, 1975", 
+      "begin": "1948-11-20", 
+      "label": "agent_relation", 
+      "end": "1975-10-25", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Oct 15th, 1922 - Feb 22nd, 2011", 
+      "begin": "1922-10-15", 
+      "label": "event", 
+      "end": "2011-02-22", 
+      "type": "bulk"
+    }
+  ], 
+  "description": "Ex sint nisi aute sint laborum aute cupidatat excepteur reprehenderit. Excepteur enim ex exercitation cillum consequat non. Est nostrud ullamco adipisicing qui reprehenderit sint velit.", 
+  "title": "Manuela Fox", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "permissions", 
+      "subnotes": [
+        {
+          "content": [
+            "veniam mollit dolor nulla deserunt do", 
+            "ad exercitation exercitation incididunt proident consequat", 
+            "dolore anim dolore proident excepteur eiusmod"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "duis cillum et occaecat Lorem non", 
+            "id cillum ea incididunt proident non", 
+            "ad veniam deserunt proident aliqua elit", 
+            "ad ipsum duis veniam do commodo", 
+            "ex tempor duis commodo irure id"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "minim sint aliquip"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5c196e06c76b4b0c368958"
+    }, 
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5c196eda994315b516bfe6"
+    }
+  ], 
+  "type": "person", 
+  "id": "5d5c196edc40981e6d1f7115"
+}

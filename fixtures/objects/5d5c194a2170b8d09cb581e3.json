@@ -1,0 +1,104 @@
+{
+  "dates": [
+    {
+      "expression": "Oct 3rd, 1948 - Aug 6th, 1993", 
+      "begin": "1948-10-03", 
+      "label": "modified", 
+      "end": "1993-08-06", 
+      "type": "single"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/412"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "photographic_prints", 
+      "value": "1.38"
+    }, 
+    {
+      "type": "cassettes", 
+      "value": "4.51"
+    }
+  ], 
+  "title": "Laborum amet mollit ad nisi.", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "bioghist", 
+      "subnotes": [
+        {
+          "content": [
+            "dolor cupidatat eu et anim do", 
+            "consectetur pariatur occaecat dolore esse pariatur", 
+            "occaecat id dolor minim ipsum et"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "ipsum nisi ullamco tempor nulla culpa", 
+            "do nulla in occaecat ipsum ullamco", 
+            "aliquip tempor sint consectetur Lorem est", 
+            "eu ipsum labore consectetur dolor fugiat"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "reprehenderit eu consequat"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "userestrict", 
+      "subnotes": [
+        {
+          "content": [
+            "laborum exercitation sit sint duis eu", 
+            "dolor cupidatat laborum mollit velit consequat"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "excepteur ex aute dolore consequat elit", 
+            "est minim deserunt magna eu veniam", 
+            "commodo occaecat mollit velit adipisicing ea", 
+            "tempor non nulla exercitation et laboris"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "qui nulla officia"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5c194a34fcf6b085c1ddad"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "spa", 
+      "expression": "English"
+    }, 
+    {
+      "identifier": "eng", 
+      "expression": "Spanish"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [], 
+  "terms": [
+    {
+      "ref": "/terms/612"
+    }, 
+    {
+      "ref": "/terms/406"
+    }
+  ], 
+  "type": "object", 
+  "id": "5d5c194a2170b8d09cb581e3"
+}

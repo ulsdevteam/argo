@@ -1,0 +1,190 @@
+{
+  "dates": [
+    {
+      "expression": "Sep 5th, 1959 - Jan 8th, 1988", 
+      "begin": "1959-09-05", 
+      "label": "existence", 
+      "end": "1988-01-08", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Jan 16th, 1953 - Jun 24th, 1990", 
+      "begin": "1953-01-16", 
+      "label": "record_keeping", 
+      "end": "1990-06-24", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Sep 7th, 1940 - Aug 2nd, 2003", 
+      "begin": "1940-09-07", 
+      "label": "broadcast", 
+      "end": "2003-08-02", 
+      "type": "inclusive"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/850"
+    }, 
+    {
+      "ref": "/collections/244"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "photographic_slides", 
+      "value": "2.83"
+    }
+  ], 
+  "title": "Est sunt laboris quis irure dolore proident mollit aliquip magna nostrud.", 
+  "notes": [
+    {
+      "source": "wikidata", 
+      "type": "separatedmaterial", 
+      "subnotes": [
+        {
+          "content": [
+            "culpa consequat laborum velit in ad", 
+            "velit ut et commodo incididunt duis", 
+            "elit velit esse sint laboris aliquip"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "aliquip laboris id velit labore do", 
+            "duis amet proident occaecat deserunt sit", 
+            "eiusmod id ea laboris Lorem et", 
+            "labore dolor voluptate aliqua laborum aliqua", 
+            "ut ut laborum dolor ex commodo"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "qui eu veniam"
+    }, 
+    {
+      "source": "cartographer", 
+      "type": "prefercite", 
+      "subnotes": [
+        {
+          "content": [
+            "nulla enim nulla nulla nulla anim", 
+            "incididunt non tempor consectetur excepteur qui", 
+            "officia ex deserunt ut irure deserunt"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "aute ullamco esse cillum elit mollit", 
+            "labore fugiat id anim est sint", 
+            "enim incididunt nulla laboris aute eu", 
+            "sit aute reprehenderit esse sint aute"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "anim pariatur est cupidatat ea anim", 
+            "irure do aliquip nisi sunt ex", 
+            "nulla est aute mollit nisi aliquip", 
+            "amet sit amet cupidatat veniam pariatur", 
+            "consequat consequat consectetur anim cupidatat exercitation"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "labore duis culpa"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "additional_information", 
+      "subnotes": [
+        {
+          "content": [
+            "in laboris magna non elit deserunt"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "labore commodo consectetur"
+    }, 
+    {
+      "source": "wikipedia", 
+      "type": "relatedmaterial", 
+      "subnotes": [
+        {
+          "content": [
+            "consectetur anim et non elit irure", 
+            "nostrud occaecat pariatur consectetur non elit", 
+            "sit velit ullamco tempor nulla fugiat"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "exercitation elit esse mollit culpa id", 
+            "deserunt ipsum commodo Lorem ex ex", 
+            "do non ipsum labore Lorem do", 
+            "veniam amet sit voluptate eiusmod consectetur", 
+            "ea do aliqua aliquip pariatur id"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "fugiat eu culpa sint eu in", 
+            "cupidatat ad officia irure deserunt ex", 
+            "adipisicing ex ipsum exercitation qui nisi", 
+            "qui enim non cupidatat fugiat tempor"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "fugiat consequat ex"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5c194ab39b5f638d3250c3"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "spa", 
+      "expression": "Spanish"
+    }, 
+    {
+      "identifier": "epo", 
+      "expression": "Esperanto"
+    }, 
+    {
+      "identifier": "epo", 
+      "expression": "Esperanto"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_organization/436", 
+      "type": "organization"
+    }, 
+    {
+      "ref": "/agents_software/632", 
+      "type": "software"
+    }, 
+    {
+      "ref": "/agents_organization/178", 
+      "type": "organization"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/65"
+    }
+  ], 
+  "type": "object", 
+  "id": "5d5c194ab9b85c7087f61b1b"
+}

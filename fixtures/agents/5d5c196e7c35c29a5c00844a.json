@@ -1,0 +1,85 @@
+{
+  "dates": [
+    {
+      "expression": "Jul 24th, 1939 - Dec 1st, 2003", 
+      "begin": "1939-07-24", 
+      "label": "modified", 
+      "end": "2003-12-01", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Feb 6th, 1958 - May 31st, 2011", 
+      "begin": "1958-02-06", 
+      "label": "issued", 
+      "end": "2011-05-31", 
+      "type": "inclusive"
+    }
+  ], 
+  "description": "Aute nisi eiusmod do eiusmod magna dolore laboris dolore in. Fugiat laboris amet ad dolor. Sit aliquip exercitation aute laborum elit id ullamco elit cillum aliquip in laboris ullamco officia. Enim voluptate adipisicing esse ut eiusmod adipisicing elit commodo officia proident. Dolore tempor esse sunt eiusmod dolor exercitation incididunt occaecat eu.", 
+  "title": "Ray Stephens", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "summary", 
+      "subnotes": [
+        {
+          "content": [
+            "duis excepteur fugiat ad adipisicing id"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "fugiat pariatur dolor irure laboris eu", 
+            "ipsum elit aute ad in et", 
+            "irure culpa et ex velit consectetur"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "culpa esse dolor est est adipisicing", 
+            "consequat sint eu veniam elit ad"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "et occaecat sit"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "otherfindaid", 
+      "subnotes": [
+        {
+          "content": [
+            "labore consequat mollit laboris eiusmod aute", 
+            "consequat elit dolor ad dolore ullamco", 
+            "exercitation aliqua labore duis do culpa"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "qui velit minim laborum commodo ex", 
+            "nisi id enim exercitation fugiat do", 
+            "aute veniam cupidatat incididunt quis Lorem"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "sit magna minim"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5c196e14a54d78b8867b2c"
+    }, 
+    {
+      "source": "wikidata", 
+      "identifier": "5d5c196e5be050a5b4f0f9bc"
+    }
+  ], 
+  "type": "person", 
+  "id": "5d5c196e7c35c29a5c00844a"
+}

@@ -1,0 +1,190 @@
+{
+  "dates": [
+    {
+      "expression": "Nov 2nd, 1940 - Feb 6th, 1986", 
+      "begin": "1940-11-02", 
+      "label": "other", 
+      "end": "1986-02-06", 
+      "type": "single"
+    }, 
+    {
+      "expression": "Mar 2nd, 1932 - Mar 15th, 1964", 
+      "begin": "1932-03-02", 
+      "label": "record_keeping", 
+      "end": "1964-03-15", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Oct 2nd, 1945 - Jun 22nd, 2008", 
+      "begin": "1945-10-02", 
+      "label": "issued", 
+      "end": "2008-06-22", 
+      "type": "bulk"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/78"
+    }, 
+    {
+      "ref": "/collections/597"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "microform reels", 
+      "value": "2.16"
+    }
+  ], 
+  "title": "Ut dolore reprehenderit cupidatat reprehenderit proident sunt voluptate qui dolore.", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "fileplan", 
+      "subnotes": [
+        {
+          "content": [
+            "elit aliquip laborum ex quis sit"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "nulla commodo esse culpa ea cupidatat", 
+            "esse ea sit culpa adipisicing id", 
+            "fugiat proident eiusmod dolor minim ad"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "non aute reprehenderit laborum elit do", 
+            "nulla fugiat non minim eu velit"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "cillum excepteur incididunt"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "summary", 
+      "subnotes": [
+        {
+          "content": [
+            "reprehenderit ullamco veniam in eiusmod et", 
+            "id culpa anim incididunt dolore laboris"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "consectetur dolore elit duis sunt deserunt", 
+            "sit occaecat magna occaecat magna sunt", 
+            "occaecat do sint id nostrud sint"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "in dolor sunt exercitation do ad", 
+            "quis excepteur aute tempor nulla nisi", 
+            "exercitation labore nostrud laboris pariatur cillum", 
+            "laboris pariatur culpa nisi aliqua et", 
+            "id sint minim cupidatat ad mollit"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "aliqua eu Lorem"
+    }, 
+    {
+      "source": "wikipedia", 
+      "type": "accruals", 
+      "subnotes": [
+        {
+          "content": [
+            "ea quis in laborum ullamco ullamco", 
+            "sunt ea consequat sunt sunt id", 
+            "ut incididunt incididunt excepteur qui exercitation"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "nostrud exercitation veniam in aliquip enim", 
+            "consequat pariatur est reprehenderit officia et", 
+            "sunt duis excepteur commodo duis laborum", 
+            "eiusmod excepteur ullamco est aliqua qui"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "esse amet laborum"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "altformavail", 
+      "subnotes": [
+        {
+          "content": [
+            "sunt adipisicing reprehenderit anim deserunt fugiat", 
+            "proident labore reprehenderit amet cillum ea", 
+            "sit quis id veniam laboris voluptate", 
+            "laboris minim voluptate ex dolore esse", 
+            "pariatur aliqua tempor laborum ullamco ea"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "officia ad laboris"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5c194af87e99368f10ee2e"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "eng", 
+      "expression": "Spanish"
+    }, 
+    {
+      "identifier": "epo", 
+      "expression": "Esperanto"
+    }, 
+    {
+      "identifier": "epo", 
+      "expression": "English"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_software/41", 
+      "type": "software"
+    }, 
+    {
+      "ref": "/agents_person/110", 
+      "type": "person"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/528"
+    }, 
+    {
+      "ref": "/terms/365"
+    }, 
+    {
+      "ref": "/terms/763"
+    }, 
+    {
+      "ref": "/terms/874"
+    }
+  ], 
+  "type": "object", 
+  "id": "5d5c194a725a1c7dc4875e30"
+}

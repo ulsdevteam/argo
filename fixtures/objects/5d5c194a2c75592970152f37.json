@@ -1,0 +1,84 @@
+{
+  "dates": [
+    {
+      "expression": "Feb 13th, 1925 - May 19th, 1995", 
+      "begin": "1925-02-13", 
+      "label": "copyright", 
+      "end": "1995-05-19", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Dec 3rd, 1925 - Jul 25th, 2019", 
+      "begin": "1925-12-03", 
+      "label": "creation", 
+      "end": "2019-07-25", 
+      "type": "bulk"
+    }
+  ], 
+  "ancestors": [], 
+  "extents": [
+    {
+      "type": "cubic_feet", 
+      "value": "4.49"
+    }, 
+    {
+      "type": "leaves", 
+      "value": "2.8"
+    }
+  ], 
+  "title": "Occaecat ipsum nulla ipsum commodo.", 
+  "notes": [
+    {
+      "source": "cartographer", 
+      "type": "extension", 
+      "subnotes": [
+        {
+          "content": [
+            "aliquip voluptate ipsum nulla incididunt sint", 
+            "ullamco cupidatat duis aliquip eiusmod id"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "quis aute Lorem"
+    }, 
+    {
+      "source": "cartographer", 
+      "type": "relatedmaterial", 
+      "subnotes": [
+        {
+          "content": [
+            "cupidatat tempor dolore adipisicing in consectetur"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "laborum mollit occaecat"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5c194a0284bd5d375bd97b"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "spa", 
+      "expression": "English"
+    }, 
+    {
+      "identifier": "spa", 
+      "expression": "English"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [], 
+  "terms": [
+    {
+      "ref": "/terms/706"
+    }
+  ], 
+  "type": "object", 
+  "id": "5d5c194a2c75592970152f37"
+}

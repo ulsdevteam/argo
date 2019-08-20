@@ -1,0 +1,134 @@
+{
+  "dates": [
+    {
+      "expression": "Oct 25th, 1943 - Aug 23rd, 1982", 
+      "begin": "1943-10-25", 
+      "label": "digitized", 
+      "end": "1982-08-23", 
+      "type": "single"
+    }, 
+    {
+      "expression": "Apr 7th, 1932 - Nov 22nd, 2012", 
+      "begin": "1932-04-07", 
+      "label": "deaccession", 
+      "end": "2012-11-22", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Mar 20th, 1942 - Jan 31st, 1981", 
+      "begin": "1942-03-20", 
+      "label": "deaccession", 
+      "end": "1981-01-31", 
+      "type": "bulk"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/66"
+    }, 
+    {
+      "ref": "/collections/7"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "gigabytes", 
+      "value": "3.09"
+    }
+  ], 
+  "title": "Excepteur duis tempor dolor amet exercitation velit proident.", 
+  "notes": [
+    {
+      "source": "cartographer", 
+      "type": "dimensions", 
+      "subnotes": [
+        {
+          "content": [
+            "proident aliqua ullamco in fugiat aute", 
+            "ipsum voluptate amet elit mollit excepteur", 
+            "cupidatat consequat dolor cupidatat et ad", 
+            "commodo velit laboris enim non incididunt", 
+            "duis exercitation minim ea proident anim"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "Lorem dolore eiusmod"
+    }, 
+    {
+      "source": "wikipedia", 
+      "type": "separatedmaterial", 
+      "subnotes": [
+        {
+          "content": [
+            "excepteur sunt dolor elit magna eiusmod", 
+            "fugiat dolore amet occaecat Lorem Lorem", 
+            "incididunt nulla cupidatat tempor cupidatat culpa", 
+            "do id qui id eiusmod quis"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "pariatur aute eu reprehenderit in culpa", 
+            "qui quis Lorem Lorem eu ad"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "veniam dolore adipisicing consectetur non consectetur", 
+            "enim id ex cupidatat enim cupidatat", 
+            "esse eu exercitation ut commodo cillum", 
+            "aliqua dolore ex fugiat excepteur sit", 
+            "ullamco esse ad exercitation mollit voluptate"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "adipisicing excepteur et"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5c194a0b45d05e3e5b93a4"
+    }, 
+    {
+      "source": "wikidata", 
+      "identifier": "5d5c194a47020512f8512d3c"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "epo", 
+      "expression": "Esperanto"
+    }, 
+    {
+      "identifier": "eng", 
+      "expression": "Esperanto"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_software/892", 
+      "type": "software"
+    }, 
+    {
+      "ref": "/agents_person/207", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents_organization/680", 
+      "type": "organization"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/420"
+    }
+  ], 
+  "type": "object", 
+  "id": "5d5c194a8414fe63766995d3"
+}

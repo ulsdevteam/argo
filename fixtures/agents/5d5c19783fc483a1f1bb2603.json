@@ -1,0 +1,44 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 17th, 1928 - Feb 6th, 1964", 
+      "begin": "1928-08-17", 
+      "label": "copyright", 
+      "end": "1964-02-06", 
+      "type": "single"
+    }
+  ], 
+  "description": "Cupidatat pariatur velit amet est ea elit aliquip. Minim non incididunt laborum eu aute magna magna duis deserunt adipisicing fugiat fugiat ut in. In deserunt do eu consequat consectetur id in cillum nulla tempor. Quis id qui id velit reprehenderit magna ea culpa sit dolore eiusmod.", 
+  "title": "Nelson family", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "odd", 
+      "subnotes": [
+        {
+          "content": [
+            "sunt magna duis veniam incididunt aliquip", 
+            "aliqua esse consequat elit qui elit", 
+            "enim et voluptate proident proident minim", 
+            "consectetur ex ut cupidatat sit eu", 
+            "aliquip velit dolor id amet ipsum"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "sunt irure magna"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d5c1978a636758cac3e7cdf"
+    }, 
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5c1978926d30aecea1b3c5"
+    }
+  ], 
+  "type": "family", 
+  "id": "5d5c19783fc483a1f1bb2603"
+}

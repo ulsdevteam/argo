@@ -1,0 +1,135 @@
+{
+  "dates": [
+    {
+      "expression": "Oct 22nd, 1916 - Mar 6th, 1969", 
+      "begin": "1916-10-22", 
+      "label": "broadcast", 
+      "end": "1969-03-06", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Mar 27th, 1929 - Mar 7th, 2007", 
+      "begin": "1929-03-27", 
+      "label": "creation", 
+      "end": "2007-03-07", 
+      "type": "bulk"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/129"
+    }, 
+    {
+      "ref": "/collections/810"
+    }, 
+    {
+      "ref": "/collections/980"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "gigabytes", 
+      "value": "3.03"
+    }
+  ], 
+  "title": "Minim excepteur dolor deserunt proident nulla ea aliquip excepteur incididunt.", 
+  "notes": [
+    {
+      "source": "cartographer", 
+      "type": "materialspec", 
+      "subnotes": [
+        {
+          "content": [
+            "quis anim anim ex aliqua nisi"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "veniam cupidatat sint"
+    }, 
+    {
+      "source": "cartographer", 
+      "type": "processinfo", 
+      "subnotes": [
+        {
+          "content": [
+            "et proident duis ex qui proident", 
+            "ea ea aute qui consectetur ea", 
+            "fugiat qui nisi adipisicing fugiat nostrud"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "pariatur reprehenderit laboris incididunt eu fugiat", 
+            "laborum ullamco in eu non nisi", 
+            "sint cupidatat nostrud voluptate nulla duis"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "cupidatat nisi et minim fugiat minim", 
+            "sit in non exercitation ipsum eiusmod", 
+            "Lorem nulla cillum ullamco anim ipsum"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "qui ea ullamco"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5c194a123ca7b74e419a5b"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "spa", 
+      "expression": "English"
+    }, 
+    {
+      "identifier": "eng", 
+      "expression": "Spanish"
+    }, 
+    {
+      "identifier": "eng", 
+      "expression": "Esperanto"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_person/218", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents_organization/37", 
+      "type": "organization"
+    }, 
+    {
+      "ref": "/agents_organization/233", 
+      "type": "organization"
+    }, 
+    {
+      "ref": "/agents_family/39", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents_software/120", 
+      "type": "software"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/566"
+    }, 
+    {
+      "ref": "/terms/894"
+    }
+  ], 
+  "type": "object", 
+  "id": "5d5c194a7ff1b4361e42b75f"
+}

@@ -1,0 +1,78 @@
+{
+  "dates": [
+    {
+      "expression": "May 6th, 1923 - Dec 15th, 1987", 
+      "begin": "1923-05-06", 
+      "label": "creation", 
+      "end": "1987-12-15", 
+      "type": "bulk"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/657"
+    }, 
+    {
+      "ref": "/collections/409"
+    }, 
+    {
+      "ref": "/collections/434"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "microform reels", 
+      "value": "2.65"
+    }
+  ], 
+  "title": "Pariatur occaecat sit cupidatat mollit proident in sunt laboris ut.", 
+  "notes": [
+    {
+      "source": "cartographer", 
+      "type": "relatedmaterial", 
+      "subnotes": [
+        {
+          "content": [
+            "officia nulla minim nisi ad deserunt", 
+            "enim excepteur ea veniam sunt anim", 
+            "elit anim exercitation ipsum proident veniam", 
+            "consectetur duis adipisicing in id commodo", 
+            "nisi ad aute eu sit dolore"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "mollit labore nisi"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5c194a39391d8e6019fa22"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "epo", 
+      "expression": "Esperanto"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_person/19", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents_person/491", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents_software/465", 
+      "type": "software"
+    }
+  ], 
+  "terms": [], 
+  "type": "object", 
+  "id": "5d5c194af523a3bebc6efcc5"
+}

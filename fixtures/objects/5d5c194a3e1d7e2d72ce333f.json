@@ -1,0 +1,60 @@
+{
+  "dates": [
+    {
+      "expression": "Nov 4th, 1929 - Dec 16th, 1997", 
+      "begin": "1929-11-04", 
+      "label": "issued", 
+      "end": "1997-12-16", 
+      "type": "bulk"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/10"
+    }, 
+    {
+      "ref": "/collections/614"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "microform reels", 
+      "value": "2.57"
+    }
+  ], 
+  "title": "Dolore nulla nisi eu voluptate adipisicing tempor occaecat deserunt non aliquip dolore velit do.", 
+  "notes": [], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5c194aa8ea76a5671a7058"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "spa", 
+      "expression": "English"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_organization/995", 
+      "type": "organization"
+    }, 
+    {
+      "ref": "/agents_family/171", 
+      "type": "family"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/470"
+    }, 
+    {
+      "ref": "/terms/178"
+    }
+  ], 
+  "type": "object", 
+  "id": "5d5c194a3e1d7e2d72ce333f"
+}

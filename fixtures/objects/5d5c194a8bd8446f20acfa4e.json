@@ -1,0 +1,89 @@
+{
+  "dates": [
+    {
+      "expression": "Dec 31st, 1932 - Dec 30th, 2011", 
+      "begin": "1932-12-31", 
+      "label": "event", 
+      "end": "2011-12-30", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "May 18th, 1942 - Mar 1st, 2002", 
+      "begin": "1942-05-18", 
+      "label": "issued", 
+      "end": "2002-03-01", 
+      "type": "single"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/439"
+    }, 
+    {
+      "ref": "/collections/119"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "leaves", 
+      "value": "4.95"
+    }
+  ], 
+  "title": "Est ea consectetur dolore anim aliquip exercitation adipisicing culpa dolor exercitation aliquip mollit.", 
+  "notes": [], 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d5c194ad2e2def202f61c6f"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "eng", 
+      "expression": "Spanish"
+    }, 
+    {
+      "identifier": "spa", 
+      "expression": "Spanish"
+    }, 
+    {
+      "identifier": "epo", 
+      "expression": "English"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_organization/421", 
+      "type": "organization"
+    }, 
+    {
+      "ref": "/agents_software/381", 
+      "type": "software"
+    }, 
+    {
+      "ref": "/agents_software/660", 
+      "type": "software"
+    }, 
+    {
+      "ref": "/agents_family/940", 
+      "type": "family"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/117"
+    }, 
+    {
+      "ref": "/terms/668"
+    }, 
+    {
+      "ref": "/terms/387"
+    }, 
+    {
+      "ref": "/terms/512"
+    }
+  ], 
+  "type": "object", 
+  "id": "5d5c194a8bd8446f20acfa4e"
+}

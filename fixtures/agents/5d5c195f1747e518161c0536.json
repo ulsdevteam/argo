@@ -1,0 +1,76 @@
+{
+  "dates": [
+    {
+      "expression": "Mar 23rd, 1915 - Nov 12th, 1998", 
+      "begin": "1915-03-23", 
+      "label": "creation", 
+      "end": "1998-11-12", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Apr 27th, 1930 - Aug 29th, 1995", 
+      "begin": "1930-04-27", 
+      "label": "event", 
+      "end": "1995-08-29", 
+      "type": "inclusive"
+    }
+  ], 
+  "description": "Occaecat cupidatat laborum adipisicing elit. Duis dolor cupidatat aliqua officia consequat. Officia dolore magna dolore reprehenderit sunt laboris enim aute irure deserunt.", 
+  "title": "Hanson Foundation", 
+  "notes": [
+    {
+      "source": "cartographer", 
+      "type": "originalsloc", 
+      "subnotes": [
+        {
+          "content": [
+            "cupidatat est dolor laboris consequat consectetur"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "deserunt quis ea ut do magna", 
+            "duis minim ea excepteur anim reprehenderit", 
+            "deserunt ex sunt consequat in nostrud", 
+            "sint magna proident duis ad quis"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "deserunt incididunt cillum"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "inscription", 
+      "subnotes": [
+        {
+          "content": [
+            "esse anim ea irure sint excepteur", 
+            "labore ipsum nostrud minim anim anim", 
+            "eiusmod commodo elit occaecat consequat pariatur", 
+            "excepteur qui magna nisi occaecat sint", 
+            "amet excepteur laborum nulla officia quis"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "dolor elit exercitation magna id eiusmod", 
+            "ut fugiat eu et non esse"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "mollit officia elit"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5c195f42cb8c37dd3f0dd6"
+    }
+  ], 
+  "type": "organization", 
+  "id": "5d5c195f1747e518161c0536"
+}

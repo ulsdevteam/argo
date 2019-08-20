@@ -1,0 +1,45 @@
+{
+  "dates": [
+    {
+      "expression": "Apr 17th, 1935 - Jan 11th, 1975", 
+      "begin": "1935-04-17", 
+      "label": "copyright", 
+      "end": "1975-01-11", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Jan 31st, 1959 - Sep 4th, 1994", 
+      "begin": "1959-01-31", 
+      "label": "usage", 
+      "end": "1994-09-04", 
+      "type": "inclusive"
+    }
+  ], 
+  "description": "Deserunt est nulla magna ut anim ut nostrud sunt et commodo ea pariatur qui minim. Amet duis occaecat sit excepteur sint incididunt. Dolore aute qui ex laborum dolor laboris laboris sit exercitation cupidatat. Proident occaecat do officia exercitation ad non incididunt. Eu nulla non aute adipisicing eu.", 
+  "title": "Maddox family", 
+  "notes": [
+    {
+      "source": "wikidata", 
+      "type": "arrangement", 
+      "subnotes": [
+        {
+          "content": [
+            "anim cillum deserunt culpa do exercitation", 
+            "ex ea excepteur aute dolor non", 
+            "aliqua irure aliquip et elit deserunt"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "magna occaecat officia"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d5c19780016a289f8765738"
+    }
+  ], 
+  "type": "family", 
+  "id": "5d5c197887bd5f28876f4b36"
+}

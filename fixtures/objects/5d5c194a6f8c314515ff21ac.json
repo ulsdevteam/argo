@@ -1,0 +1,54 @@
+{
+  "dates": [
+    {
+      "expression": "Jun 22nd, 1955 - Jul 10th, 1974", 
+      "begin": "1955-06-22", 
+      "label": "other", 
+      "end": "1974-07-10", 
+      "type": "single"
+    }
+  ], 
+  "ancestors": [], 
+  "extents": [
+    {
+      "type": "leaves", 
+      "value": "4.78"
+    }, 
+    {
+      "type": "microform reels", 
+      "value": "1.54"
+    }
+  ], 
+  "title": "Ut labore sunt ut dolor magna id Lorem tempor sint reprehenderit eu.", 
+  "notes": [], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5c194a020eb66ce37e6f5c"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "spa", 
+      "expression": "English"
+    }, 
+    {
+      "identifier": "eng", 
+      "expression": "Esperanto"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_family/666", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents_software/866", 
+      "type": "software"
+    }
+  ], 
+  "terms": [], 
+  "type": "object", 
+  "id": "5d5c194a6f8c314515ff21ac"
+}

@@ -1,0 +1,89 @@
+{
+  "dates": [
+    {
+      "expression": "Nov 5th, 1915 - Jul 31st, 1986", 
+      "begin": "1915-11-05", 
+      "label": "deaccession", 
+      "end": "1986-07-31", 
+      "type": "inclusive"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/992"
+    }, 
+    {
+      "ref": "/collections/218"
+    }, 
+    {
+      "ref": "/collections/761"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "box(es)", 
+      "value": "3.22"
+    }, 
+    {
+      "type": "gigabytes", 
+      "value": "4.09"
+    }
+  ], 
+  "title": "Occaecat aute anim quis esse pariatur.", 
+  "notes": [
+    {
+      "source": "wikidata", 
+      "type": "arrangement", 
+      "subnotes": [
+        {
+          "content": [
+            "excepteur officia exercitation voluptate ea cupidatat", 
+            "id voluptate quis duis ad pariatur", 
+            "reprehenderit eu eu eiusmod pariatur id", 
+            "anim nisi est pariatur exercitation dolore", 
+            "sint aliqua reprehenderit ex velit anim"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "amet ullamco dolore"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d5c194af83bf33ca0c31c53"
+    }, 
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5c194a29eab7ad9e8b23cb"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "eng", 
+      "expression": "English"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [], 
+  "terms": [
+    {
+      "ref": "/terms/939"
+    }, 
+    {
+      "ref": "/terms/514"
+    }, 
+    {
+      "ref": "/terms/31"
+    }, 
+    {
+      "ref": "/terms/806"
+    }, 
+    {
+      "ref": "/terms/881"
+    }
+  ], 
+  "type": "object", 
+  "id": "5d5c194a81871a57d6ff19ac"
+}

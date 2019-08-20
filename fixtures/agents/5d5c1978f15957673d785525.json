@@ -1,0 +1,75 @@
+{
+  "dates": [
+    {
+      "expression": "Apr 29th, 1923 - Dec 23rd, 2008", 
+      "begin": "1923-04-29", 
+      "label": "digitized", 
+      "end": "2008-12-23", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Jan 6th, 1958 - Mar 11th, 1970", 
+      "begin": "1958-01-06", 
+      "label": "usage", 
+      "end": "1970-03-11", 
+      "type": "bulk"
+    }
+  ], 
+  "description": "Nisi non in laboris deserunt cupidatat quis voluptate. Est do esse aliquip irure ad qui occaecat aliquip. Eiusmod nisi fugiat fugiat cupidatat culpa irure dolor duis amet. Aliquip eu eiusmod exercitation consectetur eiusmod labore sint nostrud irure irure ipsum ullamco dolore exercitation. Magna nostrud voluptate velit qui qui magna excepteur culpa qui.", 
+  "title": "Joyce family", 
+  "notes": [
+    {
+      "source": "wikidata", 
+      "type": "processinfo", 
+      "subnotes": [
+        {
+          "content": [
+            "incididunt laborum dolore culpa proident in", 
+            "tempor eiusmod tempor laborum laborum in", 
+            "veniam commodo enim deserunt cillum magna", 
+            "elit ex mollit cupidatat amet tempor", 
+            "irure eu tempor voluptate mollit sit"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "non magna reprehenderit"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "phystech", 
+      "subnotes": [
+        {
+          "content": [
+            "irure sint occaecat ex enim culpa"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "proident occaecat voluptate qui officia tempor"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "proident et fugiat laborum laborum est", 
+            "eu labore tempor adipisicing in commodo", 
+            "laboris aliquip nulla ipsum sunt commodo", 
+            "aliquip fugiat excepteur veniam nisi reprehenderit"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "fugiat minim excepteur"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5c1978a29976520d695205"
+    }
+  ], 
+  "type": "family", 
+  "id": "5d5c1978f15957673d785525"
+}

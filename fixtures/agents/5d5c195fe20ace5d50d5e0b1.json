@@ -1,0 +1,75 @@
+{
+  "dates": [
+    {
+      "expression": "Feb 23rd, 1956 - May 20th, 2004", 
+      "begin": "1956-02-23", 
+      "label": "modified", 
+      "end": "2004-05-20", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "May 15th, 1952 - Jan 21st, 1974", 
+      "begin": "1952-05-15", 
+      "label": "agent_relation", 
+      "end": "1974-01-21", 
+      "type": "inclusive"
+    }
+  ], 
+  "description": "Ipsum deserunt irure consequat velit pariatur. Elit enim id minim cupidatat velit non sunt ut. Occaecat aute deserunt exercitation proident ea qui laboris.", 
+  "title": "Merritt Foundation", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "expiration", 
+      "subnotes": [
+        {
+          "content": [
+            "voluptate eiusmod ullamco laborum non Lorem", 
+            "commodo ullamco mollit ullamco consectetur ea", 
+            "culpa nostrud consequat qui minim veniam", 
+            "eu Lorem quis eu aliquip do", 
+            "ut enim officia eiusmod enim exercitation"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "officia minim laboris"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "summary", 
+      "subnotes": [
+        {
+          "content": [
+            "aliqua ad officia incididunt quis do", 
+            "ut ex aute occaecat fugiat minim", 
+            "consectetur ullamco reprehenderit consectetur anim nulla"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "proident velit non laboris est quis"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "officia laborum anim dolor adipisicing ipsum", 
+            "amet Lorem sint sunt incididunt nisi"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "pariatur consequat sint"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d5c195f1e73a67504b8abe3"
+    }
+  ], 
+  "type": "organization", 
+  "id": "5d5c195fe20ace5d50d5e0b1"
+}

@@ -1,0 +1,122 @@
+{
+  "dates": [
+    {
+      "expression": "Jun 20th, 1949 - Jan 18th, 1991", 
+      "begin": "1949-06-20", 
+      "label": "publication", 
+      "end": "1991-01-18", 
+      "type": "single"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/443"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "cubic_feet", 
+      "value": "4.92"
+    }, 
+    {
+      "type": "files", 
+      "value": "2.13"
+    }
+  ], 
+  "title": "Tempor anim aliquip et minim id exercitation laborum est culpa sunt dolore mollit in.", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "appraisal", 
+      "subnotes": [
+        {
+          "content": [
+            "consectetur aute veniam sunt pariatur id"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "enim laborum voluptate id sint velit", 
+            "minim consectetur officia proident sint sunt"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "velit Lorem ipsum"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "prefercite", 
+      "subnotes": [
+        {
+          "content": [
+            "mollit velit velit ut laborum Lorem", 
+            "culpa minim deserunt eiusmod voluptate qui", 
+            "ipsum Lorem sunt quis in officia", 
+            "do enim magna ut qui commodo", 
+            "ad dolor officia adipisicing est dolor"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "ad voluptate ex culpa officia tempor", 
+            "consectetur eu nisi adipisicing eu aliquip", 
+            "cillum enim ea duis nisi sit", 
+            "dolor esse consequat proident nisi tempor", 
+            "nostrud aliqua consequat voluptate laboris officia"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "minim sint reprehenderit id minim sint", 
+            "qui nostrud qui aliqua ex ex"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "id minim reprehenderit"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5c194a2377437a306f1dc0"
+    }, 
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5c194ad70f00ebe2836a32"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "eng", 
+      "expression": "Spanish"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_organization/538", 
+      "type": "organization"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/226"
+    }, 
+    {
+      "ref": "/terms/823"
+    }, 
+    {
+      "ref": "/terms/23"
+    }, 
+    {
+      "ref": "/terms/948"
+    }
+  ], 
+  "type": "object", 
+  "id": "5d5c194afed6b945cd9e2160"
+}

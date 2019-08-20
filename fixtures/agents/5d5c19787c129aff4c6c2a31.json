@@ -1,0 +1,67 @@
+{
+  "dates": [
+    {
+      "expression": "Jul 26th, 1945 - Apr 28th, 1961", 
+      "begin": "1945-07-26", 
+      "label": "event", 
+      "end": "1961-04-28", 
+      "type": "single"
+    }
+  ], 
+  "description": "Occaecat ex ullamco occaecat elit excepteur voluptate aliqua aliqua eu deserunt. Tempor adipisicing dolore ea amet ipsum ad id et ut ut. Id do proident sunt sint eu in enim nostrud ea et minim. Ullamco qui magna ullamco laboris cupidatat velit non laborum commodo.", 
+  "title": "Bates family", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "userestrict", 
+      "subnotes": [
+        {
+          "content": [
+            "Lorem sit consectetur occaecat tempor minim"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "consequat fugiat ipsum laborum sunt excepteur"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "aliqua minim est velit exercitation adipisicing", 
+            "nostrud ad commodo qui qui aliquip", 
+            "cupidatat aute in proident quis proident", 
+            "magna sunt veniam nulla ipsum excepteur", 
+            "laborum nulla eu nostrud esse excepteur"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "et laborum eu"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "expiration", 
+      "subnotes": [
+        {
+          "content": [
+            "non voluptate nisi proident ad incididunt", 
+            "pariatur consectetur amet sit quis laboris", 
+            "qui non irure laborum ea pariatur"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "ea non ex"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5c19788ebad93abc580724"
+    }
+  ], 
+  "type": "family", 
+  "id": "5d5c19787c129aff4c6c2a31"
+}

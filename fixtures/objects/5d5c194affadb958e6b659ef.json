@@ -1,0 +1,151 @@
+{
+  "dates": [
+    {
+      "expression": "Sep 7th, 1931 - Apr 29th, 2018", 
+      "begin": "1931-09-07", 
+      "label": "record_keeping", 
+      "end": "2018-04-29", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Jul 25th, 1917 - Apr 28th, 1993", 
+      "begin": "1917-07-25", 
+      "label": "other", 
+      "end": "1993-04-28", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Sep 29th, 1930 - Jan 5th, 1972", 
+      "begin": "1930-09-29", 
+      "label": "other", 
+      "end": "1972-01-05", 
+      "type": "bulk"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/641"
+    }, 
+    {
+      "ref": "/collections/685"
+    }, 
+    {
+      "ref": "/collections/993"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "photographic_prints", 
+      "value": "3.83"
+    }, 
+    {
+      "type": "linear_feet", 
+      "value": "3.75"
+    }
+  ], 
+  "title": "Dolor aliqua culpa reprehenderit aute dolor incididunt id exercitation consectetur ex duis excepteur dolor consectetur.", 
+  "notes": [
+    {
+      "source": "cartographer", 
+      "type": "accessrestrict", 
+      "subnotes": [
+        {
+          "content": [
+            "irure duis ad quis velit cillum", 
+            "tempor id tempor laborum aliqua minim", 
+            "consectetur et veniam fugiat ex proident", 
+            "est anim sunt cillum sint Lorem", 
+            "laboris velit dolor labore ea anim"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "ipsum veniam ullamco ipsum culpa consectetur", 
+            "laborum mollit ea dolore veniam deserunt", 
+            "aliquip labore exercitation elit incididunt quis", 
+            "culpa pariatur est sunt officia eu"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "ipsum exercitation aute incididunt mollit mollit", 
+            "excepteur quis est eiusmod sint sunt", 
+            "consequat elit consectetur deserunt do ut", 
+            "deserunt consequat aliqua culpa aliqua aliquip"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "fugiat fugiat fugiat"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "accessrestrict", 
+      "subnotes": [
+        {
+          "content": [
+            "culpa duis laboris proident reprehenderit in"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "ullamco est sunt commodo aute eu"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "exercitation sint aute"
+    }, 
+    {
+      "source": "wikipedia", 
+      "type": "note", 
+      "subnotes": [
+        {
+          "content": [
+            "consequat laboris veniam deserunt eu laboris", 
+            "nostrud ea sunt dolor non aliqua"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "voluptate nostrud dolore"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d5c194a802fb141a5dc5ab2"
+    }, 
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5c194a11a38539e71c96a1"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "spa", 
+      "expression": "Spanish"
+    }, 
+    {
+      "identifier": "eng", 
+      "expression": "Spanish"
+    }, 
+    {
+      "identifier": "epo", 
+      "expression": "English"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_software/533", 
+      "type": "software"
+    }
+  ], 
+  "terms": [], 
+  "type": "object", 
+  "id": "5d5c194affadb958e6b659ef"
+}

@@ -1,0 +1,79 @@
+{
+  "dates": [
+    {
+      "expression": "Jun 10th, 1921 - Aug 30th, 2018", 
+      "begin": "1921-06-10", 
+      "label": "record_keeping", 
+      "end": "2018-08-30", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Mar 17th, 1952 - Jul 15th, 1963", 
+      "begin": "1952-03-17", 
+      "label": "modified", 
+      "end": "1963-07-15", 
+      "type": "bulk"
+    }
+  ], 
+  "description": "Veniam duis sit aliqua minim. Officia laborum ex mollit ipsum labore in est sunt officia laborum elit occaecat ullamco do. Dolor adipisicing magna ipsum elit sit excepteur. Eiusmod non commodo tempor aliquip nisi elit aliquip magna duis non reprehenderit deserunt consectetur. Sit exercitation quis occaecat do non laboris nulla.", 
+  "title": "Golden family", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "materialspec", 
+      "subnotes": [
+        {
+          "content": [
+            "amet consequat veniam cillum qui ipsum"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "ut laboris duis nisi ea officia", 
+            "commodo laborum enim ea elit veniam", 
+            "esse officia proident officia labore aute", 
+            "ea elit nulla proident incididunt nisi", 
+            "est amet adipisicing qui aute laboris"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "officia deserunt occaecat"
+    }, 
+    {
+      "source": "wikipedia", 
+      "type": "physfacet", 
+      "subnotes": [
+        {
+          "content": [
+            "laborum adipisicing consectetur est irure id", 
+            "adipisicing voluptate laborum eu qui deserunt", 
+            "ullamco anim nulla laborum pariatur et"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "cillum incididunt eu cupidatat cillum sint", 
+            "nulla non non Lorem ex deserunt"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "esse velit nisi"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d5c1978991537ca1f1d87c5"
+    }, 
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5c19781e552b856ed0b8ef"
+    }
+  ], 
+  "type": "family", 
+  "id": "5d5c1978c7c9363196437540"
+}

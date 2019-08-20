@@ -1,0 +1,50 @@
+{
+  "dates": [
+    {
+      "expression": "May 9th, 1919 - Oct 11th, 1967", 
+      "begin": "1919-05-09", 
+      "label": "digitized", 
+      "end": "1967-10-11", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Oct 21st, 1945 - May 1st, 1972", 
+      "begin": "1945-10-21", 
+      "label": "issued", 
+      "end": "1972-05-01", 
+      "type": "single"
+    }
+  ], 
+  "description": "Non nulla ipsum voluptate ipsum duis quis aliqua et voluptate ex ipsum. Ipsum magna adipisicing proident eu ex voluptate ex dolor nostrud fugiat. Ea non veniam exercitation occaecat irure aliqua ex. Fugiat ut cillum id nulla occaecat.", 
+  "title": "Lopez family", 
+  "notes": [
+    {
+      "source": "cartographer", 
+      "type": "processinfo", 
+      "subnotes": [
+        {
+          "content": [
+            "mollit occaecat id amet deserunt reprehenderit", 
+            "irure duis aliquip nisi dolore reprehenderit"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "reprehenderit qui amet id irure voluptate"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "nostrud cillum reprehenderit"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d5c1978088602eb1e44224a"
+    }
+  ], 
+  "type": "family", 
+  "id": "5d5c19783b46822f618d7bc0"
+}

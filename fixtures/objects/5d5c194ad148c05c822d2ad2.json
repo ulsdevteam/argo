@@ -1,0 +1,91 @@
+{
+  "dates": [
+    {
+      "expression": "Dec 27th, 1931 - Mar 21st, 2006", 
+      "begin": "1931-12-27", 
+      "label": "issued", 
+      "end": "2006-03-21", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "May 29th, 1935 - Jun 9th, 2004", 
+      "begin": "1935-05-29", 
+      "label": "digitized", 
+      "end": "2004-06-09", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "May 2nd, 1939 - Dec 18th, 1993", 
+      "begin": "1939-05-02", 
+      "label": "issued", 
+      "end": "1993-12-18", 
+      "type": "bulk"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/328"
+    }, 
+    {
+      "ref": "/collections/482"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "document box(es)", 
+      "value": "1.86"
+    }, 
+    {
+      "type": "box(es)", 
+      "value": "2.06"
+    }
+  ], 
+  "title": "Laborum culpa qui esse laboris eu Lorem ipsum mollit sit tempor non consequat.", 
+  "notes": [], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5c194ae41bda112f782b24"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "epo", 
+      "expression": "Esperanto"
+    }, 
+    {
+      "identifier": "eng", 
+      "expression": "Spanish"
+    }, 
+    {
+      "identifier": "epo", 
+      "expression": "English"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_organization/813", 
+      "type": "organization"
+    }, 
+    {
+      "ref": "/agents_person/188", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents_family/688", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents_person/613", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents_family/600", 
+      "type": "family"
+    }
+  ], 
+  "terms": [], 
+  "type": "object", 
+  "id": "5d5c194ad148c05c822d2ad2"
+}

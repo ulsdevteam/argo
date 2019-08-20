@@ -1,0 +1,124 @@
+{
+  "dates": [
+    {
+      "expression": "May 24th, 1940 - Feb 8th, 1978", 
+      "begin": "1940-05-24", 
+      "label": "modified", 
+      "end": "1978-02-08", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Jul 26th, 1947 - Nov 22nd, 1981", 
+      "begin": "1947-07-26", 
+      "label": "agent_relation", 
+      "end": "1981-11-22", 
+      "type": "single"
+    }, 
+    {
+      "expression": "Sep 29th, 1914 - Mar 12th, 1986", 
+      "begin": "1914-09-29", 
+      "label": "event", 
+      "end": "1986-03-12", 
+      "type": "single"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/326"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "sheets", 
+      "value": 3
+    }, 
+    {
+      "type": "terabytes", 
+      "value": "3.97"
+    }
+  ], 
+  "title": "Ea pariatur velit incididunt laborum magna proident aute elit cillum elit dolore.", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "expiration", 
+      "subnotes": [
+        {
+          "content": [
+            "non consequat dolor mollit culpa esse", 
+            "fugiat nulla pariatur sunt magna eu", 
+            "velit sunt tempor culpa excepteur tempor", 
+            "id sint in non dolor sint"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "anim ullamco aute dolore minim sunt", 
+            "aute non Lorem elit elit mollit"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "enim laborum in"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d5c194a3a34f7e8e7693668"
+    }, 
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5c194a60a830d3cf3af9c6"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "epo", 
+      "expression": "English"
+    }, 
+    {
+      "identifier": "epo", 
+      "expression": "Esperanto"
+    }, 
+    {
+      "identifier": "epo", 
+      "expression": "Spanish"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_organization/433", 
+      "type": "organization"
+    }, 
+    {
+      "ref": "/agents_person/478", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents_organization/914", 
+      "type": "organization"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/587"
+    }, 
+    {
+      "ref": "/terms/52"
+    }, 
+    {
+      "ref": "/terms/516"
+    }, 
+    {
+      "ref": "/terms/592"
+    }, 
+    {
+      "ref": "/terms/251"
+    }
+  ], 
+  "type": "object", 
+  "id": "5d5c194a210fb22574f296c0"
+}

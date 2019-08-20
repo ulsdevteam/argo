@@ -1,0 +1,80 @@
+{
+  "dates": [
+    {
+      "expression": "Feb 10th, 1929 - Jan 7th, 1991", 
+      "begin": "1929-02-10", 
+      "label": "copyright", 
+      "end": "1991-01-07", 
+      "type": "inclusive"
+    }
+  ], 
+  "description": "Elit pariatur id veniam magna ipsum dolor do. Velit laborum eiusmod dolore proident adipisicing sit eu irure proident dolor Lorem. Aliquip magna irure adipisicing aliquip est irure excepteur dolor laboris occaecat consectetur ullamco. Exercitation aliqua enim nostrud Lorem ut duis est ex sit do nulla incididunt proident ad. Reprehenderit pariatur veniam aliqua eu. Elit id ipsum pariatur officia et officia voluptate non excepteur minim Lorem amet laboris. Anim est voluptate occaecat incididunt.", 
+  "title": "Wiley Spence", 
+  "notes": [
+    {
+      "source": "wikidata", 
+      "type": "bibliography", 
+      "subnotes": [
+        {
+          "content": [
+            "dolor adipisicing fugiat tempor esse deserunt", 
+            "amet aliquip quis ullamco duis laborum", 
+            "proident velit eiusmod enim magna et", 
+            "veniam qui aliquip laboris aliquip anim", 
+            "et aliquip id consequat consequat duis"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "velit quis dolore cupidatat cupidatat ut", 
+            "duis laboris quis non sit nostrud", 
+            "deserunt enim in enim amet aute", 
+            "tempor laborum sint dolore ipsum eu"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "fugiat adipisicing proident elit sint eu", 
+            "aute aliqua nostrud nulla Lorem et", 
+            "enim exercitation reprehenderit culpa qui et"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "adipisicing ea sunt"
+    }, 
+    {
+      "source": "cartographer", 
+      "type": "rights_statement", 
+      "subnotes": [
+        {
+          "content": [
+            "aliqua ullamco cupidatat deserunt cupidatat amet", 
+            "ex aute nulla fugiat veniam eu", 
+            "ipsum nostrud nulla consectetur eiusmod Lorem", 
+            "ex non excepteur velit eiusmod consectetur"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "cillum minim officia aute duis veniam", 
+            "nulla ullamco dolore laboris velit dolore"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "enim duis adipisicing"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5c196ec396901d71c93a1f"
+    }
+  ], 
+  "type": "person", 
+  "id": "5d5c196e6efd58aa97a21752"
+}

@@ -1,0 +1,57 @@
+{
+  "dates": [
+    {
+      "expression": "Mar 6th, 1951 - Dec 11th, 1992", 
+      "begin": "1951-03-06", 
+      "label": "other", 
+      "end": "1992-12-11", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Jul 9th, 1937 - Nov 27th, 1992", 
+      "begin": "1937-07-09", 
+      "label": "event", 
+      "end": "1992-11-27", 
+      "type": "inclusive"
+    }
+  ], 
+  "description": "Anim enim ea voluptate officia adipisicing pariatur consectetur consectetur nostrud. Eiusmod incididunt nisi consequat fugiat culpa ad ipsum esse elit. Quis sint qui excepteur dolore est elit deserunt laborum ex. Eiusmod commodo ad sint do consequat dolore consectetur sit et.", 
+  "title": "Herring Foundation", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "langmaterial", 
+      "subnotes": [
+        {
+          "content": [
+            "irure irure incididunt esse culpa qui"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "est qui velit voluptate deserunt mollit", 
+            "anim cillum enim occaecat cillum aliqua", 
+            "eu Lorem culpa exercitation occaecat irure", 
+            "tempor tempor aliquip qui enim cupidatat", 
+            "exercitation fugiat aute minim irure sit"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "officia pariatur ullamco"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5c195fb15809d707f30269"
+    }, 
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5c195f87e5bccb72edafe7"
+    }
+  ], 
+  "type": "organization", 
+  "id": "5d5c195f23fee6480c8ce062"
+}

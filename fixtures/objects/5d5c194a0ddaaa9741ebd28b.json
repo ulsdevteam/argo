@@ -1,0 +1,152 @@
+{
+  "dates": [
+    {
+      "expression": "Dec 7th, 1956 - Dec 9th, 1977", 
+      "begin": "1956-12-07", 
+      "label": "record_keeping", 
+      "end": "1977-12-09", 
+      "type": "inclusive"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/521"
+    }, 
+    {
+      "ref": "/collections/147"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "files", 
+      "value": "1.76"
+    }
+  ], 
+  "title": "Ex in occaecat cillum cillum ipsum non officia veniam.", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "otherfindaid", 
+      "subnotes": [
+        {
+          "content": [
+            "dolore sit proident consequat anim sit", 
+            "aliqua consequat esse reprehenderit ipsum reprehenderit"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "culpa dolor aliqua"
+    }, 
+    {
+      "source": "cartographer", 
+      "type": "materialspec", 
+      "subnotes": [
+        {
+          "content": [
+            "magna veniam do fugiat labore elit", 
+            "eu adipisicing Lorem consequat elit non"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "cupidatat incididunt deserunt"
+    }, 
+    {
+      "source": "cartographer", 
+      "type": "edition", 
+      "subnotes": [
+        {
+          "content": [
+            "do anim duis dolore excepteur anim", 
+            "non ad adipisicing proident consequat tempor"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "do dolore consequat aliqua adipisicing consectetur", 
+            "anim officia mollit sint anim irure", 
+            "excepteur amet laboris exercitation consequat enim", 
+            "ea dolore aliqua deserunt mollit quis", 
+            "excepteur consequat veniam consectetur veniam mollit"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "cillum officia veniam qui aute proident", 
+            "veniam eiusmod ea voluptate sunt mollit", 
+            "consequat in duis ut dolor commodo", 
+            "laboris in ut incididunt velit minim", 
+            "sunt nulla culpa irure eiusmod veniam"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "commodo ea exercitation"
+    }, 
+    {
+      "source": "cartographer", 
+      "type": "restrictions", 
+      "subnotes": [
+        {
+          "content": [
+            "labore id commodo qui pariatur magna", 
+            "dolor dolore non id consectetur aute", 
+            "aliqua nisi aute velit nostrud nulla", 
+            "ipsum amet quis officia et eu"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "minim deserunt ex ullamco laboris veniam", 
+            "magna veniam laborum ipsum non incididunt", 
+            "ipsum pariatur sunt pariatur ipsum irure"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "culpa aliqua eu"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5c194a27fe756e915aa739"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "spa", 
+      "expression": "Spanish"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_person/792", 
+      "type": "person"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/559"
+    }, 
+    {
+      "ref": "/terms/990"
+    }, 
+    {
+      "ref": "/terms/964"
+    }, 
+    {
+      "ref": "/terms/728"
+    }, 
+    {
+      "ref": "/terms/835"
+    }
+  ], 
+  "type": "object", 
+  "id": "5d5c194a0ddaaa9741ebd28b"
+}

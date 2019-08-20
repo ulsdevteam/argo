@@ -1,0 +1,47 @@
+{
+  "dates": [
+    {
+      "expression": "Sep 17th, 1925 - Mar 30th, 1995", 
+      "begin": "1925-09-17", 
+      "label": "usage", 
+      "end": "1995-03-30", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Sep 18th, 1920 - Nov 8th, 1997", 
+      "begin": "1920-09-18", 
+      "label": "existence", 
+      "end": "1997-11-08", 
+      "type": "bulk"
+    }
+  ], 
+  "description": "Elit irure adipisicing esse minim Lorem non deserunt ullamco. Ex eiusmod tempor ipsum nisi. Aliqua tempor cillum ea labore laboris consectetur ut incididunt esse dolor labore ullamco magna magna. Officia deserunt duis voluptate eiusmod irure ad eu sint consectetur qui dolore eu culpa consectetur. Ut est ea Lorem ullamco eu.", 
+  "title": "Lawson Foundation", 
+  "notes": [
+    {
+      "source": "wikidata", 
+      "type": "note", 
+      "subnotes": [
+        {
+          "content": [
+            "cillum id sit irure id tempor", 
+            "cillum eiusmod dolore minim irure eu", 
+            "proident laborum ex eu excepteur consequat", 
+            "sit aute culpa qui eu dolor", 
+            "sunt incididunt non enim consectetur laborum"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "esse fugiat mollit"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d5c195fad2795c1d802fcd0"
+    }
+  ], 
+  "type": "organization", 
+  "id": "5d5c195f931d68baac4c89c9"
+}

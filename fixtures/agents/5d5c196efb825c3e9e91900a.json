@@ -1,0 +1,57 @@
+{
+  "dates": [
+    {
+      "expression": "Jul 30th, 1915 - Apr 6th, 1964", 
+      "begin": "1915-07-30", 
+      "label": "event", 
+      "end": "1964-04-06", 
+      "type": "single"
+    }
+  ], 
+  "description": "Occaecat dolore ea Lorem ad officia. Aliquip laborum adipisicing minim in aliquip Lorem deserunt in cupidatat. Proident deserunt sit non nulla deserunt cupidatat. Et incididunt ipsum est deserunt. Nisi tempor elit nostrud enim velit cillum minim non et proident incididunt aliquip cillum.", 
+  "title": "Lelia Fuentes", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "index", 
+      "subnotes": [
+        {
+          "content": [
+            "mollit incididunt in magna nostrud reprehenderit", 
+            "anim fugiat mollit proident irure sint"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "voluptate magna minim non eiusmod excepteur"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "sunt do ut ut incididunt sunt", 
+            "pariatur nostrud ullamco consectetur commodo proident", 
+            "officia minim pariatur non id nostrud", 
+            "elit ut duis nulla do et", 
+            "nostrud amet magna reprehenderit ea adipisicing"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "aliqua id ipsum"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d5c196e51ec7c927337e2d2"
+    }, 
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5c196e5bdec366d03ed8c1"
+    }
+  ], 
+  "type": "person", 
+  "id": "5d5c196efb825c3e9e91900a"
+}

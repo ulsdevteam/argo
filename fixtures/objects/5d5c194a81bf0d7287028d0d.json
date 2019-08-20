@@ -1,0 +1,147 @@
+{
+  "dates": [
+    {
+      "expression": "Oct 27th, 1926 - Nov 5th, 2002", 
+      "begin": "1926-10-27", 
+      "label": "existence", 
+      "end": "2002-11-05", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Mar 12th, 1934 - Feb 26th, 1967", 
+      "begin": "1934-03-12", 
+      "label": "modified", 
+      "end": "1967-02-26", 
+      "type": "inclusive"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/798"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "sheets", 
+      "value": "3.4"
+    }
+  ], 
+  "title": "Elit laboris eiusmod eu ullamco et voluptate duis proident enim commodo voluptate ea qui duis.", 
+  "notes": [
+    {
+      "source": "cartographer", 
+      "type": "otherfindaid", 
+      "subnotes": [
+        {
+          "content": [
+            "Lorem qui minim esse ea est", 
+            "voluptate eiusmod aute eiusmod elit nisi", 
+            "quis tempor aliquip dolor dolor cupidatat", 
+            "consectetur ullamco amet ut proident eu"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "pariatur cupidatat duis"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "separatedmaterial", 
+      "subnotes": [
+        {
+          "content": [
+            "excepteur ad ex enim aliquip aliquip", 
+            "quis veniam veniam minim dolore aute"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "aliquip ea tempor et qui sint", 
+            "anim pariatur do ullamco tempor est", 
+            "ipsum cillum in elit ad qui", 
+            "sunt laboris nisi sint minim ex"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "consequat qui exercitation pariatur consectetur nostrud", 
+            "duis culpa excepteur fugiat est ullamco"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "consequat exercitation ad"
+    }, 
+    {
+      "source": "wikipedia", 
+      "type": "processinfo", 
+      "subnotes": [
+        {
+          "content": [
+            "Lorem cupidatat adipisicing pariatur culpa non", 
+            "ut sit elit consectetur anim cupidatat", 
+            "ipsum veniam in ut amet amet", 
+            "aliquip laboris mollit minim tempor minim", 
+            "velit eu officia fugiat eiusmod consectetur"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "sit duis commodo fugiat ea adipisicing", 
+            "non do nulla tempor consequat aliquip", 
+            "est sunt Lorem exercitation id incididunt"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "sit proident minim cillum consectetur aute"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "laborum eu consequat"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5c194adf9aedfe15ed4519"
+    }, 
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5c194af8f39a84a79e252c"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "spa", 
+      "expression": "Esperanto"
+    }, 
+    {
+      "identifier": "eng", 
+      "expression": "Spanish"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [], 
+  "terms": [
+    {
+      "ref": "/terms/970"
+    }, 
+    {
+      "ref": "/terms/763"
+    }, 
+    {
+      "ref": "/terms/621"
+    }, 
+    {
+      "ref": "/terms/468"
+    }
+  ], 
+  "type": "object", 
+  "id": "5d5c194a81bf0d7287028d0d"
+}

@@ -1,0 +1,112 @@
+{
+  "dates": [
+    {
+      "expression": "Jan 31st, 1948 - Oct 6th, 1960", 
+      "begin": "1948-01-31", 
+      "label": "broadcast", 
+      "end": "1960-10-06", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Feb 7th, 1931 - Nov 14th, 2013", 
+      "begin": "1931-02-07", 
+      "label": "record_keeping", 
+      "end": "2013-11-14", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Apr 26th, 1916 - Oct 2nd, 1983", 
+      "begin": "1916-04-26", 
+      "label": "record_keeping", 
+      "end": "1983-10-02", 
+      "type": "inclusive"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/227"
+    }, 
+    {
+      "ref": "/collections/104"
+    }, 
+    {
+      "ref": "/collections/23"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "linear_feet", 
+      "value": "4.5"
+    }, 
+    {
+      "type": "record cartons", 
+      "value": "4.76"
+    }
+  ], 
+  "title": "Lorem occaecat aliquip ut aliqua est exercitation quis id quis nisi quis et cupidatat.", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "index", 
+      "subnotes": [
+        {
+          "content": [
+            "ut reprehenderit magna cillum adipisicing proident", 
+            "Lorem eu in ex magna pariatur"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "reprehenderit minim veniam dolor commodo aute", 
+            "laboris consequat eu aute proident quis", 
+            "eu Lorem anim mollit eu occaecat", 
+            "amet ad dolore eu qui enim", 
+            "tempor est cillum sit voluptate nisi"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "dolore nisi qui"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d5c194a9dfdd6c4d1619f2b"
+    }, 
+    {
+      "source": "wikidata", 
+      "identifier": "5d5c194a5871bc63f32648db"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "spa", 
+      "expression": "English"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_organization/544", 
+      "type": "organization"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/466"
+    }, 
+    {
+      "ref": "/terms/374"
+    }, 
+    {
+      "ref": "/terms/142"
+    }, 
+    {
+      "ref": "/terms/359"
+    }
+  ], 
+  "type": "object", 
+  "id": "5d5c194a82b0d2748a9e98f7"
+}

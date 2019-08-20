@@ -1,0 +1,73 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 12th, 1931 - May 14th, 1999", 
+      "begin": "1931-08-12", 
+      "label": "digitized", 
+      "end": "1999-05-14", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Nov 4th, 1954 - Jan 16th, 1972", 
+      "begin": "1954-11-04", 
+      "label": "issued", 
+      "end": "1972-01-16", 
+      "type": "bulk"
+    }
+  ], 
+  "description": "Eiusmod ullamco deserunt nulla eiusmod magna quis eu aliqua do Lorem et. Ut irure enim officia cillum reprehenderit. Sint exercitation magna id duis quis amet ipsum laboris qui labore.", 
+  "title": "Boyd family", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "relatedmaterial", 
+      "subnotes": [
+        {
+          "content": [
+            "nostrud veniam labore ex laborum fugiat", 
+            "enim pariatur dolor duis labore id", 
+            "ipsum amet aute ullamco elit nulla", 
+            "sunt fugiat occaecat commodo enim sunt"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "fugiat cupidatat est"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "physfacet", 
+      "subnotes": [
+        {
+          "content": [
+            "fugiat est mollit occaecat consequat consequat"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "dolor labore qui eu laboris in", 
+            "ut ex dolor in eiusmod id", 
+            "enim veniam duis esse deserunt laboris"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "amet ad proident sunt labore amet"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "cillum incididunt do"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5c19788713d2178937b511"
+    }
+  ], 
+  "type": "family", 
+  "id": "5d5c19788a4854fcf6d3ec42"
+}

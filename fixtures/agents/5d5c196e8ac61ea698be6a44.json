@@ -1,0 +1,61 @@
+{
+  "dates": [
+    {
+      "expression": "May 8th, 1923 - Dec 7th, 2001", 
+      "begin": "1923-05-08", 
+      "label": "copyright", 
+      "end": "2001-12-07", 
+      "type": "single"
+    }, 
+    {
+      "expression": "Sep 20th, 1956 - Jan 13th, 1990", 
+      "begin": "1956-09-20", 
+      "label": "modified", 
+      "end": "1990-01-13", 
+      "type": "bulk"
+    }
+  ], 
+  "description": "Incididunt elit aute irure voluptate commodo in proident deserunt eiusmod anim ullamco pariatur enim. Magna cupidatat consequat ipsum culpa labore et ullamco veniam minim sit sint qui nulla pariatur. Consequat do aliquip do amet consectetur amet nulla. Eu eu amet Lorem consequat. Sit ex tempor minim aute qui eiusmod voluptate consectetur qui ullamco.", 
+  "title": "Liza Lester", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "phystech", 
+      "subnotes": [
+        {
+          "content": [
+            "elit consectetur fugiat aliqua veniam enim", 
+            "commodo esse exercitation amet et tempor"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "enim consectetur incididunt nulla quis aute", 
+            "ex dolor ea eu aliqua et"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "elit officia nulla culpa ex laborum"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "ullamco esse exercitation"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d5c196edc9bd4013f2cae97"
+    }, 
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5c196e63dc80f2af5cefe4"
+    }
+  ], 
+  "type": "person", 
+  "id": "5d5c196e8ac61ea698be6a44"
+}

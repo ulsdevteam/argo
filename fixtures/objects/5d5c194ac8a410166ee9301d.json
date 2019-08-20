@@ -1,0 +1,73 @@
+{
+  "dates": [
+    {
+      "expression": "Nov 25th, 1917 - Jul 16th, 1974", 
+      "begin": "1917-11-25", 
+      "label": "agent_relation", 
+      "end": "1974-07-16", 
+      "type": "single"
+    }
+  ], 
+  "ancestors": [], 
+  "extents": [
+    {
+      "type": "sheets", 
+      "value": "1.99"
+    }, 
+    {
+      "type": "microform reels", 
+      "value": "4.3"
+    }
+  ], 
+  "title": "Id consequat id laborum do ullamco mollit anim ex.", 
+  "notes": [], 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d5c194ac975595bdb25a62a"
+    }, 
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5c194a702e420f60623c5a"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "epo", 
+      "expression": "English"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_software/194", 
+      "type": "software"
+    }, 
+    {
+      "ref": "/agents_software/805", 
+      "type": "software"
+    }, 
+    {
+      "ref": "/agents_person/580", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents_person/519", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents_person/490", 
+      "type": "person"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/635"
+    }, 
+    {
+      "ref": "/terms/261"
+    }
+  ], 
+  "type": "object", 
+  "id": "5d5c194ac8a410166ee9301d"
+}
