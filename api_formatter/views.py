@@ -81,28 +81,28 @@ class AgentViewSet(DocumentViewSet):
             return AgentListSerializer
         return AgentSerializer
 
-    filter_backends = [
-        FilteringFilterBackend,
-        IdsFilterBackend,
-        OrderingFilterBackend,
-        CompoundSearchFilterBackend,
-    ]
-
-    filter_fields = {
-        'id': {
-            'field': 'id',
-            'lookups': [
-                LOOKUP_FILTER_RANGE,
-                LOOKUP_QUERY_IN,
-                LOOKUP_QUERY_GT,
-                LOOKUP_QUERY_GTE,
-                LOOKUP_QUERY_LT,
-                LOOKUP_QUERY_LTE,
-            ],
-        },
-        'title': 'title.raw',
-        'type': 'type.raw',
-    }
+    # filter_backends = [
+    #     FilteringFilterBackend,
+    #     IdsFilterBackend,
+    #     OrderingFilterBackend,
+    #     CompoundSearchFilterBackend,
+    # ]
+    #
+    # filter_fields = {
+    #     'id': {
+    #         'field': 'id',
+    #         'lookups': [
+    #             LOOKUP_FILTER_RANGE,
+    #             LOOKUP_QUERY_IN,
+    #             LOOKUP_QUERY_GT,
+    #             LOOKUP_QUERY_GTE,
+    #             LOOKUP_QUERY_LT,
+    #             LOOKUP_QUERY_LTE,
+    #         ],
+    #     },
+    #     'title': 'title.raw',
+    #     'type': 'type.raw',
+    # }
 
 
 class CollectionViewSet(DocumentViewSet):

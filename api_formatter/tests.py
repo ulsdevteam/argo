@@ -59,3 +59,7 @@ class TestAPI(TestCase):
             self.list_view(t[3], t[2], len(added_ids))
             for ident in added_ids:
                 self.detail_view(t[4], t[2], ident)
+
+    def test_schema(self):
+        schema = self.client.get(reverse('schema'))
+        self.assertEqual(schema.status_code, 200, "Wrong HTTP code")
