@@ -7,8 +7,8 @@ from django.urls import reverse
 from elasticsearch_dsl import connections, Search
 from rest_framework.test import APIRequestFactory
 
-from .elasticsearch.documents import Agent, Term
-from .views import AgentViewSet, TermViewSet
+from .elasticsearch.documents import Agent, Object, Term
+from .views import AgentViewSet, ObjectViewSet, TermViewSet
 from argo import settings
 
 
@@ -16,7 +16,7 @@ class TestAPI(TestCase):
     def setUp(self):
         self.factory = APIRequestFactory()
         connections.create_connection(hosts=settings.ELASTICSEARCH_DSL['default']['hosts'], timeout=60)
-        for cls in [Agent, Term]:
+        for cls in [Agent, Object, Term]:
             cls.init()
 
     def index_fixture_data(self, source_filepath, doc_cls):
@@ -46,6 +46,12 @@ class TestAPI(TestCase):
         self.list_view('agent-list', AgentViewSet, len(added_ids))
         for agent_id in added_ids:
             self.detail_view('agent-detail', AgentViewSet, agent_id)
+
+    def test_objects(self):
+        added_ids = self.index_fixture_data('fixtures/objects', Object)
+        self.list_view('object-list', ObjectViewSet, len(added_ids))
+        for term_id in added_ids:
+            self.detail_view('object-detail', ObjectViewSet, term_id)
 
     def test_terms(self):
         added_ids = self.index_fixture_data('fixtures/terms', Term)

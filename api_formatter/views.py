@@ -25,9 +25,10 @@ from django_elasticsearch_dsl_drf.filter_backends import (
 )
 from django_elasticsearch_dsl_drf.pagination import PageNumberPagination
 
-from .elasticsearch.documents import Agent, Term
+from .elasticsearch.documents import Agent, Object, Term
 from .serializers import (
     AgentSerializer, AgentListSerializer,
+    ObjectSerializer, ObjectListSerializer,
     TermSerializer, TermListSerializer
     )
 
@@ -103,6 +104,18 @@ class AgentViewSet(DocumentViewSet):
     }
 
 
+class ObjectViewSet(DocumentViewSet):
+    document = Object
+    ordering_fields = {}
+
+    def get_serializer_class(self):
+        if self.action == 'list':
+            return ObjectListSerializer
+        return ObjectSerializer
+
+    # TODO: filtering and ordering
+
+
 class TermViewSet(DocumentViewSet):
     document = Term
     ordering_fields = {}
@@ -111,3 +124,5 @@ class TermViewSet(DocumentViewSet):
         if self.action == 'list':
             return TermListSerializer
         return TermSerializer
+
+    # TODO: filtering and ordering
