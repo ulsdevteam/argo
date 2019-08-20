@@ -1,0 +1,108 @@
+{
+  "dates": [
+    {
+      "expression": "Oct 2nd, 1948 - Nov 27th, 2018", 
+      "begin": "1948-10-02", 
+      "label": "other", 
+      "end": "2018-11-27", 
+      "type": "single"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/959"
+    }, 
+    {
+      "ref": "/collections/965"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "cubic_feet", 
+      "value": "3.48"
+    }, 
+    {
+      "type": "photographic_slides", 
+      "value": "4.41"
+    }
+  ], 
+  "level": "item", 
+  "notes": [], 
+  "title": "Fugiat ex incididunt fugiat ullamco magna.", 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5c3085ce666e1685ee87ad"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/807"
+    }, 
+    {
+      "ref": "/collections/786"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "epo", 
+      "expression": "Esperanto"
+    }, 
+    {
+      "identifier": "epo", 
+      "expression": "English"
+    }, 
+    {
+      "identifier": "eng", 
+      "expression": "Esperanto"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_family/444", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents_family/277", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents_family/232", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents_family/283", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents_organization/775", 
+      "type": "organization"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/542"
+    }, 
+    {
+      "ref": "/terms/265"
+    }, 
+    {
+      "ref": "/terms/876"
+    }, 
+    {
+      "ref": "/terms/883"
+    }, 
+    {
+      "ref": "/terms/877"
+    }
+  ], 
+  "creators": [
+    {
+      "ref": "/agents/family/587", 
+      "type": "family"
+    }
+  ], 
+  "type": "collection", 
+  "id": "5d5c30855a91bdde36f91cf4"
+}

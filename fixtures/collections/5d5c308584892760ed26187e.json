@@ -1,0 +1,127 @@
+{
+  "dates": [
+    {
+      "expression": "Apr 14th, 1926 - Mar 26th, 2013", 
+      "begin": "1926-04-14", 
+      "label": "agent_relation", 
+      "end": "2013-03-26", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Oct 31st, 1952 - Jul 29th, 2015", 
+      "begin": "1952-10-31", 
+      "label": "record_keeping", 
+      "end": "2015-07-29", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Oct 23rd, 1920 - Oct 5th, 1960", 
+      "begin": "1920-10-23", 
+      "label": "digitized", 
+      "end": "1960-10-05", 
+      "type": "inclusive"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/854"
+    }, 
+    {
+      "ref": "/collections/756"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "cassettes", 
+      "value": "4.74"
+    }
+  ], 
+  "level": "otherLevel", 
+  "notes": [
+    {
+      "source": "wikidata", 
+      "type": "phystech", 
+      "subnotes": [
+        {
+          "content": [
+            "esse culpa do non pariatur laborum", 
+            "non duis aliquip nisi fugiat enim", 
+            "ea adipisicing excepteur reprehenderit aliquip ullamco", 
+            "anim ea esse magna minim cillum", 
+            "eu elit est ea aliqua labore"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "cupidatat occaecat nisi enim fugiat velit", 
+            "reprehenderit laboris non officia ex dolore"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "fugiat ad est excepteur et non", 
+            "eu Lorem proident irure laboris officia"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "exercitation sint sint"
+    }
+  ], 
+  "title": "Enim fugiat enim laboris nulla Lorem exercitation culpa.", 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5c308571d744625bd80c73"
+    }, 
+    {
+      "source": "wikidata", 
+      "identifier": "5d5c30857bee35b0db08f34f"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/492"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "epo", 
+      "expression": "English"
+    }, 
+    {
+      "identifier": "eng", 
+      "expression": "Spanish"
+    }, 
+    {
+      "identifier": "eng", 
+      "expression": "Esperanto"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_family/829", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents_person/122", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents_person/563", 
+      "type": "person"
+    }
+  ], 
+  "terms": [], 
+  "creators": [
+    {
+      "ref": "/agents/software/967", 
+      "type": "software"
+    }
+  ], 
+  "type": "collection", 
+  "id": "5d5c308584892760ed26187e"
+}

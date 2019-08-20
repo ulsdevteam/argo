@@ -1,0 +1,130 @@
+{
+  "dates": [
+    {
+      "expression": "Mar 22nd, 1955 - Jan 25th, 1987", 
+      "begin": "1955-03-22", 
+      "label": "agent_relation", 
+      "end": "1987-01-25", 
+      "type": "single"
+    }, 
+    {
+      "expression": "Mar 12th, 1952 - Dec 20th, 1961", 
+      "begin": "1952-03-12", 
+      "label": "publication", 
+      "end": "1961-12-20", 
+      "type": "inclusive"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/480"
+    }, 
+    {
+      "ref": "/collections/132"
+    }, 
+    {
+      "ref": "/collections/833"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "files", 
+      "value": "1.93"
+    }
+  ], 
+  "level": "collection", 
+  "notes": [
+    {
+      "source": "cartographer", 
+      "type": "langmaterial", 
+      "subnotes": [
+        {
+          "content": [
+            "amet officia reprehenderit commodo eiusmod dolore", 
+            "et cupidatat quis reprehenderit excepteur veniam", 
+            "dolor deserunt proident commodo in magna"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "laborum fugiat in in nisi veniam"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "et aute nisi sit sunt nostrud", 
+            "tempor officia excepteur proident do laborum", 
+            "magna nisi Lorem officia elit et", 
+            "tempor magna anim labore non aliquip"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "sint ipsum in"
+    }, 
+    {
+      "source": "cartographer", 
+      "type": "acquinfo", 
+      "subnotes": [
+        {
+          "content": [
+            "adipisicing nisi ut culpa dolor id"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "nisi pariatur ut"
+    }
+  ], 
+  "title": "Quis non adipisicing tempor eu sint adipisicing ut aliquip dolor ipsum incididunt.", 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d5c3085c445dd4f8f665f76"
+    }, 
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5c3085d2a468833d5cf971"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/347"
+    }, 
+    {
+      "ref": "/collections/571"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "epo", 
+      "expression": "English"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_person/946", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents_person/311", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents_person/832", 
+      "type": "person"
+    }
+  ], 
+  "terms": [], 
+  "creators": [
+    {
+      "ref": "/agents/family/935", 
+      "type": "family"
+    }
+  ], 
+  "type": "collection", 
+  "id": "5d5c3085269d62c98bf20869"
+}

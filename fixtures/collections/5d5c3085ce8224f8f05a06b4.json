@@ -1,0 +1,124 @@
+{
+  "dates": [
+    {
+      "expression": "Jan 22nd, 1950 - Aug 17th, 2006", 
+      "begin": "1950-01-22", 
+      "label": "agent_relation", 
+      "end": "2006-08-17", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Dec 2nd, 1919 - Sep 14th, 2001", 
+      "begin": "1919-12-02", 
+      "label": "record_keeping", 
+      "end": "2001-09-14", 
+      "type": "single"
+    }, 
+    {
+      "expression": "Aug 11th, 1946 - Jan 13th, 1984", 
+      "begin": "1946-08-11", 
+      "label": "publication", 
+      "end": "1984-01-13", 
+      "type": "bulk"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/627"
+    }, 
+    {
+      "ref": "/collections/89"
+    }, 
+    {
+      "ref": "/collections/734"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "sheets", 
+      "value": "4.83"
+    }
+  ], 
+  "level": "otherLevel", 
+  "notes": [
+    {
+      "source": "wikidata", 
+      "type": "appraisal", 
+      "subnotes": [
+        {
+          "content": [
+            "ut non sit commodo et dolore", 
+            "aliqua dolore non et ex voluptate", 
+            "minim qui deserunt dolor adipisicing magna", 
+            "labore nisi voluptate duis tempor officia", 
+            "voluptate quis quis non reprehenderit labore"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "commodo aute pariatur"
+    }
+  ], 
+  "title": "Dolore nisi ut nulla laboris aliqua aliqua.", 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5c3085cafff799c0b41e9a"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/560"
+    }, 
+    {
+      "ref": "/collections/97"
+    }, 
+    {
+      "ref": "/collections/951"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "spa", 
+      "expression": "Spanish"
+    }, 
+    {
+      "identifier": "spa", 
+      "expression": "English"
+    }, 
+    {
+      "identifier": "epo", 
+      "expression": "English"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_organization/18", 
+      "type": "organization"
+    }, 
+    {
+      "ref": "/agents_family/261", 
+      "type": "family"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/349"
+    }, 
+    {
+      "ref": "/terms/888"
+    }, 
+    {
+      "ref": "/terms/286"
+    }
+  ], 
+  "creators": [
+    {
+      "ref": "/agents/family/370", 
+      "type": "family"
+    }
+  ], 
+  "type": "collection", 
+  "id": "5d5c3085ce8224f8f05a06b4"
+}

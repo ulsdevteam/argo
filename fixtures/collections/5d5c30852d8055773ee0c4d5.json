@@ -1,0 +1,132 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 22nd, 1931 - Jun 1st, 2013", 
+      "begin": "1931-08-22", 
+      "label": "deaccession", 
+      "end": "2013-06-01", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Mar 7th, 1957 - Dec 22nd, 2015", 
+      "begin": "1957-03-07", 
+      "label": "record_keeping", 
+      "end": "2015-12-22", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Mar 12th, 1952 - Apr 28th, 1982", 
+      "begin": "1952-03-12", 
+      "label": "deaccession", 
+      "end": "1982-04-28", 
+      "type": "inclusive"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/362"
+    }, 
+    {
+      "ref": "/collections/896"
+    }, 
+    {
+      "ref": "/collections/711"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "sheets", 
+      "value": "1.85"
+    }, 
+    {
+      "type": "cassettes", 
+      "value": "3.93"
+    }
+  ], 
+  "level": "item", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "materialspec", 
+      "subnotes": [
+        {
+          "content": [
+            "consequat consequat incididunt reprehenderit qui proident", 
+            "et nulla proident sint ea consequat", 
+            "deserunt mollit ea proident nulla nostrud", 
+            "cillum amet anim irure sint est", 
+            "excepteur non ullamco mollit do commodo"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "ut qui excepteur"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "physloc", 
+      "subnotes": [
+        {
+          "content": [
+            "dolor ea fugiat dolor duis proident", 
+            "laboris cillum magna nostrud veniam Lorem", 
+            "sint pariatur nostrud labore qui esse", 
+            "in sint sunt Lorem id do"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "cillum ad ut eu exercitation Lorem", 
+            "anim nulla dolore exercitation non duis", 
+            "velit ullamco sit est laboris ipsum", 
+            "occaecat velit laboris laborum occaecat adipisicing", 
+            "laboris sit ad aliqua aliqua consequat"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "quis qui anim"
+    }
+  ], 
+  "title": "Tempor fugiat ullamco do commodo eu nostrud.", 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5c30854fc1e30d94171fdd"
+    }, 
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5c30855293f511b482c16f"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/620"
+    }, 
+    {
+      "ref": "/collections/14"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "spa", 
+      "expression": "Spanish"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [], 
+  "terms": [
+    {
+      "ref": "/terms/839"
+    }
+  ], 
+  "creators": [
+    {
+      "ref": "/agents/organization/694", 
+      "type": "organization"
+    }
+  ], 
+  "type": "collection", 
+  "id": "5d5c30852d8055773ee0c4d5"
+}

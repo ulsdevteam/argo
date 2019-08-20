@@ -1,0 +1,157 @@
+{
+  "dates": [
+    {
+      "expression": "Mar 21st, 1951 - Dec 21st, 1981", 
+      "begin": "1951-03-21", 
+      "label": "modified", 
+      "end": "1981-12-21", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Feb 18th, 1955 - Sep 12th, 2003", 
+      "begin": "1955-02-18", 
+      "label": "agent_relation", 
+      "end": "2003-09-12", 
+      "type": "single"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/265"
+    }, 
+    {
+      "ref": "/collections/660"
+    }, 
+    {
+      "ref": "/collections/40"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "record cartons", 
+      "value": "3.87"
+    }, 
+    {
+      "type": "photographic_slides", 
+      "value": "3.21"
+    }
+  ], 
+  "level": "series", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "note", 
+      "subnotes": [
+        {
+          "content": [
+            "officia est reprehenderit eu nisi ex"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "exercitation ex ea"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "summary", 
+      "subnotes": [
+        {
+          "content": [
+            "ea dolore ex ex aliqua nostrud", 
+            "eu cillum sunt eiusmod voluptate qui", 
+            "dolore id ea aliqua non magna", 
+            "eiusmod dolore velit voluptate mollit consequat"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "nulla velit consequat veniam aliqua labore", 
+            "nostrud dolor aliquip nulla aliquip irure", 
+            "do velit minim id voluptate dolor"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "elit Lorem non cupidatat in veniam"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "irure excepteur id"
+    }
+  ], 
+  "title": "Qui eu elit et adipisicing Lorem culpa ipsum quis sunt.", 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d5c3085eec2791982dbd7ad"
+    }, 
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5c308558386d31f2cd681b"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/711"
+    }, 
+    {
+      "ref": "/collections/991"
+    }, 
+    {
+      "ref": "/collections/990"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "epo", 
+      "expression": "Spanish"
+    }, 
+    {
+      "identifier": "epo", 
+      "expression": "Esperanto"
+    }, 
+    {
+      "identifier": "eng", 
+      "expression": "Spanish"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_family/163", 
+      "type": "family"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/900"
+    }, 
+    {
+      "ref": "/terms/118"
+    }, 
+    {
+      "ref": "/terms/653"
+    }, 
+    {
+      "ref": "/terms/840"
+    }, 
+    {
+      "ref": "/terms/267"
+    }
+  ], 
+  "creators": [
+    {
+      "ref": "/agents/software/232", 
+      "type": "software"
+    }, 
+    {
+      "ref": "/agents/family/629", 
+      "type": "family"
+    }
+  ], 
+  "type": "collection", 
+  "id": "5d5c308547c37b74f88d255f"
+}

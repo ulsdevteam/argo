@@ -1,0 +1,186 @@
+{
+  "dates": [
+    {
+      "expression": "Sep 2nd, 1918 - Sep 9th, 1990", 
+      "begin": "1918-09-02", 
+      "label": "agent_relation", 
+      "end": "1990-09-09", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Sep 12th, 1945 - Sep 9th, 1960", 
+      "begin": "1945-09-12", 
+      "label": "existence", 
+      "end": "1960-09-09", 
+      "type": "single"
+    }, 
+    {
+      "expression": "Oct 24th, 1916 - Jun 21st, 2014", 
+      "begin": "1916-10-24", 
+      "label": "existence", 
+      "end": "2014-06-21", 
+      "type": "single"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/75"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "files", 
+      "value": "1.25"
+    }
+  ], 
+  "level": "otherLevel", 
+  "notes": [
+    {
+      "source": "wikidata", 
+      "type": "materialspec", 
+      "subnotes": [
+        {
+          "content": [
+            "do aliquip deserunt pariatur sint dolore", 
+            "tempor nostrud aute duis esse do"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "enim nisi nisi deserunt voluptate deserunt", 
+            "officia est non Lorem adipisicing sunt", 
+            "eu minim eu deserunt nostrud tempor", 
+            "duis dolore laborum culpa cupidatat ullamco"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "aliqua mollit eu"
+    }, 
+    {
+      "source": "cartographer", 
+      "type": "fileplan", 
+      "subnotes": [
+        {
+          "content": [
+            "sit dolor proident eu cillum veniam", 
+            "minim laboris commodo proident nisi ea", 
+            "incididunt Lorem ut laborum laboris esse", 
+            "sunt duis irure in mollit laboris", 
+            "nostrud sunt et reprehenderit consequat culpa"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "cupidatat minim aliqua"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "odd", 
+      "subnotes": [
+        {
+          "content": [
+            "voluptate duis et eu veniam reprehenderit", 
+            "magna elit minim reprehenderit velit adipisicing"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "non Lorem magna pariatur veniam consequat"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "exercitation velit consectetur"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "custodhist", 
+      "subnotes": [
+        {
+          "content": [
+            "adipisicing occaecat amet dolor ad fugiat", 
+            "velit Lorem Lorem tempor ipsum minim", 
+            "est dolore do excepteur nulla officia", 
+            "do et aliqua nostrud ea nostrud"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "ex magna qui"
+    }
+  ], 
+  "title": "Commodo minim aliquip anim nostrud veniam ipsum.", 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5c30854bc1aa13985a050a"
+    }, 
+    {
+      "source": "wikidata", 
+      "identifier": "5d5c3085cbc63d73839d03b0"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/101"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "eng", 
+      "expression": "English"
+    }, 
+    {
+      "identifier": "epo", 
+      "expression": "Esperanto"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_family/956", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents_family/380", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents_family/162", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents_organization/18", 
+      "type": "organization"
+    }, 
+    {
+      "ref": "/agents_software/274", 
+      "type": "software"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/287"
+    }, 
+    {
+      "ref": "/terms/253"
+    }, 
+    {
+      "ref": "/terms/32"
+    }, 
+    {
+      "ref": "/terms/864"
+    }
+  ], 
+  "creators": [
+    {
+      "ref": "/agents/family/204", 
+      "type": "family"
+    }
+  ], 
+  "type": "collection", 
+  "id": "5d5c3085601de5cd68e0ade4"
+}

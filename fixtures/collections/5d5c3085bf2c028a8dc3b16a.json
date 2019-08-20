@@ -1,0 +1,181 @@
+{
+  "dates": [
+    {
+      "expression": "Dec 22nd, 1955 - Sep 29th, 1970", 
+      "begin": "1955-12-22", 
+      "label": "copyright", 
+      "end": "1970-09-29", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "May 8th, 1935 - Feb 1st, 1982", 
+      "begin": "1935-05-08", 
+      "label": "event", 
+      "end": "1982-02-01", 
+      "type": "single"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/840"
+    }, 
+    {
+      "ref": "/collections/39"
+    }, 
+    {
+      "ref": "/collections/803"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "reels", 
+      "value": "4.77"
+    }, 
+    {
+      "type": "files", 
+      "value": "1.06"
+    }
+  ], 
+  "level": "subseries", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "phystech", 
+      "subnotes": [
+        {
+          "content": [
+            "ea enim consectetur exercitation irure cillum", 
+            "commodo irure ipsum nulla sint laborum", 
+            "magna aute deserunt do adipisicing laboris"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "proident irure enim"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "originalsloc", 
+      "subnotes": [
+        {
+          "content": [
+            "eiusmod commodo cillum nulla nostrud nostrud", 
+            "ex elit ea nisi minim velit", 
+            "qui culpa cillum excepteur duis tempor", 
+            "est consectetur anim culpa occaecat est", 
+            "quis dolore eiusmod aliquip elit ullamco"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "adipisicing et aliquip ad cillum anim", 
+            "adipisicing ut labore eiusmod occaecat enim", 
+            "incididunt laboris labore quis eiusmod id"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "in enim minim"
+    }, 
+    {
+      "source": "cartographer", 
+      "type": "separatedmaterial", 
+      "subnotes": [
+        {
+          "content": [
+            "qui consequat laboris velit cupidatat est", 
+            "ad anim sint et enim et", 
+            "pariatur Lorem elit exercitation in aliqua", 
+            "veniam elit excepteur velit proident duis"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "minim consectetur eu aliquip duis ullamco", 
+            "laborum aliquip et ut eiusmod incididunt", 
+            "duis commodo incididunt amet nisi eu", 
+            "nulla ullamco Lorem commodo in sint", 
+            "officia nisi ipsum labore do voluptate"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "aute eu in"
+    }, 
+    {
+      "source": "wikipedia", 
+      "type": "arrangement", 
+      "subnotes": [
+        {
+          "content": [
+            "esse excepteur excepteur qui laboris aute", 
+            "velit elit laboris aliquip sint esse"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "proident voluptate laboris"
+    }
+  ], 
+  "title": "Veniam pariatur non aute exercitation dolore nostrud adipisicing ad.", 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5c3085681effbc7537b522"
+    }, 
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5c30855a14d10f12250fbc"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/479"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "epo", 
+      "expression": "English"
+    }, 
+    {
+      "identifier": "epo", 
+      "expression": "Esperanto"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_software/912", 
+      "type": "software"
+    }, 
+    {
+      "ref": "/agents_person/689", 
+      "type": "person"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/959"
+    }, 
+    {
+      "ref": "/terms/584"
+    }, 
+    {
+      "ref": "/terms/444"
+    }, 
+    {
+      "ref": "/terms/175"
+    }
+  ], 
+  "creators": [
+    {
+      "ref": "/agents/person/366", 
+      "type": "person"
+    }
+  ], 
+  "type": "collection", 
+  "id": "5d5c3085bf2c028a8dc3b16a"
+}

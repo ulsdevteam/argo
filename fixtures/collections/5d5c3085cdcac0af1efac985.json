@@ -1,0 +1,183 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 1st, 1913 - Jan 30th, 2019", 
+      "begin": "1913-08-01", 
+      "label": "digitized", 
+      "end": "2019-01-30", 
+      "type": "inclusive"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/742"
+    }, 
+    {
+      "ref": "/collections/966"
+    }, 
+    {
+      "ref": "/collections/169"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "terabytes", 
+      "value": "3.57"
+    }, 
+    {
+      "type": "megabytes", 
+      "value": "1.66"
+    }
+  ], 
+  "level": "subgrp", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "separatedmaterial", 
+      "subnotes": [
+        {
+          "content": [
+            "in esse laboris do minim do", 
+            "voluptate cupidatat commodo enim reprehenderit exercitation"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "voluptate ad ullamco ex nostrud velit"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "id dolore officia"
+    }, 
+    {
+      "source": "cartographer", 
+      "type": "physdesc", 
+      "subnotes": [
+        {
+          "content": [
+            "excepteur cupidatat fugiat minim proident ullamco", 
+            "commodo quis sunt laborum deserunt aliquip"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "fugiat enim eiusmod do esse sit", 
+            "aliqua irure nostrud cillum incididunt id", 
+            "mollit incididunt dolore consectetur nostrud culpa", 
+            "laborum non nostrud tempor mollit ut"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "consequat labore elit eu nostrud ullamco"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "esse anim eu"
+    }, 
+    {
+      "source": "cartographer", 
+      "type": "bioghist", 
+      "subnotes": [
+        {
+          "content": [
+            "voluptate consectetur do laboris ad est"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "veniam est eu"
+    }, 
+    {
+      "source": "cartographer", 
+      "type": "permissions", 
+      "subnotes": [
+        {
+          "content": [
+            "tempor excepteur occaecat laboris cillum excepteur", 
+            "qui elit ex velit quis id", 
+            "aute ad culpa mollit quis fugiat", 
+            "enim et cillum laborum voluptate consequat", 
+            "aliquip do velit commodo enim deserunt"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "eiusmod sunt mollit sint ad aliquip", 
+            "magna exercitation ullamco minim labore officia", 
+            "esse deserunt proident exercitation nisi in"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "proident incididunt sint fugiat quis ullamco"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "ad nulla quis"
+    }
+  ], 
+  "title": "Sunt nulla aliqua commodo in esse consectetur officia in.", 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5c30855ee84274b839fa26"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/208"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "epo", 
+      "expression": "Spanish"
+    }, 
+    {
+      "identifier": "eng", 
+      "expression": "Esperanto"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_person/725", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents_software/703", 
+      "type": "software"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/423"
+    }, 
+    {
+      "ref": "/terms/800"
+    }, 
+    {
+      "ref": "/terms/348"
+    }, 
+    {
+      "ref": "/terms/469"
+    }
+  ], 
+  "creators": [
+    {
+      "ref": "/agents/organization/557", 
+      "type": "organization"
+    }
+  ], 
+  "type": "collection", 
+  "id": "5d5c3085cdcac0af1efac985"
+}

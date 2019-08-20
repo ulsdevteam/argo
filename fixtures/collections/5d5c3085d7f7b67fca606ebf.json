@@ -1,0 +1,151 @@
+{
+  "dates": [
+    {
+      "expression": "May 8th, 1936 - Aug 5th, 1993", 
+      "begin": "1936-05-08", 
+      "label": "event", 
+      "end": "1993-08-05", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Mar 11th, 1950 - Apr 28th, 1962", 
+      "begin": "1950-03-11", 
+      "label": "digitized", 
+      "end": "1962-04-28", 
+      "type": "bulk"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/389"
+    }, 
+    {
+      "ref": "/collections/79"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "document box(es)", 
+      "value": "1.48"
+    }, 
+    {
+      "type": "terabytes", 
+      "value": "2.37"
+    }
+  ], 
+  "level": "collection", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "fileplan", 
+      "subnotes": [
+        {
+          "content": [
+            "est occaecat aute proident quis minim", 
+            "aliqua proident do anim exercitation qui", 
+            "culpa exercitation non qui mollit sunt", 
+            "Lorem dolor aliquip occaecat reprehenderit duis", 
+            "occaecat amet ipsum deserunt velit dolor"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "deserunt irure sint do cupidatat dolor", 
+            "occaecat laboris pariatur consectetur tempor non", 
+            "sit minim anim dolore id adipisicing", 
+            "Lorem velit ut laborum magna irure"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "cillum minim nulla consectetur cupidatat mollit", 
+            "elit culpa aliqua consectetur quis irure"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "do aute Lorem"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "rights_statement_act", 
+      "subnotes": [
+        {
+          "content": [
+            "anim occaecat id elit quis pariatur", 
+            "eiusmod proident consectetur esse nostrud nostrud"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "quis minim et"
+    }
+  ], 
+  "title": "Dolore sint eiusmod mollit est ut.", 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5c3085203f7fe951e2696a"
+    }, 
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5c30850b74b2e449543aaf"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/728"
+    }, 
+    {
+      "ref": "/collections/943"
+    }, 
+    {
+      "ref": "/collections/538"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "epo", 
+      "expression": "Spanish"
+    }, 
+    {
+      "identifier": "eng", 
+      "expression": "Spanish"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_person/766", 
+      "type": "person"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/412"
+    }, 
+    {
+      "ref": "/terms/341"
+    }, 
+    {
+      "ref": "/terms/405"
+    }, 
+    {
+      "ref": "/terms/959"
+    }
+  ], 
+  "creators": [
+    {
+      "ref": "/agents/organization/539", 
+      "type": "organization"
+    }, 
+    {
+      "ref": "/agents/person/684", 
+      "type": "person"
+    }
+  ], 
+  "type": "collection", 
+  "id": "5d5c3085d7f7b67fca606ebf"
+}

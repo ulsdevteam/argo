@@ -1,0 +1,184 @@
+{
+  "dates": [
+    {
+      "expression": "Mar 17th, 1950 - Apr 22nd, 2013", 
+      "begin": "1950-03-17", 
+      "label": "existence", 
+      "end": "2013-04-22", 
+      "type": "single"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/571"
+    }, 
+    {
+      "ref": "/collections/127"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "files", 
+      "value": 2
+    }
+  ], 
+  "level": "subseries", 
+  "notes": [
+    {
+      "source": "wikidata", 
+      "type": "physloc", 
+      "subnotes": [
+        {
+          "content": [
+            "pariatur dolor laboris quis id excepteur", 
+            "enim dolore cupidatat nisi non sunt", 
+            "aliquip dolor anim laboris incididunt quis", 
+            "eiusmod consectetur veniam tempor aliquip dolore", 
+            "sit nisi officia ad dolor officia"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "culpa aliqua eiusmod aliquip voluptate ipsum", 
+            "enim velit do aute mollit aliquip", 
+            "occaecat non incididunt est sint anim"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "ullamco do eu ea dolor eu", 
+            "cillum eiusmod ex aliqua est aliqua", 
+            "tempor Lorem fugiat dolore consequat nisi", 
+            "proident esse pariatur magna quis reprehenderit", 
+            "tempor aute est excepteur sit cupidatat"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "dolor laboris dolor"
+    }, 
+    {
+      "source": "cartographer", 
+      "type": "otherfindaid", 
+      "subnotes": [
+        {
+          "content": [
+            "veniam anim deserunt eu voluptate nulla", 
+            "sint pariatur labore voluptate deserunt aliquip", 
+            "occaecat amet adipisicing dolore minim ea", 
+            "dolor non reprehenderit nisi velit consectetur", 
+            "occaecat velit labore dolor reprehenderit officia"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "sint ex in dolore ipsum nulla"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "eiusmod officia do culpa mollit eu"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "Lorem aliqua deserunt"
+    }, 
+    {
+      "source": "cartographer", 
+      "type": "rights_statement", 
+      "subnotes": [
+        {
+          "content": [
+            "deserunt irure ex cupidatat qui consectetur", 
+            "velit irure laborum reprehenderit pariatur sint"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "anim aute reprehenderit elit cillum deserunt"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "duis in eiusmod non dolore irure", 
+            "Lorem id quis aliquip minim nulla", 
+            "amet anim exercitation quis exercitation veniam", 
+            "non non in ipsum ullamco est"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "veniam officia enim"
+    }
+  ], 
+  "title": "Non minim dolore et qui veniam officia aliquip.", 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d5c3085cc4a745a11918c3b"
+    }, 
+    {
+      "source": "wikidata", 
+      "identifier": "5d5c30856fe565d229953d6a"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/676"
+    }, 
+    {
+      "ref": "/collections/608"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "spa", 
+      "expression": "Spanish"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_software/571", 
+      "type": "software"
+    }, 
+    {
+      "ref": "/agents_family/622", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents_family/979", 
+      "type": "family"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/263"
+    }, 
+    {
+      "ref": "/terms/880"
+    }, 
+    {
+      "ref": "/terms/124"
+    }
+  ], 
+  "creators": [
+    {
+      "ref": "/agents/organization/728", 
+      "type": "organization"
+    }, 
+    {
+      "ref": "/agents/organization/326", 
+      "type": "organization"
+    }
+  ], 
+  "type": "collection", 
+  "id": "5d5c3085742fc3e0055d0ab3"
+}

@@ -1,0 +1,118 @@
+{
+  "dates": [
+    {
+      "expression": "May 4th, 1921 - Apr 7th, 1966", 
+      "begin": "1921-05-04", 
+      "label": "event", 
+      "end": "1966-04-07", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Dec 12th, 1920 - Jan 24th, 1968", 
+      "begin": "1920-12-12", 
+      "label": "publication", 
+      "end": "1968-01-24", 
+      "type": "inclusive"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/188"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "megabytes", 
+      "value": "2.79"
+    }
+  ], 
+  "level": "subgrp", 
+  "notes": [
+    {
+      "source": "cartographer", 
+      "type": "acquinfo", 
+      "subnotes": [
+        {
+          "content": [
+            "pariatur et anim nulla commodo cupidatat", 
+            "irure sunt ut eu velit fugiat", 
+            "minim nostrud elit nisi non esse", 
+            "cupidatat commodo ut minim laborum commodo", 
+            "adipisicing non adipisicing fugiat anim reprehenderit"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "consectetur eiusmod ut minim laborum esse", 
+            "ullamco quis incididunt pariatur eu magna"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "pariatur ea labore amet nostrud reprehenderit", 
+            "qui tempor proident exercitation culpa qui", 
+            "quis non exercitation adipisicing ipsum labore", 
+            "eu proident incididunt excepteur nisi aliqua"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "tempor do anim"
+    }
+  ], 
+  "title": "Labore amet occaecat cupidatat do elit ad nostrud magna consequat aliquip incididunt ea pariatur.", 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d5c3085ad55ba31e8683966"
+    }, 
+    {
+      "source": "wikidata", 
+      "identifier": "5d5c3085db716b8ad7b3a242"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/11"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "eng", 
+      "expression": "English"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_family/49", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents_software/132", 
+      "type": "software"
+    }, 
+    {
+      "ref": "/agents_organization/73", 
+      "type": "organization"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/759"
+    }, 
+    {
+      "ref": "/terms/930"
+    }
+  ], 
+  "creators": [
+    {
+      "ref": "/agents/software/901", 
+      "type": "software"
+    }
+  ], 
+  "type": "collection", 
+  "id": "5d5c308536235d05102e08d7"
+}

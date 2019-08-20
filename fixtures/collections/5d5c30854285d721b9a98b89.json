@@ -1,0 +1,160 @@
+{
+  "dates": [
+    {
+      "expression": "Sep 14th, 1952 - Mar 17th, 2015", 
+      "begin": "1952-09-14", 
+      "label": "other", 
+      "end": "2015-03-17", 
+      "type": "bulk"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/143"
+    }, 
+    {
+      "ref": "/collections/309"
+    }, 
+    {
+      "ref": "/collections/950"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "gigabytes", 
+      "value": "1.5"
+    }
+  ], 
+  "level": "collection", 
+  "notes": [
+    {
+      "source": "cartographer", 
+      "type": "odd", 
+      "subnotes": [
+        {
+          "content": [
+            "sit pariatur reprehenderit officia aliqua laborum", 
+            "excepteur do tempor voluptate in aute", 
+            "velit fugiat exercitation laborum est adipisicing", 
+            "enim ipsum dolore excepteur esse qui"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "ad reprehenderit esse"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "bibliography", 
+      "subnotes": [
+        {
+          "content": [
+            "qui nostrud sit incididunt labore veniam", 
+            "excepteur fugiat amet esse ex esse", 
+            "adipisicing consequat reprehenderit fugiat minim tempor", 
+            "aute qui ut aute sit do", 
+            "voluptate eiusmod elit eiusmod culpa deserunt"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "magna dolore nostrud"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "fileplan", 
+      "subnotes": [
+        {
+          "content": [
+            "non anim enim aliquip ex velit", 
+            "in quis excepteur veniam reprehenderit deserunt", 
+            "fugiat commodo enim occaecat laboris in", 
+            "fugiat sint amet est irure reprehenderit"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "pariatur ipsum ullamco"
+    }, 
+    {
+      "source": "wikipedia", 
+      "type": "physfacet", 
+      "subnotes": [
+        {
+          "content": [
+            "minim ut sunt et eiusmod excepteur", 
+            "nulla est magna in deserunt tempor", 
+            "excepteur elit sit minim culpa do", 
+            "enim officia fugiat velit sunt nostrud"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "est excepteur amet sunt reprehenderit in", 
+            "commodo fugiat reprehenderit ad velit anim", 
+            "velit esse voluptate officia deserunt id"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "officia aliquip officia"
+    }
+  ], 
+  "title": "Anim fugiat eu incididunt do duis ea dolore tempor irure irure do.", 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5c3085c0a9a2401547ea3a"
+    }, 
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5c3085f6c101a0ad17f070"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/770"
+    }, 
+    {
+      "ref": "/collections/950"
+    }, 
+    {
+      "ref": "/collections/720"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "spa", 
+      "expression": "Esperanto"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_organization/276", 
+      "type": "organization"
+    }, 
+    {
+      "ref": "/agents_family/61", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents_person/634", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents_organization/882", 
+      "type": "organization"
+    }
+  ], 
+  "terms": [], 
+  "creators": [
+    {
+      "ref": "/agents/person/260", 
+      "type": "person"
+    }
+  ], 
+  "type": "collection", 
+  "id": "5d5c30854285d721b9a98b89"
+}

@@ -1,0 +1,151 @@
+{
+  "dates": [
+    {
+      "expression": "Feb 2nd, 1926 - Dec 12th, 1981", 
+      "begin": "1926-02-02", 
+      "label": "broadcast", 
+      "end": "1981-12-12", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Aug 17th, 1953 - Feb 20th, 1968", 
+      "begin": "1953-08-17", 
+      "label": "existence", 
+      "end": "1968-02-20", 
+      "type": "single"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/326"
+    }, 
+    {
+      "ref": "/collections/203"
+    }, 
+    {
+      "ref": "/collections/619"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "sheets", 
+      "value": "3.29"
+    }
+  ], 
+  "level": "collection", 
+  "notes": [
+    {
+      "source": "cartographer", 
+      "type": "permissions", 
+      "subnotes": [
+        {
+          "content": [
+            "esse amet ullamco dolor officia veniam", 
+            "occaecat exercitation minim culpa consectetur pariatur", 
+            "laborum amet non proident ut non", 
+            "pariatur qui esse minim nulla in", 
+            "sint labore laboris et minim sunt"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "excepteur consequat sunt"
+    }, 
+    {
+      "source": "wikipedia", 
+      "type": "physloc", 
+      "subnotes": [
+        {
+          "content": [
+            "cupidatat dolor dolore deserunt quis ea", 
+            "quis irure veniam sint voluptate nisi", 
+            "adipisicing nisi magna pariatur magna velit", 
+            "esse ipsum dolore mollit eu excepteur", 
+            "cillum eu excepteur aliqua labore proident"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "eu nulla velit sunt adipisicing elit", 
+            "sint reprehenderit ut nulla anim minim", 
+            "enim elit non officia aute cupidatat", 
+            "ullamco magna non est minim nostrud", 
+            "sunt officia voluptate id nulla dolor"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "ad cupidatat labore sunt et eu"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "proident enim voluptate"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "additional_information", 
+      "subnotes": [
+        {
+          "content": [
+            "nulla dolor ut qui ea commodo", 
+            "nulla sint et officia nostrud irure", 
+            "aliquip incididunt consectetur labore proident est"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "ut amet nostrud"
+    }
+  ], 
+  "title": "Cillum do id veniam sit irure cupidatat eiusmod consectetur nulla ad aliquip labore.", 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d5c30859aea8c3d5da6092d"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/283"
+    }, 
+    {
+      "ref": "/collections/402"
+    }, 
+    {
+      "ref": "/collections/644"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "eng", 
+      "expression": "Esperanto"
+    }, 
+    {
+      "identifier": "eng", 
+      "expression": "Spanish"
+    }, 
+    {
+      "identifier": "epo", 
+      "expression": "English"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_person/917", 
+      "type": "person"
+    }
+  ], 
+  "terms": [], 
+  "creators": [
+    {
+      "ref": "/agents/family/839", 
+      "type": "family"
+    }
+  ], 
+  "type": "collection", 
+  "id": "5d5c3085d4040da8b6f12039"
+}

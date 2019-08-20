@@ -1,0 +1,109 @@
+{
+  "dates": [
+    {
+      "expression": "Mar 29th, 1949 - Jul 7th, 1960", 
+      "begin": "1949-03-29", 
+      "label": "modified", 
+      "end": "1960-07-07", 
+      "type": "single"
+    }, 
+    {
+      "expression": "Jul 4th, 1955 - Jan 10th, 1966", 
+      "begin": "1955-07-04", 
+      "label": "copyright", 
+      "end": "1966-01-10", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Apr 19th, 1940 - Oct 21st, 1980", 
+      "begin": "1940-04-19", 
+      "label": "usage", 
+      "end": "1980-10-21", 
+      "type": "bulk"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/155"
+    }, 
+    {
+      "ref": "/collections/730"
+    }, 
+    {
+      "ref": "/collections/171"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "reels", 
+      "value": "2.14"
+    }, 
+    {
+      "type": "volumes", 
+      "value": "2.96"
+    }
+  ], 
+  "level": "subseries", 
+  "notes": [], 
+  "title": "Enim irure voluptate culpa ea.", 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d5c30851a2b9cfab2f46e7b"
+    }, 
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5c308531e769ec418fe912"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/493"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "eng", 
+      "expression": "English"
+    }, 
+    {
+      "identifier": "epo", 
+      "expression": "Esperanto"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_family/645", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents_person/496", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents_family/784", 
+      "type": "family"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/982"
+    }, 
+    {
+      "ref": "/terms/44"
+    }
+  ], 
+  "creators": [
+    {
+      "ref": "/agents/person/208", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents/person/579", 
+      "type": "person"
+    }
+  ], 
+  "type": "collection", 
+  "id": "5d5c30858c77fccd97b754a2"
+}

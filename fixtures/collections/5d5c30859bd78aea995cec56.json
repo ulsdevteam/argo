@@ -1,0 +1,76 @@
+{
+  "dates": [
+    {
+      "expression": "Jul 4th, 1917 - Dec 20th, 1973", 
+      "begin": "1917-07-04", 
+      "label": "broadcast", 
+      "end": "1973-12-20", 
+      "type": "inclusive"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/629"
+    }, 
+    {
+      "ref": "/collections/308"
+    }, 
+    {
+      "ref": "/collections/822"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "reels", 
+      "value": "2.41"
+    }
+  ], 
+  "level": "recordgrp", 
+  "notes": [], 
+  "title": "Exercitation labore esse esse sint.", 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5c3085ed6d315c58ffde69"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/348"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "eng", 
+      "expression": "English"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_person/219", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents_organization/900", 
+      "type": "organization"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/885"
+    }
+  ], 
+  "creators": [
+    {
+      "ref": "/agents/software/328", 
+      "type": "software"
+    }, 
+    {
+      "ref": "/agents/organization/640", 
+      "type": "organization"
+    }
+  ], 
+  "type": "collection", 
+  "id": "5d5c30859bd78aea995cec56"
+}

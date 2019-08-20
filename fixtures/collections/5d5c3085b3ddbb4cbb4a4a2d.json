@@ -1,0 +1,112 @@
+{
+  "dates": [
+    {
+      "expression": "Sep 30th, 1935 - Nov 14th, 1965", 
+      "begin": "1935-09-30", 
+      "label": "usage", 
+      "end": "1965-11-14", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Dec 12th, 1940 - Sep 13th, 2013", 
+      "begin": "1940-12-12", 
+      "label": "other", 
+      "end": "2013-09-13", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Dec 20th, 1947 - Jul 25th, 1994", 
+      "begin": "1947-12-20", 
+      "label": "existence", 
+      "end": "1994-07-25", 
+      "type": "bulk"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/837"
+    }, 
+    {
+      "ref": "/collections/673"
+    }, 
+    {
+      "ref": "/collections/238"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "linear_feet", 
+      "value": "2.48"
+    }, 
+    {
+      "type": "cassettes", 
+      "value": "4.33"
+    }
+  ], 
+  "level": "otherLevel", 
+  "notes": [], 
+  "title": "Magna fugiat consequat in dolore et.", 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5c3085c2d5d0794586d9aa"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/521"
+    }, 
+    {
+      "ref": "/collections/339"
+    }, 
+    {
+      "ref": "/collections/786"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "eng", 
+      "expression": "Esperanto"
+    }, 
+    {
+      "identifier": "eng", 
+      "expression": "Esperanto"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_person/654", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents_family/697", 
+      "type": "family"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/552"
+    }, 
+    {
+      "ref": "/terms/654"
+    }, 
+    {
+      "ref": "/terms/677"
+    }, 
+    {
+      "ref": "/terms/825"
+    }, 
+    {
+      "ref": "/terms/256"
+    }
+  ], 
+  "creators": [
+    {
+      "ref": "/agents/software/818", 
+      "type": "software"
+    }
+  ], 
+  "type": "collection", 
+  "id": "5d5c3085b3ddbb4cbb4a4a2d"
+}

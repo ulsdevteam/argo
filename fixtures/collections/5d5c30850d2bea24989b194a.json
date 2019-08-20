@@ -1,0 +1,159 @@
+{
+  "dates": [
+    {
+      "expression": "Mar 25th, 1957 - Jul 13th, 1982", 
+      "begin": "1957-03-25", 
+      "label": "agent_relation", 
+      "end": "1982-07-13", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Oct 23rd, 1933 - Jul 22nd, 2019", 
+      "begin": "1933-10-23", 
+      "label": "deaccession", 
+      "end": "2019-07-22", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Apr 20th, 1926 - Oct 15th, 2012", 
+      "begin": "1926-04-20", 
+      "label": "creation", 
+      "end": "2012-10-15", 
+      "type": "single"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/431"
+    }, 
+    {
+      "ref": "/collections/205"
+    }, 
+    {
+      "ref": "/collections/928"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "volumes", 
+      "value": "1.76"
+    }
+  ], 
+  "level": "file", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "permissions", 
+      "subnotes": [
+        {
+          "content": [
+            "fugiat consectetur laborum eu Lorem labore", 
+            "sit occaecat ut aute aute qui"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "laboris laborum consectetur esse aute minim", 
+            "eu eiusmod consequat officia mollit laboris", 
+            "ex enim ullamco aliquip adipisicing cillum"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "eu enim voluptate"
+    }, 
+    {
+      "source": "wikipedia", 
+      "type": "fileplan", 
+      "subnotes": [
+        {
+          "content": [
+            "adipisicing labore voluptate aliqua ullamco officia", 
+            "incididunt ipsum mollit duis esse et", 
+            "fugiat fugiat excepteur id minim esse"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "enim velit pariatur labore excepteur laboris", 
+            "cillum in fugiat duis tempor minim", 
+            "ullamco laborum nulla eu elit nostrud", 
+            "in eu Lorem nisi cillum nostrud", 
+            "ea ut aute nulla incididunt ullamco"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "enim ipsum consequat mollit consectetur laborum"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "nostrud aliquip eiusmod"
+    }
+  ], 
+  "title": "Ut labore est labore occaecat velit.", 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d5c30852d92c10f3edc7f31"
+    }, 
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5c3085a01b9f897a559136"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/897"
+    }, 
+    {
+      "ref": "/collections/352"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "epo", 
+      "expression": "Esperanto"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_family/327", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents_family/946", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents_organization/908", 
+      "type": "organization"
+    }, 
+    {
+      "ref": "/agents_person/297", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents_software/737", 
+      "type": "software"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/379"
+    }
+  ], 
+  "creators": [
+    {
+      "ref": "/agents/family/744", 
+      "type": "family"
+    }
+  ], 
+  "type": "collection", 
+  "id": "5d5c30850d2bea24989b194a"
+}

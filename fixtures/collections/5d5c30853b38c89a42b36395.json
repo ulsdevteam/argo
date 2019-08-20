@@ -1,0 +1,166 @@
+{
+  "dates": [
+    {
+      "expression": "Apr 25th, 1938 - Oct 8th, 1963", 
+      "begin": "1938-04-25", 
+      "label": "event", 
+      "end": "1963-10-08", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Aug 6th, 1946 - Aug 12th, 1978", 
+      "begin": "1946-08-06", 
+      "label": "creation", 
+      "end": "1978-08-12", 
+      "type": "single"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/330"
+    }, 
+    {
+      "ref": "/collections/704"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "terabytes", 
+      "value": "2.84"
+    }
+  ], 
+  "level": "otherLevel", 
+  "notes": [
+    {
+      "source": "wikidata", 
+      "type": "phystech", 
+      "subnotes": [
+        {
+          "content": [
+            "eiusmod aute minim ipsum aute veniam", 
+            "duis in qui enim officia enim", 
+            "consequat deserunt mollit ullamco elit elit"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "est culpa ad"
+    }, 
+    {
+      "source": "cartographer", 
+      "type": "bibliography", 
+      "subnotes": [
+        {
+          "content": [
+            "elit ipsum tempor amet exercitation minim"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "dolore velit eu eu veniam ipsum", 
+            "quis ipsum dolore veniam magna proident", 
+            "ad nostrud cillum exercitation occaecat voluptate", 
+            "adipisicing nisi ea amet ad ullamco"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "officia aliquip do"
+    }, 
+    {
+      "source": "cartographer", 
+      "type": "bibliography", 
+      "subnotes": [
+        {
+          "content": [
+            "ad est voluptate consequat labore exercitation", 
+            "deserunt aliquip ullamco Lorem aute ea", 
+            "amet quis ut ex exercitation magna", 
+            "duis est sit ipsum excepteur qui", 
+            "anim labore tempor pariatur dolore culpa"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "adipisicing labore veniam"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "custodhist", 
+      "subnotes": [
+        {
+          "content": [
+            "non voluptate incididunt quis aliqua esse", 
+            "laboris Lorem nisi pariatur fugiat nulla"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "irure non esse et consequat sit"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "laborum reprehenderit nisi"
+    }
+  ], 
+  "title": "Culpa ea ipsum eiusmod cupidatat fugiat consectetur mollit esse ex.", 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d5c3085338229d820a5c0f3"
+    }, 
+    {
+      "source": "wikidata", 
+      "identifier": "5d5c30859b193782c4b5ea17"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/922"
+    }, 
+    {
+      "ref": "/collections/610"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "eng", 
+      "expression": "Spanish"
+    }, 
+    {
+      "identifier": "epo", 
+      "expression": "Spanish"
+    }, 
+    {
+      "identifier": "eng", 
+      "expression": "English"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_organization/655", 
+      "type": "organization"
+    }, 
+    {
+      "ref": "/agents_family/903", 
+      "type": "family"
+    }
+  ], 
+  "terms": [], 
+  "creators": [
+    {
+      "ref": "/agents/software/154", 
+      "type": "software"
+    }, 
+    {
+      "ref": "/agents/organization/299", 
+      "type": "organization"
+    }
+  ], 
+  "type": "collection", 
+  "id": "5d5c30853b38c89a42b36395"
+}

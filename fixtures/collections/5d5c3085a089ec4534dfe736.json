@@ -1,0 +1,104 @@
+{
+  "dates": [
+    {
+      "expression": "Dec 21st, 1919 - Dec 29th, 1997", 
+      "begin": "1919-12-21", 
+      "label": "broadcast", 
+      "end": "1997-12-29", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Feb 14th, 1932 - Jun 5th, 1960", 
+      "begin": "1932-02-14", 
+      "label": "agent_relation", 
+      "end": "1960-06-05", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Jul 24th, 1959 - Aug 24th, 1982", 
+      "begin": "1959-07-24", 
+      "label": "agent_relation", 
+      "end": "1982-08-24", 
+      "type": "bulk"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/447"
+    }, 
+    {
+      "ref": "/collections/323"
+    }, 
+    {
+      "ref": "/collections/2"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "cubic_feet", 
+      "value": "4.79"
+    }, 
+    {
+      "type": "microform reels", 
+      "value": "1.06"
+    }
+  ], 
+  "level": "collection", 
+  "notes": [], 
+  "title": "Ut adipisicing sit tempor ex culpa nostrud irure anim ipsum quis excepteur non sunt consectetur.", 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d5c308508bde7c7e93fb409"
+    }, 
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5c30856a94ca591d08c6b4"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/511"
+    }, 
+    {
+      "ref": "/collections/526"
+    }, 
+    {
+      "ref": "/collections/123"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "eng", 
+      "expression": "Spanish"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_family/131", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents_organization/130", 
+      "type": "organization"
+    }, 
+    {
+      "ref": "/agents_software/334", 
+      "type": "software"
+    }
+  ], 
+  "terms": [], 
+  "creators": [
+    {
+      "ref": "/agents/organization/821", 
+      "type": "organization"
+    }, 
+    {
+      "ref": "/agents/organization/892", 
+      "type": "organization"
+    }
+  ], 
+  "type": "collection", 
+  "id": "5d5c3085a089ec4534dfe736"
+}

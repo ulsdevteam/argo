@@ -1,0 +1,95 @@
+{
+  "dates": [
+    {
+      "expression": "Jun 3rd, 1925 - Nov 4th, 1969", 
+      "begin": "1925-06-03", 
+      "label": "issued", 
+      "end": "1969-11-04", 
+      "type": "single"
+    }, 
+    {
+      "expression": "Dec 12th, 1939 - May 3rd, 1975", 
+      "begin": "1939-12-12", 
+      "label": "creation", 
+      "end": "1975-05-03", 
+      "type": "bulk"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/189"
+    }, 
+    {
+      "ref": "/collections/839"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "document box(es)", 
+      "value": "2.89"
+    }
+  ], 
+  "level": "series", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "arrangement", 
+      "subnotes": [
+        {
+          "content": [
+            "fugiat labore voluptate nostrud aute culpa", 
+            "dolore excepteur quis adipisicing ex ullamco"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "in dolor aliqua"
+    }
+  ], 
+  "title": "Culpa officia ut ipsum cupidatat nulla nisi.", 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d5c308542b441be4f9bfba1"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/130"
+    }, 
+    {
+      "ref": "/collections/569"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "eng", 
+      "expression": "Esperanto"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [], 
+  "terms": [
+    {
+      "ref": "/terms/989"
+    }, 
+    {
+      "ref": "/terms/461"
+    }, 
+    {
+      "ref": "/terms/735"
+    }
+  ], 
+  "creators": [
+    {
+      "ref": "/agents/software/509", 
+      "type": "software"
+    }, 
+    {
+      "ref": "/agents/organization/912", 
+      "type": "organization"
+    }
+  ], 
+  "type": "collection", 
+  "id": "5d5c3085e1a57d07223ec851"
+}

@@ -1,0 +1,199 @@
+{
+  "dates": [
+    {
+      "expression": "Mar 29th, 1959 - Sep 7th, 1985", 
+      "begin": "1959-03-29", 
+      "label": "issued", 
+      "end": "1985-09-07", 
+      "type": "single"
+    }, 
+    {
+      "expression": "Jul 2nd, 1925 - Jul 1st, 1973", 
+      "begin": "1925-07-02", 
+      "label": "copyright", 
+      "end": "1973-07-01", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Jul 29th, 1958 - Sep 29th, 2011", 
+      "begin": "1958-07-29", 
+      "label": "issued", 
+      "end": "2011-09-29", 
+      "type": "inclusive"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/300"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "gigabytes", 
+      "value": "3.01"
+    }, 
+    {
+      "type": "linear_feet", 
+      "value": "2.73"
+    }
+  ], 
+  "level": "item", 
+  "notes": [
+    {
+      "source": "wikidata", 
+      "type": "bioghist", 
+      "subnotes": [
+        {
+          "content": [
+            "in laborum ea enim in dolor"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "consectetur tempor aliquip duis dolore magna", 
+            "eiusmod laborum excepteur cillum id elit", 
+            "sunt nostrud consequat ut elit aute", 
+            "veniam est cillum irure velit dolor"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "ut mollit magna"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "extension", 
+      "subnotes": [
+        {
+          "content": [
+            "deserunt qui tempor est consequat consequat", 
+            "ea eu duis dolor nulla reprehenderit", 
+            "dolore fugiat ullamco amet cupidatat eiusmod", 
+            "voluptate Lorem minim duis ad veniam", 
+            "cillum irure officia sunt veniam laborum"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "dolore voluptate ullamco sit qui occaecat", 
+            "consequat magna magna eiusmod qui mollit", 
+            "mollit exercitation deserunt cillum in laboris", 
+            "culpa velit aute elit voluptate ex", 
+            "incididunt ex consectetur labore incididunt do"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "excepteur est ea sint deserunt in"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "non Lorem incididunt"
+    }, 
+    {
+      "source": "wikipedia", 
+      "type": "edition", 
+      "subnotes": [
+        {
+          "content": [
+            "sint id in cillum duis adipisicing", 
+            "ad fugiat id adipisicing Lorem sunt", 
+            "in sint anim tempor dolore voluptate"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "aliquip ut anim officia cupidatat fugiat", 
+            "proident duis nostrud quis esse id", 
+            "esse eiusmod nisi nostrud sint eiusmod", 
+            "aliquip dolore consequat adipisicing commodo consequat", 
+            "ea culpa elit aute amet dolore"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "velit duis aliqua"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "edition", 
+      "subnotes": [
+        {
+          "content": [
+            "aliquip dolor tempor Lorem id nisi"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "labore irure velit laborum commodo laboris", 
+            "ipsum commodo eu sint irure amet", 
+            "eiusmod aliquip occaecat voluptate ad pariatur", 
+            "Lorem sit esse reprehenderit non commodo", 
+            "nulla ullamco nostrud culpa officia velit"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "do et consectetur"
+    }
+  ], 
+  "title": "Anim in sit quis deserunt ex sint.", 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5c30851c31764129d339a8"
+    }, 
+    {
+      "source": "wikidata", 
+      "identifier": "5d5c30857236579ce880216f"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/862"
+    }, 
+    {
+      "ref": "/collections/150"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "epo", 
+      "expression": "Esperanto"
+    }, 
+    {
+      "identifier": "eng", 
+      "expression": "Esperanto"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [], 
+  "terms": [
+    {
+      "ref": "/terms/595"
+    }, 
+    {
+      "ref": "/terms/658"
+    }, 
+    {
+      "ref": "/terms/600"
+    }, 
+    {
+      "ref": "/terms/59"
+    }
+  ], 
+  "creators": [
+    {
+      "ref": "/agents/person/703", 
+      "type": "person"
+    }
+  ], 
+  "type": "collection", 
+  "id": "5d5c308567a12cb6e821ee67"
+}

@@ -1,0 +1,154 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 13th, 1957 - Oct 1st, 2009", 
+      "begin": "1957-08-13", 
+      "label": "deaccession", 
+      "end": "2009-10-01", 
+      "type": "bulk"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/859"
+    }, 
+    {
+      "ref": "/collections/248"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "sheets", 
+      "value": "4.95"
+    }
+  ], 
+  "level": "item", 
+  "notes": [
+    {
+      "source": "cartographer", 
+      "type": "otherfindaid", 
+      "subnotes": [
+        {
+          "content": [
+            "commodo ex proident consectetur dolore sunt", 
+            "do adipisicing dolore consequat elit in"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "laboris occaecat labore"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "index", 
+      "subnotes": [
+        {
+          "content": [
+            "nostrud dolore qui eiusmod aliqua ipsum", 
+            "sit magna nisi nostrud velit nisi", 
+            "ipsum aliquip excepteur occaecat consequat Lorem", 
+            "minim nisi labore eiusmod nulla nostrud"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "duis ipsum labore"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "arrangement", 
+      "subnotes": [
+        {
+          "content": [
+            "quis ad dolore magna laboris non", 
+            "nulla minim nisi laborum irure dolore", 
+            "proident nostrud commodo occaecat sunt labore", 
+            "cupidatat fugiat eiusmod minim sint anim"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "duis aliquip ad elit sit fugiat", 
+            "laborum excepteur fugiat dolore qui dolor"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "adipisicing ut ea dolor excepteur duis", 
+            "exercitation est proident fugiat id consectetur"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "aute excepteur irure"
+    }
+  ], 
+  "title": "Velit culpa aliquip nulla excepteur duis.", 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d5c3085d83476d860b21d61"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/601"
+    }, 
+    {
+      "ref": "/collections/53"
+    }, 
+    {
+      "ref": "/collections/893"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "spa", 
+      "expression": "Esperanto"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_organization/635", 
+      "type": "organization"
+    }, 
+    {
+      "ref": "/agents_person/334", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents_person/43", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents_software/263", 
+      "type": "software"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/106"
+    }, 
+    {
+      "ref": "/terms/32"
+    }, 
+    {
+      "ref": "/terms/71"
+    }
+  ], 
+  "creators": [
+    {
+      "ref": "/agents/software/989", 
+      "type": "software"
+    }, 
+    {
+      "ref": "/agents/family/603", 
+      "type": "family"
+    }
+  ], 
+  "type": "collection", 
+  "id": "5d5c30852b8e4f8e4a46ecd5"
+}

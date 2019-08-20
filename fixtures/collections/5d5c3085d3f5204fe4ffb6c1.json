@@ -1,0 +1,89 @@
+{
+  "dates": [
+    {
+      "expression": "Jun 21st, 1925 - May 1st, 1965", 
+      "begin": "1925-06-21", 
+      "label": "event", 
+      "end": "1965-05-01", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "May 27th, 1928 - Oct 1st, 1970", 
+      "begin": "1928-05-27", 
+      "label": "event", 
+      "end": "1970-10-01", 
+      "type": "single"
+    }, 
+    {
+      "expression": "Jul 14th, 1942 - Jul 6th, 2004", 
+      "begin": "1942-07-14", 
+      "label": "modified", 
+      "end": "2004-07-06", 
+      "type": "single"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/990"
+    }, 
+    {
+      "ref": "/collections/650"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "photographic_slides", 
+      "value": "2.46"
+    }
+  ], 
+  "level": "subseries", 
+  "notes": [], 
+  "title": "Eu excepteur aliquip excepteur ad adipisicing nulla nostrud magna sunt.", 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5c30853b38afd39254c753"
+    }, 
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5c308579f34cc437c11c17"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/761"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "spa", 
+      "expression": "English"
+    }, 
+    {
+      "identifier": "eng", 
+      "expression": "Spanish"
+    }, 
+    {
+      "identifier": "eng", 
+      "expression": "English"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [], 
+  "terms": [
+    {
+      "ref": "/terms/258"
+    }, 
+    {
+      "ref": "/terms/711"
+    }
+  ], 
+  "creators": [
+    {
+      "ref": "/agents/organization/690", 
+      "type": "organization"
+    }
+  ], 
+  "type": "collection", 
+  "id": "5d5c3085d3f5204fe4ffb6c1"
+}

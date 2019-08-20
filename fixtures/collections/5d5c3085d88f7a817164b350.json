@@ -1,0 +1,147 @@
+{
+  "dates": [
+    {
+      "expression": "Dec 3rd, 1952 - Dec 23rd, 2000", 
+      "begin": "1952-12-03", 
+      "label": "other", 
+      "end": "2000-12-23", 
+      "type": "single"
+    }, 
+    {
+      "expression": "Jul 18th, 1944 - Nov 27th, 2000", 
+      "begin": "1944-07-18", 
+      "label": "creation", 
+      "end": "2000-11-27", 
+      "type": "bulk"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/996"
+    }, 
+    {
+      "ref": "/collections/569"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "box(es)", 
+      "value": "3.46"
+    }, 
+    {
+      "type": "leaves", 
+      "value": "2.54"
+    }
+  ], 
+  "level": "subseries", 
+  "notes": [
+    {
+      "source": "cartographer", 
+      "type": "phystech", 
+      "subnotes": [
+        {
+          "content": [
+            "sint culpa ut anim cillum incididunt", 
+            "incididunt eiusmod eiusmod dolor nostrud eiusmod"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "esse nostrud deserunt minim quis ipsum", 
+            "deserunt incididunt cupidatat labore nisi cupidatat", 
+            "officia exercitation nulla non enim aliquip", 
+            "voluptate mollit nostrud ad tempor pariatur", 
+            "qui do incididunt exercitation mollit minim"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "eiusmod nostrud proident"
+    }, 
+    {
+      "source": "cartographer", 
+      "type": "scopecontent", 
+      "subnotes": [
+        {
+          "content": [
+            "velit ad voluptate exercitation culpa pariatur", 
+            "minim magna quis eiusmod sunt ad", 
+            "magna qui tempor eiusmod fugiat dolor"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "minim excepteur id dolor nisi proident", 
+            "eiusmod exercitation incididunt deserunt et in", 
+            "ad sunt ullamco incididunt proident in", 
+            "eu ad duis consequat amet duis", 
+            "laborum aute laborum Lorem aliqua do"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "quis irure velit"
+    }
+  ], 
+  "title": "Culpa duis do enim cillum occaecat nulla enim sit deserunt.", 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5c3085a326d70e5d66cb18"
+    }, 
+    {
+      "source": "archivesspace", 
+      "identifier": "5d5c3085e19b9e3f341d0627"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/345"
+    }, 
+    {
+      "ref": "/collections/513"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "epo", 
+      "expression": "Spanish"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_software/535", 
+      "type": "software"
+    }, 
+    {
+      "ref": "/agents_person/208", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents_software/752", 
+      "type": "software"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/154"
+    }, 
+    {
+      "ref": "/terms/948"
+    }, 
+    {
+      "ref": "/terms/619"
+    }
+  ], 
+  "creators": [
+    {
+      "ref": "/agents/software/884", 
+      "type": "software"
+    }
+  ], 
+  "type": "collection", 
+  "id": "5d5c3085d88f7a817164b350"
+}
