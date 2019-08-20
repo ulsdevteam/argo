@@ -122,17 +122,9 @@ STATIC_URL = CF.STATIC_ROOT
 AUTH_USER_MODEL = 'api_formatter.User'
 
 REST_FRAMEWORK = {
-    'DEFAULT_AUTHENTICATION_CLASSES': (
-        'rest_framework.authentication.BasicAuthentication',
-        'rest_framework.authentication.SessionAuthentication',
-    ),
     'DEFAULT_PAGINATION_CLASS':
         'rest_framework.pagination.PageNumberPagination',
     'PAGE_SIZE': 100,
-    'DEFAULT_RENDERER_CLASSES': [
-        'rest_framework.renderers.JSONRenderer',
-        'rest_framework.renderers.BrowsableAPIRenderer',
-    ]
 }
 
 # Elasticsearch configuration
