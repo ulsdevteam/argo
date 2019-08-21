@@ -59,7 +59,7 @@ ROOT_URLCONF = 'argo.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR, os.path.join(BASE_DIR, 'api_formatter', 'templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -117,7 +117,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
-STATIC_URL = CF.STATIC_ROOT
+STATIC_URL = CF.STATIC_URL
+# STATIC_ROOT = '/static/'
 
 AUTH_USER_MODEL = 'api_formatter.User'
 
@@ -125,6 +126,8 @@ REST_FRAMEWORK = {
     'DEFAULT_PAGINATION_CLASS':
         'rest_framework.pagination.PageNumberPagination',
     'PAGE_SIZE': 100,
+    'SEARCH_PARAM': 'query',
+    'ORDERING_PARAM': 'sort',
 }
 
 # Elasticsearch configuration
