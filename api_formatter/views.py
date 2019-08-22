@@ -1,31 +1,10 @@
 from django.http import Http404
-
 from rest_framework.viewsets import ReadOnlyModelViewSet
 from rest_framework.response import Response
 from elasticsearch_dsl import connections, Index, Search
 
-from django_elasticsearch_dsl_drf.constants import (
-    LOOKUP_FILTER_TERMS,
-    LOOKUP_FILTER_RANGE,
-    LOOKUP_FILTER_PREFIX,
-    LOOKUP_FILTER_WILDCARD,
-    LOOKUP_QUERY_IN,
-    LOOKUP_QUERY_GT,
-    LOOKUP_QUERY_GTE,
-    LOOKUP_QUERY_LT,
-    LOOKUP_QUERY_LTE,
-    LOOKUP_QUERY_EXCLUDE,
-)
-from django_elasticsearch_dsl_drf.filter_backends import (
-    FilteringFilterBackend,
-    IdsFilterBackend,
-    OrderingFilterBackend,
-    DefaultOrderingFilterBackend,
-    CompoundSearchFilterBackend,
-)
-from django_elasticsearch_dsl_drf.pagination import PageNumberPagination
-
 from .elasticsearch.documents import Agent, Collection, Object, Term
+from .elasticsearch.view_helpers import STRING_LOOKUPS, NUMBER_LOOKUPS, FILTER_BACKENDS
 from .serializers import (
     AgentSerializer, AgentListSerializer,
     CollectionSerializer, CollectionListSerializer,
@@ -35,6 +14,8 @@ from .serializers import (
 
 
 class DocumentViewSet(ReadOnlyModelViewSet):
+    filter_backends = FILTER_BACKENDS
+
     def __init__(self, *args, **kwargs):
         assert self.document is not None
 
@@ -51,6 +32,11 @@ class DocumentViewSet(ReadOnlyModelViewSet):
             doc_type=self.document._doc_type.name
         )
         super(ReadOnlyModelViewSet, self).__init__(*args, **kwargs)
+
+    def get_serializer_class(self):
+        if self.action == 'list':
+            return self.ListSerializer if self.ListSerializer else self.Serializer
+        return self.Serializer
 
     def get_queryset(self):
         return self.search.query()
@@ -73,69 +59,96 @@ class DocumentViewSet(ReadOnlyModelViewSet):
 
 
 class AgentViewSet(DocumentViewSet):
+    """
+    Returns data about agents, including people, organizations and families.
+    """
     document = Agent
-    ordering_fields = {}
+    ListSerializer = AgentListSerializer
+    Serializer = AgentSerializer
 
-    def get_serializer_class(self):
-        if self.action == 'list':
-            return AgentListSerializer
-        return AgentSerializer
+    filter_fields = {
+        'id': {
+            'field': 'id',
+            'lookups': STRING_LOOKUPS,
+            },
+        'title': {
+            'field': 'title.raw',
+            'lookups': STRING_LOOKUPS,
+            },
+        'description': {
+            'title': 'description.raw',
+            'lookups': STRING_LOOKUPS,
+            },
+        'type': {
+            'title': 'type',
+            'lookups': STRING_LOOKUPS,
+            },
+        'dates.begin': {
+            'title': 'dates.begin',
+            'lookups': NUMBER_LOOKUPS,
+            },
+        'dates.end': {
+            'title': 'dates.end',
+            'lookups': NUMBER_LOOKUPS,
+            },
+        }
 
-    # filter_backends = [
-    #     FilteringFilterBackend,
-    #     IdsFilterBackend,
-    #     OrderingFilterBackend,
-    #     CompoundSearchFilterBackend,
-    # ]
-    #
-    # filter_fields = {
-    #     'id': {
-    #         'field': 'id',
-    #         'lookups': [
-    #             LOOKUP_FILTER_RANGE,
-    #             LOOKUP_QUERY_IN,
-    #             LOOKUP_QUERY_GT,
-    #             LOOKUP_QUERY_GTE,
-    #             LOOKUP_QUERY_LT,
-    #             LOOKUP_QUERY_LTE,
-    #         ],
-    #     },
-    #     'title': 'title.raw',
-    #     'type': 'type.raw',
-    # }
+    search_fields = ('title', 'description', 'notes.subnotes.content')
+
+    ordering_fields = {
+        'title': 'title.raw',
+        'type': 'type.raw',
+        'start_date': 'dates.begin',
+        'end_date': 'dates.end',
+    }
 
 
 class CollectionViewSet(DocumentViewSet):
+    """
+    Returns data about collections, or intellectually significant groups of archival records.
+    """
     document = Collection
-    ordering_fields = {}
+    ListSerializer = CollectionListSerializer
+    Serializer = CollectionSerializer
 
-    def get_serializer_class(self):
-        if self.action == 'list':
-            return CollectionListSerializer
-        return CollectionSerializer
+    filter_fields = {}
+
+    search_fields = []
+
+    ordering_fields = {}
 
     # TODO: filtering and ordering
 
 
 class ObjectViewSet(DocumentViewSet):
+    """
+    Returns data about objects, or groups of archival records which have no children.
+    """
     document = Object
-    ordering_fields = {}
+    ListSerializer = ObjectListSerializer
+    Serializer = ObjectSerializer
 
-    def get_serializer_class(self):
-        if self.action == 'list':
-            return ObjectListSerializer
-        return ObjectSerializer
+    filter_fields = {}
+
+    search_fields = []
+
+    ordering_fields = {}
 
     # TODO: filtering and ordering
 
 
 class TermViewSet(DocumentViewSet):
+    """
+    Returns data about terms, including subjects, geographic areas and more.
+    """
     document = Term
-    ordering_fields = {}
+    ListSerializer = TermListSerializer
+    Serializer = TermSerializer
 
-    def get_serializer_class(self):
-        if self.action == 'list':
-            return TermListSerializer
-        return TermSerializer
+    filter_fields = {}
+
+    search_fields = []
+
+    ordering_fields = {}
 
     # TODO: filtering and ordering

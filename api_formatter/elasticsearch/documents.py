@@ -1,5 +1,5 @@
 from django.conf import settings
-from elasticsearch_dsl import Date, Document, Float, InnerDoc, Index, Keyword, Nested, Text
+from elasticsearch_dsl import Date, Document, Float, InnerDoc, Index, Keyword, Object, Text
 
 from .analyzers import html_strip
 
@@ -36,7 +36,7 @@ class Note(InnerDoc):
     type = Text()
     title = Text(analyzer='snowball', fields={'raw': Keyword()})
     source = Text()
-    subnotes = Nested(Subnote)
+    subnotes = Object(Subnote)
 
 
 class URI(InnerDoc):
@@ -48,7 +48,7 @@ class RightsGranted(InnerDoc):
     dateStart = Date()
     dateEnd = Date()
     restriction = Text()
-    notes = Nested(Note)
+    notes = Object(Note)
 
 
 class RightsStatement(InnerDoc):
@@ -60,18 +60,18 @@ class RightsStatement(InnerDoc):
     copyrightStatus = Text()
     otherBasis = Text()
     jurisdiction = Text()
-    notes = Nested(Note)
-    rights_granted = Nested(RightsGranted)
+    notes = Object(Note)
+    rights_granted = Object(RightsGranted)
 
 
 class Agent(Document):
     id = Text()
     title = Text(analyzer='snowball', fields={'raw': Keyword()})
-    description = Text(analyzer='snowball')
-    type = Text()
-    dates = Nested(Date)
-    notes = Nested(Note)
-    external_identifiers = Nested(ExternalIdentifier)
+    description = Text(analyzer='snowball', fields={'raw': Keyword()})
+    type = Text(fields={'raw': Keyword()})
+    dates = Object(Date)
+    notes = Object(Note)
+    external_identifiers = Object(ExternalIdentifier)
 
     class Index:
         name = 'agents'
@@ -80,19 +80,19 @@ class Agent(Document):
 class Collection(Document):
     id = Text()
     title = Text(analyzer='snowball', fields={'raw': Keyword()})
-    type = Text()
+    type = Text(fields={'raw': Keyword()})
     level = Text()
-    dates = Nested(Date)
-    languages = Nested(Language)
-    extents = Nested(Extent)
-    notes = Nested(Note)
-    rights_statements = Nested(RightsStatement)
-    external_identifiers = Nested(ExternalIdentifier)
-    agents = Nested(URI)  # TODO: do agents need a role?
-    terms = Nested(URI)
-    creators = Nested(URI)  # TODO: should this be part of agents?
-    ancestors = Nested(URI)
-    children = Nested(URI)
+    dates = Object(Date)
+    languages = Object(Language)
+    extents = Object(Extent)
+    notes = Object(Note)
+    rights_statements = Object(RightsStatement)
+    external_identifiers = Object(ExternalIdentifier)
+    agents = Object(URI)  # TODO: do agents need a role?
+    terms = Object(URI)
+    creators = Object(URI)  # TODO: should this be part of agents?
+    ancestors = Object(URI)
+    children = Object(URI)
 
     class Index:
         name = 'collections'
@@ -101,16 +101,16 @@ class Collection(Document):
 class Object(Document):
     id = Text()
     title = Text(analyzer='snowball', fields={'raw': Keyword()})
-    type = Text()
-    dates = Nested(Date)
-    languages = Nested(Language)
-    extents = Nested(Extent)
-    notes = Nested(Note)
-    rights_statements = Nested(RightsStatement)
-    external_identifiers = Nested(ExternalIdentifier)
-    agents = Nested(URI)  # TODO: do agents need a role?
-    terms = Nested(URI)
-    ancestors = Nested(URI)
+    type = Text(fields={'raw': Keyword()})
+    dates = Object(Date)
+    languages = Object(Language)
+    extents = Object(Extent)
+    notes = Object(Note)
+    rights_statements = Object(RightsStatement)
+    external_identifiers = Object(ExternalIdentifier)
+    agents = Object(URI)  # TODO: do agents need a role?
+    terms = Object(URI)
+    ancestors = Object(URI)
 
     class Index:
         name = 'objects'
@@ -120,7 +120,7 @@ class Term(Document):
     id = Text()
     title = Text(analyzer='snowball', fields={'raw': Keyword()})
     type = Text()
-    external_identifiers = Nested(ExternalIdentifier)
+    # external_identifiers = Object(ExternalIdentifier)
 
     class Index:
         name = 'terms'

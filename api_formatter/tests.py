@@ -12,10 +12,10 @@ from .views import AgentViewSet, CollectionViewSet, ObjectViewSet, TermViewSet
 from argo import settings
 
 TYPE_MAP = (
-    ('agents', Agent, AgentViewSet, 'agent-list', 'agent-detail'),
-    ('collections', Collection, CollectionViewSet, 'collection-list', 'collection-detail'),
-    ('objects', Object, ObjectViewSet, 'object-list', 'object-detail'),
-    ('terms', Term, TermViewSet, 'term-list', 'term-detail'),
+    ('agents', Agent, AgentViewSet, 'agent'),
+    ('collections', Collection, CollectionViewSet, 'collection'),
+    ('objects', Object, ObjectViewSet, 'object'),
+    ('terms', Term, TermViewSet, 'term'),
 )
 
 # TODO: test filtering, ordering, etc
@@ -40,17 +40,19 @@ class TestAPI(TestCase):
                 added_ids.append(data['id'])
         return added_ids
 
-    def list_view(self, view, viewset, obj_length):
-        request = self.factory.get(reverse(view))
-        response = viewset.as_view(actions={"get": "list"})(request)
+    def list_view(self, basename, viewset, obj_length):
+        request = self.factory.get(reverse("{}-list".format(basename)))
+        response = viewset.as_view(actions={"get": "list"}, basename=basename)(request)
         self.assertEqual(obj_length, int(response.data['count']),
-                         "Number of documents in index for View {} did not match number indexed".format(view))
+                         "Number of documents in index for View {} did not match \
+                          number indexed".format("{}-list".format(basename)))
 
-    def detail_view(self, view, viewset, pk):
-        request = self.factory.get(reverse(view, args=[pk]))
-        response = viewset.as_view(actions={"get": "retrieve"})(request, pk=pk)
+    def detail_view(self, basename, viewset, pk):
+        request = self.factory.get(reverse("{}-detail".format(basename), args=[pk]))
+        response = viewset.as_view(actions={"get": "retrieve"}, basename=basename)(request, pk=pk)
         self.assertEqual(response.status_code, 200,
-                         "View {} in ViewSet {} did not return 200 for document {}".format(view, viewset, pk))
+                         "View {}-detail in ViewSet {} did not return 200 \
+                         for document {}".format(basename, viewset, pk))
 
     def test_documents(self):
         for t in TYPE_MAP:
@@ -58,7 +60,7 @@ class TestAPI(TestCase):
             Index(name=t[0]).refresh()
             self.list_view(t[3], t[2], len(added_ids))
             for ident in added_ids:
-                self.detail_view(t[4], t[2], ident)
+                self.detail_view(t[3], t[2], ident)
 
     def test_schema(self):
         schema = self.client.get(reverse('schema'))
