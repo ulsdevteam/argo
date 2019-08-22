@@ -1,5 +1,7 @@
 from elasticsearch_dsl import analyzer
 
+# TODO: build these out as necessary
+
 html_strip = analyzer(
     'html_strip',
     tokenizer="standard",

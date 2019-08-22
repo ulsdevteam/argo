@@ -1,126 +1,126 @@
-from django.conf import settings
-from elasticsearch_dsl import Date, Document, Float, InnerDoc, Index, Keyword, Object, Text
+# This avoids name collisions between Object class in elasticsearch_dsl and our Object Document class
+import elasticsearch_dsl as es
 
 from .analyzers import html_strip
 
 
-class ExternalIdentifier(InnerDoc):
-    source = Text()
-    identifier = Text()
+class ExternalIdentifier(es.InnerDoc):
+    source = es.Text()
+    identifier = es.Text()
 
 
-class Extent(InnerDoc):
-    value = Float()
-    type = Text()
+class Extent(es.InnerDoc):
+    value = es.Float()
+    type = es.Text()
 
 
-class Date(InnerDoc):
-    begin = Date()
-    end = Date()
-    expression = Text()
-    type = Text()
-    label = Text()
+class Date(es.InnerDoc):
+    begin = es.Date()
+    end = es.Date()
+    expression = es.Text()
+    type = es.Text()
+    label = es.Text()
 
 
-class Language(InnerDoc):
-    expression = Text()
-    identifier = Text()
+class Language(es.InnerDoc):
+    expression = es.Text()
+    identifier = es.Text()
 
 
-class Subnote(InnerDoc):
-    type = Text()
-    content = Text(analyzer='snowball')
+class Subnote(es.InnerDoc):
+    type = es.Text()
+    content = es.Text(analyzer='snowball')
 
 
-class Note(InnerDoc):
-    type = Text()
-    title = Text(analyzer='snowball', fields={'raw': Keyword()})
-    source = Text()
-    subnotes = Object(Subnote)
+class Note(es.InnerDoc):
+    type = es.Text()
+    title = es.Text(analyzer='snowball', fields={'raw': es.Keyword()})
+    source = es.Text()
+    subnotes = es.Object(Subnote)
 
 
-class URI(InnerDoc):
-    ref = Text()
+class URI(es.InnerDoc):
+    ref = es.Text()
 
 
-class RightsGranted(InnerDoc):
-    act = Text()
-    dateStart = Date()
-    dateEnd = Date()
-    restriction = Text()
-    notes = Object(Note)
+class RightsGranted(es.InnerDoc):
+    act = es.Text()
+    dateStart = es.Date()
+    dateEnd = es.Date()
+    restriction = es.Text()
+    notes = es.Object(Note)
 
 
-class RightsStatement(InnerDoc):
-    determinationDate = Date()
-    type = Text()
-    rightsType = Text()
-    dateStart = Date()
-    dateEnd = Date()
-    copyrightStatus = Text()
-    otherBasis = Text()
-    jurisdiction = Text()
-    notes = Object(Note)
-    rights_granted = Object(RightsGranted)
+class RightsStatement(es.InnerDoc):
+    determinationDate = es.Date()
+    type = es.Text()
+    rightsType = es.Text()
+    dateStart = es.Date()
+    dateEnd = es.Date()
+    copyrightStatus = es.Text()
+    otherBasis = es.Text()
+    jurisdiction = es.Text()
+    notes = es.Object(Note)
+    rights_granted = es.Object(RightsGranted)
 
 
-class Agent(Document):
-    id = Text()
-    title = Text(analyzer='snowball', fields={'raw': Keyword()})
-    description = Text(analyzer='snowball', fields={'raw': Keyword()})
-    type = Text(fields={'raw': Keyword()})
-    dates = Object(Date)
-    notes = Object(Note)
-    external_identifiers = Object(ExternalIdentifier)
+class Agent(es.Document):
+    id = es.Text()
+    title = es.Text(analyzer='snowball', fields={'raw': es.Keyword()})
+    description = es.Text(analyzer='snowball', fields={'raw': es.Keyword()})
+    type = es.Text(fields={'raw': es.Keyword()})
+    dates = es.Object(Date)
+    notes = es.Object(Note)
+    external_identifiers = es.Object(ExternalIdentifier)
 
     class Index:
         name = 'agents'
 
 
-class Collection(Document):
-    id = Text()
-    title = Text(analyzer='snowball', fields={'raw': Keyword()})
-    type = Text(fields={'raw': Keyword()})
-    level = Text()
-    dates = Object(Date)
-    languages = Object(Language)
-    extents = Object(Extent)
-    notes = Object(Note)
-    rights_statements = Object(RightsStatement)
-    external_identifiers = Object(ExternalIdentifier)
-    agents = Object(URI)  # TODO: do agents need a role?
-    terms = Object(URI)
-    creators = Object(URI)  # TODO: should this be part of agents?
-    ancestors = Object(URI)
-    children = Object(URI)
+class Collection(es.Document):
+    id = es.Text()
+    title = es.Text(analyzer='snowball', fields={'raw': es.Keyword()})
+    type = es.Text(fields={'raw': es.Keyword()})
+    level = es.Text()
+    dates = es.Object(Date)
+    languages = es.Object(Language)
+    extents = es.Object(Extent)
+    notes = es.Object(Note)
+    rights_statements = es.Object(RightsStatement)
+    external_identifiers = es.Object(ExternalIdentifier)
+    agents = es.Object(URI)  # TODO: do agents need a role?
+    terms = es.Object(URI)
+    creators = es.Object(URI)  # TODO: should this be part of agents?
+    ancestors = es.Object(URI)
+    children = es.Object(URI)
 
     class Index:
         name = 'collections'
 
 
-class Object(Document):
-    id = Text()
-    title = Text(analyzer='snowball', fields={'raw': Keyword()})
-    type = Text(fields={'raw': Keyword()})
-    dates = Object(Date)
-    languages = Object(Language)
-    extents = Object(Extent)
-    notes = Object(Note)
-    rights_statements = Object(RightsStatement)
-    external_identifiers = Object(ExternalIdentifier)
-    agents = Object(URI)  # TODO: do agents need a role?
-    terms = Object(URI)
-    ancestors = Object(URI)
+class Object(es.Document):
+    id = es.Text()
+    title = es.Text(analyzer='snowball', fields={'raw': es.Keyword()})
+    type = es.Text(fields={'raw': es.Keyword()})
+    dates = es.Object(Date)
+    languages = es.Object(Language)
+    extents = es.Object(Extent)
+    notes = es.Object(Note)
+    rights_statements = es.Object(RightsStatement)
+    external_identifiers = es.Object(ExternalIdentifier)
+    agents = es.Object(URI)  # TODO: do agents need a role?
+    terms = es.Object(URI)
+    ancestors = es.Object(URI)
 
     class Index:
         name = 'objects'
 
 
-class Term(Document):
-    id = Text()
-    title = Text(analyzer='snowball', fields={'raw': Keyword()})
-    type = Text()
-    # external_identifiers = Object(ExternalIdentifier)
+class Term(es.Document):
+    id = es.Text()
+    title = es.Text(analyzer='snowball', fields={'raw': es.Keyword()})
+    type = es.Text(fields={'raw': es.Keyword()})
+    external_identifiers = es.Object(ExternalIdentifier)
 
     class Index:
         name = 'terms'
