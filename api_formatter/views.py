@@ -83,11 +83,11 @@ class AgentViewSet(DocumentViewSet):
             'title': 'type',
             'lookups': STRING_LOOKUPS,
             },
-        'dates.begin': {
+        'start_date': {
             'title': 'dates.begin',
             'lookups': NUMBER_LOOKUPS,
             },
-        'dates.end': {
+        'end_date': {
             'title': 'dates.end',
             'lookups': NUMBER_LOOKUPS,
             },
@@ -111,13 +111,37 @@ class CollectionViewSet(DocumentViewSet):
     ListSerializer = CollectionListSerializer
     Serializer = CollectionSerializer
 
-    filter_fields = {}
+    filter_fields = {
+        'id': {
+            'field': 'id',
+            'lookups': STRING_LOOKUPS,
+            },
+        'title': {
+            'field': 'title.raw',
+            'lookups': STRING_LOOKUPS,
+            },
+        'start_date': {
+            'title': 'dates.begin',
+            'lookups': NUMBER_LOOKUPS,
+            },
+        'end_date': {
+            'title': 'dates.end',
+            'lookups': NUMBER_LOOKUPS,
+            },
+        'level': {
+            'field': 'level',
+            'lookups': STRING_LOOKUPS,
+        },
+    }
 
-    search_fields = []
+    search_fields = ('title', 'notes.subnotes.content')
 
-    ordering_fields = {}
-
-    # TODO: filtering and ordering
+    ordering_fields = {
+        'title': 'title.raw',
+        'level': 'type',
+        'start_date': 'dates.begin',
+        'end_date': 'dates.end',
+    }
 
 
 class ObjectViewSet(DocumentViewSet):
@@ -128,13 +152,32 @@ class ObjectViewSet(DocumentViewSet):
     ListSerializer = ObjectListSerializer
     Serializer = ObjectSerializer
 
-    filter_fields = {}
+    filter_fields = {
+        'id': {
+            'field': 'id',
+            'lookups': STRING_LOOKUPS,
+            },
+        'title': {
+            'field': 'title.raw',
+            'lookups': STRING_LOOKUPS,
+            },
+        'start_date': {
+            'title': 'dates.begin',
+            'lookups': NUMBER_LOOKUPS,
+            },
+        'end_date': {
+            'title': 'dates.end',
+            'lookups': NUMBER_LOOKUPS,
+            },
+        }
 
-    search_fields = []
+    search_fields = ('title', 'notes.subnotes.content')
 
-    ordering_fields = {}
-
-    # TODO: filtering and ordering
+    ordering_fields = {
+        'title': 'title.raw',
+        'start_date': 'dates.begin',
+        'end_date': 'dates.end',
+    }
 
 
 class TermViewSet(DocumentViewSet):
@@ -145,10 +188,23 @@ class TermViewSet(DocumentViewSet):
     ListSerializer = TermListSerializer
     Serializer = TermSerializer
 
-    filter_fields = {}
+    filter_fields = {
+        'id': {
+            'field': 'id',
+            'lookups': STRING_LOOKUPS,
+            },
+        'title': {
+            'field': 'title.raw',
+            'lookups': STRING_LOOKUPS,
+            },
+        'type': {
+            'title': 'type',
+            'lookups': STRING_LOOKUPS,
+            },
+        }
 
-    search_fields = []
+    search_fields = ('title', 'type')
 
-    ordering_fields = {}
-
-    # TODO: filtering and ordering
+    ordering_fields = {
+        'title': 'title.raw',
+    }
