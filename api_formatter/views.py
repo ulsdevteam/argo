@@ -72,32 +72,32 @@ class AgentViewSet(DocumentViewSet):
             'lookups': STRING_LOOKUPS,
             },
         'title': {
-            'field': 'title.raw',
+            'field': 'title.keyword',
             'lookups': STRING_LOOKUPS,
             },
         'description': {
-            'title': 'description.raw',
+            'field': 'description.keyword',
             'lookups': STRING_LOOKUPS,
             },
         'type': {
-            'title': 'type',
+            'field': 'type',
             'lookups': STRING_LOOKUPS,
             },
         'start_date': {
-            'title': 'dates.begin',
+            'field': 'dates.begin',
             'lookups': NUMBER_LOOKUPS,
             },
         'end_date': {
-            'title': 'dates.end',
+            'field': 'dates.end',
             'lookups': NUMBER_LOOKUPS,
             },
         }
 
-    search_fields = ('title', 'description', 'notes.subnotes.content')
+    search_fields = ('title.keyword', 'description', 'notes.subnotes.content')
 
     ordering_fields = {
-        'title': 'title.raw',
-        'type': 'type.raw',
+        'title': 'title.keyword',
+        'type': 'type.keyword',
         'start_date': 'dates.begin',
         'end_date': 'dates.end',
     }
@@ -117,28 +117,28 @@ class CollectionViewSet(DocumentViewSet):
             'lookups': STRING_LOOKUPS,
             },
         'title': {
-            'field': 'title.raw',
+            'field': 'title.keyword',
             'lookups': STRING_LOOKUPS,
             },
         'start_date': {
-            'title': 'dates.begin',
+            'field': 'dates.begin',
             'lookups': NUMBER_LOOKUPS,
             },
         'end_date': {
-            'title': 'dates.end',
+            'field': 'dates.end',
             'lookups': NUMBER_LOOKUPS,
             },
         'level': {
-            'field': 'level',
+            'field': 'level.keyword',
             'lookups': STRING_LOOKUPS,
         },
     }
 
-    search_fields = ('title', 'notes.subnotes.content')
+    search_fields = ('title.keyword', 'notes.subnotes.content')
 
     ordering_fields = {
-        'title': 'title.raw',
-        'level': 'type',
+        'title': 'title.keyword',
+        'level': 'level.keyword',
         'start_date': 'dates.begin',
         'end_date': 'dates.end',
     }
@@ -158,23 +158,23 @@ class ObjectViewSet(DocumentViewSet):
             'lookups': STRING_LOOKUPS,
             },
         'title': {
-            'field': 'title.raw',
+            'field': 'title.keyword',
             'lookups': STRING_LOOKUPS,
             },
         'start_date': {
-            'title': 'dates.begin',
+            'field': 'dates.begin',
             'lookups': NUMBER_LOOKUPS,
             },
         'end_date': {
-            'title': 'dates.end',
+            'field': 'dates.end',
             'lookups': NUMBER_LOOKUPS,
             },
         }
 
-    search_fields = ('title', 'notes.subnotes.content')
+    search_fields = ('title.keyword', 'notes.subnotes.content')
 
     ordering_fields = {
-        'title': 'title.raw',
+        'title': 'title.keyword',
         'start_date': 'dates.begin',
         'end_date': 'dates.end',
     }
@@ -194,17 +194,17 @@ class TermViewSet(DocumentViewSet):
             'lookups': STRING_LOOKUPS,
             },
         'title': {
-            'field': 'title.raw',
+            'field': 'title.keyword',
             'lookups': STRING_LOOKUPS,
             },
         'type': {
-            'title': 'type',
+            'field': 'type',
             'lookups': STRING_LOOKUPS,
             },
         }
 
-    search_fields = ('title', 'type')
+    search_fields = ('title.keyword', 'type')
 
     ordering_fields = {
-        'title': 'title.raw',
+        'title': 'title.keyword',
     }

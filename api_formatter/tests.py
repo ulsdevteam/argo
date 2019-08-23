@@ -1,10 +1,13 @@
+from datetime import datetime
 import json
 import os
+import random
+from functools import reduce
 import shortuuid
 
 from django.test import TestCase
 from django.urls import reverse
-from elasticsearch_dsl import connections, Search, Index
+from elasticsearch_dsl import connections, Search, Index, utils
 from rest_framework.test import APIRequestFactory
 
 from .elasticsearch.documents import Agent, Collection, Object, Term
@@ -17,8 +20,6 @@ TYPE_MAP = (
     ('objects', Object, ObjectViewSet, 'object'),
     ('terms', Term, TermViewSet, 'term'),
 )
-
-# TODO: test filtering, ordering, etc
 
 
 class TestAPI(TestCase):
@@ -40,12 +41,78 @@ class TestAPI(TestCase):
                 added_ids.append(data['id'])
         return added_ids
 
-    def list_view(self, basename, viewset, obj_length):
-        request = self.factory.get(reverse("{}-list".format(basename)))
-        response = viewset.as_view(actions={"get": "list"}, basename=basename)(request)
+    def get_nested_value(self, key_list, obj):
+        child_obj = getattr(obj, key_list[0])
+        key_list.pop(0)
+        if len(key_list) > 0:
+            if isinstance(child_obj, utils.AttrList):
+                return self.get_nested_value(key_list, child_obj[0])
+            else:
+                return self.get_nested_value(key_list, child_obj)
+        if isinstance(child_obj, datetime):
+            return child_obj.strftime('%Y-%m-%dT%H:%M:%S%z')
+        return child_obj
+
+    def get_random_obj(self, obj_list, cls):
+        uuid = random.choice(obj_list.data.get('results')).get('uri').split('/')[2]
+        return cls.get(id=uuid)
+
+    def sort_fields(self, viewset, basename, base_url):
+        """
+        Tests ascending and descending sort on ordering fields
+        """
+        for field in viewset.ordering_fields:
+            for sort in [field, "-{}".format(field)]:
+                url = "{}?sort={}".format(base_url, sort)
+                print(url)
+                sorted = self.factory.get(url)
+                sort_response = viewset.as_view(actions={"get": "list"}, basename=basename)(sorted)
+                self.assertEqual(sort_response.status_code, 200)
+                self.assertTrue(sort_response.data.get('count') > 0)
+
+    def filter_fields(self, viewset, base_url, basename, obj):
+        """
+        Use the field value from a random object as a filter value.
+        This ensures we always have at least one result.
+        """
+        for field in viewset.filter_fields:
+            field_list = viewset.filter_fields[field].get('field').rsplit('.keyword')[0].split('.')
+            value = self.get_nested_value(field_list, obj)
+            url = "{}?{}={}".format(base_url, field, value)
+            print(url)
+            filtered = self.factory.get(url)
+            filter_response = viewset.as_view(actions={"get": "list"}, basename=basename)(filtered)
+            self.assertEqual(filter_response.status_code, 200)
+            self.assertTrue(filter_response.data.get('count') > 0)
+
+    def search_fields(self, viewset, base_url, basename, obj):
+        """
+        Use the field value from a random object as a query value, unless it is None.
+        This ensures we always have at least one result.
+        """
+        for field in viewset.search_fields:
+            field_list = field.rsplit('.keyword')[0].split('.')
+            value = self.get_nested_value(field_list, obj)
+            if value:
+                url = "{}?query={}".format(base_url, value)
+                print(url)
+                search = self.factory.get(url)
+                search_response = viewset.as_view(actions={"get": "list"}, basename=basename)(search)
+                self.assertEqual(search_response.status_code, 200)
+                self.assertTrue(search_response.data.get('count') > 0)
+
+    def list_view(self, model_cls, basename, viewset, obj_length):
+        base_url = reverse("{}-list".format(basename))
+        base_viewset = viewset.as_view(actions={"get": "list"}, basename=basename)
+        request = self.factory.get(base_url)
+        response = base_viewset(request)
         self.assertEqual(obj_length, int(response.data['count']),
                          "Number of documents in index for View {} did not match \
                           number indexed".format("{}-list".format(basename)))
+        self.sort_fields(viewset, basename, base_url)
+        obj = self.get_random_obj(response, model_cls)
+        self.filter_fields(viewset, base_url, basename, obj)
+        self.search_fields(viewset, base_url, basename, obj)
 
     def detail_view(self, basename, viewset, pk):
         request = self.factory.get(reverse("{}-detail".format(basename), args=[pk]))
@@ -58,7 +125,7 @@ class TestAPI(TestCase):
         for t in TYPE_MAP:
             added_ids = self.index_fixture_data('fixtures/{}'.format(t[0]), t[1])
             Index(name=t[0]).refresh()
-            self.list_view(t[3], t[2], len(added_ids))
+            self.list_view(t[1], t[3], t[2], len(added_ids))
             for ident in added_ids:
                 self.detail_view(t[3], t[2], ident)
 

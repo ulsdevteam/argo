@@ -66,9 +66,9 @@ class RightsStatement(es.InnerDoc):
 
 class Agent(es.Document):
     id = es.Text()
-    title = es.Text(analyzer='snowball', fields={'raw': es.Keyword()})
-    description = es.Text(analyzer='snowball', fields={'raw': es.Keyword()})
-    type = es.Text(fields={'raw': es.Keyword()})
+    title = es.Text(analyzer='snowball', fields={'keyword': es.Keyword()})
+    description = es.Text(analyzer='snowball', fields={'keyword': es.Keyword()})
+    type = es.Text(fields={'keyword': es.Keyword()})
     dates = es.Object(Date)
     notes = es.Object(Note)
     external_identifiers = es.Object(ExternalIdentifier)
@@ -79,9 +79,9 @@ class Agent(es.Document):
 
 class Collection(es.Document):
     id = es.Text()
-    title = es.Text(analyzer='snowball', fields={'raw': es.Keyword()})
-    type = es.Text(fields={'raw': es.Keyword()})
-    level = es.Text()
+    title = es.Text(analyzer='snowball', fields={'keyword': es.Keyword()})
+    type = es.Text(fields={'keyword': es.Keyword()})
+    level = es.Text(fields={'keyword': es.Keyword()})
     dates = es.Object(Date)
     languages = es.Object(Language)
     extents = es.Object(Extent)
@@ -100,8 +100,8 @@ class Collection(es.Document):
 
 class Object(es.Document):
     id = es.Text()
-    title = es.Text(analyzer='snowball', fields={'raw': es.Keyword()})
-    type = es.Text(fields={'raw': es.Keyword()})
+    title = es.Text(analyzer='snowball', fields={'keyword': es.Keyword()})
+    type = es.Text(fields={'keyword': es.Keyword()})
     dates = es.Object(Date)
     languages = es.Object(Language)
     extents = es.Object(Extent)
@@ -118,8 +118,8 @@ class Object(es.Document):
 
 class Term(es.Document):
     id = es.Text()
-    title = es.Text(analyzer='snowball', fields={'raw': es.Keyword()})
-    type = es.Text(fields={'raw': es.Keyword()})
+    title = es.Text(analyzer='snowball', fields={'keyword': es.Keyword()})
+    type = es.Text(fields={'keyword': es.Keyword()})
     external_identifiers = es.Object(ExternalIdentifier)
 
     class Index:
