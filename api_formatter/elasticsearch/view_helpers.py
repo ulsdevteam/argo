@@ -16,6 +16,7 @@ from django_elasticsearch_dsl_drf.filter_backends import (
     OrderingFilterBackend,
     DefaultOrderingFilterBackend,
     CompoundSearchFilterBackend,
+    FacetedSearchFilterBackend,
 )
 from django_elasticsearch_dsl_drf.pagination import PageNumberPagination
 
@@ -41,5 +42,7 @@ FILTER_BACKENDS = [FilteringFilterBackend,
                    DefaultOrderingFilterBackend,
                    CompoundSearchFilterBackend,
                    ]
+
+SEARCH_BACKENDS = FILTER_BACKENDS + [FacetedSearchFilterBackend]
 
 PAGINATION_CLASS = PageNumberPagination

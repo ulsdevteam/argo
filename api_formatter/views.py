@@ -1,11 +1,13 @@
 from django.http import Http404
+from rest_framework.generics import ListAPIView
 from rest_framework.viewsets import ReadOnlyModelViewSet
 from rest_framework.response import Response
 from elasticsearch_dsl import connections, Index, Search
 
 from .elasticsearch.documents import Agent, Collection, Object, Term
-from .elasticsearch.view_helpers import STRING_LOOKUPS, NUMBER_LOOKUPS, FILTER_BACKENDS
+from .elasticsearch.view_helpers import STRING_LOOKUPS, NUMBER_LOOKUPS, FILTER_BACKENDS, SEARCH_BACKENDS
 from .serializers import (
+    HitSerializer,
     AgentSerializer, AgentListSerializer,
     CollectionSerializer, CollectionListSerializer,
     ObjectSerializer, ObjectListSerializer,
@@ -208,3 +210,28 @@ class TermViewSet(DocumentViewSet):
     ordering_fields = {
         'title': 'title.keyword',
     }
+
+
+class SearchView(ListAPIView):
+    """
+    Performs search queries across agents, collections, objects and terms.
+    """
+    serializer_class = HitSerializer
+    filter_backends = SEARCH_BACKENDS
+    filter_fields = {}  # This requires a mapping? Check if there's another structure
+    ordering_fields = {'title': 'title.keyword', 'type': 'type.keyword'}
+    search_fields = ('title', 'type')
+    faceted_search_fields = {'type': 'type.keyword'}
+
+    def __init__(self, *args, **kwargs):
+        self.client = connections.get_connection('default')
+        # self.mapping = self.document._doc_type.mapping.properties.name
+        self.search = Search(
+            using=self.client,
+            index=['agents', 'collections', 'objects', 'terms'],
+            doc_type=['_all']
+        )
+        super(ListAPIView, self).__init__(*args, **kwargs)
+
+    def get_queryset(self):
+        return self.search.query()
