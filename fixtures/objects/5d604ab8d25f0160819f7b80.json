@@ -1,0 +1,183 @@
+{
+  "dates": [
+    {
+      "expression": "Mar 24th, 1918 - Apr 20th, 1996", 
+      "begin": "1918-03-24", 
+      "label": "deaccession", 
+      "end": "1996-04-20", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Oct 8th, 1918 - Sep 16th, 2015", 
+      "begin": "1918-10-08", 
+      "label": "modified", 
+      "end": "2015-09-16", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Aug 18th, 1936 - Jul 28th, 1965", 
+      "begin": "1936-08-18", 
+      "label": "usage", 
+      "end": "1965-07-28", 
+      "type": "single"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/300"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "linear_feet", 
+      "value": "3.39"
+    }
+  ], 
+  "title": "Incididunt occaecat ut aliquip cillum ad tempor et non velit excepteur.", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "custodhist", 
+      "subnotes": [
+        {
+          "content": [
+            "fugiat consequat magna enim quis nisi", 
+            "fugiat do cillum adipisicing cillum proident", 
+            "ea duis aliqua qui anim consequat", 
+            "labore exercitation occaecat non in laborum", 
+            "sit nostrud nostrud amet duis in"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "ad mollit eu"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "physdesc", 
+      "subnotes": [
+        {
+          "content": [
+            "aliqua do velit officia et voluptate", 
+            "fugiat ad occaecat laborum elit duis", 
+            "do duis fugiat officia in adipisicing", 
+            "laborum enim anim culpa ad laborum", 
+            "eiusmod magna in incididunt aliquip quis"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "eiusmod esse proident est dolor dolor", 
+            "excepteur adipisicing sint est amet id", 
+            "officia do officia laborum esse officia"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "sunt sunt proident"
+    }, 
+    {
+      "source": "wikipedia", 
+      "type": "note", 
+      "subnotes": [
+        {
+          "content": [
+            "velit reprehenderit veniam velit aute ullamco", 
+            "laboris do irure excepteur reprehenderit qui", 
+            "ut aliquip laborum est sunt laborum", 
+            "consequat ipsum ad nostrud nulla in"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "incididunt Lorem ad"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d604ab82c2b391329189bbc"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "eng", 
+      "expression": "Spanish"
+    }, 
+    {
+      "identifier": "eng", 
+      "expression": "Esperanto"
+    }
+  ], 
+  "rights_statements": [
+    {
+      "begin": "2019-08-23", 
+      "end": "2019-08-23", 
+      "copyright_status": "unknown", 
+      "notes": [
+        {
+          "source": "wikipedia", 
+          "type": "additional_information", 
+          "subnotes": [
+            {
+              "content": [
+                "pariatur nisi do aute proident et", 
+                "ad laborum eu dolor non est"
+              ], 
+              "type": "definedlist"
+            }
+          ], 
+          "title": "non esse dolore"
+        }
+      ], 
+      "jurisdiction": "FR", 
+      "other_basis": "cupidatat", 
+      "rights_granted": [
+        {
+          "restriction": "disallow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [], 
+          "act": "migrate"
+        }
+      ], 
+      "rights_status": "unknown", 
+      "determination_date": "2019-08-23", 
+      "type": "rights_statement", 
+      "id": "5d604ab8dc9e830a754c39ca", 
+      "rights_type": "statute"
+    }
+  ], 
+  "agents": [
+    {
+      "ref": "/agents_family/289", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents_software/456", 
+      "type": "software"
+    }, 
+    {
+      "ref": "/agents_family/76", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents_family/54", 
+      "type": "family"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/419"
+    }, 
+    {
+      "ref": "/terms/192"
+    }, 
+    {
+      "ref": "/terms/232"
+    }
+  ], 
+  "type": "object", 
+  "id": "5d604ab8d25f0160819f7b80"
+}

@@ -1,0 +1,123 @@
+{
+  "dates": [
+    {
+      "expression": "Mar 23rd, 1914 - Jan 7th, 1962", 
+      "begin": "1914-03-23", 
+      "label": "creation", 
+      "end": "1962-01-07", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Feb 17th, 1913 - Oct 16th, 2002", 
+      "begin": "1913-02-17", 
+      "label": "copyright", 
+      "end": "2002-10-16", 
+      "type": "inclusive"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/575"
+    }, 
+    {
+      "ref": "/collections/572"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "megabytes", 
+      "value": "3.01"
+    }, 
+    {
+      "type": "reels", 
+      "value": "1.4"
+    }
+  ], 
+  "level": "subseries", 
+  "notes": [
+    {
+      "source": "cartographer", 
+      "type": "extent", 
+      "subnotes": [
+        {
+          "content": [
+            "sint excepteur esse ullamco id anim", 
+            "eiusmod voluptate voluptate esse incididunt aute", 
+            "fugiat veniam est velit eu mollit", 
+            "aute eu non deserunt laboris ut"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "cupidatat adipisicing dolor ad laboris ad", 
+            "nulla aute duis exercitation deserunt ad", 
+            "id culpa cillum cillum anim aliquip"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "qui qui nisi non magna sit"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "officia Lorem adipisicing"
+    }
+  ], 
+  "title": "Consequat ullamco duis pariatur proident laboris voluptate cupidatat officia dolore esse magna mollit aliquip.", 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d604aa8b1be06ab6c968368"
+    }, 
+    {
+      "source": "archivesspace", 
+      "identifier": "5d604aa8eb3150073f7185ea"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/618"
+    }, 
+    {
+      "ref": "/collections/978"
+    }, 
+    {
+      "ref": "/collections/89"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "epo", 
+      "expression": "English"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_organization/335", 
+      "type": "organization"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/279"
+    }, 
+    {
+      "ref": "/terms/829"
+    }, 
+    {
+      "ref": "/terms/615"
+    }
+  ], 
+  "creators": [
+    {
+      "ref": "/agents/person/300", 
+      "type": "person"
+    }
+  ], 
+  "type": "collection", 
+  "id": "5d604aa854c01a9ae1ceb429"
+}

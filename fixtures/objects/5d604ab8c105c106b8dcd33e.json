@@ -1,0 +1,159 @@
+{
+  "dates": [
+    {
+      "expression": "Nov 2nd, 1924 - Oct 4th, 1960", 
+      "begin": "1924-11-02", 
+      "label": "digitized", 
+      "end": "1960-10-04", 
+      "type": "bulk"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/899"
+    }, 
+    {
+      "ref": "/collections/644"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "linear_feet", 
+      "value": "1.74"
+    }
+  ], 
+  "title": "Officia do proident dolore eu sint duis cillum.", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "dimensions", 
+      "subnotes": [
+        {
+          "content": [
+            "in anim ut ipsum tempor anim", 
+            "in adipisicing proident quis tempor voluptate", 
+            "ipsum do velit nulla non incididunt", 
+            "laborum fugiat commodo sit dolor et"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "do id est"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d604ab8b75ce3fccb59cf53"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "spa", 
+      "expression": "English"
+    }, 
+    {
+      "identifier": "epo", 
+      "expression": "Spanish"
+    }
+  ], 
+  "rights_statements": [
+    {
+      "begin": "2019-08-23", 
+      "end": "2019-08-23", 
+      "copyright_status": "unknown", 
+      "notes": [
+        {
+          "source": "wikidata", 
+          "type": "additional_information", 
+          "subnotes": [
+            {
+              "content": [
+                "ad proident amet elit occaecat amet"
+              ], 
+              "type": "text"
+            }
+          ], 
+          "title": "reprehenderit aliquip adipisicing"
+        }
+      ], 
+      "jurisdiction": "US", 
+      "other_basis": "minim", 
+      "rights_granted": [
+        {
+          "restriction": "allow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [], 
+          "act": "use"
+        }
+      ], 
+      "rights_status": "unknown", 
+      "determination_date": "2019-08-23", 
+      "type": "rights_statement", 
+      "id": "5d604ab8d45101e666808e04", 
+      "rights_type": "other"
+    }, 
+    {
+      "begin": "2019-08-23", 
+      "end": "2019-08-23", 
+      "copyright_status": "unknown", 
+      "notes": [], 
+      "jurisdiction": "CN", 
+      "other_basis": "ut", 
+      "rights_granted": [
+        {
+          "restriction": "allow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [
+            {
+              "source": "archivesspace", 
+              "type": "extension", 
+              "subnotes": [
+                {
+                  "content": [
+                    "magna qui do minim id Lorem"
+                  ], 
+                  "type": "definedlist"
+                }, 
+                {
+                  "content": [
+                    "Lorem Lorem adipisicing aliquip eiusmod exercitation"
+                  ], 
+                  "type": "orderedlist"
+                }, 
+                {
+                  "content": [
+                    "et excepteur cillum eiusmod culpa dolore"
+                  ], 
+                  "type": "orderedlist"
+                }
+              ], 
+              "title": "nulla ullamco incididunt"
+            }
+          ], 
+          "act": "use"
+        }
+      ], 
+      "rights_status": "unknown", 
+      "determination_date": "2019-08-23", 
+      "type": "rights_statement", 
+      "id": "5d604ab861644e5bda37f998", 
+      "rights_type": "copyright"
+    }
+  ], 
+  "agents": [
+    {
+      "ref": "/agents_person/361", 
+      "type": "person"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/58"
+    }
+  ], 
+  "type": "object", 
+  "id": "5d604ab8c105c106b8dcd33e"
+}

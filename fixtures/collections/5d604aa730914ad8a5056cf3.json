@@ -1,0 +1,192 @@
+{
+  "dates": [
+    {
+      "expression": "Nov 3rd, 1927 - Mar 25th, 1966", 
+      "begin": "1927-11-03", 
+      "label": "deaccession", 
+      "end": "1966-03-25", 
+      "type": "single"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/251"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "cassettes", 
+      "value": "4.06"
+    }, 
+    {
+      "type": "leaves", 
+      "value": "1.35"
+    }
+  ], 
+  "level": "file", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "materials", 
+      "subnotes": [
+        {
+          "content": [
+            "est exercitation labore aute fugiat ipsum", 
+            "ut dolor adipisicing laborum voluptate elit", 
+            "dolore proident pariatur quis reprehenderit sint", 
+            "nostrud consequat culpa laboris esse pariatur", 
+            "eu eu ullamco Lorem nisi nulla"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "proident excepteur nisi deserunt Lorem exercitation", 
+            "velit Lorem et nulla laboris pariatur", 
+            "dolor deserunt culpa officia reprehenderit amet", 
+            "cillum anim Lorem cillum cupidatat veniam", 
+            "elit minim deserunt fugiat occaecat Lorem"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "dolore consectetur id"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "physloc", 
+      "subnotes": [
+        {
+          "content": [
+            "occaecat aute minim ut magna in", 
+            "aliqua anim amet ullamco labore nisi", 
+            "enim nisi qui cillum commodo veniam", 
+            "aliqua enim cillum quis ut ut", 
+            "ullamco fugiat id mollit esse deserunt"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "culpa amet incididunt"
+    }
+  ], 
+  "title": "Elit est eu tempor ad et nostrud sunt.", 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d604aa722d9c5d330c7cd11"
+    }, 
+    {
+      "source": "wikidata", 
+      "identifier": "5d604aa7ca69a6ad3c3a7176"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/764"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "spa", 
+      "expression": "Esperanto"
+    }, 
+    {
+      "identifier": "eng", 
+      "expression": "Esperanto"
+    }
+  ], 
+  "rights_statements": [
+    {
+      "begin": "2019-08-23", 
+      "end": "2019-08-23", 
+      "copyright_status": "public domain", 
+      "notes": [
+        {
+          "source": "wikipedia", 
+          "type": "expiration", 
+          "subnotes": [
+            {
+              "content": [
+                "qui cillum tempor commodo laboris non"
+              ], 
+              "type": "text"
+            }
+          ], 
+          "title": "aliquip aliquip tempor"
+        }
+      ], 
+      "jurisdiction": "CN", 
+      "other_basis": "sunt", 
+      "rights_granted": [
+        {
+          "restriction": "disallow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [
+            {
+              "source": "cartographer", 
+              "type": "expiration", 
+              "subnotes": [
+                {
+                  "content": [
+                    "fugiat eu quis do minim elit", 
+                    "in ad quis culpa fugiat veniam", 
+                    "cillum exercitation quis reprehenderit deserunt quis", 
+                    "eu aute ea commodo ipsum cillum"
+                  ], 
+                  "type": "text"
+                }, 
+                {
+                  "content": [
+                    "fugiat laborum eiusmod deserunt ad in", 
+                    "dolor pariatur mollit tempor reprehenderit fugiat"
+                  ], 
+                  "type": "orderedlist"
+                }
+              ], 
+              "title": "nisi labore cupidatat"
+            }
+          ], 
+          "act": "modify"
+        }
+      ], 
+      "rights_status": "unknown", 
+      "determination_date": "2019-08-23", 
+      "type": "rights_statement", 
+      "id": "5d604aa7acb58ce7769f550b", 
+      "rights_type": "statute"
+    }
+  ], 
+  "agents": [
+    {
+      "ref": "/agents_software/529", 
+      "type": "software"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/171"
+    }, 
+    {
+      "ref": "/terms/100"
+    }, 
+    {
+      "ref": "/terms/963"
+    }, 
+    {
+      "ref": "/terms/186"
+    }, 
+    {
+      "ref": "/terms/605"
+    }
+  ], 
+  "creators": [
+    {
+      "ref": "/agents/software/283", 
+      "type": "software"
+    }
+  ], 
+  "type": "collection", 
+  "id": "5d604aa730914ad8a5056cf3"
+}

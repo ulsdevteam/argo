@@ -1,0 +1,172 @@
+{
+  "dates": [
+    {
+      "expression": "Feb 19th, 1915 - Jun 16th, 1968", 
+      "begin": "1915-02-19", 
+      "label": "usage", 
+      "end": "1968-06-16", 
+      "type": "bulk"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/850"
+    }, 
+    {
+      "ref": "/collections/804"
+    }, 
+    {
+      "ref": "/collections/492"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "document box(es)", 
+      "value": "2.69"
+    }, 
+    {
+      "type": "cubic_feet", 
+      "value": "2.64"
+    }
+  ], 
+  "level": "file", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "materials", 
+      "subnotes": [
+        {
+          "content": [
+            "cupidatat laboris ullamco mollit consequat adipisicing"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "enim ea est dolore adipisicing elit"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "tempor proident fugiat irure elit id", 
+            "quis ipsum consequat excepteur magna reprehenderit"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "exercitation excepteur officia"
+    }, 
+    {
+      "source": "cartographer", 
+      "type": "bibliography", 
+      "subnotes": [
+        {
+          "content": [
+            "ipsum aliqua do do ex magna"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "id veniam velit Lorem irure tempor", 
+            "esse veniam dolore sunt incididunt aliquip", 
+            "cupidatat sit dolor consectetur incididunt tempor", 
+            "aliqua pariatur officia aliqua ullamco pariatur"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "aliquip laborum culpa fugiat aliquip voluptate", 
+            "quis sunt cillum occaecat esse nostrud", 
+            "eu do in quis in ex", 
+            "irure ipsum commodo aute esse anim", 
+            "qui dolor id ad sit laboris"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "laboris sunt veniam"
+    }, 
+    {
+      "source": "wikipedia", 
+      "type": "appraisal", 
+      "subnotes": [
+        {
+          "content": [
+            "cupidatat irure consectetur sit sint exercitation"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "laborum ea dolore nisi consectetur esse", 
+            "amet ex laborum ex nisi aliqua", 
+            "dolore laboris mollit amet tempor pariatur", 
+            "occaecat in pariatur ut ea laborum", 
+            "tempor incididunt qui laborum ea in"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "ut sit mollit laborum officia laborum", 
+            "exercitation nostrud deserunt cupidatat id aute"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "ut nulla nulla"
+    }
+  ], 
+  "title": "Nostrud irure aliquip ipsum consectetur dolor ut.", 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d604aa8bb304667b9fb199a"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/765"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "eng", 
+      "expression": "Esperanto"
+    }, 
+    {
+      "identifier": "spa", 
+      "expression": "Spanish"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [], 
+  "terms": [
+    {
+      "ref": "/terms/303"
+    }, 
+    {
+      "ref": "/terms/910"
+    }, 
+    {
+      "ref": "/terms/699"
+    }, 
+    {
+      "ref": "/terms/317"
+    }, 
+    {
+      "ref": "/terms/794"
+    }
+  ], 
+  "creators": [
+    {
+      "ref": "/agents/person/445", 
+      "type": "person"
+    }
+  ], 
+  "type": "collection", 
+  "id": "5d604aa868cf1f385e15f687"
+}

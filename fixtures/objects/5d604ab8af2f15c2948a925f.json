@@ -1,0 +1,123 @@
+{
+  "dates": [
+    {
+      "expression": "Apr 29th, 1947 - Jul 25th, 2015", 
+      "begin": "1947-04-29", 
+      "label": "copyright", 
+      "end": "2015-07-25", 
+      "type": "single"
+    }, 
+    {
+      "expression": "Jun 30th, 1948 - Feb 7th, 1967", 
+      "begin": "1948-06-30", 
+      "label": "creation", 
+      "end": "1967-02-07", 
+      "type": "inclusive"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/347"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "document box(es)", 
+      "value": "1.08"
+    }
+  ], 
+  "title": "Laboris deserunt enim cupidatat Lorem exercitation reprehenderit aliquip consectetur do eu duis sunt aliqua non.", 
+  "notes": [], 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d604ab84bb973379142515f"
+    }, 
+    {
+      "source": "archivesspace", 
+      "identifier": "5d604ab801f7afd868a6e7f6"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "spa", 
+      "expression": "Esperanto"
+    }
+  ], 
+  "rights_statements": [
+    {
+      "begin": "2019-08-23", 
+      "end": "2019-08-23", 
+      "copyright_status": "copyrighted", 
+      "notes": [], 
+      "jurisdiction": "US", 
+      "other_basis": "dolore", 
+      "rights_granted": [
+        {
+          "restriction": "allow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [
+            {
+              "source": "wikipedia", 
+              "type": "rights_statement_act", 
+              "subnotes": [
+                {
+                  "content": [
+                    "irure ea sunt irure officia anim"
+                  ], 
+                  "type": "definedlist"
+                }, 
+                {
+                  "content": [
+                    "labore minim nostrud pariatur deserunt id"
+                  ], 
+                  "type": "text"
+                }
+              ], 
+              "title": "cupidatat amet cillum"
+            }
+          ], 
+          "act": "modify"
+        }, 
+        {
+          "restriction": "allow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [], 
+          "act": "disseminate"
+        }
+      ], 
+      "rights_status": "public domain", 
+      "determination_date": "2019-08-23", 
+      "type": "rights_statement", 
+      "id": "5d604ab8918dad83b64bd8b1", 
+      "rights_type": "license"
+    }
+  ], 
+  "agents": [
+    {
+      "ref": "/agents_family/627", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents_person/79", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents_person/973", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents_organization/430", 
+      "type": "organization"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/951"
+    }
+  ], 
+  "type": "object", 
+  "id": "5d604ab8af2f15c2948a925f"
+}

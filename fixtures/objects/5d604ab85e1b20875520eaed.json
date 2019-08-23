@@ -1,0 +1,124 @@
+{
+  "dates": [
+    {
+      "expression": "May 17th, 1924 - Jan 20th, 1989", 
+      "begin": "1924-05-17", 
+      "label": "agent_relation", 
+      "end": "1989-01-20", 
+      "type": "single"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/178"
+    }, 
+    {
+      "ref": "/collections/833"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "document box(es)", 
+      "value": "3.23"
+    }
+  ], 
+  "title": "Id ex cillum aute fugiat.", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "materials", 
+      "subnotes": [
+        {
+          "content": [
+            "aliquip ut proident quis enim sit", 
+            "eiusmod irure esse minim ex magna"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "nulla in cillum irure velit duis", 
+            "ea ullamco Lorem do ipsum in", 
+            "do excepteur labore fugiat adipisicing fugiat"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "do occaecat voluptate non eu officia", 
+            "enim velit duis anim deserunt elit", 
+            "consectetur elit enim exercitation veniam esse"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "tempor nisi magna"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "dimensions", 
+      "subnotes": [
+        {
+          "content": [
+            "ad in eiusmod cillum est ipsum", 
+            "consectetur ad dolore excepteur cupidatat duis", 
+            "commodo culpa sit ex et et", 
+            "ad aute proident commodo laboris enim", 
+            "eu incididunt reprehenderit consequat eiusmod elit"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "commodo Lorem occaecat"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "prefercite", 
+      "subnotes": [
+        {
+          "content": [
+            "adipisicing labore ullamco elit incididunt dolor", 
+            "nisi reprehenderit eiusmod aliqua irure nulla", 
+            "magna est ut est reprehenderit sit", 
+            "voluptate incididunt sunt excepteur Lorem adipisicing"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "aliquip fugiat reprehenderit"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d604ab8621ff38292101f7e"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "eng", 
+      "expression": "Spanish"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [], 
+  "terms": [
+    {
+      "ref": "/terms/996"
+    }, 
+    {
+      "ref": "/terms/872"
+    }, 
+    {
+      "ref": "/terms/980"
+    }, 
+    {
+      "ref": "/terms/244"
+    }, 
+    {
+      "ref": "/terms/440"
+    }
+  ], 
+  "type": "object", 
+  "id": "5d604ab85e1b20875520eaed"
+}

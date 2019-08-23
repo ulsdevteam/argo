@@ -1,0 +1,248 @@
+{
+  "dates": [
+    {
+      "expression": "Jul 10th, 1945 - Apr 15th, 2016", 
+      "begin": "1945-07-10", 
+      "label": "other", 
+      "end": "2016-04-15", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Aug 26th, 1954 - Oct 27th, 2014", 
+      "begin": "1954-08-26", 
+      "label": "copyright", 
+      "end": "2014-10-27", 
+      "type": "single"
+    }, 
+    {
+      "expression": "Apr 28th, 1942 - Jan 24th, 1962", 
+      "begin": "1942-04-28", 
+      "label": "digitized", 
+      "end": "1962-01-24", 
+      "type": "inclusive"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/82"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "box(es)", 
+      "value": "3.04"
+    }, 
+    {
+      "type": "sheets", 
+      "value": "3.42"
+    }
+  ], 
+  "level": "item", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "materialspec", 
+      "subnotes": [
+        {
+          "content": [
+            "sit laborum qui ullamco Lorem eiusmod", 
+            "in voluptate sit irure quis reprehenderit", 
+            "Lorem sit ex proident labore ipsum", 
+            "adipisicing eu do excepteur amet in"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "veniam non sit"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "materialspec", 
+      "subnotes": [
+        {
+          "content": [
+            "adipisicing enim amet dolore aliquip reprehenderit", 
+            "deserunt laboris fugiat ullamco veniam elit", 
+            "dolore consectetur anim consequat ex sint", 
+            "labore laboris quis id ad amet"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "elit exercitation reprehenderit veniam magna amet", 
+            "do nisi aute ipsum dolor et"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "Lorem amet eu"
+    }
+  ], 
+  "title": "Lorem officia consequat fugiat aliquip.", 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d604aa83ed8edac4cce9f8e"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/324"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "spa", 
+      "expression": "English"
+    }, 
+    {
+      "identifier": "epo", 
+      "expression": "Spanish"
+    }
+  ], 
+  "rights_statements": [
+    {
+      "begin": "2019-08-23", 
+      "end": "2019-08-23", 
+      "copyright_status": "copyrighted", 
+      "notes": [], 
+      "jurisdiction": "US", 
+      "other_basis": "dolor", 
+      "rights_granted": [
+        {
+          "restriction": "allow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [], 
+          "act": "use"
+        }, 
+        {
+          "restriction": "allow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [], 
+          "act": "use"
+        }
+      ], 
+      "rights_status": "public domain", 
+      "determination_date": "2019-08-23", 
+      "type": "rights_statement", 
+      "id": "5d604aa8699d2988327df080", 
+      "rights_type": "license"
+    }, 
+    {
+      "begin": "2019-08-23", 
+      "end": "2019-08-23", 
+      "copyright_status": "public domain", 
+      "notes": [
+        {
+          "source": "cartographer", 
+          "type": "additional_information", 
+          "subnotes": [
+            {
+              "content": [
+                "amet velit duis in anim qui", 
+                "mollit velit aute nostrud proident adipisicing", 
+                "sit tempor duis tempor do commodo", 
+                "amet anim ea pariatur excepteur duis", 
+                "non exercitation ea velit veniam eiusmod"
+              ], 
+              "type": "definedlist"
+            }
+          ], 
+          "title": "aute fugiat aute"
+        }
+      ], 
+      "jurisdiction": "US", 
+      "other_basis": "cupidatat", 
+      "rights_granted": [
+        {
+          "restriction": "allow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [
+            {
+              "source": "wikipedia", 
+              "type": "restrictions", 
+              "subnotes": [
+                {
+                  "content": [
+                    "ullamco et mollit laboris officia Lorem", 
+                    "proident laboris nisi non elit Lorem", 
+                    "officia aliqua nisi adipisicing ex mollit", 
+                    "exercitation dolor commodo ipsum aliqua do"
+                  ], 
+                  "type": "orderedlist"
+                }, 
+                {
+                  "content": [
+                    "enim incididunt enim ullamco quis in"
+                  ], 
+                  "type": "orderedlist"
+                }, 
+                {
+                  "content": [
+                    "Lorem nulla dolore incididunt culpa laborum"
+                  ], 
+                  "type": "text"
+                }
+              ], 
+              "title": "dolore reprehenderit quis"
+            }
+          ], 
+          "act": "delete"
+        }
+      ], 
+      "rights_status": "public domain", 
+      "determination_date": "2019-08-23", 
+      "type": "rights_statement", 
+      "id": "5d604aa898de443cfd041281", 
+      "rights_type": "other"
+    }
+  ], 
+  "agents": [
+    {
+      "ref": "/agents_organization/855", 
+      "type": "organization"
+    }, 
+    {
+      "ref": "/agents_family/326", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents_person/904", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents_person/19", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents_organization/294", 
+      "type": "organization"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/704"
+    }, 
+    {
+      "ref": "/terms/40"
+    }, 
+    {
+      "ref": "/terms/980"
+    }, 
+    {
+      "ref": "/terms/666"
+    }
+  ], 
+  "creators": [
+    {
+      "ref": "/agents/family/473", 
+      "type": "family"
+    }
+  ], 
+  "type": "collection", 
+  "id": "5d604aa82812fdff7e16d812"
+}

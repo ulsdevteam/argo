@@ -1,0 +1,180 @@
+{
+  "dates": [
+    {
+      "expression": "Dec 28th, 1925 - Mar 13th, 1967", 
+      "begin": "1925-12-28", 
+      "label": "record_keeping", 
+      "end": "1967-03-13", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Jul 19th, 1949 - Oct 6th, 1995", 
+      "begin": "1949-07-19", 
+      "label": "publication", 
+      "end": "1995-10-06", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Jan 28th, 1914 - Apr 3rd, 1983", 
+      "begin": "1914-01-28", 
+      "label": "other", 
+      "end": "1983-04-03", 
+      "type": "inclusive"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/428"
+    }, 
+    {
+      "ref": "/collections/806"
+    }, 
+    {
+      "ref": "/collections/754"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "photographic_slides", 
+      "value": "4.8"
+    }, 
+    {
+      "type": "reels", 
+      "value": "4.16"
+    }
+  ], 
+  "title": "Adipisicing sunt nisi sit mollit cillum eiusmod pariatur.", 
+  "notes": [
+    {
+      "source": "wikidata", 
+      "type": "arrangement", 
+      "subnotes": [
+        {
+          "content": [
+            "veniam incididunt dolore reprehenderit proident ea", 
+            "reprehenderit deserunt deserunt aute elit laboris"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "ea fugiat culpa eu laborum aliqua", 
+            "nisi amet reprehenderit proident do in", 
+            "nostrud id sint dolor cupidatat voluptate"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "proident minim magna aliqua consequat voluptate", 
+            "tempor reprehenderit laboris anim ullamco aute", 
+            "velit consequat anim nulla fugiat sit"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "amet nostrud quis"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "physdesc", 
+      "subnotes": [
+        {
+          "content": [
+            "eu id consequat labore sint aute", 
+            "aliqua elit anim non anim consequat", 
+            "exercitation Lorem ea amet esse do"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "amet enim labore"
+    }, 
+    {
+      "source": "cartographer", 
+      "type": "bibliography", 
+      "subnotes": [
+        {
+          "content": [
+            "fugiat qui do amet sint consectetur", 
+            "officia ad aliqua ex pariatur fugiat", 
+            "consequat et incididunt incididunt pariatur ad", 
+            "quis non non laborum sint occaecat", 
+            "cupidatat occaecat ipsum culpa id ut"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "non ullamco laborum qui irure dolore", 
+            "et enim Lorem laboris nisi occaecat", 
+            "reprehenderit magna aliqua reprehenderit ut culpa"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "est pariatur consectetur nulla et in", 
+            "consequat magna nisi sunt sunt velit", 
+            "pariatur in irure officia voluptate excepteur"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "aliquip esse nisi"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d604ab82fbfcf45b52aaddd"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "spa", 
+      "expression": "English"
+    }, 
+    {
+      "identifier": "spa", 
+      "expression": "Esperanto"
+    }, 
+    {
+      "identifier": "eng", 
+      "expression": "English"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_organization/176", 
+      "type": "organization"
+    }, 
+    {
+      "ref": "/agents_software/433", 
+      "type": "software"
+    }, 
+    {
+      "ref": "/agents_family/869", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents_software/321", 
+      "type": "software"
+    }, 
+    {
+      "ref": "/agents_family/354", 
+      "type": "family"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/443"
+    }, 
+    {
+      "ref": "/terms/308"
+    }
+  ], 
+  "type": "object", 
+  "id": "5d604ab886fda0817aa55195"
+}

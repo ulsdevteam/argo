@@ -1,0 +1,301 @@
+{
+  "dates": [
+    {
+      "expression": "Mar 28th, 1948 - Dec 4th, 2010", 
+      "begin": "1948-03-28", 
+      "label": "publication", 
+      "end": "2010-12-04", 
+      "type": "inclusive"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/541"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "reels", 
+      "value": "1.63"
+    }
+  ], 
+  "level": "recordgrp", 
+  "notes": [
+    {
+      "source": "cartographer", 
+      "type": "custodhist", 
+      "subnotes": [
+        {
+          "content": [
+            "est aliquip qui sint tempor laborum", 
+            "mollit tempor ea fugiat minim duis", 
+            "dolore ea in eiusmod dolor labore"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "culpa quis occaecat nulla in consectetur", 
+            "minim enim labore sit deserunt id", 
+            "mollit id sint incididunt non ea"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "eiusmod et fugiat consectetur aute esse"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "ea nulla mollit"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "materialspec", 
+      "subnotes": [
+        {
+          "content": [
+            "deserunt nulla fugiat tempor irure nisi", 
+            "tempor mollit cillum sit Lorem dolore", 
+            "occaecat magna ut ullamco ipsum consectetur", 
+            "laborum laboris cillum veniam sint qui", 
+            "cupidatat exercitation irure ut aliqua reprehenderit"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "voluptate laborum duis"
+    }, 
+    {
+      "source": "cartographer", 
+      "type": "fileplan", 
+      "subnotes": [
+        {
+          "content": [
+            "elit commodo magna pariatur et sint"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "duis quis do culpa exercitation aute", 
+            "consequat minim consectetur nulla sint Lorem", 
+            "occaecat minim eu fugiat exercitation ullamco", 
+            "ad pariatur ipsum amet veniam cupidatat", 
+            "qui exercitation id ullamco duis minim"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "sit qui dolore ad ipsum ut", 
+            "proident commodo sunt et mollit deserunt", 
+            "reprehenderit nostrud irure non do tempor"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "culpa anim reprehenderit"
+    }
+  ], 
+  "title": "Id voluptate non cupidatat commodo velit.", 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d604aa8d054cffe2bdf803d"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/691"
+    }, 
+    {
+      "ref": "/collections/187"
+    }, 
+    {
+      "ref": "/collections/921"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "epo", 
+      "expression": "English"
+    }, 
+    {
+      "identifier": "spa", 
+      "expression": "Esperanto"
+    }
+  ], 
+  "rights_statements": [
+    {
+      "begin": "2019-08-23", 
+      "end": "2019-08-23", 
+      "copyright_status": "public domain", 
+      "notes": [
+        {
+          "source": "wikipedia", 
+          "type": "materials", 
+          "subnotes": [
+            {
+              "content": [
+                "tempor id ut in est aliqua", 
+                "nisi nisi fugiat nostrud eiusmod enim", 
+                "officia exercitation adipisicing sunt qui eiusmod"
+              ], 
+              "type": "definedlist"
+            }
+          ], 
+          "title": "culpa nisi ad"
+        }
+      ], 
+      "jurisdiction": "CN", 
+      "other_basis": "mollit", 
+      "rights_granted": [
+        {
+          "restriction": "disallow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [
+            {
+              "source": "wikipedia", 
+              "type": "rights_statement_act", 
+              "subnotes": [
+                {
+                  "content": [
+                    "deserunt velit ullamco ad velit ex", 
+                    "cillum occaecat amet qui consequat commodo"
+                  ], 
+                  "type": "definedlist"
+                }, 
+                {
+                  "content": [
+                    "ea ex veniam tempor enim ullamco", 
+                    "aliqua Lorem proident duis velit aute", 
+                    "enim officia consectetur reprehenderit commodo minim"
+                  ], 
+                  "type": "orderedlist"
+                }, 
+                {
+                  "content": [
+                    "laboris incididunt in ex ipsum ipsum", 
+                    "enim dolore aliqua ipsum occaecat duis", 
+                    "exercitation enim ut nostrud occaecat nulla", 
+                    "sint laborum anim ullamco in id", 
+                    "ipsum anim duis eu ex nostrud"
+                  ], 
+                  "type": "definedlist"
+                }
+              ], 
+              "title": "sint do aliquip"
+            }
+          ], 
+          "act": "replicate"
+        }, 
+        {
+          "restriction": "allow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [
+            {
+              "source": "archivesspace", 
+              "type": "materials", 
+              "subnotes": [
+                {
+                  "content": [
+                    "eiusmod ipsum reprehenderit anim velit cillum"
+                  ], 
+                  "type": "orderedlist"
+                }, 
+                {
+                  "content": [
+                    "irure ullamco mollit nisi dolor exercitation", 
+                    "ex labore nisi ut irure quis"
+                  ], 
+                  "type": "definedlist"
+                }
+              ], 
+              "title": "adipisicing exercitation ipsum"
+            }
+          ], 
+          "act": "replicate"
+        }
+      ], 
+      "rights_status": "unknown", 
+      "determination_date": "2019-08-23", 
+      "type": "rights_statement", 
+      "id": "5d604aa84ead70fa32ccd400", 
+      "rights_type": "statute"
+    }, 
+    {
+      "begin": "2019-08-23", 
+      "end": "2019-08-23", 
+      "copyright_status": "public domain", 
+      "notes": [
+        {
+          "source": "archivesspace", 
+          "type": "type_note", 
+          "subnotes": [
+            {
+              "content": [
+                "minim deserunt labore est excepteur esse", 
+                "laboris cupidatat irure nulla occaecat sit", 
+                "voluptate eu minim proident magna velit", 
+                "ex dolore amet occaecat velit pariatur"
+              ], 
+              "type": "definedlist"
+            }
+          ], 
+          "title": "qui excepteur exercitation"
+        }
+      ], 
+      "jurisdiction": "FR", 
+      "other_basis": "excepteur", 
+      "rights_granted": [
+        {
+          "restriction": "disallow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [], 
+          "act": "use"
+        }, 
+        {
+          "restriction": "allow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [], 
+          "act": "replicate"
+        }
+      ], 
+      "rights_status": "unknown", 
+      "determination_date": "2019-08-23", 
+      "type": "rights_statement", 
+      "id": "5d604aa873eafd7a4707886c", 
+      "rights_type": "copyright"
+    }
+  ], 
+  "agents": [], 
+  "terms": [
+    {
+      "ref": "/terms/736"
+    }, 
+    {
+      "ref": "/terms/311"
+    }, 
+    {
+      "ref": "/terms/158"
+    }
+  ], 
+  "creators": [
+    {
+      "ref": "/agents/organization/154", 
+      "type": "organization"
+    }, 
+    {
+      "ref": "/agents/family/936", 
+      "type": "family"
+    }
+  ], 
+  "type": "collection", 
+  "id": "5d604aa80400b48c0892430b"
+}

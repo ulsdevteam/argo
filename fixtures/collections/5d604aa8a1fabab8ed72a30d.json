@@ -1,0 +1,143 @@
+{
+  "dates": [
+    {
+      "expression": "Oct 31st, 1937 - Mar 11th, 1989", 
+      "begin": "1937-10-31", 
+      "label": "deaccession", 
+      "end": "1989-03-11", 
+      "type": "bulk"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/236"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "reels", 
+      "value": "4.78"
+    }
+  ], 
+  "level": "subseries", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "expiration", 
+      "subnotes": [
+        {
+          "content": [
+            "velit magna esse esse ea nostrud", 
+            "adipisicing do commodo ea ullamco tempor", 
+            "qui aliquip veniam consectetur ex ea", 
+            "esse cupidatat dolor eiusmod nostrud minim"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "incididunt fugiat anim"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "extension", 
+      "subnotes": [
+        {
+          "content": [
+            "esse ipsum ut elit duis ipsum"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "ullamco exercitation minim cillum sit adipisicing", 
+            "id non enim ea irure deserunt", 
+            "irure sint ut est laborum deserunt", 
+            "cupidatat consectetur ipsum aute eiusmod in", 
+            "et commodo mollit qui esse officia"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "labore elit esse esse commodo aliquip"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "esse et consectetur"
+    }
+  ], 
+  "title": "Esse culpa aute ea id enim.", 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d604aa87ceec09cc365bb3d"
+    }, 
+    {
+      "source": "wikipedia", 
+      "identifier": "5d604aa871793044799be4ff"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/248"
+    }, 
+    {
+      "ref": "/collections/911"
+    }, 
+    {
+      "ref": "/collections/785"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "eng", 
+      "expression": "English"
+    }, 
+    {
+      "identifier": "epo", 
+      "expression": "Esperanto"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_software/62", 
+      "type": "software"
+    }, 
+    {
+      "ref": "/agents_software/432", 
+      "type": "software"
+    }, 
+    {
+      "ref": "/agents_person/871", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents_software/987", 
+      "type": "software"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/453"
+    }, 
+    {
+      "ref": "/terms/853"
+    }, 
+    {
+      "ref": "/terms/740"
+    }, 
+    {
+      "ref": "/terms/866"
+    }
+  ], 
+  "creators": [
+    {
+      "ref": "/agents/family/628", 
+      "type": "family"
+    }
+  ], 
+  "type": "collection", 
+  "id": "5d604aa8a1fabab8ed72a30d"
+}

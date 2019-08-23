@@ -1,0 +1,301 @@
+{
+  "dates": [
+    {
+      "expression": "Jun 7th, 1958 - May 27th, 1992", 
+      "begin": "1958-06-07", 
+      "label": "event", 
+      "end": "1992-05-27", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Jul 20th, 1925 - Mar 22nd, 2008", 
+      "begin": "1925-07-20", 
+      "label": "copyright", 
+      "end": "2008-03-22", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Sep 16th, 1931 - Aug 26th, 2017", 
+      "begin": "1931-09-16", 
+      "label": "other", 
+      "end": "2017-08-26", 
+      "type": "bulk"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/8"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "photographic_prints", 
+      "value": "1.63"
+    }
+  ], 
+  "level": "file", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "arrangement", 
+      "subnotes": [
+        {
+          "content": [
+            "ipsum eiusmod incididunt ullamco minim est", 
+            "cillum sint officia velit est dolore", 
+            "fugiat incididunt do occaecat pariatur ullamco"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "ad magna veniam"
+    }, 
+    {
+      "source": "cartographer", 
+      "type": "langmaterial", 
+      "subnotes": [
+        {
+          "content": [
+            "ipsum laborum labore ea enim cupidatat", 
+            "duis in aute sunt veniam eu"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "nostrud laborum sunt ea sint exercitation", 
+            "nostrud do ea labore proident quis"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "mollit sint reprehenderit"
+    }
+  ], 
+  "title": "Commodo id consectetur minim culpa eu ea occaecat dolore nulla commodo in.", 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d604aa85ad2faa6fceb0790"
+    }, 
+    {
+      "source": "wikidata", 
+      "identifier": "5d604aa8fc55d36ccb57b02f"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/856"
+    }, 
+    {
+      "ref": "/collections/949"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "epo", 
+      "expression": "Esperanto"
+    }, 
+    {
+      "identifier": "eng", 
+      "expression": "English"
+    }
+  ], 
+  "rights_statements": [
+    {
+      "begin": "2019-08-23", 
+      "end": "2019-08-23", 
+      "copyright_status": "copyrighted", 
+      "notes": [
+        {
+          "source": "wikipedia", 
+          "type": "rights_statement", 
+          "subnotes": [
+            {
+              "content": [
+                "incididunt elit deserunt nostrud id ad"
+              ], 
+              "type": "orderedlist"
+            }
+          ], 
+          "title": "labore labore duis"
+        }
+      ], 
+      "jurisdiction": "FR", 
+      "other_basis": "irure", 
+      "rights_granted": [
+        {
+          "restriction": "allow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [
+            {
+              "source": "wikidata", 
+              "type": "additional_information", 
+              "subnotes": [
+                {
+                  "content": [
+                    "commodo nisi in labore in exercitation", 
+                    "dolore mollit aliquip laboris nulla occaecat", 
+                    "nostrud duis do velit exercitation incididunt"
+                  ], 
+                  "type": "definedlist"
+                }, 
+                {
+                  "content": [
+                    "dolore cillum eiusmod cupidatat nisi amet", 
+                    "tempor veniam cillum duis sit occaecat", 
+                    "ut ut et incididunt aliquip proident", 
+                    "est aute cillum nostrud ut eiusmod", 
+                    "sit cillum adipisicing enim velit enim"
+                  ], 
+                  "type": "orderedlist"
+                }, 
+                {
+                  "content": [
+                    "aliqua labore proident irure occaecat eiusmod", 
+                    "est labore magna duis id cillum", 
+                    "qui Lorem tempor tempor ad duis", 
+                    "enim proident do enim eiusmod ex", 
+                    "consequat sit in aliqua elit nulla"
+                  ], 
+                  "type": "definedlist"
+                }
+              ], 
+              "title": "do excepteur adipisicing"
+            }
+          ], 
+          "act": "modify"
+        }
+      ], 
+      "rights_status": "unknown", 
+      "determination_date": "2019-08-23", 
+      "type": "rights_statement", 
+      "id": "5d604aa89b81a65e92e884df", 
+      "rights_type": "other"
+    }, 
+    {
+      "begin": "2019-08-23", 
+      "end": "2019-08-23", 
+      "copyright_status": "unknown", 
+      "notes": [
+        {
+          "source": "cartographer", 
+          "type": "permissions", 
+          "subnotes": [
+            {
+              "content": [
+                "velit magna officia non ipsum amet", 
+                "dolor et adipisicing pariatur sunt sit"
+              ], 
+              "type": "definedlist"
+            }
+          ], 
+          "title": "sit nisi velit"
+        }
+      ], 
+      "jurisdiction": "FR", 
+      "other_basis": "sunt", 
+      "rights_granted": [
+        {
+          "restriction": "disallow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [
+            {
+              "source": "wikipedia", 
+              "type": "rights_statement_act", 
+              "subnotes": [
+                {
+                  "content": [
+                    "quis velit cupidatat ex sint nulla", 
+                    "proident aute magna id enim excepteur", 
+                    "incididunt aute sit cupidatat duis commodo", 
+                    "pariatur laboris voluptate reprehenderit officia deserunt", 
+                    "ex est occaecat amet nostrud adipisicing"
+                  ], 
+                  "type": "text"
+                }
+              ], 
+              "title": "id consequat labore"
+            }
+          ], 
+          "act": "modify"
+        }, 
+        {
+          "restriction": "disallow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [
+            {
+              "source": "cartographer", 
+              "type": "expiration", 
+              "subnotes": [
+                {
+                  "content": [
+                    "sunt et irure nulla laborum dolore", 
+                    "ullamco occaecat dolore qui ex velit", 
+                    "sunt esse aliqua eu qui elit", 
+                    "ad quis ullamco excepteur ullamco sint"
+                  ], 
+                  "type": "orderedlist"
+                }, 
+                {
+                  "content": [
+                    "labore amet quis excepteur consequat deserunt"
+                  ], 
+                  "type": "orderedlist"
+                }, 
+                {
+                  "content": [
+                    "aliqua minim aute nostrud dolore eiusmod", 
+                    "consectetur ipsum aliquip exercitation velit pariatur", 
+                    "cupidatat magna culpa occaecat officia minim"
+                  ], 
+                  "type": "definedlist"
+                }
+              ], 
+              "title": "labore velit anim"
+            }
+          ], 
+          "act": "use"
+        }
+      ], 
+      "rights_status": "public domain", 
+      "determination_date": "2019-08-23", 
+      "type": "rights_statement", 
+      "id": "5d604aa8541b821c4a3500ed", 
+      "rights_type": "statute"
+    }
+  ], 
+  "agents": [], 
+  "terms": [
+    {
+      "ref": "/terms/503"
+    }, 
+    {
+      "ref": "/terms/539"
+    }, 
+    {
+      "ref": "/terms/585"
+    }, 
+    {
+      "ref": "/terms/889"
+    }, 
+    {
+      "ref": "/terms/396"
+    }
+  ], 
+  "creators": [
+    {
+      "ref": "/agents/organization/132", 
+      "type": "organization"
+    }, 
+    {
+      "ref": "/agents/software/319", 
+      "type": "software"
+    }
+  ], 
+  "type": "collection", 
+  "id": "5d604aa822278608e5c8daf5"
+}

@@ -1,0 +1,243 @@
+{
+  "dates": [
+    {
+      "expression": "Dec 13th, 1940 - Apr 8th, 1964", 
+      "begin": "1940-12-13", 
+      "label": "agent_relation", 
+      "end": "1964-04-08", 
+      "type": "single"
+    }, 
+    {
+      "expression": "Dec 24th, 1921 - Apr 18th, 1986", 
+      "begin": "1921-12-24", 
+      "label": "other", 
+      "end": "1986-04-18", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Oct 2nd, 1938 - Mar 6th, 2012", 
+      "begin": "1938-10-02", 
+      "label": "existence", 
+      "end": "2012-03-06", 
+      "type": "inclusive"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/713"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "reels", 
+      "value": "4.25"
+    }, 
+    {
+      "type": "terabytes", 
+      "value": "4.15"
+    }
+  ], 
+  "level": "subgrp", 
+  "notes": [
+    {
+      "source": "wikidata", 
+      "type": "bioghist", 
+      "subnotes": [
+        {
+          "content": [
+            "culpa reprehenderit consequat qui culpa in", 
+            "qui eu occaecat quis non sint", 
+            "adipisicing aliqua laboris duis velit Lorem"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "in laboris id dolore commodo velit", 
+            "amet occaecat laborum do laborum ut", 
+            "ea aliqua nulla elit et fugiat", 
+            "ut elit ea excepteur ex minim"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "dolor sunt consequat"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "scopecontent", 
+      "subnotes": [
+        {
+          "content": [
+            "excepteur mollit laborum cillum velit dolore", 
+            "eu cillum pariatur culpa occaecat in", 
+            "deserunt laborum duis Lorem cillum quis", 
+            "reprehenderit velit sint consectetur aliqua tempor", 
+            "amet mollit sunt fugiat proident quis"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "consectetur tempor ipsum fugiat consectetur esse", 
+            "velit incididunt voluptate esse anim aliqua", 
+            "id sit nisi esse fugiat adipisicing", 
+            "ex in duis tempor adipisicing dolor", 
+            "enim magna duis tempor laboris labore"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "aute duis eiusmod dolor nostrud velit", 
+            "proident tempor enim nisi proident minim", 
+            "incididunt minim quis ex ad non"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "aliquip sunt esse"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "rights_statement", 
+      "subnotes": [
+        {
+          "content": [
+            "excepteur dolor magna incididunt ipsum consequat", 
+            "nisi excepteur ut sit in adipisicing"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "non elit irure"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "additional_information", 
+      "subnotes": [
+        {
+          "content": [
+            "non minim sit amet sint veniam", 
+            "ipsum est cupidatat eiusmod nisi duis", 
+            "velit duis id dolore aliqua non", 
+            "magna cillum labore sint reprehenderit commodo"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "dolor reprehenderit et veniam consequat in", 
+            "veniam nisi ullamco nulla sit adipisicing", 
+            "adipisicing veniam sunt eiusmod ut officia"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "cillum est quis voluptate et quis"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "commodo deserunt qui"
+    }
+  ], 
+  "title": "Quis enim aliquip reprehenderit irure aute do nulla do ipsum aute.", 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d604aa7320282a7ac6ba2c7"
+    }, 
+    {
+      "source": "archivesspace", 
+      "identifier": "5d604aa7f45576304debb9fa"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/559"
+    }, 
+    {
+      "ref": "/collections/149"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "eng", 
+      "expression": "English"
+    }
+  ], 
+  "rights_statements": [
+    {
+      "begin": "2019-08-23", 
+      "end": "2019-08-23", 
+      "copyright_status": "unknown", 
+      "notes": [
+        {
+          "source": "wikidata", 
+          "type": "rights_statement", 
+          "subnotes": [
+            {
+              "content": [
+                "quis sunt non ad qui veniam", 
+                "proident est ad ullamco amet ea", 
+                "et cillum dolore eu nisi aute", 
+                "do sit reprehenderit labore quis et", 
+                "nulla sit ex ad ex fugiat"
+              ], 
+              "type": "definedlist"
+            }
+          ], 
+          "title": "occaecat aute commodo"
+        }
+      ], 
+      "jurisdiction": "CN", 
+      "other_basis": "occaecat", 
+      "rights_granted": [
+        {
+          "restriction": "disallow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [], 
+          "act": "replicate"
+        }
+      ], 
+      "rights_status": "copyrighted", 
+      "determination_date": "2019-08-23", 
+      "type": "rights_statement", 
+      "id": "5d604aa7ced7f96c0a006290", 
+      "rights_type": "copyright"
+    }
+  ], 
+  "agents": [], 
+  "terms": [
+    {
+      "ref": "/terms/182"
+    }, 
+    {
+      "ref": "/terms/43"
+    }, 
+    {
+      "ref": "/terms/18"
+    }, 
+    {
+      "ref": "/terms/362"
+    }, 
+    {
+      "ref": "/terms/480"
+    }
+  ], 
+  "creators": [
+    {
+      "ref": "/agents/person/966", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents/family/207", 
+      "type": "family"
+    }
+  ], 
+  "type": "collection", 
+  "id": "5d604aa7099f361901f66fe3"
+}

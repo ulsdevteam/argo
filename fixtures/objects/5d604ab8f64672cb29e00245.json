@@ -1,0 +1,202 @@
+{
+  "dates": [
+    {
+      "expression": "Oct 13th, 1943 - Aug 6th, 2012", 
+      "begin": "1943-10-13", 
+      "label": "publication", 
+      "end": "2012-08-06", 
+      "type": "single"
+    }, 
+    {
+      "expression": "Jan 5th, 1938 - Jul 1st, 1978", 
+      "begin": "1938-01-05", 
+      "label": "modified", 
+      "end": "1978-07-01", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Jun 12th, 1921 - Apr 22nd, 2014", 
+      "begin": "1921-06-12", 
+      "label": "agent_relation", 
+      "end": "2014-04-22", 
+      "type": "bulk"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/659"
+    }, 
+    {
+      "ref": "/collections/63"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "sheets", 
+      "value": "2.92"
+    }
+  ], 
+  "title": "Reprehenderit nostrud quis dolor magna dolor nisi non occaecat occaecat aliquip.", 
+  "notes": [
+    {
+      "source": "cartographer", 
+      "type": "bioghist", 
+      "subnotes": [
+        {
+          "content": [
+            "proident nisi magna laboris non exercitation", 
+            "consectetur nostrud minim veniam incididunt ex", 
+            "id cupidatat deserunt dolore aute commodo", 
+            "eiusmod proident enim ex elit fugiat"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "ea mollit qui officia do aliqua"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "deserunt proident minim"
+    }, 
+    {
+      "source": "wikipedia", 
+      "type": "userestrict", 
+      "subnotes": [
+        {
+          "content": [
+            "nostrud exercitation labore eu adipisicing nulla"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "dolor est proident pariatur incididunt nulla", 
+            "officia elit laboris sint excepteur minim", 
+            "ex aliquip adipisicing irure labore proident"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "dolor aute anim ad aliqua sint"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "laborum pariatur qui"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "scopecontent", 
+      "subnotes": [
+        {
+          "content": [
+            "sint in fugiat esse ea nostrud", 
+            "reprehenderit esse pariatur veniam proident veniam", 
+            "ut nisi enim aliqua exercitation dolore", 
+            "voluptate tempor non aliquip fugiat id"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "eiusmod duis irure"
+    }, 
+    {
+      "source": "wikipedia", 
+      "type": "userestrict", 
+      "subnotes": [
+        {
+          "content": [
+            "dolor exercitation culpa adipisicing ad aliqua", 
+            "qui cupidatat non fugiat eu eiusmod", 
+            "exercitation occaecat est consectetur consectetur id"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "voluptate aute pariatur sit qui nulla", 
+            "exercitation esse culpa duis dolore ipsum", 
+            "veniam sunt dolore exercitation eu nisi", 
+            "tempor dolore pariatur eu irure Lorem"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "ad sint velit"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d604ab825f7266fb4853bdb"
+    }, 
+    {
+      "source": "wikidata", 
+      "identifier": "5d604ab8d41d2bc18b8d94c7"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "spa", 
+      "expression": "Esperanto"
+    }, 
+    {
+      "identifier": "eng", 
+      "expression": "Esperanto"
+    }, 
+    {
+      "identifier": "eng", 
+      "expression": "Spanish"
+    }
+  ], 
+  "rights_statements": [
+    {
+      "begin": "2019-08-23", 
+      "end": "2019-08-23", 
+      "copyright_status": "unknown", 
+      "notes": [
+        {
+          "source": "wikidata", 
+          "type": "extension", 
+          "subnotes": [
+            {
+              "content": [
+                "consectetur reprehenderit exercitation ullamco deserunt veniam", 
+                "magna mollit irure ad proident ut"
+              ], 
+              "type": "definedlist"
+            }
+          ], 
+          "title": "veniam consectetur irure"
+        }
+      ], 
+      "jurisdiction": "CN", 
+      "other_basis": "sint", 
+      "rights_granted": [
+        {
+          "restriction": "allow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [], 
+          "act": "use"
+        }
+      ], 
+      "rights_status": "copyrighted", 
+      "determination_date": "2019-08-23", 
+      "type": "rights_statement", 
+      "id": "5d604ab89a7bd67af8a762b7", 
+      "rights_type": "other"
+    }
+  ], 
+  "agents": [], 
+  "terms": [
+    {
+      "ref": "/terms/367"
+    }
+  ], 
+  "type": "object", 
+  "id": "5d604ab8f64672cb29e00245"
+}

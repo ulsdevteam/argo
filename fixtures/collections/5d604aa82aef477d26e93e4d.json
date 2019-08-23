@@ -1,0 +1,143 @@
+{
+  "dates": [
+    {
+      "expression": "Dec 20th, 1934 - May 27th, 1962", 
+      "begin": "1934-12-20", 
+      "label": "usage", 
+      "end": "1962-05-27", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Sep 30th, 1955 - Sep 8th, 1992", 
+      "begin": "1955-09-30", 
+      "label": "publication", 
+      "end": "1992-09-08", 
+      "type": "inclusive"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/293"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "document box(es)", 
+      "value": "1.14"
+    }, 
+    {
+      "type": "cassettes", 
+      "value": "3.85"
+    }
+  ], 
+  "level": "otherLevel", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "additional_information", 
+      "subnotes": [
+        {
+          "content": [
+            "elit Lorem mollit tempor magna voluptate", 
+            "adipisicing aliquip commodo ipsum incididunt in", 
+            "ut duis irure et ex aute", 
+            "ut magna eu consequat do qui"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "consequat aliqua in"
+    }, 
+    {
+      "source": "wikipedia", 
+      "type": "bibliography", 
+      "subnotes": [
+        {
+          "content": [
+            "aliquip duis magna exercitation ullamco eiusmod", 
+            "ipsum cupidatat cupidatat dolore exercitation velit", 
+            "Lorem in ut aliqua anim laboris"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "labore aliqua proident aliqua qui minim", 
+            "ex nostrud id excepteur exercitation in", 
+            "nulla aute labore aliquip deserunt dolore", 
+            "adipisicing nulla sit cillum et dolor", 
+            "eu ut excepteur eu anim esse"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "ipsum est id minim officia enim", 
+            "mollit elit consequat anim ullamco culpa"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "duis incididunt anim"
+    }
+  ], 
+  "title": "Officia non magna duis aliqua cillum aliquip anim laboris.", 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d604aa85a61f1fcce1f4b4c"
+    }, 
+    {
+      "source": "wikipedia", 
+      "identifier": "5d604aa82001b1b44aaf44da"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/887"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "spa", 
+      "expression": "Spanish"
+    }, 
+    {
+      "identifier": "spa", 
+      "expression": "Spanish"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_person/796", 
+      "type": "person"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/215"
+    }, 
+    {
+      "ref": "/terms/305"
+    }, 
+    {
+      "ref": "/terms/205"
+    }, 
+    {
+      "ref": "/terms/816"
+    }
+  ], 
+  "creators": [
+    {
+      "ref": "/agents/person/896", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents/software/690", 
+      "type": "software"
+    }
+  ], 
+  "type": "collection", 
+  "id": "5d604aa82aef477d26e93e4d"
+}

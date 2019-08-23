@@ -1,0 +1,144 @@
+{
+  "dates": [
+    {
+      "expression": "Sep 20th, 1930 - Apr 25th, 2014", 
+      "begin": "1930-09-20", 
+      "label": "existence", 
+      "end": "2014-04-25", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Jun 5th, 1958 - Mar 18th, 1972", 
+      "begin": "1958-06-05", 
+      "label": "agent_relation", 
+      "end": "1972-03-18", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Nov 7th, 1952 - Dec 1st, 1969", 
+      "begin": "1952-11-07", 
+      "label": "issued", 
+      "end": "1969-12-01", 
+      "type": "single"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/649"
+    }, 
+    {
+      "ref": "/collections/511"
+    }, 
+    {
+      "ref": "/collections/179"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "box(es)", 
+      "value": "2.52"
+    }
+  ], 
+  "level": "file", 
+  "notes": [
+    {
+      "source": "wikidata", 
+      "type": "summary", 
+      "subnotes": [
+        {
+          "content": [
+            "magna aliqua culpa est anim dolor", 
+            "officia irure quis commodo ut proident", 
+            "tempor proident aliquip et aute nulla", 
+            "eu eiusmod excepteur culpa esse excepteur"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "et ullamco dolore Lorem aliqua enim", 
+            "consequat eiusmod magna cupidatat dolor laborum", 
+            "labore enim sunt labore duis deserunt", 
+            "id laboris sit pariatur laborum in", 
+            "proident quis ullamco velit aliquip aute"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "nulla velit in sunt elit amet", 
+            "laborum laboris officia do fugiat veniam"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "velit minim qui"
+    }
+  ], 
+  "title": "Et pariatur non officia cupidatat.", 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d604aa8e2d49c7634725d86"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/73"
+    }, 
+    {
+      "ref": "/collections/225"
+    }, 
+    {
+      "ref": "/collections/913"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "epo", 
+      "expression": "Esperanto"
+    }, 
+    {
+      "identifier": "epo", 
+      "expression": "English"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_person/736", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents_organization/67", 
+      "type": "organization"
+    }, 
+    {
+      "ref": "/agents_software/735", 
+      "type": "software"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/132"
+    }, 
+    {
+      "ref": "/terms/896"
+    }, 
+    {
+      "ref": "/terms/167"
+    }
+  ], 
+  "creators": [
+    {
+      "ref": "/agents/software/477", 
+      "type": "software"
+    }, 
+    {
+      "ref": "/agents/person/527", 
+      "type": "person"
+    }
+  ], 
+  "type": "collection", 
+  "id": "5d604aa8dca0d4264e88d87b"
+}

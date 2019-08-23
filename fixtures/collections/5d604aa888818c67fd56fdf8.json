@@ -1,0 +1,183 @@
+{
+  "dates": [
+    {
+      "expression": "Apr 22nd, 1939 - Mar 23rd, 2011", 
+      "begin": "1939-04-22", 
+      "label": "existence", 
+      "end": "2011-03-23", 
+      "type": "single"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/240"
+    }, 
+    {
+      "ref": "/collections/410"
+    }, 
+    {
+      "ref": "/collections/198"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "cassettes", 
+      "value": "1.56"
+    }
+  ], 
+  "level": "item", 
+  "notes": [], 
+  "title": "Eiusmod voluptate et anim anim ea qui commodo mollit consequat Lorem nulla adipisicing.", 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d604aa8f1d361656b874c48"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/567"
+    }, 
+    {
+      "ref": "/collections/775"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "spa", 
+      "expression": "English"
+    }, 
+    {
+      "identifier": "eng", 
+      "expression": "Esperanto"
+    }
+  ], 
+  "rights_statements": [
+    {
+      "begin": "2019-08-23", 
+      "end": "2019-08-23", 
+      "copyright_status": "copyrighted", 
+      "notes": [], 
+      "jurisdiction": "FR", 
+      "other_basis": "officia", 
+      "rights_granted": [
+        {
+          "restriction": "disallow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [
+            {
+              "source": "wikidata", 
+              "type": "additional_information", 
+              "subnotes": [
+                {
+                  "content": [
+                    "nostrud occaecat eiusmod aute ex cillum", 
+                    "id do sunt sunt in anim", 
+                    "fugiat cupidatat non duis velit est"
+                  ], 
+                  "type": "text"
+                }, 
+                {
+                  "content": [
+                    "nisi et consectetur voluptate consectetur laborum", 
+                    "ullamco dolore amet dolor irure consectetur"
+                  ], 
+                  "type": "text"
+                }, 
+                {
+                  "content": [
+                    "occaecat deserunt tempor quis Lorem aute", 
+                    "aliquip ullamco tempor aliqua anim non"
+                  ], 
+                  "type": "orderedlist"
+                }
+              ], 
+              "title": "velit fugiat do"
+            }
+          ], 
+          "act": "disseminate"
+        }
+      ], 
+      "rights_status": "public domain", 
+      "determination_date": "2019-08-23", 
+      "type": "rights_statement", 
+      "id": "5d604aa8b31a8572f8984c74", 
+      "rights_type": "copyright"
+    }, 
+    {
+      "begin": "2019-08-23", 
+      "end": "2019-08-23", 
+      "copyright_status": "copyrighted", 
+      "notes": [], 
+      "jurisdiction": "FR", 
+      "other_basis": "nulla", 
+      "rights_granted": [
+        {
+          "restriction": "allow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [
+            {
+              "source": "archivesspace", 
+              "type": "permissions", 
+              "subnotes": [
+                {
+                  "content": [
+                    "deserunt dolore proident veniam Lorem voluptate", 
+                    "id ea veniam officia voluptate excepteur"
+                  ], 
+                  "type": "orderedlist"
+                }
+              ], 
+              "title": "sint duis ut"
+            }
+          ], 
+          "act": "delete"
+        }
+      ], 
+      "rights_status": "unknown", 
+      "determination_date": "2019-08-23", 
+      "type": "rights_statement", 
+      "id": "5d604aa8784faadae723fcc0", 
+      "rights_type": "other"
+    }
+  ], 
+  "agents": [
+    {
+      "ref": "/agents_family/324", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents_software/715", 
+      "type": "software"
+    }, 
+    {
+      "ref": "/agents_person/55", 
+      "type": "person"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/172"
+    }, 
+    {
+      "ref": "/terms/221"
+    }, 
+    {
+      "ref": "/terms/592"
+    }
+  ], 
+  "creators": [
+    {
+      "ref": "/agents/software/393", 
+      "type": "software"
+    }, 
+    {
+      "ref": "/agents/family/129", 
+      "type": "family"
+    }
+  ], 
+  "type": "collection", 
+  "id": "5d604aa888818c67fd56fdf8"
+}

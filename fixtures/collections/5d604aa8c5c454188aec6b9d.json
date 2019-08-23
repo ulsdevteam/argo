@@ -1,0 +1,188 @@
+{
+  "dates": [
+    {
+      "expression": "Nov 6th, 1955 - Sep 18th, 1963", 
+      "begin": "1955-11-06", 
+      "label": "digitized", 
+      "end": "1963-09-18", 
+      "type": "bulk"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/81"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "microform reels", 
+      "value": "3.3"
+    }
+  ], 
+  "level": "item", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "note", 
+      "subnotes": [
+        {
+          "content": [
+            "incididunt nulla nulla ut incididunt nostrud"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "ipsum dolore in qui duis quis", 
+            "excepteur deserunt labore aliquip veniam consectetur", 
+            "ad deserunt aliqua dolore cillum in", 
+            "aliquip cupidatat ullamco sit culpa reprehenderit", 
+            "esse labore nostrud exercitation ut ullamco"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "ullamco ex in"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "otherfindaid", 
+      "subnotes": [
+        {
+          "content": [
+            "ad qui eu quis adipisicing aliquip", 
+            "laborum ipsum est tempor cillum excepteur", 
+            "velit eu minim eu consectetur aliquip"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "ullamco velit proident"
+    }, 
+    {
+      "source": "wikipedia", 
+      "type": "materials", 
+      "subnotes": [
+        {
+          "content": [
+            "et labore esse aliqua aliqua non", 
+            "eiusmod quis laborum sit adipisicing cillum", 
+            "culpa reprehenderit eiusmod et reprehenderit pariatur", 
+            "eiusmod ut aliquip pariatur ipsum Lorem", 
+            "excepteur eu eiusmod tempor sint in"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "enim mollit veniam id proident labore", 
+            "non eu ipsum sint minim ipsum"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "qui non aute aliquip eiusmod labore", 
+            "magna laborum eu mollit id quis", 
+            "elit ex id non incididunt fugiat"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "excepteur ut minim"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "accessrestrict", 
+      "subnotes": [
+        {
+          "content": [
+            "do nulla elit ex officia et", 
+            "magna ex elit magna aliquip minim", 
+            "qui duis qui culpa mollit sunt"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "pariatur ex dolor eu amet aute", 
+            "Lorem ex velit id occaecat cupidatat", 
+            "irure cillum consectetur aliqua anim consequat", 
+            "ad duis aliquip minim pariatur aliquip"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "anim excepteur ut aliqua enim commodo", 
+            "commodo laborum aliquip sunt incididunt commodo", 
+            "sint amet cupidatat magna qui qui", 
+            "pariatur eu deserunt sunt eiusmod eiusmod", 
+            "officia mollit nulla sint ad laboris"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "elit culpa cupidatat"
+    }
+  ], 
+  "title": "Fugiat sit sint quis duis.", 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d604aa818affb6f1fbeac99"
+    }, 
+    {
+      "source": "wikidata", 
+      "identifier": "5d604aa806befc95a9278855"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/462"
+    }, 
+    {
+      "ref": "/collections/835"
+    }, 
+    {
+      "ref": "/collections/957"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "epo", 
+      "expression": "Esperanto"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_family/170", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents_family/307", 
+      "type": "family"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/733"
+    }, 
+    {
+      "ref": "/terms/797"
+    }
+  ], 
+  "creators": [
+    {
+      "ref": "/agents/person/339", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents/family/281", 
+      "type": "family"
+    }
+  ], 
+  "type": "collection", 
+  "id": "5d604aa8c5c454188aec6b9d"
+}

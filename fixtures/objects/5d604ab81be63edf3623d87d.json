@@ -1,0 +1,134 @@
+{
+  "dates": [
+    {
+      "expression": "May 16th, 1925 - May 7th, 1992", 
+      "begin": "1925-05-16", 
+      "label": "record_keeping", 
+      "end": "1992-05-07", 
+      "type": "single"
+    }, 
+    {
+      "expression": "Jun 26th, 1932 - Jan 17th, 1960", 
+      "begin": "1932-06-26", 
+      "label": "event", 
+      "end": "1960-01-17", 
+      "type": "bulk"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/62"
+    }, 
+    {
+      "ref": "/collections/165"
+    }, 
+    {
+      "ref": "/collections/454"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "terabytes", 
+      "value": "1.89"
+    }
+  ], 
+  "title": "Sit ex aute minim minim in eiusmod amet cillum nisi laboris aliqua non.", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "permissions", 
+      "subnotes": [
+        {
+          "content": [
+            "incididunt dolore tempor et pariatur pariatur", 
+            "enim dolore culpa ullamco dolor qui", 
+            "eiusmod exercitation in amet velit elit", 
+            "minim est mollit enim veniam laborum", 
+            "proident ea velit eu velit nostrud"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "veniam et est"
+    }, 
+    {
+      "source": "wikipedia", 
+      "type": "restrictions", 
+      "subnotes": [
+        {
+          "content": [
+            "exercitation proident veniam nisi qui reprehenderit", 
+            "et nisi in ut aute do"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "amet laboris exercitation velit duis elit", 
+            "magna labore in amet laboris voluptate", 
+            "consectetur culpa laborum ad est non", 
+            "excepteur sit sint eiusmod aute dolor"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "et esse mollit cupidatat excepteur sit", 
+            "aliqua esse id enim esse velit", 
+            "aliquip ipsum laboris occaecat amet dolore"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "aliquip cillum aliqua"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "edition", 
+      "subnotes": [
+        {
+          "content": [
+            "esse ut officia proident officia magna", 
+            "ea officia voluptate ex nostrud mollit", 
+            "sint occaecat mollit magna esse est", 
+            "labore occaecat sunt elit laborum in", 
+            "ipsum do qui est reprehenderit et"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "commodo amet nisi quis minim aute"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "voluptate sint culpa"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d604ab8456c2a0febb4120f"
+    }, 
+    {
+      "source": "wikipedia", 
+      "identifier": "5d604ab851221368a37e8d35"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "eng", 
+      "expression": "Spanish"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [], 
+  "terms": [
+    {
+      "ref": "/terms/132"
+    }
+  ], 
+  "type": "object", 
+  "id": "5d604ab81be63edf3623d87d"
+}

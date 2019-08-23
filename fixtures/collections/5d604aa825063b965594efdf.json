@@ -1,0 +1,134 @@
+{
+  "dates": [
+    {
+      "expression": "May 23rd, 1927 - May 30th, 2013", 
+      "begin": "1927-05-23", 
+      "label": "broadcast", 
+      "end": "2013-05-30", 
+      "type": "single"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/935"
+    }, 
+    {
+      "ref": "/collections/213"
+    }, 
+    {
+      "ref": "/collections/344"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "terabytes", 
+      "value": "4.25"
+    }
+  ], 
+  "level": "collection", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "legalstatus", 
+      "subnotes": [
+        {
+          "content": [
+            "laborum esse ipsum adipisicing ullamco excepteur", 
+            "ex tempor ut consectetur magna Lorem", 
+            "fugiat laborum commodo duis pariatur eiusmod", 
+            "aute excepteur nulla ex qui veniam", 
+            "sit nostrud amet ea ullamco dolor"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "Lorem nostrud tempor ea veniam Lorem"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "voluptate nisi aliquip"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "dimensions", 
+      "subnotes": [
+        {
+          "content": [
+            "irure reprehenderit occaecat aliqua officia pariatur", 
+            "veniam amet id minim nostrud est"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "magna aliquip irure"
+    }
+  ], 
+  "title": "Esse aliqua et laboris nisi reprehenderit incididunt ullamco ut.", 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d604aa8f1432f21dd7622b4"
+    }, 
+    {
+      "source": "wikipedia", 
+      "identifier": "5d604aa8e5272a17d79146ec"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/204"
+    }, 
+    {
+      "ref": "/collections/1"
+    }, 
+    {
+      "ref": "/collections/272"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "epo", 
+      "expression": "English"
+    }, 
+    {
+      "identifier": "eng", 
+      "expression": "Spanish"
+    }, 
+    {
+      "identifier": "epo", 
+      "expression": "Spanish"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_person/860", 
+      "type": "person"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/800"
+    }, 
+    {
+      "ref": "/terms/162"
+    }, 
+    {
+      "ref": "/terms/165"
+    }
+  ], 
+  "creators": [
+    {
+      "ref": "/agents/organization/331", 
+      "type": "organization"
+    }, 
+    {
+      "ref": "/agents/family/149", 
+      "type": "family"
+    }
+  ], 
+  "type": "collection", 
+  "id": "5d604aa825063b965594efdf"
+}

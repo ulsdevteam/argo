@@ -1,0 +1,294 @@
+{
+  "dates": [
+    {
+      "expression": "May 4th, 1919 - May 12th, 2016", 
+      "begin": "1919-05-04", 
+      "label": "creation", 
+      "end": "2016-05-12", 
+      "type": "bulk"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/94"
+    }, 
+    {
+      "ref": "/collections/768"
+    }, 
+    {
+      "ref": "/collections/770"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "terabytes", 
+      "value": "3.58"
+    }, 
+    {
+      "type": "cassettes", 
+      "value": "1.1"
+    }
+  ], 
+  "level": "series", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "processinfo", 
+      "subnotes": [
+        {
+          "content": [
+            "occaecat culpa aliquip adipisicing culpa culpa", 
+            "aute culpa irure in sunt esse", 
+            "cillum ex duis qui consectetur officia", 
+            "qui culpa adipisicing anim nisi consectetur", 
+            "dolor magna cupidatat occaecat veniam sit"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "ea consequat occaecat sit dolore pariatur"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "est eu sint"
+    }
+  ], 
+  "title": "Nisi velit anim quis sunt consequat sint occaecat aliqua proident.", 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d604aa7ed6cb1860b4b66d7"
+    }, 
+    {
+      "source": "wikidata", 
+      "identifier": "5d604aa7bda7142134fc4890"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/210"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "spa", 
+      "expression": "Spanish"
+    }, 
+    {
+      "identifier": "spa", 
+      "expression": "Esperanto"
+    }
+  ], 
+  "rights_statements": [
+    {
+      "begin": "2019-08-23", 
+      "end": "2019-08-23", 
+      "copyright_status": "unknown", 
+      "notes": [], 
+      "jurisdiction": "US", 
+      "other_basis": "aliqua", 
+      "rights_granted": [
+        {
+          "restriction": "allow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [
+            {
+              "source": "cartographer", 
+              "type": "type_note", 
+              "subnotes": [
+                {
+                  "content": [
+                    "exercitation Lorem magna sit pariatur voluptate"
+                  ], 
+                  "type": "definedlist"
+                }, 
+                {
+                  "content": [
+                    "ad nisi occaecat ex sint mollit"
+                  ], 
+                  "type": "definedlist"
+                }
+              ], 
+              "title": "sint ipsum consequat"
+            }
+          ], 
+          "act": "use"
+        }, 
+        {
+          "restriction": "allow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [
+            {
+              "source": "archivesspace", 
+              "type": "restrictions", 
+              "subnotes": [
+                {
+                  "content": [
+                    "nulla eiusmod velit sunt tempor aliquip", 
+                    "proident consectetur ullamco ut cillum adipisicing", 
+                    "et velit reprehenderit sint in aliqua", 
+                    "excepteur excepteur anim pariatur enim sit"
+                  ], 
+                  "type": "definedlist"
+                }
+              ], 
+              "title": "ea ad nisi"
+            }
+          ], 
+          "act": "migrate"
+        }
+      ], 
+      "rights_status": "unknown", 
+      "determination_date": "2019-08-23", 
+      "type": "rights_statement", 
+      "id": "5d604aa7bbb14a1a788f4e79", 
+      "rights_type": "statute"
+    }, 
+    {
+      "begin": "2019-08-23", 
+      "end": "2019-08-23", 
+      "copyright_status": "unknown", 
+      "notes": [
+        {
+          "source": "archivesspace", 
+          "type": "restrictions", 
+          "subnotes": [
+            {
+              "content": [
+                "ullamco amet adipisicing aliquip in reprehenderit", 
+                "mollit velit culpa irure ex mollit"
+              ], 
+              "type": "text"
+            }
+          ], 
+          "title": "aliquip amet id"
+        }
+      ], 
+      "jurisdiction": "CN", 
+      "other_basis": "do", 
+      "rights_granted": [
+        {
+          "restriction": "disallow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [
+            {
+              "source": "wikidata", 
+              "type": "extension", 
+              "subnotes": [
+                {
+                  "content": [
+                    "tempor incididunt commodo ea laborum laborum", 
+                    "cupidatat id fugiat do laborum minim", 
+                    "sit culpa mollit sint sint veniam"
+                  ], 
+                  "type": "text"
+                }, 
+                {
+                  "content": [
+                    "velit ad ut sit pariatur aliquip", 
+                    "duis irure commodo minim minim elit", 
+                    "et non et deserunt labore in"
+                  ], 
+                  "type": "orderedlist"
+                }
+              ], 
+              "title": "quis esse ipsum"
+            }
+          ], 
+          "act": "disseminate"
+        }, 
+        {
+          "restriction": "disallow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [
+            {
+              "source": "wikidata", 
+              "type": "permissions", 
+              "subnotes": [
+                {
+                  "content": [
+                    "adipisicing sit eiusmod eiusmod adipisicing fugiat", 
+                    "cupidatat dolore non Lorem laboris reprehenderit", 
+                    "eiusmod consequat minim ipsum veniam aliqua"
+                  ], 
+                  "type": "orderedlist"
+                }, 
+                {
+                  "content": [
+                    "mollit cillum sint est esse adipisicing", 
+                    "tempor adipisicing adipisicing proident qui qui", 
+                    "occaecat et nostrud deserunt do velit"
+                  ], 
+                  "type": "definedlist"
+                }, 
+                {
+                  "content": [
+                    "id anim duis ut anim cillum", 
+                    "sit adipisicing pariatur culpa id esse", 
+                    "sit id enim amet velit excepteur", 
+                    "incididunt et culpa pariatur et exercitation"
+                  ], 
+                  "type": "orderedlist"
+                }
+              ], 
+              "title": "mollit exercitation sint"
+            }
+          ], 
+          "act": "disseminate"
+        }
+      ], 
+      "rights_status": "copyrighted", 
+      "determination_date": "2019-08-23", 
+      "type": "rights_statement", 
+      "id": "5d604aa7f3aff8b07457b0f4", 
+      "rights_type": "other"
+    }
+  ], 
+  "agents": [
+    {
+      "ref": "/agents_family/677", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents_software/573", 
+      "type": "software"
+    }, 
+    {
+      "ref": "/agents_organization/897", 
+      "type": "organization"
+    }, 
+    {
+      "ref": "/agents_family/646", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents_person/360", 
+      "type": "person"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/39"
+    }, 
+    {
+      "ref": "/terms/125"
+    }, 
+    {
+      "ref": "/terms/349"
+    }
+  ], 
+  "creators": [
+    {
+      "ref": "/agents/organization/354", 
+      "type": "organization"
+    }
+  ], 
+  "type": "collection", 
+  "id": "5d604aa742846d9310fc3e0b"
+}

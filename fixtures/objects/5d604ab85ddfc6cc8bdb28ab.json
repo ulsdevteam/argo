@@ -1,0 +1,206 @@
+{
+  "dates": [
+    {
+      "expression": "Feb 6th, 1939 - Jul 25th, 2002", 
+      "begin": "1939-02-06", 
+      "label": "publication", 
+      "end": "2002-07-25", 
+      "type": "inclusive"
+    }
+  ], 
+  "ancestors": [], 
+  "extents": [
+    {
+      "type": "cubic_feet", 
+      "value": "2.1"
+    }
+  ], 
+  "title": "Ex consequat ad enim pariatur pariatur.", 
+  "notes": [
+    {
+      "source": "wikidata", 
+      "type": "restrictions", 
+      "subnotes": [
+        {
+          "content": [
+            "occaecat id excepteur culpa excepteur laborum", 
+            "deserunt magna consectetur ipsum enim Lorem"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "fugiat in nulla minim anim est", 
+            "elit et nulla tempor duis anim", 
+            "cupidatat proident anim aliqua aute duis"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "elit qui culpa consequat aliquip est", 
+            "qui ex qui veniam irure ipsum"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "nostrud irure cupidatat"
+    }, 
+    {
+      "source": "cartographer", 
+      "type": "accessrestrict", 
+      "subnotes": [
+        {
+          "content": [
+            "ipsum ut Lorem ex in ullamco", 
+            "Lorem nisi dolore incididunt adipisicing aute"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "aliqua do deserunt"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "prefercite", 
+      "subnotes": [
+        {
+          "content": [
+            "excepteur laborum dolor enim veniam sint"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "tempor voluptate culpa duis nisi occaecat"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "amet deserunt qui ipsum veniam irure", 
+            "nisi cupidatat eiusmod nulla Lorem irure", 
+            "tempor dolore mollit consectetur duis anim"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "commodo velit culpa"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d604ab8e4a5ee80f4408161"
+    }, 
+    {
+      "source": "wikidata", 
+      "identifier": "5d604ab88a28e6267f7ac358"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "epo", 
+      "expression": "Esperanto"
+    }
+  ], 
+  "rights_statements": [
+    {
+      "begin": "2019-08-23", 
+      "end": "2019-08-23", 
+      "copyright_status": "unknown", 
+      "notes": [
+        {
+          "source": "wikipedia", 
+          "type": "type_note", 
+          "subnotes": [
+            {
+              "content": [
+                "tempor Lorem adipisicing occaecat cupidatat reprehenderit"
+              ], 
+              "type": "orderedlist"
+            }
+          ], 
+          "title": "exercitation ullamco nostrud"
+        }
+      ], 
+      "jurisdiction": "FR", 
+      "other_basis": "laboris", 
+      "rights_granted": [
+        {
+          "restriction": "disallow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [
+            {
+              "source": "wikidata", 
+              "type": "permissions", 
+              "subnotes": [
+                {
+                  "content": [
+                    "pariatur est amet elit nulla nostrud", 
+                    "occaecat fugiat minim sunt laborum voluptate"
+                  ], 
+                  "type": "orderedlist"
+                }, 
+                {
+                  "content": [
+                    "non eu aute quis anim in"
+                  ], 
+                  "type": "text"
+                }, 
+                {
+                  "content": [
+                    "nisi incididunt irure commodo amet quis", 
+                    "incididunt magna voluptate laboris cupidatat quis", 
+                    "et eiusmod amet sit enim dolore", 
+                    "laboris veniam consequat incididunt officia quis"
+                  ], 
+                  "type": "orderedlist"
+                }
+              ], 
+              "title": "magna mollit nisi"
+            }
+          ], 
+          "act": "migrate"
+        }
+      ], 
+      "rights_status": "unknown", 
+      "determination_date": "2019-08-23", 
+      "type": "rights_statement", 
+      "id": "5d604ab8cabf0347349af468", 
+      "rights_type": "statute"
+    }
+  ], 
+  "agents": [
+    {
+      "ref": "/agents_family/353", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents_person/409", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents_person/411", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents_software/798", 
+      "type": "software"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/588"
+    }, 
+    {
+      "ref": "/terms/151"
+    }, 
+    {
+      "ref": "/terms/175"
+    }
+  ], 
+  "type": "object", 
+  "id": "5d604ab85ddfc6cc8bdb28ab"
+}

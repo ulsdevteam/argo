@@ -1,0 +1,201 @@
+{
+  "dates": [
+    {
+      "expression": "Jan 18th, 1953 - Mar 17th, 1979", 
+      "begin": "1953-01-18", 
+      "label": "modified", 
+      "end": "1979-03-17", 
+      "type": "single"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/126"
+    }, 
+    {
+      "ref": "/collections/805"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "sheets", 
+      "value": "2.07"
+    }, 
+    {
+      "type": "cassettes", 
+      "value": "3.52"
+    }
+  ], 
+  "title": "Cupidatat velit veniam pariatur est sunt ipsum laboris minim ipsum sunt in.", 
+  "notes": [
+    {
+      "source": "cartographer", 
+      "type": "physdesc", 
+      "subnotes": [
+        {
+          "content": [
+            "ex aliquip esse aliqua duis sit", 
+            "sit aute nisi id quis nisi"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "veniam excepteur et sunt et enim", 
+            "ut est cillum occaecat fugiat non", 
+            "dolore magna ipsum sit consequat dolore"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "cupidatat irure qui"
+    }, 
+    {
+      "source": "wikipedia", 
+      "type": "edition", 
+      "subnotes": [
+        {
+          "content": [
+            "officia ullamco minim aute anim fugiat", 
+            "eiusmod qui eu minim sit elit", 
+            "laboris consectetur ullamco enim tempor ipsum", 
+            "magna exercitation duis ex sit aute"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "irure do incididunt"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d604ab83281762528749cc7"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "epo", 
+      "expression": "Spanish"
+    }, 
+    {
+      "identifier": "eng", 
+      "expression": "Esperanto"
+    }
+  ], 
+  "rights_statements": [
+    {
+      "begin": "2019-08-23", 
+      "end": "2019-08-23", 
+      "copyright_status": "unknown", 
+      "notes": [], 
+      "jurisdiction": "FR", 
+      "other_basis": "cillum", 
+      "rights_granted": [
+        {
+          "restriction": "allow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [
+            {
+              "source": "wikidata", 
+              "type": "materials", 
+              "subnotes": [
+                {
+                  "content": [
+                    "veniam voluptate enim eu et nostrud"
+                  ], 
+                  "type": "text"
+                }
+              ], 
+              "title": "proident exercitation et"
+            }
+          ], 
+          "act": "use"
+        }, 
+        {
+          "restriction": "allow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [
+            {
+              "source": "cartographer", 
+              "type": "expiration", 
+              "subnotes": [
+                {
+                  "content": [
+                    "excepteur minim ex ex labore excepteur"
+                  ], 
+                  "type": "orderedlist"
+                }, 
+                {
+                  "content": [
+                    "nisi magna ex commodo ipsum veniam", 
+                    "reprehenderit fugiat quis qui consequat non"
+                  ], 
+                  "type": "orderedlist"
+                }, 
+                {
+                  "content": [
+                    "qui amet sit duis proident enim", 
+                    "fugiat qui labore fugiat sunt magna"
+                  ], 
+                  "type": "orderedlist"
+                }
+              ], 
+              "title": "irure Lorem adipisicing"
+            }
+          ], 
+          "act": "replicate"
+        }
+      ], 
+      "rights_status": "public domain", 
+      "determination_date": "2019-08-23", 
+      "type": "rights_statement", 
+      "id": "5d604ab8f149ebe67601ff56", 
+      "rights_type": "copyright"
+    }, 
+    {
+      "begin": "2019-08-23", 
+      "end": "2019-08-23", 
+      "copyright_status": "unknown", 
+      "notes": [], 
+      "jurisdiction": "CN", 
+      "other_basis": "exercitation", 
+      "rights_granted": [
+        {
+          "restriction": "allow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [], 
+          "act": "modify"
+        }, 
+        {
+          "restriction": "allow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [], 
+          "act": "replicate"
+        }
+      ], 
+      "rights_status": "copyrighted", 
+      "determination_date": "2019-08-23", 
+      "type": "rights_statement", 
+      "id": "5d604ab8412603afeda31e5a", 
+      "rights_type": "copyright"
+    }
+  ], 
+  "agents": [
+    {
+      "ref": "/agents_software/39", 
+      "type": "software"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/404"
+    }
+  ], 
+  "type": "object", 
+  "id": "5d604ab8dffdfea2eca52ce6"
+}

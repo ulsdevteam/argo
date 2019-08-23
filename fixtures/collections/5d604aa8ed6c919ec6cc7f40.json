@@ -1,0 +1,229 @@
+{
+  "dates": [
+    {
+      "expression": "Nov 29th, 1921 - Mar 25th, 1993", 
+      "begin": "1921-11-29", 
+      "label": "usage", 
+      "end": "1993-03-25", 
+      "type": "inclusive"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/175"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "cassettes", 
+      "value": "4.56"
+    }, 
+    {
+      "type": "leaves", 
+      "value": "2.59"
+    }
+  ], 
+  "level": "subseries", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "permissions", 
+      "subnotes": [
+        {
+          "content": [
+            "ullamco pariatur amet officia ex magna", 
+            "consectetur ut velit ea commodo aliqua"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "mollit voluptate ex"
+    }, 
+    {
+      "source": "wikipedia", 
+      "type": "additional_information", 
+      "subnotes": [
+        {
+          "content": [
+            "voluptate amet labore exercitation magna aliquip"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "officia et voluptate mollit et elit"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "nostrud deserunt in eu nostrud culpa", 
+            "est in qui incididunt reprehenderit officia", 
+            "ad in qui reprehenderit nisi aliqua", 
+            "proident incididunt aliquip irure qui commodo", 
+            "sint eiusmod sint nostrud elit esse"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "cupidatat elit cupidatat"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "appraisal", 
+      "subnotes": [
+        {
+          "content": [
+            "sunt culpa commodo non nostrud fugiat", 
+            "culpa sint ipsum pariatur amet enim", 
+            "nulla commodo cupidatat Lorem consectetur sunt", 
+            "aliqua cupidatat ex ut ut amet"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "irure consectetur irure"
+    }
+  ], 
+  "title": "Duis tempor aliqua laboris qui in nostrud occaecat.", 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d604aa8608c23281362107a"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/857"
+    }, 
+    {
+      "ref": "/collections/73"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "eng", 
+      "expression": "English"
+    }, 
+    {
+      "identifier": "eng", 
+      "expression": "English"
+    }, 
+    {
+      "identifier": "eng", 
+      "expression": "Esperanto"
+    }
+  ], 
+  "rights_statements": [
+    {
+      "begin": "2019-08-23", 
+      "end": "2019-08-23", 
+      "copyright_status": "copyrighted", 
+      "notes": [
+        {
+          "source": "archivesspace", 
+          "type": "type_note", 
+          "subnotes": [
+            {
+              "content": [
+                "ut proident nostrud eiusmod aliquip non", 
+                "do laborum deserunt ex cupidatat duis"
+              ], 
+              "type": "definedlist"
+            }
+          ], 
+          "title": "labore est fugiat"
+        }
+      ], 
+      "jurisdiction": "FR", 
+      "other_basis": "fugiat", 
+      "rights_granted": [
+        {
+          "restriction": "allow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [
+            {
+              "source": "wikidata", 
+              "type": "restrictions", 
+              "subnotes": [
+                {
+                  "content": [
+                    "eiusmod ex in labore anim enim"
+                  ], 
+                  "type": "definedlist"
+                }, 
+                {
+                  "content": [
+                    "amet eiusmod commodo ex esse esse", 
+                    "mollit velit nostrud ipsum tempor incididunt", 
+                    "dolore veniam non labore esse nisi"
+                  ], 
+                  "type": "definedlist"
+                }, 
+                {
+                  "content": [
+                    "nisi labore ut aliqua elit sunt", 
+                    "laborum nostrud labore amet incididunt nulla", 
+                    "aliqua eiusmod dolore est veniam irure", 
+                    "cillum est anim do id minim"
+                  ], 
+                  "type": "definedlist"
+                }
+              ], 
+              "title": "labore dolor mollit"
+            }
+          ], 
+          "act": "migrate"
+        }
+      ], 
+      "rights_status": "public domain", 
+      "determination_date": "2019-08-23", 
+      "type": "rights_statement", 
+      "id": "5d604aa849302d6f7d946d17", 
+      "rights_type": "license"
+    }
+  ], 
+  "agents": [
+    {
+      "ref": "/agents_software/15", 
+      "type": "software"
+    }, 
+    {
+      "ref": "/agents_person/701", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents_organization/867", 
+      "type": "organization"
+    }, 
+    {
+      "ref": "/agents_software/434", 
+      "type": "software"
+    }, 
+    {
+      "ref": "/agents_family/377", 
+      "type": "family"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/560"
+    }, 
+    {
+      "ref": "/terms/817"
+    }
+  ], 
+  "creators": [
+    {
+      "ref": "/agents/person/996", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents/organization/856", 
+      "type": "organization"
+    }
+  ], 
+  "type": "collection", 
+  "id": "5d604aa8ed6c919ec6cc7f40"
+}

@@ -1,0 +1,101 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 15th, 1944 - May 23rd, 1963", 
+      "begin": "1944-08-15", 
+      "label": "event", 
+      "end": "1963-05-23", 
+      "type": "single"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/235"
+    }, 
+    {
+      "ref": "/collections/38"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "leaves", 
+      "value": "2.62"
+    }, 
+    {
+      "type": "cubic_feet", 
+      "value": "3.27"
+    }
+  ], 
+  "title": "Minim labore eu aliqua occaecat veniam consectetur quis id proident.", 
+  "notes": [], 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d604ab899e86f54dd97fb69"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "epo", 
+      "expression": "Esperanto"
+    }, 
+    {
+      "identifier": "eng", 
+      "expression": "Spanish"
+    }, 
+    {
+      "identifier": "spa", 
+      "expression": "English"
+    }
+  ], 
+  "rights_statements": [
+    {
+      "begin": "2019-08-23", 
+      "end": "2019-08-23", 
+      "copyright_status": "unknown", 
+      "notes": [], 
+      "jurisdiction": "US", 
+      "other_basis": "culpa", 
+      "rights_granted": [
+        {
+          "restriction": "allow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [], 
+          "act": "delete"
+        }
+      ], 
+      "rights_status": "public domain", 
+      "determination_date": "2019-08-23", 
+      "type": "rights_statement", 
+      "id": "5d604ab8cf0cf5b5e335dca3", 
+      "rights_type": "other"
+    }
+  ], 
+  "agents": [
+    {
+      "ref": "/agents_family/778", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents_organization/312", 
+      "type": "organization"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/618"
+    }, 
+    {
+      "ref": "/terms/525"
+    }, 
+    {
+      "ref": "/terms/167"
+    }, 
+    {
+      "ref": "/terms/782"
+    }
+  ], 
+  "type": "object", 
+  "id": "5d604ab8ad3d8e957e5b0528"
+}

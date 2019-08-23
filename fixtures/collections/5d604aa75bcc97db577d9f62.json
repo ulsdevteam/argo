@@ -1,0 +1,138 @@
+{
+  "dates": [
+    {
+      "expression": "Feb 23rd, 1919 - Jul 1st, 1973", 
+      "begin": "1919-02-23", 
+      "label": "creation", 
+      "end": "1973-07-01", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Jan 23rd, 1944 - Oct 4th, 1978", 
+      "begin": "1944-01-23", 
+      "label": "existence", 
+      "end": "1978-10-04", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Jun 10th, 1920 - Jun 30th, 1979", 
+      "begin": "1920-06-10", 
+      "label": "record_keeping", 
+      "end": "1979-06-30", 
+      "type": "bulk"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/140"
+    }, 
+    {
+      "ref": "/collections/895"
+    }, 
+    {
+      "ref": "/collections/649"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "terabytes", 
+      "value": "4.66"
+    }
+  ], 
+  "level": "file", 
+  "notes": [], 
+  "title": "Ad magna culpa velit dolore ex enim.", 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d604aa7a59c3ffa4dc42292"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/57"
+    }, 
+    {
+      "ref": "/collections/539"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "eng", 
+      "expression": "English"
+    }
+  ], 
+  "rights_statements": [
+    {
+      "begin": "2019-08-23", 
+      "end": "2019-08-23", 
+      "copyright_status": "copyrighted", 
+      "notes": [
+        {
+          "source": "wikipedia", 
+          "type": "expiration", 
+          "subnotes": [
+            {
+              "content": [
+                "elit consequat ex exercitation id fugiat"
+              ], 
+              "type": "orderedlist"
+            }
+          ], 
+          "title": "aute sit ea"
+        }
+      ], 
+      "jurisdiction": "CN", 
+      "other_basis": "ullamco", 
+      "rights_granted": [
+        {
+          "restriction": "disallow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [], 
+          "act": "disseminate"
+        }
+      ], 
+      "rights_status": "unknown", 
+      "determination_date": "2019-08-23", 
+      "type": "rights_statement", 
+      "id": "5d604aa71dbb3404499cc11e", 
+      "rights_type": "statute"
+    }
+  ], 
+  "agents": [
+    {
+      "ref": "/agents_family/734", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents_family/282", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents_person/80", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents_person/619", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents_person/65", 
+      "type": "person"
+    }
+  ], 
+  "terms": [], 
+  "creators": [
+    {
+      "ref": "/agents/software/215", 
+      "type": "software"
+    }, 
+    {
+      "ref": "/agents/software/522", 
+      "type": "software"
+    }
+  ], 
+  "type": "collection", 
+  "id": "5d604aa75bcc97db577d9f62"
+}

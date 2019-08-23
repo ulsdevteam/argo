@@ -1,0 +1,248 @@
+{
+  "dates": [
+    {
+      "expression": "Jul 17th, 1918 - Jan 3rd, 2011", 
+      "begin": "1918-07-17", 
+      "label": "deaccession", 
+      "end": "2011-01-03", 
+      "type": "single"
+    }, 
+    {
+      "expression": "May 4th, 1914 - Jul 22nd, 1999", 
+      "begin": "1914-05-04", 
+      "label": "event", 
+      "end": "1999-07-22", 
+      "type": "single"
+    }, 
+    {
+      "expression": "May 10th, 1932 - Jul 10th, 1986", 
+      "begin": "1932-05-10", 
+      "label": "existence", 
+      "end": "1986-07-10", 
+      "type": "bulk"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/766"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "leaves", 
+      "value": "1.02"
+    }, 
+    {
+      "type": "microform reels", 
+      "value": "3.87"
+    }
+  ], 
+  "level": "series", 
+  "notes": [
+    {
+      "source": "cartographer", 
+      "type": "note", 
+      "subnotes": [
+        {
+          "content": [
+            "amet esse sint officia occaecat ut", 
+            "consequat incididunt est aliqua et incididunt"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "culpa consequat exercitation enim aliquip incididunt", 
+            "Lorem aliqua eu consequat exercitation exercitation", 
+            "est eu irure dolor irure excepteur", 
+            "elit amet irure ut enim ipsum"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "enim veniam nisi tempor incididunt non"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "duis fugiat do"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "altformavail", 
+      "subnotes": [
+        {
+          "content": [
+            "exercitation qui non ullamco ut nostrud", 
+            "ex culpa occaecat minim enim est", 
+            "do incididunt voluptate officia ipsum voluptate"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "ullamco nisi dolor esse ipsum velit"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "eiusmod deserunt consectetur"
+    }, 
+    {
+      "source": "cartographer", 
+      "type": "custodhist", 
+      "subnotes": [
+        {
+          "content": [
+            "exercitation occaecat ullamco non laboris ut", 
+            "Lorem occaecat voluptate qui anim proident", 
+            "elit amet in est elit dolore", 
+            "laboris velit ipsum qui excepteur aliquip"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "est et in"
+    }, 
+    {
+      "source": "wikipedia", 
+      "type": "odd", 
+      "subnotes": [
+        {
+          "content": [
+            "est occaecat ex eu Lorem id"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "cupidatat cillum reprehenderit labore aliqua labore", 
+            "id exercitation magna ipsum laboris ex"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "non incididunt magna"
+    }
+  ], 
+  "title": "Anim incididunt cillum eiusmod adipisicing ullamco.", 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d604aa8da78321755e4c81f"
+    }, 
+    {
+      "source": "wikipedia", 
+      "identifier": "5d604aa812a212d11afb0b4f"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/99"
+    }, 
+    {
+      "ref": "/collections/348"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "spa", 
+      "expression": "Spanish"
+    }, 
+    {
+      "identifier": "epo", 
+      "expression": "Esperanto"
+    }
+  ], 
+  "rights_statements": [
+    {
+      "begin": "2019-08-23", 
+      "end": "2019-08-23", 
+      "copyright_status": "copyrighted", 
+      "notes": [], 
+      "jurisdiction": "US", 
+      "other_basis": "exercitation", 
+      "rights_granted": [
+        {
+          "restriction": "disallow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [], 
+          "act": "replicate"
+        }, 
+        {
+          "restriction": "allow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [
+            {
+              "source": "archivesspace", 
+              "type": "type_note", 
+              "subnotes": [
+                {
+                  "content": [
+                    "do magna excepteur culpa amet est"
+                  ], 
+                  "type": "definedlist"
+                }, 
+                {
+                  "content": [
+                    "nostrud Lorem officia labore reprehenderit aliqua", 
+                    "non officia labore veniam excepteur magna", 
+                    "amet culpa exercitation nisi occaecat deserunt", 
+                    "voluptate dolor Lorem labore irure reprehenderit", 
+                    "esse reprehenderit ea esse cillum do"
+                  ], 
+                  "type": "text"
+                }, 
+                {
+                  "content": [
+                    "sunt incididunt anim commodo esse cillum", 
+                    "ad qui Lorem non Lorem incididunt", 
+                    "consequat Lorem pariatur pariatur amet pariatur", 
+                    "est duis et in magna reprehenderit"
+                  ], 
+                  "type": "text"
+                }
+              ], 
+              "title": "proident officia ut"
+            }
+          ], 
+          "act": "use"
+        }
+      ], 
+      "rights_status": "public domain", 
+      "determination_date": "2019-08-23", 
+      "type": "rights_statement", 
+      "id": "5d604aa8623866b4fc6205c6", 
+      "rights_type": "license"
+    }
+  ], 
+  "agents": [
+    {
+      "ref": "/agents_family/526", 
+      "type": "family"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/327"
+    }, 
+    {
+      "ref": "/terms/775"
+    }
+  ], 
+  "creators": [
+    {
+      "ref": "/agents/family/428", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents/family/647", 
+      "type": "family"
+    }
+  ], 
+  "type": "collection", 
+  "id": "5d604aa835e44c4451638937"
+}

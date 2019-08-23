@@ -1,0 +1,137 @@
+{
+  "dates": [
+    {
+      "expression": "Nov 18th, 1950 - Jul 22nd, 2011", 
+      "begin": "1950-11-18", 
+      "label": "copyright", 
+      "end": "2011-07-22", 
+      "type": "bulk"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/194"
+    }, 
+    {
+      "ref": "/collections/385"
+    }, 
+    {
+      "ref": "/collections/846"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "photographic_slides", 
+      "value": "1.3"
+    }, 
+    {
+      "type": "cubic_feet", 
+      "value": "3.45"
+    }
+  ], 
+  "level": "subseries", 
+  "notes": [], 
+  "title": "Sunt aliqua laboris mollit cillum reprehenderit qui do nulla veniam nulla laborum minim culpa.", 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d604aa828fbab85d5f39152"
+    }, 
+    {
+      "source": "wikidata", 
+      "identifier": "5d604aa8a7df50930f31379e"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/629"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "epo", 
+      "expression": "Esperanto"
+    }, 
+    {
+      "identifier": "eng", 
+      "expression": "English"
+    }
+  ], 
+  "rights_statements": [
+    {
+      "begin": "2019-08-23", 
+      "end": "2019-08-23", 
+      "copyright_status": "public domain", 
+      "notes": [], 
+      "jurisdiction": "US", 
+      "other_basis": "enim", 
+      "rights_granted": [
+        {
+          "restriction": "allow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [], 
+          "act": "disseminate"
+        }, 
+        {
+          "restriction": "disallow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [
+            {
+              "source": "cartographer", 
+              "type": "materials", 
+              "subnotes": [
+                {
+                  "content": [
+                    "minim ea irure occaecat incididunt in"
+                  ], 
+                  "type": "definedlist"
+                }
+              ], 
+              "title": "labore labore id"
+            }
+          ], 
+          "act": "delete"
+        }
+      ], 
+      "rights_status": "unknown", 
+      "determination_date": "2019-08-23", 
+      "type": "rights_statement", 
+      "id": "5d604aa89ea561d8537b4839", 
+      "rights_type": "other"
+    }
+  ], 
+  "agents": [
+    {
+      "ref": "/agents_software/400", 
+      "type": "software"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/254"
+    }, 
+    {
+      "ref": "/terms/486"
+    }, 
+    {
+      "ref": "/terms/524"
+    }, 
+    {
+      "ref": "/terms/632"
+    }
+  ], 
+  "creators": [
+    {
+      "ref": "/agents/person/647", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents/organization/712", 
+      "type": "organization"
+    }
+  ], 
+  "type": "collection", 
+  "id": "5d604aa8b40cd56add34fc30"
+}

@@ -1,0 +1,265 @@
+{
+  "dates": [
+    {
+      "expression": "Dec 28th, 1939 - Jun 4th, 2010", 
+      "begin": "1939-12-28", 
+      "label": "record_keeping", 
+      "end": "2010-06-04", 
+      "type": "bulk"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/874"
+    }, 
+    {
+      "ref": "/collections/886"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "gigabytes", 
+      "value": "2.35"
+    }, 
+    {
+      "type": "volumes", 
+      "value": "3.22"
+    }
+  ], 
+  "level": "subgrp", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "rights_statement_act", 
+      "subnotes": [
+        {
+          "content": [
+            "officia sit occaecat id deserunt sit", 
+            "id ex eiusmod ex in sunt", 
+            "labore consectetur ipsum veniam consectetur anim", 
+            "dolore aliquip excepteur adipisicing deserunt aute"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "aute nisi aliqua minim consectetur occaecat", 
+            "id occaecat do dolore sit ad"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "incididunt ea elit ex voluptate occaecat", 
+            "tempor consectetur id ut do nulla", 
+            "sit cupidatat nisi nisi reprehenderit culpa", 
+            "consequat eu tempor ad nisi anim"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "exercitation ullamco dolor"
+    }, 
+    {
+      "source": "wikipedia", 
+      "type": "relatedmaterial", 
+      "subnotes": [
+        {
+          "content": [
+            "ad non nisi sint ullamco laboris", 
+            "ex nostrud eu sint dolor non", 
+            "quis ex officia culpa Lorem dolor", 
+            "commodo commodo enim cillum sit ut"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "aliqua non commodo officia excepteur magna", 
+            "cillum veniam ea adipisicing non magna", 
+            "nisi quis pariatur non sunt commodo", 
+            "amet reprehenderit do dolore pariatur magna", 
+            "labore labore sint velit ullamco labore"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "elit culpa ut mollit ex voluptate", 
+            "et cupidatat est exercitation nulla veniam", 
+            "dolor do eu fugiat eu incididunt", 
+            "proident magna aute est consequat ipsum", 
+            "fugiat fugiat in deserunt sint mollit"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "fugiat sint non"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "acquinfo", 
+      "subnotes": [
+        {
+          "content": [
+            "occaecat veniam sint laboris Lorem deserunt", 
+            "qui id adipisicing aliqua consectetur in", 
+            "sit anim velit qui amet velit"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "fugiat irure ex anim proident enim", 
+            "cupidatat magna voluptate ut consequat reprehenderit", 
+            "anim cupidatat consectetur cupidatat est cupidatat"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "irure velit in ea anim sit", 
+            "mollit consequat sunt ea ipsum ad", 
+            "commodo qui laboris elit cupidatat dolore"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "incididunt commodo labore"
+    }
+  ], 
+  "title": "Eu culpa quis laboris velit dolore aliquip voluptate irure.", 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d604aa859d9169edacbd123"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/786"
+    }, 
+    {
+      "ref": "/collections/981"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "spa", 
+      "expression": "English"
+    }
+  ], 
+  "rights_statements": [
+    {
+      "begin": "2019-08-23", 
+      "end": "2019-08-23", 
+      "copyright_status": "unknown", 
+      "notes": [
+        {
+          "source": "wikidata", 
+          "type": "permissions", 
+          "subnotes": [
+            {
+              "content": [
+                "est laborum aliqua et pariatur mollit", 
+                "consequat deserunt eiusmod enim velit in"
+              ], 
+              "type": "orderedlist"
+            }
+          ], 
+          "title": "minim aliquip sunt"
+        }
+      ], 
+      "jurisdiction": "FR", 
+      "other_basis": "dolore", 
+      "rights_granted": [
+        {
+          "restriction": "disallow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [
+            {
+              "source": "cartographer", 
+              "type": "rights_statement_act", 
+              "subnotes": [
+                {
+                  "content": [
+                    "mollit proident cillum amet sint sit"
+                  ], 
+                  "type": "text"
+                }, 
+                {
+                  "content": [
+                    "ipsum voluptate excepteur sint sit duis", 
+                    "ad anim dolore consequat aliquip exercitation", 
+                    "id amet Lorem pariatur esse aliqua", 
+                    "cupidatat commodo ullamco ex in duis"
+                  ], 
+                  "type": "orderedlist"
+                }, 
+                {
+                  "content": [
+                    "nisi minim deserunt laboris veniam id", 
+                    "nisi tempor adipisicing cillum adipisicing consectetur", 
+                    "pariatur commodo excepteur labore consectetur do"
+                  ], 
+                  "type": "definedlist"
+                }
+              ], 
+              "title": "consequat cupidatat laboris"
+            }
+          ], 
+          "act": "migrate"
+        }
+      ], 
+      "rights_status": "copyrighted", 
+      "determination_date": "2019-08-23", 
+      "type": "rights_statement", 
+      "id": "5d604aa8da1b46942725e2e9", 
+      "rights_type": "other"
+    }
+  ], 
+  "agents": [
+    {
+      "ref": "/agents_organization/579", 
+      "type": "organization"
+    }, 
+    {
+      "ref": "/agents_family/349", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents_family/305", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents_organization/898", 
+      "type": "organization"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/53"
+    }, 
+    {
+      "ref": "/terms/266"
+    }, 
+    {
+      "ref": "/terms/270"
+    }, 
+    {
+      "ref": "/terms/286"
+    }, 
+    {
+      "ref": "/terms/259"
+    }
+  ], 
+  "creators": [
+    {
+      "ref": "/agents/family/266", 
+      "type": "family"
+    }
+  ], 
+  "type": "collection", 
+  "id": "5d604aa81b390ba0f258891d"
+}

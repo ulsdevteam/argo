@@ -1,0 +1,137 @@
+{
+  "dates": [
+    {
+      "expression": "Nov 1st, 1929 - Dec 21st, 1993", 
+      "begin": "1929-11-01", 
+      "label": "existence", 
+      "end": "1993-12-21", 
+      "type": "bulk"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/809"
+    }, 
+    {
+      "ref": "/collections/148"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "cassettes", 
+      "value": "4.02"
+    }, 
+    {
+      "type": "volumes", 
+      "value": "1.76"
+    }
+  ], 
+  "level": "otherLevel", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "legalstatus", 
+      "subnotes": [
+        {
+          "content": [
+            "cupidatat ex eiusmod sit in enim", 
+            "non anim eiusmod ex fugiat veniam"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "duis sint culpa sit consequat pariatur", 
+            "sunt labore quis nostrud amet veniam", 
+            "nisi esse nisi sint reprehenderit excepteur", 
+            "esse aute cillum mollit labore id", 
+            "aliqua do consectetur nisi ullamco reprehenderit"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "commodo qui deserunt magna ullamco adipisicing", 
+            "minim occaecat eiusmod laborum Lorem pariatur", 
+            "dolore officia consectetur fugiat adipisicing ea"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "consequat tempor deserunt"
+    }
+  ], 
+  "title": "Cupidatat eiusmod cupidatat cupidatat nisi irure fugiat anim eiusmod duis aliqua et magna.", 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d604aa8504bfe75e4b16c73"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/780"
+    }, 
+    {
+      "ref": "/collections/31"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "eng", 
+      "expression": "English"
+    }, 
+    {
+      "identifier": "epo", 
+      "expression": "English"
+    }, 
+    {
+      "identifier": "spa", 
+      "expression": "Esperanto"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_software/822", 
+      "type": "software"
+    }, 
+    {
+      "ref": "/agents_organization/656", 
+      "type": "organization"
+    }, 
+    {
+      "ref": "/agents_organization/964", 
+      "type": "organization"
+    }, 
+    {
+      "ref": "/agents_organization/3", 
+      "type": "organization"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/848"
+    }, 
+    {
+      "ref": "/terms/654"
+    }, 
+    {
+      "ref": "/terms/359"
+    }, 
+    {
+      "ref": "/terms/162"
+    }, 
+    {
+      "ref": "/terms/212"
+    }
+  ], 
+  "creators": [
+    {
+      "ref": "/agents/family/344", 
+      "type": "family"
+    }
+  ], 
+  "type": "collection", 
+  "id": "5d604aa86ea6d7cfbe8c72ac"
+}

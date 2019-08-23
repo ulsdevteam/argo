@@ -1,0 +1,181 @@
+{
+  "dates": [
+    {
+      "expression": "Oct 5th, 1926 - Jun 5th, 1960", 
+      "begin": "1926-10-05", 
+      "label": "copyright", 
+      "end": "1960-06-05", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Sep 29th, 1921 - Apr 17th, 2019", 
+      "begin": "1921-09-29", 
+      "label": "other", 
+      "end": "2019-04-17", 
+      "type": "single"
+    }
+  ], 
+  "ancestors": [], 
+  "extents": [
+    {
+      "type": "sheets", 
+      "value": "2.43"
+    }
+  ], 
+  "title": "Velit elit sunt nostrud irure irure velit eu qui elit consectetur reprehenderit veniam.", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "type_note", 
+      "subnotes": [
+        {
+          "content": [
+            "enim consequat occaecat occaecat excepteur duis", 
+            "esse est nisi labore veniam id", 
+            "amet fugiat cupidatat tempor occaecat qui", 
+            "minim eiusmod enim consequat qui cupidatat", 
+            "ex est eu exercitation id mollit"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "consequat amet ex irure Lorem culpa"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "minim elit veniam"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "userestrict", 
+      "subnotes": [
+        {
+          "content": [
+            "cupidatat magna minim adipisicing in laborum"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "id voluptate aliquip ea sit tempor", 
+            "sint reprehenderit id mollit officia do", 
+            "minim ut aliquip adipisicing non elit", 
+            "occaecat non deserunt labore in qui", 
+            "adipisicing esse elit Lorem officia minim"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "incididunt duis sit ullamco eu commodo", 
+            "dolor aute nulla adipisicing sunt fugiat"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "in aliqua amet"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "arrangement", 
+      "subnotes": [
+        {
+          "content": [
+            "pariatur culpa ut ullamco sunt eiusmod", 
+            "cupidatat reprehenderit enim nulla et occaecat", 
+            "excepteur dolore cillum minim nulla esse", 
+            "sint nulla aute consectetur consequat aute", 
+            "occaecat velit voluptate et incididunt dolor"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "do adipisicing laborum proident esse eu", 
+            "nulla ipsum mollit occaecat ut ad"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "officia minim Lorem"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "phystech", 
+      "subnotes": [
+        {
+          "content": [
+            "dolor est eiusmod qui ea culpa", 
+            "laborum enim consectetur ea nulla occaecat", 
+            "occaecat veniam aliqua quis fugiat qui"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "tempor consequat in"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d604ab8d7540c94dd89445c"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "epo", 
+      "expression": "English"
+    }
+  ], 
+  "rights_statements": [
+    {
+      "begin": "2019-08-23", 
+      "end": "2019-08-23", 
+      "copyright_status": "copyrighted", 
+      "notes": [], 
+      "jurisdiction": "US", 
+      "other_basis": "voluptate", 
+      "rights_granted": [
+        {
+          "restriction": "allow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [], 
+          "act": "delete"
+        }
+      ], 
+      "rights_status": "public domain", 
+      "determination_date": "2019-08-23", 
+      "type": "rights_statement", 
+      "id": "5d604ab8980b428a20f450b0", 
+      "rights_type": "copyright"
+    }
+  ], 
+  "agents": [
+    {
+      "ref": "/agents_software/919", 
+      "type": "software"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/185"
+    }, 
+    {
+      "ref": "/terms/593"
+    }, 
+    {
+      "ref": "/terms/291"
+    }, 
+    {
+      "ref": "/terms/4"
+    }, 
+    {
+      "ref": "/terms/84"
+    }
+  ], 
+  "type": "object", 
+  "id": "5d604ab841b8ecc391bffbe6"
+}

@@ -1,0 +1,195 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 15th, 1936 - Apr 20th, 2014", 
+      "begin": "1936-08-15", 
+      "label": "record_keeping", 
+      "end": "2014-04-20", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Dec 3rd, 1935 - Jan 24th, 2017", 
+      "begin": "1935-12-03", 
+      "label": "other", 
+      "end": "2017-01-24", 
+      "type": "bulk"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/432"
+    }, 
+    {
+      "ref": "/collections/313"
+    }, 
+    {
+      "ref": "/collections/963"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "microform reels", 
+      "value": "3.81"
+    }
+  ], 
+  "level": "subseries", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "otherfindaid", 
+      "subnotes": [
+        {
+          "content": [
+            "nisi laborum nulla veniam dolore excepteur", 
+            "irure mollit anim ex occaecat deserunt"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "deserunt magna ut ad fugiat cillum", 
+            "anim sint laborum sit commodo cupidatat", 
+            "nisi irure mollit ipsum in occaecat", 
+            "fugiat occaecat minim cupidatat consequat adipisicing", 
+            "cillum ipsum ad adipisicing nostrud ea"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "adipisicing exercitation velit aute ea voluptate", 
+            "magna voluptate ad magna Lorem adipisicing"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "consequat deserunt occaecat"
+    }
+  ], 
+  "title": "Ex nisi irure cillum deserunt enim nulla adipisicing est voluptate.", 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d604aa81b73a42ee4d20209"
+    }, 
+    {
+      "source": "wikidata", 
+      "identifier": "5d604aa82496e45bb460a7a3"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/695"
+    }, 
+    {
+      "ref": "/collections/412"
+    }, 
+    {
+      "ref": "/collections/354"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "spa", 
+      "expression": "English"
+    }, 
+    {
+      "identifier": "epo", 
+      "expression": "Spanish"
+    }, 
+    {
+      "identifier": "spa", 
+      "expression": "Esperanto"
+    }
+  ], 
+  "rights_statements": [
+    {
+      "begin": "2019-08-23", 
+      "end": "2019-08-23", 
+      "copyright_status": "public domain", 
+      "notes": [], 
+      "jurisdiction": "CN", 
+      "other_basis": "ea", 
+      "rights_granted": [
+        {
+          "restriction": "disallow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [], 
+          "act": "disseminate"
+        }, 
+        {
+          "restriction": "allow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [
+            {
+              "source": "wikidata", 
+              "type": "extension", 
+              "subnotes": [
+                {
+                  "content": [
+                    "deserunt cupidatat elit reprehenderit aliquip non"
+                  ], 
+                  "type": "definedlist"
+                }
+              ], 
+              "title": "consectetur occaecat amet"
+            }
+          ], 
+          "act": "migrate"
+        }
+      ], 
+      "rights_status": "public domain", 
+      "determination_date": "2019-08-23", 
+      "type": "rights_statement", 
+      "id": "5d604aa8c9dd0f64d08a6acc", 
+      "rights_type": "other"
+    }
+  ], 
+  "agents": [
+    {
+      "ref": "/agents_person/859", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents_organization/488", 
+      "type": "organization"
+    }, 
+    {
+      "ref": "/agents_person/292", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents_person/813", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents_person/202", 
+      "type": "person"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/495"
+    }, 
+    {
+      "ref": "/terms/919"
+    }, 
+    {
+      "ref": "/terms/465"
+    }
+  ], 
+  "creators": [
+    {
+      "ref": "/agents/family/356", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents/person/409", 
+      "type": "person"
+    }
+  ], 
+  "type": "collection", 
+  "id": "5d604aa8d8b8f0591e687f57"
+}

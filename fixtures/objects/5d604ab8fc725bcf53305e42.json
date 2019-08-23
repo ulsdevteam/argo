@@ -1,0 +1,61 @@
+{
+  "dates": [
+    {
+      "expression": "Dec 19th, 1914 - Jul 31st, 1987", 
+      "begin": "1914-12-19", 
+      "label": "copyright", 
+      "end": "1987-07-31", 
+      "type": "bulk"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/517"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "box(es)", 
+      "value": "3.93"
+    }, 
+    {
+      "type": "record cartons", 
+      "value": "2.03"
+    }
+  ], 
+  "title": "Do aute irure elit deserunt dolor duis officia fugiat nisi fugiat.", 
+  "notes": [], 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d604ab8ab7607c56ecf7099"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "eng", 
+      "expression": "Esperanto"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [], 
+  "terms": [
+    {
+      "ref": "/terms/354"
+    }, 
+    {
+      "ref": "/terms/584"
+    }, 
+    {
+      "ref": "/terms/628"
+    }, 
+    {
+      "ref": "/terms/137"
+    }, 
+    {
+      "ref": "/terms/91"
+    }
+  ], 
+  "type": "object", 
+  "id": "5d604ab8fc725bcf53305e42"
+}

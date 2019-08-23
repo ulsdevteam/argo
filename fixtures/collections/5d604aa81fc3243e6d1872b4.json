@@ -1,0 +1,229 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 5th, 1918 - May 12th, 1977", 
+      "begin": "1918-08-05", 
+      "label": "existence", 
+      "end": "1977-05-12", 
+      "type": "single"
+    }, 
+    {
+      "expression": "Sep 18th, 1938 - Jun 21st, 1981", 
+      "begin": "1938-09-18", 
+      "label": "copyright", 
+      "end": "1981-06-21", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Oct 21st, 1955 - Oct 16th, 2013", 
+      "begin": "1955-10-21", 
+      "label": "publication", 
+      "end": "2013-10-16", 
+      "type": "inclusive"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/87"
+    }, 
+    {
+      "ref": "/collections/747"
+    }, 
+    {
+      "ref": "/collections/574"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "gigabytes", 
+      "value": "4.43"
+    }, 
+    {
+      "type": "microform reels", 
+      "value": "1.29"
+    }
+  ], 
+  "level": "otherLevel", 
+  "notes": [
+    {
+      "source": "cartographer", 
+      "type": "accruals", 
+      "subnotes": [
+        {
+          "content": [
+            "dolor minim magna esse minim culpa", 
+            "mollit elit officia magna commodo excepteur", 
+            "qui qui proident reprehenderit pariatur sunt", 
+            "nostrud anim elit sunt velit duis"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "officia magna cupidatat qui nulla ut", 
+            "tempor nisi elit et amet ea", 
+            "deserunt aute laborum Lorem qui magna"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "adipisicing ipsum id tempor ad est", 
+            "non reprehenderit in sunt adipisicing cillum", 
+            "voluptate culpa id aliqua proident officia"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "officia tempor consectetur"
+    }, 
+    {
+      "source": "cartographer", 
+      "type": "bibliography", 
+      "subnotes": [
+        {
+          "content": [
+            "et proident do voluptate proident nisi", 
+            "minim sunt deserunt sint Lorem excepteur", 
+            "fugiat commodo sit aute culpa officia", 
+            "elit incididunt quis pariatur ad duis"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "officia eu enim"
+    }, 
+    {
+      "source": "cartographer", 
+      "type": "rights_statement", 
+      "subnotes": [
+        {
+          "content": [
+            "Lorem Lorem ea est ea sint"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "non aliquip labore"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "odd", 
+      "subnotes": [
+        {
+          "content": [
+            "duis ipsum magna in proident enim", 
+            "dolor aliqua ut esse aute officia"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "aliqua consequat mollit ea et qui", 
+            "et ex eiusmod Lorem duis est", 
+            "exercitation consequat est voluptate nulla culpa"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "nulla nulla aliquip amet laborum aliqua"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "ea Lorem esse"
+    }
+  ], 
+  "title": "In mollit velit ad minim duis sunt esse irure ex nisi cupidatat irure dolor.", 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d604aa83878d1151a1526d0"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/930"
+    }, 
+    {
+      "ref": "/collections/89"
+    }, 
+    {
+      "ref": "/collections/206"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "epo", 
+      "expression": "Spanish"
+    }, 
+    {
+      "identifier": "eng", 
+      "expression": "Spanish"
+    }
+  ], 
+  "rights_statements": [
+    {
+      "begin": "2019-08-23", 
+      "end": "2019-08-23", 
+      "copyright_status": "unknown", 
+      "notes": [], 
+      "jurisdiction": "FR", 
+      "other_basis": "nulla", 
+      "rights_granted": [
+        {
+          "restriction": "allow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [
+            {
+              "source": "cartographer", 
+              "type": "type_note", 
+              "subnotes": [
+                {
+                  "content": [
+                    "consectetur in mollit dolor eiusmod aute", 
+                    "quis officia eu irure culpa minim", 
+                    "consectetur labore ad eu in occaecat", 
+                    "nulla dolor id velit consequat do", 
+                    "ex amet quis ex et sunt"
+                  ], 
+                  "type": "orderedlist"
+                }
+              ], 
+              "title": "in fugiat ex"
+            }
+          ], 
+          "act": "migrate"
+        }, 
+        {
+          "restriction": "disallow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [], 
+          "act": "disseminate"
+        }
+      ], 
+      "rights_status": "copyrighted", 
+      "determination_date": "2019-08-23", 
+      "type": "rights_statement", 
+      "id": "5d604aa8456a62ca3097e6bf", 
+      "rights_type": "other"
+    }
+  ], 
+  "agents": [], 
+  "terms": [], 
+  "creators": [
+    {
+      "ref": "/agents/family/167", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents/organization/645", 
+      "type": "organization"
+    }
+  ], 
+  "type": "collection", 
+  "id": "5d604aa81fc3243e6d1872b4"
+}

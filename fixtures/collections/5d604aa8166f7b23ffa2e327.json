@@ -1,0 +1,200 @@
+{
+  "dates": [
+    {
+      "expression": "Feb 16th, 1934 - Mar 29th, 1998", 
+      "begin": "1934-02-16", 
+      "label": "creation", 
+      "end": "1998-03-29", 
+      "type": "bulk"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/870"
+    }, 
+    {
+      "ref": "/collections/848"
+    }, 
+    {
+      "ref": "/collections/431"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "megabytes", 
+      "value": "1.69"
+    }
+  ], 
+  "level": "collection", 
+  "notes": [
+    {
+      "source": "wikidata", 
+      "type": "acquinfo", 
+      "subnotes": [
+        {
+          "content": [
+            "qui eu dolor aliqua magna commodo"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "tempor consequat labore"
+    }, 
+    {
+      "source": "wikipedia", 
+      "type": "summary", 
+      "subnotes": [
+        {
+          "content": [
+            "adipisicing excepteur quis ex pariatur velit", 
+            "fugiat do excepteur aliqua Lorem ullamco"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "sunt officia non aliqua sit exercitation", 
+            "veniam elit culpa ullamco esse est", 
+            "magna culpa id id occaecat non", 
+            "eiusmod sunt irure enim labore dolore", 
+            "esse nisi deserunt ex esse ullamco"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "reprehenderit quis incididunt"
+    }
+  ], 
+  "title": "Consequat labore labore in non ipsum pariatur voluptate.", 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d604aa816185773f2684b13"
+    }, 
+    {
+      "source": "archivesspace", 
+      "identifier": "5d604aa8607df5c1666c965a"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/301"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "spa", 
+      "expression": "Spanish"
+    }, 
+    {
+      "identifier": "epo", 
+      "expression": "Esperanto"
+    }
+  ], 
+  "rights_statements": [
+    {
+      "begin": "2019-08-23", 
+      "end": "2019-08-23", 
+      "copyright_status": "unknown", 
+      "notes": [
+        {
+          "source": "wikipedia", 
+          "type": "materials", 
+          "subnotes": [
+            {
+              "content": [
+                "veniam dolore nulla nulla mollit laborum", 
+                "adipisicing est do irure sit amet", 
+                "velit commodo cupidatat consequat sint quis", 
+                "labore enim incididunt quis excepteur enim"
+              ], 
+              "type": "text"
+            }
+          ], 
+          "title": "amet quis ex"
+        }
+      ], 
+      "jurisdiction": "CN", 
+      "other_basis": "exercitation", 
+      "rights_granted": [
+        {
+          "restriction": "allow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [
+            {
+              "source": "wikipedia", 
+              "type": "extension", 
+              "subnotes": [
+                {
+                  "content": [
+                    "qui consectetur mollit officia dolore ipsum", 
+                    "elit sint reprehenderit aliquip sit esse", 
+                    "est non deserunt anim laboris qui", 
+                    "ut sint enim occaecat anim commodo", 
+                    "adipisicing exercitation adipisicing voluptate non in"
+                  ], 
+                  "type": "definedlist"
+                }
+              ], 
+              "title": "eu ut enim"
+            }
+          ], 
+          "act": "replicate"
+        }
+      ], 
+      "rights_status": "copyrighted", 
+      "determination_date": "2019-08-23", 
+      "type": "rights_statement", 
+      "id": "5d604aa8459630f636e38d43", 
+      "rights_type": "statute"
+    }
+  ], 
+  "agents": [
+    {
+      "ref": "/agents_person/592", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents_person/936", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents_organization/646", 
+      "type": "organization"
+    }, 
+    {
+      "ref": "/agents_organization/157", 
+      "type": "organization"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/418"
+    }, 
+    {
+      "ref": "/terms/400"
+    }, 
+    {
+      "ref": "/terms/889"
+    }, 
+    {
+      "ref": "/terms/509"
+    }, 
+    {
+      "ref": "/terms/945"
+    }
+  ], 
+  "creators": [
+    {
+      "ref": "/agents/software/777", 
+      "type": "software"
+    }, 
+    {
+      "ref": "/agents/organization/315", 
+      "type": "organization"
+    }
+  ], 
+  "type": "collection", 
+  "id": "5d604aa8166f7b23ffa2e327"
+}

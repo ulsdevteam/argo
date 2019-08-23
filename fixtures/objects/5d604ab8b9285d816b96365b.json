@@ -1,0 +1,135 @@
+{
+  "dates": [
+    {
+      "expression": "Oct 10th, 1920 - Nov 15th, 1994", 
+      "begin": "1920-10-10", 
+      "label": "creation", 
+      "end": "1994-11-15", 
+      "type": "single"
+    }, 
+    {
+      "expression": "Jul 26th, 1914 - Jun 14th, 1960", 
+      "begin": "1914-07-26", 
+      "label": "digitized", 
+      "end": "1960-06-14", 
+      "type": "single"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/975"
+    }, 
+    {
+      "ref": "/collections/294"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "cubic_feet", 
+      "value": "1.85"
+    }
+  ], 
+  "title": "Labore sint Lorem ipsum voluptate consequat eiusmod ex tempor.", 
+  "notes": [], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d604ab8921aab9bd99a57bd"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "eng", 
+      "expression": "Esperanto"
+    }, 
+    {
+      "identifier": "spa", 
+      "expression": "English"
+    }, 
+    {
+      "identifier": "epo", 
+      "expression": "Spanish"
+    }
+  ], 
+  "rights_statements": [
+    {
+      "begin": "2019-08-23", 
+      "end": "2019-08-23", 
+      "copyright_status": "copyrighted", 
+      "notes": [], 
+      "jurisdiction": "FR", 
+      "other_basis": "excepteur", 
+      "rights_granted": [
+        {
+          "restriction": "disallow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [
+            {
+              "source": "wikipedia", 
+              "type": "additional_information", 
+              "subnotes": [
+                {
+                  "content": [
+                    "excepteur voluptate excepteur excepteur magna ad", 
+                    "culpa irure exercitation enim exercitation adipisicing", 
+                    "laborum laborum tempor fugiat Lorem qui", 
+                    "est dolore culpa tempor consectetur qui", 
+                    "pariatur consequat incididunt enim aute reprehenderit"
+                  ], 
+                  "type": "text"
+                }, 
+                {
+                  "content": [
+                    "ullamco ullamco excepteur excepteur Lorem eu", 
+                    "nostrud velit velit dolor enim quis", 
+                    "elit Lorem occaecat consectetur nisi nisi", 
+                    "fugiat velit dolor excepteur consectetur labore", 
+                    "commodo occaecat irure amet quis officia"
+                  ], 
+                  "type": "orderedlist"
+                }
+              ], 
+              "title": "elit enim ullamco"
+            }
+          ], 
+          "act": "migrate"
+        }
+      ], 
+      "rights_status": "unknown", 
+      "determination_date": "2019-08-23", 
+      "type": "rights_statement", 
+      "id": "5d604ab8132cdb38d71dd5cb", 
+      "rights_type": "statute"
+    }
+  ], 
+  "agents": [
+    {
+      "ref": "/agents_software/124", 
+      "type": "software"
+    }, 
+    {
+      "ref": "/agents_organization/850", 
+      "type": "organization"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/812"
+    }, 
+    {
+      "ref": "/terms/19"
+    }, 
+    {
+      "ref": "/terms/645"
+    }, 
+    {
+      "ref": "/terms/72"
+    }, 
+    {
+      "ref": "/terms/970"
+    }
+  ], 
+  "type": "object", 
+  "id": "5d604ab8b9285d816b96365b"
+}

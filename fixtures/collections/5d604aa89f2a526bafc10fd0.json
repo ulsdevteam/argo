@@ -1,0 +1,167 @@
+{
+  "dates": [
+    {
+      "expression": "Oct 20th, 1956 - Jul 17th, 1967", 
+      "begin": "1956-10-20", 
+      "label": "record_keeping", 
+      "end": "1967-07-17", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "May 6th, 1943 - Jan 19th, 2015", 
+      "begin": "1943-05-06", 
+      "label": "existence", 
+      "end": "2015-01-19", 
+      "type": "single"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/557"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "reels", 
+      "value": "3.67"
+    }, 
+    {
+      "type": "volumes", 
+      "value": "1.81"
+    }
+  ], 
+  "level": "recordgrp", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "extent", 
+      "subnotes": [
+        {
+          "content": [
+            "voluptate aliqua exercitation laboris cillum magna", 
+            "enim Lorem est Lorem tempor quis", 
+            "fugiat voluptate minim amet sit commodo", 
+            "ea et cupidatat Lorem commodo tempor"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "ullamco eu pariatur duis tempor in", 
+            "aute cillum ex cillum sint anim", 
+            "ipsum dolore anim labore eu eu"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "dolor veniam est nostrud enim aute", 
+            "Lorem nulla mollit culpa labore sit"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "aute sit fugiat"
+    }, 
+    {
+      "source": "cartographer", 
+      "type": "note", 
+      "subnotes": [
+        {
+          "content": [
+            "voluptate occaecat dolore ipsum eu nostrud", 
+            "non ut magna Lorem dolore aute", 
+            "id in qui laborum qui laborum", 
+            "ad irure deserunt incididunt Lorem elit"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "quis incididunt dolor labore nulla non", 
+            "occaecat elit ad occaecat aliquip duis", 
+            "deserunt aliquip nulla esse laborum nisi"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "cillum magna labore fugiat reprehenderit minim", 
+            "sunt veniam reprehenderit proident consequat occaecat"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "tempor mollit et"
+    }
+  ], 
+  "title": "Nostrud nostrud velit id consectetur cillum elit magna laboris in do.", 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d604aa8e6e0bbffb1f722c9"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/189"
+    }, 
+    {
+      "ref": "/collections/540"
+    }, 
+    {
+      "ref": "/collections/880"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "epo", 
+      "expression": "English"
+    }, 
+    {
+      "identifier": "epo", 
+      "expression": "Spanish"
+    }, 
+    {
+      "identifier": "spa", 
+      "expression": "Spanish"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_person/908", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents_person/881", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents_person/141", 
+      "type": "person"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/255"
+    }, 
+    {
+      "ref": "/terms/554"
+    }, 
+    {
+      "ref": "/terms/42"
+    }, 
+    {
+      "ref": "/terms/559"
+    }
+  ], 
+  "creators": [
+    {
+      "ref": "/agents/software/643", 
+      "type": "software"
+    }
+  ], 
+  "type": "collection", 
+  "id": "5d604aa89f2a526bafc10fd0"
+}

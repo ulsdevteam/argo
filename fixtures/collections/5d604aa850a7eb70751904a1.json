@@ -1,0 +1,185 @@
+{
+  "dates": [
+    {
+      "expression": "Feb 26th, 1942 - Jun 1st, 1968", 
+      "begin": "1942-02-26", 
+      "label": "event", 
+      "end": "1968-06-01", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Jun 13th, 1919 - May 1st, 2001", 
+      "begin": "1919-06-13", 
+      "label": "existence", 
+      "end": "2001-05-01", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Aug 18th, 1932 - May 6th, 1983", 
+      "begin": "1932-08-18", 
+      "label": "deaccession", 
+      "end": "1983-05-06", 
+      "type": "bulk"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/673"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "cassettes", 
+      "value": "1.93"
+    }
+  ], 
+  "level": "series", 
+  "notes": [
+    {
+      "source": "wikidata", 
+      "type": "odd", 
+      "subnotes": [
+        {
+          "content": [
+            "minim anim aliquip velit occaecat amet", 
+            "ullamco ut enim non reprehenderit excepteur", 
+            "quis aliqua reprehenderit in sunt in"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "labore deserunt mollit pariatur sunt nostrud", 
+            "non dolore mollit dolor esse commodo", 
+            "sit sit labore mollit ipsum veniam"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "ea aliquip fugiat est reprehenderit mollit"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "tempor elit magna"
+    }, 
+    {
+      "source": "cartographer", 
+      "type": "originalsloc", 
+      "subnotes": [
+        {
+          "content": [
+            "Lorem est dolore mollit nostrud sunt", 
+            "voluptate commodo pariatur in deserunt dolor"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "ipsum amet Lorem pariatur sint laboris"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "magna fugiat irure"
+    }, 
+    {
+      "source": "wikipedia", 
+      "type": "summary", 
+      "subnotes": [
+        {
+          "content": [
+            "Lorem laborum officia ullamco aute labore", 
+            "duis commodo mollit eu laborum voluptate", 
+            "nisi ullamco dolore velit esse nostrud"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "sunt in labore"
+    }, 
+    {
+      "source": "cartographer", 
+      "type": "note", 
+      "subnotes": [
+        {
+          "content": [
+            "reprehenderit cillum eiusmod qui labore commodo", 
+            "dolor ad nostrud voluptate eiusmod laboris", 
+            "veniam Lorem pariatur mollit exercitation magna", 
+            "mollit laboris voluptate labore officia sint"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "aliqua magna ullamco"
+    }
+  ], 
+  "title": "Eu exercitation nulla dolor sint anim.", 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d604aa8ffb0f42e0ed95c69"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/75"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "spa", 
+      "expression": "Spanish"
+    }, 
+    {
+      "identifier": "epo", 
+      "expression": "Esperanto"
+    }, 
+    {
+      "identifier": "eng", 
+      "expression": "Spanish"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_organization/806", 
+      "type": "organization"
+    }, 
+    {
+      "ref": "/agents_organization/441", 
+      "type": "organization"
+    }, 
+    {
+      "ref": "/agents_person/927", 
+      "type": "person"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/868"
+    }, 
+    {
+      "ref": "/terms/415"
+    }, 
+    {
+      "ref": "/terms/669"
+    }, 
+    {
+      "ref": "/terms/71"
+    }, 
+    {
+      "ref": "/terms/330"
+    }
+  ], 
+  "creators": [
+    {
+      "ref": "/agents/software/114", 
+      "type": "software"
+    }
+  ], 
+  "type": "collection", 
+  "id": "5d604aa850a7eb70751904a1"
+}

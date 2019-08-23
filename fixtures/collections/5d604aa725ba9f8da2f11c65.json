@@ -1,0 +1,131 @@
+{
+  "dates": [
+    {
+      "expression": "Oct 29th, 1934 - May 6th, 1986", 
+      "begin": "1934-10-29", 
+      "label": "modified", 
+      "end": "1986-05-06", 
+      "type": "single"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/657"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "files", 
+      "value": "4.91"
+    }
+  ], 
+  "level": "subgrp", 
+  "notes": [
+    {
+      "source": "cartographer", 
+      "type": "accessrestrict", 
+      "subnotes": [
+        {
+          "content": [
+            "minim aliqua dolore magna ullamco sint", 
+            "esse consequat aliqua nulla elit consectetur"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "et commodo reprehenderit aliquip tempor laboris", 
+            "sunt velit Lorem commodo consectetur mollit", 
+            "ex eiusmod non eiusmod ea anim"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "deserunt exercitation commodo nostrud qui nostrud"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "adipisicing est labore"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "acquinfo", 
+      "subnotes": [
+        {
+          "content": [
+            "proident consequat in aliqua sint eu", 
+            "in commodo Lorem id amet dolore", 
+            "exercitation commodo ut Lorem ullamco eu", 
+            "sit nostrud nostrud quis exercitation cupidatat", 
+            "nisi ex nisi nulla dolor qui"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "aute excepteur id ex officia nostrud", 
+            "minim sint aliquip cillum consequat sunt", 
+            "cupidatat anim proident laborum incididunt magna", 
+            "magna aliqua adipisicing aliquip ex culpa"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "laboris nulla laborum"
+    }
+  ], 
+  "title": "Deserunt fugiat nulla Lorem consequat incididunt mollit labore do officia excepteur.", 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d604aa87276734c78c40e21"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/160"
+    }, 
+    {
+      "ref": "/collections/578"
+    }, 
+    {
+      "ref": "/collections/143"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "eng", 
+      "expression": "English"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_organization/516", 
+      "type": "organization"
+    }, 
+    {
+      "ref": "/agents_person/545", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents_organization/118", 
+      "type": "organization"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/577"
+    }
+  ], 
+  "creators": [
+    {
+      "ref": "/agents/organization/387", 
+      "type": "organization"
+    }
+  ], 
+  "type": "collection", 
+  "id": "5d604aa725ba9f8da2f11c65"
+}

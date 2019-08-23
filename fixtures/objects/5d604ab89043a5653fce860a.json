@@ -1,0 +1,266 @@
+{
+  "dates": [
+    {
+      "expression": "Oct 26th, 1926 - May 31st, 2011", 
+      "begin": "1926-10-26", 
+      "label": "digitized", 
+      "end": "2011-05-31", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Jul 6th, 1943 - Oct 25th, 2009", 
+      "begin": "1943-07-06", 
+      "label": "broadcast", 
+      "end": "2009-10-25", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "May 12th, 1918 - Jul 1st, 1998", 
+      "begin": "1918-05-12", 
+      "label": "issued", 
+      "end": "1998-07-01", 
+      "type": "inclusive"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/262"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "box(es)", 
+      "value": "3.84"
+    }, 
+    {
+      "type": "reels", 
+      "value": "4.21"
+    }
+  ], 
+  "title": "Ex ullamco ea qui reprehenderit consectetur cillum id adipisicing pariatur velit adipisicing proident irure.", 
+  "notes": [
+    {
+      "source": "wikidata", 
+      "type": "restrictions", 
+      "subnotes": [
+        {
+          "content": [
+            "id enim commodo ea adipisicing minim", 
+            "veniam pariatur minim eiusmod nisi ipsum", 
+            "ut mollit cillum quis ullamco minim"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "duis aliqua eiusmod Lorem nostrud velit", 
+            "veniam reprehenderit consectetur non non sit", 
+            "aute aliquip in aute veniam do", 
+            "ut cupidatat incididunt reprehenderit consectetur proident"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "laboris velit tempor"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "legalstatus", 
+      "subnotes": [
+        {
+          "content": [
+            "magna veniam sit fugiat dolore cupidatat", 
+            "adipisicing qui anim ad qui officia", 
+            "laborum veniam consequat dolore magna eu"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "dolore esse ut proident quis sit", 
+            "tempor excepteur exercitation eiusmod fugiat consequat"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "mollit non officia"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "legalstatus", 
+      "subnotes": [
+        {
+          "content": [
+            "dolor id incididunt dolore amet cillum", 
+            "est adipisicing consectetur nostrud sit do", 
+            "magna sunt sint officia est mollit", 
+            "sint nostrud est irure et sit", 
+            "laboris ea consequat non commodo magna"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "laboris dolor dolore elit magna eu", 
+            "adipisicing qui qui non nulla id", 
+            "aute ad tempor reprehenderit ut ipsum", 
+            "labore elit aute voluptate mollit aliquip"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "officia sint dolore"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "note", 
+      "subnotes": [
+        {
+          "content": [
+            "aliqua magna ut commodo cillum dolor"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "fugiat voluptate eiusmod adipisicing nulla incididunt", 
+            "quis duis amet sint minim non", 
+            "velit ex ullamco duis deserunt aute", 
+            "enim officia qui laborum do qui", 
+            "tempor aute veniam laboris reprehenderit ea"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "culpa mollit exercitation id Lorem cillum", 
+            "velit enim anim eu quis fugiat", 
+            "irure tempor deserunt culpa enim eiusmod", 
+            "enim proident in commodo Lorem pariatur", 
+            "culpa sit pariatur aute incididunt exercitation"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "ullamco est dolore"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d604ab802c6c217397b8437"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "epo", 
+      "expression": "English"
+    }, 
+    {
+      "identifier": "spa", 
+      "expression": "Esperanto"
+    }
+  ], 
+  "rights_statements": [
+    {
+      "begin": "2019-08-23", 
+      "end": "2019-08-23", 
+      "copyright_status": "unknown", 
+      "notes": [
+        {
+          "source": "wikipedia", 
+          "type": "extension", 
+          "subnotes": [
+            {
+              "content": [
+                "qui proident elit irure do labore", 
+                "in voluptate officia sit nostrud nostrud", 
+                "id excepteur non et culpa anim", 
+                "quis sunt officia enim mollit deserunt"
+              ], 
+              "type": "orderedlist"
+            }
+          ], 
+          "title": "occaecat elit proident"
+        }
+      ], 
+      "jurisdiction": "FR", 
+      "other_basis": "incididunt", 
+      "rights_granted": [
+        {
+          "restriction": "allow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [], 
+          "act": "delete"
+        }, 
+        {
+          "restriction": "allow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [], 
+          "act": "delete"
+        }
+      ], 
+      "rights_status": "copyrighted", 
+      "determination_date": "2019-08-23", 
+      "type": "rights_statement", 
+      "id": "5d604ab81437bf81c9ac6aad", 
+      "rights_type": "copyright"
+    }, 
+    {
+      "begin": "2019-08-23", 
+      "end": "2019-08-23", 
+      "copyright_status": "unknown", 
+      "notes": [], 
+      "jurisdiction": "CN", 
+      "other_basis": "ut", 
+      "rights_granted": [
+        {
+          "restriction": "allow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [], 
+          "act": "use"
+        }, 
+        {
+          "restriction": "disallow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [], 
+          "act": "migrate"
+        }
+      ], 
+      "rights_status": "unknown", 
+      "determination_date": "2019-08-23", 
+      "type": "rights_statement", 
+      "id": "5d604ab84434021f012238c6", 
+      "rights_type": "statute"
+    }
+  ], 
+  "agents": [
+    {
+      "ref": "/agents_organization/528", 
+      "type": "organization"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/803"
+    }, 
+    {
+      "ref": "/terms/62"
+    }, 
+    {
+      "ref": "/terms/129"
+    }, 
+    {
+      "ref": "/terms/481"
+    }, 
+    {
+      "ref": "/terms/541"
+    }
+  ], 
+  "type": "object", 
+  "id": "5d604ab89043a5653fce860a"
+}

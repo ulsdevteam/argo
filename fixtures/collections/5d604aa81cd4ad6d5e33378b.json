@@ -1,0 +1,226 @@
+{
+  "dates": [
+    {
+      "expression": "Nov 8th, 1949 - Apr 10th, 1976", 
+      "begin": "1949-11-08", 
+      "label": "record_keeping", 
+      "end": "1976-04-10", 
+      "type": "bulk"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/931"
+    }, 
+    {
+      "ref": "/collections/477"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "megabytes", 
+      "value": "2.29"
+    }, 
+    {
+      "type": "gigabytes", 
+      "value": "4.58"
+    }
+  ], 
+  "level": "subgrp", 
+  "notes": [
+    {
+      "source": "cartographer", 
+      "type": "type_note", 
+      "subnotes": [
+        {
+          "content": [
+            "tempor voluptate eiusmod sint reprehenderit reprehenderit"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "sit do incididunt sunt incididunt aliqua"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "aute ipsum velit"
+    }
+  ], 
+  "title": "Labore cupidatat elit laboris eiusmod consectetur veniam nostrud eu elit.", 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d604aa89f4bcea8fcb0b0db"
+    }, 
+    {
+      "source": "wikipedia", 
+      "identifier": "5d604aa89b1bb8d314e95753"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/309"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "spa", 
+      "expression": "Esperanto"
+    }
+  ], 
+  "rights_statements": [
+    {
+      "begin": "2019-08-23", 
+      "end": "2019-08-23", 
+      "copyright_status": "copyrighted", 
+      "notes": [
+        {
+          "source": "cartographer", 
+          "type": "rights_statement", 
+          "subnotes": [
+            {
+              "content": [
+                "esse aliquip culpa reprehenderit qui quis"
+              ], 
+              "type": "text"
+            }
+          ], 
+          "title": "in velit dolor"
+        }
+      ], 
+      "jurisdiction": "FR", 
+      "other_basis": "quis", 
+      "rights_granted": [
+        {
+          "restriction": "allow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [
+            {
+              "source": "wikipedia", 
+              "type": "additional_information", 
+              "subnotes": [
+                {
+                  "content": [
+                    "nisi nulla ipsum occaecat dolore tempor", 
+                    "amet eu sint ut culpa Lorem", 
+                    "adipisicing quis culpa elit est nostrud", 
+                    "enim eiusmod reprehenderit est commodo quis"
+                  ], 
+                  "type": "orderedlist"
+                }, 
+                {
+                  "content": [
+                    "duis eiusmod minim consequat occaecat deserunt", 
+                    "velit est mollit tempor excepteur minim"
+                  ], 
+                  "type": "definedlist"
+                }
+              ], 
+              "title": "aliqua ipsum tempor"
+            }
+          ], 
+          "act": "disseminate"
+        }
+      ], 
+      "rights_status": "unknown", 
+      "determination_date": "2019-08-23", 
+      "type": "rights_statement", 
+      "id": "5d604aa87f149bab96fe7887", 
+      "rights_type": "copyright"
+    }, 
+    {
+      "begin": "2019-08-23", 
+      "end": "2019-08-23", 
+      "copyright_status": "public domain", 
+      "notes": [], 
+      "jurisdiction": "CN", 
+      "other_basis": "incididunt", 
+      "rights_granted": [
+        {
+          "restriction": "disallow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [], 
+          "act": "modify"
+        }, 
+        {
+          "restriction": "allow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [
+            {
+              "source": "wikidata", 
+              "type": "rights_statement_act", 
+              "subnotes": [
+                {
+                  "content": [
+                    "commodo sit esse voluptate consequat ullamco", 
+                    "et non cupidatat velit culpa officia"
+                  ], 
+                  "type": "text"
+                }
+              ], 
+              "title": "sint sint qui"
+            }
+          ], 
+          "act": "migrate"
+        }
+      ], 
+      "rights_status": "public domain", 
+      "determination_date": "2019-08-23", 
+      "type": "rights_statement", 
+      "id": "5d604aa807e9939ce97406a6", 
+      "rights_type": "other"
+    }
+  ], 
+  "agents": [
+    {
+      "ref": "/agents_organization/782", 
+      "type": "organization"
+    }, 
+    {
+      "ref": "/agents_person/166", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents_organization/772", 
+      "type": "organization"
+    }, 
+    {
+      "ref": "/agents_person/108", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents_person/574", 
+      "type": "person"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/592"
+    }, 
+    {
+      "ref": "/terms/217"
+    }, 
+    {
+      "ref": "/terms/510"
+    }, 
+    {
+      "ref": "/terms/857"
+    }, 
+    {
+      "ref": "/terms/112"
+    }
+  ], 
+  "creators": [
+    {
+      "ref": "/agents/software/38", 
+      "type": "software"
+    }
+  ], 
+  "type": "collection", 
+  "id": "5d604aa81cd4ad6d5e33378b"
+}

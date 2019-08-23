@@ -1,0 +1,122 @@
+{
+  "dates": [
+    {
+      "expression": "Oct 1st, 1954 - Apr 24th, 1967", 
+      "begin": "1954-10-01", 
+      "label": "modified", 
+      "end": "1967-04-24", 
+      "type": "single"
+    }, 
+    {
+      "expression": "Jan 15th, 1934 - Mar 13th, 1988", 
+      "begin": "1934-01-15", 
+      "label": "broadcast", 
+      "end": "1988-03-13", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Jun 22nd, 1953 - Dec 14th, 1973", 
+      "begin": "1953-06-22", 
+      "label": "publication", 
+      "end": "1973-12-14", 
+      "type": "single"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/895"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "files", 
+      "value": "2.85"
+    }, 
+    {
+      "type": "cassettes", 
+      "value": "2.34"
+    }
+  ], 
+  "title": "Elit irure incididunt commodo reprehenderit do.", 
+  "notes": [
+    {
+      "source": "wikidata", 
+      "type": "custodhist", 
+      "subnotes": [
+        {
+          "content": [
+            "Lorem do amet non magna adipisicing", 
+            "proident qui fugiat nulla nostrud do", 
+            "proident nulla anim enim laborum laboris", 
+            "qui esse esse sint enim qui"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "eiusmod laborum nulla"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "separatedmaterial", 
+      "subnotes": [
+        {
+          "content": [
+            "aliqua et laborum ullamco magna laborum", 
+            "tempor mollit cillum culpa et elit", 
+            "aliquip incididunt ullamco reprehenderit aliqua duis", 
+            "eiusmod et Lorem nisi tempor irure", 
+            "nostrud proident elit fugiat laboris eu"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "cupidatat ad qui"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d604ab8ca415e86afabdce7"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "epo", 
+      "expression": "Esperanto"
+    }, 
+    {
+      "identifier": "spa", 
+      "expression": "English"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_software/605", 
+      "type": "software"
+    }, 
+    {
+      "ref": "/agents_person/432", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents_person/95", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents_person/319", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents_organization/162", 
+      "type": "organization"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/285"
+    }
+  ], 
+  "type": "object", 
+  "id": "5d604ab892928a7c1334146e"
+}

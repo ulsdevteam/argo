@@ -1,0 +1,199 @@
+{
+  "dates": [
+    {
+      "expression": "May 11th, 1956 - Apr 18th, 2017", 
+      "begin": "1956-05-11", 
+      "label": "broadcast", 
+      "end": "2017-04-18", 
+      "type": "bulk"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/542"
+    }, 
+    {
+      "ref": "/collections/789"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "cubic_feet", 
+      "value": "3.15"
+    }
+  ], 
+  "title": "Tempor nulla laboris magna aliquip nisi reprehenderit veniam.", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "permissions", 
+      "subnotes": [
+        {
+          "content": [
+            "sunt non non eu non laboris", 
+            "nulla eu ullamco enim Lorem sit", 
+            "deserunt Lorem culpa esse voluptate tempor"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "et culpa veniam culpa ad qui", 
+            "excepteur nisi exercitation quis tempor fugiat", 
+            "ex non tempor irure labore proident", 
+            "enim anim qui nulla et sint", 
+            "irure aliqua labore Lorem laboris consectetur"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "sunt sunt nisi eu eiusmod qui", 
+            "consectetur adipisicing velit veniam velit et", 
+            "consequat sit pariatur id veniam officia", 
+            "dolor excepteur occaecat labore do fugiat"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "exercitation irure occaecat"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "extension", 
+      "subnotes": [
+        {
+          "content": [
+            "proident aliqua non duis aliquip laboris", 
+            "officia in eu aliquip minim Lorem", 
+            "reprehenderit aliqua adipisicing sit amet ad"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "incididunt non deserunt"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "custodhist", 
+      "subnotes": [
+        {
+          "content": [
+            "labore do cillum consectetur officia nisi", 
+            "dolor excepteur incididunt aute ipsum adipisicing", 
+            "non sunt sunt do aute reprehenderit"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "laboris eiusmod velit fugiat nisi laboris", 
+            "aliquip nostrud et eu excepteur ut", 
+            "aute tempor est labore nulla sint", 
+            "ea laboris officia minim voluptate amet", 
+            "mollit aliquip tempor ipsum laboris eiusmod"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "et qui minim commodo occaecat voluptate"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "irure voluptate deserunt"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d604ab8ed62de4d21936f58"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "spa", 
+      "expression": "English"
+    }
+  ], 
+  "rights_statements": [
+    {
+      "begin": "2019-08-23", 
+      "end": "2019-08-23", 
+      "copyright_status": "unknown", 
+      "notes": [], 
+      "jurisdiction": "FR", 
+      "other_basis": "aliqua", 
+      "rights_granted": [
+        {
+          "restriction": "disallow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [], 
+          "act": "migrate"
+        }, 
+        {
+          "restriction": "disallow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [
+            {
+              "source": "wikidata", 
+              "type": "materials", 
+              "subnotes": [
+                {
+                  "content": [
+                    "aute pariatur nisi eu irure deserunt", 
+                    "officia cillum incididunt quis deserunt cillum"
+                  ], 
+                  "type": "orderedlist"
+                }, 
+                {
+                  "content": [
+                    "ipsum pariatur fugiat commodo laboris id", 
+                    "dolore laborum pariatur duis eiusmod consequat", 
+                    "et in aliqua fugiat culpa adipisicing", 
+                    "duis non sit excepteur aliqua non"
+                  ], 
+                  "type": "orderedlist"
+                }, 
+                {
+                  "content": [
+                    "adipisicing in irure exercitation eu Lorem", 
+                    "ad proident eu eiusmod ex enim", 
+                    "incididunt magna laboris incididunt incididunt et"
+                  ], 
+                  "type": "definedlist"
+                }
+              ], 
+              "title": "adipisicing eu eu"
+            }
+          ], 
+          "act": "delete"
+        }
+      ], 
+      "rights_status": "unknown", 
+      "determination_date": "2019-08-23", 
+      "type": "rights_statement", 
+      "id": "5d604ab8d43aa81f605fdeed", 
+      "rights_type": "copyright"
+    }
+  ], 
+  "agents": [
+    {
+      "ref": "/agents_organization/766", 
+      "type": "organization"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/307"
+    }, 
+    {
+      "ref": "/terms/750"
+    }
+  ], 
+  "type": "object", 
+  "id": "5d604ab84d446d00401bdffd"
+}

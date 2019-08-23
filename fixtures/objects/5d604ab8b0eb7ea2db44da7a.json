@@ -1,0 +1,153 @@
+{
+  "dates": [
+    {
+      "expression": "Dec 4th, 1936 - Nov 13th, 2003", 
+      "begin": "1936-12-04", 
+      "label": "creation", 
+      "end": "2003-11-13", 
+      "type": "bulk"
+    }
+  ], 
+  "ancestors": [], 
+  "extents": [
+    {
+      "type": "photographic_prints", 
+      "value": "4.55"
+    }
+  ], 
+  "title": "Commodo Lorem magna pariatur deserunt proident officia laborum dolor nisi minim nisi occaecat anim.", 
+  "notes": [
+    {
+      "source": "cartographer", 
+      "type": "bioghist", 
+      "subnotes": [
+        {
+          "content": [
+            "cillum voluptate et non est consectetur", 
+            "ipsum ipsum ad consectetur aliquip duis", 
+            "culpa Lorem labore sunt consequat nulla"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "occaecat officia fugiat"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d604ab88a6f8c93c8e6c021"
+    }, 
+    {
+      "source": "wikipedia", 
+      "identifier": "5d604ab8c3615b980062ed4d"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "spa", 
+      "expression": "Spanish"
+    }
+  ], 
+  "rights_statements": [
+    {
+      "begin": "2019-08-23", 
+      "end": "2019-08-23", 
+      "copyright_status": "unknown", 
+      "notes": [
+        {
+          "source": "wikipedia", 
+          "type": "type_note", 
+          "subnotes": [
+            {
+              "content": [
+                "veniam laborum nulla consequat eiusmod exercitation", 
+                "ex nostrud consectetur enim mollit ea", 
+                "aute officia velit mollit sunt voluptate", 
+                "culpa qui eiusmod nisi excepteur laboris"
+              ], 
+              "type": "orderedlist"
+            }
+          ], 
+          "title": "occaecat commodo deserunt"
+        }
+      ], 
+      "jurisdiction": "FR", 
+      "other_basis": "exercitation", 
+      "rights_granted": [
+        {
+          "restriction": "disallow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [], 
+          "act": "use"
+        }
+      ], 
+      "rights_status": "public domain", 
+      "determination_date": "2019-08-23", 
+      "type": "rights_statement", 
+      "id": "5d604ab890f9ac8c08e1bfcd", 
+      "rights_type": "other"
+    }, 
+    {
+      "begin": "2019-08-23", 
+      "end": "2019-08-23", 
+      "copyright_status": "copyrighted", 
+      "notes": [
+        {
+          "source": "archivesspace", 
+          "type": "permissions", 
+          "subnotes": [
+            {
+              "content": [
+                "tempor in velit minim Lorem ipsum", 
+                "minim aliquip culpa irure adipisicing pariatur", 
+                "veniam id pariatur dolore ut mollit"
+              ], 
+              "type": "text"
+            }
+          ], 
+          "title": "in irure nisi"
+        }
+      ], 
+      "jurisdiction": "CN", 
+      "other_basis": "proident", 
+      "rights_granted": [
+        {
+          "restriction": "disallow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [], 
+          "act": "disseminate"
+        }
+      ], 
+      "rights_status": "public domain", 
+      "determination_date": "2019-08-23", 
+      "type": "rights_statement", 
+      "id": "5d604ab87b92c4cd2a364951", 
+      "rights_type": "license"
+    }
+  ], 
+  "agents": [
+    {
+      "ref": "/agents_family/170", 
+      "type": "family"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/291"
+    }, 
+    {
+      "ref": "/terms/2"
+    }, 
+    {
+      "ref": "/terms/176"
+    }, 
+    {
+      "ref": "/terms/499"
+    }
+  ], 
+  "type": "object", 
+  "id": "5d604ab8b0eb7ea2db44da7a"
+}

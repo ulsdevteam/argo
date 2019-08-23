@@ -1,0 +1,227 @@
+{
+  "dates": [
+    {
+      "expression": "Feb 20th, 1954 - May 6th, 1995", 
+      "begin": "1954-02-20", 
+      "label": "copyright", 
+      "end": "1995-05-06", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Sep 2nd, 1942 - Nov 23rd, 1996", 
+      "begin": "1942-09-02", 
+      "label": "creation", 
+      "end": "1996-11-23", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Nov 5th, 1950 - Dec 20th, 2000", 
+      "begin": "1950-11-05", 
+      "label": "publication", 
+      "end": "2000-12-20", 
+      "type": "inclusive"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/898"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "photographic_slides", 
+      "value": "4.94"
+    }
+  ], 
+  "level": "subseries", 
+  "notes": [
+    {
+      "source": "wikidata", 
+      "type": "custodhist", 
+      "subnotes": [
+        {
+          "content": [
+            "pariatur irure laboris eu minim velit", 
+            "cupidatat do sint anim adipisicing irure", 
+            "elit sit veniam nulla dolore et", 
+            "et sint ea et reprehenderit amet", 
+            "minim sunt ad amet consequat eu"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "reprehenderit irure laborum consequat magna Lorem", 
+            "exercitation exercitation et in reprehenderit et", 
+            "aliquip esse proident culpa ut tempor", 
+            "nostrud proident fugiat veniam do proident"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "consectetur qui fugiat dolor veniam sint", 
+            "consequat et labore exercitation aliqua cupidatat", 
+            "Lorem duis incididunt exercitation enim proident"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "sunt dolore aliqua"
+    }, 
+    {
+      "source": "wikipedia", 
+      "type": "dimensions", 
+      "subnotes": [
+        {
+          "content": [
+            "tempor proident amet irure non magna"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "dolor voluptate esse aliqua commodo id", 
+            "commodo velit incididunt laborum aliqua sunt", 
+            "consectetur cupidatat sunt ad laborum est", 
+            "anim nisi Lorem elit mollit nostrud"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "velit culpa enim"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "custodhist", 
+      "subnotes": [
+        {
+          "content": [
+            "consequat sint fugiat minim adipisicing incididunt"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "proident veniam do"
+    }, 
+    {
+      "source": "cartographer", 
+      "type": "custodhist", 
+      "subnotes": [
+        {
+          "content": [
+            "commodo ex et dolor dolor ea", 
+            "fugiat qui dolore fugiat incididunt sint", 
+            "cillum cupidatat fugiat voluptate excepteur tempor"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "ex quis ex incididunt eiusmod proident", 
+            "qui laborum adipisicing qui officia cillum", 
+            "ut voluptate duis Lorem reprehenderit magna"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "sit deserunt ut laborum proident eu", 
+            "deserunt enim reprehenderit magna occaecat irure", 
+            "tempor consectetur ea est non velit"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "exercitation ex est"
+    }
+  ], 
+  "title": "Esse irure adipisicing ullamco reprehenderit est cillum tempor velit.", 
+  "external_identifiers": [
+    {
+      "source": "wikipedia", 
+      "identifier": "5d604aa8ec1a7e2b565479bc"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/370"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "eng", 
+      "expression": "Esperanto"
+    }, 
+    {
+      "identifier": "spa", 
+      "expression": "Esperanto"
+    }
+  ], 
+  "rights_statements": [
+    {
+      "begin": "2019-08-23", 
+      "end": "2019-08-23", 
+      "copyright_status": "public domain", 
+      "notes": [], 
+      "jurisdiction": "CN", 
+      "other_basis": "commodo", 
+      "rights_granted": [
+        {
+          "restriction": "disallow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [], 
+          "act": "use"
+        }, 
+        {
+          "restriction": "allow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [], 
+          "act": "modify"
+        }
+      ], 
+      "rights_status": "copyrighted", 
+      "determination_date": "2019-08-23", 
+      "type": "rights_statement", 
+      "id": "5d604aa8bc8cc36bf95480a2", 
+      "rights_type": "license"
+    }
+  ], 
+  "agents": [
+    {
+      "ref": "/agents_software/524", 
+      "type": "software"
+    }, 
+    {
+      "ref": "/agents_organization/961", 
+      "type": "organization"
+    }, 
+    {
+      "ref": "/agents_family/623", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents_family/96", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents_person/657", 
+      "type": "person"
+    }
+  ], 
+  "terms": [], 
+  "creators": [
+    {
+      "ref": "/agents/family/561", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents/software/820", 
+      "type": "software"
+    }
+  ], 
+  "type": "collection", 
+  "id": "5d604aa849e1665e763e3db1"
+}

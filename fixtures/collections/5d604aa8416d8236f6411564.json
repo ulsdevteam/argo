@@ -1,0 +1,167 @@
+{
+  "dates": [
+    {
+      "expression": "Jan 7th, 1920 - Aug 22nd, 1995", 
+      "begin": "1920-01-07", 
+      "label": "other", 
+      "end": "1995-08-22", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Jan 31st, 1952 - May 29th, 1962", 
+      "begin": "1952-01-31", 
+      "label": "agent_relation", 
+      "end": "1962-05-29", 
+      "type": "single"
+    }, 
+    {
+      "expression": "Jan 30th, 1941 - Apr 27th, 1973", 
+      "begin": "1941-01-30", 
+      "label": "copyright", 
+      "end": "1973-04-27", 
+      "type": "single"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/634"
+    }, 
+    {
+      "ref": "/collections/221"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "megabytes", 
+      "value": "1.72"
+    }, 
+    {
+      "type": "megabytes", 
+      "value": "2.92"
+    }
+  ], 
+  "level": "series", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "odd", 
+      "subnotes": [
+        {
+          "content": [
+            "deserunt cillum ad amet ipsum deserunt", 
+            "fugiat commodo deserunt esse dolore qui"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "non voluptate aliquip"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "phystech", 
+      "subnotes": [
+        {
+          "content": [
+            "incididunt proident in ut et velit", 
+            "non dolor ad quis esse magna", 
+            "exercitation ex eu ex ullamco laborum", 
+            "eiusmod occaecat aliquip mollit adipisicing proident"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "pariatur magna tempor"
+    }
+  ], 
+  "title": "Quis labore reprehenderit veniam adipisicing nisi.", 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d604aa8da7d022bb36a8d18"
+    }, 
+    {
+      "source": "wikidata", 
+      "identifier": "5d604aa8e15704855203251f"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/792"
+    }, 
+    {
+      "ref": "/collections/220"
+    }, 
+    {
+      "ref": "/collections/922"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "spa", 
+      "expression": "Spanish"
+    }
+  ], 
+  "rights_statements": [
+    {
+      "begin": "2019-08-23", 
+      "end": "2019-08-23", 
+      "copyright_status": "copyrighted", 
+      "notes": [], 
+      "jurisdiction": "CN", 
+      "other_basis": "adipisicing", 
+      "rights_granted": [
+        {
+          "restriction": "disallow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [], 
+          "act": "use"
+        }
+      ], 
+      "rights_status": "copyrighted", 
+      "determination_date": "2019-08-23", 
+      "type": "rights_statement", 
+      "id": "5d604aa8ab61cae9b983d424", 
+      "rights_type": "other"
+    }
+  ], 
+  "agents": [
+    {
+      "ref": "/agents_family/565", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents_organization/900", 
+      "type": "organization"
+    }, 
+    {
+      "ref": "/agents_organization/674", 
+      "type": "organization"
+    }, 
+    {
+      "ref": "/agents_person/777", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents_organization/122", 
+      "type": "organization"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/60"
+    }
+  ], 
+  "creators": [
+    {
+      "ref": "/agents/software/249", 
+      "type": "software"
+    }, 
+    {
+      "ref": "/agents/person/204", 
+      "type": "person"
+    }
+  ], 
+  "type": "collection", 
+  "id": "5d604aa8416d8236f6411564"
+}

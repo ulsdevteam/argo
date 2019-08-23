@@ -1,0 +1,133 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 1st, 1949 - Mar 21st, 2004", 
+      "begin": "1949-08-01", 
+      "label": "deaccession", 
+      "end": "2004-03-21", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Jun 8th, 1939 - May 28th, 1995", 
+      "begin": "1939-06-08", 
+      "label": "record_keeping", 
+      "end": "1995-05-28", 
+      "type": "bulk"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/386"
+    }, 
+    {
+      "ref": "/collections/995"
+    }, 
+    {
+      "ref": "/collections/108"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "cubic_feet", 
+      "value": "4.36"
+    }
+  ], 
+  "level": "item", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "bioghist", 
+      "subnotes": [
+        {
+          "content": [
+            "eu commodo eiusmod sint commodo occaecat", 
+            "nulla ex in culpa aute minim", 
+            "fugiat dolor enim incididunt velit consectetur"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "est tempor est"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "relatedmaterial", 
+      "subnotes": [
+        {
+          "content": [
+            "ad ullamco occaecat aliqua quis officia", 
+            "labore ex pariatur ea mollit occaecat", 
+            "do qui aute proident excepteur incididunt", 
+            "quis et pariatur cupidatat qui excepteur"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "ipsum excepteur et"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "accessrestrict", 
+      "subnotes": [
+        {
+          "content": [
+            "laborum anim ad nulla est ut", 
+            "deserunt nulla ipsum anim aute tempor"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "proident aliquip reprehenderit"
+    }
+  ], 
+  "title": "Pariatur amet minim culpa mollit nostrud mollit excepteur sit enim minim qui sit.", 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d604aa8d82c8c25b4078f76"
+    }, 
+    {
+      "source": "wikipedia", 
+      "identifier": "5d604aa87c3e5e6b8f7cf5d4"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/359"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "spa", 
+      "expression": "Spanish"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [
+    {
+      "ref": "/agents_organization/214", 
+      "type": "organization"
+    }, 
+    {
+      "ref": "/agents_software/948", 
+      "type": "software"
+    }, 
+    {
+      "ref": "/agents_family/845", 
+      "type": "family"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/577"
+    }
+  ], 
+  "creators": [
+    {
+      "ref": "/agents/family/952", 
+      "type": "family"
+    }
+  ], 
+  "type": "collection", 
+  "id": "5d604aa8767f6e1c89a9dd61"
+}

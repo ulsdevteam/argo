@@ -1,0 +1,63 @@
+{
+  "dates": [
+    {
+      "expression": "Sep 17th, 1931 - Jul 16th, 2018", 
+      "begin": "1931-09-17", 
+      "label": "broadcast", 
+      "end": "2018-07-16", 
+      "type": "single"
+    }, 
+    {
+      "expression": "Jul 29th, 1917 - Oct 30th, 1998", 
+      "begin": "1917-07-29", 
+      "label": "copyright", 
+      "end": "1998-10-30", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Apr 20th, 1959 - Jun 22nd, 1978", 
+      "begin": "1959-04-20", 
+      "label": "creation", 
+      "end": "1978-06-22", 
+      "type": "bulk"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/865"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "photographic_prints", 
+      "value": "2.5"
+    }
+  ], 
+  "title": "Consectetur id cupidatat mollit nostrud sunt esse sint commodo esse sint.", 
+  "notes": [], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d604ab86fd577344efad8c1"
+    }, 
+    {
+      "source": "archivesspace", 
+      "identifier": "5d604ab8b864d4b7a2b9b5aa"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "epo", 
+      "expression": "English"
+    }
+  ], 
+  "rights_statements": [], 
+  "agents": [], 
+  "terms": [
+    {
+      "ref": "/terms/721"
+    }
+  ], 
+  "type": "object", 
+  "id": "5d604ab81a9423f9f4b2dd2d"
+}

@@ -1,0 +1,267 @@
+{
+  "dates": [
+    {
+      "expression": "Oct 24th, 1935 - Dec 12th, 1995", 
+      "begin": "1935-10-24", 
+      "label": "copyright", 
+      "end": "1995-12-12", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Nov 9th, 1944 - Sep 1st, 1969", 
+      "begin": "1944-11-09", 
+      "label": "issued", 
+      "end": "1969-09-01", 
+      "type": "inclusive"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/439"
+    }, 
+    {
+      "ref": "/collections/466"
+    }, 
+    {
+      "ref": "/collections/889"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "files", 
+      "value": "4.14"
+    }
+  ], 
+  "level": "subgrp", 
+  "notes": [
+    {
+      "source": "wikidata", 
+      "type": "relatedmaterial", 
+      "subnotes": [
+        {
+          "content": [
+            "fugiat aute ut veniam elit mollit", 
+            "dolore anim cillum deserunt enim non"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "veniam ullamco sint sunt tempor Lorem", 
+            "dolor id do dolore mollit in"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "id Lorem qui"
+    }, 
+    {
+      "source": "cartographer", 
+      "type": "originalsloc", 
+      "subnotes": [
+        {
+          "content": [
+            "ex ullamco sunt sint minim reprehenderit", 
+            "elit quis pariatur in eu voluptate", 
+            "est dolore Lorem exercitation veniam laborum", 
+            "voluptate fugiat aute fugiat nostrud voluptate"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "nulla irure sunt ex amet consequat", 
+            "labore enim amet nisi commodo sunt", 
+            "sint occaecat ea amet labore non"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "veniam enim velit fugiat tempor in", 
+            "non commodo qui pariatur amet ipsum", 
+            "fugiat sit do amet elit excepteur", 
+            "anim irure quis mollit Lorem ut"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "id pariatur duis"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "dimensions", 
+      "subnotes": [
+        {
+          "content": [
+            "aliqua adipisicing irure sint in nisi", 
+            "cillum aute aute ut duis velit", 
+            "aliquip veniam ut consectetur nisi laboris", 
+            "excepteur ut ea enim sit anim"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "excepteur cupidatat mollit eu ut minim", 
+            "ex incididunt laborum velit ullamco veniam", 
+            "pariatur voluptate in pariatur reprehenderit ex"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "sint aliquip voluptate nulla id deserunt", 
+            "mollit do cupidatat magna tempor eu"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "veniam quis aliqua"
+    }
+  ], 
+  "title": "Eu aliqua do consequat enim culpa Lorem esse anim occaecat.", 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "5d604aa8d35710ebf9cdfe31"
+    }
+  ], 
+  "children": [
+    {
+      "ref": "/collections/677"
+    }, 
+    {
+      "ref": "/collections/73"
+    }, 
+    {
+      "ref": "/collections/723"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "spa", 
+      "expression": "English"
+    }, 
+    {
+      "identifier": "spa", 
+      "expression": "English"
+    }, 
+    {
+      "identifier": "eng", 
+      "expression": "English"
+    }
+  ], 
+  "rights_statements": [
+    {
+      "begin": "2019-08-23", 
+      "end": "2019-08-23", 
+      "copyright_status": "copyrighted", 
+      "notes": [
+        {
+          "source": "archivesspace", 
+          "type": "type_note", 
+          "subnotes": [
+            {
+              "content": [
+                "proident quis quis elit labore velit", 
+                "eiusmod excepteur aliqua et quis voluptate"
+              ], 
+              "type": "orderedlist"
+            }
+          ], 
+          "title": "dolor magna ex"
+        }
+      ], 
+      "jurisdiction": "US", 
+      "other_basis": "reprehenderit", 
+      "rights_granted": [
+        {
+          "restriction": "allow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [
+            {
+              "source": "cartographer", 
+              "type": "materials", 
+              "subnotes": [
+                {
+                  "content": [
+                    "Lorem laboris aliqua commodo magna dolor"
+                  ], 
+                  "type": "orderedlist"
+                }, 
+                {
+                  "content": [
+                    "dolore amet labore minim sit cupidatat"
+                  ], 
+                  "type": "text"
+                }, 
+                {
+                  "content": [
+                    "ullamco veniam dolore ut nulla nisi", 
+                    "Lorem excepteur non magna consectetur duis", 
+                    "consectetur sint Lorem eiusmod labore consequat", 
+                    "adipisicing consequat deserunt id officia officia"
+                  ], 
+                  "type": "orderedlist"
+                }
+              ], 
+              "title": "amet ullamco non"
+            }
+          ], 
+          "act": "modify"
+        }
+      ], 
+      "rights_status": "unknown", 
+      "determination_date": "2019-08-23", 
+      "type": "rights_statement", 
+      "id": "5d604aa8746b50ca78b7ce7a", 
+      "rights_type": "license"
+    }
+  ], 
+  "agents": [
+    {
+      "ref": "/agents_family/412", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents_family/391", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents_person/368", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents_software/232", 
+      "type": "software"
+    }, 
+    {
+      "ref": "/agents_organization/161", 
+      "type": "organization"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/608"
+    }, 
+    {
+      "ref": "/terms/481"
+    }, 
+    {
+      "ref": "/terms/518"
+    }, 
+    {
+      "ref": "/terms/759"
+    }
+  ], 
+  "creators": [
+    {
+      "ref": "/agents/organization/657", 
+      "type": "organization"
+    }
+  ], 
+  "type": "collection", 
+  "id": "5d604aa8700431ac0c58c586"
+}

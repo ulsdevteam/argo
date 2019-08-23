@@ -1,0 +1,177 @@
+{
+  "dates": [
+    {
+      "expression": "Mar 30th, 1959 - Oct 5th, 1970", 
+      "begin": "1959-03-30", 
+      "label": "issued", 
+      "end": "1970-10-05", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Sep 25th, 1939 - Sep 2nd, 1967", 
+      "begin": "1939-09-25", 
+      "label": "modified", 
+      "end": "1967-09-02", 
+      "type": "single"
+    }
+  ], 
+  "ancestors": [], 
+  "extents": [
+    {
+      "type": "reels", 
+      "value": "4.65"
+    }, 
+    {
+      "type": "gigabytes", 
+      "value": "3.33"
+    }
+  ], 
+  "title": "Voluptate minim irure sunt adipisicing culpa.", 
+  "notes": [], 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d604ab88ab8a9d99fe3dc31"
+    }, 
+    {
+      "source": "archivesspace", 
+      "identifier": "5d604ab8c29ed61fd5d8a376"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "epo", 
+      "expression": "English"
+    }
+  ], 
+  "rights_statements": [
+    {
+      "begin": "2019-08-23", 
+      "end": "2019-08-23", 
+      "copyright_status": "public domain", 
+      "notes": [
+        {
+          "source": "archivesspace", 
+          "type": "extension", 
+          "subnotes": [
+            {
+              "content": [
+                "consectetur velit pariatur sint in eu", 
+                "dolore aliqua fugiat aliquip aliquip sit"
+              ], 
+              "type": "orderedlist"
+            }
+          ], 
+          "title": "ad do commodo"
+        }
+      ], 
+      "jurisdiction": "FR", 
+      "other_basis": "irure", 
+      "rights_granted": [
+        {
+          "restriction": "disallow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [
+            {
+              "source": "wikidata", 
+              "type": "extension", 
+              "subnotes": [
+                {
+                  "content": [
+                    "consequat ut non irure eu labore", 
+                    "cillum quis ullamco duis in id", 
+                    "exercitation amet culpa ex consectetur enim", 
+                    "velit ut eu labore adipisicing ullamco"
+                  ], 
+                  "type": "text"
+                }, 
+                {
+                  "content": [
+                    "commodo et ad sunt elit nulla", 
+                    "ut dolor duis veniam ad dolor", 
+                    "nisi deserunt reprehenderit nostrud enim in"
+                  ], 
+                  "type": "text"
+                }, 
+                {
+                  "content": [
+                    "labore duis exercitation consequat exercitation consectetur", 
+                    "ea ad pariatur anim irure reprehenderit", 
+                    "anim Lorem quis amet tempor minim", 
+                    "elit ex ea in quis sit"
+                  ], 
+                  "type": "orderedlist"
+                }
+              ], 
+              "title": "eiusmod anim ea"
+            }
+          ], 
+          "act": "delete"
+        }, 
+        {
+          "restriction": "disallow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [
+            {
+              "source": "wikipedia", 
+              "type": "permissions", 
+              "subnotes": [
+                {
+                  "content": [
+                    "irure incididunt reprehenderit consectetur adipisicing non"
+                  ], 
+                  "type": "text"
+                }, 
+                {
+                  "content": [
+                    "enim pariatur eu veniam mollit enim", 
+                    "ad elit occaecat qui culpa nulla", 
+                    "labore anim ullamco proident sit sunt"
+                  ], 
+                  "type": "text"
+                }
+              ], 
+              "title": "consectetur magna proident"
+            }
+          ], 
+          "act": "delete"
+        }
+      ], 
+      "rights_status": "unknown", 
+      "determination_date": "2019-08-23", 
+      "type": "rights_statement", 
+      "id": "5d604ab87f6d65b83bf2b598", 
+      "rights_type": "copyright"
+    }
+  ], 
+  "agents": [
+    {
+      "ref": "/agents_family/670", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents_person/321", 
+      "type": "person"
+    }, 
+    {
+      "ref": "/agents_software/901", 
+      "type": "software"
+    }, 
+    {
+      "ref": "/agents_family/569", 
+      "type": "family"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/589"
+    }, 
+    {
+      "ref": "/terms/291"
+    }
+  ], 
+  "type": "object", 
+  "id": "5d604ab84089fe7fce8c7ad3"
+}

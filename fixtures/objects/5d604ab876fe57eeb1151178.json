@@ -1,0 +1,154 @@
+{
+  "dates": [
+    {
+      "expression": "Nov 22nd, 1959 - Sep 24th, 2006", 
+      "begin": "1959-11-22", 
+      "label": "usage", 
+      "end": "2006-09-24", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Mar 15th, 1951 - Nov 20th, 1975", 
+      "begin": "1951-03-15", 
+      "label": "agent_relation", 
+      "end": "1975-11-20", 
+      "type": "single"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/41"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "document box(es)", 
+      "value": "4.52"
+    }
+  ], 
+  "title": "Voluptate aliqua officia non velit dolor velit.", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "odd", 
+      "subnotes": [
+        {
+          "content": [
+            "dolor tempor labore ipsum ipsum consectetur", 
+            "reprehenderit aliqua voluptate in incididunt ut", 
+            "tempor anim quis sunt cupidatat proident", 
+            "reprehenderit cillum velit aliqua commodo fugiat"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "est eiusmod officia"
+    }, 
+    {
+      "source": "wikipedia", 
+      "type": "rights_statement_act", 
+      "subnotes": [
+        {
+          "content": [
+            "laboris cillum velit aliquip fugiat eu", 
+            "non occaecat nostrud magna aliquip est", 
+            "sunt ut sit consectetur irure ad"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "ipsum est id deserunt esse et", 
+            "est laborum consectetur non exercitation velit", 
+            "exercitation exercitation esse incididunt deserunt nulla"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "ullamco deserunt fugiat sint enim non", 
+            "ad aliqua dolore magna exercitation reprehenderit", 
+            "incididunt culpa occaecat reprehenderit quis consequat", 
+            "sit id anim incididunt irure pariatur"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "officia commodo officia"
+    }, 
+    {
+      "source": "wikipedia", 
+      "type": "summary", 
+      "subnotes": [
+        {
+          "content": [
+            "occaecat labore dolore amet qui deserunt", 
+            "pariatur enim duis qui consequat labore", 
+            "veniam sint ipsum occaecat proident magna", 
+            "ex pariatur adipisicing tempor magna velit", 
+            "amet exercitation elit aliquip proident Lorem"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "est ea consectetur"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "accessrestrict", 
+      "subnotes": [
+        {
+          "content": [
+            "ipsum cillum aliquip proident eiusmod nostrud"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "dolor do culpa"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d604ab809d209f6ab051c7b"
+    }, 
+    {
+      "source": "wikidata", 
+      "identifier": "5d604ab850932a9e7d6b925b"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "epo", 
+      "expression": "Spanish"
+    }
+  ], 
+  "rights_statements": [
+    {
+      "begin": "2019-08-23", 
+      "end": "2019-08-23", 
+      "copyright_status": "public domain", 
+      "notes": [], 
+      "jurisdiction": "FR", 
+      "other_basis": "occaecat", 
+      "rights_granted": [
+        {
+          "restriction": "disallow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [], 
+          "act": "use"
+        }
+      ], 
+      "rights_status": "copyrighted", 
+      "determination_date": "2019-08-23", 
+      "type": "rights_statement", 
+      "id": "5d604ab8e23bd33df3c06331", 
+      "rights_type": "license"
+    }
+  ], 
+  "agents": [], 
+  "terms": [], 
+  "type": "object", 
+  "id": "5d604ab876fe57eeb1151178"
+}

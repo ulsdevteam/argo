@@ -77,7 +77,7 @@ class RightsGrantedSerializer(serializers.Serializer):
     begin = serializers.DateField()
     end = serializers.DateField()
     restriction = serializers.CharField()
-    notes = NoteSerializer(many=True)
+    notes = NoteSerializer(many=True, allow_null=True)
 
 
 class RightsStatementSerializer(serializers.Serializer):
@@ -89,7 +89,7 @@ class RightsStatementSerializer(serializers.Serializer):
     copyright_status = serializers.CharField()
     other_basis = serializers.CharField()
     jurisdiction = serializers.CharField()
-    notes = NoteSerializer(many=True)
+    notes = NoteSerializer(many=True, allow_null=True)
     rights_granted = RightsGrantedSerializer(many=True)
 
 

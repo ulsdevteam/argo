@@ -1,0 +1,223 @@
+{
+  "dates": [
+    {
+      "expression": "Aug 1st, 1916 - Feb 18th, 2010", 
+      "begin": "1916-08-01", 
+      "label": "other", 
+      "end": "2010-02-18", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Nov 1st, 1948 - May 19th, 1971", 
+      "begin": "1948-11-01", 
+      "label": "broadcast", 
+      "end": "1971-05-19", 
+      "type": "inclusive"
+    }
+  ], 
+  "ancestors": [
+    {
+      "ref": "/collections/567"
+    }, 
+    {
+      "ref": "/collections/807"
+    }, 
+    {
+      "ref": "/collections/289"
+    }
+  ], 
+  "extents": [
+    {
+      "type": "files", 
+      "value": "2.28"
+    }, 
+    {
+      "type": "photographic_prints", 
+      "value": "3.62"
+    }
+  ], 
+  "title": "In sint minim officia consectetur ullamco dolore elit.", 
+  "notes": [
+    {
+      "source": "cartographer", 
+      "type": "odd", 
+      "subnotes": [
+        {
+          "content": [
+            "incididunt est eu est proident eiusmod", 
+            "commodo consequat enim ipsum irure duis", 
+            "magna enim cillum incididunt dolor eiusmod", 
+            "excepteur enim Lorem laboris id aliquip", 
+            "do exercitation non duis aliqua officia"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "ad laboris aliqua"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "scopecontent", 
+      "subnotes": [
+        {
+          "content": [
+            "officia aliquip ipsum ut quis amet", 
+            "duis consequat sit enim magna magna", 
+            "esse tempor ea consectetur nisi culpa"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "sit commodo mollit"
+    }, 
+    {
+      "source": "wikipedia", 
+      "type": "note", 
+      "subnotes": [
+        {
+          "content": [
+            "sint dolor do Lorem aliqua dolore"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "mollit consequat reprehenderit irure aute anim", 
+            "pariatur nisi fugiat esse adipisicing duis", 
+            "qui enim magna Lorem proident aliquip"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "in nisi magna minim proident cupidatat", 
+            "proident ea labore minim esse dolor", 
+            "Lorem elit tempor dolore consectetur nostrud", 
+            "sunt excepteur amet labore veniam officia", 
+            "id non deserunt laborum est qui"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "nostrud voluptate mollit"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "wikidata", 
+      "identifier": "5d604ab86799b95018bb2266"
+    }
+  ], 
+  "languages": [
+    {
+      "identifier": "eng", 
+      "expression": "English"
+    }, 
+    {
+      "identifier": "epo", 
+      "expression": "Spanish"
+    }, 
+    {
+      "identifier": "eng", 
+      "expression": "Spanish"
+    }
+  ], 
+  "rights_statements": [
+    {
+      "begin": "2019-08-23", 
+      "end": "2019-08-23", 
+      "copyright_status": "public domain", 
+      "notes": [
+        {
+          "source": "wikipedia", 
+          "type": "restrictions", 
+          "subnotes": [
+            {
+              "content": [
+                "non elit id Lorem fugiat quis"
+              ], 
+              "type": "definedlist"
+            }
+          ], 
+          "title": "ex do voluptate"
+        }
+      ], 
+      "jurisdiction": "CN", 
+      "other_basis": "dolore", 
+      "rights_granted": [
+        {
+          "restriction": "allow", 
+          "begin": "2019-08-23", 
+          "end": "2019-08-23", 
+          "notes": [
+            {
+              "source": "archivesspace", 
+              "type": "additional_information", 
+              "subnotes": [
+                {
+                  "content": [
+                    "ea labore excepteur dolor Lorem irure"
+                  ], 
+                  "type": "text"
+                }, 
+                {
+                  "content": [
+                    "quis eu consectetur dolor officia dolore"
+                  ], 
+                  "type": "orderedlist"
+                }, 
+                {
+                  "content": [
+                    "magna laboris anim veniam esse incididunt", 
+                    "ullamco fugiat occaecat mollit voluptate culpa"
+                  ], 
+                  "type": "orderedlist"
+                }
+              ], 
+              "title": "et culpa labore"
+            }
+          ], 
+          "act": "modify"
+        }
+      ], 
+      "rights_status": "copyrighted", 
+      "determination_date": "2019-08-23", 
+      "type": "rights_statement", 
+      "id": "5d604ab8d7558cd09a08af3d", 
+      "rights_type": "copyright"
+    }
+  ], 
+  "agents": [
+    {
+      "ref": "/agents_software/607", 
+      "type": "software"
+    }, 
+    {
+      "ref": "/agents_family/275", 
+      "type": "family"
+    }, 
+    {
+      "ref": "/agents_organization/964", 
+      "type": "organization"
+    }
+  ], 
+  "terms": [
+    {
+      "ref": "/terms/646"
+    }, 
+    {
+      "ref": "/terms/4"
+    }, 
+    {
+      "ref": "/terms/4"
+    }, 
+    {
+      "ref": "/terms/633"
+    }, 
+    {
+      "ref": "/terms/379"
+    }
+  ], 
+  "type": "object", 
+  "id": "5d604ab84e5d5550cb2769e9"
+}
