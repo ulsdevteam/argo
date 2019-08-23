@@ -216,6 +216,13 @@ class SearchView(ListAPIView):
     """
     Performs search queries across agents, collections, objects and terms.
     """
+
+    # TODO: consider returning a query for each index,
+    # which can then be handled by a different serializer and presented in
+    # an array like {agents: [{...}], collections: [{...}], objects[{...}], terms: [{...}]}
+    # We may want collections and objects returned in a single query but the other stuff
+    # in separate arrays...
+
     serializer_class = HitSerializer
     filter_backends = SEARCH_BACKENDS
     filter_fields = {}  # This requires a mapping? Check if there's another structure
