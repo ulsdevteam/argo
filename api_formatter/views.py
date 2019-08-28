@@ -1,11 +1,15 @@
+from datetime import datetime
+
 from django.http import Http404
 from rest_framework.generics import ListAPIView
 from rest_framework.viewsets import ReadOnlyModelViewSet
 from rest_framework.response import Response
-from elasticsearch_dsl import connections, Index, Search
+from rest_framework.renderers import JSONRenderer
+from elasticsearch_dsl import connections, Index, Search, DateHistogramFacet, RangeFacet, TermsFacet
+from django_elasticsearch_dsl_drf.pagination import PageNumberPagination
 
 from .elasticsearch.documents import Agent, Collection, Object, Term
-from .elasticsearch.view_helpers import STRING_LOOKUPS, NUMBER_LOOKUPS, FILTER_BACKENDS, SEARCH_BACKENDS
+from .elasticsearch.view_helpers import STRING_LOOKUPS, NUMBER_LOOKUPS, FILTER_BACKENDS, SEARCH_BACKENDS, PAGINATION_CLASS
 from .serializers import (
     HitSerializer,
     AgentSerializer, AgentListSerializer,
@@ -17,6 +21,7 @@ from .serializers import (
 
 class DocumentViewSet(ReadOnlyModelViewSet):
     filter_backends = FILTER_BACKENDS
+    pagination_class = PAGINATION_CLASS
 
     def __init__(self, *args, **kwargs):
         assert self.document is not None
@@ -37,8 +42,10 @@ class DocumentViewSet(ReadOnlyModelViewSet):
 
     def get_serializer_class(self):
         if self.action == 'list':
-            return self.ListSerializer if self.ListSerializer else self.Serializer
-        return self.Serializer
+            try:
+                return self.ListSerializer
+            except AttributeError:
+                return self.Serializer
 
     def get_queryset(self):
         return self.search.query()
@@ -212,7 +219,7 @@ class TermViewSet(DocumentViewSet):
     }
 
 
-class SearchView(ListAPIView):
+class SearchView(DocumentViewSet):
     """
     Performs search queries across agents, collections, objects and terms.
     """
@@ -223,12 +230,30 @@ class SearchView(ListAPIView):
     # We may want collections and objects returned in a single query but the other stuff
     # in separate arrays...
 
-    serializer_class = HitSerializer
+    ListSerializer = HitSerializer
+    pagination_class = PAGINATION_CLASS
     filter_backends = SEARCH_BACKENDS
+
     filter_fields = {}  # This requires a mapping? Check if there's another structure
     ordering_fields = {'title': 'title.keyword', 'type': 'type.keyword'}
     search_fields = ('title', 'type')
-    faceted_search_fields = {'type': 'type.keyword'}
+    faceted_search_fields = {
+        'type': 'type.keyword',
+        'start_date': {
+            'field': 'dates.begin',
+            'facet': DateHistogramFacet,
+            'options': {
+                'interval': 'year',
+            }
+        },
+        'end_date': {
+            'field': 'dates.end',
+            'facet': DateHistogramFacet,
+            'options': {
+                'interval': 'year',
+            }
+        }
+    }
 
     def __init__(self, *args, **kwargs):
         self.client = connections.get_connection('default')
@@ -238,7 +263,7 @@ class SearchView(ListAPIView):
             index=['agents', 'collections', 'objects', 'terms'],
             doc_type=['_all']
         )
-        super(ListAPIView, self).__init__(*args, **kwargs)
+        super(DocumentViewSet, self).__init__(*args, **kwargs)
 
     def get_queryset(self):
         return self.search.query()

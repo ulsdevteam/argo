@@ -17,6 +17,6 @@ schema_view = get_schema_view(
 
 urlpatterns = [
     url(r'^', include(router.urls)),
-    url(r'search/', SearchView.as_view(), name='search'),
+    url(r'search/', SearchView.as_view({'get': 'list'}), name='search'),
     url(r'^schema/', schema_view, name='schema'),
 ]
