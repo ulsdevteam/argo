@@ -46,6 +46,7 @@ class DocumentViewSet(ReadOnlyModelViewSet):
                 return self.ListSerializer
             except AttributeError:
                 return self.Serializer
+        return self.Serializer
 
     def get_queryset(self):
         return self.search.query()
