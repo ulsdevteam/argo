@@ -9,14 +9,18 @@ from elasticsearch_dsl import connections, Index, Search, DateHistogramFacet, Ra
 from django_elasticsearch_dsl_drf.pagination import PageNumberPagination
 
 from .elasticsearch.documents import Agent, Collection, Object, Term
-from .elasticsearch.view_helpers import STRING_LOOKUPS, NUMBER_LOOKUPS, FILTER_BACKENDS, SEARCH_BACKENDS, PAGINATION_CLASS
+from .elasticsearch.view_helpers import (
+    STRING_LOOKUPS,
+    NUMBER_LOOKUPS,
+    FILTER_BACKENDS,
+    SEARCH_BACKENDS,
+    PAGINATION_CLASS)
 from .serializers import (
     HitSerializer,
     AgentSerializer, AgentListSerializer,
     CollectionSerializer, CollectionListSerializer,
     ObjectSerializer, ObjectListSerializer,
-    TermSerializer, TermListSerializer
-    )
+    TermSerializer, TermListSerializer)
 
 
 class DocumentViewSet(ReadOnlyModelViewSet):

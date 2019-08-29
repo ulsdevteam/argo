@@ -45,22 +45,4 @@ FILTER_BACKENDS = [FilteringFilterBackend,
 
 SEARCH_BACKENDS = FILTER_BACKENDS + [FacetedSearchFilterBackend]
 
-
-class Paginator(PageNumberPagination):
-    def get_paginated_response_context(self, data):
-        __data = [
-            ('count', self.page.paginator.count),  # This line has been modified
-            ('next', self.get_next_link()),
-            ('previous', self.get_previous_link()),
-        ]
-        __facets = self.get_facets()
-        if __facets is not None:
-            __data.append(
-                ('facets', __facets),
-            )
-        __data.append(
-            ('results', data),
-        )
-        return __data
-
-PAGINATION_CLASS = Paginator
+PAGINATION_CLASS = PageNumberPagination
