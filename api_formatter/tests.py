@@ -26,7 +26,7 @@ class TestAPI(TestCase):
     def setUp(self):
         self.factory = APIRequestFactory()
         connections.create_connection(hosts=settings.ELASTICSEARCH_DSL['default']['hosts'], timeout=60)
-        for cls in [Agent, Object, Term]:
+        for cls in [Agent, Collection, Object, Term]:
             cls.init()
 
     def index_fixture_data(self, source_filepath, doc_cls):
@@ -35,9 +35,9 @@ class TestAPI(TestCase):
         for f in os.listdir(source_filepath):
             with open(os.path.join(source_filepath, f)) as jf:
                 data = json.load(jf)
-                agent = doc_cls(**data)
-                agent.meta.id = data['id']
-                agent.save()
+                object = doc_cls(**data)
+                object.meta.id = data['id']
+                object.save()
                 added_ids.append(data['id'])
         return added_ids
 
