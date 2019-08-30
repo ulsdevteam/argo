@@ -31,12 +31,12 @@ class Language(es.InnerDoc):
 
 class Subnote(es.InnerDoc):
     type = es.Text()
-    content = es.Text(analyzer='base_analyzer')
+    content = es.Text(analyzer=base_analyzer)
 
 
 class Note(es.InnerDoc):
     type = es.Text()
-    title = es.Text(analyzer='base_analyzer', fields={'raw': es.Keyword()})
+    title = es.Text(analyzer=base_analyzer, fields={'raw': es.Keyword()})
     source = es.Text()
     subnotes = es.Object(Subnote)
 
@@ -68,8 +68,8 @@ class RightsStatement(es.InnerDoc):
 
 class Agent(es.Document):
     id = es.Text()
-    title = es.Text(analyzer='base_analyzer', fields={'keyword': es.Keyword()})
-    description = es.Text(analyzer='base_analyzer', fields={'keyword': es.Keyword()})
+    title = es.Text(analyzer=base_analyzer, fields={'keyword': es.Keyword()})
+    description = es.Text(analyzer=base_analyzer, fields={'keyword': es.Keyword()})
     type = es.Text(fields={'keyword': es.Keyword()})
     dates = es.Object(Date)
     notes = es.Object(Note)
@@ -81,7 +81,7 @@ class Agent(es.Document):
 
 class Collection(es.Document):
     id = es.Text()
-    title = es.Text(analyzer='base_analyzer', fields={'keyword': es.Keyword()})
+    title = es.Text(analyzer=base_analyzer, fields={'keyword': es.Keyword()})
     type = es.Text(fields={'keyword': es.Keyword()})
     level = es.Text(fields={'keyword': es.Keyword()})
     dates = es.Object(Date)
@@ -102,7 +102,7 @@ class Collection(es.Document):
 
 class Object(es.Document):
     id = es.Text()
-    title = es.Text(analyzer='base_analyzer', fields={'keyword': es.Keyword()})
+    title = es.Text(analyzer=base_analyzer, fields={'keyword': es.Keyword()})
     type = es.Text(fields={'keyword': es.Keyword()})
     dates = es.Object(Date)
     languages = es.Object(Language)
@@ -120,7 +120,7 @@ class Object(es.Document):
 
 class Term(es.Document):
     id = es.Text()
-    title = es.Text(analyzer='base_analyzer', fields={'keyword': es.Keyword()})
+    title = es.Text(analyzer=base_analyzer, fields={'keyword': es.Keyword()})
     type = es.Text(fields={'keyword': es.Keyword()})
     external_identifiers = es.Nested(ExternalIdentifier)
 
