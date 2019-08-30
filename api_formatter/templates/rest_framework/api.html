@@ -135,6 +135,16 @@
         </ul>
         </div>
         {% endif %}
+        {% if view.faceted_search_fields %}
+        <div class="col">
+        <h4>Facets available</h4>
+        <ul>
+        {% for field in view.faceted_search_fields %}
+          <li>{{field}}</li>
+        {% endfor %}
+        </ul>
+        </div>
+        {% endif %}
         </div>
       {% endblock %}
     </div>
