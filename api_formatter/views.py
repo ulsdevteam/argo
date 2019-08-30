@@ -1,15 +1,12 @@
-from datetime import datetime
-
 from django.http import Http404
 from rest_framework.generics import ListAPIView
 from rest_framework.viewsets import ReadOnlyModelViewSet
 from rest_framework.response import Response
 from rest_framework.renderers import JSONRenderer
 from elasticsearch_dsl import connections, Index, Search, DateHistogramFacet, RangeFacet, TermsFacet
-from django_elasticsearch_dsl_drf.pagination import PageNumberPagination
 
 from .elasticsearch.documents import Agent, Collection, Object, Term
-from .elasticsearch.view_helpers import (
+from .view_helpers import (
     STRING_LOOKUPS,
     NUMBER_LOOKUPS,
     FILTER_BACKENDS,
@@ -239,7 +236,8 @@ class SearchView(DocumentViewSet):
     pagination_class = PAGINATION_CLASS
     filter_backends = SEARCH_BACKENDS
 
-    filter_fields = {}  # This requires a mapping? Check if there's another structure
+    # TODO: determine if we need filter fields here
+    filter_fields = {}  # This requires a mapping
     ordering_fields = {'title': 'title.keyword', 'type': 'type.keyword'}
     search_fields = ('title', 'type')
     faceted_search_fields = {
@@ -261,11 +259,15 @@ class SearchView(DocumentViewSet):
     }
 
     def __init__(self, *args, **kwargs):
+        indices = ['agents', 'collections', 'objects', 'terms']
+        if not Index(['agents', 'collections', 'objects', 'terms']).exists():
+            raise Http404("Index `{}` does not exist".format(['agents', 'collections', 'objects', 'terms']))
         self.client = connections.get_connection('default')
+        # TODO: will have to pass a mapping here
         # self.mapping = self.document._doc_type.mapping.properties.name
         self.search = Search(
             using=self.client,
-            index=['agents', 'collections', 'objects', 'terms'],
+            index=indices,
             doc_type=['_all']
         )
         super(DocumentViewSet, self).__init__(*args, **kwargs)
