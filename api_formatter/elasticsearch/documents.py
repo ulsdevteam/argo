@@ -39,7 +39,7 @@ class Note(es.InnerDoc):
     subnotes = es.Object(Subnote)
 
 
-class URI(es.InnerDoc):
+class Reference(es.InnerDoc):
     title = es.Text(analyzer=base_analyzer)
     ref = es.Text()
     role = es.Text()
@@ -91,11 +91,11 @@ class Collection(es.Document):
     notes = es.Nested(Note)
     rights_statements = es.Nested(RightsStatement)
     external_identifiers = es.Nested(ExternalIdentifier)
-    agents = es.Nested(URI)  # TODO: do agents need a role?
-    terms = es.Nested(URI)
-    creators = es.Nested(URI)  # TODO: should this be part of agents?
-    ancestors = es.Nested(URI)
-    children = es.Nested(URI)
+    agents = es.Nested(Reference)
+    terms = es.Nested(Reference)
+    creators = es.Nested(Reference)  # TODO: should this be part of agents?
+    ancestors = es.Nested(Reference)
+    children = es.Nested(Reference)
 
     class Index:
         name = 'collections'
@@ -111,9 +111,9 @@ class Object(es.Document):
     notes = es.Nested(Note)
     rights_statements = es.Nested(RightsStatement)
     external_identifiers = es.Nested(ExternalIdentifier)
-    agents = es.Nested(URI)  # TODO: do agents need a role?
-    terms = es.Nested(URI)
-    ancestors = es.Nested(URI)
+    agents = es.Nested(Reference)
+    terms = es.Nested(Reference)
+    ancestors = es.Nested(Reference)
 
     class Index:
         name = 'objects'

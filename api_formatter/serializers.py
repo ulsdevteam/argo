@@ -60,8 +60,8 @@ class SubnoteSerializer(serializers.Serializer):
     type = serializers.CharField()
     content = serializers.SerializerMethodField()
 
+    # content needs to be coerced to a list so it can be serialized as JSON
     def get_content(self, obj):
-        # content needs to be coerced to a list so it can be serialized as JSON
         return list(obj.content)
 
 
@@ -93,6 +93,7 @@ class RightsStatementSerializer(serializers.Serializer):
     rights_granted = RightsGrantedSerializer(many=True)
 
 
+# TODO: this needs to be updated
 class URISerializer(serializers.Serializer):
     ref = serializers.CharField()
 
