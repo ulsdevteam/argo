@@ -104,7 +104,13 @@ class AgentViewSet(DocumentViewSet):
             },
         }
 
-    search_fields = ('title.keyword', 'description', 'notes.subnotes.content')
+    search_fields = ('title', 'description')
+    search_nested_fields = {
+        'notes': {
+            'path': 'notes',
+            'fields': ['subnotes.content']
+        },
+    }
 
     ordering_fields = {
         'title': 'title.keyword',
@@ -145,7 +151,13 @@ class CollectionViewSet(DocumentViewSet):
         },
     }
 
-    search_fields = ('title.keyword', 'notes.subnotes.content')
+    search_fields = ('title',)
+    search_nested_fields = {
+        'notes': {
+            'path': 'notes',
+            'fields': ['subnotes.content']
+        },
+    }
 
     ordering_fields = {
         'title': 'title.keyword',
@@ -182,7 +194,13 @@ class ObjectViewSet(DocumentViewSet):
             },
         }
 
-    search_fields = ('title.keyword', 'notes.subnotes.content')
+    search_fields = ('title',)
+    search_nested_fields = {
+        'notes': {
+            'path': 'notes',
+            'fields': ['subnotes.content']
+        },
+    }
 
     ordering_fields = {
         'title': 'title.keyword',
@@ -214,7 +232,7 @@ class TermViewSet(DocumentViewSet):
             },
         }
 
-    search_fields = ('title.keyword', 'type')
+    search_fields = ('title', 'type')
 
     ordering_fields = {
         'title': 'title.keyword',
@@ -239,7 +257,7 @@ class SearchView(DocumentViewSet):
     # TODO: determine if we need filter fields here
     filter_fields = {}  # This requires a mapping
     ordering_fields = {'title': 'title.keyword', 'type': 'type.keyword'}
-    search_fields = ('title', 'type')
+    search_fields = ('title', 'description', 'type', '')
     faceted_search_fields = {
         'type': 'type.keyword',
         'start_date': {
@@ -256,6 +274,12 @@ class SearchView(DocumentViewSet):
                 'interval': 'year',
             }
         }
+    }
+    search_nested_fields = {
+        'notes': {
+            'path': 'notes',
+            'fields': ['subnotes.content']
+        },
     }
 
     def __init__(self, *args, **kwargs):

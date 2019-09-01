@@ -92,7 +92,8 @@ class TestAPI(TestCase):
         """
         for field in viewset.search_fields:
             field_list = field.rsplit('.keyword')[0].split('.')
-            value = self.get_nested_value(field_list, obj)
+            # take only the first word and lowercase to ensure analyzers are working
+            value = self.get_nested_value(field_list, obj).split(" ")[0].lower()
             if value:
                 url = "{}?query={}".format(base_url, value)
                 print(url)
