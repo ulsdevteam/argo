@@ -5,27 +5,9 @@ from rest_framework import serializers
 # TODO: allow_null fields
 
 
-class BaseListSerializer(serializers.Serializer):
-    uri = serializers.SerializerMethodField()
-    title = serializers.CharField()
-
-    def get_uri(self, obj):
-        try:
-            return reverse('{}-detail'.format(self.context.get('view').basename), kwargs={"pk": obj.id})
-        except:
-            return "{}/{}".format(obj.meta.index, obj.id)
-
-
 class ExternalIdentifierSerializer(serializers.Serializer):
     identifier = serializers.CharField()
     source = serializers.CharField()
-
-
-class BaseDetailSerializer(serializers.Serializer):
-    id = serializers.CharField()
-    title = serializers.CharField()
-    type = serializers.CharField()
-    external_identifiers = ExternalIdentifierSerializer(many=True)
 
 
 class AncestorSerializer(serializers.Serializer):
@@ -98,9 +80,28 @@ class URISerializer(serializers.Serializer):
     ref = serializers.CharField()
 
 
+class BaseListSerializer(serializers.Serializer):
+    uri = serializers.SerializerMethodField()
+    title = serializers.CharField()
+    dates = DateSerializer(many=True)
+
+    def get_uri(self, obj):
+        try:
+            return reverse('{}-detail'.format(self.context.get('view').basename), kwargs={"pk": obj.id})
+        except:
+            return "{}/{}".format(obj.meta.index, obj.id)
+
+
+class BaseDetailSerializer(serializers.Serializer):
+    id = serializers.CharField()
+    title = serializers.CharField()
+    type = serializers.CharField()
+    dates = DateSerializer(many=True)
+    external_identifiers = ExternalIdentifierSerializer(many=True)
+
+
 class AgentSerializer(BaseDetailSerializer):
     description = serializers.CharField()
-    dates = DateSerializer(many=True)
     notes = NoteSerializer(many=True)
 
 
@@ -109,7 +110,6 @@ class AgentListSerializer(BaseListSerializer): pass
 
 class CollectionSerializer(BaseDetailSerializer):
     level = serializers.CharField()
-    dates = DateSerializer(many=True)
     languages = LanguageSerializer(many=True)
     extents = ExtentSerializer(many=True)
     notes = NoteSerializer(many=True, allow_null=True)
@@ -125,7 +125,6 @@ class CollectionListSerializer(BaseListSerializer): pass
 
 
 class ObjectSerializer(BaseDetailSerializer):
-    dates = DateSerializer(many=True)
     languages = LanguageSerializer(many=True)
     extents = ExtentSerializer(many=True)
     notes = NoteSerializer(many=True, allow_null=True)
