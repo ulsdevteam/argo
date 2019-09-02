@@ -51,7 +51,7 @@ class RightsGranted(es.InnerDoc):
     dateStart = es.Date()
     dateEnd = es.Date()
     restriction = es.Text()
-    notes = es.Object(Note)
+    notes = es.Nested(Note)
 
 
 class RightsStatement(es.InnerDoc):
@@ -87,8 +87,8 @@ class Collection(es.Document):
     level = es.Text(fields={'keyword': es.Keyword()})
     dates = es.Object(Date)
     languages = es.Object(Language)
-    extents = es.Nested(Extent)
     notes = es.Nested(Note)
+    extents = es.Nested(Extent)
     rights_statements = es.Nested(RightsStatement)
     external_identifiers = es.Nested(ExternalIdentifier)
     agents = es.Nested(Reference)
