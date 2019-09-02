@@ -83,7 +83,6 @@ class URISerializer(serializers.Serializer):
 class BaseListSerializer(serializers.Serializer):
     uri = serializers.SerializerMethodField()
     title = serializers.CharField()
-    dates = DateSerializer(many=True)
 
     def get_uri(self, obj):
         try:
@@ -96,7 +95,6 @@ class BaseDetailSerializer(serializers.Serializer):
     id = serializers.CharField()
     title = serializers.CharField()
     type = serializers.CharField()
-    dates = DateSerializer(many=True)
     external_identifiers = ExternalIdentifierSerializer(many=True)
 
 
@@ -112,6 +110,7 @@ class CollectionSerializer(BaseDetailSerializer):
     level = serializers.CharField()
     languages = LanguageSerializer(many=True)
     extents = ExtentSerializer(many=True)
+    dates = DateSerializer(many=True)
     notes = NoteSerializer(many=True, allow_null=True)
     rights_statements = RightsStatementSerializer(many=True, allow_null=True)
     agents = URISerializer(many=True, allow_null=True)
@@ -127,6 +126,7 @@ class CollectionListSerializer(BaseListSerializer): pass
 class ObjectSerializer(BaseDetailSerializer):
     languages = LanguageSerializer(many=True)
     extents = ExtentSerializer(many=True)
+    dates = DateSerializer(many=True)
     notes = NoteSerializer(many=True, allow_null=True)
     rights_statements = RightsStatementSerializer(many=True, allow_null=True)
     agents = URISerializer(many=True, allow_null=True)
