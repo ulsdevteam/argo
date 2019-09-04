@@ -25,13 +25,13 @@ TYPE_MAP = (
 
 class TestAPI(TestCase):
     def setUp(self):
-        self.validate_fixtures()
         self.factory = APIRequestFactory()
         connections.create_connection(hosts=settings.ELASTICSEARCH_DSL['default']['hosts'], timeout=60)
         for cls in [Agent, Collection, Object, Term]:
             cls.init()
 
     def validate_fixtures(self):
+        print("Validating fixtures")
         with open(os.path.join(settings.BASE_DIR, 'rac-data-model', 'schema.json')) as sf:
             schema = json.load(sf)
             for dir in os.listdir(os.path.join(settings.BASE_DIR, 'fixtures')):
@@ -136,6 +136,7 @@ class TestAPI(TestCase):
                          for document {}".format(basename, viewset, pk))
 
     def test_documents(self):
+        self.validate_fixtures()
         for t in TYPE_MAP:
             added_ids = self.index_fixture_data('fixtures/{}'.format(t[0]), t[1])
             Index(name=t[0]).refresh()

@@ -93,9 +93,9 @@ class BaseDetailSerializer(serializers.Serializer):
 
 class AgentSerializer(BaseDetailSerializer):
     description = serializers.CharField(allow_null=True)
-    notes = NoteSerializer(many=True)
-    collections = ReferenceSerializer(many=True)
-    objects = ReferenceSerializer(many=True)
+    notes = NoteSerializer(many=True, allow_null=True)
+    collections = ReferenceSerializer(many=True, allow_null=True)
+    objects = ReferenceSerializer(many=True, allow_null=True)
 
 
 class AgentListSerializer(BaseListSerializer): pass
@@ -111,8 +111,8 @@ class CollectionSerializer(BaseDetailSerializer):
     agents = ReferenceSerializer(many=True, allow_null=True)
     creators = ReferenceSerializer(many=True, allow_null=True)
     terms = ReferenceSerializer(many=True, allow_null=True)
-    ancestors = ReferenceSerializer(allow_null=True)
-    children = ReferenceSerializer(allow_null=True)
+    ancestors = ReferenceSerializer(many=True, allow_null=True)
+    children = ReferenceSerializer(many=True, allow_null=True)
 
 
 class CollectionListSerializer(BaseListSerializer): pass
@@ -126,15 +126,15 @@ class ObjectSerializer(BaseDetailSerializer):
     rights_statements = RightsStatementSerializer(many=True, allow_null=True)
     agents = ReferenceSerializer(many=True, allow_null=True)
     terms = ReferenceSerializer(many=True, allow_null=True)
-    ancestors = ReferenceSerializer(allow_null=True)
+    ancestors = ReferenceSerializer(many=True, allow_null=True)
 
 
 class ObjectListSerializer(BaseListSerializer): pass
 
 
 class TermSerializer(BaseDetailSerializer):
-    collections = ReferenceSerializer(many=True)
-    objects = ReferenceSerializer(many=True)
+    collections = ReferenceSerializer(many=True, allow_null=True)
+    objects = ReferenceSerializer(many=True, allow_null=True)
 
 
 class TermListSerializer(BaseListSerializer): pass

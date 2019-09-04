@@ -71,7 +71,7 @@ class RightsGranted(es.InnerDoc):
     begin = es.Date(required=True)
     end = es.Date(required=True)
     restriction = es.Text(required=True)
-    notes = es.Nested(Note, required=True)
+    notes = es.Nested(Note)
 
 
 class RightsStatement(es.InnerDoc):
