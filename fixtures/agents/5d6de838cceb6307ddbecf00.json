@@ -1,0 +1,37 @@
+{
+  "id": "5d6de838cceb6307ddbecf00",
+  "title": "Hewitt Foundation",
+  "type": "organization",
+  "description": "Non veniam est in exercitation duis occaecat cupidatat id ut irure ut irure. Lorem anim aute culpa sit voluptate esse ea et. Do amet amet reprehenderit adipisicing pariatur veniam Lorem enim et sint laborum. Dolor deserunt excepteur cillum ipsum qui eiusmod laborum tempor. Dolore fugiat ex exercitation labore consectetur dolore ut excepteur exercitation nulla velit eu magna amet.",
+  "dates": [
+    {
+      "begin": "1936-07-28",
+      "end": "1985-02-15",
+      "expression": "Jul 28th, 1936 - Feb 15th, 1985",
+      "type": "single",
+      "label": "publication"
+    }
+  ],
+  "notes": [
+    {
+      "type": "scopecontent",
+      "title": "mollit occaecat laborum",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "ullamco nulla in excepteur id irure",
+            "dolor adipisicing nisi do proident duis"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/<SyntaxError: missing ) after argument list>"
+    }
+  ]
+}

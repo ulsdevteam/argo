@@ -1,0 +1,47 @@
+{
+  "id": "5d6de827497d4bc15a555ca4",
+  "title": "Banks Skinner",
+  "type": "person",
+  "description": "Consequat tempor deserunt Lorem nostrud cillum qui nulla anim amet aliqua excepteur aliqua ea. Irure adipisicing id eiusmod et proident non dolor tempor esse et veniam. Do in laboris amet est dolore. Elit in ex nostrud mollit.",
+  "dates": [
+    {
+      "begin": "1918-04-25",
+      "end": "1962-10-08",
+      "expression": "Apr 25th, 1918 - Oct 8th, 1962",
+      "type": "bulk",
+      "label": "broadcast"
+    }
+  ],
+  "notes": [
+    {
+      "type": "physfacet",
+      "title": "occaecat dolor elit",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "commodo sint ut dolore esse ullamco",
+            "occaecat ipsum dolore ad labore eiusmod",
+            "laborum cillum ipsum sint et eiusmod"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "mollit mollit nisi tempor elit fugiat",
+            "amet tempor proident culpa dolor cupidatat",
+            "magna velit quis ullamco excepteur duis",
+            "ipsum elit est eiusmod nostrud dolor"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_person/<SyntaxError: missing ) after argument list>"
+    }
+  ]
+}

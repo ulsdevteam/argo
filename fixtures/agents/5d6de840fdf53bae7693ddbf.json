@@ -1,0 +1,36 @@
+{
+  "id": "5d6de840fdf53bae7693ddbf",
+  "title": "Good family",
+  "type": "family",
+  "description": "Nulla occaecat cillum laborum mollit sit reprehenderit ex Lorem velit. Qui incididunt aliquip id nisi magna consequat ea ipsum labore laboris ex quis. Magna non consequat mollit irure ipsum quis.",
+  "dates": [
+    {
+      "begin": "1943-03-07",
+      "end": "1992-11-20",
+      "expression": "Mar 7th, 1943 - Nov 20th, 1992",
+      "type": "bulk",
+      "label": "copyright"
+    }
+  ],
+  "notes": [
+    {
+      "type": "bioghist",
+      "title": "deserunt mollit sunt",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "aliquip culpa culpa minim adipisicing eu"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/<SyntaxError: missing ) after argument list>"
+    }
+  ]
+}

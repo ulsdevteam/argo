@@ -1,0 +1,59 @@
+{
+  "id": "5d6de84077318e54a9ee46e2",
+  "title": "Sparks family",
+  "type": "family",
+  "description": "Officia ipsum eu sunt exercitation occaecat eiusmod sit sint reprehenderit nisi veniam occaecat. Do esse excepteur tempor do culpa aute. Dolore labore duis commodo fugiat excepteur duis qui velit ut fugiat. Excepteur adipisicing est sint incididunt enim exercitation magna adipisicing eu esse commodo. Adipisicing nostrud elit id aliqua consequat aute et mollit consequat exercitation.",
+  "dates": [
+    {
+      "begin": "1942-08-08",
+      "end": "1984-01-23",
+      "expression": "Aug 8th, 1942 - Jan 23rd, 1984",
+      "type": "single",
+      "label": "digitized"
+    }
+  ],
+  "notes": [
+    {
+      "type": "rights_statement",
+      "title": "esse nostrud anim",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "fugiat ipsum deserunt laboris duis sunt",
+            "culpa consequat commodo voluptate consectetur fugiat",
+            "laborum pariatur est eu exercitation reprehenderit"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "laboris veniam in dolore ex occaecat",
+            "ut irure elit magna fugiat commodo",
+            "ea eu amet cillum sit ut"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "extent",
+      "title": "laborum velit reprehenderit",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "qui exercitation ex ea proident duis"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/<SyntaxError: missing ) after argument list>"
+    }
+  ]
+}

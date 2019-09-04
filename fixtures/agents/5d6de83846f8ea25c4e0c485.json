@@ -1,0 +1,85 @@
+{
+  "id": "5d6de83846f8ea25c4e0c485",
+  "title": "Browning Foundation",
+  "type": "organization",
+  "description": "Velit incididunt Lorem et amet incididunt dolore nisi amet. Irure magna cillum adipisicing mollit ad ipsum. Sit eu exercitation tempor occaecat ipsum.",
+  "dates": [
+    {
+      "begin": "1947-04-10",
+      "end": "1993-03-03",
+      "expression": "Apr 10th, 1947 - Mar 3rd, 1993",
+      "type": "single",
+      "label": "copyright"
+    },
+    {
+      "begin": "1955-12-03",
+      "end": "1985-09-07",
+      "expression": "Dec 3rd, 1955 - Sep 7th, 1985",
+      "type": "inclusive",
+      "label": "deaccession"
+    }
+  ],
+  "notes": [
+    {
+      "type": "extension",
+      "title": "laborum velit sunt",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "in Lorem aliquip consequat cillum pariatur",
+            "minim dolore culpa dolore ut velit",
+            "esse ex aute fugiat enim tempor",
+            "esse nostrud sint velit occaecat velit",
+            "sunt non ea ut commodo nulla"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "dolore fugiat sit nostrud fugiat dolor",
+            "et duis deserunt enim veniam aliquip"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "physdesc",
+      "title": "ea aliquip incididunt",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "consequat dolore labore eiusmod duis nisi",
+            "enim veniam ullamco quis consequat excepteur"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "duis magna ea pariatur tempor et",
+            "esse tempor quis occaecat amet minim",
+            "amet ut ullamco labore consequat ipsum",
+            "fugiat sint ipsum ad sunt amet"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "veniam voluptate tempor proident cupidatat magna",
+            "esse occaecat ad laboris id elit",
+            "id tempor in sint Lorem do"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/<SyntaxError: missing ) after argument list>"
+    }
+  ]
+}

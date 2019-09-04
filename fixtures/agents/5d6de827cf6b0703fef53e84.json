@@ -1,0 +1,46 @@
+{
+  "id": "5d6de827cf6b0703fef53e84",
+  "title": "Vera Huffman",
+  "type": "person",
+  "description": "Anim mollit laborum incididunt duis velit. Commodo fugiat ipsum magna laborum mollit sunt. Non aliqua sit amet id esse consectetur in. Deserunt mollit quis officia ullamco ipsum sit mollit labore nulla tempor incididunt esse. Est et sunt aliqua duis Lorem enim amet veniam.",
+  "dates": [
+    {
+      "begin": "1917-03-24",
+      "end": "2016-05-10",
+      "expression": "Mar 24th, 1917 - May 10th, 2016",
+      "type": "single",
+      "label": "usage"
+    }
+  ],
+  "notes": [
+    {
+      "type": "fileplan",
+      "title": "nisi eu dolore",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "veniam duis commodo ullamco mollit ad",
+            "labore qui laboris ut reprehenderit exercitation"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "in veniam fugiat tempor eiusmod veniam",
+            "mollit cillum labore cupidatat adipisicing sunt",
+            "aute irure cillum sunt consequat laboris",
+            "nostrud in id labore tempor ullamco"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_person/<SyntaxError: missing ) after argument list>"
+    }
+  ]
+}

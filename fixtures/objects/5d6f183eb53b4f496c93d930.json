@@ -1,0 +1,340 @@
+{
+  "id": "5d6f183eb53b4f496c93d930",
+  "title": "Adipisicing proident dolore culpa sint cillum ut dolore deserunt dolore cupidatat non.",
+  "type": "object",
+  "dates": [
+    {
+      "begin": "1938-07-06",
+      "end": "2009-10-18",
+      "expression": "Jul 6th, 1938 - Oct 18th, 2009",
+      "type": "inclusive",
+      "label": "publication"
+    }
+  ],
+  "extents": [
+    {
+      "value": 18.53,
+      "type": "megabytes"
+    },
+    {
+      "value": 41.53,
+      "type": "terabytes"
+    }
+  ],
+  "notes": [
+    {
+      "type": "physfacet",
+      "title": "occaecat culpa nostrud",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "aliquip in adipisicing minim officia est",
+            "officia est nisi amet et est",
+            "proident reprehenderit aute tempor do ut",
+            "nostrud incididunt mollit velit adipisicing adipisicing"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "type_note",
+      "title": "occaecat cillum voluptate",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "adipisicing ullamco et Lorem nulla labore"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "incididunt magna voluptate nostrud cillum ut"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "fugiat magna quis excepteur enim ipsum",
+            "incididunt velit anim ex incididunt sit",
+            "nulla cupidatat proident laborum ullamco adipisicing",
+            "velit irure eiusmod id qui labore",
+            "nostrud excepteur esse non non nostrud"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "processinfo",
+      "title": "anim qui ut",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "excepteur sit fugiat nulla ut eu"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "nostrud quis magna est reprehenderit ex"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "irure laboris mollit cillum aliqua aliqua",
+            "elit nulla cillum et commodo ullamco"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "expiration",
+      "title": "adipisicing et culpa",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "consectetur in excepteur id laboris labore",
+            "dolore laborum ad exercitation laboris dolore"
+          ]
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/3"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/19"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/25"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/9"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/27"
+        }
+      ]
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/26"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/6"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/26"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "expression": "Esperanto",
+      "identifier": "eng"
+    },
+    {
+      "expression": "Esperanto",
+      "identifier": "spa"
+    }
+  ],
+  "rights_statements": [
+    {
+      "id": "5d6f183eb616f1da24b096c2",
+      "determination_date": "2019-09-04",
+      "type": "rights_statement",
+      "rights_type": "other",
+      "rights_status": "public domain",
+      "begin": "2019-09-04",
+      "end": "2019-09-04",
+      "copyright_status": "copyrighted",
+      "other_basis": "qui",
+      "jurisdiction": "CN",
+      "notes": [],
+      "rights_granted": [
+        {
+          "act": "delete",
+          "begin": "2019-09-04",
+          "end": "2019-09-04",
+          "restriction": "allow",
+          "notes": [
+            {
+              "type": "additional_information",
+              "title": "enim incididunt officia",
+              "source": "wikipedia",
+              "subnotes": [
+                {
+                  "type": "orderedlist",
+                  "content": [
+                    "occaecat deserunt anim occaecat incididunt adipisicing",
+                    "id elit commodo consectetur veniam adipisicing",
+                    "ut velit sunt consequat sit voluptate",
+                    "in culpa proident non laboris enim",
+                    "id dolore minim quis proident exercitation"
+                  ]
+                },
+                {
+                  "type": "orderedlist",
+                  "content": [
+                    "ex cillum esse et duis eu",
+                    "fugiat duis do nulla cillum exercitation",
+                    "nostrud amet laborum officia incididunt pariatur",
+                    "et culpa est aute elit fugiat"
+                  ]
+                },
+                {
+                  "type": "definedlist",
+                  "content": [
+                    "aliquip consequat officia ea id laborum",
+                    "id culpa consectetur culpa aute dolore"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "act": "replicate",
+          "begin": "2019-09-04",
+          "end": "2019-09-04",
+          "restriction": "allow",
+          "notes": [
+            {
+              "type": "rights_statement_act",
+              "title": "anim magna non",
+              "source": "cartographer",
+              "subnotes": [
+                {
+                  "type": "orderedlist",
+                  "content": [
+                    "ex officia exercitation velit cupidatat sint",
+                    "Lorem proident in nisi sit sint",
+                    "sint anim voluptate ea do id",
+                    "ut ipsum quis ut quis et"
+                  ]
+                },
+                {
+                  "type": "definedlist",
+                  "content": [
+                    "nisi deserunt esse voluptate velit cillum",
+                    "consequat nisi irure dolor commodo est"
+                  ]
+                },
+                {
+                  "type": "text",
+                  "content": [
+                    "esse aute sint in duis eu",
+                    "aute ut do in deserunt adipisicing",
+                    "reprehenderit tempor reprehenderit excepteur consequat ea",
+                    "non consectetur voluptate labore pariatur laborum"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5d6f183e8648b59253c07de6",
+      "determination_date": "2019-09-04",
+      "type": "rights_statement",
+      "rights_type": "statute",
+      "rights_status": "unknown",
+      "begin": "2019-09-04",
+      "end": "2019-09-04",
+      "copyright_status": "unknown",
+      "other_basis": "consectetur",
+      "jurisdiction": "US",
+      "notes": [
+        {
+          "type": "rights_statement",
+          "title": "officia sint qui",
+          "source": "wikipedia",
+          "subnotes": [
+            {
+              "type": "orderedlist",
+              "content": [
+                "in et et esse nulla id",
+                "proident dolore commodo excepteur ut voluptate"
+              ]
+            }
+          ]
+        }
+      ],
+      "rights_granted": [
+        {
+          "act": "disseminate",
+          "begin": "2019-09-04",
+          "end": "2019-09-04",
+          "restriction": "disallow",
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/38"
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/11"
+    }
+  ]
+}

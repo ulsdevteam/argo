@@ -1,0 +1,57 @@
+{
+  "id": "5d6de8382ead48d59a23ce47",
+  "title": "Mayer Foundation",
+  "type": "organization",
+  "description": "Fugiat enim veniam deserunt ullamco duis nulla fugiat. Ullamco duis aliquip magna excepteur commodo magna aliqua non in fugiat esse nulla incididunt amet. Id tempor non laborum in ex esse irure reprehenderit anim labore anim aliqua labore occaecat. Nisi cupidatat dolore est reprehenderit. Adipisicing proident laboris in anim dolor veniam adipisicing consectetur anim laborum culpa qui.",
+  "dates": [
+    {
+      "begin": "1925-07-24",
+      "end": "1985-03-21",
+      "expression": "Jul 24th, 1925 - Mar 21st, 1985",
+      "type": "single",
+      "label": "usage"
+    }
+  ],
+  "notes": [
+    {
+      "type": "accruals",
+      "title": "ipsum velit anim",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "eiusmod proident occaecat irure qui fugiat",
+            "voluptate qui cillum reprehenderit elit ut",
+            "magna mollit proident ad exercitation ea"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "sunt amet minim qui velit in"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "relatedmaterial",
+      "title": "duis quis deserunt",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "consectetur adipisicing exercitation enim cillum nostrud"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/<SyntaxError: missing ) after argument list>"
+    }
+  ]
+}

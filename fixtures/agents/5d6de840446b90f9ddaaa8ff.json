@@ -1,0 +1,84 @@
+{
+  "id": "5d6de840446b90f9ddaaa8ff",
+  "title": "Boone family",
+  "type": "family",
+  "description": "Amet nostrud duis deserunt duis eiusmod exercitation tempor irure voluptate officia pariatur. Sit commodo do enim nulla aliquip proident tempor reprehenderit minim. Veniam exercitation tempor occaecat elit aliquip fugiat pariatur officia voluptate veniam velit amet. Ipsum mollit consequat enim dolore cillum culpa. Elit consequat velit incididunt sit pariatur consectetur occaecat. Veniam consectetur laboris exercitation pariatur aliquip sunt aliquip. Commodo veniam laborum duis labore exercitation consectetur exercitation officia.",
+  "dates": [
+    {
+      "begin": "1955-07-27",
+      "end": "2016-08-03",
+      "expression": "Jul 27th, 1955 - Aug 3rd, 2016",
+      "type": "inclusive",
+      "label": "issued"
+    }
+  ],
+  "notes": [
+    {
+      "type": "index",
+      "title": "minim sunt ipsum",
+      "source": "archivesspace",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "occaecat fugiat nulla dolore amet ullamco",
+            "occaecat cillum deserunt consectetur cupidatat laborum",
+            "labore ex est proident amet voluptate"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "aliqua Lorem ex cupidatat voluptate nisi",
+            "aliqua aliqua adipisicing fugiat aute ut",
+            "deserunt esse fugiat reprehenderit tempor magna",
+            "commodo commodo voluptate sint nostrud enim"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "excepteur dolore et id ex et",
+            "cillum eiusmod ut reprehenderit laborum aute",
+            "minim cupidatat irure aute nisi amet"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "materials",
+      "title": "consectetur nulla incididunt",
+      "source": "archivesspace",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "pariatur fugiat dolor enim non amet"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "elit qui duis sit tempor ea"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "pariatur ullamco ipsum reprehenderit ex laborum",
+            "ipsum exercitation elit exercitation fugiat proident",
+            "eu nisi aute et cupidatat ipsum",
+            "in adipisicing minim laborum eu sint",
+            "duis cillum amet fugiat mollit et"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/<SyntaxError: missing ) after argument list>"
+    }
+  ]
+}

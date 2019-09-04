@@ -1,0 +1,71 @@
+{
+  "id": "5d6de8405c8c63d1bb51834e",
+  "title": "Estes family",
+  "type": "family",
+  "description": "Nulla duis eiusmod qui incididunt ipsum exercitation aliquip adipisicing irure ut qui. Adipisicing quis aliquip ex in cillum id excepteur deserunt ad. Pariatur anim velit duis duis est deserunt commodo laborum aliqua officia consequat dolor.",
+  "dates": [
+    {
+      "begin": "1957-11-01",
+      "end": "1985-03-07",
+      "expression": "Nov 1st, 1957 - Mar 7th, 1985",
+      "type": "inclusive",
+      "label": "other"
+    }
+  ],
+  "notes": [
+    {
+      "type": "phystech",
+      "title": "adipisicing consectetur quis",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "quis mollit qui esse non esse"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "inscription",
+      "title": "anim excepteur cupidatat",
+      "source": "archivesspace",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "sunt reprehenderit in irure eiusmod excepteur",
+            "ea amet esse consectetur id officia",
+            "in duis amet ad aliquip veniam",
+            "sunt ad voluptate enim dolor ipsum",
+            "sunt aute excepteur veniam excepteur ea"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "nostrud qui fugiat ex do nisi",
+            "duis mollit duis quis laborum esse",
+            "enim reprehenderit ea sit est ut",
+            "ut culpa minim culpa occaecat nisi",
+            "sit qui id ad aute Lorem"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "irure cillum do id qui velit",
+            "minim amet anim fugiat fugiat minim",
+            "occaecat reprehenderit mollit ad ad mollit"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/<SyntaxError: missing ) after argument list>"
+    }
+  ]
+}

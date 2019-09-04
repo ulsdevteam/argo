@@ -1,0 +1,54 @@
+{
+  "id": "5d6de838e9cf857ebafaea77",
+  "title": "Moran Foundation",
+  "type": "organization",
+  "description": "Aute deserunt fugiat ipsum sunt magna proident ullamco officia. Dolore ullamco ad non minim sit Lorem sunt minim officia non. Elit ut mollit commodo ad sit labore id cupidatat labore occaecat occaecat. Excepteur mollit exercitation sit esse velit laborum eiusmod exercitation minim.",
+  "dates": [
+    {
+      "begin": "1936-11-24",
+      "end": "1998-12-18",
+      "expression": "Nov 24th, 1936 - Dec 18th, 1998",
+      "type": "bulk",
+      "label": "broadcast"
+    }
+  ],
+  "notes": [
+    {
+      "type": "langmaterial",
+      "title": "pariatur nostrud adipisicing",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "consectetur laborum ullamco aliquip consectetur esse",
+            "magna nisi eu laborum excepteur eu",
+            "ullamco fugiat irure in quis dolor",
+            "incididunt reprehenderit eu laboris ullamco sint"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "extent",
+      "title": "eu aute veniam",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "deserunt mollit et magna nostrud et",
+            "incididunt ullamco dolor laboris nulla nostrud",
+            "cillum ad velit reprehenderit nulla ea"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/<SyntaxError: missing ) after argument list>"
+    }
+  ]
+}

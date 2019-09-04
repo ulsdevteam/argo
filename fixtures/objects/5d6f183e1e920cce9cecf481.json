@@ -1,0 +1,155 @@
+{
+  "id": "5d6f183e1e920cce9cecf481",
+  "title": "Enim laborum adipisicing ut consectetur laborum tempor nulla magna sunt nisi.",
+  "type": "object",
+  "dates": [
+    {
+      "begin": "1920-11-03",
+      "end": "2005-08-22",
+      "expression": "Nov 3rd, 1920 - Aug 22nd, 2005",
+      "type": "single",
+      "label": "event"
+    }
+  ],
+  "extents": [
+    {
+      "value": 89.06,
+      "type": "terabytes"
+    },
+    {
+      "value": 74.03,
+      "type": "sheets"
+    }
+  ],
+  "notes": [],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/7"
+        }
+      ]
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/27"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "expression": "English",
+      "identifier": "eng"
+    }
+  ],
+  "rights_statements": [
+    {
+      "id": "5d6f183ec052aea2633afa57",
+      "determination_date": "2019-09-04",
+      "type": "rights_statement",
+      "rights_type": "license",
+      "rights_status": "unknown",
+      "begin": "2019-09-04",
+      "end": "2019-09-04",
+      "copyright_status": "public domain",
+      "other_basis": "enim",
+      "jurisdiction": "CN",
+      "notes": [],
+      "rights_granted": [
+        {
+          "act": "replicate",
+          "begin": "2019-09-04",
+          "end": "2019-09-04",
+          "restriction": "allow",
+          "notes": []
+        },
+        {
+          "act": "modify",
+          "begin": "2019-09-04",
+          "end": "2019-09-04",
+          "restriction": "disallow",
+          "notes": []
+        }
+      ]
+    },
+    {
+      "id": "5d6f183e1d593b9a667d6b48",
+      "determination_date": "2019-09-04",
+      "type": "rights_statement",
+      "rights_type": "license",
+      "rights_status": "public domain",
+      "begin": "2019-09-04",
+      "end": "2019-09-04",
+      "copyright_status": "public domain",
+      "other_basis": "anim",
+      "jurisdiction": "CN",
+      "notes": [],
+      "rights_granted": [
+        {
+          "act": "delete",
+          "begin": "2019-09-04",
+          "end": "2019-09-04",
+          "restriction": "disallow",
+          "notes": [
+            {
+              "type": "type_note",
+              "title": "adipisicing aliqua nisi",
+              "source": "cartographer",
+              "subnotes": [
+                {
+                  "type": "definedlist",
+                  "content": [
+                    "eu culpa cupidatat duis minim tempor",
+                    "magna reprehenderit cupidatat sit pariatur esse",
+                    "officia exercitation Lorem eu laboris quis",
+                    "exercitation in veniam irure voluptate amet",
+                    "amet esse id labore occaecat ut"
+                  ]
+                },
+                {
+                  "type": "text",
+                  "content": [
+                    "mollit pariatur eiusmod mollit non qui",
+                    "tempor ipsum sit anim magna voluptate",
+                    "ex dolore anim commodo in aliquip",
+                    "ipsum esse amet dolore est amet",
+                    "anim id veniam id qui veniam"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "act": "modify",
+          "begin": "2019-09-04",
+          "end": "2019-09-04",
+          "restriction": "allow",
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/25"
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/10"
+    }
+  ]
+}

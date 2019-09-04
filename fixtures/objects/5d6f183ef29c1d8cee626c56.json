@@ -1,0 +1,210 @@
+{
+  "id": "5d6f183ef29c1d8cee626c56",
+  "title": "Et eu fugiat cupidatat et.",
+  "type": "object",
+  "dates": [
+    {
+      "begin": "1937-08-16",
+      "end": "1992-04-24",
+      "expression": "Aug 16th, 1937 - Apr 24th, 1992",
+      "type": "bulk",
+      "label": "copyright"
+    }
+  ],
+  "extents": [
+    {
+      "value": 52.99,
+      "type": "gigabytes"
+    },
+    {
+      "value": 88.04,
+      "type": "record cartons"
+    }
+  ],
+  "notes": [
+    {
+      "type": "arrangement",
+      "title": "nisi veniam commodo",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "est nostrud esse officia qui nulla",
+            "esse sit fugiat dolor enim adipisicing",
+            "nisi adipisicing deserunt cupidatat qui deserunt",
+            "irure reprehenderit aute nostrud aliqua occaecat",
+            "laboris consectetur mollit in cupidatat aliquip"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "inscription",
+      "title": "minim eiusmod aliquip",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "commodo veniam sint minim enim magna",
+            "exercitation amet proident minim in amet",
+            "non enim mollit ipsum consequat officia"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "sunt ut officia pariatur aliqua tempor"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "legalstatus",
+      "title": "culpa amet sunt",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "velit cupidatat reprehenderit aliquip dolore nostrud",
+            "et occaecat incididunt fugiat veniam cupidatat",
+            "elit fugiat nulla in aliquip in"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "commodo duis aliquip non incididunt qui",
+            "enim velit pariatur commodo amet exercitation",
+            "occaecat velit est eu laboris pariatur",
+            "tempor quis nostrud magna laboris amet",
+            "tempor nulla minim duis ex mollit"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "irure do nisi dolore voluptate esse"
+          ]
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/5"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/20"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/42"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/49"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/49"
+        }
+      ]
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/28"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/32"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/11"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/8"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/39"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "expression": "English",
+      "identifier": "epo"
+    }
+  ],
+  "rights_statements": [],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/19"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/11"
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/49"
+    }
+  ]
+}

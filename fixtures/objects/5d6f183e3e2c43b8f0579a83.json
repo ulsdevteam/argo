@@ -1,0 +1,116 @@
+{
+  "id": "5d6f183e3e2c43b8f0579a83",
+  "title": "Aliquip dolore sint id magna cupidatat officia ut officia occaecat est aute.",
+  "type": "object",
+  "dates": [
+    {
+      "begin": "1935-08-04",
+      "end": "1980-05-27",
+      "expression": "Aug 4th, 1935 - May 27th, 1980",
+      "type": "inclusive",
+      "label": "other"
+    }
+  ],
+  "extents": [
+    {
+      "value": 52.74,
+      "type": "gigabytes"
+    }
+  ],
+  "notes": [
+    {
+      "type": "otherfindaid",
+      "title": "non qui labore",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "voluptate commodo duis aute excepteur culpa",
+            "Lorem cillum incididunt elit exercitation fugiat",
+            "elit veniam fugiat ut sint nisi",
+            "reprehenderit incididunt sit id dolor adipisicing",
+            "ullamco adipisicing officia nostrud voluptate ex"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "anim aliqua elit do sunt est",
+            "occaecat do amet aliquip consectetur voluptate",
+            "aute occaecat laborum deserunt nisi deserunt"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "cillum ex culpa dolore sunt aliquip"
+          ]
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/49"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/21"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/4"
+        }
+      ]
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/11"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "expression": "Esperanto",
+      "identifier": "epo"
+    },
+    {
+      "expression": "Spanish",
+      "identifier": "spa"
+    }
+  ],
+  "rights_statements": [],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/26"
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/39"
+    }
+  ]
+}

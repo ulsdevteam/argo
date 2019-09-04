@@ -1,0 +1,52 @@
+{
+  "id": "5d6de838765be3ef5d7a3bcf",
+  "title": "Colon Foundation",
+  "type": "organization",
+  "description": "Labore elit mollit veniam elit tempor est cupidatat occaecat. Irure nostrud est sint tempor qui est dolor ea cupidatat pariatur. Nulla fugiat excepteur do amet tempor exercitation non amet aliqua sunt ipsum proident nostrud anim. Ullamco veniam in occaecat velit id. Labore exercitation adipisicing aliqua esse eu fugiat commodo et.",
+  "dates": [
+    {
+      "begin": "1920-06-05",
+      "end": "2012-03-11",
+      "expression": "Jun 5th, 1920 - Mar 11th, 2012",
+      "type": "bulk",
+      "label": "deaccession"
+    },
+    {
+      "begin": "1931-12-23",
+      "end": "1979-03-14",
+      "expression": "Dec 23rd, 1931 - Mar 14th, 1979",
+      "type": "single",
+      "label": "broadcast"
+    }
+  ],
+  "notes": [
+    {
+      "type": "separatedmaterial",
+      "title": "id proident incididunt",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "eu cupidatat irure duis anim sit",
+            "anim amet esse duis commodo laboris",
+            "elit aliqua esse in aliquip deserunt"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "cupidatat eu commodo occaecat eiusmod tempor",
+            "labore incididunt nulla exercitation pariatur amet"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/<SyntaxError: missing ) after argument list>"
+    }
+  ]
+}

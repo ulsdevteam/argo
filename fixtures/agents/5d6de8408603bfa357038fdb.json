@@ -1,0 +1,72 @@
+{
+  "id": "5d6de8408603bfa357038fdb",
+  "title": "Rice family",
+  "type": "family",
+  "description": "Elit adipisicing consectetur sunt quis ut ut. Commodo amet labore excepteur ipsum ullamco non mollit proident. Eiusmod culpa irure magna deserunt sit adipisicing. Non fugiat deserunt eu enim qui fugiat minim excepteur. Est enim labore laboris laboris velit occaecat. Anim aliquip adipisicing Lorem veniam velit est sunt et incididunt ea non ipsum.",
+  "dates": [
+    {
+      "begin": "1930-02-19",
+      "end": "1973-09-02",
+      "expression": "Feb 19th, 1930 - Sep 2nd, 1973",
+      "type": "bulk",
+      "label": "usage"
+    },
+    {
+      "begin": "1920-08-23",
+      "end": "1992-02-10",
+      "expression": "Aug 23rd, 1920 - Feb 10th, 1992",
+      "type": "inclusive",
+      "label": "existence"
+    }
+  ],
+  "notes": [
+    {
+      "type": "expiration",
+      "title": "fugiat deserunt voluptate",
+      "source": "archivesspace",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "aliqua velit sit cillum esse minim",
+            "nostrud commodo dolor mollit pariatur nulla",
+            "ullamco amet excepteur fugiat anim et"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "ipsum enim mollit in laboris labore",
+            "dolore dolore nisi fugiat sunt ad",
+            "qui proident duis commodo minim consectetur",
+            "aliquip labore irure quis nulla quis",
+            "aute laboris duis ut officia mollit"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "langmaterial",
+      "title": "fugiat anim eiusmod",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "dolor commodo non reprehenderit do officia",
+            "dolore elit elit aliquip et reprehenderit",
+            "velit enim do ex reprehenderit cupidatat",
+            "ea et labore occaecat sunt enim",
+            "laboris ut Lorem do non ut"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/<SyntaxError: missing ) after argument list>"
+    }
+  ]
+}

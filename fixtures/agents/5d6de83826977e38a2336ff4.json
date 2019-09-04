@@ -1,0 +1,72 @@
+{
+  "id": "5d6de83826977e38a2336ff4",
+  "title": "Hunter Foundation",
+  "type": "organization",
+  "description": "Sit officia cillum proident est eiusmod amet in ullamco non veniam. Laboris est sit magna commodo in non qui officia do. Et excepteur velit laborum duis exercitation ullamco ad. Excepteur voluptate ullamco incididunt deserunt proident sint proident incididunt pariatur culpa ex ut sit. Tempor ea excepteur nulla do.",
+  "dates": [
+    {
+      "begin": "1947-03-10",
+      "end": "2010-05-23",
+      "expression": "Mar 10th, 1947 - May 23rd, 2010",
+      "type": "inclusive",
+      "label": "broadcast"
+    },
+    {
+      "begin": "1913-05-20",
+      "end": "2010-11-16",
+      "expression": "May 20th, 1913 - Nov 16th, 2010",
+      "type": "bulk",
+      "label": "broadcast"
+    }
+  ],
+  "notes": [
+    {
+      "type": "accessrestrict",
+      "title": "sit consequat consequat",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "ad quis enim aliqua minim aliqua",
+            "dolore officia cupidatat fugiat ea excepteur",
+            "commodo voluptate ea velit nulla excepteur"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "eu mollit occaecat nisi nulla eu",
+            "laboris consectetur sint laborum aliqua consequat",
+            "minim aute dolore dolore occaecat duis",
+            "voluptate ad sit velit pariatur et",
+            "sint fugiat et aute laboris aute"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rights_statement_act",
+      "title": "eiusmod do exercitation",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "irure non sint ea eu enim",
+            "esse occaecat officia quis reprehenderit cillum",
+            "fugiat ea proident officia anim adipisicing",
+            "est dolore nulla officia aute irure",
+            "sunt ad ad sit do nulla"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/<SyntaxError: missing ) after argument list>"
+    }
+  ]
+}

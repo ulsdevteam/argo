@@ -1,0 +1,191 @@
+{
+  "id": "5d6f183e1284bf7abe64e466",
+  "title": "Do et aliqua minim enim consequat veniam commodo aliquip magna.",
+  "type": "object",
+  "dates": [
+    {
+      "begin": "1934-01-30",
+      "end": "1996-12-17",
+      "expression": "Jan 30th, 1934 - Dec 17th, 1996",
+      "type": "inclusive",
+      "label": "modified"
+    },
+    {
+      "begin": "1938-01-30",
+      "end": "1976-12-18",
+      "expression": "Jan 30th, 1938 - Dec 18th, 1976",
+      "type": "single",
+      "label": "existence"
+    }
+  ],
+  "extents": [
+    {
+      "value": 40.86,
+      "type": "leaves"
+    }
+  ],
+  "notes": [
+    {
+      "type": "separatedmaterial",
+      "title": "veniam cupidatat adipisicing",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "dolore cupidatat esse deserunt esse aute",
+            "deserunt do eiusmod quis exercitation incididunt",
+            "cillum magna ad velit sit cillum"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "anim esse cillum non enim sunt",
+            "magna sint magna dolor excepteur deserunt"
+          ]
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/1"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/35"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/5"
+        }
+      ]
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/27"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/9"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "expression": "Spanish",
+      "identifier": "spa"
+    }
+  ],
+  "rights_statements": [
+    {
+      "id": "5d6f183e46ea49f61d582d5c",
+      "determination_date": "2019-09-04",
+      "type": "rights_statement",
+      "rights_type": "other",
+      "rights_status": "public domain",
+      "begin": "2019-09-04",
+      "end": "2019-09-04",
+      "copyright_status": "unknown",
+      "other_basis": "Lorem",
+      "jurisdiction": "FR",
+      "notes": [],
+      "rights_granted": [
+        {
+          "act": "delete",
+          "begin": "2019-09-04",
+          "end": "2019-09-04",
+          "restriction": "allow",
+          "notes": []
+        },
+        {
+          "act": "modify",
+          "begin": "2019-09-04",
+          "end": "2019-09-04",
+          "restriction": "disallow",
+          "notes": [
+            {
+              "type": "permissions",
+              "title": "do sit aliquip",
+              "source": "wikipedia",
+              "subnotes": [
+                {
+                  "type": "orderedlist",
+                  "content": [
+                    "enim ad nisi aliquip dolor amet",
+                    "ut excepteur magna eu eiusmod reprehenderit",
+                    "dolore dolore ad non et ex"
+                  ]
+                },
+                {
+                  "type": "orderedlist",
+                  "content": [
+                    "nulla aute duis sit dolor adipisicing",
+                    "magna elit anim duis adipisicing reprehenderit",
+                    "enim magna ipsum proident aliquip fugiat",
+                    "duis exercitation est labore reprehenderit cillum"
+                  ]
+                },
+                {
+                  "type": "orderedlist",
+                  "content": [
+                    "fugiat non anim ad minim non",
+                    "officia et do ad labore consequat",
+                    "excepteur officia quis eiusmod proident est",
+                    "magna nostrud amet ut magna ad",
+                    "velit laboris nulla mollit nulla laboris"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/28"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/33"
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/16"
+    }
+  ]
+}

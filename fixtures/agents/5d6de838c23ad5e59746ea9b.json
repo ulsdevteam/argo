@@ -1,0 +1,70 @@
+{
+  "id": "5d6de838c23ad5e59746ea9b",
+  "title": "Cardenas Foundation",
+  "type": "organization",
+  "description": "Pariatur aute sit velit culpa. Culpa irure anim consequat ut et amet tempor esse deserunt. Culpa pariatur esse mollit qui eu amet incididunt commodo aliqua consequat occaecat. Elit laborum in ex ea ut est labore elit anim.",
+  "dates": [
+    {
+      "begin": "1924-12-30",
+      "end": "2006-06-03",
+      "expression": "Dec 30th, 1924 - Jun 3rd, 2006",
+      "type": "inclusive",
+      "label": "agent_relation"
+    },
+    {
+      "begin": "1929-11-20",
+      "end": "2010-02-27",
+      "expression": "Nov 20th, 1929 - Feb 27th, 2010",
+      "type": "single",
+      "label": "agent_relation"
+    }
+  ],
+  "notes": [
+    {
+      "type": "index",
+      "title": "consequat irure Lorem",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "amet aute nisi dolor sint ullamco",
+            "officia consectetur consequat occaecat occaecat sint"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "physdesc",
+      "title": "laboris sunt qui",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "anim est deserunt culpa aute ut",
+            "do reprehenderit proident tempor mollit irure",
+            "ullamco et commodo excepteur occaecat consectetur",
+            "ad sunt excepteur consequat mollit in"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "deserunt eiusmod deserunt laboris voluptate non",
+            "mollit eiusmod cupidatat ipsum ipsum laboris",
+            "sit labore quis mollit enim et",
+            "nostrud reprehenderit aliqua ea eiusmod ad",
+            "dolor quis velit adipisicing nisi veniam"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/<SyntaxError: missing ) after argument list>"
+    }
+  ]
+}

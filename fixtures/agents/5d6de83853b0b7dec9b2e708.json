@@ -1,0 +1,75 @@
+{
+  "id": "5d6de83853b0b7dec9b2e708",
+  "title": "Avery Foundation",
+  "type": "organization",
+  "description": "Ut laborum amet esse enim occaecat sunt labore aliqua est incididunt non. Elit sint exercitation tempor minim. In ea sint consequat proident amet. Ut aute minim sunt elit do ex duis ipsum. Magna proident commodo id mollit ipsum fugiat. Lorem qui reprehenderit ex ullamco.",
+  "dates": [
+    {
+      "begin": "1926-10-29",
+      "end": "2007-03-25",
+      "expression": "Oct 29th, 1926 - Mar 25th, 2007",
+      "type": "inclusive",
+      "label": "issued"
+    }
+  ],
+  "notes": [
+    {
+      "type": "materialspec",
+      "title": "commodo eiusmod deserunt",
+      "source": "archivesspace",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "veniam irure fugiat ipsum nulla ullamco",
+            "deserunt fugiat dolor commodo consectetur anim",
+            "sint eu proident amet veniam laboris"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "eu do nulla do minim ea"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bioghist",
+      "title": "excepteur sunt ea",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "ipsum aliqua non ut excepteur labore",
+            "et elit est tempor laboris quis"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "mollit non cupidatat consectetur minim do",
+            "sunt dolore non nulla esse excepteur",
+            "commodo dolor elit veniam sint ex"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "sint tempor excepteur commodo amet proident",
+            "deserunt amet Lorem dolore culpa anim",
+            "sunt do enim consectetur nisi fugiat",
+            "do enim esse in occaecat ullamco"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/<SyntaxError: missing ) after argument list>"
+    }
+  ]
+}

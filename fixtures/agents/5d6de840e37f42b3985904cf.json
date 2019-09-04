@@ -1,0 +1,45 @@
+{
+  "id": "5d6de840e37f42b3985904cf",
+  "title": "Boyd family",
+  "type": "family",
+  "description": "Ea sunt et consectetur anim sit aute aliqua consequat ea velit exercitation id. Incididunt deserunt ullamco nostrud sint duis occaecat eiusmod nisi do elit minim. Fugiat fugiat nostrud velit culpa. Nisi officia do labore velit minim ullamco qui quis aliquip deserunt.",
+  "dates": [
+    {
+      "begin": "1927-01-31",
+      "end": "2001-09-13",
+      "expression": "Jan 31st, 1927 - Sep 13th, 2001",
+      "type": "bulk",
+      "label": "issued"
+    }
+  ],
+  "notes": [
+    {
+      "type": "rights_statement_act",
+      "title": "minim elit irure",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "deserunt ullamco anim veniam nisi consequat",
+            "ullamco veniam cillum proident nisi officia",
+            "eiusmod aute laborum proident amet nostrud"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "officia nostrud reprehenderit cillum Lorem deserunt",
+            "voluptate pariatur ut aute anim ipsum"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/<SyntaxError: missing ) after argument list>"
+    }
+  ]
+}

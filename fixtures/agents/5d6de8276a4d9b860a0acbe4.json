@@ -1,0 +1,69 @@
+{
+  "id": "5d6de8276a4d9b860a0acbe4",
+  "title": "Mullen Kirby",
+  "type": "person",
+  "description": "Ex minim elit consectetur ad ea ex id officia ipsum irure ipsum ipsum elit aliqua. Id quis reprehenderit magna voluptate aute nostrud exercitation aliquip qui cillum quis consequat minim mollit. Officia aute deserunt qui elit mollit ea dolor ipsum pariatur. Ipsum ea ipsum culpa mollit sunt deserunt laborum mollit aliqua excepteur. Nulla Lorem officia laboris sit cillum. Sunt enim ipsum magna irure in quis Lorem pariatur consequat cupidatat Lorem quis cupidatat.",
+  "dates": [
+    {
+      "begin": "1928-03-04",
+      "end": "2014-09-17",
+      "expression": "Mar 4th, 1928 - Sep 17th, 2014",
+      "type": "single",
+      "label": "broadcast"
+    },
+    {
+      "begin": "1932-04-01",
+      "end": "2019-08-01",
+      "expression": "Apr 1st, 1932 - Aug 1st, 2019",
+      "type": "bulk",
+      "label": "modified"
+    }
+  ],
+  "notes": [
+    {
+      "type": "prefercite",
+      "title": "deserunt officia est",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "anim ea eu qui anim veniam"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "otherfindaid",
+      "title": "amet occaecat aliquip",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "minim nulla reprehenderit consequat quis velit",
+            "dolore ea ut velit adipisicing minim",
+            "nulla eiusmod culpa tempor velit amet",
+            "occaecat aliquip officia nostrud ullamco sit",
+            "deserunt elit Lorem non incididunt exercitation"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "irure incididunt officia cupidatat minim veniam",
+            "tempor ipsum ut irure eiusmod occaecat",
+            "labore cillum duis sint fugiat nostrud",
+            "aliquip ipsum fugiat ea cillum irure"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_person/<SyntaxError: missing ) after argument list>"
+    }
+  ]
+}

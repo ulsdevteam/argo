@@ -1,0 +1,72 @@
+{
+  "id": "5d6de8388daa96e4f81cd71a",
+  "title": "Cruz Foundation",
+  "type": "organization",
+  "description": "Aute culpa exercitation amet proident ipsum. Laboris veniam laborum qui nostrud id aute Lorem minim velit. Culpa fugiat laborum non minim reprehenderit. Laboris anim do culpa consectetur amet sint in cupidatat. Lorem commodo fugiat ex quis adipisicing dolor ullamco cillum ea esse.",
+  "dates": [
+    {
+      "begin": "1948-02-02",
+      "end": "2009-03-31",
+      "expression": "Feb 2nd, 1948 - Mar 31st, 2009",
+      "type": "bulk",
+      "label": "event"
+    }
+  ],
+  "notes": [
+    {
+      "type": "altformavail",
+      "title": "aliquip ipsum quis",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "culpa anim qui ex cupidatat anim",
+            "est anim veniam ex quis officia",
+            "veniam anim incididunt ut adipisicing qui",
+            "id laborum cillum cupidatat proident reprehenderit"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "originalsloc",
+      "title": "nulla fugiat quis",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "eiusmod ipsum ea in pariatur est",
+            "ea in dolor nostrud sunt veniam",
+            "anim in ut exercitation labore nulla",
+            "sint anim ad pariatur proident officia"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "quis ex proident cillum do pariatur",
+            "cupidatat non fugiat sit aliquip excepteur",
+            "ex sunt exercitation ullamco pariatur exercitation",
+            "labore aliquip mollit enim anim minim",
+            "aute amet nisi aliqua pariatur esse"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "sunt pariatur esse sit Lorem ipsum",
+            "nulla velit Lorem adipisicing consectetur velit"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/<SyntaxError: missing ) after argument list>"
+    }
+  ]
+}

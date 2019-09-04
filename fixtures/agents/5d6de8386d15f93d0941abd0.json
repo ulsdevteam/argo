@@ -1,0 +1,50 @@
+{
+  "id": "5d6de8386d15f93d0941abd0",
+  "title": "Galloway Foundation",
+  "type": "organization",
+  "description": "Ut fugiat sunt sunt labore magna sunt consequat. Labore deserunt anim sunt laboris qui sit reprehenderit nisi elit. Quis ad non eiusmod elit ullamco ullamco occaecat esse. Enim ex laborum aliquip reprehenderit do minim aute nulla do.",
+  "dates": [
+    {
+      "begin": "1955-12-24",
+      "end": "1980-11-06",
+      "expression": "Dec 24th, 1955 - Nov 6th, 1980",
+      "type": "single",
+      "label": "digitized"
+    }
+  ],
+  "notes": [
+    {
+      "type": "separatedmaterial",
+      "title": "veniam aute enim",
+      "source": "archivesspace",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "non laborum non ea anim qui"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "separatedmaterial",
+      "title": "elit tempor dolore",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "eiusmod ipsum incididunt aute tempor velit",
+            "sunt eiusmod adipisicing id esse velit"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/<SyntaxError: missing ) after argument list>"
+    }
+  ]
+}

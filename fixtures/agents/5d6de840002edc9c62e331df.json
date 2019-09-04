@@ -1,0 +1,43 @@
+{
+  "id": "5d6de840002edc9c62e331df",
+  "title": "Aguirre family",
+  "type": "family",
+  "description": "In laborum ad magna Lorem officia consequat consequat elit. Quis tempor sunt velit laboris proident mollit dolor cupidatat deserunt labore voluptate. Qui deserunt pariatur irure cillum esse. Incididunt aute ut cillum id id tempor velit adipisicing veniam. Occaecat veniam dolor excepteur aute laborum Lorem.",
+  "dates": [
+    {
+      "begin": "1931-04-20",
+      "end": "1986-02-20",
+      "expression": "Apr 20th, 1931 - Feb 20th, 1986",
+      "type": "inclusive",
+      "label": "usage"
+    },
+    {
+      "begin": "1946-03-03",
+      "end": "1964-07-19",
+      "expression": "Mar 3rd, 1946 - Jul 19th, 1964",
+      "type": "bulk",
+      "label": "usage"
+    }
+  ],
+  "notes": [
+    {
+      "type": "accessrestrict",
+      "title": "consequat sit cupidatat",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "minim duis minim nisi minim laboris"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/<SyntaxError: missing ) after argument list>"
+    }
+  ]
+}

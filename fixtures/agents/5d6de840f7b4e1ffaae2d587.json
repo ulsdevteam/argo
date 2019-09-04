@@ -1,0 +1,67 @@
+{
+  "id": "5d6de840f7b4e1ffaae2d587",
+  "title": "Solis family",
+  "type": "family",
+  "description": "Enim eiusmod adipisicing ex irure eiusmod eiusmod enim officia eu deserunt sint aute pariatur consectetur. Qui ad duis in in est consequat proident laboris enim magna cillum aliquip consectetur. Ad incididunt sint culpa amet consequat esse laboris ut in labore cillum incididunt sint deserunt.",
+  "dates": [
+    {
+      "begin": "1947-11-25",
+      "end": "2016-05-12",
+      "expression": "Nov 25th, 1947 - May 12th, 2016",
+      "type": "inclusive",
+      "label": "event"
+    },
+    {
+      "begin": "1925-06-22",
+      "end": "1974-03-05",
+      "expression": "Jun 22nd, 1925 - Mar 5th, 1974",
+      "type": "inclusive",
+      "label": "other"
+    }
+  ],
+  "notes": [
+    {
+      "type": "expiration",
+      "title": "proident aliqua adipisicing",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "non do incididunt do nostrud ex",
+            "consequat aliqua cillum amet nostrud excepteur"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "reprehenderit excepteur tempor consequat laborum Lorem",
+            "do cillum fugiat incididunt laborum adipisicing",
+            "nostrud consectetur deserunt quis veniam qui",
+            "eu Lorem cillum aliquip sunt mollit"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fileplan",
+      "title": "enim ullamco magna",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "fugiat pariatur ex nisi elit id",
+            "in commodo pariatur cillum ut amet"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/<SyntaxError: missing ) after argument list>"
+    }
+  ]
+}

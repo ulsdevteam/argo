@@ -1,0 +1,49 @@
+{
+  "id": "5d6de83833bdc8aeaeaa936f",
+  "title": "Ballard Foundation",
+  "type": "organization",
+  "description": "Sit voluptate tempor reprehenderit reprehenderit. Incididunt sunt elit occaecat sint deserunt sint ad amet sit velit ullamco. In irure sunt irure id nostrud do mollit id mollit pariatur aute sit minim et. Cillum ea consectetur nisi tempor.",
+  "dates": [
+    {
+      "begin": "1926-04-09",
+      "end": "1985-06-15",
+      "expression": "Apr 9th, 1926 - Jun 15th, 1985",
+      "type": "single",
+      "label": "deaccession"
+    }
+  ],
+  "notes": [
+    {
+      "type": "arrangement",
+      "title": "elit cupidatat ex",
+      "source": "archivesspace",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "do esse exercitation et sit et",
+            "incididunt eu laboris aliqua reprehenderit irure",
+            "eiusmod cillum magna id Lorem ad",
+            "excepteur magna irure nostrud cillum id",
+            "fugiat enim eu aute tempor mollit"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "et ut occaecat pariatur voluptate pariatur",
+            "ea elit officia cupidatat sunt consequat",
+            "qui fugiat irure labore aute irure",
+            "minim qui commodo labore Lorem fugiat"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/<SyntaxError: missing ) after argument list>"
+    }
+  ]
+}

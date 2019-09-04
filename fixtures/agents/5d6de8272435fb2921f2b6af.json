@@ -1,0 +1,87 @@
+{
+  "id": "5d6de8272435fb2921f2b6af",
+  "title": "Hale Valdez",
+  "type": "person",
+  "description": "Sit irure adipisicing sit adipisicing Lorem tempor consectetur dolor adipisicing sint mollit non. Id irure aliquip consequat culpa id enim eu. Culpa qui aliquip quis laboris incididunt pariatur Lorem aute consectetur eu sunt occaecat.",
+  "dates": [
+    {
+      "begin": "1956-02-22",
+      "end": "1996-11-01",
+      "expression": "Feb 22nd, 1956 - Nov 1st, 1996",
+      "type": "inclusive",
+      "label": "usage"
+    },
+    {
+      "begin": "1921-05-20",
+      "end": "1998-12-24",
+      "expression": "May 20th, 1921 - Dec 24th, 1998",
+      "type": "bulk",
+      "label": "copyright"
+    }
+  ],
+  "notes": [
+    {
+      "type": "rights_statement_act",
+      "title": "ad quis ut",
+      "source": "archivesspace",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "aute eu ad cupidatat nisi dolor",
+            "labore proident commodo nisi aliquip eu",
+            "occaecat nulla non pariatur amet Lorem",
+            "ad proident mollit esse fugiat magna",
+            "nostrud culpa ad exercitation ex exercitation"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "nostrud officia culpa commodo aliqua dolore",
+            "mollit ipsum commodo officia excepteur laboris",
+            "incididunt laborum dolor commodo ad in"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "qui irure dolore qui ipsum exercitation",
+            "eiusmod sunt cupidatat commodo ullamco et",
+            "irure est dolore ad incididunt voluptate",
+            "et excepteur fugiat velit fugiat reprehenderit"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "type_note",
+      "title": "consectetur duis anim",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "ipsum culpa velit laborum adipisicing reprehenderit"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "culpa adipisicing excepteur aliquip aliquip consectetur",
+            "irure quis consequat qui fugiat ipsum",
+            "duis sunt mollit consectetur ipsum ullamco",
+            "Lorem aliquip do ex magna ut",
+            "nisi ex dolor voluptate pariatur commodo"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_person/<SyntaxError: missing ) after argument list>"
+    }
+  ]
+}

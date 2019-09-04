@@ -1,0 +1,47 @@
+{
+  "id": "5d6de838dc3254a7c27b1d4a",
+  "title": "Grimes Foundation",
+  "type": "organization",
+  "description": "Dolor cupidatat anim est id laborum. Anim nulla incididunt non aliquip anim officia. Eu reprehenderit dolor ut proident adipisicing eiusmod minim fugiat in. Voluptate elit nostrud eu incididunt sint laboris et proident cupidatat cupidatat. Esse ea reprehenderit tempor dolore dolore pariatur consectetur sit anim anim minim consequat aliqua elit.",
+  "dates": [
+    {
+      "begin": "1923-03-07",
+      "end": "1967-09-16",
+      "expression": "Mar 7th, 1923 - Sep 16th, 1967",
+      "type": "inclusive",
+      "label": "record_keeping"
+    }
+  ],
+  "notes": [
+    {
+      "type": "physfacet",
+      "title": "do aute ipsum",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "enim in veniam anim labore qui",
+            "ex proident anim ex exercitation sint"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "qui enim laboris fugiat qui dolore",
+            "pariatur minim et est non laboris",
+            "non ea proident sint laboris proident",
+            "cupidatat consequat ullamco mollit tempor non",
+            "ullamco velit in irure non aute"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/<SyntaxError: missing ) after argument list>"
+    }
+  ]
+}

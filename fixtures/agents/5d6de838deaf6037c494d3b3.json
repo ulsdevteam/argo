@@ -1,0 +1,59 @@
+{
+  "id": "5d6de838deaf6037c494d3b3",
+  "title": "Robinson Foundation",
+  "type": "organization",
+  "description": "Nulla do duis duis consectetur do enim consequat minim aute quis duis excepteur ut veniam. Cillum proident qui aliqua consectetur cupidatat do do pariatur commodo Lorem duis sunt ea. Velit incididunt quis in laboris dolore do culpa fugiat do excepteur. Eu aliquip aliqua deserunt qui non minim laborum pariatur ad consectetur.",
+  "dates": [
+    {
+      "begin": "1943-02-21",
+      "end": "1987-12-07",
+      "expression": "Feb 21st, 1943 - Dec 7th, 1987",
+      "type": "bulk",
+      "label": "existence"
+    },
+    {
+      "begin": "1914-04-25",
+      "end": "1978-05-18",
+      "expression": "Apr 25th, 1914 - May 18th, 1978",
+      "type": "single",
+      "label": "usage"
+    }
+  ],
+  "notes": [
+    {
+      "type": "bibliography",
+      "title": "fugiat fugiat mollit",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "est eiusmod ipsum esse pariatur commodo",
+            "voluptate aliqua et mollit qui veniam",
+            "elit id consequat qui cillum eiusmod",
+            "adipisicing et ea nulla velit sit"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "dimensions",
+      "title": "esse eiusmod dolore",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "laboris pariatur anim proident dolor minim"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/<SyntaxError: missing ) after argument list>"
+    }
+  ]
+}

@@ -1,5 +1,6 @@
 from datetime import datetime
 import json
+from jsonschema import validate
 import os
 import random
 from functools import reduce
@@ -24,10 +25,22 @@ TYPE_MAP = (
 
 class TestAPI(TestCase):
     def setUp(self):
+        self.validate_fixtures()
         self.factory = APIRequestFactory()
         connections.create_connection(hosts=settings.ELASTICSEARCH_DSL['default']['hosts'], timeout=60)
         for cls in [Agent, Collection, Object, Term]:
             cls.init()
+
+    def validate_fixtures(self):
+        with open(os.path.join(settings.BASE_DIR, 'rac-data-model', 'schema.json')) as sf:
+            schema = json.load(sf)
+            for dir in os.listdir(os.path.join(settings.BASE_DIR, 'fixtures')):
+                if os.path.isdir(os.path.join(settings.BASE_DIR, 'fixtures', dir)):
+                    for f in os.listdir(os.path.join(settings.BASE_DIR, 'fixtures', dir)):
+                        with open(os.path.join(settings.BASE_DIR, 'fixtures', dir, f), 'r') as jf:
+                            instance = json.load(jf)
+                            valid = validate(instance=instance, schema=schema)
+                            self.assertEqual(valid, None)
 
     def index_fixture_data(self, source_filepath, doc_cls):
         added_ids = []

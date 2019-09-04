@@ -1,0 +1,63 @@
+{
+  "id": "5d6de838b32cfad013ee9497",
+  "title": "Chan Foundation",
+  "type": "organization",
+  "description": "Nulla esse ullamco aliqua dolor sit et et qui dolore proident ea Lorem velit. Minim aliqua sint sunt est ex voluptate incididunt amet in culpa magna. Tempor velit deserunt aliquip minim incididunt laborum anim laborum laboris occaecat elit. Veniam id anim ad pariatur aute pariatur culpa irure ad do anim laboris. Cupidatat esse elit ex qui amet pariatur cillum. Do cillum consequat Lorem magna. Est ad nulla proident exercitation esse magna commodo fugiat.",
+  "dates": [
+    {
+      "begin": "1929-09-09",
+      "end": "1998-02-24",
+      "expression": "Sep 9th, 1929 - Feb 24th, 1998",
+      "type": "single",
+      "label": "existence"
+    }
+  ],
+  "notes": [
+    {
+      "type": "userestrict",
+      "title": "proident amet et",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "dolore nostrud labore ex laboris velit",
+            "sunt pariatur amet elit consequat ex",
+            "cillum dolor quis nostrud Lorem ea",
+            "mollit anim culpa minim aute pariatur",
+            "ex cillum aliquip ad incididunt cupidatat"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "altformavail",
+      "title": "nisi ea dolore",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "magna fugiat sint nostrud commodo anim",
+            "consectetur commodo nulla est ex culpa",
+            "ut officia culpa aute irure non",
+            "non voluptate excepteur magna commodo sint",
+            "pariatur laboris aute cupidatat nulla proident"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "amet laboris eiusmod eiusmod dolor enim"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/<SyntaxError: missing ) after argument list>"
+    }
+  ]
+}

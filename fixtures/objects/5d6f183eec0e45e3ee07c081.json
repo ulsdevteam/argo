@@ -1,0 +1,140 @@
+{
+  "id": "5d6f183eec0e45e3ee07c081",
+  "title": "Eiusmod ipsum elit minim minim sunt ut.",
+  "type": "object",
+  "dates": [
+    {
+      "begin": "1922-08-02",
+      "end": "2009-07-19",
+      "expression": "Aug 2nd, 1922 - Jul 19th, 2009",
+      "type": "inclusive",
+      "label": "event"
+    },
+    {
+      "begin": "1920-01-05",
+      "end": "1966-09-04",
+      "expression": "Jan 5th, 1920 - Sep 4th, 1966",
+      "type": "bulk",
+      "label": "publication"
+    },
+    {
+      "begin": "1955-12-11",
+      "end": "1961-09-15",
+      "expression": "Dec 11th, 1955 - Sep 15th, 1961",
+      "type": "bulk",
+      "label": "digitized"
+    }
+  ],
+  "extents": [
+    {
+      "value": 91.16,
+      "type": "sheets"
+    },
+    {
+      "value": 35.78,
+      "type": "sheets"
+    }
+  ],
+  "notes": [
+    {
+      "type": "extent",
+      "title": "proident deserunt dolore",
+      "source": "archivesspace",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "magna excepteur aute veniam culpa do",
+            "consectetur irure culpa ad fugiat nisi"
+          ]
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/41"
+        }
+      ]
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/16"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/47"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/4"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "expression": "English",
+      "identifier": "eng"
+    },
+    {
+      "expression": "Esperanto",
+      "identifier": "spa"
+    }
+  ],
+  "rights_statements": [
+    {
+      "id": "5d6f183ec926fc1f18a54070",
+      "determination_date": "2019-09-04",
+      "type": "rights_statement",
+      "rights_type": "license",
+      "rights_status": "unknown",
+      "begin": "2019-09-04",
+      "end": "2019-09-04",
+      "copyright_status": "copyrighted",
+      "other_basis": "duis",
+      "jurisdiction": "US",
+      "notes": [],
+      "rights_granted": [
+        {
+          "act": "replicate",
+          "begin": "2019-09-04",
+          "end": "2019-09-04",
+          "restriction": "disallow",
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/45"
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/43"
+    }
+  ]
+}

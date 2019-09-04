@@ -1,0 +1,38 @@
+{
+  "id": "5d6de840223d72e48aa297bb",
+  "title": "Humphrey family",
+  "type": "family",
+  "description": "Ullamco aliqua anim excepteur duis nostrud. Quis enim anim labore consectetur consequat sit do ullamco consequat. Consectetur ex excepteur ullamco labore proident enim reprehenderit do enim ea qui.",
+  "dates": [
+    {
+      "begin": "1955-07-19",
+      "end": "2010-11-10",
+      "expression": "Jul 19th, 1955 - Nov 10th, 2010",
+      "type": "inclusive",
+      "label": "record_keeping"
+    }
+  ],
+  "notes": [
+    {
+      "type": "acquinfo",
+      "title": "reprehenderit veniam velit",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "irure enim elit in consequat sint",
+            "officia sunt aute id nostrud mollit",
+            "anim Lorem laboris non consequat irure"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/<SyntaxError: missing ) after argument list>"
+    }
+  ]
+}

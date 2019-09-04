@@ -1,0 +1,81 @@
+{
+  "id": "5d6de82703a1aad42be73b1f",
+  "title": "Charlene Burnett",
+  "type": "person",
+  "description": "Irure minim Lorem aute mollit eiusmod reprehenderit. Ullamco nostrud excepteur qui non cillum reprehenderit pariatur occaecat. Officia adipisicing elit eu excepteur. Esse ut nostrud minim dolore velit. Magna ipsum nostrud culpa ullamco mollit Lorem aute consectetur. Anim velit est consectetur veniam.",
+  "dates": [
+    {
+      "begin": "1933-06-07",
+      "end": "1970-01-27",
+      "expression": "Jun 7th, 1933 - Jan 27th, 1970",
+      "type": "bulk",
+      "label": "deaccession"
+    }
+  ],
+  "notes": [
+    {
+      "type": "permissions",
+      "title": "tempor Lorem consectetur",
+      "source": "archivesspace",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "minim sit mollit fugiat officia laboris",
+            "amet exercitation est ad enim excepteur",
+            "et eu officia et veniam est",
+            "aliquip cupidatat esse laboris elit eu"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "Lorem eu voluptate anim commodo ut",
+            "labore anim quis dolore reprehenderit laborum",
+            "cillum consectetur reprehenderit cupidatat nostrud nulla"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "sint ea nostrud labore nisi et",
+            "dolor laboris irure ut et aliquip",
+            "amet proident velit laborum exercitation quis",
+            "exercitation nisi occaecat incididunt ad minim",
+            "deserunt anim qui tempor amet sit"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "processinfo",
+      "title": "voluptate do eiusmod",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "eiusmod nulla anim officia minim cillum",
+            "laboris consequat consequat dolore dolor minim",
+            "velit in do laboris laboris exercitation",
+            "voluptate mollit consequat dolore veniam mollit",
+            "laborum amet et adipisicing ad proident"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "ea laboris deserunt quis sunt duis",
+            "irure proident ex magna culpa adipisicing"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_person/<SyntaxError: missing ) after argument list>"
+    }
+  ]
+}

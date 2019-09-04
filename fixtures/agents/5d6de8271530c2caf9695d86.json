@@ -1,0 +1,57 @@
+{
+  "id": "5d6de8271530c2caf9695d86",
+  "title": "Clark Obrien",
+  "type": "person",
+  "description": "Sunt laboris proident in nostrud ea sunt. Ea duis esse fugiat deserunt consequat nulla aute dolor non adipisicing quis esse. Ex nulla do cupidatat labore tempor eu anim et commodo ut labore ullamco reprehenderit ea. Eiusmod mollit sunt cupidatat occaecat commodo laborum ex voluptate. Cillum sint dolor commodo mollit adipisicing ea qui nulla sint commodo tempor sint ex. Velit enim amet nostrud aliqua laboris ullamco labore dolor excepteur commodo id tempor in.",
+  "dates": [
+    {
+      "begin": "1913-12-11",
+      "end": "1990-12-07",
+      "expression": "Dec 11th, 1913 - Dec 7th, 1990",
+      "type": "single",
+      "label": "record_keeping"
+    }
+  ],
+  "notes": [
+    {
+      "type": "legalstatus",
+      "title": "excepteur cupidatat occaecat",
+      "source": "archivesspace",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "nisi cillum consectetur culpa quis voluptate",
+            "excepteur sit veniam pariatur eiusmod ad",
+            "nostrud nisi labore quis nostrud irure",
+            "aliquip dolor irure aliqua duis cupidatat",
+            "est voluptate voluptate sit eu Lorem"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "exercitation eu nulla sint aliquip non",
+            "mollit elit excepteur nisi sunt in"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "officia est dolor et in eiusmod",
+            "dolor tempor irure cillum et officia",
+            "consequat est consectetur irure dolor laboris",
+            "aliqua nulla adipisicing duis reprehenderit quis",
+            "est dolor adipisicing aute dolor sit"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_person/<SyntaxError: missing ) after argument list>"
+    }
+  ]
+}

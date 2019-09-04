@@ -1,0 +1,70 @@
+{
+  "id": "5d6de8405d87f2c1f79b560f",
+  "title": "Cardenas family",
+  "type": "family",
+  "description": "Fugiat tempor tempor sunt ad et dolor aliqua. Eu magna ullamco do Lorem duis enim. Labore tempor enim nostrud magna sunt velit dolore id enim cupidatat exercitation commodo. Laboris adipisicing sit cupidatat reprehenderit voluptate aliqua in excepteur ex nostrud dolore quis magna. Enim excepteur et Lorem culpa sint commodo exercitation ullamco dolor nisi. Esse consectetur ipsum in adipisicing velit eu minim voluptate consectetur pariatur laborum culpa proident.",
+  "dates": [
+    {
+      "begin": "1940-04-19",
+      "end": "1980-03-21",
+      "expression": "Apr 19th, 1940 - Mar 21st, 1980",
+      "type": "single",
+      "label": "record_keeping"
+    }
+  ],
+  "notes": [
+    {
+      "type": "otherfindaid",
+      "title": "ullamco eu in",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "sunt dolor do nostrud cillum veniam",
+            "ad nulla ut ea dolor minim",
+            "esse cillum sint Lorem labore ullamco"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "ea velit consequat sint tempor adipisicing",
+            "nulla ullamco anim veniam proident reprehenderit",
+            "consectetur cupidatat adipisicing aliquip nisi fugiat",
+            "nostrud anim anim velit officia pariatur"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "prefercite",
+      "title": "ad duis eu",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "quis sunt Lorem velit proident sint",
+            "sunt veniam fugiat non aliquip id",
+            "do reprehenderit eu exercitation non proident",
+            "ad non eiusmod qui ea dolore",
+            "eiusmod consequat eu ut veniam esse"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "nulla sint exercitation eu do magna"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/<SyntaxError: missing ) after argument list>"
+    }
+  ]
+}

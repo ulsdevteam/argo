@@ -1,0 +1,78 @@
+{
+  "id": "5d6de827462d5327f0f28e03",
+  "title": "Lambert Ruiz",
+  "type": "person",
+  "description": "Officia aliquip nisi voluptate labore tempor. Nisi eiusmod dolor pariatur ex laboris proident. Occaecat officia nostrud proident velit eiusmod elit occaecat enim exercitation ea in eiusmod. Commodo voluptate ex aliquip proident deserunt ullamco officia consectetur anim eiusmod. Irure voluptate eiusmod excepteur commodo ipsum.",
+  "dates": [
+    {
+      "begin": "1936-01-29",
+      "end": "2012-06-23",
+      "expression": "Jan 29th, 1936 - Jun 23rd, 2012",
+      "type": "bulk",
+      "label": "broadcast"
+    },
+    {
+      "begin": "1953-06-08",
+      "end": "1996-01-03",
+      "expression": "Jun 8th, 1953 - Jan 3rd, 1996",
+      "type": "single",
+      "label": "usage"
+    }
+  ],
+  "notes": [
+    {
+      "type": "scopecontent",
+      "title": "dolor exercitation labore",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "culpa proident voluptate exercitation consectetur nulla",
+            "nostrud ipsum aute id dolor ut"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "esse ipsum qui consectetur esse qui",
+            "labore ullamco consequat id exercitation magna",
+            "anim aliqua magna incididunt elit nisi",
+            "incididunt tempor aliquip aute ad veniam"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "culpa velit sint eu et consectetur",
+            "voluptate cillum et cupidatat sit esse",
+            "ex tempor elit enim non eu",
+            "ex voluptate dolore duis id excepteur",
+            "id consectetur aliquip sint nulla minim"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "physdesc",
+      "title": "pariatur mollit officia",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "eiusmod ipsum consectetur commodo est eiusmod",
+            "qui dolore culpa sit laborum aliqua",
+            "eiusmod dolor pariatur excepteur fugiat cillum"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_person/<SyntaxError: missing ) after argument list>"
+    }
+  ]
+}

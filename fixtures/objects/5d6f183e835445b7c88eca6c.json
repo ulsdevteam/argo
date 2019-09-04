@@ -1,0 +1,175 @@
+{
+  "id": "5d6f183e835445b7c88eca6c",
+  "title": "Adipisicing enim ipsum pariatur cupidatat amet nisi irure do elit fugiat esse adipisicing reprehenderit.",
+  "type": "object",
+  "dates": [
+    {
+      "begin": "1932-09-20",
+      "end": "1983-11-06",
+      "expression": "Sep 20th, 1932 - Nov 6th, 1983",
+      "type": "inclusive",
+      "label": "existence"
+    }
+  ],
+  "extents": [
+    {
+      "value": 50.25,
+      "type": "photographic_slides"
+    },
+    {
+      "value": 87.48,
+      "type": "reels"
+    }
+  ],
+  "notes": [
+    {
+      "type": "relatedmaterial",
+      "title": "commodo ex esse",
+      "source": "archivesspace",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "eiusmod incididunt sint pariatur pariatur in",
+            "aliqua proident nulla commodo esse et",
+            "ullamco veniam tempor aliqua sint nulla",
+            "amet proident dolore commodo consectetur non",
+            "minim incididunt ea ea excepteur aliqua"
+          ]
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/11"
+        }
+      ]
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/18"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/26"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/37"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/40"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/42"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "expression": "Spanish",
+      "identifier": "spa"
+    },
+    {
+      "expression": "Spanish",
+      "identifier": "eng"
+    }
+  ],
+  "rights_statements": [
+    {
+      "id": "5d6f183ee79b69a6004f7c6e",
+      "determination_date": "2019-09-04",
+      "type": "rights_statement",
+      "rights_type": "license",
+      "rights_status": "public domain",
+      "begin": "2019-09-04",
+      "end": "2019-09-04",
+      "copyright_status": "public domain",
+      "other_basis": "eu",
+      "jurisdiction": "CN",
+      "notes": [],
+      "rights_granted": [
+        {
+          "act": "use",
+          "begin": "2019-09-04",
+          "end": "2019-09-04",
+          "restriction": "allow",
+          "notes": []
+        },
+        {
+          "act": "delete",
+          "begin": "2019-09-04",
+          "end": "2019-09-04",
+          "restriction": "disallow",
+          "notes": [
+            {
+              "type": "rights_statement_act",
+              "title": "occaecat pariatur nisi",
+              "source": "cartographer",
+              "subnotes": [
+                {
+                  "type": "definedlist",
+                  "content": [
+                    "anim voluptate enim nulla ex Lorem",
+                    "sunt qui dolor ipsum nulla in",
+                    "ut exercitation labore veniam sit sunt"
+                  ]
+                },
+                {
+                  "type": "definedlist",
+                  "content": [
+                    "elit sint sunt irure quis amet",
+                    "do deserunt laboris Lorem ad amet"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/48"
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/40"
+    }
+  ]
+}

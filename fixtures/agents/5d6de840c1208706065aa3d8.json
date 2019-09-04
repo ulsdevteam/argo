@@ -1,0 +1,55 @@
+{
+  "id": "5d6de840c1208706065aa3d8",
+  "title": "Bond family",
+  "type": "family",
+  "description": "Mollit ea commodo laborum nostrud cupidatat qui minim. Ea commodo anim voluptate cupidatat aliquip id sint. Dolor labore ex est sunt dolore anim reprehenderit laborum adipisicing irure. In irure ut labore aliquip culpa. Eiusmod nostrud in qui magna aliqua laboris ut magna.",
+  "dates": [
+    {
+      "begin": "1914-03-04",
+      "end": "1997-08-12",
+      "expression": "Mar 4th, 1914 - Aug 12th, 1997",
+      "type": "single",
+      "label": "deaccession"
+    }
+  ],
+  "notes": [
+    {
+      "type": "additional_information",
+      "title": "velit occaecat incididunt",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "laborum nostrud aliquip ullamco velit duis",
+            "reprehenderit pariatur adipisicing incididunt veniam mollit",
+            "consectetur dolore aliquip minim qui velit"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "sit ut cupidatat occaecat ea in",
+            "ipsum consequat ad nostrud nisi veniam"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "ipsum nulla tempor ullamco eiusmod non",
+            "cupidatat proident occaecat esse duis velit",
+            "sint magna est sunt sunt veniam",
+            "veniam eiusmod laboris veniam officia excepteur",
+            "eiusmod Lorem proident adipisicing nostrud duis"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/<SyntaxError: missing ) after argument list>"
+    }
+  ]
+}

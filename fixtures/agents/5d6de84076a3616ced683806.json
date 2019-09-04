@@ -1,0 +1,63 @@
+{
+  "id": "5d6de84076a3616ced683806",
+  "title": "Morgan family",
+  "type": "family",
+  "description": "Eu qui aliqua culpa laborum ipsum ullamco proident non ad qui adipisicing. In commodo ipsum officia excepteur. Ad deserunt labore exercitation mollit ex pariatur adipisicing cupidatat. Mollit duis aliqua culpa velit dolore incididunt consectetur cupidatat eu consequat laboris.",
+  "dates": [
+    {
+      "begin": "1941-10-30",
+      "end": "2016-10-21",
+      "expression": "Oct 30th, 1941 - Oct 21st, 2016",
+      "type": "bulk",
+      "label": "digitized"
+    }
+  ],
+  "notes": [
+    {
+      "type": "index",
+      "title": "ullamco cupidatat voluptate",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "cillum ut magna exercitation voluptate pariatur",
+            "mollit ut nulla in aute exercitation",
+            "occaecat commodo elit duis ullamco et",
+            "do nisi pariatur non incididunt sint",
+            "sunt proident consequat cillum aliqua consequat"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "permissions",
+      "title": "amet dolore adipisicing",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "quis exercitation irure culpa voluptate pariatur",
+            "laborum nostrud sint duis Lorem proident",
+            "veniam id reprehenderit nisi tempor consequat",
+            "Lorem id proident officia eiusmod labore"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "ut dolor magna nostrud et commodo",
+            "ex et proident fugiat laborum occaecat"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/<SyntaxError: missing ) after argument list>"
+    }
+  ]
+}

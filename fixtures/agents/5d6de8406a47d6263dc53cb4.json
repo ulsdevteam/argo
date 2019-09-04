@@ -1,0 +1,61 @@
+{
+  "id": "5d6de8406a47d6263dc53cb4",
+  "title": "Wilcox family",
+  "type": "family",
+  "description": "Lorem laborum aliqua tempor officia officia aliquip ipsum consectetur culpa eiusmod reprehenderit. Velit minim non ullamco proident nulla nostrud non commodo sunt sunt. Aliquip pariatur culpa occaecat voluptate ut ipsum. Tempor labore nisi fugiat id irure.",
+  "dates": [
+    {
+      "begin": "1952-04-02",
+      "end": "1995-12-02",
+      "expression": "Apr 2nd, 1952 - Dec 2nd, 1995",
+      "type": "single",
+      "label": "record_keeping"
+    },
+    {
+      "begin": "1922-05-22",
+      "end": "1989-09-29",
+      "expression": "May 22nd, 1922 - Sep 29th, 1989",
+      "type": "inclusive",
+      "label": "event"
+    }
+  ],
+  "notes": [
+    {
+      "type": "rights_statement",
+      "title": "Lorem enim eiusmod",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "dolor cillum aute amet in id",
+            "eiusmod dolor ea mollit ex dolore",
+            "sint do elit dolore sunt aliquip",
+            "ad consectetur in reprehenderit laborum tempor"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "et pariatur non velit nisi anim",
+            "consectetur fugiat est proident nostrud laboris",
+            "exercitation aliqua et quis qui nisi"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "aliqua magna sunt tempor exercitation consequat",
+            "qui nisi deserunt voluptate culpa consequat"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/<SyntaxError: missing ) after argument list>"
+    }
+  ]
+}

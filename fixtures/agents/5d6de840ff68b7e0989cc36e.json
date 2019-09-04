@@ -1,0 +1,53 @@
+{
+  "id": "5d6de840ff68b7e0989cc36e",
+  "title": "Shaw family",
+  "type": "family",
+  "description": "Quis in mollit consectetur qui ea dolor cillum ipsum pariatur velit tempor. Commodo eu nostrud cupidatat non esse eu labore deserunt proident in fugiat. Culpa nostrud Lorem et non consectetur ea id proident ipsum labore fugiat.",
+  "dates": [
+    {
+      "begin": "1929-12-24",
+      "end": "1989-09-27",
+      "expression": "Dec 24th, 1929 - Sep 27th, 1989",
+      "type": "inclusive",
+      "label": "copyright"
+    }
+  ],
+  "notes": [
+    {
+      "type": "note",
+      "title": "consequat ad mollit",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "pariatur mollit officia consequat laboris duis",
+            "elit pariatur ullamco labore nulla ea",
+            "aliquip culpa adipisicing minim consectetur qui",
+            "aliqua ut labore Lorem cupidatat duis"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "occaecat esse labore excepteur elit laboris",
+            "sint sint dolor ullamco eiusmod anim",
+            "minim mollit nostrud id ea est"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "laborum eiusmod duis proident laboris ad"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/<SyntaxError: missing ) after argument list>"
+    }
+  ]
+}

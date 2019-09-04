@@ -1,0 +1,49 @@
+{
+  "id": "5d6de838f1b2cf96f3b8a808",
+  "title": "Bond Foundation",
+  "type": "organization",
+  "description": "Quis nulla irure dolore reprehenderit ipsum. Reprehenderit deserunt fugiat sit sit ex fugiat nostrud laborum officia sit amet aliquip eiusmod officia. Sunt aute amet consectetur sit nostrud.",
+  "dates": [
+    {
+      "begin": "1921-07-06",
+      "end": "1995-11-01",
+      "expression": "Jul 6th, 1921 - Nov 1st, 1995",
+      "type": "bulk",
+      "label": "modified"
+    },
+    {
+      "begin": "1945-06-13",
+      "end": "2002-07-29",
+      "expression": "Jun 13th, 1945 - Jul 29th, 2002",
+      "type": "inclusive",
+      "label": "record_keeping"
+    }
+  ],
+  "notes": [
+    {
+      "type": "dimensions",
+      "title": "eiusmod cupidatat amet",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "anim laboris magna in qui cillum"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "in cillum excepteur enim pariatur ad"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/<SyntaxError: missing ) after argument list>"
+    }
+  ]
+}

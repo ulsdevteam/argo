@@ -1,0 +1,63 @@
+{
+  "id": "5d6de83825376304798e09c1",
+  "title": "Chapman Foundation",
+  "type": "organization",
+  "description": "Dolore irure dolore qui aliquip sunt culpa cillum reprehenderit Lorem non elit. Occaecat mollit officia cupidatat qui non ad laboris quis dolore ex commodo sunt enim id. Aliqua exercitation aliquip velit ut aliquip eiusmod do est laborum fugiat aliquip Lorem excepteur. Officia exercitation pariatur amet sint. Duis irure velit quis nisi sit occaecat reprehenderit elit. Exercitation ipsum excepteur fugiat reprehenderit. Adipisicing irure ex anim proident dolor amet veniam aliqua occaecat fugiat.",
+  "dates": [
+    {
+      "begin": "1953-08-31",
+      "end": "2010-02-08",
+      "expression": "Aug 31st, 1953 - Feb 8th, 2010",
+      "type": "inclusive",
+      "label": "event"
+    },
+    {
+      "begin": "1953-08-19",
+      "end": "2010-07-13",
+      "expression": "Aug 19th, 1953 - Jul 13th, 2010",
+      "type": "inclusive",
+      "label": "record_keeping"
+    }
+  ],
+  "notes": [
+    {
+      "type": "physfacet",
+      "title": "cupidatat adipisicing laboris",
+      "source": "archivesspace",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "magna excepteur labore sunt laborum veniam",
+            "dolore culpa sit do veniam velit",
+            "irure eu eu ex ad labore",
+            "elit sunt labore ullamco adipisicing proident",
+            "adipisicing commodo deserunt cupidatat aute pariatur"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "non occaecat velit irure magna nostrud",
+            "dolor non proident qui et aliqua"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "officia ullamco nisi eu ea occaecat",
+            "velit tempor pariatur sit nisi labore",
+            "nisi dolore culpa est deserunt fugiat",
+            "ipsum minim proident eu commodo sint"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/<SyntaxError: missing ) after argument list>"
+    }
+  ]
+}

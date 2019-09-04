@@ -1,0 +1,238 @@
+{
+  "id": "5d6f183e6322aa9203b8ace4",
+  "title": "In anim excepteur velit tempor commodo qui.",
+  "type": "object",
+  "dates": [
+    {
+      "begin": "1942-12-28",
+      "end": "1994-09-03",
+      "expression": "Dec 28th, 1942 - Sep 3rd, 1994",
+      "type": "single",
+      "label": "existence"
+    }
+  ],
+  "extents": [
+    {
+      "value": 80.2,
+      "type": "linear_feet"
+    }
+  ],
+  "notes": [
+    {
+      "type": "phystech",
+      "title": "reprehenderit nulla officia",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "dolor excepteur ea officia quis officia",
+            "voluptate ea amet quis sit commodo"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fileplan",
+      "title": "consectetur eu ut",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "ut excepteur fugiat magna cillum pariatur",
+            "officia irure quis sunt dolore exercitation",
+            "mollit ea dolor consectetur cillum mollit"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "acquinfo",
+      "title": "aute mollit irure",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "ullamco sint laborum incididunt do amet",
+            "elit enim magna consequat laborum aute",
+            "minim consectetur eiusmod voluptate adipisicing non",
+            "ullamco eiusmod nulla enim enim mollit"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "relatedmaterial",
+      "title": "dolore voluptate aliqua",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "fugiat veniam aliqua nulla ullamco est"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "fugiat excepteur mollit id non Lorem"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "cillum est ad ut dolore laborum",
+            "sunt ea incididunt minim commodo mollit",
+            "est ad officia non irure in"
+          ]
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/47"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/23"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/26"
+        }
+      ]
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/42"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "expression": "English",
+      "identifier": "epo"
+    }
+  ],
+  "rights_statements": [
+    {
+      "id": "5d6f183e862bfd3f317d258d",
+      "determination_date": "2019-09-04",
+      "type": "rights_statement",
+      "rights_type": "copyright",
+      "rights_status": "public domain",
+      "begin": "2019-09-04",
+      "end": "2019-09-04",
+      "copyright_status": "public domain",
+      "other_basis": "id",
+      "jurisdiction": "US",
+      "notes": [
+        {
+          "type": "rights_statement",
+          "title": "labore exercitation Lorem",
+          "source": "cartographer",
+          "subnotes": [
+            {
+              "type": "definedlist",
+              "content": [
+                "irure sint esse adipisicing excepteur duis",
+                "sint anim aliquip consequat deserunt adipisicing"
+              ]
+            }
+          ]
+        }
+      ],
+      "rights_granted": [
+        {
+          "act": "migrate",
+          "begin": "2019-09-04",
+          "end": "2019-09-04",
+          "restriction": "disallow",
+          "notes": []
+        },
+        {
+          "act": "replicate",
+          "begin": "2019-09-04",
+          "end": "2019-09-04",
+          "restriction": "allow",
+          "notes": [
+            {
+              "type": "permissions",
+              "title": "in consectetur veniam",
+              "source": "archivesspace",
+              "subnotes": [
+                {
+                  "type": "orderedlist",
+                  "content": [
+                    "sint deserunt ad consequat quis laborum"
+                  ]
+                },
+                {
+                  "type": "text",
+                  "content": [
+                    "pariatur cillum ut deserunt ea eu",
+                    "minim pariatur sit id amet occaecat",
+                    "aliquip Lorem non tempor consequat nulla",
+                    "aute id ut occaecat tempor velit",
+                    "duis Lorem reprehenderit voluptate ex veniam"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/25"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/11"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/29"
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/17"
+    }
+  ]
+}

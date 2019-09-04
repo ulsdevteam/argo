@@ -1,0 +1,82 @@
+{
+  "id": "5d6de827bcfc3b4c9d2daf98",
+  "title": "Slater Richardson",
+  "type": "person",
+  "description": "Tempor cupidatat officia aliquip irure elit veniam. Qui voluptate nulla Lorem ex deserunt quis ex commodo excepteur deserunt do. Est sunt quis et ex occaecat pariatur dolor eiusmod nisi anim minim. Voluptate laboris nulla non consequat occaecat dolor. Consectetur ex reprehenderit elit et.",
+  "dates": [
+    {
+      "begin": "1944-06-29",
+      "end": "2006-08-10",
+      "expression": "Jun 29th, 1944 - Aug 10th, 2006",
+      "type": "single",
+      "label": "usage"
+    },
+    {
+      "begin": "1932-11-13",
+      "end": "1991-06-28",
+      "expression": "Nov 13th, 1932 - Jun 28th, 1991",
+      "type": "inclusive",
+      "label": "usage"
+    }
+  ],
+  "notes": [
+    {
+      "type": "legalstatus",
+      "title": "veniam irure esse",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "qui laborum sunt amet cillum nulla",
+            "non et tempor ea excepteur dolor",
+            "nostrud sint culpa aliquip proident tempor",
+            "tempor exercitation deserunt proident nostrud tempor",
+            "aliquip culpa esse aliqua minim elit"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "est occaecat officia est enim tempor",
+            "sunt qui ullamco anim qui nisi"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bibliography",
+      "title": "ut quis proident",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "ea consectetur sit deserunt officia dolor",
+            "deserunt aute commodo voluptate aute tempor"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "eiusmod labore non occaecat labore sunt"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "officia exercitation qui fugiat cupidatat sit",
+            "laboris aute anim elit labore qui",
+            "non dolore ullamco veniam fugiat culpa"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_person/<SyntaxError: missing ) after argument list>"
+    }
+  ]
+}

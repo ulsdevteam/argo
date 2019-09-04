@@ -1,0 +1,55 @@
+{
+  "id": "5d6de82717c120fad0e6e239",
+  "title": "Clayton Wagner",
+  "type": "person",
+  "description": "Ut labore occaecat voluptate reprehenderit irure reprehenderit id occaecat commodo. Sint laboris ut irure exercitation est ex veniam excepteur. Laboris laboris occaecat elit eiusmod dolore. Cupidatat ullamco incididunt dolore nisi id qui velit enim consectetur. Amet nisi proident deserunt quis amet.",
+  "dates": [
+    {
+      "begin": "1925-01-08",
+      "end": "2008-06-10",
+      "expression": "Jan 8th, 1925 - Jun 10th, 2008",
+      "type": "bulk",
+      "label": "agent_relation"
+    },
+    {
+      "begin": "1918-06-21",
+      "end": "1988-11-17",
+      "expression": "Jun 21st, 1918 - Nov 17th, 1988",
+      "type": "single",
+      "label": "existence"
+    }
+  ],
+  "notes": [
+    {
+      "type": "custodhist",
+      "title": "velit esse consectetur",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "aliqua labore irure veniam laborum dolor",
+            "sunt exercitation irure in reprehenderit consectetur",
+            "est occaecat aliqua irure cupidatat pariatur",
+            "pariatur ullamco voluptate esse in est",
+            "esse excepteur magna incididunt ullamco consequat"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "id aliquip qui commodo ad esse",
+            "reprehenderit pariatur do aute aliquip reprehenderit",
+            "pariatur occaecat id esse voluptate aliquip"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_person/<SyntaxError: missing ) after argument list>"
+    }
+  ]
+}

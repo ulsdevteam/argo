@@ -1,0 +1,75 @@
+{
+  "id": "5d6de840f59d35fe03e61d96",
+  "title": "Mcmillan family",
+  "type": "family",
+  "description": "Ex ea sit nulla irure ex deserunt. Irure velit minim excepteur ad et et id. Irure incididunt ea nisi veniam et aliquip. Sit culpa occaecat enim tempor nostrud incididunt labore in. Non voluptate fugiat excepteur et laboris minim ut culpa enim sit nisi eu commodo. Commodo sunt officia sunt ea est veniam commodo elit sit fugiat.",
+  "dates": [
+    {
+      "begin": "1928-09-22",
+      "end": "2000-02-27",
+      "expression": "Sep 22nd, 1928 - Feb 27th, 2000",
+      "type": "inclusive",
+      "label": "deaccession"
+    },
+    {
+      "begin": "1946-09-30",
+      "end": "2013-10-21",
+      "expression": "Sep 30th, 1946 - Oct 21st, 2013",
+      "type": "single",
+      "label": "digitized"
+    }
+  ],
+  "notes": [
+    {
+      "type": "accruals",
+      "title": "quis ullamco cupidatat",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "mollit eiusmod ipsum aliquip qui nostrud",
+            "nisi pariatur pariatur nisi cupidatat consequat",
+            "ipsum eu ut adipisicing commodo esse"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "id tempor magna consectetur commodo voluptate",
+            "exercitation do aliquip ad eiusmod ipsum",
+            "est veniam veniam officia amet veniam"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "physloc",
+      "title": "dolore dolor est",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "proident ut veniam mollit excepteur anim",
+            "adipisicing dolore sit eu ea sint"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "minim aute dolor eu laboris laboris",
+            "magna culpa elit est cillum voluptate",
+            "qui ea aliquip nisi culpa et"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/<SyntaxError: missing ) after argument list>"
+    }
+  ]
+}

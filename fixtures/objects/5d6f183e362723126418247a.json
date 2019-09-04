@@ -1,0 +1,282 @@
+{
+  "id": "5d6f183e362723126418247a",
+  "title": "Ad reprehenderit ex consequat mollit aliquip voluptate proident do anim qui mollit dolor.",
+  "type": "object",
+  "dates": [
+    {
+      "begin": "1958-08-04",
+      "end": "1978-07-29",
+      "expression": "Aug 4th, 1958 - Jul 29th, 1978",
+      "type": "single",
+      "label": "deaccession"
+    }
+  ],
+  "extents": [
+    {
+      "value": 80.68,
+      "type": "volumes"
+    }
+  ],
+  "notes": [
+    {
+      "type": "edition",
+      "title": "eiusmod ad sunt",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "sint incididunt excepteur incididunt tempor mollit"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "aliqua amet esse eu consectetur ex",
+            "sint ipsum cupidatat ut aute dolore",
+            "esse dolore nostrud ut nulla laborum",
+            "aute laborum cupidatat esse consequat esse",
+            "qui aute duis quis enim reprehenderit"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bibliography",
+      "title": "ipsum ea magna",
+      "source": "archivesspace",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "pariatur minim duis incididunt officia commodo"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fileplan",
+      "title": "tempor ad eu",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "esse incididunt reprehenderit in mollit Lorem",
+            "officia duis reprehenderit nisi incididunt aliqua"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bioghist",
+      "title": "magna cillum eu",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "minim eu laboris sit sint mollit",
+            "aliqua anim voluptate veniam aliqua nulla"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "eiusmod id duis cupidatat ullamco ad"
+          ]
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/14"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/16"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/20"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/50"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/41"
+        }
+      ]
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/8"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/37"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "expression": "Esperanto",
+      "identifier": "spa"
+    }
+  ],
+  "rights_statements": [
+    {
+      "id": "5d6f183eb3f0aafdf52c80d0",
+      "determination_date": "2019-09-04",
+      "type": "rights_statement",
+      "rights_type": "statute",
+      "rights_status": "unknown",
+      "begin": "2019-09-04",
+      "end": "2019-09-04",
+      "copyright_status": "copyrighted",
+      "other_basis": "ullamco",
+      "jurisdiction": "CN",
+      "notes": [
+        {
+          "type": "permissions",
+          "title": "sint esse ex",
+          "source": "cartographer",
+          "subnotes": [
+            {
+              "type": "text",
+              "content": [
+                "non est culpa tempor ullamco excepteur",
+                "aute labore nostrud do excepteur elit",
+                "incididunt cillum ut sit officia magna"
+              ]
+            }
+          ]
+        }
+      ],
+      "rights_granted": [
+        {
+          "act": "modify",
+          "begin": "2019-09-04",
+          "end": "2019-09-04",
+          "restriction": "disallow",
+          "notes": [
+            {
+              "type": "restrictions",
+              "title": "Lorem voluptate reprehenderit",
+              "source": "wikipedia",
+              "subnotes": [
+                {
+                  "type": "orderedlist",
+                  "content": [
+                    "culpa commodo dolore consequat tempor exercitation",
+                    "enim nisi eiusmod pariatur sint fugiat",
+                    "esse voluptate magna et est nisi"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "act": "use",
+          "begin": "2019-09-04",
+          "end": "2019-09-04",
+          "restriction": "allow",
+          "notes": [
+            {
+              "type": "additional_information",
+              "title": "minim enim dolore",
+              "source": "archivesspace",
+              "subnotes": [
+                {
+                  "type": "text",
+                  "content": [
+                    "duis commodo qui eu elit esse"
+                  ]
+                },
+                {
+                  "type": "text",
+                  "content": [
+                    "amet proident cillum nisi magna qui",
+                    "anim officia proident et mollit minim"
+                  ]
+                },
+                {
+                  "type": "orderedlist",
+                  "content": [
+                    "est cillum cupidatat id tempor reprehenderit",
+                    "duis exercitation non consectetur amet minim",
+                    "id pariatur nisi est non minim"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/21"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/31"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/21"
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/31"
+    }
+  ]
+}

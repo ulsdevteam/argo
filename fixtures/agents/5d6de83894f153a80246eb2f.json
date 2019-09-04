@@ -1,0 +1,73 @@
+{
+  "id": "5d6de83894f153a80246eb2f",
+  "title": "Higgins Foundation",
+  "type": "organization",
+  "description": "Dolor consequat consequat minim elit ad qui enim proident commodo. Aute exercitation tempor velit aliquip do ullamco dolor occaecat minim ut amet ipsum. Lorem do nulla pariatur nostrud exercitation do.",
+  "dates": [
+    {
+      "begin": "1921-04-20",
+      "end": "1967-08-10",
+      "expression": "Apr 20th, 1921 - Aug 10th, 1967",
+      "type": "single",
+      "label": "modified"
+    },
+    {
+      "begin": "1918-12-11",
+      "end": "2014-05-09",
+      "expression": "Dec 11th, 1918 - May 9th, 2014",
+      "type": "single",
+      "label": "agent_relation"
+    }
+  ],
+  "notes": [
+    {
+      "type": "appraisal",
+      "title": "eiusmod laboris qui",
+      "source": "archivesspace",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "esse duis eiusmod magna ex laboris",
+            "sint cupidatat ea nulla fugiat cupidatat",
+            "cillum adipisicing est nisi nulla minim",
+            "est sunt pariatur aute enim non",
+            "tempor nostrud cillum deserunt nisi esse"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "incididunt qui anim ea dolore sint"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "permissions",
+      "title": "pariatur excepteur reprehenderit",
+      "source": "archivesspace",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "cupidatat ut reprehenderit laboris magna aliquip",
+            "tempor in Lorem aliquip voluptate labore"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "irure velit enim dolore cupidatat reprehenderit"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/<SyntaxError: missing ) after argument list>"
+    }
+  ]
+}

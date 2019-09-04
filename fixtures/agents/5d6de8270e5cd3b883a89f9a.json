@@ -1,0 +1,58 @@
+{
+  "id": "5d6de8270e5cd3b883a89f9a",
+  "title": "Palmer Andrews",
+  "type": "person",
+  "description": "Laboris dolor sunt dolor nisi nostrud consectetur pariatur est culpa. Incididunt tempor mollit duis sunt et deserunt commodo ad proident minim cupidatat enim. Ullamco esse commodo ex excepteur mollit minim nisi occaecat laborum amet pariatur incididunt irure deserunt. Ipsum consequat nulla culpa aliqua deserunt cupidatat veniam deserunt proident veniam nulla duis Lorem. Culpa minim deserunt officia officia in sunt cillum adipisicing dolor. Laborum sunt consectetur labore ipsum id ex ipsum elit cillum anim.",
+  "dates": [
+    {
+      "begin": "1953-09-21",
+      "end": "1972-01-24",
+      "expression": "Sep 21st, 1953 - Jan 24th, 1972",
+      "type": "bulk",
+      "label": "existence"
+    }
+  ],
+  "notes": [
+    {
+      "type": "relatedmaterial",
+      "title": "occaecat ex ex",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "eiusmod eu do enim tempor non",
+            "cillum aute exercitation pariatur voluptate mollit",
+            "cupidatat adipisicing labore et nulla esse",
+            "enim quis sunt id non laborum"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "nulla laborum voluptate est ad aliqua",
+            "consequat voluptate quis cupidatat voluptate dolore",
+            "et reprehenderit culpa pariatur voluptate id",
+            "do voluptate fugiat eu non enim",
+            "est ex aliqua occaecat sunt duis"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "proident dolor aute sint enim eu",
+            "velit id cupidatat Lorem eiusmod est",
+            "enim reprehenderit proident duis aute do",
+            "commodo aliquip nostrud elit dolor occaecat"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_person/<SyntaxError: missing ) after argument list>"
+    }
+  ]
+}

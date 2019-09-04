@@ -1,0 +1,139 @@
+{
+  "id": "5d6f183e6d32f1ac125b8f72",
+  "title": "Consectetur duis ipsum proident fugiat.",
+  "type": "object",
+  "dates": [
+    {
+      "begin": "1915-10-19",
+      "end": "1997-11-10",
+      "expression": "Oct 19th, 1915 - Nov 10th, 1997",
+      "type": "bulk",
+      "label": "copyright"
+    },
+    {
+      "begin": "1927-07-02",
+      "end": "1990-01-09",
+      "expression": "Jul 2nd, 1927 - Jan 9th, 1990",
+      "type": "bulk",
+      "label": "broadcast"
+    }
+  ],
+  "extents": [
+    {
+      "value": 71.27,
+      "type": "cassettes"
+    },
+    {
+      "value": 64.99,
+      "type": "terabytes"
+    }
+  ],
+  "notes": [
+    {
+      "type": "userestrict",
+      "title": "qui officia in",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "sit eiusmod dolor et excepteur aliqua",
+            "sint anim exercitation ad mollit laboris",
+            "pariatur laborum commodo proident aliqua non"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "id dolore ullamco nulla ut amet",
+            "eu proident aute ad non incididunt"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "langmaterial",
+      "title": "deserunt ipsum ullamco",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "est ipsum excepteur Lorem consequat aliquip",
+            "ipsum nulla magna est deserunt anim"
+          ]
+        }
+      ]
+    }
+  ],
+  "terms": [],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/50"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/27"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/32"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/4"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "expression": "Esperanto",
+      "identifier": "eng"
+    },
+    {
+      "expression": "Spanish",
+      "identifier": "spa"
+    }
+  ],
+  "rights_statements": [],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/19"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/14"
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/31"
+    }
+  ]
+}

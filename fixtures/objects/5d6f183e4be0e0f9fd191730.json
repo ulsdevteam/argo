@@ -1,0 +1,185 @@
+{
+  "id": "5d6f183e4be0e0f9fd191730",
+  "title": "Ad pariatur ipsum ad fugiat adipisicing in minim ullamco eu enim enim proident.",
+  "type": "object",
+  "dates": [
+    {
+      "begin": "1929-08-14",
+      "end": "2003-03-11",
+      "expression": "Aug 14th, 1929 - Mar 11th, 2003",
+      "type": "single",
+      "label": "usage"
+    },
+    {
+      "begin": "1958-03-19",
+      "end": "2016-08-19",
+      "expression": "Mar 19th, 1958 - Aug 19th, 2016",
+      "type": "bulk",
+      "label": "record_keeping"
+    }
+  ],
+  "extents": [
+    {
+      "value": 4.04,
+      "type": "gigabytes"
+    },
+    {
+      "value": 22.28,
+      "type": "terabytes"
+    }
+  ],
+  "notes": [
+    {
+      "type": "restrictions",
+      "title": "eiusmod labore proident",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "minim excepteur culpa aute et cillum",
+            "magna magna elit veniam occaecat ullamco",
+            "non voluptate reprehenderit anim esse aute",
+            "nostrud voluptate laborum laborum pariatur Lorem",
+            "ut sit et velit sint cupidatat"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "id et nisi commodo adipisicing commodo",
+            "occaecat labore nulla elit quis do",
+            "sit anim irure pariatur labore eu",
+            "mollit officia qui dolore cupidatat qui",
+            "elit laborum veniam minim aliqua quis"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "dolor do duis exercitation eiusmod eu",
+            "eu eu quis sunt nostrud in",
+            "enim duis anim consectetur dolor anim",
+            "aute sunt laborum in dolore dolore",
+            "Lorem nisi ad officia eu veniam"
+          ]
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/40"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/18"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/1"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/8"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/21"
+        }
+      ]
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/2"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/2"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/13"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/21"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "expression": "Spanish",
+      "identifier": "eng"
+    }
+  ],
+  "rights_statements": [],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/1"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/13"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/23"
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/25"
+    }
+  ]
+}

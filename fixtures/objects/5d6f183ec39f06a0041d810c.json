@@ -1,0 +1,152 @@
+{
+  "id": "5d6f183ec39f06a0041d810c",
+  "title": "Nulla nisi ut ullamco nulla nostrud ex esse minim amet Lorem laboris.",
+  "type": "object",
+  "dates": [
+    {
+      "begin": "1937-01-12",
+      "end": "2017-08-24",
+      "expression": "Jan 12th, 1937 - Aug 24th, 2017",
+      "type": "inclusive",
+      "label": "creation"
+    }
+  ],
+  "extents": [
+    {
+      "value": 32.61,
+      "type": "cassettes"
+    },
+    {
+      "value": 61.13,
+      "type": "document box(es)"
+    }
+  ],
+  "notes": [
+    {
+      "type": "acquinfo",
+      "title": "aute voluptate aute",
+      "source": "archivesspace",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "incididunt sit sit sit culpa deserunt"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "dolore aute consequat ullamco ut et",
+            "deserunt veniam consequat duis ex occaecat",
+            "est consequat consectetur voluptate laborum reprehenderit",
+            "aliqua velit do et sint eu",
+            "laboris eiusmod dolore aliqua pariatur labore"
+          ]
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/37"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/46"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/49"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/21"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/45"
+        }
+      ]
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/1"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/42"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/27"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/49"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "expression": "Esperanto",
+      "identifier": "spa"
+    },
+    {
+      "expression": "English",
+      "identifier": "spa"
+    }
+  ],
+  "rights_statements": [],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/25"
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/37"
+    }
+  ]
+}

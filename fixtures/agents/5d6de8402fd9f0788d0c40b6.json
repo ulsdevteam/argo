@@ -1,0 +1,46 @@
+{
+  "id": "5d6de8402fd9f0788d0c40b6",
+  "title": "Bender family",
+  "type": "family",
+  "description": "Labore ut ex officia dolore. Elit deserunt laborum labore dolore nostrud cillum magna ea velit. Eiusmod non adipisicing est esse enim sit aliqua ex. Aute nisi commodo est pariatur pariatur elit est elit.",
+  "dates": [
+    {
+      "begin": "1916-10-21",
+      "end": "1966-06-04",
+      "expression": "Oct 21st, 1916 - Jun 4th, 1966",
+      "type": "bulk",
+      "label": "digitized"
+    }
+  ],
+  "notes": [
+    {
+      "type": "physloc",
+      "title": "elit irure voluptate",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "quis consectetur voluptate anim in et"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "deserunt aliquip cillum adipisicing ex consectetur",
+            "esse labore excepteur do deserunt nostrud",
+            "proident culpa sint ad minim sunt",
+            "velit dolor est proident officia amet",
+            "laboris consequat fugiat id adipisicing ut"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/<SyntaxError: missing ) after argument list>"
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "id": "5d6f183ea5d0223bcde85f5a",
+  "title": "Proident deserunt eu voluptate aliqua esse magna consequat mollit quis occaecat deserunt incididunt.",
+  "type": "object",
+  "dates": [
+    {
+      "begin": "1928-12-22",
+      "end": "1960-01-13",
+      "expression": "Dec 22nd, 1928 - Jan 13th, 1960",
+      "type": "bulk",
+      "label": "digitized"
+    }
+  ],
+  "extents": [
+    {
+      "value": 92.51,
+      "type": "volumes"
+    }
+  ],
+  "notes": [
+    {
+      "type": "legalstatus",
+      "title": "sunt ut esse",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "ea velit elit cillum pariatur exercitation"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "scopecontent",
+      "title": "qui consequat do",
+      "source": "archivesspace",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "non laboris voluptate dolor exercitation minim",
+            "ex ea culpa est dolor reprehenderit",
+            "mollit sint mollit ad mollit reprehenderit"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "veniam cillum Lorem Lorem aliqua nostrud",
+            "laborum laboris sunt tempor eu anim",
+            "cupidatat incididunt cupidatat elit sint id",
+            "elit nisi labore velit dolore incididunt",
+            "excepteur nisi proident ullamco aute do"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bioghist",
+      "title": "consectetur exercitation anim",
+      "source": "archivesspace",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "nisi mollit cupidatat labore veniam qui",
+            "ex aliquip velit ad cupidatat Lorem",
+            "elit irure consectetur sit aliquip duis"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "materialspec",
+      "title": "voluptate officia id",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "aute sit non ipsum sunt do",
+            "ullamco et aliqua est nulla ipsum",
+            "qui reprehenderit esse Lorem dolor occaecat"
+          ]
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/18"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/8"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/40"
+        }
+      ]
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/33"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/29"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "expression": "Esperanto",
+      "identifier": "spa"
+    },
+    {
+      "expression": "Esperanto",
+      "identifier": "eng"
+    }
+  ],
+  "rights_statements": [],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/24"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/34"
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/8"
+    }
+  ]
+}

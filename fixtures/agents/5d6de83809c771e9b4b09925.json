@@ -1,0 +1,40 @@
+{
+  "id": "5d6de83809c771e9b4b09925",
+  "title": "Chase Foundation",
+  "type": "organization",
+  "description": "Ullamco in minim occaecat eiusmod veniam elit. Aliqua occaecat laborum fugiat nostrud eiusmod sunt. Do est velit labore cupidatat ullamco labore culpa laborum laborum.",
+  "dates": [
+    {
+      "begin": "1920-08-01",
+      "end": "1964-01-30",
+      "expression": "Aug 1st, 1920 - Jan 30th, 1964",
+      "type": "bulk",
+      "label": "agent_relation"
+    }
+  ],
+  "notes": [
+    {
+      "type": "custodhist",
+      "title": "nulla laborum reprehenderit",
+      "source": "archivesspace",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "aliquip esse incididunt dolore voluptate nostrud",
+            "non aliquip incididunt anim labore eu",
+            "est velit dolore adipisicing eiusmod elit",
+            "est do labore adipisicing deserunt id",
+            "velit irure labore ea cillum officia"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/<SyntaxError: missing ) after argument list>"
+    }
+  ]
+}

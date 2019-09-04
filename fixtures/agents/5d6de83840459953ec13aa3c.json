@@ -1,0 +1,89 @@
+{
+  "id": "5d6de83840459953ec13aa3c",
+  "title": "Carey Foundation",
+  "type": "organization",
+  "description": "Ullamco deserunt amet voluptate ullamco ex esse reprehenderit excepteur sit officia sit fugiat. Incididunt aliquip consequat irure ex veniam adipisicing voluptate excepteur magna sunt. Ea laboris et ea cupidatat ipsum adipisicing dolore nisi quis occaecat proident quis consectetur ipsum. Exercitation ea voluptate qui aliqua.",
+  "dates": [
+    {
+      "begin": "1937-11-20",
+      "end": "1999-06-18",
+      "expression": "Nov 20th, 1937 - Jun 18th, 1999",
+      "type": "bulk",
+      "label": "record_keeping"
+    },
+    {
+      "begin": "1933-01-24",
+      "end": "1984-03-09",
+      "expression": "Jan 24th, 1933 - Mar 9th, 1984",
+      "type": "single",
+      "label": "existence"
+    }
+  ],
+  "notes": [
+    {
+      "type": "processinfo",
+      "title": "consectetur ut dolor",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "occaecat mollit in aliqua ex sint",
+            "officia exercitation elit ad id nulla",
+            "quis incididunt minim cupidatat Lorem culpa",
+            "sit irure dolore laboris deserunt magna"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "sunt tempor laboris enim irure in",
+            "elit aute irure irure fugiat cupidatat",
+            "est proident ad magna in cupidatat"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "separatedmaterial",
+      "title": "excepteur et minim",
+      "source": "archivesspace",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "irure amet ex proident anim sint",
+            "eiusmod officia qui mollit ut adipisicing",
+            "enim sit laboris sint cillum culpa"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "magna cupidatat exercitation cupidatat ut aute",
+            "fugiat nisi officia laboris eu sint",
+            "voluptate in ea ipsum consectetur voluptate",
+            "cupidatat minim exercitation non est sunt",
+            "ea ipsum sunt laborum sunt eu"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "nulla id anim consequat officia do",
+            "reprehenderit ullamco consectetur ea laboris sint",
+            "id id elit labore consectetur laborum",
+            "deserunt culpa ex consectetur exercitation esse",
+            "nostrud aute in esse incididunt amet"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/<SyntaxError: missing ) after argument list>"
+    }
+  ]
+}

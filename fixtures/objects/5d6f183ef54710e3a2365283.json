@@ -1,0 +1,311 @@
+{
+  "id": "5d6f183ef54710e3a2365283",
+  "title": "Deserunt consequat velit velit velit est irure.",
+  "type": "object",
+  "dates": [
+    {
+      "begin": "1947-09-08",
+      "end": "2019-07-20",
+      "expression": "Sep 8th, 1947 - Jul 20th, 2019",
+      "type": "inclusive",
+      "label": "copyright"
+    }
+  ],
+  "extents": [
+    {
+      "value": 52.5,
+      "type": "files"
+    },
+    {
+      "value": 42.34,
+      "type": "files"
+    }
+  ],
+  "notes": [
+    {
+      "type": "additional_information",
+      "title": "ut irure id",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "incididunt ipsum id reprehenderit consequat nulla",
+            "laboris amet velit minim consectetur aliquip",
+            "aliquip veniam Lorem non dolore magna"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "reprehenderit do cillum occaecat eiusmod labore",
+            "minim aliquip exercitation non culpa elit",
+            "cillum pariatur irure mollit magna nulla",
+            "laboris elit ut ut ad do"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rights_statement_act",
+      "title": "laboris ipsum eu",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "nisi officia mollit nisi mollit proident",
+            "duis consequat ad minim incididunt sint",
+            "consectetur velit ullamco nostrud laborum ut"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "nostrud dolore magna ullamco id ullamco",
+            "nisi ullamco cillum aliqua dolor elit",
+            "deserunt proident aute laboris dolor esse",
+            "elit sit cillum pariatur quis culpa",
+            "sit deserunt reprehenderit nisi excepteur commodo"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "permissions",
+      "title": "proident dolor cillum",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "ad commodo dolore dolore voluptate commodo",
+            "excepteur duis ad ad pariatur tempor",
+            "enim quis ullamco ipsum nostrud id",
+            "velit laboris fugiat dolore adipisicing aute",
+            "consequat labore cupidatat ullamco cupidatat ut"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "aliquip in deserunt adipisicing sit labore",
+            "ad eiusmod sunt non culpa pariatur",
+            "amet est cillum culpa adipisicing velit",
+            "in ad elit labore minim aliquip",
+            "minim mollit eu exercitation velit sunt"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "tempor est dolore elit anim consequat",
+            "ex elit ad anim deserunt pariatur",
+            "ad fugiat ea amet ut consectetur"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "langmaterial",
+      "title": "Lorem laborum reprehenderit",
+      "source": "archivesspace",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "in ut laborum cupidatat cillum est"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "dolore culpa mollit occaecat irure duis",
+            "id eiusmod culpa ad nisi elit",
+            "eiusmod exercitation ullamco ipsum deserunt reprehenderit",
+            "velit elit fugiat do dolor sint"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "esse ullamco aliquip in esse minim"
+          ]
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/40"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/31"
+        }
+      ]
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/8"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/35"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/9"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "expression": "Esperanto",
+      "identifier": "epo"
+    },
+    {
+      "expression": "English",
+      "identifier": "epo"
+    },
+    {
+      "expression": "English",
+      "identifier": "epo"
+    }
+  ],
+  "rights_statements": [
+    {
+      "id": "5d6f183e863caf0b338a0054",
+      "determination_date": "2019-09-04",
+      "type": "rights_statement",
+      "rights_type": "other",
+      "rights_status": "copyrighted",
+      "begin": "2019-09-04",
+      "end": "2019-09-04",
+      "copyright_status": "public domain",
+      "other_basis": "ut",
+      "jurisdiction": "CN",
+      "notes": [
+        {
+          "type": "restrictions",
+          "title": "exercitation laboris elit",
+          "source": "cartographer",
+          "subnotes": [
+            {
+              "type": "text",
+              "content": [
+                "non incididunt irure anim aliqua fugiat",
+                "consequat eu laboris fugiat cillum cupidatat",
+                "adipisicing consequat tempor fugiat quis occaecat"
+              ]
+            }
+          ]
+        }
+      ],
+      "rights_granted": [
+        {
+          "act": "migrate",
+          "begin": "2019-09-04",
+          "end": "2019-09-04",
+          "restriction": "disallow",
+          "notes": []
+        }
+      ]
+    },
+    {
+      "id": "5d6f183e984ffdb651051ca2",
+      "determination_date": "2019-09-04",
+      "type": "rights_statement",
+      "rights_type": "statute",
+      "rights_status": "unknown",
+      "begin": "2019-09-04",
+      "end": "2019-09-04",
+      "copyright_status": "unknown",
+      "other_basis": "officia",
+      "jurisdiction": "US",
+      "notes": [
+        {
+          "type": "restrictions",
+          "title": "amet ad ut",
+          "source": "wikipedia",
+          "subnotes": [
+            {
+              "type": "definedlist",
+              "content": [
+                "veniam est in nostrud tempor non"
+              ]
+            }
+          ]
+        }
+      ],
+      "rights_granted": [
+        {
+          "act": "replicate",
+          "begin": "2019-09-04",
+          "end": "2019-09-04",
+          "restriction": "allow",
+          "notes": []
+        },
+        {
+          "act": "replicate",
+          "begin": "2019-09-04",
+          "end": "2019-09-04",
+          "restriction": "allow",
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/7"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/16"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/4"
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/43"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "id": "5d6f183e95edaa1675180207",
+  "title": "Reprehenderit Lorem excepteur amet aute ut ullamco proident id Lorem.",
+  "type": "object",
+  "dates": [
+    {
+      "begin": "1916-11-08",
+      "end": "1998-12-25",
+      "expression": "Nov 8th, 1916 - Dec 25th, 1998",
+      "type": "bulk",
+      "label": "broadcast"
+    },
+    {
+      "begin": "1948-06-01",
+      "end": "2018-10-05",
+      "expression": "Jun 1st, 1948 - Oct 5th, 2018",
+      "type": "bulk",
+      "label": "record_keeping"
+    }
+  ],
+  "extents": [
+    {
+      "value": 55.75,
+      "type": "reels"
+    }
+  ],
+  "notes": [
+    {
+      "type": "permissions",
+      "title": "aute nostrud sunt",
+      "source": "archivesspace",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "tempor veniam culpa exercitation occaecat dolore",
+            "dolor dolore duis nisi proident dolor",
+            "dolore enim culpa veniam nisi enim"
+          ]
+        }
+      ]
+    }
+  ],
+  "terms": [],
+  "agents": [],
+  "languages": [
+    {
+      "expression": "Esperanto",
+      "identifier": "spa"
+    }
+  ],
+  "rights_statements": [],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/2"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/22"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/37"
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/1"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "5d6f183e55f496d08ba40637",
+  "title": "Quis adipisicing nisi qui non sit incididunt Lorem eu non sit ipsum do.",
+  "type": "object",
+  "dates": [
+    {
+      "begin": "1950-05-16",
+      "end": "1982-11-05",
+      "expression": "May 16th, 1950 - Nov 5th, 1982",
+      "type": "bulk",
+      "label": "copyright"
+    },
+    {
+      "begin": "1930-04-23",
+      "end": "2015-12-02",
+      "expression": "Apr 23rd, 1930 - Dec 2nd, 2015",
+      "type": "inclusive",
+      "label": "usage"
+    }
+  ],
+  "extents": [
+    {
+      "value": 74.41,
+      "type": "record cartons"
+    },
+    {
+      "value": 29.89,
+      "type": "document box(es)"
+    }
+  ],
+  "notes": [],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/20"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/24"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/24"
+        }
+      ]
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/4"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "expression": "Esperanto",
+      "identifier": "epo"
+    },
+    {
+      "expression": "Esperanto",
+      "identifier": "spa"
+    }
+  ],
+  "rights_statements": [],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/50"
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/1"
+    }
+  ]
+}

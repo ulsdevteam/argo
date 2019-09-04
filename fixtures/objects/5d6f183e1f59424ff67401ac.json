@@ -1,0 +1,171 @@
+{
+  "id": "5d6f183e1f59424ff67401ac",
+  "title": "Eiusmod labore mollit ad labore adipisicing aliqua est ipsum sint.",
+  "type": "object",
+  "dates": [
+    {
+      "begin": "1946-08-11",
+      "end": "1985-03-03",
+      "expression": "Aug 11th, 1946 - Mar 3rd, 1985",
+      "type": "single",
+      "label": "record_keeping"
+    },
+    {
+      "begin": "1956-07-12",
+      "end": "2003-04-29",
+      "expression": "Jul 12th, 1956 - Apr 29th, 2003",
+      "type": "single",
+      "label": "event"
+    }
+  ],
+  "extents": [
+    {
+      "value": 97.78,
+      "type": "sheets"
+    },
+    {
+      "value": 60.82,
+      "type": "reels"
+    }
+  ],
+  "notes": [
+    {
+      "type": "arrangement",
+      "title": "labore officia amet",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "officia occaecat ex consectetur nostrud pariatur",
+            "consequat exercitation et ullamco occaecat ea",
+            "incididunt qui enim amet aliquip duis",
+            "quis non et occaecat incididunt nisi",
+            "ad Lorem dolore culpa quis deserunt"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "aute ea duis veniam est pariatur"
+          ]
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/43"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/39"
+        }
+      ]
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/15"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "expression": "Esperanto",
+      "identifier": "eng"
+    },
+    {
+      "expression": "Spanish",
+      "identifier": "spa"
+    },
+    {
+      "expression": "English",
+      "identifier": "eng"
+    }
+  ],
+  "rights_statements": [
+    {
+      "id": "5d6f183ec124d31a4caf05c2",
+      "determination_date": "2019-09-04",
+      "type": "rights_statement",
+      "rights_type": "other",
+      "rights_status": "public domain",
+      "begin": "2019-09-04",
+      "end": "2019-09-04",
+      "copyright_status": "unknown",
+      "other_basis": "nulla",
+      "jurisdiction": "FR",
+      "notes": [],
+      "rights_granted": [
+        {
+          "act": "use",
+          "begin": "2019-09-04",
+          "end": "2019-09-04",
+          "restriction": "allow",
+          "notes": [
+            {
+              "type": "rights_statement_act",
+              "title": "enim nisi veniam",
+              "source": "archivesspace",
+              "subnotes": [
+                {
+                  "type": "text",
+                  "content": [
+                    "enim cillum ex sunt sint fugiat",
+                    "aliqua commodo duis sint ipsum Lorem",
+                    "sit in pariatur do eiusmod et",
+                    "nostrud irure eu id incididunt non",
+                    "eu aliquip fugiat veniam exercitation nostrud"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "act": "replicate",
+          "begin": "2019-09-04",
+          "end": "2019-09-04",
+          "restriction": "allow",
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/7"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/13"
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/50"
+    }
+  ]
+}

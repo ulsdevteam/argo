@@ -1,0 +1,170 @@
+{
+  "id": "5d6f183e7fa0450cbbbf12bf",
+  "title": "Laboris dolor duis ad non voluptate dolor amet id.",
+  "type": "object",
+  "dates": [
+    {
+      "begin": "1948-05-16",
+      "end": "1965-06-28",
+      "expression": "May 16th, 1948 - Jun 28th, 1965",
+      "type": "bulk",
+      "label": "copyright"
+    },
+    {
+      "begin": "1943-09-12",
+      "end": "2007-01-04",
+      "expression": "Sep 12th, 1943 - Jan 4th, 2007",
+      "type": "bulk",
+      "label": "publication"
+    }
+  ],
+  "extents": [
+    {
+      "value": 95.07,
+      "type": "leaves"
+    },
+    {
+      "value": 50.78,
+      "type": "linear_feet"
+    }
+  ],
+  "notes": [],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/36"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/35"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/42"
+        }
+      ]
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/16"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/2"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/44"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/7"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "expression": "Spanish",
+      "identifier": "spa"
+    }
+  ],
+  "rights_statements": [
+    {
+      "id": "5d6f183eba3bb689734d737d",
+      "determination_date": "2019-09-04",
+      "type": "rights_statement",
+      "rights_type": "copyright",
+      "rights_status": "copyrighted",
+      "begin": "2019-09-04",
+      "end": "2019-09-04",
+      "copyright_status": "public domain",
+      "other_basis": "aliquip",
+      "jurisdiction": "US",
+      "notes": [
+        {
+          "type": "extension",
+          "title": "ullamco pariatur esse",
+          "source": "cartographer",
+          "subnotes": [
+            {
+              "type": "text",
+              "content": [
+                "cupidatat magna excepteur proident aute culpa",
+                "fugiat cillum sit laboris ea consectetur",
+                "do nulla qui elit nisi consequat"
+              ]
+            }
+          ]
+        }
+      ],
+      "rights_granted": [
+        {
+          "act": "disseminate",
+          "begin": "2019-09-04",
+          "end": "2019-09-04",
+          "restriction": "allow",
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/19"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/47"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/38"
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/32"
+    }
+  ]
+}

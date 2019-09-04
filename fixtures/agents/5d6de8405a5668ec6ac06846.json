@@ -1,0 +1,46 @@
+{
+  "id": "5d6de8405a5668ec6ac06846",
+  "title": "French family",
+  "type": "family",
+  "description": "Nostrud commodo esse qui culpa magna nulla occaecat eiusmod proident nostrud. Dolor excepteur eiusmod non commodo. Aliqua minim aliqua ad excepteur anim. Adipisicing aliqua duis non anim quis consectetur minim cillum cillum tempor. Eu ad eu quis Lorem qui eu veniam incididunt.",
+  "dates": [
+    {
+      "begin": "1954-08-14",
+      "end": "2010-05-30",
+      "expression": "Aug 14th, 1954 - May 30th, 2010",
+      "type": "single",
+      "label": "issued"
+    }
+  ],
+  "notes": [
+    {
+      "type": "otherfindaid",
+      "title": "eiusmod qui qui",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "culpa anim anim mollit veniam do",
+            "pariatur eiusmod laborum enim exercitation dolor",
+            "reprehenderit proident ut minim nisi aute"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "nisi dolor minim laboris consequat minim",
+            "enim dolor sunt nostrud magna consectetur",
+            "dolor sunt qui pariatur sint et"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/<SyntaxError: missing ) after argument list>"
+    }
+  ]
+}

@@ -75,9 +75,12 @@ class RightsStatementSerializer(serializers.Serializer):
     rights_granted = RightsGrantedSerializer(many=True)
 
 
-# TODO: this needs to be updated
-class URISerializer(serializers.Serializer):
-    ref = serializers.CharField()
+class ReferenceSerializer(serializers.Serializer):
+    title = serializers.CharField(allow_null=True)
+    uri = serializers.CharField(allow_null=True)
+    order = serializers.IntegerField(allow_null=True)
+    type = serializers.CharField(allow_null=True)
+    external_identifiers = ExternalIdentifierSerializer(many=True)
 
 
 class BaseListSerializer(serializers.Serializer):
@@ -113,9 +116,9 @@ class CollectionSerializer(BaseDetailSerializer):
     dates = DateSerializer(many=True)
     notes = NoteSerializer(many=True, allow_null=True)
     rights_statements = RightsStatementSerializer(many=True, allow_null=True)
-    agents = URISerializer(many=True, allow_null=True)
-    creators = URISerializer(many=True, allow_null=True)
-    terms = URISerializer(many=True, allow_null=True)
+    agents = ReferenceSerializer(many=True, allow_null=True)
+    creators = ReferenceSerializer(many=True, allow_null=True)
+    terms = ReferenceSerializer(many=True, allow_null=True)
     ancestors = AncestorSerializer(allow_null=True)
     children = ChildrenSerializer(allow_null=True)
 
@@ -129,8 +132,8 @@ class ObjectSerializer(BaseDetailSerializer):
     dates = DateSerializer(many=True)
     notes = NoteSerializer(many=True, allow_null=True)
     rights_statements = RightsStatementSerializer(many=True, allow_null=True)
-    agents = URISerializer(many=True, allow_null=True)
-    terms = URISerializer(many=True, allow_null=True)
+    agents = ReferenceSerializer(many=True, allow_null=True)
+    terms = ReferenceSerializer(many=True, allow_null=True)
     ancestors = AncestorSerializer(allow_null=True)
 
 
@@ -147,5 +150,5 @@ class HitSerializer(BaseListSerializer):
     type = serializers.CharField()
     dates = DateSerializer(many=True, allow_null=True)
     extents = ExtentSerializer(many=True, allow_null=True)
-    agents = URISerializer(many=True, allow_null=True)
-    terms = URISerializer(many=True, allow_null=True)
+    agents = ReferenceSerializer(many=True, allow_null=True)
+    terms = ReferenceSerializer(many=True, allow_null=True)

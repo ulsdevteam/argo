@@ -1,0 +1,37 @@
+{
+  "id": "5d6de840852a74b23362eec1",
+  "title": "Baker family",
+  "type": "family",
+  "description": "Aliquip deserunt ex proident anim esse. Ipsum deserunt duis ad ex ipsum laboris in consequat officia sint. Pariatur in in culpa ea ad culpa exercitation dolor Lorem anim consequat. Aliquip cupidatat dolor duis sit officia aute ut Lorem Lorem exercitation pariatur.",
+  "dates": [
+    {
+      "begin": "1941-10-29",
+      "end": "1998-11-24",
+      "expression": "Oct 29th, 1941 - Nov 24th, 1998",
+      "type": "single",
+      "label": "event"
+    }
+  ],
+  "notes": [
+    {
+      "type": "physdesc",
+      "title": "culpa tempor nostrud",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "aliquip deserunt ad est eiusmod do",
+            "officia tempor aute duis ipsum dolor"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/<SyntaxError: missing ) after argument list>"
+    }
+  ]
+}

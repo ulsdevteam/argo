@@ -1,0 +1,193 @@
+{
+  "id": "5d6f186b928d09c16e72305a",
+  "title": "Incididunt officia officia ut aliquip laboris duis minim laboris labore incididunt eu et deserunt.",
+  "type": "collection",
+  "level": "series",
+  "dates": [
+    {
+      "begin": "1918-09-14",
+      "end": "2002-03-15",
+      "expression": "Sep 14th, 1918 - Mar 15th, 2002",
+      "type": "inclusive",
+      "label": "deaccession"
+    },
+    {
+      "begin": "1950-06-22",
+      "end": "1999-07-11",
+      "expression": "Jun 22nd, 1950 - Jul 11th, 1999",
+      "type": "bulk",
+      "label": "issued"
+    }
+  ],
+  "creators": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/11"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/50"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "value": 76.1,
+      "type": "photographic_prints"
+    }
+  ],
+  "notes": [
+    {
+      "type": "physloc",
+      "title": "nulla qui elit",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "nulla magna nostrud esse reprehenderit adipisicing",
+            "deserunt incididunt commodo minim laborum eu",
+            "labore anim voluptate dolor elit Lorem",
+            "tempor amet anim ad deserunt esse"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "ullamco magna irure magna proident voluptate",
+            "reprehenderit nulla excepteur sint proident esse",
+            "adipisicing est voluptate sit enim in"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "et sit dolor commodo est dolor",
+            "culpa mollit mollit ipsum eu aute",
+            "pariatur ipsum consectetur anim exercitation veniam",
+            "non dolore sint minim aliqua dolore",
+            "esse officia reprehenderit officia sint quis"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "accessrestrict",
+      "title": "ullamco aliquip quis",
+      "source": "archivesspace",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "do reprehenderit cupidatat anim cillum reprehenderit",
+            "reprehenderit amet amet adipisicing est irure",
+            "dolor voluptate minim labore adipisicing fugiat",
+            "eiusmod ipsum dolore do consequat esse",
+            "est adipisicing do ullamco anim laboris"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "nulla enim deserunt duis ea magna"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "dolore anim enim laboris aliquip quis",
+            "et eu non nostrud eiusmod ullamco",
+            "proident exercitation adipisicing sit sunt do",
+            "aliquip sint nostrud excepteur dolore veniam",
+            "aute sunt duis officia non enim"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rights_statement",
+      "title": "eiusmod dolor commodo",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "nulla dolore nisi do proident cupidatat",
+            "anim ut sit tempor et consequat",
+            "ea enim enim deserunt sunt laboris",
+            "anim ipsum excepteur sit mollit exercitation",
+            "dolore incididunt labore dolore qui et"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "duis Lorem qui magna sint laborum",
+            "qui adipisicing fugiat dolore sint pariatur",
+            "anim occaecat eiusmod cupidatat Lorem eiusmod",
+            "ea incididunt dolore aute amet Lorem"
+          ]
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/26"
+        }
+      ]
+    }
+  ],
+  "agents": [],
+  "languages": [
+    {
+      "expression": "English",
+      "identifier": "epo"
+    },
+    {
+      "expression": "Esperanto",
+      "identifier": "epo"
+    },
+    {
+      "expression": "Spanish",
+      "identifier": "eng"
+    }
+  ],
+  "rights_statements": [],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/14"
+        }
+      ]
+    }
+  ],
+  "children": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/9"
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/48"
+    }
+  ]
+}

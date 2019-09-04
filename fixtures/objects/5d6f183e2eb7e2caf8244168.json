@@ -1,0 +1,178 @@
+{
+  "id": "5d6f183e2eb7e2caf8244168",
+  "title": "Cupidatat commodo aliqua incididunt duis cupidatat consequat esse dolore et occaecat.",
+  "type": "object",
+  "dates": [
+    {
+      "begin": "1956-12-07",
+      "end": "1988-10-07",
+      "expression": "Dec 7th, 1956 - Oct 7th, 1988",
+      "type": "inclusive",
+      "label": "usage"
+    }
+  ],
+  "extents": [
+    {
+      "value": 45.23,
+      "type": "box(es)"
+    },
+    {
+      "value": 89.52,
+      "type": "photographic_slides"
+    }
+  ],
+  "notes": [
+    {
+      "type": "edition",
+      "title": "qui sint proident",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "eu cupidatat consectetur eiusmod Lorem exercitation",
+            "ut proident non id ipsum id",
+            "minim ad ex velit cupidatat exercitation"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "cupidatat Lorem tempor reprehenderit tempor nulla"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "eu voluptate dolor esse irure ex",
+            "amet mollit pariatur ea deserunt aute"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "restrictions",
+      "title": "laboris fugiat labore",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "nostrud labore cupidatat reprehenderit qui ad"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "phystech",
+      "title": "occaecat eu proident",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "aliquip occaecat culpa ex cillum proident"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "mollit id quis esse aliquip officia",
+            "aliquip ad ad enim sint consectetur",
+            "laborum irure consequat aute sint officia"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "et commodo tempor adipisicing mollit dolore",
+            "incididunt mollit anim cillum dolore et"
+          ]
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/33"
+        }
+      ]
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/30"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/35"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/19"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/2"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/45"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "expression": "Esperanto",
+      "identifier": "eng"
+    }
+  ],
+  "rights_statements": [],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/11"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/9"
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/4"
+    }
+  ]
+}

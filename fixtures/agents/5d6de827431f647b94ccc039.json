@@ -1,0 +1,39 @@
+{
+  "id": "5d6de827431f647b94ccc039",
+  "title": "Randall Fitzgerald",
+  "type": "person",
+  "description": "Velit enim sunt ut magna voluptate do quis non ea tempor. Cupidatat aliquip adipisicing incididunt incididunt velit Lorem cupidatat officia sint ut. Ea tempor tempor veniam ut esse tempor proident irure culpa deserunt nostrud. Exercitation commodo in eu reprehenderit. Lorem voluptate quis laborum consequat amet cillum nulla anim consequat eiusmod aliqua excepteur. Est reprehenderit reprehenderit irure eiusmod laboris aute. Qui ex aliquip duis adipisicing nostrud ullamco pariatur magna.",
+  "dates": [
+    {
+      "begin": "1936-06-17",
+      "end": "2013-07-24",
+      "expression": "Jun 17th, 1936 - Jul 24th, 2013",
+      "type": "single",
+      "label": "copyright"
+    }
+  ],
+  "notes": [
+    {
+      "type": "acquinfo",
+      "title": "dolore et dolor",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "culpa labore velit veniam pariatur dolore",
+            "ipsum ea occaecat excepteur consequat mollit",
+            "quis exercitation ipsum ipsum irure aliquip",
+            "veniam esse enim deserunt enim reprehenderit"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_person/<SyntaxError: missing ) after argument list>"
+    }
+  ]
+}

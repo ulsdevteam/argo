@@ -1,0 +1,54 @@
+{
+  "id": "5d6de827f3cb0137bb2f901a",
+  "title": "Angel Meyer",
+  "type": "person",
+  "description": "Adipisicing quis mollit velit commodo pariatur laborum reprehenderit enim aliqua cillum. Consequat aliquip cupidatat ipsum pariatur amet sit nostrud. Cupidatat sint esse ad consectetur. Sint quis consectetur nulla culpa ad enim incididunt sit enim laborum nisi esse. Laborum ea sunt dolor nulla magna irure cillum pariatur. Ad commodo dolore veniam adipisicing magna proident.",
+  "dates": [
+    {
+      "begin": "1942-03-01",
+      "end": "1982-03-29",
+      "expression": "Mar 1st, 1942 - Mar 29th, 1982",
+      "type": "inclusive",
+      "label": "broadcast"
+    }
+  ],
+  "notes": [
+    {
+      "type": "legalstatus",
+      "title": "officia incididunt veniam",
+      "source": "archivesspace",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "nostrud nisi veniam sit et in",
+            "laborum incididunt dolore laborum enim occaecat",
+            "eiusmod magna ea labore do et"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "irure sit laborum sit sunt reprehenderit",
+            "irure ut minim tempor mollit deserunt"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "ex aliquip Lorem culpa sit aliquip",
+            "aliquip non dolor deserunt excepteur ea",
+            "cupidatat et aliquip est ex minim",
+            "velit adipisicing elit minim amet proident"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_person/<SyntaxError: missing ) after argument list>"
+    }
+  ]
+}

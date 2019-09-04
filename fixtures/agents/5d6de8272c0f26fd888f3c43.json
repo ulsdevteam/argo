@@ -1,0 +1,52 @@
+{
+  "id": "5d6de8272c0f26fd888f3c43",
+  "title": "Burris Combs",
+  "type": "person",
+  "description": "Laborum excepteur sit officia ex fugiat anim eu culpa tempor irure nostrud enim duis. In qui velit occaecat deserunt quis. Sunt nostrud aute eiusmod anim officia.",
+  "dates": [
+    {
+      "begin": "1920-04-26",
+      "end": "1995-04-05",
+      "expression": "Apr 26th, 1920 - Apr 5th, 1995",
+      "type": "single",
+      "label": "agent_relation"
+    }
+  ],
+  "notes": [
+    {
+      "type": "materials",
+      "title": "pariatur officia nisi",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "pariatur ut eu cillum cupidatat et"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "tempor consectetur tempor cillum id exercitation",
+            "labore cupidatat voluptate voluptate ut dolore",
+            "velit aliquip dolore ex dolor ut",
+            "amet ullamco minim ullamco eu quis"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "proident ipsum consectetur consectetur aliqua aliquip",
+            "fugiat ad non eiusmod veniam aute"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_person/<SyntaxError: missing ) after argument list>"
+    }
+  ]
+}

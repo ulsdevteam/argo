@@ -1,0 +1,50 @@
+{
+  "id": "5d6de83830cc6b52720abd19",
+  "title": "Lane Foundation",
+  "type": "organization",
+  "description": "Sint aliquip proident quis voluptate duis elit occaecat. Ipsum eiusmod ex sit nulla dolor veniam exercitation laboris esse aute duis culpa. Laborum incididunt consectetur veniam reprehenderit ex enim non quis aliquip et magna ullamco duis. Lorem laborum cillum do Lorem commodo dolor voluptate eu in ut do nulla in. Magna ipsum sit velit labore sit cillum velit nisi duis. Ex amet anim fugiat culpa. Non id ipsum labore reprehenderit elit deserunt reprehenderit eiusmod ullamco reprehenderit dolore dolore laborum adipisicing.",
+  "dates": [
+    {
+      "begin": "1958-10-05",
+      "end": "1975-03-11",
+      "expression": "Oct 5th, 1958 - Mar 11th, 1975",
+      "type": "single",
+      "label": "agent_relation"
+    }
+  ],
+  "notes": [
+    {
+      "type": "physloc",
+      "title": "excepteur sunt occaecat",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "labore mollit exercitation tempor amet sit",
+            "dolore dolor magna ullamco sint laborum"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "separatedmaterial",
+      "title": "nulla aute dolor",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "eu magna excepteur aliqua ea excepteur"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/<SyntaxError: missing ) after argument list>"
+    }
+  ]
+}

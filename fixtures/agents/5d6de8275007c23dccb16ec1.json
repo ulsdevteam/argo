@@ -1,0 +1,48 @@
+{
+  "id": "5d6de8275007c23dccb16ec1",
+  "title": "Nettie Floyd",
+  "type": "person",
+  "description": "Non esse duis nulla nisi laboris ea. Voluptate anim eiusmod labore cupidatat. Ullamco qui proident tempor nisi ad do ea et irure dolore nostrud irure fugiat qui. Officia nulla non est irure qui dolor Lorem amet ea.",
+  "dates": [
+    {
+      "begin": "1921-01-12",
+      "end": "1966-06-24",
+      "expression": "Jan 12th, 1921 - Jun 24th, 1966",
+      "type": "inclusive",
+      "label": "event"
+    }
+  ],
+  "notes": [
+    {
+      "type": "fileplan",
+      "title": "qui eiusmod culpa",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "tempor ex eiusmod deserunt anim voluptate",
+            "sit nisi pariatur commodo fugiat adipisicing",
+            "esse aliqua aliqua eiusmod veniam tempor",
+            "Lorem elit laborum cillum in do",
+            "culpa ad ipsum consequat ex aliqua"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "eu consequat labore id nostrud occaecat",
+            "laboris tempor cupidatat tempor culpa fugiat",
+            "aliquip culpa aliquip nisi ut sint"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_person/<SyntaxError: missing ) after argument list>"
+    }
+  ]
+}

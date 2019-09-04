@@ -1,0 +1,237 @@
+{
+  "id": "5d6f186af50c73cdadc563f5",
+  "title": "Reprehenderit aliqua id et dolore pariatur qui.",
+  "type": "collection",
+  "level": "subseries",
+  "dates": [
+    {
+      "begin": "1931-12-01",
+      "end": "1966-01-21",
+      "expression": "Dec 1st, 1931 - Jan 21st, 1966",
+      "type": "bulk",
+      "label": "event"
+    },
+    {
+      "begin": "1954-08-22",
+      "end": "1996-10-03",
+      "expression": "Aug 22nd, 1954 - Oct 3rd, 1996",
+      "type": "bulk",
+      "label": "copyright"
+    }
+  ],
+  "creators": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/19"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/41"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "value": 58.27,
+      "type": "microform reels"
+    },
+    {
+      "value": 43.51,
+      "type": "leaves"
+    }
+  ],
+  "notes": [
+    {
+      "type": "rights_statement_act",
+      "title": "ipsum excepteur sint",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "consectetur excepteur nisi culpa non laboris",
+            "nostrud magna fugiat dolore tempor eu",
+            "cupidatat minim quis dolore Lorem reprehenderit",
+            "voluptate aliqua sint occaecat non ad",
+            "qui ex irure nostrud reprehenderit nisi"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "edition",
+      "title": "fugiat irure sunt",
+      "source": "archivesspace",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "laboris sunt ea magna proident ut",
+            "culpa nostrud labore proident aute ipsum",
+            "aliqua eu aliquip fugiat non ipsum",
+            "et irure amet minim ea est"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "ullamco non nisi nostrud fugiat officia"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "exercitation aliquip minim sunt ad exercitation",
+            "cillum esse dolor ex dolore ad",
+            "sit velit exercitation excepteur esse ut",
+            "est qui cupidatat ad aute laborum"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "accruals",
+      "title": "voluptate consectetur ea",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "aliqua voluptate velit occaecat consectetur cillum"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "esse consectetur tempor quis ut officia"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "eu velit occaecat officia non occaecat"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "inscription",
+      "title": "officia ut ipsum",
+      "source": "archivesspace",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "reprehenderit occaecat irure anim sit tempor",
+            "sint velit sint minim in eu",
+            "Lorem tempor fugiat ex reprehenderit nisi"
+          ]
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/30"
+        }
+      ]
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/21"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/45"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/27"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/10"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "expression": "Esperanto",
+      "identifier": "spa"
+    },
+    {
+      "expression": "Spanish",
+      "identifier": "spa"
+    }
+  ],
+  "rights_statements": [],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/2"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/34"
+        }
+      ]
+    }
+  ],
+  "children": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/36"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/19"
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/27"
+    }
+  ]
+}

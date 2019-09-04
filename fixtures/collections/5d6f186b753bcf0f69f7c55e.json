@@ -1,0 +1,241 @@
+{
+  "id": "5d6f186b753bcf0f69f7c55e",
+  "title": "Ad aute irure ipsum labore.",
+  "type": "collection",
+  "level": "series",
+  "dates": [
+    {
+      "begin": "1926-11-04",
+      "end": "1993-08-04",
+      "expression": "Nov 4th, 1926 - Aug 4th, 1993",
+      "type": "inclusive",
+      "label": "digitized"
+    },
+    {
+      "begin": "1928-04-12",
+      "end": "1978-02-27",
+      "expression": "Apr 12th, 1928 - Feb 27th, 1978",
+      "type": "single",
+      "label": "agent_relation"
+    },
+    {
+      "begin": "1922-03-31",
+      "end": "2011-05-27",
+      "expression": "Mar 31st, 1922 - May 27th, 2011",
+      "type": "inclusive",
+      "label": "issued"
+    }
+  ],
+  "creators": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/15"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "value": 97.79,
+      "type": "gigabytes"
+    },
+    {
+      "value": 69.26,
+      "type": "cubic_feet"
+    }
+  ],
+  "notes": [
+    {
+      "type": "legalstatus",
+      "title": "magna anim dolor",
+      "source": "archivesspace",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "eiusmod mollit magna reprehenderit fugiat enim",
+            "deserunt sint id elit consequat nulla",
+            "et ea nulla sit consectetur aute",
+            "in ex ut ut nisi consectetur"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "ad ad dolor aliquip exercitation proident",
+            "aliqua officia Lorem magna eu sunt"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "id anim aliquip minim enim et",
+            "occaecat exercitation incididunt ex occaecat velit"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "legalstatus",
+      "title": "laborum elit ipsum",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "ea et aute mollit voluptate culpa"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "sit deserunt occaecat sit quis aute",
+            "excepteur nostrud voluptate esse eiusmod amet",
+            "adipisicing ea irure consectetur enim magna",
+            "et incididunt tempor sunt aliqua irure",
+            "aute commodo voluptate pariatur aliquip do"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "do sit commodo ex sint dolore"
+          ]
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/34"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/26"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/27"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/16"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/subjects/12"
+        }
+      ]
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/33"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "expression": "Esperanto",
+      "identifier": "epo"
+    }
+  ],
+  "rights_statements": [
+    {
+      "id": "5d6f186b89d3b0b583cc08e9",
+      "determination_date": "2019-09-04",
+      "type": "rights_statement",
+      "rights_type": "other",
+      "rights_status": "public domain",
+      "begin": "2019-09-04",
+      "end": "2019-09-04",
+      "copyright_status": "unknown",
+      "other_basis": "consectetur",
+      "jurisdiction": "FR",
+      "notes": [],
+      "rights_granted": [
+        {
+          "act": "disseminate",
+          "begin": "2019-09-04",
+          "end": "2019-09-04",
+          "restriction": "allow",
+          "notes": [
+            {
+              "type": "rights_statement_act",
+              "title": "nisi adipisicing cupidatat",
+              "source": "wikidata",
+              "subnotes": [
+                {
+                  "type": "definedlist",
+                  "content": [
+                    "ut laborum eiusmod nulla adipisicing amet",
+                    "exercitation duis aliqua cillum nostrud dolore",
+                    "excepteur ex amet duis sunt occaecat",
+                    "non sunt sit officia magna reprehenderit"
+                  ]
+                },
+                {
+                  "type": "orderedlist",
+                  "content": [
+                    "tempor cillum culpa labore fugiat culpa"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/18"
+        }
+      ]
+    }
+  ],
+  "children": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/50"
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/13"
+    }
+  ]
+}

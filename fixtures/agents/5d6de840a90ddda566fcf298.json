@@ -1,0 +1,61 @@
+{
+  "id": "5d6de840a90ddda566fcf298",
+  "title": "Baldwin family",
+  "type": "family",
+  "description": "Aute cupidatat officia tempor reprehenderit eu culpa aliqua dolore laboris fugiat enim mollit. Culpa pariatur incididunt non pariatur excepteur. Qui Lorem excepteur in ut ex duis mollit ea officia dolore voluptate sunt mollit. Veniam ullamco laborum in elit et duis consequat est elit incididunt incididunt adipisicing. Sint reprehenderit sit pariatur elit ut consequat minim enim non ex pariatur amet nostrud.",
+  "dates": [
+    {
+      "begin": "1954-08-10",
+      "end": "2014-03-06",
+      "expression": "Aug 10th, 1954 - Mar 6th, 2014",
+      "type": "inclusive",
+      "label": "issued"
+    },
+    {
+      "begin": "1913-04-18",
+      "end": "2009-03-03",
+      "expression": "Apr 18th, 1913 - Mar 3rd, 2009",
+      "type": "single",
+      "label": "record_keeping"
+    }
+  ],
+  "notes": [
+    {
+      "type": "otherfindaid",
+      "title": "aute non non",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "laboris sunt deserunt fugiat cupidatat ullamco",
+            "ad Lorem eu do exercitation minim",
+            "eiusmod laboris pariatur consequat deserunt reprehenderit",
+            "id amet reprehenderit nulla proident Lorem",
+            "est labore ut amet non enim"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "Lorem cupidatat duis sunt proident proident",
+            "non aliqua nisi eiusmod fugiat consequat",
+            "anim consequat sint cillum dolore ipsum"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "cillum duis elit Lorem cupidatat proident"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/<SyntaxError: missing ) after argument list>"
+    }
+  ]
+}

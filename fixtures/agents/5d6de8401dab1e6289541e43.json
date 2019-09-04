@@ -1,0 +1,59 @@
+{
+  "id": "5d6de8401dab1e6289541e43",
+  "title": "Daniels family",
+  "type": "family",
+  "description": "Ipsum officia minim fugiat laboris nisi quis enim ullamco cillum pariatur magna fugiat. Mollit nostrud enim eiusmod et non irure cillum excepteur. Ex cillum eu ullamco dolor aliqua commodo cillum. Cupidatat anim dolore labore tempor enim sint ad ut esse quis consectetur. Non aute ex culpa excepteur consequat cupidatat excepteur ut exercitation in amet ad ex ex. Non laborum aute cupidatat aliquip aliquip ex. Sit consectetur anim reprehenderit sunt cupidatat sunt consectetur magna amet.",
+  "dates": [
+    {
+      "begin": "1956-07-28",
+      "end": "2007-09-28",
+      "expression": "Jul 28th, 1956 - Sep 28th, 2007",
+      "type": "single",
+      "label": "deaccession"
+    }
+  ],
+  "notes": [
+    {
+      "type": "langmaterial",
+      "title": "sint ut laboris",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "dolore irure laborum magna pariatur adipisicing",
+            "laboris eiusmod enim Lorem cillum veniam"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bibliography",
+      "title": "laboris eu in",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "Lorem ea enim amet occaecat ipsum"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "esse officia eiusmod Lorem incididunt fugiat",
+            "id cillum minim officia magna laboris",
+            "deserunt esse laborum occaecat ullamco consectetur",
+            "proident velit pariatur excepteur consequat irure"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/<SyntaxError: missing ) after argument list>"
+    }
+  ]
+}

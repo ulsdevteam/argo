@@ -1,0 +1,76 @@
+{
+  "id": "5d6de8407f843439575c0461",
+  "title": "Goodwin family",
+  "type": "family",
+  "description": "Et nostrud enim cillum adipisicing in aliquip enim quis esse ut ea aute non duis. Non veniam velit sit magna labore irure non eiusmod consectetur elit fugiat. Incididunt nulla sunt elit cillum dolore qui elit labore nostrud veniam minim. Nisi cillum dolore do deserunt ut officia dolor laborum.",
+  "dates": [
+    {
+      "begin": "1959-08-31",
+      "end": "2018-10-26",
+      "expression": "Aug 31st, 1959 - Oct 26th, 2018",
+      "type": "single",
+      "label": "record_keeping"
+    },
+    {
+      "begin": "1937-12-27",
+      "end": "2007-05-18",
+      "expression": "Dec 27th, 1937 - May 18th, 2007",
+      "type": "single",
+      "label": "broadcast"
+    }
+  ],
+  "notes": [
+    {
+      "type": "appraisal",
+      "title": "velit cupidatat Lorem",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "nostrud commodo veniam occaecat ex occaecat",
+            "occaecat id qui anim qui laborum",
+            "duis et excepteur irure reprehenderit minim",
+            "cillum deserunt cillum et id irure"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "fileplan",
+      "title": "tempor aliquip adipisicing",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "esse velit ut officia anim deserunt",
+            "pariatur id aliquip elit est excepteur",
+            "eu nisi minim commodo commodo labore",
+            "sunt cillum dolor consectetur consectetur non",
+            "aliqua veniam pariatur fugiat aute culpa"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "cupidatat occaecat esse cupidatat ea voluptate"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "sunt do ullamco nostrud ullamco labore",
+            "sint do nisi proident in culpa"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/<SyntaxError: missing ) after argument list>"
+    }
+  ]
+}

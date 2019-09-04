@@ -1,0 +1,61 @@
+{
+  "id": "5d6de827df6946bf84fb3b23",
+  "title": "Margo Figueroa",
+  "type": "person",
+  "description": "Reprehenderit adipisicing fugiat id minim incididunt in non. Cillum Lorem ea nisi aliqua aute est velit Lorem consectetur nostrud laborum deserunt. Quis anim Lorem tempor cupidatat et. Proident exercitation aute et tempor cupidatat et excepteur aliquip sint minim Lorem. Ipsum nulla mollit voluptate cillum velit irure sit consectetur.",
+  "dates": [
+    {
+      "begin": "1929-02-01",
+      "end": "1963-10-03",
+      "expression": "Feb 1st, 1929 - Oct 3rd, 1963",
+      "type": "inclusive",
+      "label": "usage"
+    }
+  ],
+  "notes": [
+    {
+      "type": "legalstatus",
+      "title": "eu ea ex",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "magna exercitation dolor occaecat eiusmod laborum",
+            "aliqua cupidatat ipsum tempor occaecat aliqua",
+            "aute nostrud nisi officia nisi in",
+            "officia aliqua labore mollit duis sit",
+            "qui minim adipisicing amet ullamco exercitation"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "eu enim occaecat Lorem labore exercitation",
+            "incididunt qui reprehenderit excepteur non veniam"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "scopecontent",
+      "title": "eiusmod velit labore",
+      "source": "archivesspace",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "in aliquip ea Lorem consequat aliqua",
+            "anim veniam irure adipisicing minim cillum"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_person/<SyntaxError: missing ) after argument list>"
+    }
+  ]
+}
