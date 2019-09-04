@@ -94,6 +94,8 @@ class BaseDetailSerializer(serializers.Serializer):
 class AgentSerializer(BaseDetailSerializer):
     description = serializers.CharField(allow_null=True)
     notes = NoteSerializer(many=True)
+    collections = ReferenceSerializer(many=True)
+    objects = ReferenceSerializer(many=True)
 
 
 class AgentListSerializer(BaseListSerializer): pass

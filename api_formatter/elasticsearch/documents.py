@@ -101,6 +101,8 @@ class Agent(es.Document):
     type = es.Text(required=True, fields={'keyword': es.Keyword()})
     dates = es.Object(Date)
     notes = es.Nested(Note)
+    collections = es.Nested(Reference)
+    objects = es.Nested(Reference)
     external_identifiers = es.Nested(ExternalIdentifier, required=True)
 
     class Index:
@@ -160,9 +162,9 @@ class Term(es.Document):
     id = es.Text(required=True)
     title = es.Text(required=True, analyzer=base_analyzer, fields={'keyword': es.Keyword()})
     type = es.Text(required=True, fields={'keyword': es.Keyword()})
-    external_identifiers = es.Nested(ExternalIdentifier, required=True)
     collections = es.Nested(Reference)
     objects = es.Nested(Reference)
+    external_identifiers = es.Nested(ExternalIdentifier, required=True)
 
     class Index:
         name = 'terms'
