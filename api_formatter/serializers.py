@@ -10,20 +10,10 @@ class ExternalIdentifierSerializer(serializers.Serializer):
     source = serializers.CharField()
 
 
-class AncestorSerializer(serializers.Serializer):
-    # TODO: add ancestor serializer
-    pass
-
-
-class ChildrenSerializer(serializers.Serializer):
-    # TODO: add children serializer
-    pass
-
-
 class DateSerializer(serializers.Serializer):
     expression = serializers.CharField()
     begin = serializers.DateField()
-    end = serializers.DateField()
+    end = serializers.DateField(allow_null=True)
     label = serializers.CharField()
     type = serializers.CharField()
 
@@ -68,9 +58,9 @@ class RightsStatementSerializer(serializers.Serializer):
     rights_type = serializers.CharField()
     begin = serializers.DateField()
     end = serializers.DateField()
-    copyright_status = serializers.CharField()
-    other_basis = serializers.CharField()
-    jurisdiction = serializers.CharField()
+    copyright_status = serializers.CharField(allow_null=True)
+    other_basis = serializers.CharField(allow_null=True)
+    jurisdiction = serializers.CharField(allow_null=True)
     notes = NoteSerializer(many=True, allow_null=True)
     rights_granted = RightsGrantedSerializer(many=True)
 
@@ -102,7 +92,7 @@ class BaseDetailSerializer(serializers.Serializer):
 
 
 class AgentSerializer(BaseDetailSerializer):
-    description = serializers.CharField()
+    description = serializers.CharField(allow_null=True)
     notes = NoteSerializer(many=True)
 
 
@@ -111,30 +101,30 @@ class AgentListSerializer(BaseListSerializer): pass
 
 class CollectionSerializer(BaseDetailSerializer):
     level = serializers.CharField()
-    languages = LanguageSerializer(many=True)
+    languages = LanguageSerializer(many=True, allow_null=True)
     extents = ExtentSerializer(many=True)
-    dates = DateSerializer(many=True)
+    dates = DateSerializer(many=True, allow_null=True)
     notes = NoteSerializer(many=True, allow_null=True)
     rights_statements = RightsStatementSerializer(many=True, allow_null=True)
     agents = ReferenceSerializer(many=True, allow_null=True)
     creators = ReferenceSerializer(many=True, allow_null=True)
     terms = ReferenceSerializer(many=True, allow_null=True)
-    ancestors = AncestorSerializer(allow_null=True)
-    children = ChildrenSerializer(allow_null=True)
+    ancestors = ReferenceSerializer(allow_null=True)
+    children = ReferenceSerializer(allow_null=True)
 
 
 class CollectionListSerializer(BaseListSerializer): pass
 
 
 class ObjectSerializer(BaseDetailSerializer):
-    languages = LanguageSerializer(many=True)
+    languages = LanguageSerializer(many=True, allow_null=True)
     extents = ExtentSerializer(many=True)
-    dates = DateSerializer(many=True)
+    dates = DateSerializer(many=True, allow_null=True)
     notes = NoteSerializer(many=True, allow_null=True)
     rights_statements = RightsStatementSerializer(many=True, allow_null=True)
     agents = ReferenceSerializer(many=True, allow_null=True)
     terms = ReferenceSerializer(many=True, allow_null=True)
-    ancestors = AncestorSerializer(allow_null=True)
+    ancestors = ReferenceSerializer(allow_null=True)
 
 
 class ObjectListSerializer(BaseListSerializer): pass
