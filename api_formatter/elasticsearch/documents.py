@@ -2,6 +2,7 @@
 import elasticsearch_dsl as es
 
 from .analyzers import base_analyzer
+# from .helpers import resolve_reference
 
 
 class ExternalIdentifier(es.InnerDoc):
@@ -53,7 +54,7 @@ class Note(es.InnerDoc):
     subnotes = es.Object(Subnote, required=True)
 
 
-class Reference(es.InnerDoc):
+class Reference(es.Document):
     """Abstract reference to a Document, which likely exists in a different index.
     On initial indexing, reference may only consist of an external_identifiers array,
     but additional data will likely be added during indexing.
@@ -63,6 +64,9 @@ class Reference(es.InnerDoc):
     type = es.Text()
     order = es.Integer()
     external_identifiers = es.Nested(ExternalIdentifier, required=True)
+
+    class Index:
+        name = 'references'
 
 
 class RightsGranted(es.InnerDoc):
@@ -101,8 +105,8 @@ class Agent(es.Document):
     type = es.Text(required=True, fields={'keyword': es.Keyword()})
     dates = es.Object(Date)
     notes = es.Nested(Note)
-    collections = es.Nested(Reference)
-    objects = es.Nested(Reference)
+    # collections = es.Nested(Reference)
+    # objects = es.Nested(Reference)
     external_identifiers = es.Nested(ExternalIdentifier, required=True)
 
     class Index:
@@ -124,16 +128,25 @@ class Collection(es.Document):
     languages = es.Object(Language)
     extents = es.Nested(Extent, required=True)
     notes = es.Nested(Note)
-    creators = es.Nested(Reference, required=True)  # TODO: should this be part of agents?
-    agents = es.Nested(Reference)
-    terms = es.Nested(Reference)
-    ancestors = es.Nested(Reference)
-    children = es.Nested(Reference)
+    # creators = es.Nested(Reference, required=True)  # TODO: should this be part of agents?
+    # agents = es.Nested(Reference)
+    # terms = es.Nested(Reference)
+    # ancestors = es.Nested(Reference)
+    # children = es.Nested(Reference)
     rights_statements = es.Nested(RightsStatement)
     external_identifiers = es.Nested(ExternalIdentifier, required=True)
 
     class Index:
         name = 'collections'
+
+    def save(self, *args, **kwargs):
+        ancestors = []
+        for a in self.ancestors:
+            resolved = resolve_reference(self, 'archivesspace', Collection)  # TODO: check first whether object or collection
+            if resolved:
+                ancestors.append(resolved)
+        self.ancestors = list(set(ancestors)) if len(set(ancestors)) else None
+        return super(Collection, self).save(*args, **kwargs)
 
 
 class Object(es.Document):
@@ -147,9 +160,9 @@ class Object(es.Document):
     languages = es.Object(Language)
     extents = es.Nested(Extent)
     notes = es.Nested(Note)
-    agents = es.Nested(Reference)
-    terms = es.Nested(Reference)
-    ancestors = es.Nested(Reference)
+    # agents = es.Nested(Reference)
+    # terms = es.Nested(Reference)
+    # ancestors = es.Nested(Reference)
     rights_statements = es.Nested(RightsStatement)
     external_identifiers = es.Nested(ExternalIdentifier, required=True)
 
@@ -162,9 +175,60 @@ class Term(es.Document):
     id = es.Text(required=True)
     title = es.Text(required=True, analyzer=base_analyzer, fields={'keyword': es.Keyword()})
     type = es.Text(required=True, fields={'keyword': es.Keyword()})
-    collections = es.Nested(Reference)
-    objects = es.Nested(Reference)
+    # collections = es.Nested(Reference)
+    # objects = es.Nested(Reference)
     external_identifiers = es.Nested(ExternalIdentifier, required=True)
 
     class Index:
         name = 'terms'
+
+
+def resolve_reference(obj, source, doc_cls):
+    ident = [i.identifier for i in obj.external_identifiers if i.source == source][0]
+    print(ident)
+    primary_doc = document_by_external_id(doc_cls, ident, source)
+    if primary_doc:
+        for ext_id in primary_doc.external_identifiers:
+            id_doc = document_by_external_id(ExternalIdentifier, ext_id.identifier, ext_id.source, parent=obj)
+            if not id_doc:
+                e = ExternalIdentifier(title=primary_doc.title,
+                                       type=primary_doc.type,
+                                       external_identifiers=primary_doc.external_identifiers)
+                e.uri = get_uri()
+                e.order = primary_doc.order if primary_doc.order else None
+                e.meta.parent = obj
+                # do we explicitly set the parent here? There are likely to be multiple references to the same object...
+                # another option is to look for existing children of this parent obj...
+                # but if we're creating a new ref for each parent, do we need to nest external_identifiers???
+                e.save()
+            return e
+
+
+def document_by_external_id(doc_cls, ident, source, parent=None):
+    client = es.connections.get_connection(
+        doc_cls._get_using()
+    )
+    search = es.Search(
+        using=client,
+        index=doc_cls._index._name,
+        doc_type=doc_cls._doc_type.name
+    )
+    q = search.query('nested', path='external_identifiers', query=(es.Q('match', identifier=ident) & es.Q('match', source=source)))
+    if parent:
+        q = q.query('match', parent=parent)
+    res = q.execute()
+    if len(res.hits) == 1:
+        return res.hits[0]
+    else:
+        print("Got {} results, expected 1.".format(len(res.hits)))
+        return False
+
+
+def get_uri():
+    return "uri"
+
+
+def is_resolved(obj):
+    if obj.meta.id:
+        return True
+    return False
