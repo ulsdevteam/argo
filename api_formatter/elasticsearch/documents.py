@@ -161,6 +161,8 @@ class Term(es.Document):
     title = es.Text(required=True, analyzer=base_analyzer, fields={'keyword': es.Keyword()})
     type = es.Text(required=True, fields={'keyword': es.Keyword()})
     external_identifiers = es.Nested(ExternalIdentifier, required=True)
+    collections = es.Nested(Reference)
+    objects = es.Nested(Reference)
 
     class Index:
         name = 'terms'

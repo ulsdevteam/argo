@@ -130,7 +130,9 @@ class ObjectSerializer(BaseDetailSerializer):
 class ObjectListSerializer(BaseListSerializer): pass
 
 
-class TermSerializer(BaseDetailSerializer): pass
+class TermSerializer(BaseDetailSerializer):
+    collections = ReferenceSerializer(many=True)
+    objects = ReferenceSerializer(many=True)
 
 
 class TermListSerializer(BaseListSerializer): pass
