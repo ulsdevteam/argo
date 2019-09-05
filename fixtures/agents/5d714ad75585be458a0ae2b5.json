@@ -1,0 +1,88 @@
+{
+  "index": 50,
+  "id": "5d714ad75585be458a0ae2b5",
+  "title": "Vang Wood",
+  "type": "person",
+  "description": "Deserunt excepteur sunt deserunt esse ipsum ipsum magna culpa ea nostrud est exercitation minim. Fugiat amet deserunt cillum esse fugiat aliqua Lorem incididunt consectetur nostrud esse id consequat et. Consequat qui mollit nostrud dolore commodo ad tempor pariatur in. Voluptate Lorem occaecat anim voluptate veniam ex occaecat non labore sit. Occaecat occaecat dolore adipisicing eiusmod quis minim irure est cupidatat incididunt sunt.",
+  "dates": [
+    {
+      "begin": "1952-01-26",
+      "end": "1983-07-25",
+      "expression": "Jan 26th, 1952 - Jul 25th, 1983",
+      "type": "inclusive",
+      "label": "existence"
+    },
+    {
+      "begin": "1947-08-31",
+      "end": "2008-01-13",
+      "expression": "Aug 31st, 1947 - Jan 13th, 2008",
+      "type": "inclusive",
+      "label": "modified"
+    }
+  ],
+  "notes": [
+    {
+      "type": "accessrestrict",
+      "title": "cupidatat laborum quis",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "aliqua ad ad tempor Lorem occaecat",
+            "ipsum nisi cillum anim nostrud nisi"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "commodo ad qui aliqua et elit",
+            "eu commodo tempor exercitation labore deserunt",
+            "eu laborum pariatur voluptate ad ullamco",
+            "pariatur ea ad consectetur id aliquip"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "physdesc",
+      "title": "laboris aute ex",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "consectetur enim exercitation reprehenderit excepteur aliquip",
+            "est incididunt ipsum incididunt reprehenderit eiusmod",
+            "id enim id velit officia ex",
+            "proident voluptate sunt Lorem amet enim",
+            "ut nisi ipsum voluptate amet elit"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "in dolor adipisicing amet incididunt minim",
+            "eu mollit eu ipsum id nulla",
+            "commodo laborum exercitation incididunt voluptate aliqua"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "nulla exercitation officia enim ullamco officia",
+            "ex ex esse enim in est",
+            "ad et aute ipsum Lorem eu",
+            "laboris dolor voluptate velit nostrud sit"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_person/50"
+    }
+  ]
+}

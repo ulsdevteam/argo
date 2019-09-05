@@ -1,0 +1,221 @@
+{
+  "index": 29,
+  "id": "5d714c4ad491a52f2c48948a",
+  "title": "In adipisicing duis labore pariatur mollit nisi id ipsum adipisicing id cillum incididunt ipsum.",
+  "type": "object",
+  "dates": [
+    {
+      "begin": "1959-07-17",
+      "end": "2004-04-18",
+      "expression": "Jul 17th, 1959 - Apr 18th, 2004",
+      "type": "bulk",
+      "label": "digitized"
+    }
+  ],
+  "extents": [
+    {
+      "value": "8.22",
+      "type": "volumes"
+    }
+  ],
+  "notes": [
+    {
+      "type": "restrictions",
+      "title": "veniam sunt do",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "excepteur proident amet do ad incididunt"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "veniam laborum officia nisi adipisicing sit"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "originalsloc",
+      "title": "aliqua velit reprehenderit",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "commodo mollit sunt commodo Lorem ipsum"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "laborum velit nisi tempor anim veniam",
+            "aute culpa reprehenderit exercitation labore dolor",
+            "consectetur ipsum Lorem adipisicing tempor velit",
+            "eiusmod deserunt id commodo esse aute",
+            "aliqua irure aliqua ea nisi id"
+          ]
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/40"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/12"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/37"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/29"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/34"
+        }
+      ]
+    }
+  ],
+  "agents": [],
+  "languages": [
+    {
+      "expression": "Spanish",
+      "identifier": "spa"
+    },
+    {
+      "expression": "Spanish",
+      "identifier": "eng"
+    },
+    {
+      "expression": "Spanish",
+      "identifier": "spa"
+    }
+  ],
+  "rights_statements": [
+    {
+      "id": "5d714c4a7db2d434c25895a4",
+      "determination_date": "2019-09-05",
+      "type": "rights_statement",
+      "rights_type": "other",
+      "rights_status": "public domain",
+      "begin": "2019-09-05",
+      "end": "2019-09-05",
+      "copyright_status": "unknown",
+      "other_basis": "tempor",
+      "jurisdiction": "US",
+      "notes": [
+        {
+          "type": "rights_statement",
+          "title": "excepteur commodo officia",
+          "source": "cartographer",
+          "subnotes": [
+            {
+              "type": "definedlist",
+              "content": [
+                "ullamco officia nulla et minim deserunt",
+                "fugiat elit nostrud irure cupidatat nisi",
+                "sit laborum qui proident pariatur adipisicing",
+                "mollit incididunt nostrud reprehenderit esse do",
+                "consequat consectetur ex incididunt laborum non"
+              ]
+            }
+          ]
+        }
+      ],
+      "rights_granted": [
+        {
+          "act": "delete",
+          "begin": "2019-09-05",
+          "end": "2019-09-05",
+          "restriction": "disallow",
+          "notes": []
+        },
+        {
+          "act": "migrate",
+          "begin": "2019-09-05",
+          "end": "2019-09-05",
+          "restriction": "disallow",
+          "notes": [
+            {
+              "type": "materials",
+              "title": "commodo anim ad",
+              "source": "cartographer",
+              "subnotes": [
+                {
+                  "type": "definedlist",
+                  "content": [
+                    "sint proident qui incididunt est ullamco",
+                    "fugiat ullamco veniam laboris proident consectetur",
+                    "aliquip anim veniam tempor anim non",
+                    "adipisicing veniam velit do consectetur esse",
+                    "magna cillum velit velit non duis"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/16"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/21"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/43"
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/29"
+    }
+  ]
+}

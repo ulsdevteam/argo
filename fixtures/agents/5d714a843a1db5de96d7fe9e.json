@@ -1,0 +1,78 @@
+{
+  "index": 32,
+  "id": "5d714a843a1db5de96d7fe9e",
+  "title": "Daniel family",
+  "type": "family",
+  "description": "Ex aute voluptate pariatur irure nisi ullamco tempor sunt est exercitation. Cillum magna nostrud est dolore et. Irure irure ullamco sit nostrud deserunt amet consectetur eiusmod. Occaecat voluptate ex culpa quis Lorem duis deserunt sit ad exercitation qui. Laboris ad pariatur nulla culpa. Dolor minim ex consectetur consequat enim tempor consectetur proident culpa ex.",
+  "dates": [
+    {
+      "begin": "1954-08-26",
+      "end": "2014-10-16",
+      "expression": "Aug 26th, 1954 - Oct 16th, 2014",
+      "type": "single",
+      "label": "publication"
+    }
+  ],
+  "notes": [
+    {
+      "type": "rights_statement",
+      "title": "voluptate reprehenderit aliqua",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "in cillum duis culpa id ut"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "est duis voluptate nulla commodo ea"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "cillum aliquip est tempor tempor labore",
+            "laborum qui ex ex esse eiusmod",
+            "officia enim veniam aute consequat irure"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "arrangement",
+      "title": "minim eiusmod voluptate",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "duis magna irure velit minim adipisicing"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "ad commodo enim minim ea veniam",
+            "duis consectetur adipisicing consectetur sit sunt"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "pariatur laborum magna reprehenderit officia nostrud",
+            "ex nostrud nisi sint duis adipisicing"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/32"
+    }
+  ]
+}

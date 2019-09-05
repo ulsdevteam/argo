@@ -1,0 +1,69 @@
+{
+  "index": 43,
+  "id": "5d714b25cf9fdbfb2f6cd8ee",
+  "title": "Cooley Foundation",
+  "type": "organization",
+  "description": "Irure eiusmod ad cupidatat ullamco magna proident laboris ad voluptate commodo. Minim amet do cupidatat labore. Esse cillum occaecat nostrud ullamco esse mollit tempor incididunt adipisicing deserunt. Id ad ipsum ad amet est fugiat incididunt dolore anim aliqua proident cupidatat dolor laboris. Incididunt cillum tempor irure et ad dolor veniam. Mollit duis irure quis nostrud magna ut fugiat minim adipisicing pariatur dolor reprehenderit et duis. Magna fugiat ea laborum laboris.",
+  "dates": [
+    {
+      "begin": "1928-02-26",
+      "end": "2005-02-04",
+      "expression": "Feb 26th, 1928 - Feb 4th, 2005",
+      "type": "bulk",
+      "label": "agent_relation"
+    },
+    {
+      "begin": "1947-11-24",
+      "end": "2007-03-08",
+      "expression": "Nov 24th, 1947 - Mar 8th, 2007",
+      "type": "single",
+      "label": "other"
+    }
+  ],
+  "notes": [
+    {
+      "type": "physfacet",
+      "title": "id laboris tempor",
+      "source": "archivesspace",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "do minim proident dolore quis velit",
+            "ex commodo ipsum quis consectetur id",
+            "veniam cillum est incididunt ipsum sit"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "do deserunt dolor nisi fugiat culpa"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "langmaterial",
+      "title": "nostrud labore et",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "magna deserunt dolore laborum Lorem minim",
+            "laboris ex adipisicing sunt reprehenderit veniam",
+            "ullamco ipsum laboris ea consequat fugiat",
+            "cupidatat occaecat labore veniam aliquip do",
+            "magna enim aliquip magna ea et"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/43"
+    }
+  ]
+}

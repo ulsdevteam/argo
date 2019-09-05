@@ -1,0 +1,76 @@
+{
+  "index": 15,
+  "id": "5d714a8418e16e5db4952e15",
+  "title": "Ford family",
+  "type": "family",
+  "description": "Veniam in ad esse elit velit sunt occaecat. Ad qui consectetur nisi amet aute nisi aute. Ea fugiat aliquip sint et. Ipsum minim deserunt sit incididunt cupidatat aliquip ullamco nisi exercitation nulla velit.",
+  "dates": [
+    {
+      "begin": "1914-07-23",
+      "end": "2018-09-20",
+      "expression": "Jul 23rd, 1914 - Sep 20th, 2018",
+      "type": "bulk",
+      "label": "digitized"
+    },
+    {
+      "begin": "1953-01-12",
+      "end": "1987-02-18",
+      "expression": "Jan 12th, 1953 - Feb 18th, 1987",
+      "type": "inclusive",
+      "label": "copyright"
+    }
+  ],
+  "notes": [
+    {
+      "type": "separatedmaterial",
+      "title": "deserunt incididunt id",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "aliqua pariatur id Lorem est tempor",
+            "quis minim sit qui do duis"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "extent",
+      "title": "in quis et",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "veniam mollit amet elit minim pariatur",
+            "elit anim officia do velit laborum",
+            "commodo elit nostrud exercitation esse ullamco",
+            "excepteur occaecat sunt velit sint culpa",
+            "dolore ut ullamco et consequat quis"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "consequat laboris et ea aliqua laborum"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "aliqua mollit duis et et ut",
+            "mollit nisi laboris eu velit mollit",
+            "commodo voluptate amet Lorem cillum nisi"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/15"
+    }
+  ]
+}

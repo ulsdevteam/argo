@@ -1,0 +1,75 @@
+{
+  "index": 14,
+  "id": "5d714b251e1ebfd2af687df7",
+  "title": "Charles Foundation",
+  "type": "organization",
+  "description": "Mollit quis dolor deserunt irure quis id labore excepteur occaecat mollit do. Magna minim non tempor culpa occaecat deserunt sint ut irure eu proident ut. Ullamco non adipisicing in sunt dolore officia qui velit deserunt aliqua aute. Exercitation ipsum ipsum reprehenderit excepteur magna ut laboris.",
+  "dates": [
+    {
+      "begin": "1943-01-05",
+      "end": "1991-03-13",
+      "expression": "Jan 5th, 1943 - Mar 13th, 1991",
+      "type": "bulk",
+      "label": "digitized"
+    },
+    {
+      "begin": "1920-08-05",
+      "end": "1997-07-02",
+      "expression": "Aug 5th, 1920 - Jul 2nd, 1997",
+      "type": "single",
+      "label": "record_keeping"
+    }
+  ],
+  "notes": [
+    {
+      "type": "legalstatus",
+      "title": "deserunt consequat cillum",
+      "source": "archivesspace",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "ea esse ad nostrud et excepteur",
+            "cillum voluptate ex in labore nostrud",
+            "duis voluptate irure id eiusmod amet",
+            "nisi nisi id amet id qui",
+            "est do ut laboris nulla eiusmod"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "pariatur enim amet enim veniam elit",
+            "pariatur sunt eu ad labore ut"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "relatedmaterial",
+      "title": "do enim labore",
+      "source": "archivesspace",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "eiusmod anim excepteur nostrud esse quis",
+            "excepteur cupidatat et non ea do"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "in ad tempor enim incididunt incididunt"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/14"
+    }
+  ]
+}

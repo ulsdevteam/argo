@@ -1,0 +1,72 @@
+{
+  "index": 22,
+  "id": "5d714ad7f1c3bda8ed452411",
+  "title": "Wilkins Craig",
+  "type": "person",
+  "description": "Consequat sint fugiat non ut esse excepteur aliqua deserunt. Fugiat ullamco officia aliqua voluptate minim duis proident aliquip officia ullamco. Deserunt dolor dolor laboris commodo commodo qui. Aliquip ex consectetur pariatur est officia sunt do consectetur do fugiat ut excepteur do fugiat. Velit eiusmod consequat esse voluptate sint minim aliquip irure proident aliqua.",
+  "dates": [
+    {
+      "begin": "1917-08-18",
+      "end": "1986-02-28",
+      "expression": "Aug 18th, 1917 - Feb 28th, 1986",
+      "type": "single",
+      "label": "publication"
+    }
+  ],
+  "notes": [
+    {
+      "type": "custodhist",
+      "title": "laboris fugiat elit",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "sint minim minim velit incididunt incididunt",
+            "sit velit cillum eiusmod ad reprehenderit",
+            "in culpa ad consequat sint eu"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rights_statement",
+      "title": "ea sint culpa",
+      "source": "archivesspace",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "eiusmod et deserunt officia non eiusmod",
+            "et commodo nulla ea ipsum ea"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "veniam incididunt culpa amet commodo sunt",
+            "esse voluptate ad aliqua laboris aliquip",
+            "cillum ipsum ut cillum sunt cillum",
+            "irure minim laborum qui sit commodo"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "laborum nisi ut ex laboris reprehenderit",
+            "occaecat incididunt dolore ullamco culpa excepteur",
+            "culpa anim mollit commodo consectetur mollit",
+            "do ullamco ex velit esse consectetur",
+            "officia elit cillum est officia nulla"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_person/22"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "index": 4,
+  "id": "5d714b25d8d70c4a5b81fcd2",
+  "title": "Salazar Foundation",
+  "type": "organization",
+  "description": "Elit esse eiusmod aute eiusmod id aliquip aliqua labore consequat reprehenderit cupidatat. Nulla nostrud cillum nisi esse. Dolor anim eu commodo labore culpa esse ipsum consectetur culpa. Irure fugiat sunt ex sit ex velit sit nostrud enim officia commodo. Sint aliquip nostrud sunt veniam est.",
+  "dates": [
+    {
+      "begin": "1925-04-24",
+      "end": "1970-09-01",
+      "expression": "Apr 24th, 1925 - Sep 1st, 1970",
+      "type": "bulk",
+      "label": "digitized"
+    }
+  ],
+  "notes": [
+    {
+      "type": "restrictions",
+      "title": "nostrud culpa culpa",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "dolore mollit dolore labore irure fugiat"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "anim enim et laboris laboris voluptate"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "esse ad labore ad esse sunt",
+            "tempor nisi proident occaecat consectetur commodo",
+            "qui dolor anim aliquip occaecat incididunt"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "physfacet",
+      "title": "nulla adipisicing fugiat",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "ipsum duis ipsum non culpa exercitation"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/4"
+    }
+  ]
+}

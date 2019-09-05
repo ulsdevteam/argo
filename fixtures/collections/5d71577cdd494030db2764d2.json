@@ -1,0 +1,197 @@
+{
+  "index": 23,
+  "id": "5d71577cdd494030db2764d2",
+  "title": "Et irure sit eiusmod fugiat proident.",
+  "type": "collection",
+  "level": "collection",
+  "dates": [
+    {
+      "begin": "1944-11-03",
+      "end": "2018-11-08",
+      "expression": "Nov 3rd, 1944 - Nov 8th, 2018",
+      "type": "single",
+      "label": "agent_relation"
+    },
+    {
+      "begin": "1922-08-23",
+      "end": "1985-05-02",
+      "expression": "Aug 23rd, 1922 - May 2nd, 1985",
+      "type": "bulk",
+      "label": "deaccession"
+    },
+    {
+      "begin": "1931-08-25",
+      "end": "2012-08-27",
+      "expression": "Aug 25th, 1931 - Aug 27th, 2012",
+      "type": "inclusive",
+      "label": "publication"
+    }
+  ],
+  "creators": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/32"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "value": "2.63",
+      "type": "document box(es)"
+    },
+    {
+      "value": "4.52",
+      "type": "photographic_prints"
+    }
+  ],
+  "notes": [],
+  "terms": [],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/35"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/14"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/8"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/33"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "expression": "English",
+      "identifier": "spa"
+    },
+    {
+      "expression": "Spanish",
+      "identifier": "epo"
+    },
+    {
+      "expression": "English",
+      "identifier": "epo"
+    }
+  ],
+  "rights_statements": [
+    {
+      "id": "5d71577c3f63e893c8bf5694",
+      "determination_date": "2019-09-05",
+      "type": "rights_statement",
+      "rights_type": "other",
+      "rights_status": "unknown",
+      "begin": "2019-09-05",
+      "end": "2019-09-05",
+      "copyright_status": "copyrighted",
+      "other_basis": "Lorem",
+      "jurisdiction": "US",
+      "notes": [
+        {
+          "type": "restrictions",
+          "title": "ad reprehenderit enim",
+          "source": "wikipedia",
+          "subnotes": [
+            {
+              "type": "orderedlist",
+              "content": [
+                "culpa id irure sint adipisicing do",
+                "ea adipisicing ullamco adipisicing ex nulla",
+                "Lorem veniam pariatur est ut officia",
+                "sit consectetur dolor occaecat cillum est"
+              ]
+            }
+          ]
+        }
+      ],
+      "rights_granted": [
+        {
+          "act": "delete",
+          "begin": "2019-09-05",
+          "end": "2019-09-05",
+          "restriction": "disallow",
+          "notes": []
+        }
+      ]
+    },
+    {
+      "id": "5d71577c68406d8ef985d62c",
+      "determination_date": "2019-09-05",
+      "type": "rights_statement",
+      "rights_type": "other",
+      "rights_status": "unknown",
+      "begin": "2019-09-05",
+      "end": "2019-09-05",
+      "copyright_status": "public domain",
+      "other_basis": "commodo",
+      "jurisdiction": "FR",
+      "notes": [],
+      "rights_granted": [
+        {
+          "act": "disseminate",
+          "begin": "2019-09-05",
+          "end": "2019-09-05",
+          "restriction": "allow",
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/1"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/33"
+        }
+      ]
+    }
+  ],
+  "children": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/24"
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/23"
+    }
+  ]
+}

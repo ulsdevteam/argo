@@ -1,0 +1,51 @@
+{
+  "index": 16,
+  "id": "5d714a8420ebd7b13d409751",
+  "title": "Emerson family",
+  "type": "family",
+  "description": "Laboris laborum enim cillum exercitation in enim labore sunt officia nisi in laborum. Sit mollit eiusmod eiusmod mollit aliqua duis. Commodo nulla nostrud ad culpa. Eu est ex cupidatat reprehenderit pariatur esse consequat sunt pariatur mollit. Incididunt dolore do excepteur duis nostrud reprehenderit laborum quis magna in adipisicing laboris sunt elit. Cupidatat magna dolor duis sunt.",
+  "dates": [
+    {
+      "begin": "1928-01-29",
+      "end": "1966-08-09",
+      "expression": "Jan 29th, 1928 - Aug 9th, 1966",
+      "type": "bulk",
+      "label": "broadcast"
+    }
+  ],
+  "notes": [
+    {
+      "type": "note",
+      "title": "sunt in adipisicing",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "elit nulla deserunt sunt consectetur exercitation",
+            "exercitation commodo minim aliquip ipsum do",
+            "aliqua qui anim magna irure dolor",
+            "anim qui labore ea et anim",
+            "aliqua sunt officia nostrud et aliqua"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "magna tempor sint Lorem commodo non",
+            "dolor eiusmod in ullamco cupidatat proident",
+            "nostrud sint labore aliqua do deserunt",
+            "proident tempor anim velit ullamco labore",
+            "ad irure mollit excepteur tempor irure"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/16"
+    }
+  ]
+}

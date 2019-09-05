@@ -1,0 +1,203 @@
+{
+  "index": 47,
+  "id": "5d71577ce49fb1c409d19db4",
+  "title": "Ut eu Lorem duis ex id amet.",
+  "type": "collection",
+  "level": "item",
+  "dates": [
+    {
+      "begin": "1936-01-18",
+      "end": "1988-10-24",
+      "expression": "Jan 18th, 1936 - Oct 24th, 1988",
+      "type": "inclusive",
+      "label": "copyright"
+    },
+    {
+      "begin": "1914-01-31",
+      "end": "1987-02-06",
+      "expression": "Jan 31st, 1914 - Feb 6th, 1987",
+      "type": "inclusive",
+      "label": "copyright"
+    },
+    {
+      "begin": "1955-04-10",
+      "end": "1966-01-26",
+      "expression": "Apr 10th, 1955 - Jan 26th, 1966",
+      "type": "bulk",
+      "label": "broadcast"
+    }
+  ],
+  "creators": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/5"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "value": "7.74",
+      "type": "leaves"
+    }
+  ],
+  "notes": [
+    {
+      "type": "prefercite",
+      "title": "deserunt pariatur sunt",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "cupidatat est culpa ipsum id irure",
+            "tempor qui culpa esse quis dolore"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "ut consectetur consequat elit ut aliquip",
+            "ea voluptate irure velit quis ut",
+            "voluptate id nulla magna sit adipisicing",
+            "sit officia voluptate aliquip sunt do",
+            "laborum laborum enim qui non exercitation"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "otherfindaid",
+      "title": "adipisicing anim minim",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "pariatur magna ipsum nulla nostrud adipisicing",
+            "pariatur esse cillum ex labore sit",
+            "in ullamco proident incididunt velit ad"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "originalsloc",
+      "title": "do voluptate officia",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "et nisi labore in nisi sunt",
+            "aliquip amet aliqua fugiat incididunt magna",
+            "ea id adipisicing quis sint culpa"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "enim fugiat excepteur est ipsum eiusmod",
+            "esse ea anim dolore exercitation non"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "tempor adipisicing excepteur minim consequat enim"
+          ]
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/15"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/46"
+        }
+      ]
+    }
+  ],
+  "agents": [],
+  "languages": [
+    {
+      "expression": "Spanish",
+      "identifier": "eng"
+    },
+    {
+      "expression": "Spanish",
+      "identifier": "spa"
+    }
+  ],
+  "rights_statements": [],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/48"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/27"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/3"
+        }
+      ]
+    }
+  ],
+  "children": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/42"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/32"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/30"
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/47"
+    }
+  ]
+}

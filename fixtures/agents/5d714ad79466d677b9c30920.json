@@ -1,0 +1,71 @@
+{
+  "index": 14,
+  "id": "5d714ad79466d677b9c30920",
+  "title": "Mabel Bright",
+  "type": "person",
+  "description": "Occaecat aute velit in proident dolore. Minim voluptate esse reprehenderit velit cillum cillum. Veniam eiusmod occaecat ipsum consequat enim ipsum consequat.",
+  "dates": [
+    {
+      "begin": "1939-07-08",
+      "end": "2015-02-04",
+      "expression": "Jul 8th, 1939 - Feb 4th, 2015",
+      "type": "single",
+      "label": "digitized"
+    },
+    {
+      "begin": "1949-01-12",
+      "end": "1981-02-22",
+      "expression": "Jan 12th, 1949 - Feb 22nd, 1981",
+      "type": "bulk",
+      "label": "broadcast"
+    }
+  ],
+  "notes": [
+    {
+      "type": "rights_statement_act",
+      "title": "ullamco amet esse",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "aliqua culpa occaecat non velit aliquip",
+            "minim non ullamco elit aliquip aute",
+            "ipsum proident nostrud ex voluptate consectetur"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "elit occaecat sunt minim sunt elit",
+            "esse culpa et consequat nisi ad",
+            "in eiusmod tempor sunt eiusmod sint"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bibliography",
+      "title": "fugiat mollit esse",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "eiusmod magna pariatur veniam pariatur aute",
+            "irure consequat sint duis consequat duis",
+            "qui est elit minim dolore fugiat",
+            "eiusmod qui eu proident eu veniam",
+            "culpa proident incididunt Lorem occaecat proident"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_person/14"
+    }
+  ]
+}

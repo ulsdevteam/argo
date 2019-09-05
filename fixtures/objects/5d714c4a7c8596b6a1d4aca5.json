@@ -1,0 +1,136 @@
+{
+  "index": 12,
+  "id": "5d714c4a7c8596b6a1d4aca5",
+  "title": "Occaecat et esse deserunt tempor commodo quis reprehenderit officia sit eiusmod.",
+  "type": "object",
+  "dates": [
+    {
+      "begin": "1916-06-23",
+      "end": "1994-01-13",
+      "expression": "Jun 23rd, 1916 - Jan 13th, 1994",
+      "type": "inclusive",
+      "label": "creation"
+    },
+    {
+      "begin": "1959-05-04",
+      "end": "2004-10-21",
+      "expression": "May 4th, 1959 - Oct 21st, 2004",
+      "type": "single",
+      "label": "record_keeping"
+    }
+  ],
+  "extents": [
+    {
+      "value": "9.66",
+      "type": "microform reels"
+    },
+    {
+      "value": "3.3",
+      "type": "terabytes"
+    }
+  ],
+  "notes": [
+    {
+      "type": "summary",
+      "title": "ea magna sunt",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "anim veniam tempor anim pariatur ad"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "aliqua veniam nisi aliquip incididunt duis"
+          ]
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/10"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/5"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/29"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/13"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/17"
+        }
+      ]
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/3"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/10"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "expression": "Esperanto",
+      "identifier": "epo"
+    }
+  ],
+  "rights_statements": [],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/39"
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/12"
+    }
+  ]
+}

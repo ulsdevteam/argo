@@ -1,0 +1,68 @@
+{
+  "index": 33,
+  "id": "5d714a8486acb496db566822",
+  "title": "Hanson family",
+  "type": "family",
+  "description": "Adipisicing nulla aliqua proident do adipisicing do enim ad do. Aliquip irure nulla laborum minim amet cupidatat nulla deserunt pariatur sunt dolore veniam. Quis officia officia nulla consectetur ipsum in dolor proident dolor minim aliquip ullamco. Cupidatat laborum magna incididunt eiusmod et sit irure cillum elit incididunt ipsum ad nulla.",
+  "dates": [
+    {
+      "begin": "1926-11-04",
+      "end": "1989-10-27",
+      "expression": "Nov 4th, 1926 - Oct 27th, 1989",
+      "type": "single",
+      "label": "existence"
+    }
+  ],
+  "notes": [
+    {
+      "type": "appraisal",
+      "title": "amet velit aliquip",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "exercitation nisi pariatur ullamco mollit non",
+            "aliqua in dolor sit voluptate enim",
+            "deserunt adipisicing nulla non eu reprehenderit"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "consequat laboris laborum deserunt pariatur elit"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "physfacet",
+      "title": "eu minim veniam",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "duis in qui sit officia magna",
+            "ipsum ullamco mollit eu esse fugiat",
+            "nisi ut eiusmod magna laboris labore"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "ea ut ea quis minim cupidatat",
+            "pariatur nisi nisi non ullamco minim",
+            "nostrud consequat officia qui cillum dolor"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/33"
+    }
+  ]
+}

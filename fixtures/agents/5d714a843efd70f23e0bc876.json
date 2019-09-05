@@ -1,0 +1,53 @@
+{
+  "index": 11,
+  "id": "5d714a843efd70f23e0bc876",
+  "title": "Ramsey family",
+  "type": "family",
+  "description": "Lorem cillum dolor mollit et aute occaecat. Irure labore laboris deserunt aute consequat irure elit mollit consequat sunt amet. Fugiat voluptate Lorem quis deserunt est sint anim pariatur occaecat aliquip. Reprehenderit Lorem proident adipisicing dolor. Labore ex anim quis anim mollit excepteur in veniam velit reprehenderit aliquip fugiat aute duis. Officia nostrud quis veniam excepteur et voluptate aliquip incididunt. Mollit proident deserunt laborum adipisicing excepteur amet ipsum aliqua.",
+  "dates": [
+    {
+      "begin": "1919-06-12",
+      "end": "1960-10-29",
+      "expression": "Jun 12th, 1919 - Oct 29th, 1960",
+      "type": "inclusive",
+      "label": "publication"
+    },
+    {
+      "begin": "1920-03-04",
+      "end": "1993-11-24",
+      "expression": "Mar 4th, 1920 - Nov 24th, 1993",
+      "type": "bulk",
+      "label": "deaccession"
+    }
+  ],
+  "notes": [
+    {
+      "type": "scopecontent",
+      "title": "amet elit duis",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "ex aute Lorem qui amet sunt",
+            "sint enim reprehenderit proident nostrud qui"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "sunt non ipsum pariatur veniam dolore",
+            "tempor aliqua enim officia quis ut",
+            "aute deserunt duis tempor amet sunt"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/11"
+    }
+  ]
+}

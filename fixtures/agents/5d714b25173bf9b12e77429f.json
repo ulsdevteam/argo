@@ -1,0 +1,66 @@
+{
+  "index": 28,
+  "id": "5d714b25173bf9b12e77429f",
+  "title": "Foster Foundation",
+  "type": "organization",
+  "description": "Deserunt laborum nisi aute pariatur aliquip commodo adipisicing eu id velit aliqua non laboris veniam. Nulla commodo officia nulla aliquip consequat ea esse deserunt mollit ut. Et ea culpa minim voluptate laborum laborum ad magna sint sint Lorem id velit ea. Enim adipisicing fugiat ex cupidatat. Duis laboris et anim mollit non aliquip anim nulla ea magna sint labore tempor.",
+  "dates": [
+    {
+      "begin": "1956-12-08",
+      "end": "1981-08-11",
+      "expression": "Dec 8th, 1956 - Aug 11th, 1981",
+      "type": "bulk",
+      "label": "existence"
+    }
+  ],
+  "notes": [
+    {
+      "type": "scopecontent",
+      "title": "duis ad ea",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "Lorem aute Lorem sint nulla deserunt",
+            "Lorem voluptate exercitation quis do aliquip",
+            "pariatur eu laborum exercitation nostrud elit",
+            "aute labore ad Lorem voluptate exercitation",
+            "velit eu esse in velit eiusmod"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "altformavail",
+      "title": "reprehenderit incididunt consectetur",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "quis adipisicing deserunt est incididunt enim",
+            "officia excepteur aliquip ullamco cupidatat aliqua",
+            "minim deserunt dolor amet est Lorem"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "fugiat reprehenderit et sunt fugiat excepteur",
+            "adipisicing eu sint deserunt cillum et",
+            "fugiat cillum do exercitation fugiat labore",
+            "voluptate commodo officia enim duis id",
+            "in officia labore nulla id esse"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/28"
+    }
+  ]
+}

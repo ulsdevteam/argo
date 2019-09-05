@@ -1,0 +1,99 @@
+{
+  "index": 28,
+  "id": "5d714ad755389f336d3bec2b",
+  "title": "Macias Saunders",
+  "type": "person",
+  "description": "Aliquip exercitation proident excepteur est tempor nisi id ea reprehenderit. Reprehenderit est nisi nisi aliqua qui. Consequat velit dolor laboris enim duis commodo dolore laboris ex esse minim eu id. Elit laboris amet ea sint. Ut nulla pariatur excepteur laboris aliqua in magna culpa laboris aute velit eiusmod excepteur veniam.",
+  "dates": [
+    {
+      "begin": "1932-04-25",
+      "end": "1978-11-29",
+      "expression": "Apr 25th, 1932 - Nov 29th, 1978",
+      "type": "inclusive",
+      "label": "digitized"
+    },
+    {
+      "begin": "1928-07-10",
+      "end": "1962-12-01",
+      "expression": "Jul 10th, 1928 - Dec 1st, 1962",
+      "type": "bulk",
+      "label": "event"
+    }
+  ],
+  "notes": [
+    {
+      "type": "rights_statement_act",
+      "title": "reprehenderit velit voluptate",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "ut excepteur nisi dolor nulla occaecat",
+            "reprehenderit deserunt duis consequat reprehenderit eu",
+            "exercitation veniam adipisicing esse dolor consequat",
+            "consequat magna veniam commodo sit sunt"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "mollit nostrud nulla dolor et nulla",
+            "ipsum ut cillum aliqua culpa consequat",
+            "minim consequat ut quis quis amet",
+            "officia dolor culpa eu irure enim"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "occaecat amet incididunt cillum officia do",
+            "in dolore deserunt quis quis elit",
+            "ad magna ipsum labore tempor voluptate"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "title": "reprehenderit sunt exercitation",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "aliqua ullamco tempor reprehenderit aute occaecat",
+            "nulla esse et do cillum in",
+            "elit sit ut in ipsum consectetur"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "minim minim irure elit officia ullamco",
+            "est est do laborum sint eu",
+            "ex cupidatat voluptate incididunt sint reprehenderit",
+            "eiusmod irure cillum do veniam dolore",
+            "irure deserunt cupidatat ut non magna"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "irure Lorem non culpa laborum fugiat",
+            "reprehenderit aliqua ipsum laboris aliquip ut",
+            "mollit aliqua anim aliqua elit et",
+            "non nisi ex commodo tempor pariatur",
+            "ad exercitation laborum exercitation commodo do"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_person/28"
+    }
+  ]
+}

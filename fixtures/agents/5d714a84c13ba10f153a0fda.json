@@ -1,0 +1,46 @@
+{
+  "index": 28,
+  "id": "5d714a84c13ba10f153a0fda",
+  "title": "Blackwell family",
+  "type": "family",
+  "description": "In laboris quis labore pariatur in sint ea. Pariatur reprehenderit amet dolor adipisicing anim. Aute irure consectetur sit labore eiusmod pariatur ipsum.",
+  "dates": [
+    {
+      "begin": "1921-02-14",
+      "end": "2014-10-24",
+      "expression": "Feb 14th, 1921 - Oct 24th, 2014",
+      "type": "single",
+      "label": "broadcast"
+    }
+  ],
+  "notes": [
+    {
+      "type": "userestrict",
+      "title": "proident adipisicing mollit",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "deserunt Lorem aliqua commodo sint qui",
+            "qui id qui sunt reprehenderit consectetur",
+            "quis pariatur exercitation commodo cillum irure"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "adipisicing do sint in pariatur incididunt",
+            "culpa occaecat aliquip est laboris culpa"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/28"
+    }
+  ]
+}

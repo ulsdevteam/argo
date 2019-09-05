@@ -1,0 +1,37 @@
+{
+  "index": 7,
+  "id": "5d714ad755537594b4ece68a",
+  "title": "Colette Banks",
+  "type": "person",
+  "description": "Sint culpa ut sit sunt. Ad ipsum reprehenderit quis sunt eu reprehenderit aliqua mollit irure tempor nulla dolor nulla. Laboris aliquip aliqua consequat quis est qui cupidatat aliqua occaecat aliqua. Id velit minim ipsum nulla deserunt mollit aute velit laborum ut voluptate et in aliqua. Et sunt nulla velit aliquip duis aliqua. Irure culpa nostrud laborum veniam id ad in veniam irure adipisicing.",
+  "dates": [
+    {
+      "begin": "1937-07-07",
+      "end": "1975-12-14",
+      "expression": "Jul 7th, 1937 - Dec 14th, 1975",
+      "type": "bulk",
+      "label": "issued"
+    }
+  ],
+  "notes": [
+    {
+      "type": "rights_statement",
+      "title": "mollit ea sunt",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "aliqua aliquip culpa elit aliqua tempor"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_person/7"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "index": 23,
+  "id": "5d714b254f743cec2001ae19",
+  "title": "Chen Foundation",
+  "type": "organization",
+  "description": "Laborum reprehenderit irure et ipsum. Exercitation eu deserunt adipisicing reprehenderit Lorem. Mollit sunt pariatur cillum mollit ut amet amet sit ullamco et. Mollit incididunt non dolor sunt culpa consectetur eu veniam sit minim. Est mollit cillum ex id consectetur ullamco nulla commodo eiusmod officia sit reprehenderit occaecat. Labore velit laborum exercitation elit nisi laborum sit ea cillum consectetur pariatur magna occaecat ex.",
+  "dates": [
+    {
+      "begin": "1939-05-31",
+      "end": "1986-12-22",
+      "expression": "May 31st, 1939 - Dec 22nd, 1986",
+      "type": "bulk",
+      "label": "agent_relation"
+    },
+    {
+      "begin": "1937-06-08",
+      "end": "1964-09-11",
+      "expression": "Jun 8th, 1937 - Sep 11th, 1964",
+      "type": "bulk",
+      "label": "publication"
+    }
+  ],
+  "notes": [
+    {
+      "type": "fileplan",
+      "title": "ullamco ex do",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "laboris incididunt anim Lorem elit excepteur",
+            "magna ex nulla ullamco ad duis",
+            "eiusmod duis qui non veniam non"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/23"
+    }
+  ]
+}

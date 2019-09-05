@@ -1,0 +1,57 @@
+{
+  "index": 48,
+  "id": "5d714b258c135e70a34b8b5b",
+  "title": "Guy Foundation",
+  "type": "organization",
+  "description": "Cillum Lorem dolore veniam excepteur deserunt eu. Do magna do qui aliquip consectetur reprehenderit voluptate ad consequat veniam in est dolore incididunt. Esse minim voluptate quis duis. Veniam officia tempor aliqua mollit nostrud reprehenderit cupidatat culpa fugiat velit. Eiusmod amet aliqua mollit qui est elit nostrud ipsum proident Lorem.",
+  "dates": [
+    {
+      "begin": "1958-05-04",
+      "end": "1992-05-09",
+      "expression": "May 4th, 1958 - May 9th, 1992",
+      "type": "single",
+      "label": "usage"
+    },
+    {
+      "begin": "1922-05-20",
+      "end": "1964-01-06",
+      "expression": "May 20th, 1922 - Jan 6th, 1964",
+      "type": "single",
+      "label": "other"
+    }
+  ],
+  "notes": [
+    {
+      "type": "acquinfo",
+      "title": "Lorem nisi officia",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "ex nisi dolor occaecat esse voluptate"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "inscription",
+      "title": "ut adipisicing culpa",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "laboris est labore commodo exercitation minim"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/48"
+    }
+  ]
+}

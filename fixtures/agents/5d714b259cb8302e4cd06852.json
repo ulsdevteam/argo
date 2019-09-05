@@ -1,0 +1,63 @@
+{
+  "index": 42,
+  "id": "5d714b259cb8302e4cd06852",
+  "title": "Gill Foundation",
+  "type": "organization",
+  "description": "Ut nostrud proident adipisicing dolor aliqua cupidatat anim tempor Lorem voluptate magna. In occaecat aliquip Lorem adipisicing excepteur consequat qui ad. Ullamco sit incididunt laboris cupidatat cupidatat laborum ex enim aute commodo ipsum consequat irure exercitation. Sint fugiat deserunt ad reprehenderit exercitation culpa.",
+  "dates": [
+    {
+      "begin": "1936-10-28",
+      "end": "1977-07-01",
+      "expression": "Oct 28th, 1936 - Jul 1st, 1977",
+      "type": "inclusive",
+      "label": "event"
+    }
+  ],
+  "notes": [
+    {
+      "type": "physfacet",
+      "title": "irure labore eiusmod",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "deserunt esse laborum et aliqua dolore",
+            "quis esse ea sit velit nulla",
+            "deserunt nisi id Lorem dolore eiusmod",
+            "qui sit quis nostrud sint aute"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "et commodo reprehenderit duis ex deserunt",
+            "exercitation do labore aliqua officia culpa",
+            "id irure officia excepteur quis id",
+            "laboris velit occaecat et fugiat nulla",
+            "minim duis veniam ex dolor Lorem"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "userestrict",
+      "title": "incididunt velit aliqua",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "nostrud excepteur tempor laboris officia consectetur"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/42"
+    }
+  ]
+}

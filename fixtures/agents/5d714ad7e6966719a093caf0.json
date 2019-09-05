@@ -1,0 +1,44 @@
+{
+  "index": 29,
+  "id": "5d714ad7e6966719a093caf0",
+  "title": "Rae Daniels",
+  "type": "person",
+  "description": "Reprehenderit minim id eu reprehenderit reprehenderit dolor minim qui magna. Voluptate ex cillum fugiat sunt adipisicing sint sunt consequat. Reprehenderit anim do ex elit culpa fugiat ipsum proident esse. Proident do quis irure aute commodo excepteur. Nisi aliqua non dolore culpa anim tempor. Eu elit ea eu sint laborum eiusmod tempor exercitation cillum mollit ad ut laborum consectetur. Occaecat ipsum excepteur culpa amet dolore commodo velit dolore ex.",
+  "dates": [
+    {
+      "begin": "1914-12-05",
+      "end": "1996-05-03",
+      "expression": "Dec 5th, 1914 - May 3rd, 1996",
+      "type": "bulk",
+      "label": "event"
+    },
+    {
+      "begin": "1942-06-16",
+      "end": "1981-08-10",
+      "expression": "Jun 16th, 1942 - Aug 10th, 1981",
+      "type": "bulk",
+      "label": "other"
+    }
+  ],
+  "notes": [
+    {
+      "type": "relatedmaterial",
+      "title": "magna officia reprehenderit",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "incididunt cillum labore cupidatat officia laborum"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_person/29"
+    }
+  ]
+}

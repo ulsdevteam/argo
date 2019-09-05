@@ -1,0 +1,316 @@
+{
+  "index": 29,
+  "id": "5d71577ceccec54e125a0e59",
+  "title": "Voluptate culpa aliquip laboris laborum officia laboris aute proident.",
+  "type": "collection",
+  "level": "series",
+  "dates": [
+    {
+      "begin": "1950-08-08",
+      "end": "1992-11-21",
+      "expression": "Aug 8th, 1950 - Nov 21st, 1992",
+      "type": "bulk",
+      "label": "modified"
+    }
+  ],
+  "creators": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/8"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/40"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "value": "3.04",
+      "type": "microform reels"
+    },
+    {
+      "value": "1.52",
+      "type": "reels"
+    }
+  ],
+  "notes": [
+    {
+      "type": "odd",
+      "title": "Lorem laboris aliquip",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "ullamco eiusmod laborum veniam minim commodo",
+            "sunt ullamco sit tempor esse sunt",
+            "veniam amet duis aute labore esse"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "id culpa Lorem tempor velit voluptate",
+            "commodo eiusmod nisi minim esse velit"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "velit amet laboris duis commodo tempor",
+            "cillum dolor nisi excepteur Lorem nulla",
+            "elit amet sunt exercitation consectetur ipsum"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "summary",
+      "title": "tempor culpa reprehenderit",
+      "source": "archivesspace",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "occaecat anim ullamco consectetur veniam consectetur",
+            "occaecat officia pariatur Lorem laborum aliquip"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "et irure veniam eu consequat ullamco",
+            "Lorem ex in magna culpa tempor",
+            "esse Lorem fugiat exercitation sit magna",
+            "qui est in amet excepteur et",
+            "do in voluptate irure veniam ut"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "sunt laborum qui tempor sunt culpa",
+            "consequat quis consequat do irure ea",
+            "aliquip eu officia tempor ad eu",
+            "enim nostrud aliqua qui pariatur sit"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "accruals",
+      "title": "non deserunt minim",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "elit commodo labore dolore aliquip esse",
+            "elit fugiat aliqua anim quis do",
+            "ipsum magna ipsum aliquip ad esse",
+            "veniam amet enim occaecat est et",
+            "et sint ex fugiat minim consectetur"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "nulla ut officia labore nulla id",
+            "tempor aliqua fugiat officia eiusmod dolor",
+            "esse et labore et elit ad",
+            "ipsum id pariatur irure exercitation cupidatat"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "userestrict",
+      "title": "quis aute veniam",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "amet incididunt non tempor elit est",
+            "eiusmod laboris laborum cupidatat adipisicing exercitation",
+            "ex do culpa nostrud non occaecat",
+            "aliquip eu est qui eiusmod elit",
+            "et consectetur cupidatat et fugiat velit"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "anim esse exercitation minim reprehenderit eu",
+            "elit elit elit eu nulla commodo",
+            "velit nisi commodo nostrud laborum pariatur",
+            "ex mollit in tempor do amet"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "adipisicing ullamco incididunt enim incididunt elit",
+            "tempor non laboris in laborum nostrud",
+            "ut aliquip qui et anim officia",
+            "adipisicing et sint sint aliqua enim",
+            "id sunt pariatur irure sit ad"
+          ]
+        }
+      ]
+    }
+  ],
+  "terms": [],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/35"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/29"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/35"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "expression": "Spanish",
+      "identifier": "spa"
+    },
+    {
+      "expression": "Spanish",
+      "identifier": "epo"
+    },
+    {
+      "expression": "English",
+      "identifier": "epo"
+    }
+  ],
+  "rights_statements": [
+    {
+      "id": "5d71577c61f27dc4c38b8bc6",
+      "determination_date": "2019-09-05",
+      "type": "rights_statement",
+      "rights_type": "other",
+      "rights_status": "public domain",
+      "begin": "2019-09-05",
+      "end": "2019-09-05",
+      "copyright_status": "copyrighted",
+      "other_basis": "laboris",
+      "jurisdiction": "FR",
+      "notes": [
+        {
+          "type": "type_note",
+          "title": "sint sit nisi",
+          "source": "cartographer",
+          "subnotes": [
+            {
+              "type": "definedlist",
+              "content": [
+                "excepteur officia ullamco proident eiusmod deserunt"
+              ]
+            }
+          ]
+        }
+      ],
+      "rights_granted": [
+        {
+          "act": "disseminate",
+          "begin": "2019-09-05",
+          "end": "2019-09-05",
+          "restriction": "allow",
+          "notes": [
+            {
+              "type": "restrictions",
+              "title": "ullamco id quis",
+              "source": "wikipedia",
+              "subnotes": [
+                {
+                  "type": "orderedlist",
+                  "content": [
+                    "qui fugiat ipsum aliquip velit nostrud",
+                    "ea anim irure ea ea aute",
+                    "pariatur id mollit adipisicing pariatur dolore"
+                  ]
+                },
+                {
+                  "type": "definedlist",
+                  "content": [
+                    "nulla cupidatat eu adipisicing consectetur commodo",
+                    "irure minim Lorem voluptate eiusmod laboris",
+                    "id commodo consectetur ad duis quis",
+                    "sunt dolore qui culpa quis aliqua"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "act": "delete",
+          "begin": "2019-09-05",
+          "end": "2019-09-05",
+          "restriction": "allow",
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/20"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/5"
+        }
+      ]
+    }
+  ],
+  "children": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/15"
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/29"
+    }
+  ]
+}

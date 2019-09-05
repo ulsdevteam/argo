@@ -1,0 +1,53 @@
+{
+  "index": 43,
+  "id": "5d714a8458bd318c48eea252",
+  "title": "Morris family",
+  "type": "family",
+  "description": "Lorem amet mollit cupidatat Lorem exercitation enim elit eu reprehenderit sint nostrud incididunt ullamco. Deserunt eu nulla irure irure veniam qui dolor. Excepteur ad in in qui do consectetur. Mollit reprehenderit ullamco culpa aliqua mollit ex ad. Excepteur aliquip pariatur ea quis sit aute reprehenderit consequat veniam nulla sunt.",
+  "dates": [
+    {
+      "begin": "1948-06-08",
+      "end": "1967-04-20",
+      "expression": "Jun 8th, 1948 - Apr 20th, 1967",
+      "type": "single",
+      "label": "agent_relation"
+    }
+  ],
+  "notes": [
+    {
+      "type": "physdesc",
+      "title": "pariatur sint Lorem",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "sint veniam excepteur sunt non id"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "exercitation nostrud qui minim tempor excepteur"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "ullamco labore ut in fugiat sunt",
+            "aliquip eu magna in cillum commodo",
+            "reprehenderit est exercitation commodo Lorem nostrud",
+            "aliquip tempor pariatur velit consectetur anim",
+            "laboris deserunt veniam id ut ut"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/43"
+    }
+  ]
+}

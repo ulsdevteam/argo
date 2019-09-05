@@ -1,0 +1,65 @@
+{
+  "index": 1,
+  "id": "5d714a846d83e67c5cfa07bf",
+  "title": "Terrell family",
+  "type": "family",
+  "description": "Labore ea nisi dolor sunt eiusmod nostrud ullamco ipsum excepteur proident eu amet. Voluptate cupidatat veniam aliquip laboris cillum sit excepteur sunt ea qui dolor fugiat. Veniam culpa id sint tempor officia incididunt ad sunt est commodo officia amet non deserunt. Consequat do labore anim enim labore pariatur esse excepteur sint pariatur ullamco do officia anim. Magna sunt esse deserunt pariatur anim sint aliqua. Non adipisicing labore irure eu pariatur consectetur deserunt sunt commodo.",
+  "dates": [
+    {
+      "begin": "1954-10-11",
+      "end": "1987-03-19",
+      "expression": "Oct 11th, 1954 - Mar 19th, 1987",
+      "type": "single",
+      "label": "issued"
+    }
+  ],
+  "notes": [
+    {
+      "type": "acquinfo",
+      "title": "in consequat incididunt",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "cillum Lorem culpa tempor in veniam",
+            "cillum incididunt nulla ad quis cillum",
+            "qui veniam aute tempor in consequat"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "duis minim adipisicing et reprehenderit officia"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "esse eu ea ipsum ullamco sunt"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "legalstatus",
+      "title": "et Lorem laboris",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "voluptate consectetur est commodo et voluptate",
+            "dolor dolor adipisicing irure laborum non"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/1"
+    }
+  ]
+}

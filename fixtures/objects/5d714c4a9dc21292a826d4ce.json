@@ -1,0 +1,242 @@
+{
+  "index": 45,
+  "id": "5d714c4a9dc21292a826d4ce",
+  "title": "Ad excepteur reprehenderit dolor nulla cupidatat proident ad sint labore voluptate officia dolore do.",
+  "type": "object",
+  "dates": [
+    {
+      "begin": "1941-08-08",
+      "end": "1974-08-20",
+      "expression": "Aug 8th, 1941 - Aug 20th, 1974",
+      "type": "bulk",
+      "label": "creation"
+    },
+    {
+      "begin": "1928-05-21",
+      "end": "1982-12-05",
+      "expression": "May 21st, 1928 - Dec 5th, 1982",
+      "type": "inclusive",
+      "label": "publication"
+    }
+  ],
+  "extents": [
+    {
+      "value": "6.6",
+      "type": "cubic_feet"
+    }
+  ],
+  "notes": [
+    {
+      "type": "physfacet",
+      "title": "pariatur nulla est",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "commodo aliqua minim consectetur aliqua sunt",
+            "sit elit ad irure occaecat est",
+            "in magna consequat voluptate Lorem Lorem",
+            "officia deserunt ea cillum reprehenderit sunt",
+            "amet ea quis enim ex nulla"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rights_statement_act",
+      "title": "amet mollit cupidatat",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "do non tempor duis sit fugiat",
+            "velit enim anim aliquip dolore anim"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "eiusmod reprehenderit qui reprehenderit labore excepteur",
+            "ut pariatur fugiat do consequat do",
+            "nulla minim sunt irure excepteur et",
+            "ex nisi ut adipisicing amet occaecat"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "dolor consequat qui incididunt velit voluptate",
+            "amet veniam labore dolor exercitation commodo",
+            "ut aliqua adipisicing reprehenderit minim amet",
+            "est anim enim Lorem est duis",
+            "eiusmod ut id tempor minim et"
+          ]
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/27"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/43"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/29"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/43"
+        }
+      ]
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/10"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/41"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/50"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/9"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/34"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "expression": "English",
+      "identifier": "eng"
+    },
+    {
+      "expression": "English",
+      "identifier": "epo"
+    },
+    {
+      "expression": "Esperanto",
+      "identifier": "spa"
+    }
+  ],
+  "rights_statements": [
+    {
+      "id": "5d714c4a6760fb9138076560",
+      "determination_date": "2019-09-05",
+      "type": "rights_statement",
+      "rights_type": "copyright",
+      "rights_status": "copyrighted",
+      "begin": "2019-09-05",
+      "end": "2019-09-05",
+      "copyright_status": "copyrighted",
+      "other_basis": "anim",
+      "jurisdiction": "US",
+      "notes": [],
+      "rights_granted": [
+        {
+          "act": "migrate",
+          "begin": "2019-09-05",
+          "end": "2019-09-05",
+          "restriction": "disallow",
+          "notes": [
+            {
+              "type": "expiration",
+              "title": "ut id cupidatat",
+              "source": "cartographer",
+              "subnotes": [
+                {
+                  "type": "text",
+                  "content": [
+                    "cillum ea voluptate sunt veniam cillum",
+                    "labore adipisicing sunt ea deserunt adipisicing",
+                    "irure irure id ea nostrud consequat"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/30"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/8"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/17"
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/45"
+    }
+  ]
+}

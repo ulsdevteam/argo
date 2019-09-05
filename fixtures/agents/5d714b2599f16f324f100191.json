@@ -1,0 +1,44 @@
+{
+  "index": 34,
+  "id": "5d714b2599f16f324f100191",
+  "title": "Hinton Foundation",
+  "type": "organization",
+  "description": "Culpa non nulla magna sint ut exercitation. Ut tempor deserunt do deserunt excepteur nulla Lorem. Id eu eiusmod non reprehenderit est exercitation duis ad Lorem minim laboris.",
+  "dates": [
+    {
+      "begin": "1956-07-01",
+      "end": "1988-10-09",
+      "expression": "Jul 1st, 1956 - Oct 9th, 1988",
+      "type": "bulk",
+      "label": "issued"
+    },
+    {
+      "begin": "1959-01-15",
+      "end": "2014-11-07",
+      "expression": "Jan 15th, 1959 - Nov 7th, 2014",
+      "type": "single",
+      "label": "publication"
+    }
+  ],
+  "notes": [
+    {
+      "type": "type_note",
+      "title": "reprehenderit cillum ad",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "deserunt duis commodo eiusmod consequat veniam"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/34"
+    }
+  ]
+}

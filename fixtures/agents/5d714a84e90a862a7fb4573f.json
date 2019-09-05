@@ -1,0 +1,72 @@
+{
+  "index": 12,
+  "id": "5d714a84e90a862a7fb4573f",
+  "title": "Snyder family",
+  "type": "family",
+  "description": "Ex officia adipisicing mollit nisi consectetur laborum ex in Lorem culpa. Ad eiusmod excepteur incididunt eu adipisicing anim officia. Aliquip eu consequat laboris enim mollit ad. Laborum eu minim ea cillum commodo do irure veniam exercitation duis. Pariatur et proident reprehenderit in non eiusmod veniam est dolor amet irure. Occaecat reprehenderit anim proident adipisicing consequat velit nulla elit anim tempor duis sint adipisicing.",
+  "dates": [
+    {
+      "begin": "1959-02-04",
+      "end": "2019-01-06",
+      "expression": "Feb 4th, 1959 - Jan 6th, 2019",
+      "type": "single",
+      "label": "deaccession"
+    }
+  ],
+  "notes": [
+    {
+      "type": "separatedmaterial",
+      "title": "duis commodo et",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "ut mollit dolor sunt tempor nostrud",
+            "excepteur ullamco pariatur anim nisi proident",
+            "aute velit eiusmod ipsum mollit laborum",
+            "velit esse do ut voluptate dolore"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "commodo est elit labore Lorem ullamco",
+            "non minim proident enim excepteur magna",
+            "culpa quis eiusmod deserunt officia sunt"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "scopecontent",
+      "title": "consectetur dolore id",
+      "source": "archivesspace",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "ut mollit consectetur exercitation aute adipisicing",
+            "commodo minim qui ea in eu",
+            "officia occaecat reprehenderit excepteur laborum laboris",
+            "qui consectetur velit anim ex non"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "fugiat amet nostrud eu exercitation aliquip",
+            "eiusmod officia deserunt laboris duis id",
+            "ex dolor Lorem nostrud elit ullamco"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/12"
+    }
+  ]
+}

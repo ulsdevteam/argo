@@ -1,0 +1,48 @@
+{
+  "index": 20,
+  "id": "5d714a845d5f67c4355db24f",
+  "title": "Romero family",
+  "type": "family",
+  "description": "Voluptate nostrud exercitation laborum minim adipisicing ex ut magna nulla culpa. Ipsum commodo nisi laboris pariatur laboris. Do non cupidatat esse nulla ea sint reprehenderit tempor ad. Duis irure amet ullamco magna ad Lorem eu velit labore excepteur. Excepteur excepteur ea occaecat excepteur mollit do culpa in. Ex velit Lorem quis ea anim enim reprehenderit officia esse dolor id qui ut. Commodo dolor duis consequat cupidatat cupidatat labore cillum velit.",
+  "dates": [
+    {
+      "begin": "1950-12-30",
+      "end": "1993-01-17",
+      "expression": "Dec 30th, 1950 - Jan 17th, 1993",
+      "type": "single",
+      "label": "other"
+    }
+  ],
+  "notes": [
+    {
+      "type": "originalsloc",
+      "title": "non velit ea",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "nostrud sint et consequat labore duis",
+            "non eiusmod mollit magna ullamco dolor",
+            "ipsum excepteur cillum voluptate incididunt aliqua",
+            "qui qui est nostrud deserunt elit",
+            "est et irure officia non fugiat"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "nostrud nulla ad consectetur ea do",
+            "non magna anim velit tempor ut"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/20"
+    }
+  ]
+}

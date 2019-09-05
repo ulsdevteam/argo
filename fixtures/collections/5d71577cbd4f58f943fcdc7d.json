@@ -1,0 +1,175 @@
+{
+  "index": 43,
+  "id": "5d71577cbd4f58f943fcdc7d",
+  "title": "Do occaecat exercitation consequat deserunt eiusmod laborum.",
+  "type": "collection",
+  "level": "subgrp",
+  "dates": [
+    {
+      "begin": "1948-04-26",
+      "end": "1999-07-10",
+      "expression": "Apr 26th, 1948 - Jul 10th, 1999",
+      "type": "inclusive",
+      "label": "agent_relation"
+    }
+  ],
+  "creators": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/13"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/30"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "value": "2.57",
+      "type": "reels"
+    }
+  ],
+  "notes": [
+    {
+      "type": "altformavail",
+      "title": "dolor sit officia",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "magna aliqua ea elit tempor anim",
+            "nostrud aliquip velit eu sit id",
+            "anim excepteur quis culpa aliquip cillum",
+            "laborum do enim enim incididunt reprehenderit"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "scopecontent",
+      "title": "sint sint elit",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "ipsum magna laboris tempor dolor ut",
+            "anim elit id in irure occaecat",
+            "cupidatat adipisicing commodo cupidatat officia nulla",
+            "duis irure tempor in elit adipisicing"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "cillum ullamco dolor tempor ea et",
+            "ut sunt ipsum laboris cillum sint",
+            "est pariatur ipsum occaecat pariatur proident",
+            "quis amet dolor incididunt ut minim"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "magna voluptate dolore amet mollit veniam"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "expiration",
+      "title": "ea occaecat excepteur",
+      "source": "archivesspace",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "est minim eiusmod Lorem consequat culpa",
+            "fugiat officia anim esse amet dolore"
+          ]
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/44"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/35"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/35"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/33"
+        }
+      ]
+    }
+  ],
+  "agents": [],
+  "languages": [
+    {
+      "expression": "English",
+      "identifier": "spa"
+    },
+    {
+      "expression": "English",
+      "identifier": "eng"
+    }
+  ],
+  "rights_statements": [],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/44"
+        }
+      ]
+    }
+  ],
+  "children": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/29"
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/43"
+    }
+  ]
+}

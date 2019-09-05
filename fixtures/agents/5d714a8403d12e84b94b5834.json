@@ -1,0 +1,40 @@
+{
+  "index": 47,
+  "id": "5d714a8403d12e84b94b5834",
+  "title": "Howell family",
+  "type": "family",
+  "description": "Occaecat esse aute anim amet esse ipsum duis aliqua id consequat nostrud est nostrud. Tempor esse cupidatat adipisicing irure adipisicing eiusmod dolore anim sit nisi duis eiusmod. Anim deserunt occaecat esse et in anim. Sit et consectetur commodo magna nostrud proident consectetur id nostrud Lorem deserunt eu reprehenderit.",
+  "dates": [
+    {
+      "begin": "1924-02-13",
+      "end": "1999-05-27",
+      "expression": "Feb 13th, 1924 - May 27th, 1999",
+      "type": "single",
+      "label": "digitized"
+    }
+  ],
+  "notes": [
+    {
+      "type": "additional_information",
+      "title": "esse Lorem incididunt",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "enim ullamco culpa est tempor magna",
+            "occaecat officia enim irure reprehenderit elit",
+            "do nostrud excepteur ad et dolor",
+            "ex consectetur excepteur sint deserunt amet"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/47"
+    }
+  ]
+}

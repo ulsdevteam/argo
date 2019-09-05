@@ -1,0 +1,108 @@
+{
+  "index": 37,
+  "id": "5d714c4aa308abbff104dc07",
+  "title": "Consectetur minim et Lorem quis sint sit.",
+  "type": "object",
+  "dates": [
+    {
+      "begin": "1919-02-12",
+      "end": "1976-05-04",
+      "expression": "Feb 12th, 1919 - May 4th, 1976",
+      "type": "inclusive",
+      "label": "usage"
+    },
+    {
+      "begin": "1947-05-15",
+      "end": "2005-12-27",
+      "expression": "May 15th, 1947 - Dec 27th, 2005",
+      "type": "inclusive",
+      "label": "other"
+    }
+  ],
+  "extents": [
+    {
+      "value": "7.71",
+      "type": "files"
+    },
+    {
+      "value": "9.29",
+      "type": "sheets"
+    }
+  ],
+  "notes": [],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/23"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/9"
+        }
+      ]
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/4"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/9"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "expression": "English",
+      "identifier": "spa"
+    },
+    {
+      "expression": "Esperanto",
+      "identifier": "eng"
+    },
+    {
+      "expression": "Esperanto",
+      "identifier": "eng"
+    }
+  ],
+  "rights_statements": [],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/41"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/47"
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/37"
+    }
+  ]
+}

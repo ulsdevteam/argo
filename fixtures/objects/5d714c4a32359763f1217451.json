@@ -1,0 +1,213 @@
+{
+  "index": 42,
+  "id": "5d714c4a32359763f1217451",
+  "title": "Nisi ut nisi minim enim tempor quis.",
+  "type": "object",
+  "dates": [
+    {
+      "begin": "1948-06-18",
+      "end": "2012-12-28",
+      "expression": "Jun 18th, 1948 - Dec 28th, 2012",
+      "type": "bulk",
+      "label": "creation"
+    }
+  ],
+  "extents": [
+    {
+      "value": "8.47",
+      "type": "record cartons"
+    },
+    {
+      "value": "2.12",
+      "type": "linear_feet"
+    }
+  ],
+  "notes": [
+    {
+      "type": "materialspec",
+      "title": "proident velit incididunt",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "enim enim fugiat veniam cillum eiusmod",
+            "aute incididunt anim quis id elit",
+            "nulla consequat ut cillum deserunt ex",
+            "anim sint duis sunt enim minim"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "nisi voluptate irure et labore enim"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "ipsum enim mollit duis ipsum fugiat"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "arrangement",
+      "title": "reprehenderit nostrud mollit",
+      "source": "archivesspace",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "officia dolore consequat ex cupidatat eiusmod",
+            "voluptate consequat in cillum laboris esse"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "altformavail",
+      "title": "reprehenderit eiusmod tempor",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "voluptate esse deserunt proident officia elit",
+            "mollit Lorem Lorem reprehenderit amet ipsum",
+            "est esse mollit eu occaecat mollit",
+            "quis qui in veniam commodo sint",
+            "eu pariatur cupidatat dolor in cillum"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "laborum ut fugiat eiusmod elit nulla",
+            "consectetur quis in dolor anim quis",
+            "eiusmod quis eiusmod fugiat amet fugiat",
+            "Lorem dolor minim magna velit do",
+            "ut excepteur laborum incididunt sit occaecat"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "enim culpa aliqua amet commodo veniam",
+            "irure nulla anim et commodo deserunt",
+            "exercitation ea pariatur quis id id",
+            "occaecat deserunt qui qui tempor cupidatat"
+          ]
+        }
+      ]
+    }
+  ],
+  "terms": [],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/10"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "expression": "Spanish",
+      "identifier": "epo"
+    }
+  ],
+  "rights_statements": [
+    {
+      "id": "5d714c4a84325c2639a671cb",
+      "determination_date": "2019-09-05",
+      "type": "rights_statement",
+      "rights_type": "license",
+      "rights_status": "copyrighted",
+      "begin": "2019-09-05",
+      "end": "2019-09-05",
+      "copyright_status": "public domain",
+      "other_basis": "proident",
+      "jurisdiction": "CN",
+      "notes": [
+        {
+          "type": "restrictions",
+          "title": "Lorem laboris duis",
+          "source": "cartographer",
+          "subnotes": [
+            {
+              "type": "text",
+              "content": [
+                "magna fugiat excepteur non nulla consequat",
+                "cupidatat ea sit ea deserunt proident",
+                "velit dolore Lorem aute consequat dolore",
+                "ipsum veniam anim aliqua est non"
+              ]
+            }
+          ]
+        }
+      ],
+      "rights_granted": [
+        {
+          "act": "disseminate",
+          "begin": "2019-09-05",
+          "end": "2019-09-05",
+          "restriction": "disallow",
+          "notes": [
+            {
+              "type": "type_note",
+              "title": "nisi magna est",
+              "source": "archivesspace",
+              "subnotes": [
+                {
+                  "type": "text",
+                  "content": [
+                    "consequat veniam ut in in id",
+                    "enim excepteur reprehenderit commodo ipsum aliquip",
+                    "reprehenderit ut sit est ullamco labore",
+                    "culpa consequat adipisicing proident incididunt anim",
+                    "cillum velit voluptate reprehenderit adipisicing amet"
+                  ]
+                },
+                {
+                  "type": "definedlist",
+                  "content": [
+                    "enim aliquip officia qui est officia",
+                    "proident exercitation quis magna laborum fugiat",
+                    "ipsum id voluptate excepteur non eu",
+                    "qui in fugiat non enim esse"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "act": "replicate",
+          "begin": "2019-09-05",
+          "end": "2019-09-05",
+          "restriction": "disallow",
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/16"
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/42"
+    }
+  ]
+}

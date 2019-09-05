@@ -1,0 +1,44 @@
+{
+  "index": 18,
+  "id": "5d714a8443324a735e2a8149",
+  "title": "Kane family",
+  "type": "family",
+  "description": "Veniam nostrud laborum laborum exercitation labore mollit proident cupidatat dolore ad. Eiusmod laborum labore dolor nulla ex incididunt consequat culpa irure tempor dolore. Irure anim occaecat aute dolor. Reprehenderit enim elit aliqua culpa excepteur aute adipisicing anim cupidatat ea nulla. Laboris occaecat dolor mollit aliquip fugiat in non dolore exercitation et incididunt laborum.",
+  "dates": [
+    {
+      "begin": "1954-07-17",
+      "end": "1987-11-30",
+      "expression": "Jul 17th, 1954 - Nov 30th, 1987",
+      "type": "inclusive",
+      "label": "deaccession"
+    },
+    {
+      "begin": "1921-07-22",
+      "end": "2017-08-27",
+      "expression": "Jul 22nd, 1921 - Aug 27th, 2017",
+      "type": "bulk",
+      "label": "modified"
+    }
+  ],
+  "notes": [
+    {
+      "type": "legalstatus",
+      "title": "sint esse velit",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "laborum est adipisicing et commodo excepteur"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/18"
+    }
+  ]
+}

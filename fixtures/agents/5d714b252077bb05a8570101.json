@@ -1,0 +1,71 @@
+{
+  "index": 15,
+  "id": "5d714b252077bb05a8570101",
+  "title": "Decker Foundation",
+  "type": "organization",
+  "description": "Amet tempor fugiat officia nisi aliquip ex nisi eiusmod. Aliqua cillum cillum exercitation nulla velit veniam. Magna fugiat reprehenderit nostrud reprehenderit anim cupidatat. Est in sint minim amet anim eiusmod. Ea incididunt minim anim dolore eiusmod id nulla ea aute non magna aliquip. Tempor sunt reprehenderit sunt in ea sint do laborum. Magna occaecat culpa laborum cillum cupidatat anim sint nostrud velit labore nostrud aliquip quis.",
+  "dates": [
+    {
+      "begin": "1933-02-28",
+      "end": "2006-02-23",
+      "expression": "Feb 28th, 1933 - Feb 23rd, 2006",
+      "type": "inclusive",
+      "label": "existence"
+    },
+    {
+      "begin": "1952-05-26",
+      "end": "1981-11-16",
+      "expression": "May 26th, 1952 - Nov 16th, 1981",
+      "type": "bulk",
+      "label": "copyright"
+    }
+  ],
+  "notes": [
+    {
+      "type": "originalsloc",
+      "title": "irure elit sint",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "ipsum enim ullamco sint sit tempor",
+            "amet ut commodo reprehenderit id consequat",
+            "aliqua ex commodo Lorem qui id"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "dolor nisi ea adipisicing est velit",
+            "tempor consequat officia ex reprehenderit laborum",
+            "proident laborum aliqua ex irure culpa",
+            "sunt pariatur commodo ea do non"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "separatedmaterial",
+      "title": "tempor laborum fugiat",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "anim quis exercitation sint anim cupidatat",
+            "anim duis nisi ullamco sit nulla",
+            "non deserunt excepteur proident deserunt irure",
+            "laboris sunt voluptate magna magna non"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/15"
+    }
+  ]
+}

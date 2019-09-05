@@ -1,0 +1,47 @@
+{
+  "index": 29,
+  "id": "5d714b25765e3694d199334c",
+  "title": "Hunter Foundation",
+  "type": "organization",
+  "description": "Cillum esse irure minim minim culpa aute consectetur mollit occaecat elit commodo dolore elit. Nulla id anim eu proident sint ea minim quis eiusmod. Qui deserunt magna anim est. Lorem labore incididunt sunt in duis velit anim minim sint enim. Aliqua sunt quis officia deserunt commodo duis magna exercitation. Minim cupidatat qui cupidatat commodo aute amet veniam ullamco elit laborum aute est laboris. Nostrud exercitation veniam ut sit et proident commodo.",
+  "dates": [
+    {
+      "begin": "1938-06-11",
+      "end": "1992-03-27",
+      "expression": "Jun 11th, 1938 - Mar 27th, 1992",
+      "type": "bulk",
+      "label": "agent_relation"
+    },
+    {
+      "begin": "1946-01-27",
+      "end": "2014-09-17",
+      "expression": "Jan 27th, 1946 - Sep 17th, 2014",
+      "type": "single",
+      "label": "existence"
+    }
+  ],
+  "notes": [
+    {
+      "type": "processinfo",
+      "title": "quis pariatur ex",
+      "source": "archivesspace",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "et Lorem mollit laborum anim labore",
+            "ullamco deserunt sit laborum fugiat elit",
+            "elit adipisicing laboris occaecat ipsum Lorem",
+            "nostrud aliqua veniam irure ad consequat"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/29"
+    }
+  ]
+}

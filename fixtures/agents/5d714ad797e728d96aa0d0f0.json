@@ -1,0 +1,41 @@
+{
+  "index": 12,
+  "id": "5d714ad797e728d96aa0d0f0",
+  "title": "Combs Mayo",
+  "type": "person",
+  "description": "Adipisicing aliquip id adipisicing cillum excepteur labore eu id non. Dolor minim cupidatat elit ea ex voluptate officia eiusmod laborum eiusmod. Incididunt mollit est laboris do aliqua eiusmod ut. Anim nisi mollit occaecat ullamco do nostrud elit. Enim enim ullamco amet mollit aliqua Lorem dolore.",
+  "dates": [
+    {
+      "begin": "1920-11-08",
+      "end": "1962-05-10",
+      "expression": "Nov 8th, 1920 - May 10th, 1962",
+      "type": "inclusive",
+      "label": "modified"
+    }
+  ],
+  "notes": [
+    {
+      "type": "edition",
+      "title": "aute consequat dolor",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "anim eiusmod deserunt Lorem ullamco pariatur",
+            "mollit adipisicing mollit et adipisicing ut",
+            "reprehenderit qui dolore enim voluptate elit",
+            "nostrud cupidatat dolore dolore commodo exercitation",
+            "qui tempor aliqua est non velit"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_person/12"
+    }
+  ]
+}

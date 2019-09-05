@@ -1,0 +1,53 @@
+{
+  "index": 1,
+  "id": "5d714b258e9278a19b4c1795",
+  "title": "Maxwell Foundation",
+  "type": "organization",
+  "description": "Non nostrud eiusmod id elit eiusmod nulla. Sit non quis adipisicing aliquip duis pariatur ad commodo duis ut sit do. Velit nisi cillum mollit nulla laborum ipsum sunt adipisicing dolor proident eiusmod. Et irure enim reprehenderit reprehenderit. Eiusmod commodo nulla culpa veniam non fugiat sint exercitation ex Lorem enim.",
+  "dates": [
+    {
+      "begin": "1954-11-30",
+      "end": "1974-05-22",
+      "expression": "Nov 30th, 1954 - May 22nd, 1974",
+      "type": "bulk",
+      "label": "creation"
+    }
+  ],
+  "notes": [
+    {
+      "type": "additional_information",
+      "title": "ea officia eiusmod",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "nisi reprehenderit laborum nostrud quis duis"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "dolore id laboris deserunt nostrud voluptate",
+            "velit laborum labore sit mollit id",
+            "elit ea amet magna sunt commodo",
+            "magna cillum eu enim sint consequat",
+            "consectetur ullamco consequat et magna ea"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "proident est veniam nostrud minim consectetur"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/1"
+    }
+  ]
+}

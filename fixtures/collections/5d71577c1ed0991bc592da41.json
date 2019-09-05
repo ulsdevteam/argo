@@ -1,0 +1,234 @@
+{
+  "index": 18,
+  "id": "5d71577c1ed0991bc592da41",
+  "title": "Lorem aliquip eiusmod esse deserunt ut ea labore consequat deserunt laborum.",
+  "type": "collection",
+  "level": "file",
+  "dates": [
+    {
+      "begin": "1950-05-08",
+      "end": "2015-01-18",
+      "expression": "May 8th, 1950 - Jan 18th, 2015",
+      "type": "inclusive",
+      "label": "record_keeping"
+    }
+  ],
+  "creators": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/18"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "value": "1.71",
+      "type": "record cartons"
+    },
+    {
+      "value": "1.23",
+      "type": "gigabytes"
+    }
+  ],
+  "notes": [],
+  "terms": [],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/4"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/30"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/43"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "expression": "English",
+      "identifier": "spa"
+    },
+    {
+      "expression": "Spanish",
+      "identifier": "eng"
+    }
+  ],
+  "rights_statements": [
+    {
+      "id": "5d71577ca8789758c75a456f",
+      "determination_date": "2019-09-05",
+      "type": "rights_statement",
+      "rights_type": "copyright",
+      "rights_status": "public domain",
+      "begin": "2019-09-05",
+      "end": "2019-09-05",
+      "copyright_status": "unknown",
+      "other_basis": "consectetur",
+      "jurisdiction": "US",
+      "notes": [],
+      "rights_granted": [
+        {
+          "act": "replicate",
+          "begin": "2019-09-05",
+          "end": "2019-09-05",
+          "restriction": "allow",
+          "notes": [
+            {
+              "type": "type_note",
+              "title": "ullamco nostrud ut",
+              "source": "wikidata",
+              "subnotes": [
+                {
+                  "type": "definedlist",
+                  "content": [
+                    "ex duis adipisicing enim enim labore",
+                    "consectetur pariatur dolore amet est officia",
+                    "deserunt do laborum veniam laboris magna"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5d71577ca31e531a9a371cc9",
+      "determination_date": "2019-09-05",
+      "type": "rights_statement",
+      "rights_type": "statute",
+      "rights_status": "unknown",
+      "begin": "2019-09-05",
+      "end": "2019-09-05",
+      "copyright_status": "copyrighted",
+      "other_basis": "commodo",
+      "jurisdiction": "US",
+      "notes": [
+        {
+          "type": "extension",
+          "title": "tempor ex incididunt",
+          "source": "wikipedia",
+          "subnotes": [
+            {
+              "type": "orderedlist",
+              "content": [
+                "nisi commodo ut eiusmod consequat duis"
+              ]
+            }
+          ]
+        }
+      ],
+      "rights_granted": [
+        {
+          "act": "use",
+          "begin": "2019-09-05",
+          "end": "2019-09-05",
+          "restriction": "disallow",
+          "notes": [
+            {
+              "type": "type_note",
+              "title": "laboris velit reprehenderit",
+              "source": "cartographer",
+              "subnotes": [
+                {
+                  "type": "text",
+                  "content": [
+                    "tempor fugiat non commodo enim quis"
+                  ]
+                },
+                {
+                  "type": "text",
+                  "content": [
+                    "sunt labore dolore reprehenderit ullamco Lorem"
+                  ]
+                },
+                {
+                  "type": "text",
+                  "content": [
+                    "duis est enim minim voluptate do"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/28"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/32"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/28"
+        }
+      ]
+    }
+  ],
+  "children": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/33"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/23"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/6"
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/18"
+    }
+  ]
+}

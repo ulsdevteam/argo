@@ -1,0 +1,75 @@
+{
+  "index": 47,
+  "id": "5d714b2514c24c63c6ef42d0",
+  "title": "Emerson Foundation",
+  "type": "organization",
+  "description": "Labore irure fugiat nisi culpa velit sint. Veniam ad aute id laborum eu nostrud amet laborum proident est fugiat. Reprehenderit minim reprehenderit Lorem quis dolore aliqua nulla. Ipsum pariatur reprehenderit ullamco fugiat.",
+  "dates": [
+    {
+      "begin": "1932-07-02",
+      "end": "1967-02-09",
+      "expression": "Jul 2nd, 1932 - Feb 9th, 1967",
+      "type": "bulk",
+      "label": "agent_relation"
+    },
+    {
+      "begin": "1945-07-03",
+      "end": "1973-10-06",
+      "expression": "Jul 3rd, 1945 - Oct 6th, 1973",
+      "type": "bulk",
+      "label": "creation"
+    }
+  ],
+  "notes": [
+    {
+      "type": "materials",
+      "title": "excepteur nisi nisi",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "voluptate amet tempor nostrud elit deserunt",
+            "cupidatat ea id laborum tempor laboris"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "langmaterial",
+      "title": "occaecat veniam eu",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "eu amet laboris amet nostrud tempor",
+            "voluptate et enim veniam ut non",
+            "cupidatat amet consectetur ut commodo ullamco",
+            "sunt culpa irure sit amet enim",
+            "laboris consequat est mollit cupidatat qui"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "elit consectetur qui qui pariatur eiusmod"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "enim enim aliquip aliqua minim officia",
+            "enim sunt anim veniam tempor anim"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/47"
+    }
+  ]
+}

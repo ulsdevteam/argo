@@ -1,0 +1,51 @@
+{
+  "index": 19,
+  "id": "5d714b2522f445bb12a0b516",
+  "title": "Wong Foundation",
+  "type": "organization",
+  "description": "Quis aliquip est qui anim esse incididunt ut tempor irure irure nisi Lorem. Reprehenderit eu et cupidatat reprehenderit quis tempor minim dolor. Sunt adipisicing id fugiat exercitation occaecat incididunt voluptate nulla esse fugiat. Et cupidatat excepteur fugiat duis. Voluptate deserunt nulla consectetur nulla eiusmod anim anim voluptate esse deserunt minim id et sunt. Est dolore pariatur enim in pariatur.",
+  "dates": [
+    {
+      "begin": "1945-03-11",
+      "end": "1991-02-22",
+      "expression": "Mar 11th, 1945 - Feb 22nd, 1991",
+      "type": "single",
+      "label": "issued"
+    }
+  ],
+  "notes": [
+    {
+      "type": "custodhist",
+      "title": "amet excepteur ut",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "do amet aliqua cillum magna sunt",
+            "dolor sint cupidatat ex in minim"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "summary",
+      "title": "adipisicing aliqua quis",
+      "source": "archivesspace",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "in fugiat incididunt qui id ex"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/19"
+    }
+  ]
+}

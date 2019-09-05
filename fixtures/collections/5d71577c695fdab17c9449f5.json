@@ -1,0 +1,132 @@
+{
+  "index": 28,
+  "id": "5d71577c695fdab17c9449f5",
+  "title": "Occaecat veniam sint eiusmod culpa reprehenderit exercitation ut minim esse aliqua voluptate et sunt.",
+  "type": "collection",
+  "level": "item",
+  "dates": [
+    {
+      "begin": "1930-05-22",
+      "end": "2009-01-02",
+      "expression": "May 22nd, 1930 - Jan 2nd, 2009",
+      "type": "bulk",
+      "label": "creation"
+    },
+    {
+      "begin": "1940-06-18",
+      "end": "1981-10-21",
+      "expression": "Jun 18th, 1940 - Oct 21st, 1981",
+      "type": "inclusive",
+      "label": "modified"
+    },
+    {
+      "begin": "1939-05-24",
+      "end": "2006-09-15",
+      "expression": "May 24th, 1939 - Sep 15th, 2006",
+      "type": "bulk",
+      "label": "modified"
+    }
+  ],
+  "creators": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/47"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/11"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "value": "7.93",
+      "type": "linear_feet"
+    }
+  ],
+  "notes": [],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/35"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/50"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/27"
+        }
+      ]
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/10"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "expression": "Spanish",
+      "identifier": "spa"
+    }
+  ],
+  "rights_statements": [],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/31"
+        }
+      ]
+    }
+  ],
+  "children": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/42"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/12"
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/28"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "index": 39,
+  "id": "5d714ad777f5b5705811618d",
+  "title": "Matthews Walls",
+  "type": "person",
+  "description": "Enim minim officia aute do duis nostrud aute. Dolor excepteur laborum cillum et labore non Lorem voluptate ut elit elit culpa qui eu. Fugiat magna sit sint anim esse. Laborum consequat adipisicing laboris deserunt do magna.",
+  "dates": [
+    {
+      "begin": "1958-08-19",
+      "end": "1960-12-20",
+      "expression": "Aug 19th, 1958 - Dec 20th, 1960",
+      "type": "bulk",
+      "label": "agent_relation"
+    },
+    {
+      "begin": "1945-03-20",
+      "end": "2004-07-12",
+      "expression": "Mar 20th, 1945 - Jul 12th, 2004",
+      "type": "single",
+      "label": "deaccession"
+    }
+  ],
+  "notes": [
+    {
+      "type": "legalstatus",
+      "title": "elit esse fugiat",
+      "source": "archivesspace",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "nostrud consectetur occaecat enim tempor deserunt",
+            "culpa laboris aliqua duis amet officia",
+            "dolor cupidatat elit mollit cupidatat ipsum",
+            "commodo esse culpa aliqua dolore aute"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_person/39"
+    }
+  ]
+}

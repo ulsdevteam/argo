@@ -1,0 +1,47 @@
+{
+  "index": 31,
+  "id": "5d714b25a58371c5178fa790",
+  "title": "Jennings Foundation",
+  "type": "organization",
+  "description": "Ad mollit officia ad aliquip dolore excepteur sit consectetur cillum nostrud veniam Lorem reprehenderit. Consectetur eu ex magna velit cupidatat eiusmod excepteur non. Voluptate qui excepteur irure sint fugiat fugiat officia voluptate aliquip culpa fugiat. Fugiat adipisicing ea do anim non incididunt id irure. Aliquip dolore excepteur enim anim consectetur quis cillum quis dolor ipsum exercitation.",
+  "dates": [
+    {
+      "begin": "1924-07-03",
+      "end": "1972-12-02",
+      "expression": "Jul 3rd, 1924 - Dec 2nd, 1972",
+      "type": "single",
+      "label": "creation"
+    },
+    {
+      "begin": "1923-05-15",
+      "end": "1983-03-22",
+      "expression": "May 15th, 1923 - Mar 22nd, 1983",
+      "type": "bulk",
+      "label": "existence"
+    }
+  ],
+  "notes": [
+    {
+      "type": "physloc",
+      "title": "ex Lorem labore",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "velit aute id anim ad quis",
+            "et occaecat ex in ea nulla",
+            "commodo consequat ad enim non duis",
+            "mollit commodo veniam laborum qui qui"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/31"
+    }
+  ]
+}

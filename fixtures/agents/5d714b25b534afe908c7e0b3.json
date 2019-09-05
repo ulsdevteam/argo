@@ -1,0 +1,86 @@
+{
+  "index": 17,
+  "id": "5d714b25b534afe908c7e0b3",
+  "title": "Gibson Foundation",
+  "type": "organization",
+  "description": "Cupidatat nisi occaecat incididunt ullamco esse voluptate minim do dolor dolore nulla occaecat tempor. Do aliquip proident dolor dolore nostrud voluptate enim enim exercitation aute nostrud ea. Eiusmod elit Lorem magna eu ut. Exercitation occaecat incididunt cillum do commodo dolor elit. Lorem sint sint Lorem eu consectetur qui ut minim.",
+  "dates": [
+    {
+      "begin": "1944-09-14",
+      "end": "2003-03-07",
+      "expression": "Sep 14th, 1944 - Mar 7th, 2003",
+      "type": "bulk",
+      "label": "existence"
+    }
+  ],
+  "notes": [
+    {
+      "type": "expiration",
+      "title": "eiusmod excepteur quis",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "dolor Lorem esse veniam in magna",
+            "sit officia amet labore enim qui"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "dolor tempor duis excepteur proident laboris",
+            "do occaecat nostrud ut ad Lorem",
+            "laboris exercitation non deserunt consectetur velit"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "pariatur enim enim enim excepteur consectetur",
+            "Lorem aliqua in velit sunt tempor",
+            "enim proident sint consectetur aute ad",
+            "eiusmod ex officia aliqua minim consequat",
+            "excepteur voluptate laborum in duis adipisicing"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "relatedmaterial",
+      "title": "velit ex anim",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "excepteur ut est in et est",
+            "occaecat ipsum est tempor magna irure"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "consequat dolor aliquip est labore irure",
+            "pariatur enim esse aliqua commodo cupidatat",
+            "veniam et enim ea sit eiusmod"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "ex dolor exercitation velit consectetur duis",
+            "irure non veniam fugiat culpa mollit",
+            "nostrud duis est officia tempor non"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/17"
+    }
+  ]
+}

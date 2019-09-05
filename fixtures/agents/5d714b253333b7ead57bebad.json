@@ -1,0 +1,59 @@
+{
+  "index": 2,
+  "id": "5d714b253333b7ead57bebad",
+  "title": "Singleton Foundation",
+  "type": "organization",
+  "description": "Tempor quis sunt labore labore tempor veniam dolor nostrud. Ea excepteur dolore non laborum. Quis dolor enim dolore ex esse velit voluptate minim tempor fugiat ipsum reprehenderit duis. Commodo proident irure mollit tempor magna voluptate labore ad consectetur mollit esse incididunt ad. Deserunt incididunt id sit non deserunt ullamco. Id ullamco eiusmod deserunt id esse sint ex consequat fugiat culpa.",
+  "dates": [
+    {
+      "begin": "1944-09-23",
+      "end": "1997-05-11",
+      "expression": "Sep 23rd, 1944 - May 11th, 1997",
+      "type": "single",
+      "label": "creation"
+    },
+    {
+      "begin": "1936-11-13",
+      "end": "2017-07-21",
+      "expression": "Nov 13th, 1936 - Jul 21st, 2017",
+      "type": "bulk",
+      "label": "other"
+    }
+  ],
+  "notes": [
+    {
+      "type": "accruals",
+      "title": "sit ipsum commodo",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "dolore cupidatat sunt consequat et do",
+            "ea cillum incididunt aliquip reprehenderit veniam"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "consequat dolore ut commodo eu aliquip",
+            "magna elit excepteur sunt occaecat ex",
+            "ut voluptate magna et et officia"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "labore aliqua exercitation deserunt voluptate dolore"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/2"
+    }
+  ]
+}

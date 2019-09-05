@@ -1,0 +1,79 @@
+{
+  "index": 12,
+  "id": "5d714b25f34eba2aaf71510d",
+  "title": "Galloway Foundation",
+  "type": "organization",
+  "description": "Nisi tempor exercitation aliqua et laborum ad velit ad dolore ullamco minim aliquip. Excepteur nulla nostrud quis labore. Deserunt nostrud consequat elit qui eiusmod aute id sunt pariatur voluptate eu. Tempor tempor laborum incididunt adipisicing qui ullamco adipisicing consequat laborum laboris mollit esse irure. Do magna deserunt sunt eiusmod.",
+  "dates": [
+    {
+      "begin": "1954-12-02",
+      "end": "2019-01-05",
+      "expression": "Dec 2nd, 1954 - Jan 5th, 2019",
+      "type": "inclusive",
+      "label": "copyright"
+    },
+    {
+      "begin": "1923-06-13",
+      "end": "2007-01-11",
+      "expression": "Jun 13th, 1923 - Jan 11th, 2007",
+      "type": "bulk",
+      "label": "digitized"
+    }
+  ],
+  "notes": [
+    {
+      "type": "bibliography",
+      "title": "est adipisicing ullamco",
+      "source": "archivesspace",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "Lorem quis aute laboris enim duis",
+            "quis eiusmod ad tempor irure amet",
+            "anim elit nisi consequat voluptate minim"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "in anim et cillum reprehenderit mollit",
+            "excepteur laborum mollit excepteur commodo dolor",
+            "non commodo tempor ex qui et"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "otherfindaid",
+      "title": "proident officia cillum",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "ipsum qui eiusmod occaecat ex proident",
+            "voluptate adipisicing aute cupidatat est deserunt",
+            "culpa incididunt deserunt deserunt aliqua officia"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "pariatur pariatur cupidatat cupidatat eu voluptate",
+            "dolor anim et Lorem nisi amet",
+            "proident laborum ex quis amet ea",
+            "esse voluptate nostrud non consectetur non",
+            "anim laborum aliquip labore qui sint"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/12"
+    }
+  ]
+}

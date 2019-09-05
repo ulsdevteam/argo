@@ -1,0 +1,77 @@
+{
+  "index": 21,
+  "id": "5d714a84533c5bab69a84405",
+  "title": "Mckinney family",
+  "type": "family",
+  "description": "Aliqua aute id veniam proident pariatur fugiat sit reprehenderit excepteur. Elit nostrud ut mollit do aute. Quis qui amet quis sint esse nostrud consectetur deserunt incididunt.",
+  "dates": [
+    {
+      "begin": "1941-10-31",
+      "end": "1977-02-25",
+      "expression": "Oct 31st, 1941 - Feb 25th, 1977",
+      "type": "bulk",
+      "label": "record_keeping"
+    }
+  ],
+  "notes": [
+    {
+      "type": "permissions",
+      "title": "aliquip id quis",
+      "source": "archivesspace",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "proident velit aute in ea labore",
+            "laborum ipsum deserunt anim est reprehenderit",
+            "incididunt sunt ullamco ullamco enim aliquip"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "mollit aliquip anim ex sit sit"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "in do nisi in pariatur consequat",
+            "nostrud Lorem id non fugiat mollit"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "odd",
+      "title": "est do commodo",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "enim nostrud excepteur fugiat consectetur reprehenderit",
+            "exercitation veniam nulla anim exercitation commodo",
+            "in exercitation incididunt amet pariatur aliquip",
+            "et ut dolor anim cillum sit",
+            "sint in qui ex ad et"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "est nostrud minim laboris magna et",
+            "officia eiusmod Lorem duis elit adipisicing",
+            "do mollit exercitation pariatur sint tempor"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/21"
+    }
+  ]
+}

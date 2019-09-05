@@ -1,0 +1,84 @@
+{
+  "index": 25,
+  "id": "5d714b25b49294e2773c9734",
+  "title": "Castro Foundation",
+  "type": "organization",
+  "description": "Ea incididunt elit est sint duis ea dolor dolore tempor duis quis duis enim. Officia quis ipsum et elit consectetur nostrud velit pariatur in duis eu ullamco. Ut nisi quis dolor occaecat ut cillum veniam quis aliqua ullamco excepteur exercitation. Quis sit minim eiusmod voluptate. Ea laborum velit deserunt culpa nulla Lorem ea. Fugiat commodo sint quis aute non anim laboris. Cupidatat sit occaecat sint tempor ex aliqua Lorem sint officia ipsum veniam sunt quis.",
+  "dates": [
+    {
+      "begin": "1931-10-11",
+      "end": "2012-05-16",
+      "expression": "Oct 11th, 1931 - May 16th, 2012",
+      "type": "inclusive",
+      "label": "creation"
+    }
+  ],
+  "notes": [
+    {
+      "type": "fileplan",
+      "title": "dolore ut pariatur",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "occaecat proident labore reprehenderit voluptate mollit"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "in nulla aliquip amet elit consectetur",
+            "ut exercitation ullamco mollit dolor nostrud",
+            "in dolore non veniam ex cupidatat",
+            "quis cillum labore officia anim sint"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "ad excepteur quis eu excepteur consequat",
+            "ullamco esse labore voluptate sunt elit"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "scopecontent",
+      "title": "quis velit ad",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "velit id est incididunt commodo dolore",
+            "culpa eiusmod magna amet ut consequat"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "occaecat id laboris deserunt sunt magna",
+            "culpa esse et et deserunt velit",
+            "quis ex veniam voluptate ullamco non"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "qui sit ut nostrud ex ipsum",
+            "laborum consequat mollit do id sint",
+            "veniam elit irure culpa in esse",
+            "fugiat fugiat minim laborum nisi culpa"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/25"
+    }
+  ]
+}

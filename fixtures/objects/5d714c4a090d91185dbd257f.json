@@ -1,0 +1,222 @@
+{
+  "index": 11,
+  "id": "5d714c4a090d91185dbd257f",
+  "title": "Voluptate quis adipisicing aliquip minim ullamco duis.",
+  "type": "object",
+  "dates": [
+    {
+      "begin": "1948-05-06",
+      "end": "1971-06-16",
+      "expression": "May 6th, 1948 - Jun 16th, 1971",
+      "type": "inclusive",
+      "label": "copyright"
+    },
+    {
+      "begin": "1918-04-08",
+      "end": "2016-09-08",
+      "expression": "Apr 8th, 1918 - Sep 8th, 2016",
+      "type": "single",
+      "label": "broadcast"
+    },
+    {
+      "begin": "1924-11-07",
+      "end": "1983-12-08",
+      "expression": "Nov 7th, 1924 - Dec 8th, 1983",
+      "type": "bulk",
+      "label": "modified"
+    }
+  ],
+  "extents": [
+    {
+      "value": "2.81",
+      "type": "megabytes"
+    },
+    {
+      "value": "6.23",
+      "type": "volumes"
+    }
+  ],
+  "notes": [
+    {
+      "type": "odd",
+      "title": "sint nisi nostrud",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "labore reprehenderit aliquip minim reprehenderit do",
+            "Lorem fugiat et ex elit duis"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "accessrestrict",
+      "title": "aute cillum anim",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "elit excepteur sit velit ad reprehenderit",
+            "fugiat officia Lorem aute ipsum veniam"
+          ]
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/26"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/26"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/45"
+        }
+      ]
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/36"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/27"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/5"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/24"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/35"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "expression": "Spanish",
+      "identifier": "eng"
+    }
+  ],
+  "rights_statements": [
+    {
+      "id": "5d714c4aa01e37e62e6e1088",
+      "determination_date": "2019-09-05",
+      "type": "rights_statement",
+      "rights_type": "statute",
+      "rights_status": "public domain",
+      "begin": "2019-09-05",
+      "end": "2019-09-05",
+      "copyright_status": "copyrighted",
+      "other_basis": "ullamco",
+      "jurisdiction": "FR",
+      "notes": [
+        {
+          "type": "extension",
+          "title": "ad deserunt eu",
+          "source": "cartographer",
+          "subnotes": [
+            {
+              "type": "definedlist",
+              "content": [
+                "cillum aliquip adipisicing ut magna excepteur",
+                "est aliquip esse ea aliqua excepteur",
+                "veniam esse incididunt voluptate est Lorem"
+              ]
+            }
+          ]
+        }
+      ],
+      "rights_granted": [
+        {
+          "act": "replicate",
+          "begin": "2019-09-05",
+          "end": "2019-09-05",
+          "restriction": "allow",
+          "notes": []
+        },
+        {
+          "act": "replicate",
+          "begin": "2019-09-05",
+          "end": "2019-09-05",
+          "restriction": "allow",
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/15"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/5"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/28"
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/11"
+    }
+  ]
+}

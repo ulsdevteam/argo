@@ -1,0 +1,60 @@
+{
+  "index": 30,
+  "id": "5d714a8422293fc89a2c697f",
+  "title": "Allen family",
+  "type": "family",
+  "description": "Pariatur nostrud labore consectetur eu. Nisi et culpa nostrud ut labore. Cupidatat id velit ut sit ex tempor eiusmod culpa aliquip irure sit cillum sint esse. Ea consequat labore incididunt voluptate. Pariatur aliqua aute aute occaecat cillum ea quis mollit dolor incididunt adipisicing exercitation. Mollit culpa ullamco et mollit ex.",
+  "dates": [
+    {
+      "begin": "1914-10-06",
+      "end": "1965-10-29",
+      "expression": "Oct 6th, 1914 - Oct 29th, 1965",
+      "type": "bulk",
+      "label": "agent_relation"
+    },
+    {
+      "begin": "1957-03-31",
+      "end": "1969-04-12",
+      "expression": "Mar 31st, 1957 - Apr 12th, 1969",
+      "type": "inclusive",
+      "label": "publication"
+    }
+  ],
+  "notes": [
+    {
+      "type": "odd",
+      "title": "eu dolore occaecat",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "minim reprehenderit minim adipisicing pariatur ipsum",
+            "consequat ex culpa deserunt est nostrud",
+            "Lorem ipsum amet dolore duis velit"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "fugiat ullamco sint sunt laboris aute"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "eu proident sit sint fugiat nulla",
+            "laborum elit commodo enim occaecat elit",
+            "nulla reprehenderit do pariatur qui mollit"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/30"
+    }
+  ]
+}

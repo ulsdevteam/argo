@@ -1,0 +1,41 @@
+{
+  "index": 32,
+  "id": "5d714ad72e276223630c4830",
+  "title": "Pruitt Lindsey",
+  "type": "person",
+  "description": "Officia et irure adipisicing laborum voluptate anim quis. Excepteur eu cupidatat cillum aliqua minim ea dolor. Velit enim proident tempor voluptate voluptate ad. Nisi est commodo id exercitation nulla ad sunt reprehenderit.",
+  "dates": [
+    {
+      "begin": "1926-11-15",
+      "end": "2007-10-23",
+      "expression": "Nov 15th, 1926 - Oct 23rd, 2007",
+      "type": "bulk",
+      "label": "creation"
+    }
+  ],
+  "notes": [
+    {
+      "type": "materialspec",
+      "title": "deserunt et nisi",
+      "source": "archivesspace",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "exercitation officia ut ex sunt laborum",
+            "duis ex proident ut nostrud adipisicing",
+            "sint deserunt commodo dolor anim aliqua",
+            "elit quis incididunt irure deserunt proident",
+            "ullamco aute exercitation irure exercitation culpa"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_person/32"
+    }
+  ]
+}

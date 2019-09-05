@@ -1,0 +1,41 @@
+{
+  "index": 41,
+  "id": "5d714a84fd1fd5eb67e67874",
+  "title": "Case family",
+  "type": "family",
+  "description": "Ut occaecat ea nulla dolor do veniam mollit dolore commodo reprehenderit qui ex duis cillum. Duis adipisicing do do exercitation velit fugiat consequat elit sit. Dolore adipisicing et nisi commodo enim nostrud ipsum excepteur. Consequat reprehenderit amet id Lorem aliqua elit et.",
+  "dates": [
+    {
+      "begin": "1947-07-07",
+      "end": "1995-02-12",
+      "expression": "Jul 7th, 1947 - Feb 12th, 1995",
+      "type": "single",
+      "label": "broadcast"
+    }
+  ],
+  "notes": [
+    {
+      "type": "relatedmaterial",
+      "title": "qui aute cillum",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "reprehenderit cillum veniam ea id enim",
+            "anim excepteur mollit sit eiusmod laboris",
+            "ex exercitation cillum anim in esse",
+            "ad enim consequat cillum commodo qui",
+            "nisi amet culpa culpa ipsum velit"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/41"
+    }
+  ]
+}

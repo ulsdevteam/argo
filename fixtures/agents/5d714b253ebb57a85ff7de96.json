@@ -1,0 +1,50 @@
+{
+  "index": 3,
+  "id": "5d714b253ebb57a85ff7de96",
+  "title": "Moon Foundation",
+  "type": "organization",
+  "description": "Veniam tempor sit do sit ex veniam nulla cupidatat proident enim Lorem velit nisi. Consequat anim cillum ut est deserunt est culpa esse ipsum in occaecat id excepteur. Ullamco cupidatat deserunt aute nostrud reprehenderit et eu ut magna nisi sunt ullamco proident sint. Labore laboris ipsum anim officia qui pariatur.",
+  "dates": [
+    {
+      "begin": "1935-01-18",
+      "end": "1991-03-28",
+      "expression": "Jan 18th, 1935 - Mar 28th, 1991",
+      "type": "bulk",
+      "label": "copyright"
+    },
+    {
+      "begin": "1946-07-12",
+      "end": "1977-10-01",
+      "expression": "Jul 12th, 1946 - Oct 1st, 1977",
+      "type": "inclusive",
+      "label": "record_keeping"
+    }
+  ],
+  "notes": [
+    {
+      "type": "bioghist",
+      "title": "mollit magna incididunt",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "minim nostrud mollit occaecat enim officia"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "culpa anim incididunt sit velit ea"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/3"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "index": 32,
+  "id": "5d714b25f40f290ef7dbb291",
+  "title": "Holloway Foundation",
+  "type": "organization",
+  "description": "Labore irure laboris in est nisi nostrud irure duis aliquip esse ipsum deserunt ex aliquip. Fugiat cillum sunt excepteur Lorem. Amet commodo sunt duis cillum cillum nostrud. Consequat Lorem esse excepteur veniam ipsum labore amet labore. Ea Lorem esse mollit qui duis quis deserunt in do cillum duis exercitation amet enim. Commodo mollit velit anim laborum cillum esse. Non labore sint veniam ea reprehenderit.",
+  "dates": [
+    {
+      "begin": "1954-01-13",
+      "end": "2016-09-30",
+      "expression": "Jan 13th, 1954 - Sep 30th, 2016",
+      "type": "inclusive",
+      "label": "event"
+    }
+  ],
+  "notes": [
+    {
+      "type": "langmaterial",
+      "title": "anim esse proident",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "sint tempor ut aute proident eu",
+            "cillum aliquip proident occaecat culpa nulla",
+            "duis quis aliquip proident cillum sit",
+            "exercitation Lorem occaecat ad elit ex",
+            "enim veniam minim excepteur nulla in"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "excepteur incididunt dolor ipsum cupidatat ullamco",
+            "deserunt elit aliquip ut adipisicing anim",
+            "quis veniam pariatur laborum labore nostrud",
+            "incididunt fugiat voluptate sunt anim velit"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "langmaterial",
+      "title": "ea id voluptate",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "occaecat voluptate non tempor velit magna"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/32"
+    }
+  ]
+}

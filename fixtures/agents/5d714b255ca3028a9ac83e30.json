@@ -1,0 +1,71 @@
+{
+  "index": 50,
+  "id": "5d714b255ca3028a9ac83e30",
+  "title": "Downs Foundation",
+  "type": "organization",
+  "description": "Pariatur reprehenderit dolor mollit aliqua laborum incididunt in ea. Minim dolore duis eiusmod labore amet esse non mollit nisi. Ut consequat Lorem aliqua proident occaecat ipsum quis laborum minim exercitation. Qui nulla in fugiat exercitation sunt ex id non commodo aliqua. Sit aute veniam enim Lorem officia ut id laborum duis do anim. Irure proident eu pariatur magna sit in.",
+  "dates": [
+    {
+      "begin": "1924-01-15",
+      "end": "1987-07-06",
+      "expression": "Jan 15th, 1924 - Jul 6th, 1987",
+      "type": "bulk",
+      "label": "creation"
+    }
+  ],
+  "notes": [
+    {
+      "type": "rights_statement_act",
+      "title": "velit minim mollit",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "Lorem est qui pariatur sunt amet",
+            "tempor magna laboris laboris nisi eiusmod",
+            "deserunt quis nostrud amet qui nostrud",
+            "nisi velit nisi velit exercitation velit",
+            "aute quis do in cillum est"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "do officia non enim magna ipsum",
+            "ut exercitation fugiat aliqua cupidatat labore",
+            "fugiat ut commodo est est ut",
+            "culpa Lorem ad cupidatat dolor excepteur"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "arrangement",
+      "title": "cupidatat aute enim",
+      "source": "archivesspace",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "minim commodo aute laborum reprehenderit adipisicing",
+            "quis deserunt labore et duis et"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "commodo irure Lorem amet deserunt eu",
+            "aute amet esse consectetur excepteur sint"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/50"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "index": 30,
+  "id": "5d714ad75c35d48f4f4c1c3e",
+  "title": "Marina Jenkins",
+  "type": "person",
+  "description": "Deserunt fugiat anim deserunt duis sunt commodo. Cupidatat aliqua id incididunt tempor irure cillum. Veniam elit amet ut officia.",
+  "dates": [
+    {
+      "begin": "1951-09-22",
+      "end": "1975-09-12",
+      "expression": "Sep 22nd, 1951 - Sep 12th, 1975",
+      "type": "inclusive",
+      "label": "other"
+    }
+  ],
+  "notes": [
+    {
+      "type": "accessrestrict",
+      "title": "ex nisi nulla",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "cillum consequat ullamco qui ipsum eiusmod",
+            "tempor cupidatat laborum amet quis velit",
+            "culpa cupidatat ullamco dolor consequat aliqua",
+            "fugiat consequat do et ullamco proident",
+            "cupidatat reprehenderit Lorem exercitation mollit do"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "commodo irure laboris nulla cillum labore"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "otherfindaid",
+      "title": "ex cupidatat esse",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "fugiat non duis excepteur proident in",
+            "duis aliqua non irure sint nisi",
+            "laborum laboris officia officia aliquip id"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_person/30"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "index": 42,
+  "id": "5d714a8456f610103c38bb19",
+  "title": "Miranda family",
+  "type": "family",
+  "description": "Minim esse deserunt nisi enim aliqua ad exercitation do. Aliqua nisi anim mollit occaecat elit ex aliqua. Non eiusmod occaecat magna exercitation.",
+  "dates": [
+    {
+      "begin": "1930-12-22",
+      "end": "1978-03-06",
+      "expression": "Dec 22nd, 1930 - Mar 6th, 1978",
+      "type": "single",
+      "label": "record_keeping"
+    },
+    {
+      "begin": "1925-02-25",
+      "end": "1990-04-13",
+      "expression": "Feb 25th, 1925 - Apr 13th, 1990",
+      "type": "bulk",
+      "label": "modified"
+    }
+  ],
+  "notes": [
+    {
+      "type": "prefercite",
+      "title": "quis amet tempor",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "pariatur occaecat nostrud laborum dolore qui",
+            "pariatur excepteur tempor anim officia velit",
+            "irure laborum labore non velit ut",
+            "anim ea reprehenderit non laborum ad",
+            "ullamco commodo elit irure aliqua voluptate"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "accessrestrict",
+      "title": "fugiat velit ullamco",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "ullamco aliqua cupidatat excepteur reprehenderit cupidatat",
+            "velit consectetur nulla pariatur exercitation eu",
+            "irure adipisicing irure amet sint labore",
+            "consectetur fugiat commodo exercitation enim sint",
+            "ex amet deserunt aute cillum anim"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/42"
+    }
+  ]
+}

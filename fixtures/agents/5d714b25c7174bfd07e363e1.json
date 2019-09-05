@@ -1,0 +1,62 @@
+{
+  "index": 40,
+  "id": "5d714b25c7174bfd07e363e1",
+  "title": "Albert Foundation",
+  "type": "organization",
+  "description": "Occaecat sint consequat eiusmod reprehenderit aliquip qui nulla ex ex pariatur enim. Reprehenderit quis exercitation sint in veniam nisi culpa ipsum ut esse incididunt. Culpa consequat in ullamco dolor amet qui nisi. Adipisicing cupidatat esse aliquip voluptate sunt Lorem incididunt. Ipsum consectetur quis irure deserunt sunt elit culpa fugiat ut ad proident sunt ex. Nisi dolor occaecat ut anim incididunt reprehenderit proident nulla reprehenderit aute nulla.",
+  "dates": [
+    {
+      "begin": "1935-10-03",
+      "end": "2001-07-21",
+      "expression": "Oct 3rd, 1935 - Jul 21st, 2001",
+      "type": "single",
+      "label": "record_keeping"
+    },
+    {
+      "begin": "1932-01-13",
+      "end": "1985-03-14",
+      "expression": "Jan 13th, 1932 - Mar 14th, 1985",
+      "type": "inclusive",
+      "label": "digitized"
+    }
+  ],
+  "notes": [
+    {
+      "type": "index",
+      "title": "cillum consectetur qui",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "sunt eu exercitation eu nostrud deserunt",
+            "cillum ullamco laboris enim elit Lorem"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "pariatur laboris nisi ea amet laboris",
+            "velit qui in tempor veniam excepteur",
+            "incididunt consequat eiusmod id culpa laboris",
+            "aliqua magna ullamco ut fugiat anim"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "culpa deserunt eu mollit proident aliqua",
+            "qui velit ullamco ad dolore ad",
+            "elit veniam sint id non irure"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/40"
+    }
+  ]
+}

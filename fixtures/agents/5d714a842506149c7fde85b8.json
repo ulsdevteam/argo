@@ -1,0 +1,60 @@
+{
+  "index": 26,
+  "id": "5d714a842506149c7fde85b8",
+  "title": "Hayes family",
+  "type": "family",
+  "description": "Esse dolor cupidatat voluptate exercitation laborum amet nostrud do laborum ad et tempor. Ipsum officia aliquip magna pariatur deserunt adipisicing eu reprehenderit laboris. In dolore do do est.",
+  "dates": [
+    {
+      "begin": "1915-02-03",
+      "end": "2014-11-22",
+      "expression": "Feb 3rd, 1915 - Nov 22nd, 2014",
+      "type": "bulk",
+      "label": "event"
+    },
+    {
+      "begin": "1928-01-21",
+      "end": "1964-12-19",
+      "expression": "Jan 21st, 1928 - Dec 19th, 1964",
+      "type": "inclusive",
+      "label": "publication"
+    }
+  ],
+  "notes": [
+    {
+      "type": "extent",
+      "title": "minim amet occaecat",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "id cupidatat cupidatat mollit aliqua excepteur",
+            "veniam sunt et culpa anim eu",
+            "laboris et magna eiusmod consequat incididunt"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "anim ea ad id deserunt officia",
+            "adipisicing Lorem officia elit anim nulla",
+            "elit commodo voluptate eu proident ullamco"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "consequat dolor consectetur anim est exercitation"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/26"
+    }
+  ]
+}

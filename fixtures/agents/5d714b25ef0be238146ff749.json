@@ -1,0 +1,39 @@
+{
+  "index": 20,
+  "id": "5d714b25ef0be238146ff749",
+  "title": "Oneil Foundation",
+  "type": "organization",
+  "description": "Anim enim officia pariatur tempor nulla nisi. Velit duis sit irure anim ad ad. Irure ex quis culpa consectetur sit consequat incididunt commodo officia. Laboris deserunt incididunt dolore elit esse fugiat in adipisicing est nostrud adipisicing duis. Ipsum id Lorem ipsum ex fugiat consequat amet culpa cillum tempor nisi dolor nisi occaecat. Quis ad do elit aliquip incididunt consectetur esse nostrud.",
+  "dates": [
+    {
+      "begin": "1942-03-11",
+      "end": "2014-11-03",
+      "expression": "Mar 11th, 1942 - Nov 3rd, 2014",
+      "type": "single",
+      "label": "existence"
+    }
+  ],
+  "notes": [
+    {
+      "type": "bioghist",
+      "title": "elit fugiat qui",
+      "source": "archivesspace",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "in anim et dolor sit et",
+            "ullamco enim commodo nulla officia magna",
+            "proident fugiat sint deserunt qui ullamco"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/20"
+    }
+  ]
+}

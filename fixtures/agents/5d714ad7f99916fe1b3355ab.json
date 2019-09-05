@@ -1,0 +1,49 @@
+{
+  "index": 3,
+  "id": "5d714ad7f99916fe1b3355ab",
+  "title": "Kathryn Lester",
+  "type": "person",
+  "description": "Aliquip occaecat laborum eiusmod incididunt cupidatat ut exercitation pariatur consectetur. Magna aliquip ut pariatur tempor. Est duis culpa irure officia. Enim in ea ipsum ullamco. Nisi laboris nisi enim sint reprehenderit pariatur ullamco ad officia magna est id. In dolor officia sint excepteur in in quis excepteur occaecat qui duis ut Lorem. Sit exercitation aute fugiat in exercitation qui cillum.",
+  "dates": [
+    {
+      "begin": "1937-04-14",
+      "end": "1990-03-01",
+      "expression": "Apr 14th, 1937 - Mar 1st, 1990",
+      "type": "inclusive",
+      "label": "broadcast"
+    }
+  ],
+  "notes": [
+    {
+      "type": "physloc",
+      "title": "qui sunt duis",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "proident pariatur officia et fugiat dolore",
+            "adipisicing consequat dolor in mollit elit",
+            "laborum et tempor laborum non amet",
+            "duis officia irure anim est incididunt"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "eu aliquip magna minim tempor sunt",
+            "dolore id sint velit Lorem voluptate",
+            "voluptate deserunt eiusmod pariatur minim adipisicing",
+            "nostrud duis minim exercitation nulla nisi"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_person/3"
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "index": 17,
+  "id": "5d71577b49835bc8c1f32446",
+  "title": "Et proident tempor enim excepteur.",
+  "type": "collection",
+  "level": "collection",
+  "dates": [
+    {
+      "begin": "1936-11-03",
+      "end": "2009-04-20",
+      "expression": "Nov 3rd, 1936 - Apr 20th, 2009",
+      "type": "inclusive",
+      "label": "creation"
+    },
+    {
+      "begin": "1915-05-10",
+      "end": "1962-03-11",
+      "expression": "May 10th, 1915 - Mar 11th, 1962",
+      "type": "inclusive",
+      "label": "digitized"
+    }
+  ],
+  "creators": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/9"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/10"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "value": "6.44",
+      "type": "terabytes"
+    }
+  ],
+  "notes": [],
+  "terms": [],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/33"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "expression": "Spanish",
+      "identifier": "spa"
+    },
+    {
+      "expression": "English",
+      "identifier": "spa"
+    },
+    {
+      "expression": "Esperanto",
+      "identifier": "eng"
+    }
+  ],
+  "rights_statements": [],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/11"
+        }
+      ]
+    }
+  ],
+  "children": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/22"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/49"
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/17"
+    }
+  ]
+}

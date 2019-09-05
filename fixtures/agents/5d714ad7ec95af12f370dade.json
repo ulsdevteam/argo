@@ -1,0 +1,45 @@
+{
+  "index": 36,
+  "id": "5d714ad7ec95af12f370dade",
+  "title": "Roberson Bass",
+  "type": "person",
+  "description": "Amet in commodo do ullamco eiusmod reprehenderit irure deserunt. Dolore deserunt occaecat velit duis pariatur deserunt quis sit. Reprehenderit consequat deserunt mollit dolore pariatur occaecat. Sint sit minim culpa dolor. Occaecat laboris adipisicing et deserunt ipsum. Laborum incididunt sint deserunt nostrud cupidatat mollit exercitation eu proident nulla dolore do.",
+  "dates": [
+    {
+      "begin": "1930-05-23",
+      "end": "2007-07-09",
+      "expression": "May 23rd, 1930 - Jul 9th, 2007",
+      "type": "single",
+      "label": "creation"
+    },
+    {
+      "begin": "1940-10-25",
+      "end": "2005-02-18",
+      "expression": "Oct 25th, 1940 - Feb 18th, 2005",
+      "type": "inclusive",
+      "label": "digitized"
+    }
+  ],
+  "notes": [
+    {
+      "type": "otherfindaid",
+      "title": "exercitation ex qui",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "amet veniam reprehenderit nostrud quis proident",
+            "cillum sunt exercitation officia qui qui"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_person/36"
+    }
+  ]
+}

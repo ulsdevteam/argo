@@ -1,0 +1,57 @@
+{
+  "index": 41,
+  "id": "5d714b2505ac7c15fe6eec98",
+  "title": "Mayer Foundation",
+  "type": "organization",
+  "description": "Non consequat dolore excepteur qui dolor cillum dolore sint magna ex cillum commodo elit. Anim id sunt laborum sunt non nulla aliqua nisi qui nostrud enim ad incididunt. Esse nostrud officia id tempor veniam in ullamco aute ipsum dolore occaecat. Deserunt adipisicing non dolore duis culpa in aliqua. Ipsum Lorem quis duis amet occaecat veniam proident culpa aliquip. Veniam elit nulla mollit enim cillum cupidatat est tempor quis.",
+  "dates": [
+    {
+      "begin": "1947-09-15",
+      "end": "1982-06-26",
+      "expression": "Sep 15th, 1947 - Jun 26th, 1982",
+      "type": "bulk",
+      "label": "modified"
+    },
+    {
+      "begin": "1948-01-21",
+      "end": "1974-06-25",
+      "expression": "Jan 21st, 1948 - Jun 25th, 1974",
+      "type": "bulk",
+      "label": "publication"
+    }
+  ],
+  "notes": [
+    {
+      "type": "scopecontent",
+      "title": "dolor nisi tempor",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "ex culpa eu amet consequat amet",
+            "in Lorem amet sint sunt laboris",
+            "non culpa eiusmod velit ipsum Lorem",
+            "deserunt nisi proident mollit culpa et",
+            "esse ullamco magna est eu id"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "id reprehenderit sunt minim nulla veniam",
+            "ea ex reprehenderit aliqua sint ad",
+            "laboris sit laboris minim occaecat ut",
+            "do dolor officia qui adipisicing adipisicing"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/41"
+    }
+  ]
+}

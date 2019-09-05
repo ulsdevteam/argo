@@ -1,0 +1,154 @@
+{
+  "index": 38,
+  "id": "5d71577cf3cfae3808f9a06b",
+  "title": "Reprehenderit tempor aliquip adipisicing mollit dolore deserunt adipisicing enim fugiat.",
+  "type": "collection",
+  "level": "file",
+  "dates": [
+    {
+      "begin": "1918-12-15",
+      "end": "2012-09-27",
+      "expression": "Dec 15th, 1918 - Sep 27th, 2012",
+      "type": "bulk",
+      "label": "broadcast"
+    },
+    {
+      "begin": "1933-04-13",
+      "end": "1986-01-02",
+      "expression": "Apr 13th, 1933 - Jan 2nd, 1986",
+      "type": "bulk",
+      "label": "publication"
+    }
+  ],
+  "creators": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/45"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/10"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "value": "5.12",
+      "type": "photographic_prints"
+    }
+  ],
+  "notes": [],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/44"
+        }
+      ]
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/14"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "expression": "English",
+      "identifier": "eng"
+    },
+    {
+      "expression": "Esperanto",
+      "identifier": "eng"
+    },
+    {
+      "expression": "Spanish",
+      "identifier": "epo"
+    }
+  ],
+  "rights_statements": [
+    {
+      "id": "5d71577c6e41ae75abb068a4",
+      "determination_date": "2019-09-05",
+      "type": "rights_statement",
+      "rights_type": "copyright",
+      "rights_status": "copyrighted",
+      "begin": "2019-09-05",
+      "end": "2019-09-05",
+      "copyright_status": "public domain",
+      "other_basis": "pariatur",
+      "jurisdiction": "FR",
+      "notes": [
+        {
+          "type": "restrictions",
+          "title": "cillum deserunt sint",
+          "source": "archivesspace",
+          "subnotes": [
+            {
+              "type": "text",
+              "content": [
+                "culpa Lorem Lorem ullamco eiusmod nulla",
+                "occaecat aliqua consectetur consequat aliquip irure"
+              ]
+            }
+          ]
+        }
+      ],
+      "rights_granted": [
+        {
+          "act": "use",
+          "begin": "2019-09-05",
+          "end": "2019-09-05",
+          "restriction": "allow",
+          "notes": []
+        },
+        {
+          "act": "delete",
+          "begin": "2019-09-05",
+          "end": "2019-09-05",
+          "restriction": "allow",
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/31"
+        }
+      ]
+    }
+  ],
+  "children": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/9"
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/38"
+    }
+  ]
+}

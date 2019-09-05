@@ -1,0 +1,92 @@
+{
+  "index": 39,
+  "id": "5d714b2584777a1b90d05b51",
+  "title": "Steele Foundation",
+  "type": "organization",
+  "description": "Dolore ullamco pariatur proident sint ex. Ea eu ex aute sint non fugiat quis dolor elit ea mollit. Do fugiat velit reprehenderit officia quis nulla dolor voluptate ut cillum elit. Magna nisi sunt elit nisi irure cillum nostrud sint mollit.",
+  "dates": [
+    {
+      "begin": "1926-08-25",
+      "end": "2016-05-02",
+      "expression": "Aug 25th, 1926 - May 2nd, 2016",
+      "type": "single",
+      "label": "usage"
+    },
+    {
+      "begin": "1933-01-20",
+      "end": "2016-07-10",
+      "expression": "Jan 20th, 1933 - Jul 10th, 2016",
+      "type": "single",
+      "label": "digitized"
+    }
+  ],
+  "notes": [
+    {
+      "type": "permissions",
+      "title": "commodo consequat amet",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "exercitation enim reprehenderit tempor do laborum",
+            "sunt in culpa do deserunt nostrud"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "aliqua commodo aute cillum minim cillum",
+            "ex eu enim qui cillum fugiat",
+            "aliqua ea ipsum in sint do",
+            "aliqua aliqua mollit ex labore tempor",
+            "incididunt in deserunt elit excepteur ipsum"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "velit elit ex duis laboris occaecat",
+            "ullamco esse sint occaecat deserunt ex",
+            "ut aliqua amet nulla Lorem sunt"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "langmaterial",
+      "title": "reprehenderit sit duis",
+      "source": "archivesspace",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "consectetur est ad aliquip deserunt irure"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "cupidatat labore ad cillum adipisicing cupidatat",
+            "quis ullamco ut duis sit dolor",
+            "id ipsum nostrud ea officia nostrud",
+            "occaecat est tempor reprehenderit dolore labore",
+            "do tempor deserunt dolore do aliqua"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "dolore Lorem sint aliquip anim in"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/39"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "index": 19,
+  "id": "5d714a84c2b7165afadd0e4c",
+  "title": "Cardenas family",
+  "type": "family",
+  "description": "Labore laborum enim officia enim tempor incididunt fugiat anim aliqua aute commodo sint non. Ullamco excepteur ea anim ullamco aute ea consequat non sint elit consequat ipsum. Nisi ex esse mollit veniam. Anim non enim esse eu ad proident tempor commodo cupidatat occaecat. Enim amet excepteur reprehenderit consectetur adipisicing ex irure laborum adipisicing in ex veniam ea. Aliquip excepteur elit ullamco dolor excepteur occaecat fugiat aliquip Lorem aliquip ut.",
+  "dates": [
+    {
+      "begin": "1915-12-11",
+      "end": "1995-06-10",
+      "expression": "Dec 11th, 1915 - Jun 10th, 1995",
+      "type": "bulk",
+      "label": "deaccession"
+    },
+    {
+      "begin": "1953-09-02",
+      "end": "1960-03-19",
+      "expression": "Sep 2nd, 1953 - Mar 19th, 1960",
+      "type": "bulk",
+      "label": "creation"
+    }
+  ],
+  "notes": [
+    {
+      "type": "processinfo",
+      "title": "exercitation magna esse",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "deserunt eiusmod enim do Lorem sint",
+            "eu consequat nostrud do ut voluptate",
+            "duis consequat aliqua culpa sit nulla",
+            "exercitation Lorem adipisicing non veniam ad"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "materials",
+      "title": "aliqua adipisicing pariatur",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "magna nostrud esse culpa esse id"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/19"
+    }
+  ]
+}

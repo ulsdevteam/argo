@@ -1,0 +1,50 @@
+{
+  "index": 6,
+  "id": "5d714a8450fd7e239cddcd63",
+  "title": "Nichols family",
+  "type": "family",
+  "description": "Minim nisi duis aliquip irure irure in velit enim esse qui amet sit et. Mollit magna tempor voluptate officia ad mollit reprehenderit minim quis est irure eiusmod aliqua fugiat. Minim voluptate duis Lorem et fugiat elit. Aliqua tempor irure enim proident quis esse duis adipisicing. Lorem qui pariatur excepteur adipisicing cillum velit exercitation do aliqua non ullamco.",
+  "dates": [
+    {
+      "begin": "1914-06-17",
+      "end": "2005-11-02",
+      "expression": "Jun 17th, 1914 - Nov 2nd, 2005",
+      "type": "bulk",
+      "label": "usage"
+    }
+  ],
+  "notes": [
+    {
+      "type": "restrictions",
+      "title": "enim exercitation aliquip",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "id anim do dolor voluptate aute",
+            "aliquip dolore elit cupidatat ad deserunt",
+            "ipsum dolore ea tempor dolor tempor",
+            "voluptate amet enim esse adipisicing sit"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "esse eu consectetur voluptate Lorem dolor",
+            "labore pariatur elit sit Lorem quis",
+            "aliqua id esse pariatur consequat est",
+            "tempor sit qui ipsum labore veniam",
+            "fugiat consequat ipsum aute et culpa"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/6"
+    }
+  ]
+}

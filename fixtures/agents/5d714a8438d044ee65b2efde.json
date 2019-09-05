@@ -1,0 +1,48 @@
+{
+  "index": 50,
+  "id": "5d714a8438d044ee65b2efde",
+  "title": "Page family",
+  "type": "family",
+  "description": "Sit eiusmod dolore id voluptate Lorem ea. Incididunt dolore eu veniam in et occaecat veniam do eu officia. Ipsum consectetur mollit amet tempor proident amet officia. Laboris non aliquip mollit et. Mollit ipsum consectetur ea sunt ut fugiat tempor ut cupidatat ad sint aliquip. Amet reprehenderit non consequat ullamco reprehenderit adipisicing ipsum occaecat sunt deserunt nulla duis occaecat ea.",
+  "dates": [
+    {
+      "begin": "1949-04-04",
+      "end": "1972-11-15",
+      "expression": "Apr 4th, 1949 - Nov 15th, 1972",
+      "type": "inclusive",
+      "label": "existence"
+    },
+    {
+      "begin": "1952-08-01",
+      "end": "1974-09-02",
+      "expression": "Aug 1st, 1952 - Sep 2nd, 1974",
+      "type": "inclusive",
+      "label": "record_keeping"
+    }
+  ],
+  "notes": [
+    {
+      "type": "acquinfo",
+      "title": "non exercitation ipsum",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "proident aliqua ex et cillum in",
+            "veniam officia ullamco culpa proident reprehenderit",
+            "quis ad anim laborum laborum velit",
+            "aliquip proident commodo mollit reprehenderit sint",
+            "quis enim officia laboris ex enim"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/50"
+    }
+  ]
+}

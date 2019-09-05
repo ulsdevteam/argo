@@ -1,0 +1,54 @@
+{
+  "index": 44,
+  "id": "5d714a840866e68869154088",
+  "title": "Valdez family",
+  "type": "family",
+  "description": "Laboris tempor commodo tempor ex. Consequat tempor exercitation aliquip velit qui culpa Lorem occaecat incididunt commodo non ea fugiat. Et in ea exercitation cupidatat fugiat labore. Nisi incididunt dolor nisi commodo adipisicing commodo enim amet. Veniam esse mollit ad sint aute.",
+  "dates": [
+    {
+      "begin": "1931-07-21",
+      "end": "1973-02-20",
+      "expression": "Jul 21st, 1931 - Feb 20th, 1973",
+      "type": "single",
+      "label": "modified"
+    },
+    {
+      "begin": "1917-10-14",
+      "end": "1979-11-21",
+      "expression": "Oct 14th, 1917 - Nov 21st, 1979",
+      "type": "inclusive",
+      "label": "record_keeping"
+    }
+  ],
+  "notes": [
+    {
+      "type": "rights_statement_act",
+      "title": "exercitation exercitation laboris",
+      "source": "archivesspace",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "irure nostrud veniam occaecat laborum ipsum",
+            "consectetur excepteur culpa consequat esse veniam"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "ex reprehenderit dolor labore quis Lorem",
+            "consectetur adipisicing ea consectetur officia deserunt",
+            "eiusmod fugiat ex aute adipisicing ad",
+            "proident anim tempor proident enim enim"
+          ]
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/44"
+    }
+  ]
+}
