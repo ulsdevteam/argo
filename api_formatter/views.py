@@ -34,10 +34,10 @@ class DocumentViewSet(ReadOnlyModelViewSet):
         if not Index(self.index).exists():
             raise Http404("Index `{}` does not exist".format(self.index))
         self.mapping = self.document._doc_type.mapping.properties.name
-        self.search = Search(
+        self.search = self.document().search(
             using=self.client,
-            index=self.index,
-            doc_type=self.document._doc_type.name
+            # index=self.index,
+            # doc_type=self.document._doc_type.name
         )
         super(ReadOnlyModelViewSet, self).__init__(*args, **kwargs)
 
@@ -60,10 +60,14 @@ class DocumentViewSet(ReadOnlyModelViewSet):
                                  "named '%s'. Fix your URL conf, or set the `.lookup_field` "
                                  "attribute on the view correctly." % (self.__class__.__name__, lookup_url_kwarg))
         queryset = queryset.filter('match_phrase', **{'_id': self.kwargs[lookup_url_kwarg]})
-        hits = queryset.execute().hits.hits
+        hits = queryset.execute().hits
+        # hits = obj_list.hits
         count = len(hits)
         if count == 1:
-            return hits[0]['_source']
+            # obj = hits[0]['_source']
+            # TODO: figure out how to incorporate this
+            # obj.ancestors = obj_list[0].get_references()
+            return hits[0]
         elif count > 1:
             raise Http404("Multiple results matches the given query. Expected a single result.")
         raise Http404("No result matches the given query.")
@@ -165,6 +169,11 @@ class CollectionViewSet(DocumentViewSet):
         'start_date': 'dates.begin',
         'end_date': 'dates.end',
     }
+
+    def get_object(self):
+        obj = super(CollectionViewSet, self).get_object()
+        obj.ancestors = obj.get_references(relation='ancestors')
+        return obj
 
 
 class ObjectViewSet(DocumentViewSet):
@@ -283,9 +292,9 @@ class SearchView(DocumentViewSet):
     }
 
     def __init__(self, *args, **kwargs):
-        indices = ['agents', 'collections', 'objects', 'terms']
-        if not Index(['agents', 'collections', 'objects', 'terms']).exists():
-            raise Http404("Index `{}` does not exist".format(['agents', 'collections', 'objects', 'terms']))
+        indices = ['agents', 'archival-components', 'objects', 'terms']
+        if not Index(indices).exists():
+            raise Http404("Index `{}` does not exist".format(indices))
         self.client = connections.get_connection('default')
         # TODO: will have to pass a mapping here
         # self.mapping = self.document._doc_type.mapping.properties.name
