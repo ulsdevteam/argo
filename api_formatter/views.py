@@ -292,7 +292,7 @@ class SearchView(DocumentViewSet):
     }
 
     def __init__(self, *args, **kwargs):
-        indices = ['agents', 'archival-components', 'objects', 'terms']
+        indices = ['default']
         if not Index(indices).exists():
             raise Http404("Index `{}` does not exist".format(indices))
         self.client = connections.get_connection('default')
