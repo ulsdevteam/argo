@@ -34,7 +34,7 @@ class DocumentViewSet(ReadOnlyModelViewSet):
         if not Index(self.index).exists():
             raise Http404("Index `{}` does not exist".format(self.index))
         self.mapping = self.document._doc_type.mapping.properties.name
-        self.search = self.document().search(
+        self.search = self.document.search(
             using=self.client,
             # index=self.index,
             # doc_type=self.document._doc_type.name
@@ -94,8 +94,8 @@ class AgentViewSet(DocumentViewSet):
             'field': 'description.keyword',
             'lookups': STRING_LOOKUPS,
             },
-        'type': {
-            'field': 'type',
+        'agent_type': {
+            'field': 'agent_type',
             'lookups': STRING_LOOKUPS,
             },
         'start_date': {
@@ -235,8 +235,8 @@ class TermViewSet(DocumentViewSet):
             'field': 'title.keyword',
             'lookups': STRING_LOOKUPS,
             },
-        'type': {
-            'field': 'type',
+        'term_type': {
+            'field': 'term_type',
             'lookups': STRING_LOOKUPS,
             },
         }
