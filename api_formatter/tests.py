@@ -11,7 +11,7 @@ from django.urls import reverse
 from elasticsearch_dsl import connections, Search, Index, utils
 from rest_framework.test import APIRequestFactory
 
-from .elasticsearch.documents import Agent, DescriptionComponent, Collection, Object, Term
+from .elasticsearch.documents import Agent, BaseDescriptionComponent, Collection, Object, Term
 from .views import AgentViewSet, CollectionViewSet, ObjectViewSet, TermViewSet
 from argo import settings
 
@@ -32,8 +32,7 @@ class TestAPI(TestCase):
     def setUp(self):
         self.factory = APIRequestFactory()
         connections.create_connection(hosts=settings.ELASTICSEARCH_DSL['default']['hosts'], timeout=60)
-        for cls in [Agent, DescriptionComponent, Object, Term]:
-            cls.init()
+        BaseDescriptionComponent.init()
 
     def validate_fixtures(self):
         print("Validating fixtures")
