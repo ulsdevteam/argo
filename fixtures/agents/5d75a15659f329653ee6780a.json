@@ -1,0 +1,70 @@
+{
+  "index": 31, 
+  "dates": [
+    {
+      "expression": "May 24th, 1921 - Mar 25th, 1978", 
+      "begin": "1921-05-24", 
+      "label": "deaccession", 
+      "end": "1978-03-25", 
+      "type": "inclusive"
+    }
+  ], 
+  "description": "Aute nisi quis cillum voluptate non elit aliquip sit ea incididunt aliquip in. Laboris officia nulla cupidatat cillum pariatur mollit id ut. Deserunt occaecat commodo sit eu Lorem ea. Ad officia in nisi do fugiat exercitation sit laboris voluptate in enim.", 
+  "title": "Brown Foundation", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "accruals", 
+      "subnotes": [
+        {
+          "content": [
+            "qui nulla aliquip non Lorem ullamco", 
+            "consequat incididunt id ad proident eu", 
+            "officia laboris consectetur occaecat tempor id"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "Lorem esse reprehenderit esse labore cillum", 
+            "laboris in irure reprehenderit cillum ipsum"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "cupidatat dolore aute laborum consequat nulla", 
+            "elit mollit veniam ad qui exercitation", 
+            "in et amet aliquip excepteur exercitation", 
+            "aliquip id in pariatur magna minim"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "cillum elit qui"
+    }, 
+    {
+      "source": "cartographer", 
+      "type": "phystech", 
+      "subnotes": [
+        {
+          "content": [
+            "quis duis eu velit do cillum", 
+            "id ad consectetur eiusmod elit reprehenderit"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "enim nulla do"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "/agents_organization/31"
+    }
+  ], 
+  "agent_type": "organization", 
+  "type": "agent", 
+  "id": "5d75a15659f329653ee6780a"
+}

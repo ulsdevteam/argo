@@ -1,0 +1,90 @@
+{
+  "index": 35, 
+  "dates": [
+    {
+      "expression": "Nov 27th, 1947 - Mar 20th, 2003", 
+      "begin": "1947-11-27", 
+      "label": "broadcast", 
+      "end": "2003-03-20", 
+      "type": "single"
+    }, 
+    {
+      "expression": "Sep 15th, 1947 - Jun 11th, 1975", 
+      "begin": "1947-09-15", 
+      "label": "record_keeping", 
+      "end": "1975-06-11", 
+      "type": "inclusive"
+    }
+  ], 
+  "description": "Aliquip nisi esse aliquip adipisicing ipsum voluptate magna deserunt nulla. Lorem non quis consectetur duis minim amet labore in consectetur esse excepteur. Deserunt commodo occaecat Lorem do non amet. Minim voluptate amet excepteur anim nisi irure anim consequat do.", 
+  "title": "Bryan Riggs", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "rights_statement", 
+      "subnotes": [
+        {
+          "content": [
+            "laboris et anim eiusmod ex qui", 
+            "consectetur deserunt dolor tempor Lorem quis", 
+            "minim Lorem officia pariatur qui veniam", 
+            "dolor est eiusmod consequat mollit nostrud"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "mollit ea et qui anim ex", 
+            "laborum in ullamco velit esse proident", 
+            "anim eu minim amet aliquip fugiat"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "est ut id pariatur aute aliquip"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "consectetur non pariatur"
+    }, 
+    {
+      "source": "wikipedia", 
+      "type": "originalsloc", 
+      "subnotes": [
+        {
+          "content": [
+            "et sint velit nisi quis laboris"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "ea ex duis veniam ullamco pariatur", 
+            "cupidatat aute tempor do aliquip ad", 
+            "pariatur pariatur reprehenderit voluptate nulla enim"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "ut mollit magna reprehenderit velit sunt", 
+            "labore Lorem cupidatat enim magna enim"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "ullamco et est"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "/agents_person/35"
+    }
+  ], 
+  "agent_type": "person", 
+  "type": "agent", 
+  "id": "5d75a132c084b8786a9e219f"
+}

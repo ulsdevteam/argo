@@ -1,0 +1,76 @@
+{
+  "index": 35, 
+  "dates": [
+    {
+      "expression": "Jan 21st, 1920 - Sep 17th, 2004", 
+      "begin": "1920-01-21", 
+      "label": "existence", 
+      "end": "2004-09-17", 
+      "type": "single"
+    }, 
+    {
+      "expression": "Dec 24th, 1944 - Feb 1st, 1983", 
+      "begin": "1944-12-24", 
+      "label": "modified", 
+      "end": "1983-02-01", 
+      "type": "bulk"
+    }
+  ], 
+  "description": "Et nisi nisi sit sint. Laborum ex in cupidatat ad duis excepteur. Sunt ut do nisi cupidatat aliquip eiusmod veniam. Cupidatat labore deserunt pariatur laboris sit commodo velit ex laborum quis in velit.", 
+  "title": "Oneil Foundation", 
+  "notes": [
+    {
+      "source": "cartographer", 
+      "type": "summary", 
+      "subnotes": [
+        {
+          "content": [
+            "adipisicing ea irure deserunt pariatur esse", 
+            "dolor ex enim qui ut ex"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "laborum voluptate in incididunt amet ut", 
+            "consequat deserunt cillum occaecat amet aliqua", 
+            "aute laborum id velit cillum reprehenderit", 
+            "proident laboris excepteur elit adipisicing aliquip"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "labore Lorem sunt"
+    }, 
+    {
+      "source": "wikipedia", 
+      "type": "additional_information", 
+      "subnotes": [
+        {
+          "content": [
+            "voluptate esse ullamco ipsum aliqua aliqua"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "proident magna dolore velit culpa incididunt", 
+            "reprehenderit ullamco ea laboris nostrud proident", 
+            "ipsum ut fugiat ullamco et sunt"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "ea velit voluptate"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "/agents_organization/35"
+    }
+  ], 
+  "agent_type": "organization", 
+  "type": "agent", 
+  "id": "5d75a156b9ad6ffc20c563fe"
+}

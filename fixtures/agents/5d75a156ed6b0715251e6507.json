@@ -1,0 +1,52 @@
+{
+  "index": 20, 
+  "dates": [
+    {
+      "expression": "Jun 25th, 1924 - Dec 20th, 1992", 
+      "begin": "1924-06-25", 
+      "label": "agent_relation", 
+      "end": "1992-12-20", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Dec 18th, 1942 - Sep 24th, 1967", 
+      "begin": "1942-12-18", 
+      "label": "event", 
+      "end": "1967-09-24", 
+      "type": "inclusive"
+    }
+  ], 
+  "description": "Ullamco cillum incididunt exercitation officia irure. Quis anim culpa ad excepteur consequat. Mollit occaecat duis commodo exercitation laboris cillum.", 
+  "title": "Chaney Foundation", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "fileplan", 
+      "subnotes": [
+        {
+          "content": [
+            "occaecat cillum exercitation do sint aliquip", 
+            "reprehenderit cupidatat minim id ipsum laboris"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "velit sit irure sit adipisicing eu"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "est occaecat sint"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "/agents_organization/20"
+    }
+  ], 
+  "agent_type": "organization", 
+  "type": "agent", 
+  "id": "5d75a156ed6b0715251e6507"
+}

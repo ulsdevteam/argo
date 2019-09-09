@@ -1,0 +1,87 @@
+{
+  "index": 36, 
+  "dates": [
+    {
+      "expression": "Mar 14th, 1947 - May 28th, 1972", 
+      "begin": "1947-03-14", 
+      "label": "usage", 
+      "end": "1972-05-28", 
+      "type": "single"
+    }
+  ], 
+  "description": "Nisi sit sunt dolore adipisicing do irure. Cupidatat enim cupidatat aliqua nostrud amet dolore sit labore quis eiusmod. Lorem esse sint aute amet aliquip. Aliqua deserunt sunt deserunt tempor ad elit sit dolore do. Exercitation consectetur nulla elit eu.", 
+  "title": "Sykes family", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "relatedmaterial", 
+      "subnotes": [
+        {
+          "content": [
+            "duis aute nulla aliqua excepteur deserunt", 
+            "laboris quis ullamco dolor anim consequat", 
+            "non sunt ut officia occaecat nostrud", 
+            "excepteur officia qui minim excepteur dolore"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "est ut consequat aliqua ex pariatur", 
+            "incididunt deserunt labore deserunt enim excepteur", 
+            "excepteur dolore anim ipsum exercitation aute"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "nostrud mollit est minim in elit", 
+            "ullamco pariatur est pariatur nostrud non"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "cillum nulla consequat"
+    }, 
+    {
+      "source": "cartographer", 
+      "type": "edition", 
+      "subnotes": [
+        {
+          "content": [
+            "officia consectetur nostrud consequat ipsum est", 
+            "aliqua deserunt culpa cupidatat reprehenderit fugiat", 
+            "aliqua duis non Lorem aliquip cillum", 
+            "nulla reprehenderit velit enim esse proident", 
+            "Lorem adipisicing commodo pariatur irure commodo"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "Lorem officia in sit eiusmod do", 
+            "ipsum commodo magna duis eu nulla", 
+            "aliqua nostrud nisi qui magna adipisicing"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "sunt reprehenderit excepteur eu aliqua cupidatat"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "aute velit labore"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "/agents_family/36"
+    }
+  ], 
+  "agent_type": "family", 
+  "type": "agent", 
+  "id": "5d75a0f4ceaa5965a5e6945e"
+}

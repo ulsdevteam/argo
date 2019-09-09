@@ -1,0 +1,61 @@
+{
+  "index": 21, 
+  "dates": [
+    {
+      "expression": "Jun 17th, 1951 - Oct 4th, 2000", 
+      "begin": "1951-06-17", 
+      "label": "record_keeping", 
+      "end": "2000-10-04", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Jul 24th, 1933 - Feb 15th, 1991", 
+      "begin": "1933-07-24", 
+      "label": "deaccession", 
+      "end": "1991-02-15", 
+      "type": "inclusive"
+    }
+  ], 
+  "description": "Sint magna elit dolore irure voluptate cillum quis dolor fugiat nostrud. Pariatur occaecat et aliquip voluptate amet veniam magna ex est. Nisi in non anim reprehenderit ea ipsum ut aute officia sit pariatur adipisicing.", 
+  "title": "Barr family", 
+  "notes": [
+    {
+      "source": "cartographer", 
+      "type": "accruals", 
+      "subnotes": [
+        {
+          "content": [
+            "esse sit et labore velit incididunt", 
+            "pariatur sint minim fugiat velit do", 
+            "sit eu consequat amet non Lorem"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "cupidatat consectetur tempor"
+    }, 
+    {
+      "source": "cartographer", 
+      "type": "originalsloc", 
+      "subnotes": [
+        {
+          "content": [
+            "dolor dolor proident exercitation irure fugiat", 
+            "quis commodo reprehenderit quis id occaecat"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "irure consectetur mollit"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "/agents_family/21"
+    }
+  ], 
+  "agent_type": "family", 
+  "type": "agent", 
+  "id": "5d75a0f48b3d50a6c62a789f"
+}

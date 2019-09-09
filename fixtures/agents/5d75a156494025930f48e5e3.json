@@ -1,0 +1,78 @@
+{
+  "index": 11, 
+  "dates": [
+    {
+      "expression": "Dec 27th, 1924 - Jan 15th, 1977", 
+      "begin": "1924-12-27", 
+      "label": "copyright", 
+      "end": "1977-01-15", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Aug 22nd, 1928 - Nov 16th, 2001", 
+      "begin": "1928-08-22", 
+      "label": "creation", 
+      "end": "2001-11-16", 
+      "type": "single"
+    }
+  ], 
+  "description": "Ullamco sunt amet eu Lorem id consectetur id eiusmod dolore magna mollit laborum ut excepteur. Aliquip nulla id cupidatat commodo. Reprehenderit dolor nostrud ad aliqua nostrud commodo aliqua aliqua minim in incididunt labore adipisicing commodo. Nulla commodo velit exercitation nisi sunt non tempor pariatur in qui incididunt dolore. Nulla sunt magna proident proident sint tempor amet cillum. Occaecat ipsum ipsum deserunt culpa ad aliquip officia in dolor veniam. Et elit ut ipsum deserunt est commodo nulla Lorem reprehenderit in.", 
+  "title": "Elliott Foundation", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "extension", 
+      "subnotes": [
+        {
+          "content": [
+            "dolor non aute ea tempor enim", 
+            "exercitation Lorem minim ea fugiat sunt"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "eu labore duis"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "arrangement", 
+      "subnotes": [
+        {
+          "content": [
+            "esse nostrud culpa officia quis amet", 
+            "culpa et reprehenderit reprehenderit nostrud dolore", 
+            "anim voluptate ipsum id officia occaecat", 
+            "labore aliqua ea ex sit amet"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "dolore incididunt excepteur id cupidatat do", 
+            "in ullamco laborum est cillum excepteur", 
+            "duis sint non proident occaecat magna", 
+            "do nisi culpa nostrud cupidatat officia", 
+            "ex deserunt dolore ipsum adipisicing magna"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "elit aliquip ipsum ex tempor minim"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "irure et anim"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "/agents_organization/11"
+    }
+  ], 
+  "agent_type": "organization", 
+  "type": "agent", 
+  "id": "5d75a156494025930f48e5e3"
+}

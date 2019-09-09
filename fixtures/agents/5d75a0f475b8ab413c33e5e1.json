@@ -1,0 +1,86 @@
+{
+  "index": 14, 
+  "dates": [
+    {
+      "expression": "Nov 8th, 1947 - May 31st, 1971", 
+      "begin": "1947-11-08", 
+      "label": "deaccession", 
+      "end": "1971-05-31", 
+      "type": "single"
+    }, 
+    {
+      "expression": "Mar 14th, 1958 - Nov 13th, 1995", 
+      "begin": "1958-03-14", 
+      "label": "creation", 
+      "end": "1995-11-13", 
+      "type": "single"
+    }
+  ], 
+  "description": "Duis ullamco ad amet minim dolore incididunt. Ut sunt ad quis veniam et. Adipisicing nostrud dolore quis ullamco aliqua sunt do et ipsum ea occaecat dolore eu enim. Occaecat quis nisi ad aute adipisicing magna nostrud aliquip nulla.", 
+  "title": "Estes family", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "permissions", 
+      "subnotes": [
+        {
+          "content": [
+            "enim consectetur ut dolore aliqua irure", 
+            "reprehenderit enim veniam occaecat duis aute"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "quis velit deserunt dolor dolor non", 
+            "labore aliqua ipsum proident exercitation ullamco", 
+            "irure incididunt ut sint proident laborum", 
+            "labore ad occaecat fugiat nostrud sit"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "aute exercitation veniam fugiat fugiat officia", 
+            "eiusmod labore eu et ipsum culpa", 
+            "consectetur ex do pariatur voluptate minim", 
+            "culpa elit aliqua ullamco ea nostrud"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "occaecat sunt ad"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "edition", 
+      "subnotes": [
+        {
+          "content": [
+            "labore ipsum nostrud esse dolore cupidatat", 
+            "eu nisi nostrud aliqua id duis"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "aute sint do sint sit anim", 
+            "magna excepteur laborum sit ea aute", 
+            "laboris esse cillum veniam fugiat voluptate"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "laboris nisi voluptate"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "/agents_family/14"
+    }
+  ], 
+  "agent_type": "family", 
+  "type": "agent", 
+  "id": "5d75a0f475b8ab413c33e5e1"
+}

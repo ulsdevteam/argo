@@ -1,0 +1,49 @@
+{
+  "index": 47, 
+  "dates": [
+    {
+      "expression": "Sep 1st, 1952 - Jan 23rd, 2019", 
+      "begin": "1952-09-01", 
+      "label": "creation", 
+      "end": "2019-01-23", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "May 21st, 1934 - Apr 18th, 1988", 
+      "begin": "1934-05-21", 
+      "label": "broadcast", 
+      "end": "1988-04-18", 
+      "type": "inclusive"
+    }
+  ], 
+  "description": "Labore adipisicing irure veniam consectetur laboris aliqua ea tempor tempor. Magna nisi dolore non cillum occaecat non deserunt irure elit fugiat ullamco sunt ex. Cillum Lorem eu reprehenderit sint officia occaecat. Minim laboris reprehenderit proident aliquip irure. Exercitation minim qui occaecat veniam.", 
+  "title": "Garza Foundation", 
+  "notes": [
+    {
+      "source": "wikidata", 
+      "type": "custodhist", 
+      "subnotes": [
+        {
+          "content": [
+            "Lorem pariatur nisi enim sunt fugiat", 
+            "cillum nulla in ad velit quis", 
+            "nulla qui nisi ullamco aliquip nulla", 
+            "exercitation quis deserunt aute exercitation sit", 
+            "sint magna voluptate nostrud minim ad"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "excepteur minim aliquip"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "/agents_organization/47"
+    }
+  ], 
+  "agent_type": "organization", 
+  "type": "agent", 
+  "id": "5d75a156e190eccb2d040871"
+}

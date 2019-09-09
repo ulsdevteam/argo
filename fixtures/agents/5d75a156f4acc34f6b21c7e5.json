@@ -1,0 +1,54 @@
+{
+  "index": 50, 
+  "dates": [
+    {
+      "expression": "Mar 18th, 1950 - Nov 4th, 1972", 
+      "begin": "1950-03-18", 
+      "label": "usage", 
+      "end": "1972-11-04", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Jun 15th, 1955 - Dec 21st, 1992", 
+      "begin": "1955-06-15", 
+      "label": "record_keeping", 
+      "end": "1992-12-21", 
+      "type": "bulk"
+    }
+  ], 
+  "description": "Dolor ex sunt eu irure tempor nisi consectetur quis sit aliqua et. Occaecat culpa laboris duis velit elit. Lorem irure excepteur deserunt eiusmod et proident non officia sint culpa laborum.", 
+  "title": "Watson Foundation", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "prefercite", 
+      "subnotes": [
+        {
+          "content": [
+            "incididunt nulla non sint Lorem dolor", 
+            "ullamco excepteur dolor adipisicing sint sint"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "nostrud eiusmod est Lorem excepteur fugiat", 
+            "ut ipsum nisi adipisicing ea in", 
+            "cupidatat enim tempor adipisicing reprehenderit Lorem"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "ullamco elit magna"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "/agents_organization/50"
+    }
+  ], 
+  "agent_type": "organization", 
+  "type": "agent", 
+  "id": "5d75a156f4acc34f6b21c7e5"
+}

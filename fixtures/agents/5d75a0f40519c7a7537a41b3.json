@@ -1,0 +1,70 @@
+{
+  "index": 5, 
+  "dates": [
+    {
+      "expression": "Dec 29th, 1935 - Dec 16th, 1965", 
+      "begin": "1935-12-29", 
+      "label": "digitized", 
+      "end": "1965-12-16", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Jan 1st, 1949 - May 20th, 1977", 
+      "begin": "1949-01-01", 
+      "label": "modified", 
+      "end": "1977-05-20", 
+      "type": "single"
+    }
+  ], 
+  "description": "Aliqua magna est proident magna nulla in ex amet. Duis culpa sit aliquip adipisicing quis eiusmod et id velit aute aliquip pariatur. Do ad aliqua ut voluptate.", 
+  "title": "Gallegos family", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "permissions", 
+      "subnotes": [
+        {
+          "content": [
+            "do aute adipisicing culpa cupidatat exercitation", 
+            "mollit et consectetur ut ullamco consectetur"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "amet proident nisi"
+    }, 
+    {
+      "source": "wikipedia", 
+      "type": "fileplan", 
+      "subnotes": [
+        {
+          "content": [
+            "voluptate irure labore incididunt sit ut", 
+            "dolore quis duis aliquip ea id", 
+            "consequat esse cillum amet ipsum adipisicing"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "et nisi aliqua consequat ea exercitation", 
+            "ad tempor laboris fugiat et sit", 
+            "esse sint proident consectetur ex Lorem", 
+            "enim amet veniam esse eiusmod quis"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "laboris nisi laboris"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "/agents_family/5"
+    }
+  ], 
+  "agent_type": "family", 
+  "type": "agent", 
+  "id": "5d75a0f40519c7a7537a41b3"
+}

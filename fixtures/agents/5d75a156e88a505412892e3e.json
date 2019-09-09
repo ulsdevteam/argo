@@ -1,0 +1,45 @@
+{
+  "index": 14, 
+  "dates": [
+    {
+      "expression": "Jun 12th, 1929 - Sep 15th, 1973", 
+      "begin": "1929-06-12", 
+      "label": "modified", 
+      "end": "1973-09-15", 
+      "type": "single"
+    }, 
+    {
+      "expression": "Jun 15th, 1958 - Jun 8th, 1995", 
+      "begin": "1958-06-15", 
+      "label": "creation", 
+      "end": "1995-06-08", 
+      "type": "inclusive"
+    }
+  ], 
+  "description": "Veniam laborum sint laborum laboris consectetur culpa sunt elit. Veniam duis quis proident aute commodo ipsum ullamco exercitation sit cupidatat excepteur. Id id voluptate irure et quis eiusmod labore nulla duis in commodo. Consequat laborum fugiat ex consequat ut laborum magna eu qui id.", 
+  "title": "Yates Foundation", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "originalsloc", 
+      "subnotes": [
+        {
+          "content": [
+            "non enim incididunt nisi cillum dolore"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "eu commodo amet"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "/agents_organization/14"
+    }
+  ], 
+  "agent_type": "organization", 
+  "type": "agent", 
+  "id": "5d75a156e88a505412892e3e"
+}

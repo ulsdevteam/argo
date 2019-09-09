@@ -1,0 +1,54 @@
+{
+  "index": 32, 
+  "dates": [
+    {
+      "expression": "Mar 11th, 1935 - Jan 9th, 1976", 
+      "begin": "1935-03-11", 
+      "label": "modified", 
+      "end": "1976-01-09", 
+      "type": "single"
+    }, 
+    {
+      "expression": "Feb 3rd, 1925 - Jun 23rd, 1962", 
+      "begin": "1925-02-03", 
+      "label": "digitized", 
+      "end": "1962-06-23", 
+      "type": "bulk"
+    }
+  ], 
+  "description": "Nostrud tempor fugiat voluptate cillum sunt officia mollit dolore nulla voluptate tempor. Veniam nisi nisi eiusmod est aute. Tempor sunt aliquip sit anim nisi aliquip eu laboris culpa qui laborum. Cupidatat ut labore anim pariatur id magna. Pariatur incididunt minim labore nostrud enim sunt. Amet ad esse ea irure aliquip culpa veniam dolore do anim nisi. Excepteur do do aliquip laborum.", 
+  "title": "Knowles family", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "note", 
+      "subnotes": [
+        {
+          "content": [
+            "consequat proident aliquip eiusmod irure pariatur", 
+            "eu commodo adipisicing mollit nisi enim"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "incididunt reprehenderit reprehenderit labore dolore elit", 
+            "labore ad velit incididunt ipsum dolore", 
+            "culpa anim id dolore ad aliqua"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "qui ea minim"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "/agents_family/32"
+    }
+  ], 
+  "agent_type": "family", 
+  "type": "agent", 
+  "id": "5d75a0f4e1f2ff592c02abce"
+}

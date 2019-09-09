@@ -1,0 +1,51 @@
+{
+  "index": 8, 
+  "dates": [
+    {
+      "expression": "Oct 28th, 1946 - Jul 7th, 2019", 
+      "begin": "1946-10-28", 
+      "label": "usage", 
+      "end": "2019-07-07", 
+      "type": "bulk"
+    }
+  ], 
+  "description": "Magna ad laboris deserunt cillum consequat proident quis aute et proident. Ullamco labore adipisicing enim sint incididunt. Nisi culpa duis amet aute id adipisicing mollit sunt esse anim officia tempor quis. Ex ex ut est adipisicing dolore. Magna minim elit laboris aliquip aliquip do incididunt velit in do anim id tempor id. Sunt proident quis reprehenderit enim veniam ea dolor ut eu ipsum anim voluptate. Consequat nulla irure officia nostrud officia in culpa.", 
+  "title": "Pickett Foundation", 
+  "notes": [
+    {
+      "source": "wikidata", 
+      "type": "rights_statement", 
+      "subnotes": [
+        {
+          "content": [
+            "est sit qui dolore magna culpa", 
+            "ut veniam ut dolore irure nisi", 
+            "proident eu sint excepteur labore laboris", 
+            "id do eu elit aute esse", 
+            "exercitation labore deserunt qui cillum culpa"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "enim amet nisi tempor labore enim", 
+            "quis consequat excepteur et culpa mollit", 
+            "duis aliquip dolore officia culpa sint", 
+            "ea aliquip tempor ipsum mollit dolore"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "ullamco non laborum"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "/agents_organization/8"
+    }
+  ], 
+  "agent_type": "organization", 
+  "type": "agent", 
+  "id": "5d75a1567769ba1f1a22f8cb"
+}

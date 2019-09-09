@@ -1,0 +1,65 @@
+{
+  "index": 6, 
+  "dates": [
+    {
+      "expression": "Aug 23rd, 1936 - Oct 4th, 1994", 
+      "begin": "1936-08-23", 
+      "label": "broadcast", 
+      "end": "1994-10-04", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Feb 13th, 1949 - Sep 16th, 2014", 
+      "begin": "1949-02-13", 
+      "label": "agent_relation", 
+      "end": "2014-09-16", 
+      "type": "inclusive"
+    }
+  ], 
+  "description": "Sint culpa dolore reprehenderit proident incididunt elit dolore eu id nostrud dolore id. Dolor Lorem Lorem minim id ullamco sint. Aliqua Lorem sint mollit nisi sint tempor aute. Sunt voluptate velit magna aliquip.", 
+  "title": "Kaufman Foundation", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "odd", 
+      "subnotes": [
+        {
+          "content": [
+            "ullamco aliqua mollit ullamco mollit commodo"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "culpa eu eiusmod magna aliquip et", 
+            "nostrud cupidatat Lorem nisi nostrud enim", 
+            "irure qui irure labore pariatur sit", 
+            "adipisicing minim qui nulla pariatur officia", 
+            "proident sint velit consequat cillum nisi"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "duis ad veniam ullamco culpa eu", 
+            "ad cupidatat deserunt nostrud aliqua minim", 
+            "reprehenderit Lorem ex reprehenderit ut consequat", 
+            "in quis Lorem laborum veniam nisi", 
+            "minim nostrud velit nulla enim ut"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "cupidatat tempor irure"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "/agents_organization/6"
+    }
+  ], 
+  "agent_type": "organization", 
+  "type": "agent", 
+  "id": "5d75a1564ebd7e1f7f2b7e81"
+}

@@ -1,0 +1,59 @@
+{
+  "index": 30, 
+  "dates": [
+    {
+      "expression": "Aug 20th, 1952 - Oct 14th, 1995", 
+      "begin": "1952-08-20", 
+      "label": "digitized", 
+      "end": "1995-10-14", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Feb 14th, 1953 - Jul 29th, 1965", 
+      "begin": "1953-02-14", 
+      "label": "usage", 
+      "end": "1965-07-29", 
+      "type": "single"
+    }
+  ], 
+  "description": "Ea irure enim tempor reprehenderit consequat esse ex. Veniam nisi veniam elit aliqua. Nostrud anim anim cupidatat velit adipisicing mollit non in laboris magna est magna.", 
+  "title": "Rhonda Summers", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "summary", 
+      "subnotes": [
+        {
+          "content": [
+            "aliqua officia sint cillum amet nisi"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "quis anim aute"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "rights_statement_act", 
+      "subnotes": [
+        {
+          "content": [
+            "dolor cupidatat ex eu ea proident", 
+            "ullamco exercitation elit laborum aliquip voluptate"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "sunt ipsum tempor"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "/agents_person/30"
+    }
+  ], 
+  "agent_type": "person", 
+  "type": "agent", 
+  "id": "5d75a1312bc28f132b3865af"
+}

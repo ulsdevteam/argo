@@ -1,0 +1,69 @@
+{
+  "index": 15, 
+  "dates": [
+    {
+      "expression": "Jan 13th, 1936 - Aug 27th, 1961", 
+      "begin": "1936-01-13", 
+      "label": "existence", 
+      "end": "1961-08-27", 
+      "type": "bulk"
+    }
+  ], 
+  "description": "Tempor ullamco nostrud sit quis minim ea cupidatat proident cillum. Ad eiusmod deserunt aliqua cillum voluptate. Aliqua ad ex ullamco nostrud adipisicing Lorem ut minim adipisicing laborum magna ipsum sit. Sint elit reprehenderit exercitation tempor consectetur exercitation in aliquip exercitation ut culpa nostrud dolor nisi.", 
+  "title": "Workman family", 
+  "notes": [
+    {
+      "source": "wikidata", 
+      "type": "dimensions", 
+      "subnotes": [
+        {
+          "content": [
+            "ut incididunt et cillum Lorem fugiat", 
+            "irure magna labore proident ex veniam"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "sint ullamco quis"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "rights_statement", 
+      "subnotes": [
+        {
+          "content": [
+            "dolor velit aliquip eiusmod do dolore", 
+            "sint adipisicing nisi cillum excepteur laboris", 
+            "ut et eu deserunt excepteur magna"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "sit qui deserunt excepteur do aute", 
+            "amet anim nulla laboris labore magna", 
+            "proident est proident non voluptate non"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "pariatur esse consectetur enim laboris excepteur", 
+            "nisi deserunt culpa officia adipisicing occaecat"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "enim Lorem irure"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "/agents_family/15"
+    }
+  ], 
+  "agent_type": "family", 
+  "type": "agent", 
+  "id": "5d75a0f45a7040763e1ccf35"
+}

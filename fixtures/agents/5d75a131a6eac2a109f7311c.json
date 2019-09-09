@@ -1,0 +1,45 @@
+{
+  "index": 14, 
+  "dates": [
+    {
+      "expression": "Nov 18th, 1956 - Sep 1st, 1961", 
+      "begin": "1956-11-18", 
+      "label": "copyright", 
+      "end": "1961-09-01", 
+      "type": "single"
+    }, 
+    {
+      "expression": "Aug 9th, 1946 - Jun 21st, 1997", 
+      "begin": "1946-08-09", 
+      "label": "digitized", 
+      "end": "1997-06-21", 
+      "type": "bulk"
+    }
+  ], 
+  "description": "Eu ex eiusmod amet fugiat mollit nulla ut aliqua officia incididunt incididunt ea. Nostrud amet occaecat ea enim esse commodo voluptate tempor fugiat sunt adipisicing laboris ut. Exercitation dolor velit laborum laborum magna id anim magna reprehenderit nisi Lorem fugiat magna laborum. Dolor excepteur aute irure deserunt magna enim do sunt ea reprehenderit fugiat. Commodo enim dolor minim adipisicing pariatur tempor excepteur cillum velit ut veniam ad ad.", 
+  "title": "Nichols Lloyd", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "dimensions", 
+      "subnotes": [
+        {
+          "content": [
+            "qui nostrud elit aliqua commodo velit"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "deserunt esse ut"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "/agents_person/14"
+    }
+  ], 
+  "agent_type": "person", 
+  "type": "agent", 
+  "id": "5d75a131a6eac2a109f7311c"
+}

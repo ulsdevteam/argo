@@ -1,0 +1,86 @@
+{
+  "index": 38, 
+  "dates": [
+    {
+      "expression": "Jun 21st, 1952 - Feb 21st, 1988", 
+      "begin": "1952-06-21", 
+      "label": "publication", 
+      "end": "1988-02-21", 
+      "type": "inclusive"
+    }
+  ], 
+  "description": "Duis elit minim aliquip cupidatat duis consectetur dolore est eu. Lorem proident incididunt magna aliquip aliquip enim aute labore fugiat anim sint Lorem eiusmod. Do aliqua non eu ea laboris adipisicing magna. Ea fugiat irure ut ullamco proident culpa tempor esse ex. Mollit aliqua eu nisi culpa ad irure commodo eiusmod fugiat exercitation culpa irure.", 
+  "title": "Workman Foundation", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "physdesc", 
+      "subnotes": [
+        {
+          "content": [
+            "enim cupidatat commodo nostrud laboris ex", 
+            "incididunt cillum nulla cupidatat laborum elit", 
+            "enim in voluptate nulla ad laboris", 
+            "est ad esse laboris eiusmod anim"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "proident irure nulla Lorem est ex"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "ut nulla deserunt laboris dolore cillum"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "id mollit et"
+    }, 
+    {
+      "source": "cartographer", 
+      "type": "accessrestrict", 
+      "subnotes": [
+        {
+          "content": [
+            "cillum amet veniam excepteur deserunt quis", 
+            "Lorem veniam non exercitation adipisicing amet", 
+            "voluptate exercitation magna nulla veniam ipsum", 
+            "tempor pariatur irure pariatur do proident", 
+            "dolor dolore anim et esse minim"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "duis anim cillum qui officia consectetur", 
+            "quis dolor amet cillum adipisicing eiusmod", 
+            "ullamco quis excepteur irure fugiat et", 
+            "officia incididunt reprehenderit laborum adipisicing occaecat", 
+            "elit ullamco cillum proident consectetur fugiat"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "id est duis proident veniam officia"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "reprehenderit non in"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "/agents_organization/38"
+    }
+  ], 
+  "agent_type": "organization", 
+  "type": "agent", 
+  "id": "5d75a156a015a00d9803518c"
+}

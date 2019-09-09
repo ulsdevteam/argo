@@ -1,0 +1,61 @@
+{
+  "index": 43, 
+  "dates": [
+    {
+      "expression": "Sep 2nd, 1946 - Nov 6th, 2014", 
+      "begin": "1946-09-02", 
+      "label": "digitized", 
+      "end": "2014-11-06", 
+      "type": "inclusive"
+    }
+  ], 
+  "description": "Reprehenderit ullamco laboris proident sint irure qui proident non ullamco laborum eiusmod nulla id non. Adipisicing elit culpa anim Lorem ut velit non aliqua ad esse voluptate. Qui voluptate voluptate reprehenderit velit elit elit laboris sit.", 
+  "title": "Berry family", 
+  "notes": [
+    {
+      "source": "cartographer", 
+      "type": "expiration", 
+      "subnotes": [
+        {
+          "content": [
+            "duis fugiat sunt mollit voluptate velit", 
+            "fugiat exercitation incididunt cupidatat sunt mollit", 
+            "est mollit dolor eu irure pariatur", 
+            "sunt quis aute exercitation excepteur cillum"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "dolore sunt ea minim laborum laborum", 
+            "culpa cillum nulla elit et dolore"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "veniam qui nulla"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "separatedmaterial", 
+      "subnotes": [
+        {
+          "content": [
+            "cillum commodo labore esse cupidatat fugiat"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "Lorem do non"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "/agents_family/43"
+    }
+  ], 
+  "agent_type": "family", 
+  "type": "agent", 
+  "id": "5d75a0f4f8d400c80fbead96"
+}

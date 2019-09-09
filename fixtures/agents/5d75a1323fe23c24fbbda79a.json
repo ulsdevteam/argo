@@ -1,0 +1,48 @@
+{
+  "index": 50, 
+  "dates": [
+    {
+      "expression": "Apr 16th, 1938 - Jan 31st, 1964", 
+      "begin": "1938-04-16", 
+      "label": "agent_relation", 
+      "end": "1964-01-31", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Sep 29th, 1947 - Nov 29th, 2008", 
+      "begin": "1947-09-29", 
+      "label": "deaccession", 
+      "end": "2008-11-29", 
+      "type": "inclusive"
+    }
+  ], 
+  "description": "Irure incididunt aliquip nostrud et nulla. Consectetur do id pariatur anim duis eiusmod. Cupidatat sint veniam eiusmod do non Lorem excepteur excepteur aliqua ut consectetur non.", 
+  "title": "Naomi Harper", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "expiration", 
+      "subnotes": [
+        {
+          "content": [
+            "Lorem excepteur ipsum ullamco consectetur elit", 
+            "tempor velit proident ex sint amet", 
+            "anim anim cillum minim mollit nostrud", 
+            "consequat esse aliquip dolore est quis"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "elit ea ipsum"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "/agents_person/50"
+    }
+  ], 
+  "agent_type": "person", 
+  "type": "agent", 
+  "id": "5d75a1323fe23c24fbbda79a"
+}

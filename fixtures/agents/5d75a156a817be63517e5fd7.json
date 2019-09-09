@@ -1,0 +1,70 @@
+{
+  "index": 21, 
+  "dates": [
+    {
+      "expression": "Aug 29th, 1938 - Jul 12th, 1979", 
+      "begin": "1938-08-29", 
+      "label": "existence", 
+      "end": "1979-07-12", 
+      "type": "single"
+    }
+  ], 
+  "description": "Consequat esse sint ex qui aute sit voluptate cupidatat anim occaecat qui sint. Ad sit voluptate in commodo ex voluptate ex velit enim ex aliqua cupidatat. Quis incididunt occaecat laboris commodo sint culpa irure ipsum ut commodo. Magna quis et proident magna nostrud id aliquip occaecat adipisicing aute consequat velit aliquip tempor. Ipsum laboris est ut anim cupidatat quis sunt esse officia eu sunt dolor. Aute enim laborum ullamco magna sit esse eiusmod.", 
+  "title": "Curtis Foundation", 
+  "notes": [
+    {
+      "source": "cartographer", 
+      "type": "bibliography", 
+      "subnotes": [
+        {
+          "content": [
+            "tempor esse laboris duis dolore non", 
+            "reprehenderit irure ipsum ut dolore reprehenderit"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "non anim adipisicing magna proident exercitation", 
+            "id et cillum nulla officia et", 
+            "amet id ullamco adipisicing sunt amet", 
+            "consectetur esse fugiat aliquip aliquip commodo", 
+            "quis cupidatat duis sint id fugiat"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "sunt culpa enim"
+    }, 
+    {
+      "source": "cartographer", 
+      "type": "scopecontent", 
+      "subnotes": [
+        {
+          "content": [
+            "velit exercitation ad sint incididunt nulla"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "eiusmod proident nostrud adipisicing officia est", 
+            "quis Lorem sint nisi tempor eiusmod", 
+            "et non cillum adipisicing officia mollit"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "cupidatat sunt ipsum"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "/agents_organization/21"
+    }
+  ], 
+  "agent_type": "organization", 
+  "type": "agent", 
+  "id": "5d75a156a817be63517e5fd7"
+}
