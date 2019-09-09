@@ -1,0 +1,193 @@
+{
+  "index": 33,
+  "id": "5d714c4a77d28fde81cdd861",
+  "title": "Mollit adipisicing ea Lorem eiusmod fugiat esse nulla.",
+  "type": "object",
+  "dates": [
+    {
+      "begin": "1921-01-20",
+      "end": "1995-01-18",
+      "expression": "Jan 20th, 1921 - Jan 18th, 1995",
+      "type": "inclusive",
+      "label": "other"
+    },
+    {
+      "begin": "1926-05-26",
+      "end": "2013-02-09",
+      "expression": "May 26th, 1926 - Feb 9th, 2013",
+      "type": "inclusive",
+      "label": "usage"
+    },
+    {
+      "begin": "1935-09-12",
+      "end": "2003-08-02",
+      "expression": "Sep 12th, 1935 - Aug 2nd, 2003",
+      "type": "inclusive",
+      "label": "existence"
+    }
+  ],
+  "extents": [
+    {
+      "value": "2.35",
+      "type": "files"
+    },
+    {
+      "value": "4.23",
+      "type": "files"
+    }
+  ],
+  "notes": [
+    {
+      "type": "legalstatus",
+      "title": "eiusmod quis id",
+      "source": "archivesspace",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "aute eiusmod est dolore do nostrud"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "eiusmod duis eu occaecat ex eiusmod",
+            "Lorem irure nisi ea dolor incididunt",
+            "mollit anim non qui cupidatat aliqua"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "anim magna nostrud consequat magna dolor",
+            "reprehenderit et cupidatat non laborum anim",
+            "labore laborum aute duis reprehenderit proident"
+          ]
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/41"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/36"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/2"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/40"
+        }
+      ]
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/39"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/40"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/35"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/8"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/28"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "expression": "English",
+      "identifier": "eng"
+    },
+    {
+      "expression": "Spanish",
+      "identifier": "epo"
+    },
+    {
+      "expression": "Esperanto",
+      "identifier": "epo"
+    }
+  ],
+  "rights_statements": [],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/31"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/3"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/48"
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/33"
+    }
+  ]
+}

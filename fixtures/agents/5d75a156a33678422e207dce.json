@@ -1,0 +1,89 @@
+{
+  "index": 32, 
+  "dates": [
+    {
+      "expression": "Jul 28th, 1921 - Dec 17th, 1975", 
+      "begin": "1921-07-28", 
+      "label": "deaccession", 
+      "end": "1975-12-17", 
+      "type": "single"
+    }, 
+    {
+      "expression": "Oct 8th, 1913 - Oct 23rd, 1987", 
+      "begin": "1913-10-08", 
+      "label": "record_keeping", 
+      "end": "1987-10-23", 
+      "type": "inclusive"
+    }
+  ], 
+  "description": "Dolor ex ex sint consectetur incididunt duis do dolor et laboris proident. Ad laborum reprehenderit voluptate nulla culpa dolore et. Deserunt voluptate mollit labore officia aute adipisicing tempor veniam quis laboris quis amet. Ipsum elit occaecat sunt aliquip aliquip fugiat irure id reprehenderit ipsum ea laboris. Reprehenderit mollit occaecat incididunt mollit non laboris ea deserunt id nostrud dolore nostrud. Nostrud esse magna nisi do magna deserunt.", 
+  "title": "Hickman Foundation", 
+  "notes": [
+    {
+      "source": "wikidata", 
+      "type": "restrictions", 
+      "subnotes": [
+        {
+          "content": [
+            "sit dolor aute ex id voluptate", 
+            "nostrud esse laborum veniam deserunt nulla", 
+            "laborum in officia reprehenderit tempor proident", 
+            "incididunt ad tempor nulla proident commodo"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "pariatur aute magna qui ipsum sit"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "nulla cillum proident veniam laborum ullamco", 
+            "tempor ad sit nulla excepteur reprehenderit", 
+            "nulla ut pariatur consectetur exercitation exercitation", 
+            "ipsum aute esse eu mollit enim"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "culpa non deserunt"
+    }, 
+    {
+      "source": "cartographer", 
+      "type": "extension", 
+      "subnotes": [
+        {
+          "content": [
+            "cupidatat aliqua laborum dolore exercitation aute", 
+            "duis esse fugiat sint et cillum", 
+            "nostrud occaecat voluptate fugiat deserunt aliqua", 
+            "duis ea eu Lorem culpa consectetur", 
+            "nostrud ut in sunt tempor officia"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "reprehenderit anim commodo ex pariatur nulla", 
+            "labore elit sunt dolore qui proident", 
+            "adipisicing magna sit culpa sunt minim", 
+            "quis minim eiusmod irure qui sint"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "aliqua incididunt sunt"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "/agents_organization/32"
+    }
+  ], 
+  "agent_type": "organization", 
+  "type": "agent", 
+  "id": "5d75a156a33678422e207dce"
+}

@@ -1,0 +1,166 @@
+{
+  "index": 34,
+  "id": "5d71577c48b46c5638e7d31b",
+  "title": "Duis sint quis do ullamco cupidatat magna mollit veniam Lorem do qui reprehenderit sunt.",
+  "type": "collection",
+  "level": "series",
+  "dates": [
+    {
+      "begin": "1936-10-07",
+      "end": "1995-01-22",
+      "expression": "Oct 7th, 1936 - Jan 22nd, 1995",
+      "type": "single",
+      "label": "usage"
+    }
+  ],
+  "creators": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/14"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/25"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "value": "1.95",
+      "type": "cubic_feet"
+    }
+  ],
+  "notes": [
+    {
+      "type": "legalstatus",
+      "title": "commodo ut Lorem",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "aliquip veniam irure cupidatat ea non"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "dolore culpa laborum mollit minim dolor",
+            "aliqua laborum fugiat aliqua minim proident",
+            "culpa sint mollit nulla deserunt ullamco",
+            "laboris non ullamco esse excepteur eu"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "magna fugiat deserunt voluptate sunt Lorem",
+            "deserunt ipsum cillum consequat deserunt laborum",
+            "enim voluptate veniam magna duis dolor",
+            "adipisicing enim sint culpa consequat ullamco",
+            "ex culpa nisi culpa nulla nulla"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "custodhist",
+      "title": "duis laboris sit",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "nostrud proident incididunt fugiat aute est",
+            "ea magna minim officia voluptate incididunt",
+            "magna dolor irure ex laboris aute",
+            "anim sit sunt do voluptate fugiat"
+          ]
+        }
+      ]
+    }
+  ],
+  "terms": [],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/22"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "expression": "Esperanto",
+      "identifier": "epo"
+    },
+    {
+      "expression": "English",
+      "identifier": "eng"
+    },
+    {
+      "expression": "English",
+      "identifier": "spa"
+    }
+  ],
+  "rights_statements": [],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/31"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/38"
+        }
+      ]
+    }
+  ],
+  "children": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/32"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/18"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/20"
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/34"
+    }
+  ]
+}

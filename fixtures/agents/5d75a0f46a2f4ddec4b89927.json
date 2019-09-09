@@ -1,0 +1,98 @@
+{
+  "index": 18, 
+  "dates": [
+    {
+      "expression": "Dec 21st, 1926 - May 13th, 1986", 
+      "begin": "1926-12-21", 
+      "label": "agent_relation", 
+      "end": "1986-05-13", 
+      "type": "single"
+    }, 
+    {
+      "expression": "Jul 10th, 1952 - Jun 23rd, 2012", 
+      "begin": "1952-07-10", 
+      "label": "copyright", 
+      "end": "2012-06-23", 
+      "type": "inclusive"
+    }
+  ], 
+  "description": "Proident quis quis duis esse laboris aute magna. Aliqua officia sit quis ad ullamco aliquip tempor ea nisi exercitation sunt proident Lorem. Amet incididunt id deserunt non ullamco consequat duis ut laboris labore aliquip reprehenderit. Amet occaecat quis cillum velit cillum ad.", 
+  "title": "Boone family", 
+  "notes": [
+    {
+      "source": "wikidata", 
+      "type": "acquinfo", 
+      "subnotes": [
+        {
+          "content": [
+            "adipisicing laboris aliqua ad eu deserunt", 
+            "laborum ut amet nostrud tempor veniam", 
+            "consequat irure irure sunt proident ex", 
+            "aliquip exercitation nostrud nisi est minim"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "velit magna in nisi do culpa", 
+            "cillum adipisicing mollit deserunt voluptate elit", 
+            "id occaecat occaecat tempor fugiat fugiat", 
+            "dolor veniam culpa voluptate tempor do", 
+            "occaecat ea deserunt pariatur incididunt ex"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "ipsum tempor elit excepteur ut fugiat", 
+            "in et Lorem officia irure proident", 
+            "elit ut consectetur laboris officia sit"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "fugiat do do"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "bibliography", 
+      "subnotes": [
+        {
+          "content": [
+            "in veniam sit voluptate ea id", 
+            "labore amet cillum sint reprehenderit deserunt"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "est quis non consequat mollit eu", 
+            "quis sunt anim proident incididunt labore", 
+            "est elit non consectetur elit mollit"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "consectetur mollit sit est sint ipsum", 
+            "ut fugiat qui ullamco cillum cillum", 
+            "consequat magna irure non fugiat proident", 
+            "deserunt in cillum anim aliquip pariatur", 
+            "amet sint nisi mollit aliqua sint"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "eiusmod nisi ullamco"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "/agents_family/18"
+    }
+  ], 
+  "agent_type": "family", 
+  "type": "agent", 
+  "id": "5d75a0f46a2f4ddec4b89927"
+}

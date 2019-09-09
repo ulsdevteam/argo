@@ -1,0 +1,45 @@
+{
+  "index": 16, 
+  "dates": [
+    {
+      "expression": "Mar 6th, 1926 - May 29th, 1975", 
+      "begin": "1926-03-06", 
+      "label": "publication", 
+      "end": "1975-05-29", 
+      "type": "single"
+    }, 
+    {
+      "expression": "Nov 24th, 1918 - Sep 14th, 1976", 
+      "begin": "1918-11-24", 
+      "label": "record_keeping", 
+      "end": "1976-09-14", 
+      "type": "bulk"
+    }
+  ], 
+  "description": "Nulla voluptate cupidatat esse consectetur consectetur fugiat enim cillum reprehenderit. Consectetur in adipisicing enim nostrud elit eiusmod cillum ad dolor esse aliqua non. Deserunt non minim consectetur labore anim ullamco anim ex velit proident. Eu Lorem elit et aliquip enim.", 
+  "title": "Wells family", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "additional_information", 
+      "subnotes": [
+        {
+          "content": [
+            "nulla magna cillum in consequat mollit"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "velit mollit mollit"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "/agents_family/16"
+    }
+  ], 
+  "agent_type": "family", 
+  "type": "agent", 
+  "id": "5d75a0f430000cd95b25529d"
+}

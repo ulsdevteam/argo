@@ -1,0 +1,56 @@
+{
+  "index": 44, 
+  "dates": [
+    {
+      "expression": "Jun 29th, 1948 - Mar 4th, 1971", 
+      "begin": "1948-06-29", 
+      "label": "broadcast", 
+      "end": "1971-03-04", 
+      "type": "bulk"
+    }
+  ], 
+  "description": "Labore sunt veniam officia non dolor aliquip pariatur culpa incididunt sunt ex in nulla. Elit eiusmod veniam enim deserunt voluptate amet ipsum. Pariatur velit id id consequat pariatur exercitation velit ad cupidatat ad. Deserunt enim sint adipisicing mollit sint. Cupidatat sunt nostrud deserunt enim. Nostrud occaecat mollit voluptate nisi culpa.", 
+  "title": "Howard Foundation", 
+  "notes": [
+    {
+      "source": "wikidata", 
+      "type": "arrangement", 
+      "subnotes": [
+        {
+          "content": [
+            "labore esse labore excepteur velit tempor", 
+            "laboris in eiusmod duis exercitation tempor"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "et consectetur labore"
+    }, 
+    {
+      "source": "archivesspace", 
+      "type": "index", 
+      "subnotes": [
+        {
+          "content": [
+            "dolor nostrud anim qui cupidatat ullamco", 
+            "qui ad dolore occaecat velit reprehenderit", 
+            "consequat nisi non velit ad eu", 
+            "minim proident sit tempor aliquip id", 
+            "reprehenderit elit nisi consectetur id id"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "ea commodo veniam"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "/agents_organization/44"
+    }
+  ], 
+  "agent_type": "organization", 
+  "type": "agent", 
+  "id": "5d75a1560749cf797ac48d43"
+}

@@ -1,0 +1,225 @@
+{
+  "index": 9,
+  "id": "5d71577b93a3290f22f659d0",
+  "title": "Elit eu veniam laborum dolor adipisicing ullamco non nulla eu.",
+  "type": "collection",
+  "level": "file",
+  "dates": [
+    {
+      "begin": "1925-06-27",
+      "end": "1997-03-15",
+      "expression": "Jun 27th, 1925 - Mar 15th, 1997",
+      "type": "bulk",
+      "label": "creation"
+    },
+    {
+      "begin": "1931-09-30",
+      "end": "2005-04-02",
+      "expression": "Sep 30th, 1931 - Apr 2nd, 2005",
+      "type": "inclusive",
+      "label": "deaccession"
+    }
+  ],
+  "creators": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/21"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "value": "8.83",
+      "type": "gigabytes"
+    }
+  ],
+  "notes": [],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/2"
+        }
+      ]
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/15"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/50"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/35"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/21"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "expression": "English",
+      "identifier": "eng"
+    }
+  ],
+  "rights_statements": [
+    {
+      "id": "5d71577b24b5c6ebf2b1bba8",
+      "determination_date": "2019-09-05",
+      "type": "rights_statement",
+      "rights_type": "statute",
+      "rights_status": "unknown",
+      "begin": "2019-09-05",
+      "end": "2019-09-05",
+      "copyright_status": "public domain",
+      "other_basis": "adipisicing",
+      "jurisdiction": "FR",
+      "notes": [],
+      "rights_granted": [
+        {
+          "act": "delete",
+          "begin": "2019-09-05",
+          "end": "2019-09-05",
+          "restriction": "disallow",
+          "notes": []
+        }
+      ]
+    },
+    {
+      "id": "5d71577bdab8d9cdd3c11760",
+      "determination_date": "2019-09-05",
+      "type": "rights_statement",
+      "rights_type": "copyright",
+      "rights_status": "unknown",
+      "begin": "2019-09-05",
+      "end": "2019-09-05",
+      "copyright_status": "unknown",
+      "other_basis": "est",
+      "jurisdiction": "CN",
+      "notes": [
+        {
+          "type": "restrictions",
+          "title": "laborum laboris anim",
+          "source": "wikidata",
+          "subnotes": [
+            {
+              "type": "orderedlist",
+              "content": [
+                "voluptate et voluptate fugiat non non"
+              ]
+            }
+          ]
+        }
+      ],
+      "rights_granted": [
+        {
+          "act": "delete",
+          "begin": "2019-09-05",
+          "end": "2019-09-05",
+          "restriction": "disallow",
+          "notes": [
+            {
+              "type": "additional_information",
+              "title": "ut est tempor",
+              "source": "archivesspace",
+              "subnotes": [
+                {
+                  "type": "text",
+                  "content": [
+                    "dolore mollit in dolor elit amet",
+                    "incididunt non adipisicing enim reprehenderit aliqua",
+                    "consectetur in tempor aute adipisicing cillum",
+                    "esse labore mollit commodo incididunt consequat"
+                  ]
+                },
+                {
+                  "type": "orderedlist",
+                  "content": [
+                    "pariatur ut nostrud Lorem anim adipisicing",
+                    "cupidatat minim in nulla pariatur culpa",
+                    "esse aute commodo voluptate ea irure",
+                    "mollit ipsum nisi do reprehenderit culpa"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "act": "modify",
+          "begin": "2019-09-05",
+          "end": "2019-09-05",
+          "restriction": "disallow",
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/5"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/13"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/50"
+        }
+      ]
+    }
+  ],
+  "children": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/6"
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/9"
+    }
+  ]
+}

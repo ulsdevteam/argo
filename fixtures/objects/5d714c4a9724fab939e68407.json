@@ -1,0 +1,88 @@
+{
+  "index": 2,
+  "id": "5d714c4a9724fab939e68407",
+  "title": "Do nulla veniam velit adipisicing in culpa enim aliquip.",
+  "type": "object",
+  "dates": [
+    {
+      "begin": "1954-05-15",
+      "end": "2012-09-05",
+      "expression": "May 15th, 1954 - Sep 5th, 2012",
+      "type": "single",
+      "label": "deaccession"
+    }
+  ],
+  "extents": [
+    {
+      "value": "8.35",
+      "type": "photographic_slides"
+    }
+  ],
+  "notes": [],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/42"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/34"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/29"
+        }
+      ]
+    }
+  ],
+  "agents": [],
+  "languages": [
+    {
+      "expression": "English",
+      "identifier": "eng"
+    }
+  ],
+  "rights_statements": [],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/21"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/36"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/48"
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/2"
+    }
+  ]
+}

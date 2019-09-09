@@ -1,0 +1,68 @@
+{
+  "index": 19, 
+  "dates": [
+    {
+      "expression": "May 27th, 1919 - Sep 7th, 1998", 
+      "begin": "1919-05-27", 
+      "label": "modified", 
+      "end": "1998-09-07", 
+      "type": "bulk"
+    }
+  ], 
+  "description": "Irure in sint nulla minim aliquip eu officia. Eu tempor et irure ipsum est. Ea cillum aliquip aliquip eiusmod occaecat ad mollit esse minim ea anim. Ullamco dolor tempor ullamco culpa sit reprehenderit ad amet. Non amet reprehenderit nostrud esse excepteur. Enim aliquip laboris irure minim sit.", 
+  "title": "Arnold Foundation", 
+  "notes": [
+    {
+      "source": "cartographer", 
+      "type": "dimensions", 
+      "subnotes": [
+        {
+          "content": [
+            "deserunt minim magna nisi sunt dolore", 
+            "ipsum sit dolor ut dolore incididunt", 
+            "excepteur sint non dolore sunt cillum", 
+            "cillum in voluptate mollit enim labore"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "id fugiat in"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "type_note", 
+      "subnotes": [
+        {
+          "content": [
+            "nostrud veniam elit exercitation ullamco eu", 
+            "dolore sit pariatur id do labore", 
+            "laboris nulla pariatur ea culpa esse", 
+            "magna aliqua enim ipsum ut pariatur", 
+            "nisi ut tempor eu velit dolore"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "et laboris irure aliqua eiusmod adipisicing", 
+            "aute elit proident aliquip commodo qui", 
+            "magna laboris tempor dolore incididunt velit", 
+            "eu consectetur est ullamco aliqua aliqua", 
+            "aute est sunt non commodo duis"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "voluptate elit proident"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "/agents_organization/19"
+    }
+  ], 
+  "agent_type": "organization", 
+  "type": "agent", 
+  "id": "5d75a156b5fa76770726a812"
+}

@@ -1,0 +1,64 @@
+{
+  "index": 1, 
+  "dates": [
+    {
+      "expression": "Mar 26th, 1949 - Jan 10th, 1964", 
+      "begin": "1949-03-26", 
+      "label": "creation", 
+      "end": "1964-01-10", 
+      "type": "single"
+    }
+  ], 
+  "description": "Deserunt excepteur eu et do consequat officia. Labore incididunt sint ea officia qui ea esse. Quis consequat incididunt tempor Lorem commodo cupidatat ad reprehenderit cupidatat culpa veniam elit laborum. Aute eiusmod reprehenderit ipsum ea dolor. Cillum tempor veniam Lorem aute cupidatat in ipsum in.", 
+  "title": "Howe Campbell", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "separatedmaterial", 
+      "subnotes": [
+        {
+          "content": [
+            "nisi adipisicing eu consectetur reprehenderit dolore", 
+            "deserunt quis magna ipsum eiusmod Lorem", 
+            "minim sunt voluptate sit reprehenderit amet"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "eu ullamco exercitation"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "dimensions", 
+      "subnotes": [
+        {
+          "content": [
+            "aute occaecat ullamco veniam qui aliqua", 
+            "culpa sint cupidatat ipsum duis reprehenderit", 
+            "culpa minim nisi magna elit et", 
+            "incididunt labore deserunt eiusmod aute excepteur", 
+            "in laboris sint aliqua est in"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "consequat excepteur excepteur eiusmod dolor aute", 
+            "consequat consectetur irure culpa consectetur cupidatat"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "Lorem quis pariatur"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "/agents_person/1"
+    }
+  ], 
+  "agent_type": "person", 
+  "type": "agent", 
+  "id": "5d75a13187391d159fd6f5ae"
+}

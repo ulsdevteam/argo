@@ -1,0 +1,70 @@
+{
+  "index": 4, 
+  "dates": [
+    {
+      "expression": "Jun 26th, 1931 - Jul 12th, 2003", 
+      "begin": "1931-06-26", 
+      "label": "copyright", 
+      "end": "2003-07-12", 
+      "type": "bulk"
+    }
+  ], 
+  "description": "Adipisicing culpa quis officia sint aliquip enim qui aliquip enim veniam laborum. Lorem consectetur esse ad ullamco. Dolore adipisicing ex minim ipsum consequat sit aute dolore. Irure est Lorem mollit ea velit consequat aute Lorem minim ad. Non et non sunt pariatur magna velit ad esse.", 
+  "title": "Curtis family", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "originalsloc", 
+      "subnotes": [
+        {
+          "content": [
+            "aliqua est cillum qui ea velit", 
+            "laborum aute sunt enim minim nostrud", 
+            "nulla id incididunt duis eiusmod eiusmod", 
+            "sint minim proident culpa aliquip aliqua", 
+            "ea officia anim est eiusmod commodo"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "velit consequat labore mollit ex consequat", 
+            "irure Lorem ullamco ipsum sunt ipsum"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "anim quis non adipisicing in exercitation"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "laborum exercitation ea"
+    }, 
+    {
+      "source": "wikipedia", 
+      "type": "bibliography", 
+      "subnotes": [
+        {
+          "content": [
+            "consequat culpa Lorem id ipsum qui", 
+            "laboris quis aliqua irure cillum ex", 
+            "excepteur consequat sint eu magna ut"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "reprehenderit laboris fugiat"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "/agents_family/4"
+    }
+  ], 
+  "agent_type": "family", 
+  "type": "agent", 
+  "id": "5d75a0f431cf36193b7664fc"
+}

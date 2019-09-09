@@ -1,0 +1,81 @@
+{
+  "index": 40, 
+  "dates": [
+    {
+      "expression": "Dec 7th, 1948 - Dec 23rd, 1992", 
+      "begin": "1948-12-07", 
+      "label": "issued", 
+      "end": "1992-12-23", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Aug 6th, 1946 - Dec 15th, 1963", 
+      "begin": "1946-08-06", 
+      "label": "modified", 
+      "end": "1963-12-15", 
+      "type": "single"
+    }
+  ], 
+  "description": "Ipsum elit culpa id ad reprehenderit cillum eu ea. Sit non do labore ea voluptate nostrud est officia nisi esse. Laboris dolore sint tempor proident tempor.", 
+  "title": "Dominguez family", 
+  "notes": [
+    {
+      "source": "wikidata", 
+      "type": "acquinfo", 
+      "subnotes": [
+        {
+          "content": [
+            "esse duis irure nostrud ipsum reprehenderit", 
+            "occaecat aliqua cillum fugiat sit incididunt", 
+            "in fugiat anim tempor sunt aliqua", 
+            "quis proident amet laboris eiusmod exercitation", 
+            "culpa consequat nulla ad dolore do"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "nulla id consequat commodo voluptate aliqua", 
+            "proident nisi et ex elit consequat"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "ut reprehenderit occaecat esse magna ex", 
+            "Lorem nostrud elit voluptate et eu", 
+            "exercitation proident incididunt sint excepteur non", 
+            "ex dolor quis tempor aute ut", 
+            "ut officia et deserunt et sit"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "id dolor eu"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "physfacet", 
+      "subnotes": [
+        {
+          "content": [
+            "dolore enim quis consectetur sint anim", 
+            "quis labore adipisicing ea sit nisi", 
+            "consequat pariatur consequat elit ut est"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "labore veniam ullamco"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "/agents_family/40"
+    }
+  ], 
+  "agent_type": "family", 
+  "type": "agent", 
+  "id": "5d75a0f4c47e2a74a4efd063"
+}

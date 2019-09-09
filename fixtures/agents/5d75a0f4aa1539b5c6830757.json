@@ -1,0 +1,77 @@
+{
+  "index": 12, 
+  "dates": [
+    {
+      "expression": "Dec 9th, 1915 - Nov 9th, 1995", 
+      "begin": "1915-12-09", 
+      "label": "publication", 
+      "end": "1995-11-09", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Sep 18th, 1939 - Mar 10th, 1984", 
+      "begin": "1939-09-18", 
+      "label": "issued", 
+      "end": "1984-03-10", 
+      "type": "inclusive"
+    }
+  ], 
+  "description": "Ad incididunt do enim proident minim fugiat minim reprehenderit labore elit in mollit. Proident nostrud ea elit eu cillum. Aute qui irure dolore velit in qui excepteur deserunt. Sit minim voluptate dolor mollit laboris nostrud veniam et elit reprehenderit aliquip quis dolor. Proident aliqua mollit reprehenderit deserunt voluptate deserunt consequat magna sit ex fugiat.", 
+  "title": "Cote family", 
+  "notes": [
+    {
+      "source": "wikidata", 
+      "type": "userestrict", 
+      "subnotes": [
+        {
+          "content": [
+            "ullamco adipisicing ipsum excepteur cupidatat amet"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "culpa ipsum aliquip"
+    }, 
+    {
+      "source": "wikipedia", 
+      "type": "additional_information", 
+      "subnotes": [
+        {
+          "content": [
+            "consequat cupidatat eiusmod non esse sint", 
+            "incididunt non incididunt adipisicing aliqua commodo", 
+            "aliqua ut ad dolor officia nisi", 
+            "elit ex et nulla non culpa", 
+            "et aute ipsum amet occaecat irure"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "commodo non aliquip enim adipisicing amet", 
+            "deserunt enim ex quis et esse", 
+            "ullamco elit ea quis aliquip quis"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "officia nulla consequat veniam culpa nulla", 
+            "id labore ea incididunt id incididunt"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "reprehenderit occaecat magna"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "/agents_family/12"
+    }
+  ], 
+  "agent_type": "family", 
+  "type": "agent", 
+  "id": "5d75a0f4aa1539b5c6830757"
+}

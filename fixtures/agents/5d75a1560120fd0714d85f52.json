@@ -1,0 +1,39 @@
+{
+  "index": 36, 
+  "dates": [
+    {
+      "expression": "Mar 21st, 1914 - Jul 2nd, 1989", 
+      "begin": "1914-03-21", 
+      "label": "record_keeping", 
+      "end": "1989-07-02", 
+      "type": "inclusive"
+    }
+  ], 
+  "description": "Ut cupidatat fugiat culpa reprehenderit proident ullamco in ipsum proident. Sit et labore ullamco esse amet adipisicing labore aliqua eiusmod culpa proident aliquip culpa. Aute reprehenderit ut in laborum esse exercitation velit voluptate nisi. Sit ut officia anim enim consectetur. Ut eu ipsum id tempor sint labore amet eiusmod.", 
+  "title": "Livingston Foundation", 
+  "notes": [
+    {
+      "source": "cartographer", 
+      "type": "restrictions", 
+      "subnotes": [
+        {
+          "content": [
+            "et aliqua ea et proident ullamco", 
+            "officia quis fugiat nostrud velit nulla"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "excepteur mollit minim"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "/agents_organization/36"
+    }
+  ], 
+  "agent_type": "organization", 
+  "type": "agent", 
+  "id": "5d75a1560120fd0714d85f52"
+}

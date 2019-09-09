@@ -1,0 +1,86 @@
+{
+  "index": 46, 
+  "dates": [
+    {
+      "expression": "Jan 19th, 1935 - May 25th, 1975", 
+      "begin": "1935-01-19", 
+      "label": "usage", 
+      "end": "1975-05-25", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Feb 27th, 1942 - Mar 1st, 1997", 
+      "begin": "1942-02-27", 
+      "label": "issued", 
+      "end": "1997-03-01", 
+      "type": "single"
+    }
+  ], 
+  "description": "Cillum excepteur minim et elit do consequat irure mollit. Sint esse esse minim duis veniam labore adipisicing et veniam fugiat excepteur. Nostrud Lorem enim veniam officia nostrud deserunt officia Lorem minim officia commodo consequat. Ex mollit aliquip minim commodo eu cupidatat cupidatat sunt elit ea dolor. Quis duis sit enim magna Lorem laboris pariatur. Exercitation ipsum amet commodo culpa Lorem voluptate tempor officia quis dolor anim quis pariatur do. Anim do cillum cillum non labore ullamco dolor aliquip ea.", 
+  "title": "Schultz Foundation", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "materialspec", 
+      "subnotes": [
+        {
+          "content": [
+            "ex proident commodo velit mollit sint", 
+            "sunt culpa consequat culpa in elit", 
+            "aliquip occaecat duis ut tempor magna", 
+            "consectetur ex fugiat pariatur excepteur duis", 
+            "dolore sit veniam irure laborum cupidatat"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "est ad nisi magna enim exercitation"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "ipsum voluptate deserunt"
+    }, 
+    {
+      "source": "cartographer", 
+      "type": "physfacet", 
+      "subnotes": [
+        {
+          "content": [
+            "aliqua nostrud consequat sint elit minim", 
+            "esse ea sit laborum excepteur anim"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "nisi aute labore consequat amet est", 
+            "dolor mollit laboris tempor nostrud irure", 
+            "Lorem ad velit laborum id id", 
+            "nostrud proident ut pariatur minim sit", 
+            "aliquip consequat cupidatat fugiat irure in"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "dolor ex sit adipisicing magna occaecat", 
+            "veniam nisi minim sint exercitation est"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "nostrud ullamco dolor"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "/agents_organization/46"
+    }
+  ], 
+  "agent_type": "organization", 
+  "type": "agent", 
+  "id": "5d75a156390a3f2074a97cf8"
+}

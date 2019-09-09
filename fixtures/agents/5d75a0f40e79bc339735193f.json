@@ -1,0 +1,74 @@
+{
+  "index": 42, 
+  "dates": [
+    {
+      "expression": "Jul 20th, 1935 - Oct 19th, 1962", 
+      "begin": "1935-07-20", 
+      "label": "copyright", 
+      "end": "1962-10-19", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Sep 23rd, 1929 - Aug 28th, 1981", 
+      "begin": "1929-09-23", 
+      "label": "copyright", 
+      "end": "1981-08-28", 
+      "type": "bulk"
+    }
+  ], 
+  "description": "Mollit in nostrud amet nostrud elit duis. Do incididunt eiusmod do eiusmod culpa officia id commodo. Excepteur exercitation nostrud adipisicing pariatur. Eiusmod ut consequat magna do. Adipisicing adipisicing aliqua adipisicing aute fugiat ut laborum sunt nostrud aute est. Incididunt dolore consequat ea in quis magna veniam aliqua. Aute dolor amet elit fugiat sit veniam.", 
+  "title": "Rivas family", 
+  "notes": [
+    {
+      "source": "wikidata", 
+      "type": "permissions", 
+      "subnotes": [
+        {
+          "content": [
+            "quis ipsum elit reprehenderit do do", 
+            "eu excepteur labore in nulla labore", 
+            "deserunt cupidatat labore do est velit", 
+            "tempor non magna eiusmod dolore eiusmod", 
+            "nisi dolor et esse amet ut"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "aliquip ullamco sit"
+    }, 
+    {
+      "source": "cartographer", 
+      "type": "legalstatus", 
+      "subnotes": [
+        {
+          "content": [
+            "ullamco cupidatat incididunt mollit voluptate qui", 
+            "laboris veniam cupidatat ea est Lorem", 
+            "quis eu dolore proident cupidatat pariatur"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "incididunt officia labore laborum id aute", 
+            "voluptate consequat consectetur proident amet veniam", 
+            "deserunt Lorem laboris tempor cillum minim", 
+            "enim qui eiusmod proident irure et", 
+            "elit fugiat amet tempor tempor eu"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "proident magna ullamco"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "/agents_family/42"
+    }
+  ], 
+  "agent_type": "family", 
+  "type": "agent", 
+  "id": "5d75a0f40e79bc339735193f"
+}

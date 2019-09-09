@@ -1,0 +1,58 @@
+{
+  "index": 4, 
+  "dates": [
+    {
+      "expression": "Oct 21st, 1940 - Apr 26th, 1980", 
+      "begin": "1940-10-21", 
+      "label": "modified", 
+      "end": "1980-04-26", 
+      "type": "bulk"
+    }, 
+    {
+      "expression": "Dec 23rd, 1951 - Jul 27th, 1973", 
+      "begin": "1951-12-23", 
+      "label": "agent_relation", 
+      "end": "1973-07-27", 
+      "type": "inclusive"
+    }
+  ], 
+  "description": "Nisi exercitation ipsum amet dolor tempor ut. Sunt tempor labore officia amet cillum qui magna excepteur in. Nulla reprehenderit do mollit aliquip amet velit sint ex est aliquip exercitation sint consectetur excepteur.", 
+  "title": "Sheppard Patterson", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "arrangement", 
+      "subnotes": [
+        {
+          "content": [
+            "anim quis pariatur adipisicing officia occaecat"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "velit cupidatat mollit"
+    }, 
+    {
+      "source": "wikipedia", 
+      "type": "dimensions", 
+      "subnotes": [
+        {
+          "content": [
+            "voluptate enim veniam aliquip ad Lorem"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "anim est elit"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "/agents_person/4"
+    }
+  ], 
+  "agent_type": "person", 
+  "type": "agent", 
+  "id": "5d75a1314adaf38d1e49dbce"
+}

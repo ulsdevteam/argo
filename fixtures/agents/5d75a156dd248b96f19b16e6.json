@@ -1,0 +1,55 @@
+{
+  "index": 10, 
+  "dates": [
+    {
+      "expression": "Jun 1st, 1930 - Jun 19th, 1965", 
+      "begin": "1930-06-01", 
+      "label": "creation", 
+      "end": "1965-06-19", 
+      "type": "single"
+    }
+  ], 
+  "description": "Mollit exercitation non tempor nostrud cillum proident cillum quis dolor reprehenderit. Eiusmod enim aliqua exercitation mollit non reprehenderit adipisicing fugiat dolor occaecat non incididunt. Sint elit dolor enim ut consequat nisi sit ea et esse sunt. Dolore Lorem anim pariatur enim nostrud ut sunt deserunt sint ad veniam. Sit occaecat ullamco dolore exercitation ea reprehenderit qui.", 
+  "title": "Lindsay Foundation", 
+  "notes": [
+    {
+      "source": "wikidata", 
+      "type": "rights_statement", 
+      "subnotes": [
+        {
+          "content": [
+            "reprehenderit velit minim quis ut incididunt", 
+            "irure sit irure est nisi quis", 
+            "exercitation cillum enim quis nisi aute"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "laborum fugiat amet mollit consectetur enim", 
+            "minim est adipisicing do ea culpa", 
+            "aliqua pariatur nulla fugiat ipsum reprehenderit"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "Lorem aute enim sit excepteur incididunt", 
+            "proident ullamco laboris veniam est dolor"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "est minim aute"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "/agents_organization/10"
+    }
+  ], 
+  "agent_type": "organization", 
+  "type": "agent", 
+  "id": "5d75a156dd248b96f19b16e6"
+}

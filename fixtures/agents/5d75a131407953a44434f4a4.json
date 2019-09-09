@@ -1,0 +1,46 @@
+{
+  "index": 13, 
+  "dates": [
+    {
+      "expression": "Feb 22nd, 1933 - Dec 29th, 1976", 
+      "begin": "1933-02-22", 
+      "label": "copyright", 
+      "end": "1976-12-29", 
+      "type": "single"
+    }, 
+    {
+      "expression": "Sep 12th, 1948 - Jul 13th, 1998", 
+      "begin": "1948-09-12", 
+      "label": "digitized", 
+      "end": "1998-07-13", 
+      "type": "single"
+    }
+  ], 
+  "description": "Labore qui mollit adipisicing dolor commodo exercitation anim occaecat reprehenderit ipsum eiusmod. Duis fugiat sint aliqua quis dolor non Lorem. Laboris esse anim nostrud esse labore non velit laborum incididunt. Tempor laborum consequat enim non amet aliqua mollit sunt proident consectetur ad in proident.", 
+  "title": "Stacey Best", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "materialspec", 
+      "subnotes": [
+        {
+          "content": [
+            "consectetur sint non anim exercitation elit", 
+            "enim ipsum Lorem incididunt ex excepteur"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "incididunt magna commodo"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "/agents_person/13"
+    }
+  ], 
+  "agent_type": "person", 
+  "type": "agent", 
+  "id": "5d75a131407953a44434f4a4"
+}

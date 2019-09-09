@@ -1,0 +1,82 @@
+{
+  "index": 4, 
+  "dates": [
+    {
+      "expression": "Dec 17th, 1952 - May 24th, 1978", 
+      "begin": "1952-12-17", 
+      "label": "broadcast", 
+      "end": "1978-05-24", 
+      "type": "single"
+    }
+  ], 
+  "description": "Elit excepteur amet labore aute mollit veniam commodo incididunt ex. Fugiat duis culpa aliqua cillum laboris est non id pariatur excepteur. Cupidatat adipisicing dolor irure et labore. Fugiat est enim anim eu id ullamco minim. Quis amet in veniam sint aute aliqua anim ullamco. Qui fugiat anim minim amet elit laborum Lorem laborum eiusmod. Nisi sit ipsum minim adipisicing id nulla adipisicing Lorem in.", 
+  "title": "Preston Foundation", 
+  "notes": [
+    {
+      "source": "wikidata", 
+      "type": "edition", 
+      "subnotes": [
+        {
+          "content": [
+            "et id labore cillum in mollit", 
+            "sint commodo Lorem id officia est", 
+            "aliquip Lorem ex nulla aliqua anim"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "amet cillum dolore excepteur enim nostrud", 
+            "aliquip eiusmod veniam magna excepteur eu"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "anim ea aute reprehenderit dolor quis", 
+            "eiusmod esse reprehenderit elit labore amet", 
+            "dolor sint proident aliqua non dolore", 
+            "sunt pariatur officia proident proident laboris"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "eiusmod tempor elit"
+    }, 
+    {
+      "source": "wikipedia", 
+      "type": "processinfo", 
+      "subnotes": [
+        {
+          "content": [
+            "ipsum nulla eiusmod ex ut nostrud", 
+            "cupidatat mollit voluptate cillum quis exercitation", 
+            "dolore cillum sit quis reprehenderit est", 
+            "dolore ex incididunt eiusmod est sit"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "non tempor proident voluptate nulla culpa", 
+            "sit sunt veniam excepteur aute est", 
+            "aliqua elit sunt cillum aliquip magna", 
+            "occaecat excepteur magna velit cupidatat ullamco", 
+            "elit sint id qui nostrud duis"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "nostrud non aliquip"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "/agents_organization/4"
+    }
+  ], 
+  "agent_type": "organization", 
+  "type": "agent", 
+  "id": "5d75a1561766478e7ef19a0d"
+}

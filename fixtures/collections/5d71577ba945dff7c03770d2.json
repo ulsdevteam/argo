@@ -1,0 +1,204 @@
+{
+  "index": 6,
+  "id": "5d71577ba945dff7c03770d2",
+  "title": "Excepteur labore ex velit ex eu occaecat ut fugiat ex enim laborum consequat.",
+  "type": "collection",
+  "level": "series",
+  "dates": [
+    {
+      "begin": "1924-03-12",
+      "end": "1988-04-01",
+      "expression": "Mar 12th, 1924 - Apr 1st, 1988",
+      "type": "bulk",
+      "label": "usage"
+    }
+  ],
+  "creators": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/14"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/12"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "value": "3.35",
+      "type": "box(es)"
+    },
+    {
+      "value": "8.24",
+      "type": "photographic_slides"
+    }
+  ],
+  "notes": [
+    {
+      "type": "type_note",
+      "title": "eiusmod laborum culpa",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "labore minim exercitation magna velit aute",
+            "id sit consectetur culpa irure officia",
+            "adipisicing dolore nisi aute cupidatat qui",
+            "ad pariatur et amet cupidatat amet",
+            "consectetur irure sunt aliqua quis qui"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "expiration",
+      "title": "laboris est fugiat",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "laboris duis culpa do laboris reprehenderit",
+            "officia anim anim nisi mollit irure"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rights_statement",
+      "title": "laboris magna tempor",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "velit veniam amet sunt commodo Lorem",
+            "anim ipsum enim fugiat veniam veniam"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "veniam occaecat consequat eu ullamco adipisicing",
+            "sint ipsum non anim est mollit",
+            "ea dolor anim nostrud amet et"
+          ]
+        }
+      ]
+    }
+  ],
+  "terms": [],
+  "agents": [],
+  "languages": [
+    {
+      "expression": "Spanish",
+      "identifier": "spa"
+    },
+    {
+      "expression": "Spanish",
+      "identifier": "eng"
+    }
+  ],
+  "rights_statements": [
+    {
+      "id": "5d71577b049315e3ee4b8bb0",
+      "determination_date": "2019-09-05",
+      "type": "rights_statement",
+      "rights_type": "copyright",
+      "rights_status": "public domain",
+      "begin": "2019-09-05",
+      "end": "2019-09-05",
+      "copyright_status": "public domain",
+      "other_basis": "irure",
+      "jurisdiction": "FR",
+      "notes": [],
+      "rights_granted": [
+        {
+          "act": "disseminate",
+          "begin": "2019-09-05",
+          "end": "2019-09-05",
+          "restriction": "allow",
+          "notes": []
+        },
+        {
+          "act": "delete",
+          "begin": "2019-09-05",
+          "end": "2019-09-05",
+          "restriction": "disallow",
+          "notes": [
+            {
+              "type": "permissions",
+              "title": "consectetur ullamco consequat",
+              "source": "archivesspace",
+              "subnotes": [
+                {
+                  "type": "definedlist",
+                  "content": [
+                    "consectetur aute voluptate anim in excepteur",
+                    "labore tempor laboris sit pariatur esse",
+                    "consectetur qui quis sit dolore consequat",
+                    "in deserunt velit velit tempor sunt",
+                    "labore dolore cupidatat reprehenderit duis enim"
+                  ]
+                },
+                {
+                  "type": "orderedlist",
+                  "content": [
+                    "ea in aliquip magna minim culpa",
+                    "enim consectetur non dolore fugiat pariatur",
+                    "sit fugiat qui nulla minim est",
+                    "cillum laboris veniam cillum nostrud proident",
+                    "incididunt non ullamco labore excepteur cillum"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/2"
+        }
+      ]
+    }
+  ],
+  "children": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/5"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/28"
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/6"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "index": 29, 
+  "dates": [
+    {
+      "expression": "Feb 6th, 1945 - Apr 6th, 1974", 
+      "begin": "1945-02-06", 
+      "label": "existence", 
+      "end": "1974-04-06", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Oct 8th, 1928 - Apr 22nd, 1978", 
+      "begin": "1928-10-08", 
+      "label": "digitized", 
+      "end": "1978-04-22", 
+      "type": "inclusive"
+    }
+  ], 
+  "description": "Veniam consequat dolore excepteur dolore duis. Eiusmod incididunt ipsum voluptate veniam. Irure commodo sint anim cillum tempor laborum irure nostrud eiusmod enim consequat exercitation. Aute culpa culpa do duis quis quis id id nulla nulla ut nisi. Anim voluptate ex reprehenderit magna cillum anim irure dolore adipisicing nostrud in eiusmod.", 
+  "title": "Goodman family", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "userestrict", 
+      "subnotes": [
+        {
+          "content": [
+            "duis ullamco et deserunt id deserunt"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "enim nisi ipsum aliqua ex amet", 
+            "est occaecat ipsum Lorem laboris laboris"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "ut fugiat culpa nostrud laboris elit", 
+            "deserunt amet proident sunt exercitation duis", 
+            "veniam officia amet dolor qui pariatur", 
+            "do occaecat non nostrud culpa dolore", 
+            "reprehenderit qui tempor esse ut qui"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "id quis labore"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "/agents_family/29"
+    }
+  ], 
+  "agent_type": "family", 
+  "type": "agent", 
+  "id": "5d75a0f4fba42a12365b0c1a"
+}

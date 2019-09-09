@@ -1,0 +1,65 @@
+{
+  "index": 17, 
+  "dates": [
+    {
+      "expression": "Apr 28th, 1953 - Mar 1st, 1973", 
+      "begin": "1953-04-28", 
+      "label": "broadcast", 
+      "end": "1973-03-01", 
+      "type": "single"
+    }, 
+    {
+      "expression": "Jan 26th, 1945 - Apr 10th, 1999", 
+      "begin": "1945-01-26", 
+      "label": "existence", 
+      "end": "1999-04-10", 
+      "type": "bulk"
+    }
+  ], 
+  "description": "Magna consequat consequat tempor amet minim aliquip consectetur ea sint labore aliquip commodo. Veniam do ea do eu laborum sit duis occaecat ut sunt cillum consequat mollit mollit. Ex cillum quis eiusmod et proident quis anim nisi pariatur aliqua et veniam. Voluptate Lorem quis nulla consequat.", 
+  "title": "Woodard Foundation", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "arrangement", 
+      "subnotes": [
+        {
+          "content": [
+            "mollit laboris dolor ipsum do eiusmod", 
+            "reprehenderit culpa ea anim mollit Lorem"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "minim do irure non occaecat irure"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "eiusmod nostrud sit"
+    }, 
+    {
+      "source": "wikipedia", 
+      "type": "summary", 
+      "subnotes": [
+        {
+          "content": [
+            "officia qui exercitation eiusmod culpa consectetur"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "commodo aliqua excepteur"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "/agents_organization/17"
+    }
+  ], 
+  "agent_type": "organization", 
+  "type": "agent", 
+  "id": "5d75a156af68ea7962210056"
+}

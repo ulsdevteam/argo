@@ -1,0 +1,190 @@
+{
+  "index": 8,
+  "id": "5d714c4af743682d7ab91a62",
+  "title": "Mollit ut ea ullamco consequat voluptate non pariatur dolor nisi fugiat non labore laborum ad.",
+  "type": "object",
+  "dates": [
+    {
+      "begin": "1920-11-19",
+      "end": "1996-12-31",
+      "expression": "Nov 19th, 1920 - Dec 31st, 1996",
+      "type": "inclusive",
+      "label": "digitized"
+    }
+  ],
+  "extents": [
+    {
+      "value": "3.07",
+      "type": "cassettes"
+    }
+  ],
+  "notes": [
+    {
+      "type": "edition",
+      "title": "excepteur ea sit",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "sit minim incididunt sunt velit esse",
+            "est adipisicing nulla sint dolor dolor",
+            "sit proident qui cupidatat dolor sit",
+            "laborum ea proident nisi aute adipisicing"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "nostrud officia labore occaecat est in"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "rights_statement_act",
+      "title": "reprehenderit pariatur eu",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "commodo ex in labore mollit laborum",
+            "qui do in ut fugiat aliquip",
+            "est consequat laboris in amet tempor",
+            "anim nostrud amet est reprehenderit eu"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "consectetur irure quis fugiat est culpa"
+          ]
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/10"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/25"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/47"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/39"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/13"
+        }
+      ]
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/16"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/39"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/46"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/46"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/41"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "expression": "Spanish",
+      "identifier": "spa"
+    }
+  ],
+  "rights_statements": [],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/21"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/13"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/26"
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/8"
+    }
+  ]
+}

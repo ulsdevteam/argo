@@ -1,0 +1,56 @@
+{
+  "index": 28, 
+  "dates": [
+    {
+      "expression": "Jan 26th, 1951 - Jul 12th, 1995", 
+      "begin": "1951-01-26", 
+      "label": "deaccession", 
+      "end": "1995-07-12", 
+      "type": "single"
+    }
+  ], 
+  "description": "Labore dolore velit aliquip voluptate ex incididunt exercitation adipisicing ex elit aute velit irure. Elit labore quis exercitation et nulla sit. Tempor sunt non anim culpa occaecat commodo labore sunt non. Eiusmod pariatur consectetur ipsum excepteur nisi consequat minim eiusmod aliquip exercitation minim ad est exercitation.", 
+  "title": "Reynolds family", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "odd", 
+      "subnotes": [
+        {
+          "content": [
+            "pariatur sint nulla occaecat adipisicing nulla", 
+            "dolore Lorem eu cupidatat aliqua Lorem"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "minim duis cillum ullamco cillum duis", 
+            "cillum occaecat laboris nisi adipisicing laboris"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "cupidatat id mollit aute nulla officia", 
+            "tempor qui elit mollit aliqua tempor", 
+            "ea aute in mollit pariatur minim", 
+            "consequat ut qui aute est sit", 
+            "sint veniam exercitation dolore labore magna"
+          ], 
+          "type": "definedlist"
+        }
+      ], 
+      "title": "voluptate dolor incididunt"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "/agents_family/28"
+    }
+  ], 
+  "agent_type": "family", 
+  "type": "agent", 
+  "id": "5d75a0f49d30d9a0d4a90446"
+}

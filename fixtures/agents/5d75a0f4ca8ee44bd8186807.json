@@ -1,0 +1,73 @@
+{
+  "index": 13, 
+  "dates": [
+    {
+      "expression": "Oct 1st, 1930 - Dec 28th, 2016", 
+      "begin": "1930-10-01", 
+      "label": "modified", 
+      "end": "2016-12-28", 
+      "type": "inclusive"
+    }, 
+    {
+      "expression": "Feb 25th, 1946 - Sep 20th, 1980", 
+      "begin": "1946-02-25", 
+      "label": "digitized", 
+      "end": "1980-09-20", 
+      "type": "inclusive"
+    }
+  ], 
+  "description": "Commodo tempor nisi fugiat excepteur cupidatat. Aute consectetur laboris culpa proident occaecat ipsum do enim duis laborum in non veniam. Enim officia qui fugiat est ipsum mollit exercitation mollit consectetur. Fugiat veniam non occaecat aliqua cupidatat reprehenderit irure amet irure exercitation et velit. Voluptate ea veniam veniam irure anim dolore qui elit exercitation et anim Lorem nulla.", 
+  "title": "Ford family", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "phystech", 
+      "subnotes": [
+        {
+          "content": [
+            "culpa minim nostrud nulla mollit amet", 
+            "voluptate ipsum ex ex non aliqua"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "esse ipsum amet Lorem amet anim", 
+            "laborum exercitation aliqua in cupidatat eu", 
+            "ex voluptate velit ex nisi ad", 
+            "ullamco dolor et nisi mollit ut", 
+            "aute in aliqua dolore et irure"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "irure esse non"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "edition", 
+      "subnotes": [
+        {
+          "content": [
+            "anim eu ullamco enim ex magna", 
+            "ut esse deserunt sit do magna", 
+            "magna mollit occaecat laboris id cupidatat", 
+            "nulla cupidatat dolore velit est ea", 
+            "dolor magna proident pariatur cillum labore"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "dolore culpa sunt"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "/agents_family/13"
+    }
+  ], 
+  "agent_type": "family", 
+  "type": "agent", 
+  "id": "5d75a0f4ca8ee44bd8186807"
+}

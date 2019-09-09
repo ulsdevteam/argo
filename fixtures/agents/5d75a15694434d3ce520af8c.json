@@ -1,0 +1,71 @@
+{
+  "index": 43, 
+  "dates": [
+    {
+      "expression": "Mar 17th, 1942 - Apr 10th, 1979", 
+      "begin": "1942-03-17", 
+      "label": "agent_relation", 
+      "end": "1979-04-10", 
+      "type": "single"
+    }, 
+    {
+      "expression": "Aug 21st, 1948 - Jan 26th, 2014", 
+      "begin": "1948-08-21", 
+      "label": "modified", 
+      "end": "2014-01-26", 
+      "type": "bulk"
+    }
+  ], 
+  "description": "Qui nostrud aliquip do cupidatat pariatur anim commodo sint eu dolor ipsum eu ut. Magna culpa tempor veniam magna reprehenderit do deserunt exercitation do officia excepteur id ullamco reprehenderit. Officia esse consectetur quis est cillum labore deserunt anim dolor.", 
+  "title": "Boyer Foundation", 
+  "notes": [
+    {
+      "source": "wikidata", 
+      "type": "materials", 
+      "subnotes": [
+        {
+          "content": [
+            "consequat labore qui minim non ullamco", 
+            "laborum esse consectetur consectetur ullamco excepteur", 
+            "nostrud eiusmod minim consequat irure pariatur", 
+            "nisi excepteur eu consectetur proident ipsum"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "nisi adipisicing ex enim quis ea", 
+            "elit dolore consectetur amet quis excepteur", 
+            "fugiat laboris tempor in et duis", 
+            "occaecat veniam tempor anim incididunt elit"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "consectetur nostrud nisi"
+    }, 
+    {
+      "source": "wikidata", 
+      "type": "custodhist", 
+      "subnotes": [
+        {
+          "content": [
+            "adipisicing dolore esse ad occaecat reprehenderit", 
+            "aliquip magna minim ut nisi sint"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "commodo laboris dolore"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "/agents_organization/43"
+    }
+  ], 
+  "agent_type": "organization", 
+  "type": "agent", 
+  "id": "5d75a15694434d3ce520af8c"
+}

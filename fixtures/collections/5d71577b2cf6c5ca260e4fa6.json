@@ -1,0 +1,198 @@
+{
+  "index": 11,
+  "id": "5d71577b2cf6c5ca260e4fa6",
+  "title": "Quis irure ex fugiat nisi anim Lorem sunt consectetur quis ea sunt.",
+  "type": "collection",
+  "level": "subseries",
+  "dates": [
+    {
+      "begin": "1926-02-24",
+      "end": "1978-10-28",
+      "expression": "Feb 24th, 1926 - Oct 28th, 1978",
+      "type": "inclusive",
+      "label": "existence"
+    }
+  ],
+  "creators": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/16"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/49"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "value": "6.38",
+      "type": "gigabytes"
+    }
+  ],
+  "notes": [],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/26"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/29"
+        }
+      ]
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/23"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "expression": "Spanish",
+      "identifier": "spa"
+    }
+  ],
+  "rights_statements": [
+    {
+      "id": "5d71577b1e151f11fb13b7e0",
+      "determination_date": "2019-09-05",
+      "type": "rights_statement",
+      "rights_type": "statute",
+      "rights_status": "unknown",
+      "begin": "2019-09-05",
+      "end": "2019-09-05",
+      "copyright_status": "copyrighted",
+      "other_basis": "velit",
+      "jurisdiction": "CN",
+      "notes": [
+        {
+          "type": "rights_statement",
+          "title": "sint voluptate aute",
+          "source": "wikipedia",
+          "subnotes": [
+            {
+              "type": "orderedlist",
+              "content": [
+                "nulla sunt officia pariatur sint occaecat",
+                "eiusmod aliqua laboris aliquip proident ea",
+                "tempor veniam ipsum Lorem voluptate occaecat",
+                "sit proident laboris cupidatat aute laboris"
+              ]
+            }
+          ]
+        }
+      ],
+      "rights_granted": [
+        {
+          "act": "modify",
+          "begin": "2019-09-05",
+          "end": "2019-09-05",
+          "restriction": "disallow",
+          "notes": [
+            {
+              "type": "restrictions",
+              "title": "cupidatat proident culpa",
+              "source": "cartographer",
+              "subnotes": [
+                {
+                  "type": "definedlist",
+                  "content": [
+                    "quis sunt do laboris do amet",
+                    "veniam laborum ea labore consequat mollit"
+                  ]
+                },
+                {
+                  "type": "text",
+                  "content": [
+                    "et eiusmod consequat duis id incididunt",
+                    "et est aliquip commodo elit excepteur"
+                  ]
+                },
+                {
+                  "type": "orderedlist",
+                  "content": [
+                    "consequat proident laborum ullamco veniam consectetur",
+                    "officia ipsum incididunt sit ex nisi",
+                    "cupidatat ex incididunt ea exercitation laboris",
+                    "elit fugiat ex ea esse cupidatat",
+                    "sit occaecat eiusmod ex eu cillum"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/6"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/43"
+        }
+      ]
+    }
+  ],
+  "children": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/14"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/30"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/12"
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/11"
+    }
+  ]
+}

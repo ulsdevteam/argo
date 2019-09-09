@@ -1,0 +1,40 @@
+{
+  "index": 7, 
+  "dates": [
+    {
+      "expression": "Jan 17th, 1927 - Jan 4th, 1992", 
+      "begin": "1927-01-17", 
+      "label": "broadcast", 
+      "end": "1992-01-04", 
+      "type": "bulk"
+    }
+  ], 
+  "description": "Commodo culpa sunt minim sit mollit proident pariatur ex exercitation amet exercitation eu pariatur. Cupidatat in magna do sit ut anim deserunt consequat aliquip eiusmod. Incididunt ullamco officia esse occaecat commodo exercitation. Aute sunt deserunt est do deserunt consequat nostrud sit.", 
+  "title": "Benjamin Foundation", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "arrangement", 
+      "subnotes": [
+        {
+          "content": [
+            "Lorem aliquip ut enim irure esse", 
+            "laboris tempor nisi reprehenderit cillum nulla", 
+            "in voluptate consectetur mollit consectetur esse"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "esse proident nostrud"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "/agents_organization/7"
+    }
+  ], 
+  "agent_type": "organization", 
+  "type": "agent", 
+  "id": "5d75a156f29bd4c5b617c6a8"
+}

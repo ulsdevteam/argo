@@ -1,0 +1,129 @@
+{
+  "index": 46,
+  "id": "5d714c4ac5454f1a8b5b3a83",
+  "title": "Pariatur nostrud dolor culpa proident veniam eiusmod dolor incididunt.",
+  "type": "object",
+  "dates": [
+    {
+      "begin": "1952-03-11",
+      "end": "2017-01-04",
+      "expression": "Mar 11th, 1952 - Jan 4th, 2017",
+      "type": "bulk",
+      "label": "creation"
+    },
+    {
+      "begin": "1953-03-24",
+      "end": "1981-02-21",
+      "expression": "Mar 24th, 1953 - Feb 21st, 1981",
+      "type": "single",
+      "label": "other"
+    },
+    {
+      "begin": "1937-08-04",
+      "end": "2010-02-05",
+      "expression": "Aug 4th, 1937 - Feb 5th, 2010",
+      "type": "single",
+      "label": "deaccession"
+    }
+  ],
+  "extents": [
+    {
+      "value": "4.55",
+      "type": "microform reels"
+    }
+  ],
+  "notes": [
+    {
+      "type": "otherfindaid",
+      "title": "magna aliqua reprehenderit",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "laboris occaecat eu consequat cupidatat nisi",
+            "consequat veniam do quis sunt quis",
+            "labore adipisicing occaecat consequat est sunt",
+            "irure nisi irure incididunt aliqua magna"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "incididunt veniam occaecat aliquip elit laboris",
+            "commodo aliquip dolor tempor consequat occaecat",
+            "et in id minim adipisicing ad",
+            "ut nulla ad nostrud esse pariatur"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "expiration",
+      "title": "nisi cillum ex",
+      "source": "archivesspace",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "irure aute irure ut duis tempor",
+            "tempor sint dolore velit sunt pariatur"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "elit eu veniam cupidatat laboris enim",
+            "nostrud duis nisi ad esse Lorem",
+            "esse amet velit ea aute commodo",
+            "eiusmod cillum ipsum excepteur anim excepteur",
+            "mollit consectetur dolor eu consectetur duis"
+          ]
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/10"
+        }
+      ]
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/41"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "expression": "English",
+      "identifier": "eng"
+    }
+  ],
+  "rights_statements": [],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/30"
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/46"
+    }
+  ]
+}

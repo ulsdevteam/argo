@@ -1,0 +1,48 @@
+{
+  "index": 43, 
+  "dates": [
+    {
+      "expression": "Oct 25th, 1936 - Oct 6th, 1967", 
+      "begin": "1936-10-25", 
+      "label": "record_keeping", 
+      "end": "1967-10-06", 
+      "type": "bulk"
+    }
+  ], 
+  "description": "Sunt quis sit in proident et dolore cillum sint ipsum esse sit ut pariatur anim. Incididunt do eiusmod ipsum non. Consectetur non et magna duis labore anim nisi minim non nisi. Voluptate id cillum mollit dolor deserunt.", 
+  "title": "Nannie Bass", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "extent", 
+      "subnotes": [
+        {
+          "content": [
+            "proident labore veniam commodo nisi dolore", 
+            "Lorem duis sunt in ullamco proident", 
+            "consequat magna esse culpa nisi excepteur"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "ex labore fugiat in proident nostrud", 
+            "id excepteur est ullamco sunt ex", 
+            "Lorem incididunt quis exercitation adipisicing sint"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "fugiat tempor sint"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "/agents_person/43"
+    }
+  ], 
+  "agent_type": "person", 
+  "type": "agent", 
+  "id": "5d75a1324b42675e09835d4d"
+}

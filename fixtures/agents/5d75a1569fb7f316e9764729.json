@@ -1,0 +1,61 @@
+{
+  "index": 33, 
+  "dates": [
+    {
+      "expression": "Oct 11th, 1932 - Jan 3rd, 1988", 
+      "begin": "1932-10-11", 
+      "label": "digitized", 
+      "end": "1988-01-03", 
+      "type": "single"
+    }, 
+    {
+      "expression": "Dec 1st, 1947 - Aug 12th, 1987", 
+      "begin": "1947-12-01", 
+      "label": "other", 
+      "end": "1987-08-12", 
+      "type": "bulk"
+    }
+  ], 
+  "description": "Qui ut nulla nulla tempor et ut veniam ullamco voluptate consectetur est nisi. Occaecat magna cupidatat et ex sunt voluptate ea eu fugiat esse. Eiusmod tempor nisi mollit reprehenderit ullamco qui consequat.", 
+  "title": "Mccullough Foundation", 
+  "notes": [
+    {
+      "source": "archivesspace", 
+      "type": "type_note", 
+      "subnotes": [
+        {
+          "content": [
+            "veniam magna magna voluptate esse elit", 
+            "commodo deserunt labore ad cupidatat quis", 
+            "aute minim velit laboris anim laborum"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "et consequat sint enim ullamco aute"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "aliquip dolore fugiat magna ullamco excepteur", 
+            "esse irure ut pariatur enim enim", 
+            "in consequat laborum do esse consectetur"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "qui sunt excepteur"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "/agents_organization/33"
+    }
+  ], 
+  "agent_type": "organization", 
+  "type": "agent", 
+  "id": "5d75a1569fb7f316e9764729"
+}

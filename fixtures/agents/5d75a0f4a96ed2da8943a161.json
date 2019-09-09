@@ -1,0 +1,86 @@
+{
+  "index": 50, 
+  "dates": [
+    {
+      "expression": "May 1st, 1918 - Dec 21st, 1982", 
+      "begin": "1918-05-01", 
+      "label": "record_keeping", 
+      "end": "1982-12-21", 
+      "type": "bulk"
+    }
+  ], 
+  "description": "Labore veniam culpa eiusmod commodo laboris quis irure nisi. Amet labore occaecat consequat nisi cillum tempor minim ad reprehenderit non. Ex occaecat ea duis aute laboris minim enim. Anim elit adipisicing et cillum adipisicing occaecat. Veniam tempor ut laborum duis consectetur id.", 
+  "title": "Briggs family", 
+  "notes": [
+    {
+      "source": "wikidata", 
+      "type": "extent", 
+      "subnotes": [
+        {
+          "content": [
+            "ad laboris aliquip labore magna ad"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "esse culpa aute duis velit et", 
+            "magna exercitation occaecat labore consectetur ex", 
+            "veniam fugiat minim aliquip officia mollit", 
+            "nisi proident eiusmod veniam aliqua nostrud"
+          ], 
+          "type": "text"
+        }, 
+        {
+          "content": [
+            "commodo occaecat veniam aute ad voluptate"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "reprehenderit eu incididunt"
+    }, 
+    {
+      "source": "wikipedia", 
+      "type": "note", 
+      "subnotes": [
+        {
+          "content": [
+            "ad voluptate officia ullamco eiusmod ex", 
+            "elit qui Lorem ipsum adipisicing consectetur", 
+            "culpa culpa esse eiusmod Lorem dolor"
+          ], 
+          "type": "definedlist"
+        }, 
+        {
+          "content": [
+            "commodo velit commodo aute nulla non", 
+            "amet exercitation laboris consectetur eu sit", 
+            "nostrud tempor do ullamco sit amet", 
+            "sint voluptate nisi amet cupidatat do"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "aliqua irure Lorem pariatur laboris do", 
+            "reprehenderit velit mollit Lorem incididunt sunt", 
+            "cillum aliqua ut pariatur ad consequat", 
+            "est labore ipsum irure qui Lorem"
+          ], 
+          "type": "text"
+        }
+      ], 
+      "title": "amet ut anim"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "/agents_family/50"
+    }
+  ], 
+  "agent_type": "family", 
+  "type": "agent", 
+  "id": "5d75a0f4a96ed2da8943a161"
+}

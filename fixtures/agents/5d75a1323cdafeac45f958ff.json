@@ -1,0 +1,49 @@
+{
+  "index": 38, 
+  "dates": [
+    {
+      "expression": "Sep 20th, 1935 - Aug 8th, 1984", 
+      "begin": "1935-09-20", 
+      "label": "usage", 
+      "end": "1984-08-08", 
+      "type": "bulk"
+    }
+  ], 
+  "description": "Reprehenderit elit nostrud tempor voluptate nostrud enim qui sint quis. Consectetur et magna aute cupidatat deserunt minim velit et pariatur aliquip dolor amet. Ut occaecat cillum irure amet elit.", 
+  "title": "Kara Collins", 
+  "notes": [
+    {
+      "source": "wikipedia", 
+      "type": "rights_statement", 
+      "subnotes": [
+        {
+          "content": [
+            "dolor in laborum esse veniam aliquip", 
+            "minim irure deserunt ea occaecat anim", 
+            "pariatur occaecat consectetur sunt officia do"
+          ], 
+          "type": "orderedlist"
+        }, 
+        {
+          "content": [
+            "qui fugiat nostrud ea amet cupidatat", 
+            "ea dolore ea proident anim esse", 
+            "velit culpa consequat nostrud veniam ut", 
+            "id culpa pariatur non labore ad"
+          ], 
+          "type": "orderedlist"
+        }
+      ], 
+      "title": "irure non eiusmod"
+    }
+  ], 
+  "external_identifiers": [
+    {
+      "source": "archivesspace", 
+      "identifier": "/agents_person/38"
+    }
+  ], 
+  "agent_type": "person", 
+  "type": "agent", 
+  "id": "5d75a1323cdafeac45f958ff"
+}
