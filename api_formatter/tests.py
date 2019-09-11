@@ -71,10 +71,11 @@ class TestAPI(TestCase):
         return (child_obj if child_obj else "")
 
     def get_random_word(self, word_list):
-        """Returns a random lowercased word."""
-        words = word_list.split(" ")
-        w = words[random.randint(0, len(words)-1)].lower()
+        """Returns a random lowercased word from a list."""
+        w = word_list[random.randint(0, len(word_list)-1)].lower()
         if w in STOP_WORDS:
+            word_list.remove(w)
+            print("{} found in stop words, trying again from list {}".format(w, word_list))
             self.get_random_word(word_list)
         return w
 
@@ -118,7 +119,7 @@ class TestAPI(TestCase):
         for field in viewset.search_fields:
             field_list = field.rsplit('.keyword')[0].split('.')
             value = self.get_nested_value(field_list, obj)
-            query = self.get_random_word(value)
+            query = self.get_random_word(value.split(" "))
             if query:
                 url = "{}?query={}".format(base_url, query)
                 print(url)
