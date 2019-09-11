@@ -140,6 +140,7 @@ class CollectionViewSet(DocumentViewSet):
     relations = (
         ('ancestors', 'ancestor'),
         ('children', 'child'),
+        ('creators', 'creator'),
         ('terms', 'term'),
         ('agents', 'agent')
     )

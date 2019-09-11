@@ -106,7 +106,7 @@ class CollectionSerializer(BaseDetailSerializer):
     notes = NoteSerializer(many=True, allow_null=True)
     rights_statements = RightsStatementSerializer(many=True, allow_null=True)
     agents = ReferenceSerializer(many=True, allow_null=True)
-    # creators = ReferenceSerializer(many=True, allow_null=True)
+    creators = ReferenceSerializer(many=True, allow_null=True)
     terms = ReferenceSerializer(many=True, allow_null=True)
     ancestors = ReferenceSerializer(many=True, allow_null=True)
     children = ReferenceSerializer(many=True, allow_null=True)

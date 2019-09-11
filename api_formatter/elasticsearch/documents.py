@@ -277,6 +277,7 @@ class Collection(DescriptionComponent):
         ('agent', 'agents'),
         ('ancestor', 'ancestors'),
         ('child', 'children'),
+        ('creator', 'creators'),
         ('term', 'terms'),
     )
 
