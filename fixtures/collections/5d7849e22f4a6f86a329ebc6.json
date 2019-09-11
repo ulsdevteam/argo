@@ -1,0 +1,260 @@
+{
+  "index": 16,
+  "id": "5d7849e22f4a6f86a329ebc6",
+  "title": "Consectetur culpa aliqua officia aute anim Lorem in dolore quis occaecat ipsum.",
+  "type": "collection",
+  "level": "item",
+  "dates": [
+    {
+      "begin": "1945-07-04",
+      "end": "1988-03-11",
+      "expression": "Jul 4th, 1945 - Mar 11th, 1988",
+      "type": "single",
+      "label": "deaccession"
+    },
+    {
+      "begin": "1952-02-17",
+      "end": "1988-01-20",
+      "expression": "Feb 17th, 1952 - Jan 20th, 1988",
+      "type": "inclusive",
+      "label": "broadcast"
+    },
+    {
+      "begin": "1955-08-15",
+      "end": "1968-10-23",
+      "expression": "Aug 15th, 1955 - Oct 23rd, 1968",
+      "type": "bulk",
+      "label": "agent_relation"
+    }
+  ],
+  "creators": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/44"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/33"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "value": "8.16",
+      "type": "document box(es)"
+    },
+    {
+      "value": "5.72",
+      "type": "gigabytes"
+    }
+  ],
+  "notes": [],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/46"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/27"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/8"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/25"
+        }
+      ]
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/46"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "expression": "Esperanto",
+      "identifier": "spa"
+    }
+  ],
+  "rights_statements": [
+    {
+      "id": "5d7849e2035be3a1b312fe21",
+      "determination_date": "2019-09-11",
+      "type": "rights_statement",
+      "rights_type": "copyright",
+      "rights_status": "unknown",
+      "begin": "2019-09-11",
+      "end": "2019-09-11",
+      "copyright_status": "public domain",
+      "other_basis": "excepteur",
+      "jurisdiction": "CN",
+      "notes": [
+        {
+          "type": "restrictions",
+          "title": "dolore esse consectetur",
+          "source": "archivesspace",
+          "subnotes": [
+            {
+              "type": "definedlist",
+              "content": [
+                "mollit nisi sint sint tempor non",
+                "laboris aliqua consectetur aliquip sit nisi",
+                "esse consectetur excepteur laborum nulla ullamco",
+                "veniam id velit est ullamco eiusmod",
+                "magna velit adipisicing veniam quis laboris"
+              ]
+            }
+          ]
+        }
+      ],
+      "rights_granted": [
+        {
+          "act": "use",
+          "begin": "2019-09-11",
+          "end": "2019-09-11",
+          "restriction": "disallow",
+          "notes": []
+        }
+      ]
+    },
+    {
+      "id": "5d7849e273367af161d348da",
+      "determination_date": "2019-09-11",
+      "type": "rights_statement",
+      "rights_type": "statute",
+      "rights_status": "copyrighted",
+      "begin": "2019-09-11",
+      "end": "2019-09-11",
+      "copyright_status": "unknown",
+      "other_basis": "commodo",
+      "jurisdiction": "FR",
+      "notes": [
+        {
+          "type": "additional_information",
+          "title": "eu sint irure",
+          "source": "cartographer",
+          "subnotes": [
+            {
+              "type": "orderedlist",
+              "content": [
+                "occaecat adipisicing elit laborum id anim",
+                "proident ex cillum eu eu eu",
+                "officia et et quis cillum qui"
+              ]
+            }
+          ]
+        }
+      ],
+      "rights_granted": [
+        {
+          "act": "use",
+          "begin": "2019-09-11",
+          "end": "2019-09-11",
+          "restriction": "disallow",
+          "notes": []
+        },
+        {
+          "act": "migrate",
+          "begin": "2019-09-11",
+          "end": "2019-09-11",
+          "restriction": "disallow",
+          "notes": [
+            {
+              "type": "type_note",
+              "title": "nostrud esse deserunt",
+              "source": "wikidata",
+              "subnotes": [
+                {
+                  "type": "orderedlist",
+                  "content": [
+                    "mollit eiusmod anim sit ullamco sint"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/11"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/2"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/14"
+        }
+      ]
+    }
+  ],
+  "children": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/1"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/8"
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/resources/16"
+    }
+  ]
+}

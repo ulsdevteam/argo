@@ -1,0 +1,113 @@
+{
+  "index": 13,
+  "id": "5d7849e2f84bcee873866fef",
+  "title": "Minim Lorem duis sint veniam eiusmod ea enim cupidatat cillum ut culpa.",
+  "type": "collection",
+  "level": "otherLevel",
+  "dates": [
+    {
+      "begin": "1954-10-13",
+      "end": "1972-01-07",
+      "expression": "Oct 13th, 1954 - Jan 7th, 1972",
+      "type": "single",
+      "label": "modified"
+    }
+  ],
+  "creators": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/18"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/43"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "value": "5.75",
+      "type": "gigabytes"
+    },
+    {
+      "value": "5.02",
+      "type": "microform reels"
+    }
+  ],
+  "notes": [],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/29"
+        }
+      ]
+    }
+  ],
+  "agents": [],
+  "languages": [
+    {
+      "expression": "Esperanto",
+      "identifier": "eng"
+    },
+    {
+      "expression": "Spanish",
+      "identifier": "eng"
+    },
+    {
+      "expression": "Spanish",
+      "identifier": "spa"
+    }
+  ],
+  "rights_statements": [],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/27"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/21"
+        }
+      ]
+    }
+  ],
+  "children": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/9"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/46"
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/resources/13"
+    }
+  ]
+}

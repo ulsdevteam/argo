@@ -1,0 +1,178 @@
+{
+  "index": 37,
+  "id": "5d7849e276da2674091d7418",
+  "title": "Est sint do aute id anim laborum exercitation dolor amet veniam ex incididunt nostrud.",
+  "type": "collection",
+  "level": "file",
+  "dates": [
+    {
+      "begin": "1913-10-30",
+      "end": "1965-01-25",
+      "expression": "Oct 30th, 1913 - Jan 25th, 1965",
+      "type": "bulk",
+      "label": "record_keeping"
+    }
+  ],
+  "creators": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/25"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "value": "4.91",
+      "type": "files"
+    },
+    {
+      "value": "2.81",
+      "type": "gigabytes"
+    }
+  ],
+  "notes": [
+    {
+      "type": "physfacet",
+      "title": "cillum excepteur qui",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "tempor velit est occaecat eiusmod adipisicing",
+            "Lorem eiusmod ut veniam ea nisi",
+            "nisi et nisi non esse non"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "nulla tempor ea non minim enim"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "legalstatus",
+      "title": "est nulla anim",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "laboris sunt ea et ea consectetur",
+            "velit fugiat reprehenderit nulla voluptate eiusmod",
+            "cillum ut mollit tempor incididunt dolor",
+            "ad cillum eiusmod laboris Lorem incididunt",
+            "dolore duis ex commodo minim laboris"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "ea est sit est fugiat in"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "extension",
+      "title": "nisi cupidatat mollit",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "adipisicing mollit magna fugiat pariatur tempor",
+            "laboris quis amet deserunt consequat cillum",
+            "irure sint mollit nisi proident aute"
+          ]
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/3"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/18"
+        }
+      ]
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/34"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/21"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "expression": "English",
+      "identifier": "spa"
+    },
+    {
+      "expression": "Spanish",
+      "identifier": "spa"
+    }
+  ],
+  "rights_statements": [],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/50"
+        }
+      ]
+    }
+  ],
+  "children": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/38"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/26"
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/resources/37"
+    }
+  ]
+}

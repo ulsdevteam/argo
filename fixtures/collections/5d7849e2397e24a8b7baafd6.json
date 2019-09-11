@@ -1,0 +1,255 @@
+{
+  "index": 47,
+  "id": "5d7849e2397e24a8b7baafd6",
+  "title": "Eiusmod quis labore veniam officia incididunt exercitation quis minim voluptate veniam Lorem do.",
+  "type": "collection",
+  "level": "recordgrp",
+  "dates": [
+    {
+      "begin": "1940-01-18",
+      "end": "1961-06-28",
+      "expression": "Jan 18th, 1940 - Jun 28th, 1961",
+      "type": "single",
+      "label": "creation"
+    }
+  ],
+  "creators": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/25"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/47"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "value": "5.83",
+      "type": "photographic_prints"
+    }
+  ],
+  "notes": [],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/5"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/47"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/24"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/12"
+        }
+      ]
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/30"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/23"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/45"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "expression": "Spanish",
+      "identifier": "epo"
+    },
+    {
+      "expression": "English",
+      "identifier": "epo"
+    },
+    {
+      "expression": "English",
+      "identifier": "epo"
+    }
+  ],
+  "rights_statements": [
+    {
+      "id": "5d7849e223a8a5d1d4be8793",
+      "determination_date": "2019-09-11",
+      "type": "rights_statement",
+      "rights_type": "license",
+      "rights_status": "unknown",
+      "begin": "2019-09-11",
+      "end": "2019-09-11",
+      "copyright_status": "unknown",
+      "other_basis": "qui",
+      "jurisdiction": "CN",
+      "notes": [
+        {
+          "type": "expiration",
+          "title": "consequat eiusmod cillum",
+          "source": "cartographer",
+          "subnotes": [
+            {
+              "type": "orderedlist",
+              "content": [
+                "voluptate reprehenderit elit ex dolor ad",
+                "pariatur qui Lorem fugiat pariatur pariatur",
+                "veniam deserunt in anim aliqua incididunt",
+                "elit excepteur fugiat cupidatat est culpa",
+                "sint voluptate nostrud aliqua non cillum"
+              ]
+            }
+          ]
+        }
+      ],
+      "rights_granted": [
+        {
+          "act": "delete",
+          "begin": "2019-09-11",
+          "end": "2019-09-11",
+          "restriction": "disallow",
+          "notes": [
+            {
+              "type": "additional_information",
+              "title": "eiusmod excepteur esse",
+              "source": "wikidata",
+              "subnotes": [
+                {
+                  "type": "text",
+                  "content": [
+                    "veniam ea duis amet exercitation exercitation",
+                    "adipisicing qui proident irure est fugiat",
+                    "est non enim minim occaecat cupidatat",
+                    "deserunt sunt quis mollit occaecat do",
+                    "non tempor in fugiat exercitation incididunt"
+                  ]
+                },
+                {
+                  "type": "orderedlist",
+                  "content": [
+                    "laboris laborum nulla proident laborum ut",
+                    "quis nostrud cillum incididunt id ex",
+                    "fugiat laborum nisi excepteur amet consectetur",
+                    "adipisicing culpa ipsum minim dolore ipsum"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "act": "migrate",
+          "begin": "2019-09-11",
+          "end": "2019-09-11",
+          "restriction": "disallow",
+          "notes": []
+        }
+      ]
+    },
+    {
+      "id": "5d7849e2c12d899a9bd56e66",
+      "determination_date": "2019-09-11",
+      "type": "rights_statement",
+      "rights_type": "license",
+      "rights_status": "unknown",
+      "begin": "2019-09-11",
+      "end": "2019-09-11",
+      "copyright_status": "public domain",
+      "other_basis": "laborum",
+      "jurisdiction": "CN",
+      "notes": [],
+      "rights_granted": [
+        {
+          "act": "disseminate",
+          "begin": "2019-09-11",
+          "end": "2019-09-11",
+          "restriction": "allow",
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/2"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/24"
+        }
+      ]
+    }
+  ],
+  "children": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/22"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/13"
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/resources/47"
+    }
+  ]
+}
