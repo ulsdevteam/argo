@@ -203,16 +203,7 @@
       ]
     }
   ],
-  "ancestors": [
-    {
-      "external_identifiers": [
-        {
-          "source": "archivesspace",
-          "identifier": "/repositories/2/archival_objects/30"
-        }
-      ]
-    }
-  ],
+  "ancestors": [],
   "external_identifiers": [
     {
       "source": "archivesspace",

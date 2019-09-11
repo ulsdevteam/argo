@@ -140,7 +140,7 @@ class BaseDescriptionComponent(es.Document):
                         e.source_identifier = "{}_{}".format(e.source, e.identifier)
         except AttributeError:
             pass
-        return super(BaseDescriptionComponent, self).save(**kwargs)
+        return super(BaseDescriptionComponent, self).save(refresh=True, **kwargs)
 
     class Index:
         name = 'default'
