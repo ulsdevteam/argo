@@ -121,7 +121,9 @@ class BaseDescriptionComponent(es.Document):
 
     @classmethod
     def _matches(cls, hit):
-        """Ensures that this class is never used for deserialization."""
+        """
+        Ensures that this class is never used for deserialization.
+        """
         return False
 
     def save(self, **kwargs):
@@ -131,6 +133,13 @@ class BaseDescriptionComponent(es.Document):
         """
         for e in self.external_identifiers:
             e.source_identifier = "{}_{}".format(e.source, e.identifier)
+        try:
+            for relation in self.relations_in_self:
+                for obj in getattr(self, relation):
+                    for e in obj.external_identifiers:
+                        e.source_identifier = "{}_{}".format(e.source, e.identifier)
+        except AttributeError:
+            pass
         return super(BaseDescriptionComponent, self).save(**kwargs)
 
     class Index:
@@ -210,15 +219,17 @@ class DescriptionComponent(BaseDescriptionComponent):
         """
         Finds references in other Documents to this Document and creates or
         updates a child Reference Document for each. These relations are listed
-        in a `relations_to_self` attribute on the main Document object.
+        as strings which correspond to a key in a `relations_to_self` attribute
+        on the main Document object.
         """
         try:
             self_ids = ["{}_{}".format(i.source, i.identifier) for i in self.external_identifiers]
             for relation in self.relations_to_self:
+                relation_key = "{}__external_identifiers__source_identifier".format(relation)
                 for i in self_ids:
-                    parents = DescriptionComponent.search().filter('match_phrase', external_identifiers__source_identifier=i).execute()
+                    parents = DescriptionComponent.search().filter('match_phrase', **{relation_key: i}).execute()
                     for p in parents:
-                        p.add_references(i, self, relation[0])
+                        p.add_references(i, self, relation)
         except AttributeError:
             pass
 
@@ -226,19 +237,19 @@ class DescriptionComponent(BaseDescriptionComponent):
         """
         Iterates through each key in this Document which contains references to
         other Documents, and creates or updates a Reference Document for each.
-        These relations are listed in a `relations_in_self` attribute on the
-        main Document object.
+        These relations are listed as strings which correspond to a key in a
+        `relations_in_self` attribute on the main Document object.
         """
         try:
             for relation in self.relations_in_self:
                 # Nested list comprehension, what's up?!?!
                 parent_ids = ["{}_{}".format(i.source, i.identifier)
-                              for obj in getattr(self, relation[1])
+                              for obj in getattr(self, relation)
                               for i in obj.external_identifiers]
                 for i in parent_ids:
                     source_objs = DescriptionComponent.search().filter('match_phrase', external_identifiers__source_identifier=i).execute()
                     for o in source_objs:
-                        self.add_references(i, o, relation[0])
+                        self.add_references(i, o, relation)
         except AttributeError:
             pass
 
@@ -246,7 +257,7 @@ class DescriptionComponent(BaseDescriptionComponent):
         """
         Overrides save to resolve relations.
         """
-        self.resolve_relation_in_self()
+        self.resolve_relations_in_self()
         self.resolve_relations_to_self()
         self.component_reference = 'component'
         return super(DescriptionComponent, self).save(**kwargs)
@@ -286,10 +297,7 @@ class Agent(DescriptionComponent):
     dates = es.Object(Date)
     notes = es.Nested(Note)
 
-    relations_to_self = (
-        ('agent', 'agents__external_identifiers'),
-        ('creator', 'creators__external_identifiers'),
-    )
+    relations_to_self = ('agents', 'creators',)
 
     @classmethod
     def search(cls, **kwargs):
@@ -312,16 +320,8 @@ class Collection(DescriptionComponent):
     notes = es.Nested(Note)
     rights_statements = es.Nested(RightsStatement)
 
-    relations_to_self = (
-        ('collection', 'collections__external_identifiers'),
-    )
-    relations_in_self = (
-        ('agent', 'agents'),
-        ('ancestor', 'ancestors'),
-        ('child', 'children'),
-        ('creator', 'creators'),
-        ('term', 'terms'),
-    )
+    relations_to_self = ('ancestors', 'children', 'collections',)
+    relations_in_self = ('agents', 'ancestors', 'children', 'creators', 'terms',)
 
     @classmethod
     def search(cls, **kwargs):
@@ -340,14 +340,8 @@ class Object(DescriptionComponent):
     notes = es.Nested(Note)
     rights_statements = es.Nested(RightsStatement)
 
-    relations_to_self = (
-        ('object', 'objects__external_identifiers'),
-    )
-    relations_in_self = (
-        ('agent', 'agents'),
-        ('ancestor', 'ancestors'),
-        ('term', 'terms'),
-    )
+    relations_to_self = ('ancestors', 'children', 'objects',)
+    relations_in_self = ('agents', 'ancestors', 'terms')
 
     @classmethod
     def search(cls, **kwargs):
@@ -360,9 +354,7 @@ class Term(DescriptionComponent):
     A subject, geographic area, document format or other controlled term.
     """
 
-    relations_to_self = (
-        ('term', 'terms__external_identifiers'),
-    )
+    relations_to_self = ('terms',)
 
     @classmethod
     def search(cls, **kwargs):

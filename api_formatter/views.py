@@ -66,7 +66,7 @@ class DocumentViewSet(ReadOnlyModelViewSet):
             obj = hits[0]
             try:
                 for relation in self.relations:
-                    setattr(obj, relation[0], obj.get_references(relation=relation[1]))
+                    setattr(obj, relation, obj.get_references(relation=relation))
             except AttributeError:
                 pass
             return obj
@@ -82,10 +82,7 @@ class AgentViewSet(DocumentViewSet):
     document = Agent
     list_serializer = AgentListSerializer
     serializer = AgentSerializer
-    relations = (
-        ('collections', 'collection'),
-        ('objects', 'object'),
-    )
+    relations = ('collections', 'objects')
 
     filter_fields = {
         'id': {
@@ -137,13 +134,7 @@ class CollectionViewSet(DocumentViewSet):
     document = Collection
     list_serializer = CollectionListSerializer
     serializer = CollectionSerializer
-    relations = (
-        ('ancestors', 'ancestor'),
-        ('children', 'child'),
-        ('creators', 'creator'),
-        ('terms', 'term'),
-        ('agents', 'agent')
-    )
+    relations = ('ancestors', 'children', 'creators', 'terms', 'agents')
 
     filter_fields = {
         'id': {
@@ -191,11 +182,7 @@ class ObjectViewSet(DocumentViewSet):
     document = Object
     list_serializer = ObjectListSerializer
     serializer = ObjectSerializer
-    relations = (
-        ('ancestors', 'ancestor'),
-        ('terms', 'term'),
-        ('agents', 'agent'),
-    )
+    relations = ('ancestors', 'terms', 'agents')
 
     filter_fields = {
         'id': {
@@ -238,10 +225,7 @@ class TermViewSet(DocumentViewSet):
     document = Term
     list_serializer = TermListSerializer
     serializer = TermSerializer
-    relations = (
-        ('collections', 'collection'),
-        ('objects', 'object'),
-    )
+    relations = ('collections', 'objects',)
 
     filter_fields = {
         'id': {

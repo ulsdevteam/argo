@@ -73,6 +73,7 @@ class BaseListSerializer(serializers.Serializer):
     uri = serializers.SerializerMethodField()
     title = serializers.CharField()
 
+    # TODO: this needs to be revised because everything is in one index now
     def get_uri(self, obj):
         try:
             return reverse('{}-detail'.format(self.context.get('view').basename), kwargs={"pk": obj.meta.id})
