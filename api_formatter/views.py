@@ -61,12 +61,9 @@ class DocumentViewSet(ReadOnlyModelViewSet):
                                  "attribute on the view correctly." % (self.__class__.__name__, lookup_url_kwarg))
         queryset = queryset.filter('match_phrase', **{'_id': self.kwargs[lookup_url_kwarg]})
         hits = queryset.execute().hits
-        # hits = obj_list.hits
         count = len(hits)
         if count == 1:
-            # obj = hits[0]['_source']
-            # TODO: figure out how to incorporate this
-            # obj.ancestors = obj_list[0].get_references()
+            # TODO: roll up fields which require resolution
             return hits[0]
         elif count > 1:
             raise Http404("Multiple results matches the given query. Expected a single result.")
@@ -123,6 +120,12 @@ class AgentViewSet(DocumentViewSet):
         'end_date': 'dates.end',
     }
 
+    def get_object(self):
+        obj = super(AgentViewSet, self).get_object()
+        obj.collections = obj.get_references(relation='collection')
+        obj.objects = obj.get_references(relation='object')
+        return obj
+
 
 class CollectionViewSet(DocumentViewSet):
     """
@@ -172,7 +175,10 @@ class CollectionViewSet(DocumentViewSet):
 
     def get_object(self):
         obj = super(CollectionViewSet, self).get_object()
-        obj.ancestors = obj.get_references(relation='ancestors')
+        obj.ancestors = obj.get_references(relation='ancestor')
+        obj.children = obj.get_references(relation='child')
+        obj.terms = obj.get_references(relation='term')
+        obj.agents = obj.get_references(relation='agent')
         return obj
 
 
@@ -217,6 +223,13 @@ class ObjectViewSet(DocumentViewSet):
         'end_date': 'dates.end',
     }
 
+    def get_object(self):
+        obj = super(ObjectViewSet, self).get_object()
+        obj.ancestors = obj.get_references(relation='ancestor')
+        obj.terms = obj.get_references(relation='term')
+        obj.agents = obj.get_references(relation='agent')
+        return obj
+
 
 class TermViewSet(DocumentViewSet):
     """
@@ -246,6 +259,12 @@ class TermViewSet(DocumentViewSet):
     ordering_fields = {
         'title': 'title.keyword',
     }
+
+    def get_object(self):
+        obj = super(TermViewSet, self).get_object()
+        obj.collections = obj.get_references(relation='collection')
+        obj.objects = obj.get_references(relation='object')
+        return obj
 
 
 class SearchView(DocumentViewSet):

@@ -5,6 +5,9 @@ import shortuuid
 from .analyzers import base_analyzer
 
 
+class ResolveException(Exception): pass
+
+
 class DateField(es.Date):
     """Custom Date field to support indexing dates without timezones."""
     def deserialize(self, data):
@@ -95,7 +98,7 @@ class BaseDescriptionComponent(es.Document):
     common fields."""
 
     component_reference = es.Join(relations={'component': 'reference'})
-    external_identifiers = es.Nested(ExternalIdentifier, required=True)
+    external_identifiers = es.Object(ExternalIdentifier, required=True)
     id = es.Text(required=True)
     title = es.Text(required=True, analyzer=base_analyzer, fields={'keyword': es.Keyword()})
     type = es.Text(required=True, fields={'keyword': es.Keyword()})
@@ -106,6 +109,8 @@ class BaseDescriptionComponent(es.Document):
         return False
 
     def save(self, **kwargs):
+        """Create source_identifier field as a concatenation of external
+        identifier source and identifier."""
         for e in self.external_identifiers:
             e.source_identifier = "{}_{}".format(e.source, e.identifier)
         return super(BaseDescriptionComponent, self).save(**kwargs)
@@ -128,9 +133,7 @@ class DescriptionComponent(BaseDescriptionComponent):
     def generate_id(self):
         return shortuuid.uuid()
 
-    def add_reference(self, obj, relation):
-        index = self.meta.index if ('index' in self.meta) else self._index._name
-        identifier = self.generate_id()
+    def save_reference(self, index, identifier, resolved_obj, relation):
         reference = Reference(
             _routing=self.meta.id,
             _index=index,
@@ -138,30 +141,78 @@ class DescriptionComponent(BaseDescriptionComponent):
             component_reference={'name': 'reference', 'parent': self.meta.id},
             id=identifier,
             relation=relation,
-            uri='/collections/{}'.format(obj.meta.id),
-            type=obj.type,
-            title=obj.title,
-            external_identifiers=obj.external_identifiers
+            uri='/{}/{}'.format(index, resolved_obj.meta.id),
+            type=resolved_obj.type,
+            title=resolved_obj.title,
+            external_identifiers=resolved_obj.external_identifiers
         )
         reference.save()
         return reference
 
-    def search_references(self, relation=None):
+    def add_references(self, source_identifier, resolved_obj, relation):
+        """Indexes child reference to this object. This allows for the edge case
+        where one object has multiple relations to the same object. Likely this
+        would be a data quality issue (for example a term associated with the
+        same object multiple times), but given the state of our data, it's probably
+        best to account for this."""
+        new_references = []
+        index = self.meta.index if ('index' in self.meta) else self._index._name
+        references = self.get_references(source_identifier=source_identifier, relation=relation)
+        print(references)
+        if len(references) > 0:
+            for reference in references:
+                new = self.save_reference(index, reference.meta.id, resolved_obj, relation)
+                new_references.append(new)
+        else:
+            new = self.save_reference(index, self.generate_id(), resolved_obj, relation)
+            new_references.append(new)
+        return new_references
+
+    def search_references(self, **kwargs):
         s = Reference.search()
         s = s.filter('parent_id', type='reference', id=self.meta.id)
-        if relation:
-            s = s.filter('match_phrase', relation=relation)
+        if kwargs.get('source_identifier'):
+            s = s.filter('match_phrase', external_identifiers__source_identifier=kwargs.get('source_identifier'))
+        if kwargs.get('relation'):
+            s = s.filter('match_phrase', relation=kwargs.get('relation'))
         s = s.params(routing=self.meta.id)
         return s
 
     # TODO: this currently only returns 10 - need to return all
-    def get_references(self, relation=None):
+    def get_references(self, **kwargs):
         """Get references from inner_hits already present or by searching."""
         if 'inner_hits' in self.meta and 'reference' in self.meta.inner_hits:
             return self.meta.inner_hits.reference.hits
-        return list(self.search_references(relation))
+        return list(self.search_references(**kwargs))
+
+    def resolve_parent_relationships(self):
+        try:
+            self_ids = ["{}_{}".format(i.source, i.identifier) for i in self.external_identifiers]
+            for relation in self.parent_relations:
+                for i in self_ids:
+                    parents = DescriptionComponent.search().filter('match_phrase', external_identifiers__source_identifier=i).execute()
+                    for p in parents:
+                        p.add_references(i, self, relation[0])
+        except AttributeError:
+            pass
+
+    def resolve_child_relationships(self):
+        try:
+            for relation in self.child_relations:
+                # Nested list comprehension, what's up?!?!
+                parent_ids = ["{}_{}".format(i.source, i.identifier)
+                              for obj in getattr(self, relation[1])
+                              for i in obj.external_identifiers]
+                for i in parent_ids:
+                    source_objs = DescriptionComponent.search().filter('match_phrase', external_identifiers__source_identifier=i).execute()
+                    for o in source_objs:
+                        self.add_references(i, o, relation[0])
+        except AttributeError:
+            pass
 
     def save(self, **kwargs):
+        self.resolve_parent_relationships()
+        self.resolve_child_relationships()
         self.component_reference = 'component'
         return super(DescriptionComponent, self).save(**kwargs)
 
@@ -194,24 +245,16 @@ class Agent(DescriptionComponent):
     description = es.Text(analyzer=base_analyzer, fields={'keyword': es.Keyword()})
     dates = es.Object(Date)
     notes = es.Nested(Note)
-    # collections = es.Nested(Reference)
-    # objects = es.Nested(Reference)
+
+    parent_relations = (
+        ('agent', 'agents__external_identifiers'),
+        ('creator', 'creators__external_identifiers'),
+    )
 
     @classmethod
     def search(cls, **kwargs):
         search = super(Agent, cls).search(**kwargs)
         return search.filter('term', type='agent')
-
-    def save(self, **kwargs):
-        as_ids = [i for i in self.external_identifiers if i.source == 'archivesspace']
-        for i in as_ids:
-            parents = documents_by_external_id(Collection,
-                                               "{}_{}".format(i.source, i.identifier),
-                                               'agents__external_identifiers__source_identifier')
-            for p in parents:
-                # TODO: need to check to see if this exists first!
-                self.add_reference(p, 'agent')
-        return super(Agent, self).save(**kwargs)
 
 
 class Collection(DescriptionComponent):
@@ -228,26 +271,20 @@ class Collection(DescriptionComponent):
     notes = es.Nested(Note)
     rights_statements = es.Nested(RightsStatement)
 
+    parent_relations = (
+        ('collection', 'collections__external_identifiers'),
+    )
+    child_relations = (
+        ('agent', 'agents'),
+        ('ancestor', 'ancestors'),
+        ('child', 'children'),
+        ('term', 'terms'),
+    )
+
     @classmethod
     def search(cls, **kwargs):
         search = super(Collection, cls).search(**kwargs)
         return search.filter('term', type='collection')
-
-    def save(self, **kwargs):
-        as_ids = [i for i in self.external_identifiers if i.source == 'archivesspace']
-        for i in as_ids:
-            parents = documents_by_external_id(Collection,
-                                               "{}_{}".format(i.source, i.identifier),
-                                               'ancestors__external_identifiers__source_identifier')
-            for p in parents:
-                self.add_reference(p, 'ancestor')
-        # this is probably the wrong way around. References should resolve themselves.
-        # self.terms = resolve_references(self, 'archivesspace', Term, self.terms)
-        # creators = resolve_references(self, 'archivesspace', Agent, self.creators)
-        # self.agents = resolve_references(self, 'archivesspace', Agent, self.agents)
-        # self.ancestors = resolve_references(self, 'archivesspace', Collection, self.ancestors)
-        # self.children = resolve_references(self, 'archivesspace', Collection, self.children)
-        return super(Collection, self).save(**kwargs)
 
 
 class Object(DescriptionComponent):
@@ -258,10 +295,16 @@ class Object(DescriptionComponent):
     languages = es.Object(Language)
     extents = es.Nested(Extent, required=True)
     notes = es.Nested(Note)
-    # agents = es.Nested(Reference)
-    # terms = es.Nested(Reference)
-    # ancestors = es.Nested(Reference)
     rights_statements = es.Nested(RightsStatement)
+
+    parent_relations = (
+        ('object', 'objects__external_identifiers'),
+    )
+    child_relations = (
+        ('agent', 'agents'),
+        ('ancestor', 'ancestors'),
+        ('term', 'terms'),
+    )
 
     @classmethod
     def search(cls, **kwargs):
@@ -271,49 +314,12 @@ class Object(DescriptionComponent):
 
 class Term(DescriptionComponent):
     """A controlled term topical, geo"""
-    # collections = es.Nested(Reference)
-    # objects = es.Nested(Reference)
+
+    parent_relations = (
+        ('term', 'terms__external_identifiers'),
+    )
 
     @classmethod
     def search(cls, **kwargs):
         search = super(Term, cls).search(**kwargs)
         return search.filter('term', type='term')
-
-
-def resolve_references(obj, source, doc_cls, ref_list):
-    resolved = []
-    for a in ref_list:
-        identifiers = [i.identifier for i in a.external_identifiers if i.source == source]
-        ident = identifiers[0] if len(identifiers) else None
-        primary_doc = documents_by_external_id(doc_cls, ident, source)  # the document containing the information to resolve
-        if primary_doc:
-            for ext_id in primary_doc.external_identifiers:
-                id_doc = documents_by_external_id(Reference, ext_id.identifier, ext_id.source, parent=obj)
-                if not id_doc:
-                    continue
-                id_doc.title = primary_doc.title
-                id_doc.type = primary_doc.type
-                id_doc.external_identifiers = primary_doc.external_identifiers
-                id_doc.uri = get_uri(primary_doc)
-                id_doc.order = primary_doc.order if ('order' in primary_doc) else None
-                id_doc.meta.parent = obj
-                id_doc.save()
-                resolved.append(id_doc)
-    resolved = resolved if len(resolved) else None
-    return resolved
-
-
-def documents_by_external_id(doc_cls, ident, path):
-    """Returns a list of documents which match an identifier at a particular path.
-
-    NOTE: This should target the `source_identifier` field, which is a concatenation
-    of the source and identifier. This covers the edge case of identifiers which
-    are not unique between sources.
-    """
-    s = doc_cls.search()
-    s = s.query('match_phrase', **{path: ident})
-    return s
-
-
-def get_uri(obj):
-    return "{}/{}".format(obj.meta.index, obj.meta.id)

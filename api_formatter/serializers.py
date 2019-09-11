@@ -124,7 +124,7 @@ class ObjectSerializer(BaseDetailSerializer):
     rights_statements = RightsStatementSerializer(many=True, allow_null=True)
     agents = ReferenceSerializer(many=True, allow_null=True)
     terms = ReferenceSerializer(many=True, allow_null=True)
-    ancestors_raw = ReferenceSerializer(many=True, allow_null=True)
+    ancestors = ReferenceSerializer(many=True, allow_null=True)
 
 
 class ObjectListSerializer(BaseListSerializer): pass
