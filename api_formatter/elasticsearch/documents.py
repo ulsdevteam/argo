@@ -9,7 +9,9 @@ class ResolveException(Exception): pass
 
 
 class DateField(es.Date):
-    """Custom Date field to support indexing dates without timezones."""
+    """
+    Custom Date field to support indexing dates without timezones.
+    """
     def deserialize(self, data):
         data = super(DateField, self).deserialize(data)
         if isinstance(data, datetime):
@@ -18,7 +20,8 @@ class DateField(es.Date):
 
 
 class Date(es.InnerDoc):
-    """Refers to a single date or date range.
+    """
+    Refers to a single date or date range.
     Used on Documents to create human and machine readable date representations.
     The `expression` field is intended to be a human readable representation of a date or date range,
     while the begin and end values are machine readable and actionable values.
@@ -31,7 +34,8 @@ class Date(es.InnerDoc):
 
 
 class ExternalIdentifier(es.InnerDoc):
-    """Abstract representation of external identifier object.
+    """
+    Abstract representation of external identifier object.
     Used on Documents to unambiguously tie them to source data.
     """
     identifier = es.Text(required=True)
@@ -40,25 +44,32 @@ class ExternalIdentifier(es.InnerDoc):
 
 
 class Extent(es.InnerDoc):
-    """Refers to the size of a group of records."""
+    """
+    The size of a group of records.
+    """
     type = es.Text(required=True)
     value = es.Float(required=True)
 
 
 class Language(es.InnerDoc):
-    """Refers to a human language."""
+    """
+    A human language.
+    """
     expression = es.Text(required=True)
     identifier = es.Text(required=True)
 
 
 class Subnote(es.InnerDoc):
-    """Abstract wrapper for note content, associated with Note Documents."""
+    """
+    Abstract wrapper for note content, associated with Note Documents.
+    """
     content = es.Text(required=True, analyzer=base_analyzer)
     type = es.Text(required=True)
 
 
 class Note(es.InnerDoc):
-    """Abstract representation of notes, which are typed and contain human readable
+    """
+    Abstract representation of notes, which are typed and contain human readable
     content in a Subnotes InnerDoc.
     """
     source = es.Text(required=True)
@@ -68,7 +79,9 @@ class Note(es.InnerDoc):
 
 
 class RightsGranted(es.InnerDoc):
-    """Abstract wrapper for RightsGranted information, associated with a RightsStatement Document."""
+    """
+    Abstract wrapper for RightsGranted information, associated with a RightsStatement Document.
+    """
     act = es.Text(required=True)
     begin = DateField(required=True)
     end = DateField(required=True)
@@ -77,7 +90,8 @@ class RightsGranted(es.InnerDoc):
 
 
 class RightsStatement(es.InnerDoc):
-    """Machine readable representation of restrictions or permissions,
+    """
+    Machine readable representation of restrictions or permissions,
     generally related to a group of archival records. This structure is based
     on the PREservation Metadata: Implementation Strategies (PREMIS) Rights entity.
     """
@@ -94,8 +108,10 @@ class RightsStatement(es.InnerDoc):
 
 
 class BaseDescriptionComponent(es.Document):
-    """Base class for DescriptionComponents and Reference objects with
-    common fields."""
+    """
+    Base class for DescriptionComponents and Reference objects with
+    common fields.
+    """
 
     component_reference = es.Join(relations={'component': 'reference'})
     external_identifiers = es.Object(ExternalIdentifier, required=True)
@@ -109,8 +125,10 @@ class BaseDescriptionComponent(es.Document):
         return False
 
     def save(self, **kwargs):
-        """Create source_identifier field as a concatenation of external
-        identifier source and identifier."""
+        """
+        Create source_identifier field as a concatenation of external
+        identifier source and identifier.
+        """
         for e in self.external_identifiers:
             e.source_identifier = "{}_{}".format(e.source, e.identifier)
         return super(BaseDescriptionComponent, self).save(**kwargs)
@@ -120,7 +138,9 @@ class BaseDescriptionComponent(es.Document):
 
 
 class DescriptionComponent(BaseDescriptionComponent):
-    """Wrapper for actual description elements"""
+    """
+    Wrapper for actual description elements.
+    """
     @classmethod
     def _matches(cls, hit):
         """Ensure we only get components back."""
@@ -150,11 +170,13 @@ class DescriptionComponent(BaseDescriptionComponent):
         return reference
 
     def add_references(self, source_identifier, resolved_obj, relation):
-        """Indexes child reference to this object. This allows for the edge case
+        """
+        Indexes child reference to this object. This allows for the edge case
         where one object has multiple relations to the same object. Likely this
         would be a data quality issue (for example a term associated with the
         same object multiple times), but given the state of our data, it's probably
-        best to account for this."""
+        best to account for this.
+        """
         new_references = []
         index = self.meta.index if ('index' in self.meta) else self._index._name
         references = self.get_references(source_identifier=source_identifier, relation=relation)
@@ -184,10 +206,15 @@ class DescriptionComponent(BaseDescriptionComponent):
             return self.meta.inner_hits.reference.hits
         return list(self.search_references(**kwargs))
 
-    def resolve_parent_relationships(self):
+    def resolve_relations_to_self(self):
+        """
+        Finds references in other Documents to this Document and creates or
+        updates a child Reference Document for each. These relations are listed
+        in a `relations_to_self` attribute on the main Document object.
+        """
         try:
             self_ids = ["{}_{}".format(i.source, i.identifier) for i in self.external_identifiers]
-            for relation in self.parent_relations:
+            for relation in self.relations_to_self:
                 for i in self_ids:
                     parents = DescriptionComponent.search().filter('match_phrase', external_identifiers__source_identifier=i).execute()
                     for p in parents:
@@ -195,9 +222,15 @@ class DescriptionComponent(BaseDescriptionComponent):
         except AttributeError:
             pass
 
-    def resolve_child_relationships(self):
+    def resolve_relations_in_self(self):
+        """
+        Iterates through each key in this Document which contains references to
+        other Documents, and creates or updates a Reference Document for each.
+        These relations are listed in a `relations_in_self` attribute on the
+        main Document object.
+        """
         try:
-            for relation in self.child_relations:
+            for relation in self.relations_in_self:
                 # Nested list comprehension, what's up?!?!
                 parent_ids = ["{}_{}".format(i.source, i.identifier)
                               for obj in getattr(self, relation[1])
@@ -210,21 +243,28 @@ class DescriptionComponent(BaseDescriptionComponent):
             pass
 
     def save(self, **kwargs):
-        self.resolve_parent_relationships()
-        self.resolve_child_relationships()
+        """
+        Overrides save to resolve relations.
+        """
+        self.resolve_relation_in_self()
+        self.resolve_relations_to_self()
         self.component_reference = 'component'
         return super(DescriptionComponent, self).save(**kwargs)
 
 
 class Reference(BaseDescriptionComponent):
-    """A minimal reference to a Document."""
+    """
+    A minimal reference to a Document.
+    """
     uri = es.Text()
     order = es.Integer()
     relation = es.Text()
 
     @classmethod
     def _matches(cls, hit):
-        """ Use Reference class for child documents with child name 'reference' """
+        """
+        Use Reference class for child documents with child name 'reference'.
+        """
         return isinstance(hit['_source']['component_reference'], dict) \
             and hit['_source']['component_reference'].get('name') == 'reference'
 
@@ -238,14 +278,15 @@ class Reference(BaseDescriptionComponent):
 
 
 class Agent(DescriptionComponent):
-    """A person, organization or family that was involved in the creation and
+    """
+    A person, organization or family that was involved in the creation and
     maintenance of records, or is the subject of those records.
     """
     description = es.Text(analyzer=base_analyzer, fields={'keyword': es.Keyword()})
     dates = es.Object(Date)
     notes = es.Nested(Note)
 
-    parent_relations = (
+    relations_to_self = (
         ('agent', 'agents__external_identifiers'),
         ('creator', 'creators__external_identifiers'),
     )
@@ -257,7 +298,8 @@ class Agent(DescriptionComponent):
 
 
 class Collection(DescriptionComponent):
-    """A group of archival records which contains other groups of records,
+    """
+    A group of archival records which contains other groups of records,
     and may itself be part of a larger Collection.  Collections are not
     physical groups of records, such as boxes and folders, but are intellectually
     significant aggregations which crucial to understanding the context of
@@ -270,10 +312,10 @@ class Collection(DescriptionComponent):
     notes = es.Nested(Note)
     rights_statements = es.Nested(RightsStatement)
 
-    parent_relations = (
+    relations_to_self = (
         ('collection', 'collections__external_identifiers'),
     )
-    child_relations = (
+    relations_in_self = (
         ('agent', 'agents'),
         ('ancestor', 'ancestors'),
         ('child', 'children'),
@@ -288,7 +330,8 @@ class Collection(DescriptionComponent):
 
 
 class Object(DescriptionComponent):
-    """A group of archival records which is part of a larger Collection,
+    """
+    A group of archival records which is part of a larger Collection,
     but does not contain any other aggregations.
     """
     dates = es.Object(Date, required=True)
@@ -297,10 +340,10 @@ class Object(DescriptionComponent):
     notes = es.Nested(Note)
     rights_statements = es.Nested(RightsStatement)
 
-    parent_relations = (
+    relations_to_self = (
         ('object', 'objects__external_identifiers'),
     )
-    child_relations = (
+    relations_in_self = (
         ('agent', 'agents'),
         ('ancestor', 'ancestors'),
         ('term', 'terms'),
@@ -313,9 +356,11 @@ class Object(DescriptionComponent):
 
 
 class Term(DescriptionComponent):
-    """A controlled term topical, geo"""
+    """
+    A subject, geographic area, document format or other controlled term.
+    """
 
-    parent_relations = (
+    relations_to_self = (
         ('term', 'terms__external_identifiers'),
     )
 
