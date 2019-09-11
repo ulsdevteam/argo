@@ -76,7 +76,7 @@ class TestAPI(TestCase):
         if w in STOP_WORDS:
             word_list.remove(w)
             print("{} found in stop words, trying again from list {}".format(w, word_list))
-            self.get_random_word(word_list)
+            return self.get_random_word(word_list)
         return w
 
     def get_random_obj(self, obj_list, cls):
