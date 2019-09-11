@@ -73,12 +73,9 @@ class BaseListSerializer(serializers.Serializer):
     uri = serializers.SerializerMethodField()
     title = serializers.CharField()
 
-    # TODO: this needs to be revised because everything is in one index now
     def get_uri(self, obj):
-        try:
-            return reverse('{}-detail'.format(self.context.get('view').basename), kwargs={"pk": obj.meta.id})
-        except:
-            return "{}/{}".format(obj.meta.index, obj.meta.id)
+        basename = self.context.get('view').basename or obj.type
+        return reverse('{}-detail'.format(basename), kwargs={"pk": obj.meta.id})
 
 
 class BaseDetailSerializer(serializers.Serializer):
@@ -141,6 +138,3 @@ class TermListSerializer(BaseListSerializer): pass
 class HitSerializer(BaseListSerializer):
     type = serializers.CharField()
     dates = DateSerializer(many=True, allow_null=True)
-    extents = ExtentSerializer(many=True, allow_null=True)
-    agents = ReferenceSerializer(many=True, allow_null=True)
-    terms = ReferenceSerializer(many=True, allow_null=True)

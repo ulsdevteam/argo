@@ -208,7 +208,6 @@ class DescriptionComponent(BaseDescriptionComponent):
         s = s.params(routing=self.meta.id)
         return s
 
-    # TODO: this currently only returns 10 - need to return all
     def get_references(self, **kwargs):
         """Get references from inner_hits already present or by searching."""
         if 'inner_hits' in self.meta and 'reference' in self.meta.inner_hits:
