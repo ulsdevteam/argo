@@ -63,8 +63,8 @@ class RightsStatementSerializer(serializers.Serializer):
 
 
 class ReferenceSerializer(serializers.Serializer):
-    title = serializers.CharField()  # TODO: remove allow_null
-    uri = serializers.CharField()  # TODO: remove allow_null
+    title = serializers.CharField()
+    uri = serializers.CharField()
     order = serializers.IntegerField(allow_null=True)
     type = serializers.CharField(allow_null=True)
 
