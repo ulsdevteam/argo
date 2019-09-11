@@ -158,7 +158,6 @@ class DescriptionComponent(BaseDescriptionComponent):
         new_references = []
         index = self.meta.index if ('index' in self.meta) else self._index._name
         references = self.get_references(source_identifier=source_identifier, relation=relation)
-        print(references)
         if len(references) > 0:
             for reference in references:
                 new = self.save_reference(index, reference.meta.id, resolved_obj, relation)

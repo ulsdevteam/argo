@@ -44,10 +44,10 @@ class DocumentViewSet(ReadOnlyModelViewSet):
     def get_serializer_class(self):
         if self.action == 'list':
             try:
-                return self.ListSerializer
+                return self.list_serializer
             except AttributeError:
-                return self.Serializer
-        return self.Serializer
+                return self.serializer
+        return self.serializer
 
     def get_queryset(self):
         return self.search.query()
@@ -63,8 +63,13 @@ class DocumentViewSet(ReadOnlyModelViewSet):
         hits = queryset.execute().hits
         count = len(hits)
         if count == 1:
-            # TODO: roll up fields which require resolution
-            return hits[0]
+            obj = hits[0]
+            try:
+                for relation in self.relations:
+                    setattr(obj, relation[0], obj.get_references(relation=relation[1]))
+            except AttributeError:
+                pass
+            return obj
         elif count > 1:
             raise Http404("Multiple results matches the given query. Expected a single result.")
         raise Http404("No result matches the given query.")
@@ -75,8 +80,12 @@ class AgentViewSet(DocumentViewSet):
     Returns data about agents, including people, organizations and families.
     """
     document = Agent
-    ListSerializer = AgentListSerializer
-    Serializer = AgentSerializer
+    list_serializer = AgentListSerializer
+    serializer = AgentSerializer
+    relations = (
+        ('collections', 'collection'),
+        ('objects', 'object'),
+    )
 
     filter_fields = {
         'id': {
@@ -120,20 +129,20 @@ class AgentViewSet(DocumentViewSet):
         'end_date': 'dates.end',
     }
 
-    def get_object(self):
-        obj = super(AgentViewSet, self).get_object()
-        obj.collections = obj.get_references(relation='collection')
-        obj.objects = obj.get_references(relation='object')
-        return obj
-
 
 class CollectionViewSet(DocumentViewSet):
     """
     Returns data about collections, or intellectually significant groups of archival records.
     """
     document = Collection
-    ListSerializer = CollectionListSerializer
-    Serializer = CollectionSerializer
+    list_serializer = CollectionListSerializer
+    serializer = CollectionSerializer
+    relations = (
+        ('ancestors', 'ancestor'),
+        ('children', 'child'),
+        ('terms', 'term'),
+        ('agents', 'agent')
+    )
 
     filter_fields = {
         'id': {
@@ -173,22 +182,19 @@ class CollectionViewSet(DocumentViewSet):
         'end_date': 'dates.end',
     }
 
-    def get_object(self):
-        obj = super(CollectionViewSet, self).get_object()
-        obj.ancestors = obj.get_references(relation='ancestor')
-        obj.children = obj.get_references(relation='child')
-        obj.terms = obj.get_references(relation='term')
-        obj.agents = obj.get_references(relation='agent')
-        return obj
-
 
 class ObjectViewSet(DocumentViewSet):
     """
     Returns data about objects, or groups of archival records which have no children.
     """
     document = Object
-    ListSerializer = ObjectListSerializer
-    Serializer = ObjectSerializer
+    list_serializer = ObjectListSerializer
+    serializer = ObjectSerializer
+    relations = (
+        ('ancestors', 'ancestor'),
+        ('terms', 'term'),
+        ('agents', 'agent'),
+    )
 
     filter_fields = {
         'id': {
@@ -223,21 +229,18 @@ class ObjectViewSet(DocumentViewSet):
         'end_date': 'dates.end',
     }
 
-    def get_object(self):
-        obj = super(ObjectViewSet, self).get_object()
-        obj.ancestors = obj.get_references(relation='ancestor')
-        obj.terms = obj.get_references(relation='term')
-        obj.agents = obj.get_references(relation='agent')
-        return obj
-
 
 class TermViewSet(DocumentViewSet):
     """
     Returns data about terms, including subjects, geographic areas and more.
     """
     document = Term
-    ListSerializer = TermListSerializer
-    Serializer = TermSerializer
+    list_serializer = TermListSerializer
+    serializer = TermSerializer
+    relations = (
+        ('collections', 'collection'),
+        ('objects', 'object'),
+    )
 
     filter_fields = {
         'id': {
@@ -260,25 +263,13 @@ class TermViewSet(DocumentViewSet):
         'title': 'title.keyword',
     }
 
-    def get_object(self):
-        obj = super(TermViewSet, self).get_object()
-        obj.collections = obj.get_references(relation='collection')
-        obj.objects = obj.get_references(relation='object')
-        return obj
-
 
 class SearchView(DocumentViewSet):
     """
     Performs search queries across agents, collections, objects and terms.
     """
 
-    # TODO: consider returning a query for each index,
-    # which can then be handled by a different serializer and presented in
-    # an array like {agents: [{...}], collections: [{...}], objects[{...}], terms: [{...}]}
-    # We may want collections and objects returned in a single query but the other stuff
-    # in separate arrays...
-
-    ListSerializer = HitSerializer
+    list_serializer = HitSerializer
     pagination_class = PAGINATION_CLASS
     filter_backends = SEARCH_BACKENDS
 

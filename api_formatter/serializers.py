@@ -63,11 +63,10 @@ class RightsStatementSerializer(serializers.Serializer):
 
 
 class ReferenceSerializer(serializers.Serializer):
-    title = serializers.CharField(allow_null=True)  # TODO: remove allow_null
-    uri = serializers.CharField(allow_null=True)  # TODO: remove allow_null
+    title = serializers.CharField()  # TODO: remove allow_null
+    uri = serializers.CharField()  # TODO: remove allow_null
     order = serializers.IntegerField(allow_null=True)
     type = serializers.CharField(allow_null=True)
-    # external_identifiers = ExternalIdentifierSerializer(many=True)
 
 
 class BaseListSerializer(serializers.Serializer):
@@ -107,7 +106,7 @@ class CollectionSerializer(BaseDetailSerializer):
     notes = NoteSerializer(many=True, allow_null=True)
     rights_statements = RightsStatementSerializer(many=True, allow_null=True)
     agents = ReferenceSerializer(many=True, allow_null=True)
-    creators = ReferenceSerializer(many=True, allow_null=True)
+    # creators = ReferenceSerializer(many=True, allow_null=True)
     terms = ReferenceSerializer(many=True, allow_null=True)
     ancestors = ReferenceSerializer(many=True, allow_null=True)
     children = ReferenceSerializer(many=True, allow_null=True)
