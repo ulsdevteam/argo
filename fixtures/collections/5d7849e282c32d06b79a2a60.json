@@ -1,0 +1,196 @@
+{
+  "index": 50,
+  "id": "5d7849e282c32d06b79a2a60",
+  "title": "Amet sit do culpa pariatur excepteur ut duis dolor officia.",
+  "type": "collection",
+  "level": "recordgrp",
+  "dates": [
+    {
+      "begin": "1957-12-27",
+      "end": "1964-09-11",
+      "expression": "Dec 27th, 1957 - Sep 11th, 1964",
+      "type": "bulk",
+      "label": "usage"
+    }
+  ],
+  "creators": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/21"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "value": "9.37",
+      "type": "megabytes"
+    },
+    {
+      "value": "3.22",
+      "type": "terabytes"
+    }
+  ],
+  "notes": [
+    {
+      "type": "altformavail",
+      "title": "commodo proident veniam",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "nulla magna et aute sint in"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "amet dolore ullamco consequat officia occaecat",
+            "incididunt excepteur dolore nostrud qui excepteur"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bibliography",
+      "title": "ea incididunt laboris",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "in irure ad culpa eiusmod excepteur"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "acquinfo",
+      "title": "ad dolor cillum",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "mollit enim consectetur nulla veniam excepteur",
+            "sit mollit aute est tempor anim",
+            "laboris ut do cillum aute elit",
+            "do velit ipsum excepteur do culpa",
+            "et labore enim nulla anim Lorem"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "duis sunt irure occaecat exercitation veniam",
+            "ex dolor voluptate tempor veniam veniam",
+            "cillum culpa commodo nisi excepteur exercitation"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "anim et veniam deserunt proident occaecat"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "extension",
+      "title": "officia commodo reprehenderit",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "excepteur labore magna minim eiusmod aliqua"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "qui ea et veniam occaecat id",
+            "qui duis minim sunt nostrud nulla",
+            "in non elit elit cillum exercitation",
+            "enim cillum in aliqua irure qui"
+          ]
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/29"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/1"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/23"
+        }
+      ]
+    }
+  ],
+  "agents": [],
+  "languages": [
+    {
+      "expression": "Esperanto",
+      "identifier": "epo"
+    },
+    {
+      "expression": "English",
+      "identifier": "spa"
+    }
+  ],
+  "rights_statements": [],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/13"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/24"
+        }
+      ]
+    }
+  ],
+  "children": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/7"
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/resources/50"
+    }
+  ]
+}

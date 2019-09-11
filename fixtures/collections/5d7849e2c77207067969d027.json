@@ -1,0 +1,150 @@
+{
+  "index": 46,
+  "id": "5d7849e2c77207067969d027",
+  "title": "Ipsum Lorem incididunt do laborum adipisicing voluptate sit occaecat ipsum culpa fugiat.",
+  "type": "collection",
+  "level": "recordgrp",
+  "dates": [
+    {
+      "begin": "1940-08-05",
+      "end": "1972-02-19",
+      "expression": "Aug 5th, 1940 - Feb 19th, 1972",
+      "type": "single",
+      "label": "creation"
+    }
+  ],
+  "creators": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/7"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "value": "7.59",
+      "type": "megabytes"
+    },
+    {
+      "value": "6.94",
+      "type": "photographic_prints"
+    }
+  ],
+  "notes": [
+    {
+      "type": "materials",
+      "title": "enim irure aliqua",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "aute amet sint exercitation adipisicing mollit",
+            "elit consectetur magna dolor sint minim",
+            "reprehenderit irure sunt officia excepteur duis",
+            "labore labore enim non labore voluptate",
+            "cillum reprehenderit non labore magna culpa"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "adipisicing labore consequat id in velit",
+            "sunt dolore tempor aute pariatur dolor",
+            "tempor deserunt excepteur cillum eu culpa",
+            "ex minim nostrud exercitation exercitation laboris",
+            "excepteur consectetur pariatur in laborum do"
+          ]
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/46"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/13"
+        }
+      ]
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/22"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/25"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/23"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "expression": "English",
+      "identifier": "epo"
+    }
+  ],
+  "rights_statements": [],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/46"
+        }
+      ]
+    }
+  ],
+  "children": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/9"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/44"
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/resources/46"
+    }
+  ]
+}

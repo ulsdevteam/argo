@@ -44,10 +44,10 @@ class DocumentViewSet(ReadOnlyModelViewSet):
     def get_serializer_class(self):
         if self.action == 'list':
             try:
-                return self.ListSerializer
+                return self.list_serializer
             except AttributeError:
-                return self.Serializer
-        return self.Serializer
+                return self.serializer
+        return self.serializer
 
     def get_queryset(self):
         return self.search.query()
@@ -61,13 +61,15 @@ class DocumentViewSet(ReadOnlyModelViewSet):
                                  "attribute on the view correctly." % (self.__class__.__name__, lookup_url_kwarg))
         queryset = queryset.filter('match_phrase', **{'_id': self.kwargs[lookup_url_kwarg]})
         hits = queryset.execute().hits
-        # hits = obj_list.hits
         count = len(hits)
         if count == 1:
-            # obj = hits[0]['_source']
-            # TODO: figure out how to incorporate this
-            # obj.ancestors = obj_list[0].get_references()
-            return hits[0]
+            obj = hits[0]
+            try:
+                for relation in self.relations:
+                    setattr(obj, relation, obj.get_references(relation=relation))
+            except AttributeError:
+                pass
+            return obj
         elif count > 1:
             raise Http404("Multiple results matches the given query. Expected a single result.")
         raise Http404("No result matches the given query.")
@@ -78,8 +80,9 @@ class AgentViewSet(DocumentViewSet):
     Returns data about agents, including people, organizations and families.
     """
     document = Agent
-    ListSerializer = AgentListSerializer
-    Serializer = AgentSerializer
+    list_serializer = AgentListSerializer
+    serializer = AgentSerializer
+    relations = ('collections', 'objects')
 
     filter_fields = {
         'id': {
@@ -129,8 +132,9 @@ class CollectionViewSet(DocumentViewSet):
     Returns data about collections, or intellectually significant groups of archival records.
     """
     document = Collection
-    ListSerializer = CollectionListSerializer
-    Serializer = CollectionSerializer
+    list_serializer = CollectionListSerializer
+    serializer = CollectionSerializer
+    relations = ('ancestors', 'children', 'creators', 'terms', 'agents')
 
     filter_fields = {
         'id': {
@@ -170,19 +174,15 @@ class CollectionViewSet(DocumentViewSet):
         'end_date': 'dates.end',
     }
 
-    def get_object(self):
-        obj = super(CollectionViewSet, self).get_object()
-        obj.ancestors = obj.get_references(relation='ancestors')
-        return obj
-
 
 class ObjectViewSet(DocumentViewSet):
     """
     Returns data about objects, or groups of archival records which have no children.
     """
     document = Object
-    ListSerializer = ObjectListSerializer
-    Serializer = ObjectSerializer
+    list_serializer = ObjectListSerializer
+    serializer = ObjectSerializer
+    relations = ('ancestors', 'terms', 'agents')
 
     filter_fields = {
         'id': {
@@ -223,8 +223,9 @@ class TermViewSet(DocumentViewSet):
     Returns data about terms, including subjects, geographic areas and more.
     """
     document = Term
-    ListSerializer = TermListSerializer
-    Serializer = TermSerializer
+    list_serializer = TermListSerializer
+    serializer = TermSerializer
+    relations = ('collections', 'objects',)
 
     filter_fields = {
         'id': {
@@ -253,13 +254,7 @@ class SearchView(DocumentViewSet):
     Performs search queries across agents, collections, objects and terms.
     """
 
-    # TODO: consider returning a query for each index,
-    # which can then be handled by a different serializer and presented in
-    # an array like {agents: [{...}], collections: [{...}], objects[{...}], terms: [{...}]}
-    # We may want collections and objects returned in a single query but the other stuff
-    # in separate arrays...
-
-    ListSerializer = HitSerializer
+    list_serializer = HitSerializer
     pagination_class = PAGINATION_CLASS
     filter_backends = SEARCH_BACKENDS
 

@@ -1,0 +1,253 @@
+{
+  "index": 38,
+  "id": "5d7849e2b0a817fd9ff585aa",
+  "title": "Aliqua duis consequat consectetur excepteur nulla do sint consequat sit sunt.",
+  "type": "collection",
+  "level": "file",
+  "dates": [
+    {
+      "begin": "1952-12-04",
+      "end": "1968-11-11",
+      "expression": "Dec 4th, 1952 - Nov 11th, 1968",
+      "type": "bulk",
+      "label": "issued"
+    },
+    {
+      "begin": "1926-01-11",
+      "end": "1970-01-02",
+      "expression": "Jan 11th, 1926 - Jan 2nd, 1970",
+      "type": "inclusive",
+      "label": "publication"
+    }
+  ],
+  "creators": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/50"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "value": "4.12",
+      "type": "photographic_slides"
+    }
+  ],
+  "notes": [],
+  "terms": [],
+  "agents": [],
+  "languages": [
+    {
+      "expression": "English",
+      "identifier": "spa"
+    },
+    {
+      "expression": "Spanish",
+      "identifier": "epo"
+    },
+    {
+      "expression": "English",
+      "identifier": "eng"
+    }
+  ],
+  "rights_statements": [
+    {
+      "id": "5d7849e2faf000c02156aa24",
+      "determination_date": "2019-09-11",
+      "type": "rights_statement",
+      "rights_type": "other",
+      "rights_status": "unknown",
+      "begin": "2019-09-11",
+      "end": "2019-09-11",
+      "copyright_status": "copyrighted",
+      "other_basis": "laboris",
+      "jurisdiction": "FR",
+      "notes": [
+        {
+          "type": "restrictions",
+          "title": "in ex eiusmod",
+          "source": "wikidata",
+          "subnotes": [
+            {
+              "type": "definedlist",
+              "content": [
+                "mollit pariatur adipisicing minim anim magna",
+                "fugiat id minim pariatur quis magna"
+              ]
+            }
+          ]
+        }
+      ],
+      "rights_granted": [
+        {
+          "act": "migrate",
+          "begin": "2019-09-11",
+          "end": "2019-09-11",
+          "restriction": "allow",
+          "notes": [
+            {
+              "type": "restrictions",
+              "title": "officia magna commodo",
+              "source": "wikipedia",
+              "subnotes": [
+                {
+                  "type": "definedlist",
+                  "content": [
+                    "non sit nulla esse amet aliqua",
+                    "dolor laborum sint dolor veniam veniam",
+                    "labore est velit reprehenderit tempor esse"
+                  ]
+                },
+                {
+                  "type": "orderedlist",
+                  "content": [
+                    "ipsum et Lorem Lorem cillum voluptate",
+                    "adipisicing consectetur nostrud mollit velit velit",
+                    "laborum non ullamco do minim id",
+                    "tempor excepteur nostrud labore consequat est"
+                  ]
+                },
+                {
+                  "type": "definedlist",
+                  "content": [
+                    "dolore excepteur tempor nisi aliqua irure",
+                    "reprehenderit aliqua ad adipisicing exercitation consequat",
+                    "veniam dolore esse exercitation id labore",
+                    "proident ullamco incididunt occaecat duis tempor"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "act": "delete",
+          "begin": "2019-09-11",
+          "end": "2019-09-11",
+          "restriction": "allow",
+          "notes": [
+            {
+              "type": "rights_statement_act",
+              "title": "anim est magna",
+              "source": "cartographer",
+              "subnotes": [
+                {
+                  "type": "orderedlist",
+                  "content": [
+                    "laboris quis pariatur minim nulla veniam"
+                  ]
+                },
+                {
+                  "type": "orderedlist",
+                  "content": [
+                    "ex esse ex esse dolor minim",
+                    "commodo reprehenderit eiusmod duis consequat qui",
+                    "aliquip quis cupidatat adipisicing culpa in",
+                    "sunt velit fugiat laboris consequat sint"
+                  ]
+                },
+                {
+                  "type": "text",
+                  "content": [
+                    "fugiat exercitation commodo magna occaecat aute"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5d7849e28af019b840c844b3",
+      "determination_date": "2019-09-11",
+      "type": "rights_statement",
+      "rights_type": "license",
+      "rights_status": "public domain",
+      "begin": "2019-09-11",
+      "end": "2019-09-11",
+      "copyright_status": "copyrighted",
+      "other_basis": "et",
+      "jurisdiction": "CN",
+      "notes": [
+        {
+          "type": "materials",
+          "title": "incididunt amet exercitation",
+          "source": "wikidata",
+          "subnotes": [
+            {
+              "type": "definedlist",
+              "content": [
+                "quis cillum culpa ullamco ullamco tempor",
+                "ea mollit excepteur eiusmod esse ut",
+                "Lorem deserunt ullamco exercitation aliquip minim"
+              ]
+            }
+          ]
+        }
+      ],
+      "rights_granted": [
+        {
+          "act": "use",
+          "begin": "2019-09-11",
+          "end": "2019-09-11",
+          "restriction": "disallow",
+          "notes": []
+        }
+      ]
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/9"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/48"
+        }
+      ]
+    }
+  ],
+  "children": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/49"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/1"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/28"
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/resources/38"
+    }
+  ]
+}

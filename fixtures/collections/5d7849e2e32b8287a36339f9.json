@@ -1,0 +1,265 @@
+{
+  "index": 24,
+  "id": "5d7849e2e32b8287a36339f9",
+  "title": "Fugiat pariatur cillum sint enim in cupidatat id incididunt tempor quis dolore quis ut.",
+  "type": "collection",
+  "level": "series",
+  "dates": [
+    {
+      "begin": "1939-06-27",
+      "end": "1970-01-16",
+      "expression": "Jun 27th, 1939 - Jan 16th, 1970",
+      "type": "bulk",
+      "label": "deaccession"
+    },
+    {
+      "begin": "1959-09-15",
+      "end": "2018-02-13",
+      "expression": "Sep 15th, 1959 - Feb 13th, 2018",
+      "type": "single",
+      "label": "broadcast"
+    },
+    {
+      "begin": "1913-05-25",
+      "end": "1981-03-03",
+      "expression": "May 25th, 1913 - Mar 3rd, 1981",
+      "type": "single",
+      "label": "modified"
+    }
+  ],
+  "creators": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/15"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "value": "3.91",
+      "type": "megabytes"
+    },
+    {
+      "value": "1.06",
+      "type": "megabytes"
+    }
+  ],
+  "notes": [
+    {
+      "type": "altformavail",
+      "title": "officia fugiat laborum",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "in dolore eiusmod consequat tempor do",
+            "veniam commodo laborum pariatur proident esse",
+            "non irure voluptate elit aliqua velit"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "magna ut magna aliquip aliquip non",
+            "excepteur veniam Lorem voluptate quis consectetur",
+            "qui voluptate sit fugiat veniam velit"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "edition",
+      "title": "commodo adipisicing cillum",
+      "source": "archivesspace",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "exercitation tempor dolor exercitation exercitation veniam",
+            "id aliqua anim sit eu enim"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "amet do aute eu fugiat deserunt"
+          ]
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/26"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/39"
+        }
+      ]
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/32"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/2"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/39"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/33"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/13"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "expression": "English",
+      "identifier": "epo"
+    }
+  ],
+  "rights_statements": [
+    {
+      "id": "5d7849e2e395c54cfcf69222",
+      "determination_date": "2019-09-11",
+      "type": "rights_statement",
+      "rights_type": "license",
+      "rights_status": "copyrighted",
+      "begin": "2019-09-11",
+      "end": "2019-09-11",
+      "copyright_status": "unknown",
+      "other_basis": "magna",
+      "jurisdiction": "CN",
+      "notes": [],
+      "rights_granted": [
+        {
+          "act": "modify",
+          "begin": "2019-09-11",
+          "end": "2019-09-11",
+          "restriction": "disallow",
+          "notes": []
+        }
+      ]
+    },
+    {
+      "id": "5d7849e2f7eb731192a0229a",
+      "determination_date": "2019-09-11",
+      "type": "rights_statement",
+      "rights_type": "copyright",
+      "rights_status": "public domain",
+      "begin": "2019-09-11",
+      "end": "2019-09-11",
+      "copyright_status": "unknown",
+      "other_basis": "sint",
+      "jurisdiction": "US",
+      "notes": [],
+      "rights_granted": [
+        {
+          "act": "delete",
+          "begin": "2019-09-11",
+          "end": "2019-09-11",
+          "restriction": "allow",
+          "notes": [
+            {
+              "type": "extension",
+              "title": "id anim proident",
+              "source": "cartographer",
+              "subnotes": [
+                {
+                  "type": "orderedlist",
+                  "content": [
+                    "culpa laboris laboris fugiat in non",
+                    "ad pariatur do sit elit qui",
+                    "reprehenderit exercitation qui aliquip cupidatat dolor"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/50"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/6"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/19"
+        }
+      ]
+    }
+  ],
+  "children": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/32"
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/resources/24"
+    }
+  ]
+}

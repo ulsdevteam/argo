@@ -63,17 +63,17 @@ class RightsStatementSerializer(serializers.Serializer):
 
 
 class ReferenceSerializer(serializers.Serializer):
-    title = serializers.CharField(allow_null=True)  # TODO: remove allow_null
-    uri = serializers.CharField(allow_null=True)  # TODO: remove allow_null
+    title = serializers.CharField()
+    uri = serializers.CharField()
     order = serializers.IntegerField(allow_null=True)
     type = serializers.CharField(allow_null=True)
-    # external_identifiers = ExternalIdentifierSerializer(many=True)
 
 
 class BaseListSerializer(serializers.Serializer):
     uri = serializers.SerializerMethodField()
     title = serializers.CharField()
 
+    # TODO: this needs to be revised because everything is in one index now
     def get_uri(self, obj):
         try:
             return reverse('{}-detail'.format(self.context.get('view').basename), kwargs={"pk": obj.meta.id})
@@ -124,7 +124,7 @@ class ObjectSerializer(BaseDetailSerializer):
     rights_statements = RightsStatementSerializer(many=True, allow_null=True)
     agents = ReferenceSerializer(many=True, allow_null=True)
     terms = ReferenceSerializer(many=True, allow_null=True)
-    ancestors_raw = ReferenceSerializer(many=True, allow_null=True)
+    ancestors = ReferenceSerializer(many=True, allow_null=True)
 
 
 class ObjectListSerializer(BaseListSerializer): pass

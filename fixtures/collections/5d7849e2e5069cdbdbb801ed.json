@@ -1,0 +1,236 @@
+{
+  "index": 25,
+  "id": "5d7849e2e5069cdbdbb801ed",
+  "title": "Ea pariatur in Lorem adipisicing enim anim aliqua enim est.",
+  "type": "collection",
+  "level": "file",
+  "dates": [
+    {
+      "begin": "1958-03-16",
+      "end": "1997-03-02",
+      "expression": "Mar 16th, 1958 - Mar 2nd, 1997",
+      "type": "inclusive",
+      "label": "agent_relation"
+    },
+    {
+      "begin": "1934-08-07",
+      "end": "1984-06-24",
+      "expression": "Aug 7th, 1934 - Jun 24th, 1984",
+      "type": "bulk",
+      "label": "record_keeping"
+    },
+    {
+      "begin": "1924-03-07",
+      "end": "2008-08-30",
+      "expression": "Mar 7th, 1924 - Aug 30th, 2008",
+      "type": "single",
+      "label": "event"
+    }
+  ],
+  "creators": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/38"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/12"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "value": "9.12",
+      "type": "reels"
+    }
+  ],
+  "notes": [],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/18"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/36"
+        }
+      ]
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/28"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/38"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "expression": "Esperanto",
+      "identifier": "spa"
+    },
+    {
+      "expression": "English",
+      "identifier": "spa"
+    }
+  ],
+  "rights_statements": [
+    {
+      "id": "5d7849e238e4d8aedb4c1ac3",
+      "determination_date": "2019-09-11",
+      "type": "rights_statement",
+      "rights_type": "license",
+      "rights_status": "unknown",
+      "begin": "2019-09-11",
+      "end": "2019-09-11",
+      "copyright_status": "copyrighted",
+      "other_basis": "aute",
+      "jurisdiction": "US",
+      "notes": [
+        {
+          "type": "rights_statement",
+          "title": "ipsum nulla minim",
+          "source": "wikipedia",
+          "subnotes": [
+            {
+              "type": "definedlist",
+              "content": [
+                "fugiat esse elit eu culpa labore",
+                "laborum sit labore magna in enim",
+                "mollit et magna magna do ut",
+                "officia irure tempor id nisi nisi"
+              ]
+            }
+          ]
+        }
+      ],
+      "rights_granted": [
+        {
+          "act": "use",
+          "begin": "2019-09-11",
+          "end": "2019-09-11",
+          "restriction": "disallow",
+          "notes": [
+            {
+              "type": "type_note",
+              "title": "veniam exercitation dolor",
+              "source": "wikidata",
+              "subnotes": [
+                {
+                  "type": "orderedlist",
+                  "content": [
+                    "occaecat ad eiusmod nulla cupidatat nostrud",
+                    "ipsum laborum commodo laboris ipsum quis",
+                    "excepteur minim enim tempor id voluptate"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5d7849e27de949724dc132cc",
+      "determination_date": "2019-09-11",
+      "type": "rights_statement",
+      "rights_type": "copyright",
+      "rights_status": "public domain",
+      "begin": "2019-09-11",
+      "end": "2019-09-11",
+      "copyright_status": "public domain",
+      "other_basis": "dolore",
+      "jurisdiction": "US",
+      "notes": [],
+      "rights_granted": [
+        {
+          "act": "replicate",
+          "begin": "2019-09-11",
+          "end": "2019-09-11",
+          "restriction": "disallow",
+          "notes": []
+        },
+        {
+          "act": "use",
+          "begin": "2019-09-11",
+          "end": "2019-09-11",
+          "restriction": "disallow",
+          "notes": [
+            {
+              "type": "extension",
+              "title": "ut nostrud occaecat",
+              "source": "wikidata",
+              "subnotes": [
+                {
+                  "type": "orderedlist",
+                  "content": [
+                    "ea fugiat nisi officia sit sint",
+                    "veniam officia consectetur veniam est aute"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/37"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/45"
+        }
+      ]
+    }
+  ],
+  "children": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/50"
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/resources/25"
+    }
+  ]
+}

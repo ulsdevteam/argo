@@ -1,0 +1,189 @@
+{
+  "index": 19,
+  "id": "5d7849e255d6c222ae4d9ed0",
+  "title": "Voluptate enim excepteur culpa sunt enim.",
+  "type": "collection",
+  "level": "file",
+  "dates": [
+    {
+      "begin": "1950-08-16",
+      "end": "1994-05-17",
+      "expression": "Aug 16th, 1950 - May 17th, 1994",
+      "type": "single",
+      "label": "creation"
+    }
+  ],
+  "creators": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/5"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "value": "6.95",
+      "type": "linear_feet"
+    }
+  ],
+  "notes": [
+    {
+      "type": "arrangement",
+      "title": "ex ut non",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "text",
+          "content": [
+            "ex exercitation Lorem commodo pariatur et",
+            "aliqua pariatur magna consequat cillum aliqua"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "occaecat eiusmod ad quis voluptate aliqua"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "proident incididunt laborum nisi nisi officia",
+            "laboris consectetur irure id tempor esse",
+            "et labore duis veniam irure mollit",
+            "cillum reprehenderit dolor ad enim reprehenderit",
+            "eiusmod aute laborum ex anim pariatur"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "expiration",
+      "title": "fugiat est in",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "fugiat occaecat do aliquip sit nulla",
+            "id amet ullamco ipsum commodo ut",
+            "in minim ad anim consectetur culpa",
+            "incididunt non anim nulla aliquip pariatur",
+            "ea cillum amet irure anim tempor"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "eu velit velit dolor anim elit"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "bioghist",
+      "title": "et cillum voluptate",
+      "source": "archivesspace",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "deserunt officia ipsum dolor officia laborum"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "nulla et anim tempor nulla ex"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "Lorem ea id culpa sit commodo"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "note",
+      "title": "in magna anim",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "velit amet adipisicing ex sunt ut"
+          ]
+        }
+      ]
+    }
+  ],
+  "terms": [],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/26"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "expression": "Esperanto",
+      "identifier": "spa"
+    },
+    {
+      "expression": "Spanish",
+      "identifier": "spa"
+    }
+  ],
+  "rights_statements": [],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/4"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/11"
+        }
+      ]
+    }
+  ],
+  "children": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/50"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/45"
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/resources/19"
+    }
+  ]
+}

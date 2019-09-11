@@ -1,0 +1,224 @@
+{
+  "index": 2,
+  "id": "5d7849e2472bc48b0ae16cd6",
+  "title": "Sit in officia ipsum eiusmod elit non voluptate et duis labore velit nisi excepteur reprehenderit.",
+  "type": "collection",
+  "level": "series",
+  "dates": [
+    {
+      "begin": "1932-04-26",
+      "end": "1972-08-09",
+      "expression": "Apr 26th, 1932 - Aug 9th, 1972",
+      "type": "inclusive",
+      "label": "agent_relation"
+    },
+    {
+      "begin": "1939-02-04",
+      "end": "1989-05-08",
+      "expression": "Feb 4th, 1939 - May 8th, 1989",
+      "type": "single",
+      "label": "creation"
+    },
+    {
+      "begin": "1948-05-05",
+      "end": "1979-03-17",
+      "expression": "May 5th, 1948 - Mar 17th, 1979",
+      "type": "bulk",
+      "label": "modified"
+    }
+  ],
+  "creators": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/12"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "value": "3.8",
+      "type": "photographic_slides"
+    }
+  ],
+  "notes": [
+    {
+      "type": "fileplan",
+      "title": "consectetur est ullamco",
+      "source": "wikipedia",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "elit cillum ipsum commodo voluptate eu",
+            "nulla proident laboris dolor laborum aliqua",
+            "non sint Lorem dolor ipsum elit",
+            "deserunt occaecat et dolor eu consequat",
+            "ut proident do proident ipsum voluptate"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "anim quis magna excepteur pariatur magna",
+            "eiusmod sunt cupidatat dolor ea labore",
+            "reprehenderit dolor amet fugiat ipsum fugiat",
+            "consequat id cillum laboris magna culpa"
+          ]
+        },
+        {
+          "type": "orderedlist",
+          "content": [
+            "id Lorem amet ex est ex",
+            "deserunt Lorem tempor officia esse Lorem",
+            "mollit non amet consectetur minim elit"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "prefercite",
+      "title": "est Lorem irure",
+      "source": "archivesspace",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "occaecat irure velit deserunt tempor veniam",
+            "deserunt esse ea exercitation culpa ex",
+            "anim id cillum labore eu anim",
+            "consequat exercitation consectetur deserunt elit aliqua",
+            "eiusmod elit esse exercitation incididunt proident"
+          ]
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/34"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/24"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/26"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/35"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/3"
+        }
+      ]
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/36"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "expression": "English",
+      "identifier": "spa"
+    },
+    {
+      "expression": "English",
+      "identifier": "spa"
+    },
+    {
+      "expression": "Spanish",
+      "identifier": "spa"
+    }
+  ],
+  "rights_statements": [],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/49"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/48"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/18"
+        }
+      ]
+    }
+  ],
+  "children": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/15"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/9"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/10"
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/resources/2"
+    }
+  ]
+}

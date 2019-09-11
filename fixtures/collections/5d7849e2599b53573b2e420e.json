@@ -1,0 +1,207 @@
+{
+  "index": 21,
+  "id": "5d7849e2599b53573b2e420e",
+  "title": "Tempor do in ea enim dolor Lorem qui consequat.",
+  "type": "collection",
+  "level": "subseries",
+  "dates": [
+    {
+      "begin": "1942-04-12",
+      "end": "1965-02-12",
+      "expression": "Apr 12th, 1942 - Feb 12th, 1965",
+      "type": "inclusive",
+      "label": "usage"
+    }
+  ],
+  "creators": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/28"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "value": "8.9",
+      "type": "volumes"
+    }
+  ],
+  "notes": [
+    {
+      "type": "bibliography",
+      "title": "magna est ex",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "elit labore consequat in quis laborum"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "id quis ullamco laborum quis et",
+            "et elit esse proident ullamco pariatur"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "duis ad occaecat eiusmod fugiat amet",
+            "dolore eiusmod proident quis irure consequat",
+            "duis anim sunt tempor non consectetur",
+            "proident eu sint ad officia aliqua",
+            "incididunt aute qui consectetur consequat duis"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "additional_information",
+      "title": "velit eiusmod pariatur",
+      "source": "wikidata",
+      "subnotes": [
+        {
+          "type": "orderedlist",
+          "content": [
+            "et non aliquip proident consequat non",
+            "labore esse dolor aliqua irure ipsum",
+            "nisi ex aliqua est anim deserunt"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "commodo eiusmod excepteur qui occaecat irure",
+            "cupidatat Lorem qui sit dolore ullamco",
+            "est laboris consectetur pariatur nisi duis",
+            "laborum tempor commodo dolore aliqua sit"
+          ]
+        },
+        {
+          "type": "definedlist",
+          "content": [
+            "sunt deserunt elit nisi sunt labore",
+            "do eiusmod dolor voluptate deserunt ut",
+            "nisi culpa Lorem officia velit ea",
+            "elit do nisi est ea quis"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "prefercite",
+      "title": "occaecat pariatur ullamco",
+      "source": "cartographer",
+      "subnotes": [
+        {
+          "type": "definedlist",
+          "content": [
+            "ullamco aliquip voluptate nisi magna culpa",
+            "id sunt exercitation ullamco deserunt ipsum",
+            "aliqua non consectetur labore cupidatat culpa",
+            "enim quis est aute ex consectetur"
+          ]
+        },
+        {
+          "type": "text",
+          "content": [
+            "qui elit cillum proident incididunt reprehenderit",
+            "anim ad est veniam Lorem veniam",
+            "est do magna officia mollit reprehenderit",
+            "irure minim pariatur aute non proident"
+          ]
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/3"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/31"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/29"
+        }
+      ]
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/6"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/47"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "expression": "English",
+      "identifier": "eng"
+    },
+    {
+      "expression": "English",
+      "identifier": "spa"
+    },
+    {
+      "expression": "Esperanto",
+      "identifier": "epo"
+    }
+  ],
+  "rights_statements": [],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/33"
+        }
+      ]
+    }
+  ],
+  "children": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/47"
+        }
+      ]
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/resources/21"
+    }
+  ]
+}

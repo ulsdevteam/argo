@@ -71,10 +71,11 @@ class TestAPI(TestCase):
         return (child_obj if child_obj else "")
 
     def get_random_word(self, word_list):
-        """Returns a random lowercased word."""
-        words = word_list.split(" ")
-        w = words[random.randint(0, len(words)-1)].lower()
+        """Returns a random lowercased word from a list."""
+        w = word_list[random.randint(0, len(word_list)-1)].lower()
         if w in STOP_WORDS:
+            word_list.remove(w)
+            print("{} found in stop words, trying again from list {}".format(w, word_list))
             self.get_random_word(word_list)
         return w
 
@@ -118,7 +119,7 @@ class TestAPI(TestCase):
         for field in viewset.search_fields:
             field_list = field.rsplit('.keyword')[0].split('.')
             value = self.get_nested_value(field_list, obj)
-            query = self.get_random_word(value)
+            query = self.get_random_word(value.split(" "))
             if query:
                 url = "{}?query={}".format(base_url, query)
                 print(url)
@@ -132,9 +133,9 @@ class TestAPI(TestCase):
         base_viewset = viewset.as_view(actions={"get": "list"}, basename=basename)
         request = self.factory.get(base_url)
         response = base_viewset(request)
-        # self.assertEqual(obj_length, int(response.data['count']),
-        #                  "Number of documents in index for View {} did not match \
-        #                   number indexed".format("{}-list".format(basename)))
+        self.assertEqual(obj_length, int(response.data['count']),
+                         "Number of documents in index for View {} did not match \
+                          number indexed".format("{}-list".format(basename)))
         self.sort_fields(viewset, basename, base_url)
         obj = self.get_random_obj(response, model_cls)
         self.filter_fields(viewset, base_url, basename, obj)
@@ -151,10 +152,20 @@ class TestAPI(TestCase):
         self.validate_fixtures()
         for t in TYPE_MAP:
             added_ids = self.index_fixture_data('fixtures/{}'.format(t[0]), t[1])
-            Index('default').refresh()
             self.list_view(t[1], t[3], t[2], len(added_ids))
             for ident in added_ids:
                 self.detail_view(t[3], t[2], ident)
+        for t in TYPE_MAP:
+            for f in os.listdir(os.path.join('fixtures', t[0])):
+                with open(os.path.join('fixtures', t[0], f), 'r') as jf:
+                    data = json.load(jf)
+                    obj = t[1].get(id=data['id'])
+                    try:
+                        for relation in obj.relations_in_self:
+                            references = obj.get_references(relation=relation)
+                            self.assertEqual(len(data[relation]), len(references))
+                    except AttributeError:
+                        pass
 
     def test_schema(self):
         schema = self.client.get(reverse('schema'))
