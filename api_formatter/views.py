@@ -1,11 +1,11 @@
 from django.http import Http404
+from elasticsearch_dsl import connections, Index, Search, DateHistogramFacet, RangeFacet, TermsFacet
+from rac_es.documents import Agent, Collection, Object, Term
 from rest_framework.generics import ListAPIView
 from rest_framework.viewsets import ReadOnlyModelViewSet
 from rest_framework.response import Response
 from rest_framework.renderers import JSONRenderer
-from elasticsearch_dsl import connections, Index, Search, DateHistogramFacet, RangeFacet, TermsFacet
 
-from .elasticsearch.documents import Agent, Collection, Object, Term
 from .view_helpers import (
     STRING_LOOKUPS,
     NUMBER_LOOKUPS,

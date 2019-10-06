@@ -9,9 +9,9 @@ import shortuuid
 from django.test import TestCase
 from django.urls import reverse
 from elasticsearch_dsl import connections, Search, Index, utils
+from rac_es.documents import Agent, BaseDescriptionComponent, Collection, Object, Term
 from rest_framework.test import APIRequestFactory
 
-from .elasticsearch.documents import Agent, BaseDescriptionComponent, Collection, Object, Term
 from .views import AgentViewSet, CollectionViewSet, ObjectViewSet, TermViewSet
 from argo import settings
 
