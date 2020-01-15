@@ -53,6 +53,7 @@ PAGINATION_CLASS = PageNumberPagination
 
 
 class SearchMixin:
+    """Mixin that provides a search object for views."""
 
     def __init__(self, *args, **kwargs):
         self.index = settings.ELASTICSEARCH_DSL['default']['index']
