@@ -16,6 +16,8 @@ STATIC_URL = '/static/'
 
 ELASTICSEARCH_DSL = {
     'default': {
-        'hosts': ['elasticsearch:9200']
+        'hosts': ['elasticsearch:9200'],
+        'index': 'default',
+        'connection': 'default'
     },
 }

@@ -1,17 +1,15 @@
 from django.http import Http404
-from elasticsearch_dsl import connections, Index, Search, DateHistogramFacet, RangeFacet, TermsFacet
+from elasticsearch_dsl import DateHistogramFacet
 from rac_es.documents import Agent, Collection, Object, Term
-from rest_framework.generics import ListAPIView
 from rest_framework.viewsets import ReadOnlyModelViewSet
-from rest_framework.response import Response
-from rest_framework.renderers import JSONRenderer
 
 from .view_helpers import (
     STRING_LOOKUPS,
     NUMBER_LOOKUPS,
     FILTER_BACKENDS,
     SEARCH_BACKENDS,
-    PAGINATION_CLASS)
+    PAGINATION_CLASS,
+    SearchMixin)
 from .serializers import (
     HitSerializer,
     AgentSerializer, AgentListSerializer,
@@ -20,26 +18,9 @@ from .serializers import (
     TermSerializer, TermListSerializer)
 
 
-class DocumentViewSet(ReadOnlyModelViewSet):
+class DocumentViewSet(SearchMixin, ReadOnlyModelViewSet):
     filter_backends = FILTER_BACKENDS
     pagination_class = PAGINATION_CLASS
-
-    def __init__(self, *args, **kwargs):
-        assert self.document is not None
-
-        self.client = connections.get_connection(
-            self.document._get_using()
-        )
-        self.index = self.document._index._name
-        if not Index(self.index).exists():
-            raise Http404("Index `{}` does not exist".format(self.index))
-        self.mapping = self.document._doc_type.mapping.properties.name
-        self.search = self.document.search(
-            using=self.client,
-            # index=self.index,
-            # doc_type=self.document._doc_type.name
-        )
-        super(ReadOnlyModelViewSet, self).__init__(*args, **kwargs)
 
     def get_serializer_class(self):
         if self.action == 'list':
@@ -285,20 +266,6 @@ class SearchView(DocumentViewSet):
             'fields': ['subnotes.content']
         },
     }
-
-    def __init__(self, *args, **kwargs):
-        indices = ['default']
-        if not Index(indices).exists():
-            raise Http404("Index `{}` does not exist".format(indices))
-        self.client = connections.get_connection('default')
-        # TODO: will have to pass a mapping here
-        # self.mapping = self.document._doc_type.mapping.properties.name
-        self.search = Search(
-            using=self.client,
-            index=indices,
-            doc_type=['_all']
-        )
-        super(DocumentViewSet, self).__init__(*args, **kwargs)
 
     def get_queryset(self):
         return self.search.query()

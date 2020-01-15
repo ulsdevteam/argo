@@ -1,3 +1,4 @@
+from django.http import Http404
 from django_elasticsearch_dsl_drf.constants import (
     LOOKUP_FILTER_TERMS,
     LOOKUP_FILTER_RANGE,
@@ -12,13 +13,16 @@ from django_elasticsearch_dsl_drf.constants import (
 )
 from django_elasticsearch_dsl_drf.filter_backends import (
     FilteringFilterBackend,
-    IdsFilterBackend,
     OrderingFilterBackend,
     DefaultOrderingFilterBackend,
     CompoundSearchFilterBackend,
     FacetedSearchFilterBackend,
 )
 from django_elasticsearch_dsl_drf.pagination import PageNumberPagination
+from elasticsearch_dsl import connections, Index, Search
+from rest_framework.viewsets import ReadOnlyModelViewSet
+
+from argo import settings
 
 STRING_LOOKUPS = [
     LOOKUP_FILTER_TERMS,
@@ -46,3 +50,24 @@ FILTER_BACKENDS = [FilteringFilterBackend,
 SEARCH_BACKENDS = FILTER_BACKENDS + [FacetedSearchFilterBackend]
 
 PAGINATION_CLASS = PageNumberPagination
+
+
+class SearchMixin:
+
+    def __init__(self, *args, **kwargs):
+        self.index = settings.ELASTICSEARCH_DSL['default']['index']
+        self.client = connections.get_connection(
+            settings.ELASTICSEARCH_DSL['default']['connection']
+        )
+        if not Index(self.index).exists():
+            raise Http404("Index `{}` does not exist".format(self.index))
+        try:
+            self.mapping = self.document._doc_type.mapping.properties.name
+            self.search = self.document.search(using=self.client)
+        except AttributeError:
+            self.search = Search(
+                using=self.client,
+                index=self.index,
+                doc_type=['_all']
+            )
+        super(ReadOnlyModelViewSet, self).__init__(*args, **kwargs)
