@@ -203,14 +203,6 @@
           "identifier": "/terms/21"
         }
       ]
-    },
-    {
-      "external_identifiers": [
-        {
-          "source": "archivesspace",
-          "identifier": "/terms/21"
-        }
-      ]
     }
   ],
   "type": "object",
