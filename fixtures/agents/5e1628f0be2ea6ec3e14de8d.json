@@ -1,0 +1,56 @@
+{
+  "index": 2,
+  "dates": [
+    {
+      "begin": "1945-09-08",
+      "end": "2001-07-11",
+      "type": "single",
+      "label": "record_keeping",
+      "source": "archivesspace",
+      "expression": "September 7, 1945 - July 10, 2001"
+    },
+    {
+      "begin": "1948-09-15",
+      "end": "1986-02-28",
+      "type": "inclusive",
+      "label": "issued",
+      "source": "archivesspace",
+      "expression": "September 14, 1948 - February 27, 1986"
+    }
+  ],
+  "description": "Incididunt veniam irure aliquip ea ullamco. Elit id occaecat incididunt minim laboris magna ipsum velit deserunt nostrud ipsum. Anim ipsum sit sit voluptate deserunt incididunt cillum nulla occaecat sint et in enim nulla. Qui non sit laboris fugiat tempor incididunt laboris ut duis esse velit.\r\n",
+  "title": "Tucker family",
+  "notes": [
+    {
+      "source": "cartographer",
+      "type": "note",
+      "subnotes": [
+        {
+          "content": [
+            "incididunt sunt commodo qui anim elit"
+          ],
+          "type": "definedlist"
+        },
+        {
+          "content": [
+            "dolor ad aute aliquip sint in",
+            "ipsum incididunt labore irure nulla nulla",
+            "excepteur eiusmod qui ipsum sunt in",
+            "irure amet irure Lorem laborum fugiat"
+          ],
+          "type": "orderedlist"
+        }
+      ],
+      "title": "proident ut ullamco"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/2"
+    }
+  ],
+  "agent_type": "family",
+  "type": "agent",
+  "id": "5e1628f0be2ea6ec3e14de8d"
+}

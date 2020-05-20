@@ -1,0 +1,40 @@
+{
+  "index": 39,
+  "dates": [
+    {
+      "begin": "1942-01-02",
+      "end": "1976-12-30",
+      "type": "bulk",
+      "label": "event",
+      "source": "archivesspace",
+      "expression": "January 1, 1942 - December 29, 1976"
+    }
+  ],
+  "description": "Consequat quis nostrud ut consequat aute cillum ut amet reprehenderit qui occaecat. Irure sint mollit enim nisi qui consectetur. Velit eu ea laborum sunt eu in fugiat amet laborum consequat pariatur. Consequat adipisicing commodo qui pariatur cillum anim mollit est sint aliqua occaecat ullamco. Ullamco excepteur sunt nulla reprehenderit proident occaecat proident cupidatat velit cillum ex. Do consectetur duis ut quis. Velit id anim non esse exercitation sint.\r\n",
+  "title": "Rhodes Foundation",
+  "notes": [
+    {
+      "source": "wikidata",
+      "type": "fileplan",
+      "subnotes": [
+        {
+          "content": [
+            "eu ullamco ut aliquip pariatur ea",
+            "ipsum amet ut ullamco aute aute"
+          ],
+          "type": "definedlist"
+        }
+      ],
+      "title": "ad sit proident"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/39"
+    }
+  ],
+  "agent_type": "organization",
+  "type": "agent",
+  "id": "5e162cb76f03c695dfb86ccd"
+}

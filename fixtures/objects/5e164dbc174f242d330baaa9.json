@@ -1,0 +1,274 @@
+{
+  "index": 30,
+  "dates": [
+    {
+      "begin": "1948-02-09",
+      "end": "1989-04-30",
+      "type": "bulk",
+      "label": "publication",
+      "source": "archivesspace",
+      "expression": "February 8, 1948 - April 29, 1989"
+    },
+    {
+      "begin": "1917-07-04",
+      "end": "1996-11-15",
+      "type": "single",
+      "label": "record_keeping",
+      "source": "archivesspace",
+      "expression": "July 3, 1917 - November 14, 1996"
+    },
+    {
+      "begin": "1921-12-04",
+      "end": "1982-09-30",
+      "type": "bulk",
+      "label": "modified",
+      "source": "archivesspace",
+      "expression": "December 3, 1921 - September 29, 1982"
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/13"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "type": "record cartons",
+      "value": "5.24"
+    }
+  ],
+  "title": "Sunt nisi mollit do laboris in irure exercitation commodo ut quis qui elit est.",
+  "notes": [
+    {
+      "source": "wikipedia",
+      "type": "inscription",
+      "subnotes": [
+        {
+          "content": [
+            "laboris minim tempor cillum qui aliqua",
+            "esse dolore laborum aliquip reprehenderit incididunt",
+            "officia labore ut aliqua ea veniam",
+            "sit id ullamco officia voluptate consequat"
+          ],
+          "type": "orderedlist"
+        },
+        {
+          "content": [
+            "adipisicing officia ea anim pariatur deserunt",
+            "laborum sint exercitation culpa ipsum elit",
+            "consequat irure aliqua proident aliqua eu",
+            "in proident voluptate reprehenderit nostrud aute"
+          ],
+          "type": "definedlist"
+        }
+      ],
+      "title": "minim reprehenderit elit"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/30"
+    }
+  ],
+  "languages": [
+    {
+      "identifier": "epo",
+      "expression": "Spanish"
+    }
+  ],
+  "rights_statements": [
+    {
+      "begin": "1927-01-01",
+      "end": "2015-08-23",
+      "copyright_status": "unknown",
+      "notes": [
+        {
+          "source": "archivesspace",
+          "type": "materials",
+          "subnotes": [
+            {
+              "content": [
+                "exercitation nulla reprehenderit dolor qui voluptate"
+              ],
+              "type": "orderedlist"
+            }
+          ],
+          "title": "sunt qui minim"
+        }
+      ],
+      "jurisdiction": "US",
+      "other_basis": "tempor",
+      "rights_granted": [
+        {
+          "restriction": "allow",
+          "begin": "1948-04-28",
+          "end": "2013-05-17",
+          "notes": [
+            {
+              "source": "wikipedia",
+              "type": "type_note",
+              "subnotes": [
+                {
+                  "content": [
+                    "adipisicing eu laborum nulla aute nostrud",
+                    "magna est do eiusmod excepteur consequat",
+                    "non excepteur et exercitation qui sit"
+                  ],
+                  "type": "definedlist"
+                },
+                {
+                  "content": [
+                    "labore proident occaecat nostrud incididunt voluptate",
+                    "elit anim reprehenderit nostrud minim eiusmod",
+                    "excepteur anim pariatur est in duis",
+                    "culpa eu excepteur velit minim ullamco"
+                  ],
+                  "type": "definedlist"
+                }
+              ],
+              "title": "in aute occaecat"
+            }
+          ],
+          "act": "delete"
+        },
+        {
+          "restriction": "disallow",
+          "begin": "1918-03-13",
+          "end": "1971-04-22",
+          "notes": [
+            {
+              "source": "wikipedia",
+              "type": "type_note",
+              "subnotes": [
+                {
+                  "content": [
+                    "commodo ex est minim ea est",
+                    "reprehenderit quis reprehenderit velit non anim",
+                    "pariatur proident esse ut amet fugiat",
+                    "ad consequat do aliquip amet sint"
+                  ],
+                  "type": "definedlist"
+                },
+                {
+                  "content": [
+                    "est reprehenderit enim reprehenderit eiusmod tempor",
+                    "eu deserunt sit tempor irure cillum",
+                    "nisi deserunt mollit irure laborum consequat",
+                    "laborum veniam aute cupidatat anim sunt"
+                  ],
+                  "type": "definedlist"
+                }
+              ],
+              "title": "nulla eu cupidatat"
+            }
+          ],
+          "act": "delete"
+        }
+      ],
+      "rights_status": "unknown",
+      "determination_date": "1953-10-17",
+      "type": "rights_statement",
+      "id": "5e164dbc2280f2a640897b37",
+      "rights_type": "other"
+    },
+    {
+      "begin": "1927-12-24",
+      "end": "1980-02-06",
+      "copyright_status": "unknown",
+      "notes": [],
+      "jurisdiction": "US",
+      "other_basis": "do",
+      "rights_granted": [
+        {
+          "restriction": "allow",
+          "begin": "1959-10-21",
+          "end": "1997-11-08",
+          "notes": [
+            {
+              "source": "wikidata",
+              "type": "permissions",
+              "subnotes": [
+                {
+                  "content": [
+                    "veniam nostrud laboris esse excepteur officia",
+                    "nulla aute in esse commodo nulla"
+                  ],
+                  "type": "definedlist"
+                },
+                {
+                  "content": [
+                    "consequat non pariatur adipisicing velit magna",
+                    "ad aute consequat labore excepteur irure",
+                    "et ut duis sunt id occaecat",
+                    "eiusmod Lorem reprehenderit incididunt irure deserunt",
+                    "anim sit occaecat laborum sit est"
+                  ],
+                  "type": "definedlist"
+                }
+              ],
+              "title": "incididunt dolor esse"
+            }
+          ],
+          "act": "migrate"
+        }
+      ],
+      "rights_status": "unknown",
+      "determination_date": "1923-05-01",
+      "type": "rights_statement",
+      "id": "5e164dbc0ad16b119b0ea871",
+      "rights_type": "other"
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/24"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/45"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/39"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/30"
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/38"
+        }
+      ]
+    }
+  ],
+  "type": "object",
+  "id": "5e164dbc174f242d330baaa9"
+}

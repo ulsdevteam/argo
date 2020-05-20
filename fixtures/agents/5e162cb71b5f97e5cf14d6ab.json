@@ -1,0 +1,54 @@
+{
+  "index": 8,
+  "dates": [
+    {
+      "begin": "1950-06-25",
+      "end": "1993-01-29",
+      "type": "single",
+      "label": "broadcast",
+      "source": "wikidata",
+      "expression": "June 24, 1950 - January 28, 1993"
+    },
+    {
+      "begin": "1950-11-02",
+      "end": "1962-06-08",
+      "type": "inclusive",
+      "label": "publication",
+      "source": "archivesspace",
+      "expression": "November 1, 1950 - June 7, 1962"
+    }
+  ],
+  "description": "Excepteur nostrud ullamco amet elit magna consectetur aliqua consectetur. Ullamco amet esse deserunt voluptate veniam sit. Magna eu consequat ipsum irure adipisicing laboris irure ex elit. Amet nulla consequat sunt nulla. Enim adipisicing cupidatat pariatur sit anim labore ullamco do pariatur cupidatat.\r\n",
+  "title": "Hughes Foundation",
+  "notes": [
+    {
+      "source": "wikidata",
+      "type": "userestrict",
+      "subnotes": [
+        {
+          "content": [
+            "aliquip fugiat officia aliqua quis aliquip"
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            "tempor ut ullamco aute tempor labore",
+            "ut ut dolor enim mollit dolore"
+          ],
+          "type": "orderedlist"
+        }
+      ],
+      "title": "do cillum ad"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/8"
+    }
+  ],
+  "agent_type": "organization",
+  "type": "agent",
+  "id": "5e162cb71b5f97e5cf14d6ab"
+}

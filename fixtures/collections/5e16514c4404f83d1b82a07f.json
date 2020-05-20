@@ -1,0 +1,237 @@
+{
+  "index": 49,
+  "dates": [
+    {
+      "begin": "1934-01-01",
+      "end": "1991-06-03",
+      "type": "bulk",
+      "label": "existence",
+      "source": "archivesspace",
+      "expression": "December 31, 1933 - June 2, 1991"
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/23"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/17"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/4"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "type": "leaves",
+      "value": "7.44"
+    },
+    {
+      "type": "terabytes",
+      "value": "0.26"
+    }
+  ],
+  "level": "item",
+  "notes": [
+    {
+      "source": "cartographer",
+      "type": "custodhist",
+      "subnotes": [
+        {
+          "content": [
+            "velit aliqua est eu anim consequat",
+            "cupidatat consequat officia amet excepteur sint",
+            "cupidatat deserunt cillum est quis nostrud",
+            "occaecat nostrud amet enim id occaecat",
+            "non consectetur do ullamco commodo adipisicing"
+          ],
+          "type": "text"
+        }
+      ],
+      "title": "Lorem deserunt ullamco"
+    },
+    {
+      "source": "cartographer",
+      "type": "appraisal",
+      "subnotes": [
+        {
+          "content": [
+            "excepteur sit id fugiat amet nostrud",
+            "irure minim excepteur velit quis occaecat",
+            "deserunt ullamco occaecat in eiusmod enim",
+            "ex reprehenderit ea et tempor dolore",
+            "excepteur deserunt excepteur anim sint ipsum"
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            "proident exercitation cillum officia tempor sunt"
+          ],
+          "type": "text"
+        }
+      ],
+      "title": "consectetur est veniam"
+    },
+    {
+      "source": "wikidata",
+      "type": "bioghist",
+      "subnotes": [
+        {
+          "content": [
+            "fugiat id magna reprehenderit quis occaecat",
+            "eiusmod eu culpa commodo exercitation minim",
+            "occaecat cillum ut sint dolore ea",
+            "eiusmod sunt et voluptate ullamco ullamco"
+          ],
+          "type": "definedlist"
+        },
+        {
+          "content": [
+            "non anim sit cupidatat tempor sint",
+            "consequat cillum tempor commodo Lorem do",
+            "quis officia aliquip aliquip Lorem qui",
+            "velit exercitation fugiat velit Lorem minim",
+            "irure velit culpa minim mollit enim"
+          ],
+          "type": "orderedlist"
+        }
+      ],
+      "title": "et voluptate est"
+    },
+    {
+      "source": "cartographer",
+      "type": "otherfindaid",
+      "subnotes": [
+        {
+          "content": [
+            "quis et anim cupidatat qui ut"
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            "occaecat mollit velit ex incididunt id"
+          ],
+          "type": "text"
+        }
+      ],
+      "title": "Lorem ea laboris"
+    }
+  ],
+  "title": "Duis voluptate culpa anim eu tempor elit ad deserunt.",
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/resources/49"
+    }
+  ],
+  "children": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/34"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/39"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "identifier": "spa",
+      "expression": "Spanish"
+    },
+    {
+      "identifier": "spa",
+      "expression": "Spanish"
+    }
+  ],
+  "rights_statements": [],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/44"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/18"
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/6"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/25"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/29"
+        }
+      ]
+    }
+  ],
+  "creators": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/44"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/26"
+        }
+      ]
+    }
+  ],
+  "type": "collection",
+  "id": "5e16514c4404f83d1b82a07f"
+}

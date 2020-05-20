@@ -1,0 +1,201 @@
+{
+  "index": 25,
+  "dates": [
+    {
+      "begin": "1951-05-13",
+      "end": "1986-05-16",
+      "type": "inclusive",
+      "label": "modified",
+      "source": "archivesspace",
+      "expression": "May 12, 1951 - May 15, 1986"
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/16"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/42"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "type": "photographic_prints",
+      "value": "5.57"
+    }
+  ],
+  "title": "Est reprehenderit commodo et voluptate et cillum enim pariatur aute.",
+  "notes": [
+    {
+      "source": "archivesspace",
+      "type": "legalstatus",
+      "subnotes": [
+        {
+          "content": [
+            "pariatur voluptate occaecat ullamco laboris ut",
+            "aliquip in fugiat exercitation eu ad",
+            "pariatur amet dolore laborum excepteur sunt",
+            "officia magna pariatur ex laboris consequat",
+            "commodo pariatur quis est proident duis"
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            "incididunt commodo duis eu minim nisi",
+            "ullamco aute irure sint esse anim",
+            "irure amet nulla Lorem proident qui"
+          ],
+          "type": "text"
+        }
+      ],
+      "title": "cillum elit eiusmod"
+    },
+    {
+      "source": "wikidata",
+      "type": "odd",
+      "subnotes": [
+        {
+          "content": [
+            "magna pariatur occaecat consequat Lorem fugiat",
+            "culpa officia deserunt aute magna pariatur",
+            "officia laborum dolor ex incididunt pariatur"
+          ],
+          "type": "definedlist"
+        },
+        {
+          "content": [
+            "aliqua non voluptate anim sunt ipsum",
+            "fugiat commodo elit laboris laboris est",
+            "non labore non esse enim cupidatat",
+            "tempor qui id veniam velit qui",
+            "officia adipisicing eu velit id irure"
+          ],
+          "type": "text"
+        }
+      ],
+      "title": "nulla sunt aute"
+    },
+    {
+      "source": "wikidata",
+      "type": "fileplan",
+      "subnotes": [
+        {
+          "content": [
+            "proident ut commodo aliqua ullamco eiusmod",
+            "ullamco ut sint adipisicing enim sit",
+            "reprehenderit culpa reprehenderit tempor adipisicing labore",
+            "officia dolore in sit ea officia"
+          ],
+          "type": "definedlist"
+        },
+        {
+          "content": [
+            "sint ullamco nostrud consequat consectetur et",
+            "reprehenderit duis nulla anim est cillum",
+            "non qui ullamco et officia ad"
+          ],
+          "type": "definedlist"
+        },
+        {
+          "content": [
+            "nostrud laborum magna reprehenderit aliqua nostrud",
+            "ad voluptate culpa aliqua duis aliquip",
+            "aliquip cillum in incididunt incididunt cillum"
+          ],
+          "type": "text"
+        }
+      ],
+      "title": "non pariatur ad"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/25"
+    }
+  ],
+  "languages": [
+    {
+      "identifier": "epo",
+      "expression": "Esperanto"
+    },
+    {
+      "identifier": "epo",
+      "expression": "Esperanto"
+    }
+  ],
+  "rights_statements": [],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/6"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/19"
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/38"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/24"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/18"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/3"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/15"
+        }
+      ]
+    }
+  ],
+  "type": "object",
+  "id": "5e164dbc2339ea2e2f620426"
+}

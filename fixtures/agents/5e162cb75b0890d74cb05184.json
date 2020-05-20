@@ -1,0 +1,68 @@
+{
+  "index": 7,
+  "dates": [
+    {
+      "begin": "1940-07-16",
+      "end": "1995-07-20",
+      "type": "inclusive",
+      "label": "agent_relation",
+      "source": "archivesspace",
+      "expression": "July 15, 1940 - July 19, 1995"
+    },
+    {
+      "begin": "1951-05-31",
+      "end": "2011-11-09",
+      "type": "inclusive",
+      "label": "digitized",
+      "source": "wikidata",
+      "expression": "May 30, 1951 - November 8, 2011"
+    }
+  ],
+  "description": "Laborum reprehenderit dolor irure veniam mollit elit enim. Culpa esse deserunt anim ipsum Lorem ullamco laboris magna. Veniam ullamco tempor exercitation sint ut aute ut. Labore commodo dolor eiusmod est nulla anim amet veniam reprehenderit nisi deserunt. Esse id velit occaecat minim ad ad minim nostrud amet nulla consectetur consequat ipsum Lorem.\r\n",
+  "title": "Roth Foundation",
+  "notes": [
+    {
+      "source": "wikidata",
+      "type": "accruals",
+      "subnotes": [
+        {
+          "content": [
+            "deserunt tempor elit ea incididunt veniam",
+            "sit dolor officia ex cupidatat Lorem",
+            "cupidatat ea ut ipsum occaecat ullamco",
+            "cupidatat sit reprehenderit labore commodo consectetur",
+            "incididunt non cupidatat labore occaecat voluptate"
+          ],
+          "type": "definedlist"
+        },
+        {
+          "content": [
+            "fugiat ipsum quis consectetur qui fugiat",
+            "anim velit voluptate amet magna pariatur",
+            "qui elit deserunt reprehenderit ipsum sit"
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            "culpa ut non quis occaecat nostrud",
+            "quis laborum exercitation sit eu amet",
+            "laborum cupidatat proident ex eiusmod magna",
+            "sunt proident magna elit tempor sit"
+          ],
+          "type": "text"
+        }
+      ],
+      "title": "do dolore est"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/7"
+    }
+  ],
+  "agent_type": "organization",
+  "type": "agent",
+  "id": "5e162cb75b0890d74cb05184"
+}

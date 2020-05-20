@@ -1,0 +1,82 @@
+{
+  "index": 10,
+  "dates": [
+    {
+      "begin": "1953-03-01",
+      "end": "1968-01-12",
+      "type": "single",
+      "label": "copyright",
+      "source": "archivesspace",
+      "expression": "February 28, 1953 - January 11, 1968"
+    },
+    {
+      "begin": "1957-07-07",
+      "end": "1991-07-30",
+      "type": "single",
+      "label": "modified",
+      "source": "wikidata",
+      "expression": "July 6, 1957 - July 29, 1991"
+    }
+  ],
+  "description": "Minim irure id officia nisi officia voluptate deserunt cillum ad ea ex. Voluptate sunt in laboris dolor occaecat reprehenderit aliqua eiusmod. Aute laborum nisi magna ad ullamco ut laboris ex esse. Sunt tempor amet non aliqua minim culpa magna amet ut voluptate dolor non deserunt velit. Minim id dolor id aliquip. Irure sint dolor velit ipsum reprehenderit ut do dolor ipsum eiusmod non. Eiusmod cillum eiusmod excepteur sint.\r\n",
+  "title": "Flores family",
+  "notes": [
+    {
+      "source": "wikidata",
+      "type": "rights_statement",
+      "subnotes": [
+        {
+          "content": [
+            "eiusmod voluptate do culpa ea ea",
+            "irure laborum deserunt elit adipisicing non",
+            "nulla laboris est enim enim sunt",
+            "sunt aute labore aute ullamco aliqua"
+          ],
+          "type": "definedlist"
+        },
+        {
+          "content": [
+            "reprehenderit ullamco sit nisi ullamco Lorem",
+            "sint et ut et aliquip tempor",
+            "minim nulla mollit ut ad officia"
+          ],
+          "type": "orderedlist"
+        }
+      ],
+      "title": "cillum Lorem ea"
+    },
+    {
+      "source": "cartographer",
+      "type": "scopecontent",
+      "subnotes": [
+        {
+          "content": [
+            "officia aliqua enim id adipisicing nostrud",
+            "cupidatat et aliqua culpa sunt voluptate",
+            "eu eu in nulla magna commodo",
+            "ea enim sunt dolore tempor sunt"
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            "duis et nostrud aliqua et nostrud",
+            "officia dolor dolore non non Lorem",
+            "occaecat aliquip nulla tempor est veniam"
+          ],
+          "type": "definedlist"
+        }
+      ],
+      "title": "ullamco nisi fugiat"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/10"
+    }
+  ],
+  "agent_type": "family",
+  "type": "agent",
+  "id": "5e1628f0118ca374ff35dd8d"
+}

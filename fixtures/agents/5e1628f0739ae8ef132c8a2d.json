@@ -1,0 +1,69 @@
+{
+  "index": 19,
+  "dates": [
+    {
+      "begin": "1953-02-04",
+      "end": "2016-10-28",
+      "type": "bulk",
+      "label": "other",
+      "source": "wikidata",
+      "expression": "February 3, 1953 - October 27, 2016"
+    }
+  ],
+  "description": "Dolor labore aliquip velit mollit laboris nisi ad cillum. Ad aute et excepteur esse est culpa dolore proident laborum. Elit cupidatat elit do ex est pariatur cupidatat aliquip culpa exercitation magna cillum. Esse elit consectetur nulla labore proident culpa cillum.\r\n",
+  "title": "Clemons family",
+  "notes": [
+    {
+      "source": "wikipedia",
+      "type": "edition",
+      "subnotes": [
+        {
+          "content": [
+            "pariatur sit aute culpa voluptate enim"
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            "mollit proident qui sit culpa fugiat"
+          ],
+          "type": "text"
+        }
+      ],
+      "title": "pariatur aliquip id"
+    },
+    {
+      "source": "archivesspace",
+      "type": "accessrestrict",
+      "subnotes": [
+        {
+          "content": [
+            "dolor esse dolor officia est sunt",
+            "commodo irure dolore exercitation occaecat velit",
+            "fugiat sint elit ea amet do"
+          ],
+          "type": "definedlist"
+        },
+        {
+          "content": [
+            "exercitation adipisicing minim proident commodo minim",
+            "velit dolor exercitation incididunt ullamco Lorem",
+            "reprehenderit cupidatat aliqua aute cillum id",
+            "Lorem pariatur veniam occaecat anim anim"
+          ],
+          "type": "text"
+        }
+      ],
+      "title": "in sunt nostrud"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/19"
+    }
+  ],
+  "agent_type": "family",
+  "type": "agent",
+  "id": "5e1628f0739ae8ef132c8a2d"
+}

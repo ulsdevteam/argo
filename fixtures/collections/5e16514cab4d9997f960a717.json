@@ -1,0 +1,315 @@
+{
+  "index": 12,
+  "dates": [
+    {
+      "begin": "1918-08-12",
+      "end": "1997-04-25",
+      "type": "single",
+      "label": "publication",
+      "source": "archivesspace",
+      "expression": "August 11, 1918 - April 24, 1997"
+    },
+    {
+      "begin": "1923-12-22",
+      "end": "2000-11-06",
+      "type": "bulk",
+      "label": "modified",
+      "source": "archivesspace",
+      "expression": "December 21, 1923 - November 5, 2000"
+    },
+    {
+      "begin": "1922-08-14",
+      "end": "1968-06-16",
+      "type": "single",
+      "label": "creation",
+      "source": "archivesspace",
+      "expression": "August 13, 1922 - June 15, 1968"
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/18"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "type": "cubic_feet",
+      "value": "4.09"
+    },
+    {
+      "type": "gigabytes",
+      "value": "4.59"
+    }
+  ],
+  "level": "file",
+  "notes": [
+    {
+      "source": "wikidata",
+      "type": "odd",
+      "subnotes": [
+        {
+          "content": [
+            "proident non ipsum proident irure deserunt"
+          ],
+          "type": "orderedlist"
+        },
+        {
+          "content": [
+            "mollit dolore deserunt occaecat et irure",
+            "aliquip ullamco ipsum irure ad voluptate",
+            "nostrud tempor irure id mollit velit",
+            "cillum aliqua incididunt quis ullamco elit"
+          ],
+          "type": "definedlist"
+        }
+      ],
+      "title": "reprehenderit excepteur exercitation"
+    },
+    {
+      "source": "wikidata",
+      "type": "originalsloc",
+      "subnotes": [
+        {
+          "content": [
+            "aliqua quis pariatur laborum ex proident",
+            "in aliquip quis consequat quis consectetur",
+            "proident aliquip incididunt elit deserunt proident",
+            "ipsum sunt magna nostrud velit in"
+          ],
+          "type": "orderedlist"
+        }
+      ],
+      "title": "duis Lorem labore"
+    },
+    {
+      "source": "wikidata",
+      "type": "expiration",
+      "subnotes": [
+        {
+          "content": [
+            "sint quis aliqua amet duis amet",
+            "aute nostrud aliquip aliqua ullamco consequat",
+            "ea proident adipisicing ex nulla dolor"
+          ],
+          "type": "orderedlist"
+        }
+      ],
+      "title": "quis tempor ex"
+    },
+    {
+      "source": "cartographer",
+      "type": "processinfo",
+      "subnotes": [
+        {
+          "content": [
+            "sint et cillum cillum exercitation est",
+            "consectetur ipsum incididunt occaecat ad exercitation",
+            "quis reprehenderit fugiat elit aute consequat",
+            "Lorem irure eiusmod ipsum pariatur dolor",
+            "ea qui labore laboris est elit"
+          ],
+          "type": "definedlist"
+        },
+        {
+          "content": [
+            "aute proident consectetur ex aute duis",
+            "nulla fugiat velit tempor esse sint",
+            "duis proident fugiat ea veniam quis",
+            "labore in occaecat ut laboris in",
+            "reprehenderit dolore amet nisi culpa ad"
+          ],
+          "type": "text"
+        }
+      ],
+      "title": "duis elit minim"
+    }
+  ],
+  "title": "Ipsum fugiat do officia ullamco et tempor ad.",
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/resources/12"
+    }
+  ],
+  "children": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/26"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/17"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/27"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "identifier": "epo",
+      "expression": "Spanish"
+    }
+  ],
+  "rights_statements": [
+    {
+      "begin": "1940-10-07",
+      "end": "1975-07-23",
+      "copyright_status": "copyrighted",
+      "notes": [],
+      "jurisdiction": "FR",
+      "other_basis": "anim",
+      "rights_granted": [
+        {
+          "restriction": "allow",
+          "begin": "1937-02-07",
+          "end": "1961-07-01",
+          "notes": [],
+          "act": "modify"
+        },
+        {
+          "restriction": "disallow",
+          "begin": "1926-09-25",
+          "end": "2017-08-12",
+          "notes": [
+            {
+              "source": "archivesspace",
+              "type": "permissions",
+              "subnotes": [
+                {
+                  "content": [
+                    "dolore adipisicing non pariatur laborum ex",
+                    "laboris id labore consequat qui Lorem",
+                    "proident dolor exercitation mollit Lorem do"
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    "exercitation enim commodo sit eiusmod tempor",
+                    "in cupidatat cupidatat ipsum laborum dolore",
+                    "fugiat pariatur reprehenderit ipsum nostrud non",
+                    "duis officia commodo aliquip laboris irure"
+                  ],
+                  "type": "text"
+                }
+              ],
+              "title": "quis amet exercitation"
+            }
+          ],
+          "act": "disseminate"
+        }
+      ],
+      "rights_status": "copyrighted",
+      "determination_date": "1945-11-02",
+      "type": "rights_statement",
+      "id": "5e16514cfc61c3bd939e4ec7",
+      "rights_type": "other"
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/1"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/16"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/12"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/30"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/41"
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/33"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/12"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/21"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/48"
+        }
+      ]
+    }
+  ],
+  "creators": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/45"
+        }
+      ]
+    }
+  ],
+  "type": "collection",
+  "id": "5e16514cab4d9997f960a717"
+}

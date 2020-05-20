@@ -1,0 +1,64 @@
+{
+  "index": 47,
+  "dates": [
+    {
+      "begin": "1934-12-18",
+      "end": "1961-01-12",
+      "type": "bulk",
+      "label": "copyright",
+      "source": "wikidata",
+      "expression": "December 17, 1934 - January 11, 1961"
+    },
+    {
+      "begin": "1941-01-05",
+      "end": "1994-08-14",
+      "type": "single",
+      "label": "publication",
+      "source": "wikidata",
+      "expression": "January 4, 1941 - August 13, 1994"
+    }
+  ],
+  "description": "Et aute anim do non adipisicing esse reprehenderit minim aute tempor veniam. Ut dolore Lorem ea amet laboris velit quis et. Commodo laborum laborum ex occaecat. Excepteur cupidatat do consequat anim eu magna enim magna eu laborum duis occaecat proident non. Culpa ut duis laborum qui.\r\n",
+  "title": "Craig Barton",
+  "notes": [
+    {
+      "source": "cartographer",
+      "type": "otherfindaid",
+      "subnotes": [
+        {
+          "content": [
+            "velit Lorem adipisicing do adipisicing consectetur",
+            "enim officia in et cillum cillum",
+            "dolor dolore consequat dolor occaecat ipsum"
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            "id pariatur aliqua duis magna excepteur",
+            "tempor non mollit eiusmod minim nisi",
+            "velit magna Lorem incididunt aute mollit",
+            "magna minim laborum Lorem adipisicing nisi"
+          ],
+          "type": "orderedlist"
+        },
+        {
+          "content": [
+            "non ad eu mollit esse irure"
+          ],
+          "type": "definedlist"
+        }
+      ],
+      "title": "tempor Lorem amet"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_person/47"
+    }
+  ],
+  "agent_type": "person",
+  "type": "agent",
+  "id": "5e162b2ce4ebba87e30e5bd0"
+}

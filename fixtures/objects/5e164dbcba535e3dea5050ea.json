@@ -1,0 +1,200 @@
+{
+  "index": 26,
+  "dates": [
+    {
+      "begin": "1927-09-18",
+      "end": "2019-08-20",
+      "type": "inclusive",
+      "label": "event",
+      "source": "archivesspace",
+      "expression": "September 17, 1927 - August 19, 2019"
+    },
+    {
+      "begin": "1952-01-17",
+      "end": "1992-11-11",
+      "type": "single",
+      "label": "issued",
+      "source": "archivesspace",
+      "expression": "January 16, 1952 - November 10, 1992"
+    },
+    {
+      "begin": "1930-01-04",
+      "end": "1980-12-01",
+      "type": "inclusive",
+      "label": "event",
+      "source": "archivesspace",
+      "expression": "January 3, 1930 - November 30, 1980"
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/26"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "type": "photographic_slides",
+      "value": "5.77"
+    },
+    {
+      "type": "terabytes",
+      "value": "7.27"
+    }
+  ],
+  "title": "Consectetur occaecat amet velit ullamco nisi.",
+  "notes": [
+    {
+      "source": "wikipedia",
+      "type": "restrictions",
+      "subnotes": [
+        {
+          "content": [
+            "proident nulla ad eiusmod in consequat"
+          ],
+          "type": "orderedlist"
+        },
+        {
+          "content": [
+            "cillum in sit eu sint tempor",
+            "deserunt labore velit ut reprehenderit mollit"
+          ],
+          "type": "orderedlist"
+        }
+      ],
+      "title": "eiusmod mollit eiusmod"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/26"
+    }
+  ],
+  "languages": [
+    {
+      "identifier": "eng",
+      "expression": "Esperanto"
+    }
+  ],
+  "rights_statements": [
+    {
+      "begin": "1954-02-14",
+      "end": "1995-05-31",
+      "copyright_status": "copyrighted",
+      "notes": [
+        {
+          "source": "wikipedia",
+          "type": "extension",
+          "subnotes": [
+            {
+              "content": [
+                "sint in id quis mollit enim",
+                "in tempor aute adipisicing elit irure",
+                "fugiat enim voluptate et fugiat exercitation",
+                "ex in pariatur mollit fugiat ullamco",
+                "consequat ut quis dolor laboris ipsum"
+              ],
+              "type": "text"
+            }
+          ],
+          "title": "magna aliqua nulla"
+        }
+      ],
+      "jurisdiction": "CN",
+      "other_basis": "magna",
+      "rights_granted": [
+        {
+          "restriction": "disallow",
+          "begin": "1953-06-24",
+          "end": "1993-02-28",
+          "notes": [
+            {
+              "source": "archivesspace",
+              "type": "extension",
+              "subnotes": [
+                {
+                  "content": [
+                    "incididunt aliquip occaecat nulla occaecat sunt",
+                    "cillum nulla ullamco dolor elit veniam"
+                  ],
+                  "type": "definedlist"
+                },
+                {
+                  "content": [
+                    "deserunt et consectetur deserunt incididunt magna",
+                    "excepteur sint nostrud dolor elit reprehenderit"
+                  ],
+                  "type": "orderedlist"
+                },
+                {
+                  "content": [
+                    "elit mollit dolore cillum consequat id"
+                  ],
+                  "type": "orderedlist"
+                }
+              ],
+              "title": "occaecat laboris proident"
+            }
+          ],
+          "act": "migrate"
+        }
+      ],
+      "rights_status": "public domain",
+      "determination_date": "1959-10-03",
+      "type": "rights_statement",
+      "id": "5e164dbcea23c4d71eed0e77",
+      "rights_type": "copyright"
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/28"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/2"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/14"
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/45"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/11"
+        }
+      ]
+    }
+  ],
+  "type": "object",
+  "id": "5e164dbcba535e3dea5050ea"
+}

@@ -1,0 +1,75 @@
+{
+  "index": 6,
+  "dates": [
+    {
+      "begin": "1951-10-22",
+      "end": "2002-06-27",
+      "type": "bulk",
+      "label": "other",
+      "source": "archivesspace",
+      "expression": "October 21, 1951 - June 26, 2002"
+    },
+    {
+      "begin": "1947-02-19",
+      "end": "2014-05-13",
+      "type": "bulk",
+      "label": "modified",
+      "source": "wikidata",
+      "expression": "February 18, 1947 - May 12, 2014"
+    }
+  ],
+  "description": "Minim enim veniam qui proident dolore. Id dolor est esse esse ut consequat pariatur voluptate ut nisi non labore consequat. Laboris laboris veniam deserunt quis. Et veniam id qui nisi proident pariatur occaecat laborum. Tempor esse ex occaecat amet sit non ut consequat nulla. Ad id Lorem elit esse mollit aliquip enim dolore.\r\n",
+  "title": "Sexton family",
+  "notes": [
+    {
+      "source": "wikipedia",
+      "type": "expiration",
+      "subnotes": [
+        {
+          "content": [
+            "ipsum ullamco mollit consequat pariatur proident",
+            "ullamco ut nulla magna incididunt adipisicing",
+            "eiusmod nostrud sit anim ipsum enim"
+          ],
+          "type": "orderedlist"
+        }
+      ],
+      "title": "irure ipsum excepteur"
+    },
+    {
+      "source": "wikipedia",
+      "type": "processinfo",
+      "subnotes": [
+        {
+          "content": [
+            "aliquip sunt deserunt et excepteur esse",
+            "labore dolor incididunt eu ea dolor",
+            "consectetur reprehenderit sit Lorem consectetur minim",
+            "enim laborum sunt labore consequat veniam",
+            "ipsum culpa qui sunt tempor id"
+          ],
+          "type": "definedlist"
+        },
+        {
+          "content": [
+            "magna anim aute aliquip commodo eu",
+            "ex cillum voluptate fugiat eiusmod aliqua",
+            "dolor incididunt exercitation culpa irure esse",
+            "ipsum labore sint nostrud non eiusmod"
+          ],
+          "type": "orderedlist"
+        }
+      ],
+      "title": "commodo amet Lorem"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/6"
+    }
+  ],
+  "agent_type": "family",
+  "type": "agent",
+  "id": "5e1628f0f5e0acc090eb866d"
+}

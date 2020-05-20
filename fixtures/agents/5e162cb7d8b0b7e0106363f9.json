@@ -1,0 +1,48 @@
+{
+  "index": 46,
+  "dates": [
+    {
+      "begin": "1921-04-08",
+      "end": "1998-03-04",
+      "type": "bulk",
+      "label": "existence",
+      "source": "archivesspace",
+      "expression": "April 7, 1921 - March 3, 1998"
+    }
+  ],
+  "description": "Laboris aliqua aute culpa do nulla non pariatur. Est labore labore esse in duis culpa nisi veniam incididunt aliquip nisi ex. Aliqua ut esse cupidatat nisi.\r\n",
+  "title": "Shelton Foundation",
+  "notes": [
+    {
+      "source": "wikidata",
+      "type": "originalsloc",
+      "subnotes": [
+        {
+          "content": [
+            "Lorem cupidatat non labore sint ad",
+            "sint laboris excepteur veniam pariatur nulla",
+            "nisi ipsum Lorem commodo cillum ea"
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            "sunt fugiat enim esse consequat pariatur",
+            "laboris veniam sint magna occaecat mollit"
+          ],
+          "type": "text"
+        }
+      ],
+      "title": "consectetur sint est"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/46"
+    }
+  ],
+  "agent_type": "organization",
+  "type": "agent",
+  "id": "5e162cb7d8b0b7e0106363f9"
+}

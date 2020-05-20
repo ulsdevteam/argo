@@ -1,0 +1,190 @@
+{
+  "index": 3,
+  "dates": [
+    {
+      "begin": "1946-09-03",
+      "end": "1976-10-01",
+      "type": "bulk",
+      "label": "copyright",
+      "source": "archivesspace",
+      "expression": "September 2, 1946 - September 30, 1976"
+    },
+    {
+      "begin": "1915-12-26",
+      "end": "2011-07-28",
+      "type": "bulk",
+      "label": "record_keeping",
+      "source": "archivesspace",
+      "expression": "December 25, 1915 - July 27, 2011"
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/7"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "type": "cubic_feet",
+      "value": "4.49"
+    },
+    {
+      "type": "volumes",
+      "value": "0.29"
+    }
+  ],
+  "level": "series",
+  "notes": [
+    {
+      "source": "wikidata",
+      "type": "materials",
+      "subnotes": [
+        {
+          "content": [
+            "sunt in adipisicing in culpa irure",
+            "consequat aliqua adipisicing deserunt irure irure",
+            "ullamco fugiat dolore non labore do",
+            "elit est quis nisi do voluptate",
+            "exercitation id labore commodo culpa est"
+          ],
+          "type": "orderedlist"
+        },
+        {
+          "content": [
+            "ut id laboris dolor nostrud adipisicing"
+          ],
+          "type": "orderedlist"
+        },
+        {
+          "content": [
+            "minim minim dolore enim et cupidatat"
+          ],
+          "type": "orderedlist"
+        }
+      ],
+      "title": "mollit nulla voluptate"
+    }
+  ],
+  "title": "Tempor mollit sunt nisi incididunt esse labore ad exercitation excepteur laborum cupidatat.",
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/resources/3"
+    }
+  ],
+  "children": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/30"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "identifier": "epo",
+      "expression": "English"
+    }
+  ],
+  "rights_statements": [
+    {
+      "begin": "1939-09-19",
+      "end": "1992-02-04",
+      "copyright_status": "unknown",
+      "notes": [],
+      "jurisdiction": "FR",
+      "other_basis": "dolor",
+      "rights_granted": [
+        {
+          "restriction": "disallow",
+          "begin": "1917-06-09",
+          "end": "1969-06-09",
+          "notes": [],
+          "act": "delete"
+        },
+        {
+          "restriction": "allow",
+          "begin": "1926-04-02",
+          "end": "1989-08-12",
+          "notes": [
+            {
+              "source": "cartographer",
+              "type": "restrictions",
+              "subnotes": [
+                {
+                  "content": [
+                    "non pariatur dolor veniam et dolore"
+                  ],
+                  "type": "orderedlist"
+                },
+                {
+                  "content": [
+                    "nulla ut adipisicing tempor ea magna",
+                    "elit laborum incididunt aute velit consequat",
+                    "occaecat quis velit adipisicing ipsum in",
+                    "cupidatat occaecat proident adipisicing sit commodo",
+                    "irure aliquip duis ad elit ea"
+                  ],
+                  "type": "orderedlist"
+                }
+              ],
+              "title": "incididunt sunt labore"
+            }
+          ],
+          "act": "delete"
+        }
+      ],
+      "rights_status": "public domain",
+      "determination_date": "1914-12-19",
+      "type": "rights_statement",
+      "id": "5e16514c11a6dc0fa2ae2ef7",
+      "rights_type": "other"
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/11"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/29"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/10"
+        }
+      ]
+    }
+  ],
+  "terms": [],
+  "creators": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/27"
+        }
+      ]
+    }
+  ],
+  "type": "collection",
+  "id": "5e16514c4102385f5455d66e"
+}

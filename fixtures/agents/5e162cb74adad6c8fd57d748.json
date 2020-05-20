@@ -1,0 +1,89 @@
+{
+  "index": 12,
+  "dates": [
+    {
+      "begin": "1922-01-09",
+      "end": "1977-04-08",
+      "type": "inclusive",
+      "label": "copyright",
+      "source": "wikidata",
+      "expression": "January 8, 1922 - April 7, 1977"
+    }
+  ],
+  "description": "Tempor commodo dolore duis deserunt nostrud fugiat adipisicing anim sunt velit aute reprehenderit. Non in sint labore reprehenderit duis mollit irure mollit consectetur cillum sint. Pariatur ut magna eu irure ipsum elit elit adipisicing aliquip exercitation id ea in elit. Duis cillum ex anim irure cillum ullamco. Irure veniam eu labore dolor sit ullamco consequat enim cillum ad qui. Ex sit magna occaecat quis velit pariatur ex magna qui incididunt dolor. Veniam pariatur non quis quis ea in nulla.\r\n",
+  "title": "Carter Foundation",
+  "notes": [
+    {
+      "source": "wikipedia",
+      "type": "dimensions",
+      "subnotes": [
+        {
+          "content": [
+            "ullamco labore reprehenderit fugiat consectetur anim",
+            "aliqua ut do est commodo commodo",
+            "in eiusmod qui dolor et laborum",
+            "sit do eiusmod cillum sunt officia"
+          ],
+          "type": "orderedlist"
+        },
+        {
+          "content": [
+            "sunt culpa est cillum pariatur qui",
+            "officia excepteur aliquip reprehenderit ad in",
+            "qui magna occaecat ad cillum pariatur",
+            "sint dolor laboris ullamco reprehenderit aliquip"
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            "aute anim qui in sint et",
+            "consectetur in reprehenderit aute consequat velit",
+            "voluptate non ipsum dolore do duis"
+          ],
+          "type": "orderedlist"
+        }
+      ],
+      "title": "cillum occaecat tempor"
+    },
+    {
+      "source": "wikidata",
+      "type": "index",
+      "subnotes": [
+        {
+          "content": [
+            "pariatur cillum consectetur aliquip occaecat ut"
+          ],
+          "type": "orderedlist"
+        },
+        {
+          "content": [
+            "ipsum laborum eu veniam excepteur aliquip",
+            "do anim cillum amet dolor eiusmod",
+            "id dolore sunt commodo labore pariatur",
+            "sunt proident nostrud culpa aliqua Lorem",
+            "duis veniam mollit incididunt nulla incididunt"
+          ],
+          "type": "definedlist"
+        },
+        {
+          "content": [
+            "velit occaecat labore dolor reprehenderit pariatur",
+            "proident sint adipisicing ullamco excepteur labore"
+          ],
+          "type": "definedlist"
+        }
+      ],
+      "title": "nisi anim quis"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/12"
+    }
+  ],
+  "agent_type": "organization",
+  "type": "agent",
+  "id": "5e162cb74adad6c8fd57d748"
+}

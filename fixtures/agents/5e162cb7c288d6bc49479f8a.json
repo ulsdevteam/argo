@@ -1,0 +1,86 @@
+{
+  "index": 20,
+  "dates": [
+    {
+      "begin": "1919-10-01",
+      "end": "1988-03-18",
+      "type": "inclusive",
+      "label": "usage",
+      "source": "archivesspace",
+      "expression": "September 30, 1919 - March 17, 1988"
+    },
+    {
+      "begin": "1940-02-02",
+      "end": "1985-01-14",
+      "type": "single",
+      "label": "other",
+      "source": "wikidata",
+      "expression": "February 1, 1940 - January 13, 1985"
+    }
+  ],
+  "description": "Dolore est excepteur fugiat excepteur voluptate. Ipsum irure exercitation eu deserunt. Labore non ad incididunt enim velit magna velit esse ex mollit veniam. Minim culpa laborum exercitation esse amet ipsum ut esse officia ea consectetur eu.\r\n",
+  "title": "Osborn Foundation",
+  "notes": [
+    {
+      "source": "wikidata",
+      "type": "edition",
+      "subnotes": [
+        {
+          "content": [
+            "elit fugiat occaecat ad laborum culpa"
+          ],
+          "type": "definedlist"
+        },
+        {
+          "content": [
+            "ea culpa proident commodo sint et"
+          ],
+          "type": "orderedlist"
+        }
+      ],
+      "title": "laboris ea id"
+    },
+    {
+      "source": "cartographer",
+      "type": "acquinfo",
+      "subnotes": [
+        {
+          "content": [
+            "amet fugiat qui culpa consequat Lorem",
+            "ullamco mollit cupidatat nostrud mollit est"
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            "consequat esse exercitation fugiat minim consectetur",
+            "qui commodo aliquip ex consequat velit",
+            "aliquip magna fugiat magna deserunt dolor",
+            "quis velit laboris labore dolor ipsum",
+            "labore ad Lorem fugiat sint minim"
+          ],
+          "type": "orderedlist"
+        },
+        {
+          "content": [
+            "aliqua quis pariatur eu laborum nulla",
+            "aute pariatur amet tempor adipisicing ex",
+            "minim non nulla aliqua elit aute",
+            "esse esse anim minim tempor in"
+          ],
+          "type": "orderedlist"
+        }
+      ],
+      "title": "deserunt fugiat minim"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/20"
+    }
+  ],
+  "agent_type": "organization",
+  "type": "agent",
+  "id": "5e162cb7c288d6bc49479f8a"
+}

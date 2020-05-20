@@ -1,0 +1,51 @@
+{
+  "index": 19,
+  "dates": [
+    {
+      "begin": "1925-06-13",
+      "end": "2016-05-31",
+      "type": "single",
+      "label": "creation",
+      "source": "archivesspace",
+      "expression": "June 12, 1925 - May 30, 2016"
+    }
+  ],
+  "description": "Cupidatat cillum est deserunt quis nulla pariatur minim ullamco cupidatat quis magna anim do. Dolore ut elit esse ex. Irure cillum adipisicing cillum ipsum aute dolore id fugiat.\r\n",
+  "title": "Polly Holland",
+  "notes": [
+    {
+      "source": "wikidata",
+      "type": "odd",
+      "subnotes": [
+        {
+          "content": [
+            "consequat est fugiat laborum deserunt occaecat",
+            "commodo laboris exercitation magna qui sit",
+            "in Lorem elit labore cupidatat deserunt"
+          ],
+          "type": "orderedlist"
+        },
+        {
+          "content": [
+            "commodo cupidatat aliquip nisi ipsum est",
+            "veniam labore culpa magna minim dolore",
+            "ullamco velit esse consequat proident elit",
+            "laborum culpa mollit deserunt esse aute",
+            "incididunt nisi nulla qui ipsum velit"
+          ],
+          "type": "definedlist"
+        }
+      ],
+      "title": "velit cillum est"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_person/19"
+    }
+  ],
+  "agent_type": "person",
+  "type": "agent",
+  "id": "5e162b2c4832a25d41947dcc"
+}

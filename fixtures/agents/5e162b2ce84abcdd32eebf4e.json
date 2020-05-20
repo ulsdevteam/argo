@@ -1,0 +1,56 @@
+{
+  "index": 42,
+  "dates": [
+    {
+      "begin": "1954-11-03",
+      "end": "1995-06-30",
+      "type": "single",
+      "label": "creation",
+      "source": "wikidata",
+      "expression": "November 2, 1954 - June 29, 1995"
+    },
+    {
+      "begin": "1940-04-20",
+      "end": "1983-12-29",
+      "type": "bulk",
+      "label": "copyright",
+      "source": "wikidata",
+      "expression": "April 19, 1940 - December 28, 1983"
+    }
+  ],
+  "description": "Consectetur magna dolor dolore nulla ad Lorem. Labore nostrud ullamco tempor incididunt proident dolore in voluptate dolor. Esse velit tempor qui esse consectetur elit adipisicing.\r\n",
+  "title": "Tina Henderson",
+  "notes": [
+    {
+      "source": "archivesspace",
+      "type": "phystech",
+      "subnotes": [
+        {
+          "content": [
+            "sint magna pariatur sunt esse occaecat"
+          ],
+          "type": "definedlist"
+        },
+        {
+          "content": [
+            "in irure aliquip quis ipsum consequat",
+            "nisi eiusmod non voluptate nulla commodo",
+            "ad non commodo velit est laborum",
+            "irure pariatur ipsum labore occaecat ea"
+          ],
+          "type": "text"
+        }
+      ],
+      "title": "incididunt Lorem reprehenderit"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_person/42"
+    }
+  ],
+  "agent_type": "person",
+  "type": "agent",
+  "id": "5e162b2ce84abcdd32eebf4e"
+}

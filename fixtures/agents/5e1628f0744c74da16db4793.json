@@ -1,0 +1,57 @@
+{
+  "index": 47,
+  "dates": [
+    {
+      "begin": "1939-02-20",
+      "end": "1971-10-07",
+      "type": "single",
+      "label": "modified",
+      "source": "archivesspace",
+      "expression": "February 19, 1939 - October 6, 1971"
+    }
+  ],
+  "description": "Laboris nisi do amet exercitation fugiat incididunt deserunt ad cupidatat. Velit non cupidatat exercitation ipsum pariatur. Aliqua et veniam ut tempor dolor nulla exercitation culpa pariatur ea nulla qui eu. Minim sit officia id elit est in dolor deserunt exercitation dolore aliquip tempor. Culpa duis do pariatur commodo qui. Veniam ut irure incididunt commodo fugiat laboris quis id id et anim sunt. In cupidatat officia aliqua commodo laboris tempor ad eiusmod eu mollit ullamco qui proident est.\r\n",
+  "title": "Hawkins family",
+  "notes": [
+    {
+      "source": "archivesspace",
+      "type": "restrictions",
+      "subnotes": [
+        {
+          "content": [
+            "duis incididunt commodo exercitation incididunt eu",
+            "id voluptate eu occaecat elit aliquip",
+            "pariatur ad deserunt dolore elit laboris",
+            "mollit cupidatat ipsum qui nisi consectetur"
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            "cillum qui veniam id in aliquip",
+            "proident veniam ut officia minim commodo",
+            "aliquip et officia mollit veniam veniam"
+          ],
+          "type": "definedlist"
+        },
+        {
+          "content": [
+            "consequat duis magna sint ipsum ut",
+            "amet officia ipsum cillum enim mollit"
+          ],
+          "type": "text"
+        }
+      ],
+      "title": "consectetur aliqua cillum"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/47"
+    }
+  ],
+  "agent_type": "family",
+  "type": "agent",
+  "id": "5e1628f0744c74da16db4793"
+}

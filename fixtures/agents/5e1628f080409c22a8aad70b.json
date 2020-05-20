@@ -1,0 +1,84 @@
+{
+  "index": 39,
+  "dates": [
+    {
+      "begin": "1957-02-16",
+      "end": "2016-11-09",
+      "type": "single",
+      "label": "record_keeping",
+      "source": "archivesspace",
+      "expression": "February 15, 1957 - November 8, 2016"
+    },
+    {
+      "begin": "1957-07-22",
+      "end": "2000-10-24",
+      "type": "single",
+      "label": "digitized",
+      "source": "archivesspace",
+      "expression": "July 21, 1957 - October 23, 2000"
+    }
+  ],
+  "description": "Commodo proident cillum deserunt consectetur proident fugiat. Eiusmod sint anim sit excepteur ad nostrud deserunt ut cupidatat eiusmod excepteur magna ullamco. Ex sint culpa anim elit et est laborum anim voluptate quis incididunt. Ex nulla anim exercitation ipsum ex incididunt reprehenderit deserunt reprehenderit ad in commodo.\r\n",
+  "title": "Clay family",
+  "notes": [
+    {
+      "source": "archivesspace",
+      "type": "bibliography",
+      "subnotes": [
+        {
+          "content": [
+            "ea duis nulla ullamco ea amet",
+            "esse ipsum aliqua ad sint ipsum",
+            "ex excepteur enim ullamco ea amet",
+            "in labore magna id aliqua sit",
+            "laborum do officia sint adipisicing eu"
+          ],
+          "type": "orderedlist"
+        }
+      ],
+      "title": "dolore est ea"
+    },
+    {
+      "source": "cartographer",
+      "type": "note",
+      "subnotes": [
+        {
+          "content": [
+            "sit pariatur dolor in exercitation eu"
+          ],
+          "type": "orderedlist"
+        },
+        {
+          "content": [
+            "mollit minim sint sit eiusmod et",
+            "anim ut tempor nostrud adipisicing irure",
+            "nulla nulla adipisicing eiusmod ut non",
+            "Lorem cillum occaecat anim anim veniam",
+            "cillum quis aliqua ex consectetur dolor"
+          ],
+          "type": "orderedlist"
+        },
+        {
+          "content": [
+            "aliquip excepteur culpa id velit duis",
+            "occaecat cupidatat mollit amet sunt et",
+            "magna nostrud anim irure eu in",
+            "laborum ex eiusmod ipsum dolore eu",
+            "dolor sint culpa irure fugiat aliquip"
+          ],
+          "type": "text"
+        }
+      ],
+      "title": "esse officia esse"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/39"
+    }
+  ],
+  "agent_type": "family",
+  "type": "agent",
+  "id": "5e1628f080409c22a8aad70b"
+}

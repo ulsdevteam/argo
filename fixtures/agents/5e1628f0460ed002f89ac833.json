@@ -1,0 +1,81 @@
+{
+  "index": 41,
+  "dates": [
+    {
+      "begin": "1919-11-30",
+      "end": "2006-06-27",
+      "type": "bulk",
+      "label": "modified",
+      "source": "wikidata",
+      "expression": "November 29, 1919 - June 26, 2006"
+    },
+    {
+      "begin": "1958-12-17",
+      "end": "1979-08-26",
+      "type": "bulk",
+      "label": "usage",
+      "source": "wikidata",
+      "expression": "December 16, 1958 - August 25, 1979"
+    }
+  ],
+  "description": "In in laboris cillum ea tempor irure cupidatat dolore sit nulla. Et cillum eu aliquip consequat laborum. Dolor aliquip ullamco tempor enim sint in dolor sint eiusmod fugiat adipisicing. Eu eu ullamco Lorem dolor do fugiat reprehenderit do irure.\r\n",
+  "title": "Fitzpatrick family",
+  "notes": [
+    {
+      "source": "cartographer",
+      "type": "userestrict",
+      "subnotes": [
+        {
+          "content": [
+            "sit ut in excepteur officia anim"
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            "pariatur nisi pariatur minim eiusmod culpa",
+            "ad exercitation laboris magna minim sit",
+            "deserunt voluptate nostrud in consequat labore",
+            "in cillum ullamco officia consectetur fugiat"
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            "voluptate magna ex veniam magna adipisicing",
+            "nulla labore amet elit ea non",
+            "in commodo ullamco duis Lorem ea",
+            "in quis id dolor laboris et",
+            "ullamco irure ut mollit ut reprehenderit"
+          ],
+          "type": "text"
+        }
+      ],
+      "title": "culpa deserunt qui"
+    },
+    {
+      "source": "archivesspace",
+      "type": "permissions",
+      "subnotes": [
+        {
+          "content": [
+            "enim exercitation ad eu fugiat sunt",
+            "ex et mollit veniam sunt qui",
+            "magna proident aliquip Lorem aute in"
+          ],
+          "type": "orderedlist"
+        }
+      ],
+      "title": "eiusmod excepteur proident"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/41"
+    }
+  ],
+  "agent_type": "family",
+  "type": "agent",
+  "id": "5e1628f0460ed002f89ac833"
+}

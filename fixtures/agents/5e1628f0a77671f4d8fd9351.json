@@ -1,0 +1,42 @@
+{
+  "index": 17,
+  "dates": [
+    {
+      "begin": "1925-09-20",
+      "end": "2004-06-16",
+      "type": "inclusive",
+      "label": "broadcast",
+      "source": "wikidata",
+      "expression": "September 19, 1925 - June 15, 2004"
+    }
+  ],
+  "description": "Mollit consequat tempor nulla in quis irure. Sunt irure mollit ad veniam labore amet duis cillum cupidatat nisi incididunt fugiat mollit. Ipsum commodo occaecat irure excepteur. Consectetur labore quis veniam ullamco Lorem incididunt labore nulla minim. Consequat consequat elit elit ex ex occaecat et irure reprehenderit magna.\r\n",
+  "title": "Haney family",
+  "notes": [
+    {
+      "source": "wikidata",
+      "type": "acquinfo",
+      "subnotes": [
+        {
+          "content": [
+            "eu nulla quis sit ex irure",
+            "tempor amet aute veniam mollit laboris",
+            "eu id veniam aliquip laborum adipisicing",
+            "ipsum aute voluptate occaecat consequat sunt"
+          ],
+          "type": "orderedlist"
+        }
+      ],
+      "title": "occaecat cupidatat pariatur"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/17"
+    }
+  ],
+  "agent_type": "family",
+  "type": "agent",
+  "id": "5e1628f0a77671f4d8fd9351"
+}

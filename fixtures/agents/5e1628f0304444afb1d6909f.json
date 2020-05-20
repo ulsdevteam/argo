@@ -1,0 +1,47 @@
+{
+  "index": 27,
+  "dates": [
+    {
+      "begin": "1928-03-01",
+      "end": "1978-03-21",
+      "type": "bulk",
+      "label": "existence",
+      "source": "wikidata",
+      "expression": "February 29, 1928 - March 20, 1978"
+    },
+    {
+      "begin": "1957-11-03",
+      "end": "1982-01-28",
+      "type": "inclusive",
+      "label": "modified",
+      "source": "archivesspace",
+      "expression": "November 2, 1957 - January 27, 1982"
+    }
+  ],
+  "description": "Nostrud occaecat fugiat dolore duis dolore veniam Lorem. Aliquip commodo pariatur ut sit labore tempor elit ipsum elit. Officia eiusmod commodo ut et commodo magna dolor quis amet sint enim. Consectetur eu do deserunt officia cillum laborum est excepteur eu fugiat dolor minim.\r\n",
+  "title": "Bean family",
+  "notes": [
+    {
+      "source": "archivesspace",
+      "type": "edition",
+      "subnotes": [
+        {
+          "content": [
+            "quis officia elit officia amet mollit"
+          ],
+          "type": "orderedlist"
+        }
+      ],
+      "title": "sint voluptate est"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/27"
+    }
+  ],
+  "agent_type": "family",
+  "type": "agent",
+  "id": "5e1628f0304444afb1d6909f"
+}

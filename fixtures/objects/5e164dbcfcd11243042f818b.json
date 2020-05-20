@@ -1,0 +1,161 @@
+{
+  "index": 2,
+  "dates": [
+    {
+      "begin": "1917-12-10",
+      "end": "2009-09-12",
+      "type": "inclusive",
+      "label": "issued",
+      "source": "archivesspace",
+      "expression": "December 9, 1917 - September 11, 2009"
+    },
+    {
+      "begin": "1930-03-22",
+      "end": "2014-03-11",
+      "type": "single",
+      "label": "digitized",
+      "source": "archivesspace",
+      "expression": "March 21, 1930 - March 10, 2014"
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/2"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "type": "photographic_slides",
+      "value": "9.32"
+    },
+    {
+      "type": "volumes",
+      "value": "3.25"
+    }
+  ],
+  "title": "Laboris ut culpa commodo officia id et.",
+  "notes": [
+    {
+      "source": "archivesspace",
+      "type": "inscription",
+      "subnotes": [
+        {
+          "content": [
+            "in voluptate pariatur ullamco mollit sunt",
+            "do ad esse esse ipsum sint",
+            "ea dolore velit non pariatur ipsum",
+            "nostrud nisi proident dolor fugiat labore",
+            "fugiat nulla magna excepteur dolor nisi"
+          ],
+          "type": "definedlist"
+        },
+        {
+          "content": [
+            "quis nisi amet dolore dolore pariatur",
+            "ad voluptate consectetur nostrud do nisi",
+            "labore sint non eu est cupidatat",
+            "tempor pariatur dolor irure nisi pariatur"
+          ],
+          "type": "orderedlist"
+        },
+        {
+          "content": [
+            "in quis deserunt aliquip voluptate cupidatat",
+            "minim aliquip do ipsum labore pariatur",
+            "sit consequat laborum consequat pariatur eu",
+            "nulla qui sit id exercitation proident"
+          ],
+          "type": "definedlist"
+        }
+      ],
+      "title": "excepteur commodo reprehenderit"
+    },
+    {
+      "source": "cartographer",
+      "type": "additional_information",
+      "subnotes": [
+        {
+          "content": [
+            "ex elit veniam ullamco consequat enim",
+            "excepteur est ex Lorem magna incididunt",
+            "laborum quis veniam enim non ex"
+          ],
+          "type": "orderedlist"
+        }
+      ],
+      "title": "laboris deserunt sit"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/2"
+    }
+  ],
+  "languages": [
+    {
+      "identifier": "eng",
+      "expression": "English"
+    },
+    {
+      "identifier": "eng",
+      "expression": "English"
+    },
+    {
+      "identifier": "spa",
+      "expression": "Spanish"
+    }
+  ],
+  "rights_statements": [],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/33"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/13"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/22"
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/9"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/22"
+        }
+      ]
+    }
+  ],
+  "type": "object",
+  "id": "5e164dbcfcd11243042f818b"
+}

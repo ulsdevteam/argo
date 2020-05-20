@@ -1,0 +1,79 @@
+{
+  "index": 25,
+  "dates": [
+    {
+      "begin": "1914-01-21",
+      "end": "1969-12-21",
+      "type": "inclusive",
+      "label": "event",
+      "source": "wikidata",
+      "expression": "January 20, 1914 - December 20, 1969"
+    },
+    {
+      "begin": "1926-07-13",
+      "end": "2010-03-17",
+      "type": "single",
+      "label": "agent_relation",
+      "source": "wikidata",
+      "expression": "July 12, 1926 - March 16, 2010"
+    }
+  ],
+  "description": "Magna enim voluptate velit enim non nostrud incididunt in laboris deserunt eu ea labore ullamco. Sunt sit Lorem in eiusmod sit elit laboris duis dolore. Ad nisi velit sit sint ea esse labore do laborum.\r\n",
+  "title": "Phillips family",
+  "notes": [
+    {
+      "source": "wikipedia",
+      "type": "additional_information",
+      "subnotes": [
+        {
+          "content": [
+            "anim nulla pariatur magna mollit occaecat",
+            "elit consectetur elit sunt non consectetur",
+            "anim laboris non incididunt tempor qui",
+            "excepteur in exercitation amet occaecat pariatur",
+            "ullamco sit veniam laboris ad eiusmod"
+          ],
+          "type": "text"
+        }
+      ],
+      "title": "magna nostrud laboris"
+    },
+    {
+      "source": "wikidata",
+      "type": "userestrict",
+      "subnotes": [
+        {
+          "content": [
+            "adipisicing aliquip ea ullamco eu laborum",
+            "nulla irure velit amet Lorem esse"
+          ],
+          "type": "definedlist"
+        },
+        {
+          "content": [
+            "occaecat do voluptate aliquip qui nostrud",
+            "occaecat id duis non cillum et"
+          ],
+          "type": "definedlist"
+        },
+        {
+          "content": [
+            "sunt cillum velit dolor voluptate ea",
+            "aute Lorem id irure cillum adipisicing"
+          ],
+          "type": "text"
+        }
+      ],
+      "title": "aute duis ut"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/25"
+    }
+  ],
+  "agent_type": "family",
+  "type": "agent",
+  "id": "5e1628f021ba46d8ddbe9645"
+}

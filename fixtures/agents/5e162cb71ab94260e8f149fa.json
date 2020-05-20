@@ -1,0 +1,94 @@
+{
+  "index": 15,
+  "dates": [
+    {
+      "begin": "1913-03-01",
+      "end": "1965-07-25",
+      "type": "single",
+      "label": "record_keeping",
+      "source": "archivesspace",
+      "expression": "February 28, 1913 - July 24, 1965"
+    },
+    {
+      "begin": "1945-08-26",
+      "end": "1977-09-28",
+      "type": "bulk",
+      "label": "modified",
+      "source": "wikidata",
+      "expression": "August 25, 1945 - September 27, 1977"
+    }
+  ],
+  "description": "Aliquip sint ad tempor nulla sint tempor. Veniam duis veniam nulla dolore dolor esse reprehenderit elit duis anim eiusmod elit labore. Occaecat consequat ex cillum ipsum nostrud deserunt nostrud fugiat in. Nisi et reprehenderit non dolor eu ad occaecat ullamco id exercitation. Reprehenderit non sit aute laborum nostrud elit pariatur cupidatat et. Id sint esse cillum reprehenderit do deserunt. Duis quis cillum laborum duis consequat laborum commodo anim aliquip culpa magna eiusmod.\r\n",
+  "title": "Douglas Foundation",
+  "notes": [
+    {
+      "source": "cartographer",
+      "type": "bibliography",
+      "subnotes": [
+        {
+          "content": [
+            "Lorem sunt non ipsum pariatur ipsum",
+            "deserunt cupidatat anim culpa reprehenderit laborum",
+            "ad id non quis consectetur consectetur",
+            "incididunt fugiat veniam officia Lorem minim"
+          ],
+          "type": "definedlist"
+        },
+        {
+          "content": [
+            "deserunt occaecat in reprehenderit non in",
+            "consequat sint aliqua velit elit proident",
+            "amet proident ad aute velit qui",
+            "deserunt ea enim reprehenderit veniam veniam",
+            "ad est ullamco tempor non mollit"
+          ],
+          "type": "orderedlist"
+        }
+      ],
+      "title": "pariatur ullamco id"
+    },
+    {
+      "source": "wikipedia",
+      "type": "extension",
+      "subnotes": [
+        {
+          "content": [
+            "dolor minim fugiat nostrud elit id",
+            "id nulla eu dolore veniam deserunt",
+            "duis dolore laborum laborum labore sunt"
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            "consectetur officia incididunt sit velit anim",
+            "anim minim reprehenderit proident sit dolor",
+            "irure ea proident id veniam dolor",
+            "ea ullamco cillum veniam ullamco exercitation",
+            "deserunt sint cupidatat aute veniam elit"
+          ],
+          "type": "definedlist"
+        },
+        {
+          "content": [
+            "esse qui aliqua eiusmod quis anim",
+            "laborum qui do non eu est",
+            "qui ad cupidatat ullamco aliqua eiusmod",
+            "anim sunt esse do ad cupidatat"
+          ],
+          "type": "definedlist"
+        }
+      ],
+      "title": "consequat ipsum et"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/15"
+    }
+  ],
+  "agent_type": "organization",
+  "type": "agent",
+  "id": "5e162cb71ab94260e8f149fa"
+}

@@ -1,0 +1,62 @@
+{
+  "index": 23,
+  "dates": [
+    {
+      "begin": "1924-05-17",
+      "end": "2012-09-14",
+      "type": "bulk",
+      "label": "other",
+      "source": "wikidata",
+      "expression": "May 16, 1924 - September 13, 2012"
+    },
+    {
+      "begin": "1925-07-11",
+      "end": "1989-01-09",
+      "type": "single",
+      "label": "event",
+      "source": "archivesspace",
+      "expression": "July 10, 1925 - January 8, 1989"
+    }
+  ],
+  "description": "In consequat dolore reprehenderit cupidatat deserunt ea qui cillum labore ad duis amet proident. Est dolor deserunt nulla ea aliqua deserunt sunt sint laborum esse pariatur duis. Ad anim cupidatat cupidatat tempor adipisicing nulla.\r\n",
+  "title": "Richmond Foundation",
+  "notes": [
+    {
+      "source": "wikidata",
+      "type": "materialspec",
+      "subnotes": [
+        {
+          "content": [
+            "sint minim do aute fugiat amet",
+            "cupidatat sit consectetur ipsum culpa ea"
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            "officia sit nulla in veniam non",
+            "in amet enim esse eiusmod eu"
+          ],
+          "type": "definedlist"
+        },
+        {
+          "content": [
+            "non ullamco magna tempor tempor amet",
+            "proident quis pariatur do ad est"
+          ],
+          "type": "definedlist"
+        }
+      ],
+      "title": "nisi sit cillum"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/23"
+    }
+  ],
+  "agent_type": "organization",
+  "type": "agent",
+  "id": "5e162cb76cf4453871cb08eb"
+}

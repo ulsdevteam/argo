@@ -1,0 +1,87 @@
+{
+  "index": 45,
+  "dates": [
+    {
+      "begin": "1948-08-03",
+      "end": "1968-07-07",
+      "type": "bulk",
+      "label": "deaccession",
+      "source": "wikidata",
+      "expression": "August 2, 1948 - July 6, 1968"
+    },
+    {
+      "begin": "1920-09-25",
+      "end": "2009-04-24",
+      "type": "inclusive",
+      "label": "event",
+      "source": "archivesspace",
+      "expression": "September 24, 1920 - April 23, 2009"
+    }
+  ],
+  "description": "Commodo deserunt minim sit occaecat eiusmod aliquip eiusmod enim aliquip dolore dolor pariatur officia. Ex enim sint eu veniam minim reprehenderit sunt qui. Sunt quis occaecat aliquip minim ad mollit aute veniam dolor. Adipisicing eiusmod adipisicing sunt irure dolore officia cillum esse in. Officia anim in dolore minim tempor non sint in non anim sunt qui officia duis.\r\n",
+  "title": "Rivas Banks",
+  "notes": [
+    {
+      "source": "wikidata",
+      "type": "materials",
+      "subnotes": [
+        {
+          "content": [
+            "id laborum minim do amet dolore",
+            "fugiat nostrud mollit minim nulla incididunt"
+          ],
+          "type": "orderedlist"
+        },
+        {
+          "content": [
+            "consequat reprehenderit commodo exercitation dolor laboris",
+            "minim dolor do incididunt cupidatat dolore",
+            "aliquip consequat dolore mollit anim pariatur",
+            "reprehenderit sunt sint nisi excepteur sunt"
+          ],
+          "type": "orderedlist"
+        },
+        {
+          "content": [
+            "irure sunt consectetur ipsum qui ullamco",
+            "exercitation cupidatat incididunt sit dolor deserunt"
+          ],
+          "type": "definedlist"
+        }
+      ],
+      "title": "commodo cupidatat irure"
+    },
+    {
+      "source": "wikidata",
+      "type": "relatedmaterial",
+      "subnotes": [
+        {
+          "content": [
+            "occaecat dolor esse qui amet tempor",
+            "sit tempor enim nulla nisi enim",
+            "eu dolore proident ex nostrud fugiat",
+            "ex veniam consectetur enim velit esse",
+            "ullamco laborum id ea laborum id"
+          ],
+          "type": "definedlist"
+        },
+        {
+          "content": [
+            "mollit magna sit fugiat elit sint"
+          ],
+          "type": "text"
+        }
+      ],
+      "title": "incididunt ea dolor"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_person/45"
+    }
+  ],
+  "agent_type": "person",
+  "type": "agent",
+  "id": "5e162b2c95729138565620ed"
+}

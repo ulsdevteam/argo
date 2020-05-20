@@ -1,0 +1,276 @@
+{
+  "index": 27,
+  "dates": [
+    {
+      "begin": "1941-03-13",
+      "end": "1974-06-12",
+      "type": "single",
+      "label": "creation",
+      "source": "archivesspace",
+      "expression": "March 12, 1941 - June 11, 1974"
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/46"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/39"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/18"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "type": "terabytes",
+      "value": "3.04"
+    }
+  ],
+  "title": "Commodo laboris sit ea eiusmod tempor aliquip id nostrud laborum velit id.",
+  "notes": [
+    {
+      "source": "wikipedia",
+      "type": "inscription",
+      "subnotes": [
+        {
+          "content": [
+            "enim et minim excepteur pariatur non",
+            "ea aliqua mollit officia labore duis",
+            "veniam sint esse Lorem proident amet"
+          ],
+          "type": "definedlist"
+        }
+      ],
+      "title": "proident quis qui"
+    },
+    {
+      "source": "cartographer",
+      "type": "otherfindaid",
+      "subnotes": [
+        {
+          "content": [
+            "incididunt laboris laboris et ex fugiat",
+            "in deserunt nostrud cillum proident esse",
+            "nisi mollit aute aliqua laboris anim",
+            "qui qui aute tempor laborum mollit"
+          ],
+          "type": "orderedlist"
+        }
+      ],
+      "title": "ipsum qui ullamco"
+    },
+    {
+      "source": "archivesspace",
+      "type": "rights_statement",
+      "subnotes": [
+        {
+          "content": [
+            "ea aliqua in incididunt adipisicing id",
+            "voluptate Lorem commodo esse aliquip et",
+            "cillum velit nisi laboris in minim"
+          ],
+          "type": "definedlist"
+        }
+      ],
+      "title": "aliquip qui eiusmod"
+    },
+    {
+      "source": "wikipedia",
+      "type": "processinfo",
+      "subnotes": [
+        {
+          "content": [
+            "id ex deserunt nisi ea fugiat",
+            "aliquip sint occaecat non sunt est",
+            "Lorem occaecat dolor mollit proident quis"
+          ],
+          "type": "orderedlist"
+        },
+        {
+          "content": [
+            "duis anim nostrud anim amet consectetur",
+            "id cillum deserunt ea minim eu",
+            "ullamco anim irure mollit aute nostrud"
+          ],
+          "type": "orderedlist"
+        }
+      ],
+      "title": "et enim non"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/27"
+    }
+  ],
+  "languages": [
+    {
+      "identifier": "epo",
+      "expression": "English"
+    }
+  ],
+  "rights_statements": [
+    {
+      "begin": "1953-08-14",
+      "end": "2003-12-03",
+      "copyright_status": "unknown",
+      "notes": [],
+      "jurisdiction": "US",
+      "other_basis": "officia",
+      "rights_granted": [
+        {
+          "restriction": "allow",
+          "begin": "1945-09-24",
+          "end": "1961-10-02",
+          "notes": [],
+          "act": "use"
+        },
+        {
+          "restriction": "allow",
+          "begin": "1918-05-05",
+          "end": "1982-05-15",
+          "notes": [],
+          "act": "use"
+        }
+      ],
+      "rights_status": "public domain",
+      "determination_date": "1933-05-22",
+      "type": "rights_statement",
+      "id": "5e164dbc5eea95e24822595a",
+      "rights_type": "license"
+    },
+    {
+      "begin": "1941-06-04",
+      "end": "1989-12-01",
+      "copyright_status": "public domain",
+      "notes": [
+        {
+          "source": "archivesspace",
+          "type": "permissions",
+          "subnotes": [
+            {
+              "content": [
+                "do adipisicing pariatur sit laborum sint",
+                "dolore et irure excepteur nulla amet",
+                "sint consectetur amet deserunt do ipsum",
+                "velit tempor quis pariatur exercitation minim"
+              ],
+              "type": "text"
+            }
+          ],
+          "title": "in nostrud laboris"
+        }
+      ],
+      "jurisdiction": "CN",
+      "other_basis": "eiusmod",
+      "rights_granted": [
+        {
+          "restriction": "disallow",
+          "begin": "1918-08-27",
+          "end": "1963-01-27",
+          "notes": [],
+          "act": "migrate"
+        },
+        {
+          "restriction": "disallow",
+          "begin": "1938-12-17",
+          "end": "1998-12-31",
+          "notes": [
+            {
+              "source": "archivesspace",
+              "type": "additional_information",
+              "subnotes": [
+                {
+                  "content": [
+                    "dolore elit ipsum enim proident labore",
+                    "deserunt id magna nulla ullamco occaecat",
+                    "nulla culpa adipisicing in pariatur aliqua",
+                    "non voluptate deserunt do consectetur sunt",
+                    "culpa ullamco anim laboris incididunt commodo"
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    "exercitation aute anim irure reprehenderit ad",
+                    "anim et elit veniam ullamco in"
+                  ],
+                  "type": "orderedlist"
+                }
+              ],
+              "title": "incididunt et amet"
+            }
+          ],
+          "act": "migrate"
+        }
+      ],
+      "rights_status": "copyrighted",
+      "determination_date": "1936-06-12",
+      "type": "rights_statement",
+      "id": "5e164dbcc00a7d0b36098edd",
+      "rights_type": "statute"
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/5"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/19"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/24"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/16"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/18"
+        }
+      ]
+    }
+  ],
+  "terms": [],
+  "type": "object",
+  "id": "5e164dbc406bc9403d9ebbaf"
+}

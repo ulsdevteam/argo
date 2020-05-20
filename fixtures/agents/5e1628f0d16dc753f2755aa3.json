@@ -1,0 +1,69 @@
+{
+  "index": 1,
+  "dates": [
+    {
+      "begin": "1927-04-02",
+      "end": "1989-11-08",
+      "type": "bulk",
+      "label": "agent_relation",
+      "source": "archivesspace",
+      "expression": "April 1, 1927 - November 7, 1989"
+    },
+    {
+      "begin": "1928-10-30",
+      "end": "1976-03-26",
+      "type": "single",
+      "label": "deaccession",
+      "source": "archivesspace",
+      "expression": "October 29, 1928 - March 25, 1976"
+    }
+  ],
+  "description": "Deserunt amet incididunt excepteur culpa ex deserunt cupidatat proident ipsum. Sunt dolor quis officia voluptate eiusmod exercitation enim nulla dolor et. Aliqua sint magna esse pariatur aliqua cillum voluptate culpa dolore ex laboris in dolor quis. Mollit ad in consectetur exercitation non nulla tempor consequat in. Mollit id quis enim aliqua elit aute enim est culpa velit veniam. Nulla occaecat aliqua duis aliquip est veniam in dolore aute amet ea consectetur ad. Ea excepteur in tempor incididunt ea est labore veniam aliqua non deserunt ad.\r\n",
+  "title": "Anthony family",
+  "notes": [
+    {
+      "source": "wikidata",
+      "type": "odd",
+      "subnotes": [
+        {
+          "content": [
+            "pariatur eiusmod do ipsum cillum esse",
+            "exercitation eiusmod ad consectetur dolor aliqua",
+            "non quis reprehenderit ex velit labore",
+            "cillum dolore anim Lorem et culpa"
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            "nulla eu magna consequat occaecat labore",
+            "consectetur duis magna magna officia do",
+            "reprehenderit irure pariatur excepteur non ex",
+            "anim culpa Lorem sint incididunt veniam",
+            "ea tempor quis elit laboris consequat"
+          ],
+          "type": "orderedlist"
+        },
+        {
+          "content": [
+            "ut nisi esse consequat nisi sit",
+            "quis voluptate sit nisi excepteur elit",
+            "aliqua fugiat incididunt labore anim sunt",
+            "do excepteur ad nostrud reprehenderit proident"
+          ],
+          "type": "orderedlist"
+        }
+      ],
+      "title": "dolore pariatur qui"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/1"
+    }
+  ],
+  "agent_type": "family",
+  "type": "agent",
+  "id": "5e1628f0d16dc753f2755aa3"
+}
