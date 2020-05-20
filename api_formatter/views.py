@@ -73,7 +73,6 @@ class AgentViewSet(DocumentViewSet):
     filter_fields = {
         "id": {"field": "id", "lookups": STRING_LOOKUPS, },
         "title": {"field": "title.keyword", "lookups": STRING_LOOKUPS, },
-        "description": {"field": "description.keyword", "lookups": STRING_LOOKUPS, },
         "agent_type": {"field": "agent_type", "lookups": STRING_LOOKUPS, },
         "start_date": {"field": "dates.begin", "lookups": NUMBER_LOOKUPS, },
         "end_date": {"field": "dates.end", "lookups": NUMBER_LOOKUPS, },

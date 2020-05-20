@@ -10,6 +10,7 @@ from django.test import TestCase
 from django.urls import reverse
 from elasticsearch_dsl import connections, Search, Index, utils
 from rac_es.documents import Agent, BaseDescriptionComponent, Collection, Object, Term
+from rac_schemas import is_valid
 from rest_framework.test import APIRequestFactory
 
 from .views import AgentViewSet, CollectionViewSet, ObjectViewSet, TermViewSet
@@ -36,15 +37,12 @@ class TestAPI(TestCase):
 
     def validate_fixtures(self):
         print("Validating fixtures")
-        with open(os.path.join(settings.BASE_DIR, 'rac-data-model', 'schema.json')) as sf:
-            schema = json.load(sf)
-            for dir in os.listdir(os.path.join(settings.BASE_DIR, 'fixtures')):
-                if os.path.isdir(os.path.join(settings.BASE_DIR, 'fixtures', dir)):
-                    for f in os.listdir(os.path.join(settings.BASE_DIR, 'fixtures', dir)):
-                        with open(os.path.join(settings.BASE_DIR, 'fixtures', dir, f), 'r') as jf:
-                            instance = json.load(jf)
-                            valid = validate(instance=instance, schema=schema)
-                            self.assertEqual(valid, None)
+        for dir in os.listdir(os.path.join(settings.BASE_DIR, 'fixtures')):
+            if os.path.isdir(os.path.join(settings.BASE_DIR, 'fixtures', dir)):
+                for f in os.listdir(os.path.join(settings.BASE_DIR, 'fixtures', dir)):
+                    with open(os.path.join(settings.BASE_DIR, 'fixtures', dir, f), 'r') as jf:
+                        instance = json.load(jf)
+                        self.assertTrue(is_valid(instance, "{}.json".format(instance["type"])))
 
     def index_fixture_data(self, source_filepath, doc_cls):
         added_ids = []
@@ -133,9 +131,10 @@ class TestAPI(TestCase):
         base_viewset = viewset.as_view(actions={"get": "list"}, basename=basename)
         request = self.factory.get(base_url)
         response = base_viewset(request)
-        self.assertEqual(obj_length, int(response.data['count']),
-                         "Number of documents in index for View {} did not match \
-                          number indexed".format("{}-list".format(basename)))
+        self.assertEqual(
+            obj_length, int(response.data['count']),
+            "Number of documents in index for View {} did not match number indexed".format(
+                "{}-list".format(basename)))
         self.sort_fields(viewset, basename, base_url)
         obj = self.get_random_obj(response, model_cls)
         self.filter_fields(viewset, base_url, basename, obj)
@@ -144,9 +143,10 @@ class TestAPI(TestCase):
     def detail_view(self, basename, viewset, pk):
         request = self.factory.get(reverse("{}-detail".format(basename), args=[pk]))
         response = viewset.as_view(actions={"get": "retrieve"}, basename=basename)(request, pk=pk)
-        self.assertEqual(response.status_code, 200,
-                         "View {}-detail in ViewSet {} did not return 200 \
-                         for document {}".format(basename, viewset, pk))
+        self.assertEqual(
+            response.status_code, 200,
+            "View {}-detail in ViewSet {} did not return 200 for document {}".format(
+                basename, viewset, pk))
 
     def test_documents(self):
         self.validate_fixtures()
