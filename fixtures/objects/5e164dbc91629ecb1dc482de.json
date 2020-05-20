@@ -1,0 +1,149 @@
+{
+  "index": 9,
+  "dates": [
+    {
+      "begin": "1932-12-25",
+      "end": "2002-02-20",
+      "type": "single",
+      "label": "record_keeping",
+      "source": "archivesspace",
+      "expression": "December 24, 1932 - February 19, 2002"
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/9"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/19"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/28"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "type": "terabytes",
+      "value": "1.52"
+    },
+    {
+      "type": "megabytes",
+      "value": "9.62"
+    }
+  ],
+  "title": "Ea deserunt commodo culpa esse amet quis sint esse nulla laboris voluptate.",
+  "notes": [
+    {
+      "source": "cartographer",
+      "type": "physloc",
+      "subnotes": [
+        {
+          "content": [
+            "officia magna et voluptate non velit",
+            "nulla in velit eiusmod velit consequat",
+            "anim irure laboris commodo veniam pariatur",
+            "culpa laboris quis veniam dolor ea",
+            "ex aliqua commodo excepteur sunt duis"
+          ],
+          "type": "definedlist"
+        },
+        {
+          "content": [
+            "ea labore et dolor officia ex",
+            "elit tempor enim cupidatat dolor deserunt",
+            "sunt magna magna enim dolore dolor"
+          ],
+          "type": "orderedlist"
+        },
+        {
+          "content": [
+            "eiusmod eu enim anim ea eiusmod",
+            "consequat labore minim ut Lorem voluptate",
+            "quis veniam laboris dolor aliqua non"
+          ],
+          "type": "text"
+        }
+      ],
+      "title": "in do non"
+    },
+    {
+      "source": "archivesspace",
+      "type": "rights_statement",
+      "subnotes": [
+        {
+          "content": [
+            "do culpa amet et enim quis",
+            "mollit enim excepteur consequat dolore sint",
+            "nulla non aliqua aute fugiat esse",
+            "do dolore ipsum aliquip culpa eiusmod"
+          ],
+          "type": "orderedlist"
+        }
+      ],
+      "title": "proident commodo culpa"
+    },
+    {
+      "source": "wikipedia",
+      "type": "physdesc",
+      "subnotes": [
+        {
+          "content": [
+            "id occaecat tempor esse veniam ex"
+          ],
+          "type": "orderedlist"
+        }
+      ],
+      "title": "nostrud consectetur aliquip"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/9"
+    }
+  ],
+  "languages": [
+    {
+      "identifier": "epo",
+      "expression": "Esperanto"
+    }
+  ],
+  "rights_statements": [],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/38"
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/29"
+        }
+      ]
+    }
+  ],
+  "type": "object",
+  "id": "5e164dbc91629ecb1dc482de"
+}

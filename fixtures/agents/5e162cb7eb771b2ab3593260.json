@@ -1,0 +1,59 @@
+{
+  "index": 25,
+  "dates": [
+    {
+      "begin": "1939-01-30",
+      "end": "1998-12-11",
+      "type": "inclusive",
+      "label": "publication",
+      "source": "archivesspace",
+      "expression": "January 29, 1939 - December 10, 1998"
+    }
+  ],
+  "description": "Mollit sint ut sint id. Aliquip ipsum qui exercitation veniam in do proident in anim consequat sint. Et dolore veniam sunt proident minim elit. Aliqua ex eu aute sunt ullamco quis consectetur cupidatat ullamco veniam enim.\r\n",
+  "title": "Espinoza Foundation",
+  "notes": [
+    {
+      "source": "wikipedia",
+      "type": "materialspec",
+      "subnotes": [
+        {
+          "content": [
+            "aute nulla commodo sint labore commodo",
+            "non adipisicing aliqua non ullamco incididunt",
+            "dolor sunt in laborum nostrud eu",
+            "non eu veniam proident nulla nostrud",
+            "ullamco enim deserunt laborum amet voluptate"
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            "Lorem occaecat nisi quis nulla eiusmod"
+          ],
+          "type": "definedlist"
+        },
+        {
+          "content": [
+            "sunt enim cupidatat minim qui dolor",
+            "laboris velit anim nostrud id ad",
+            "culpa magna est non reprehenderit non",
+            "nulla ad adipisicing duis commodo voluptate",
+            "esse laboris laborum exercitation cillum ipsum"
+          ],
+          "type": "text"
+        }
+      ],
+      "title": "reprehenderit adipisicing esse"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/25"
+    }
+  ],
+  "agent_type": "organization",
+  "type": "agent",
+  "id": "5e162cb7eb771b2ab3593260"
+}

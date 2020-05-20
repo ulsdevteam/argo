@@ -1,0 +1,82 @@
+{
+  "index": 44,
+  "dates": [
+    {
+      "begin": "1933-02-15",
+      "end": "1968-02-04",
+      "type": "single",
+      "label": "record_keeping",
+      "source": "wikidata",
+      "expression": "February 14, 1933 - February 3, 1968"
+    },
+    {
+      "begin": "1919-10-12",
+      "end": "1974-09-10",
+      "type": "single",
+      "label": "creation",
+      "source": "wikidata",
+      "expression": "October 11, 1919 - September 9, 1974"
+    }
+  ],
+  "description": "Ad dolore consequat nostrud mollit nisi minim nulla exercitation velit magna velit commodo anim. Laborum anim amet Lorem occaecat qui culpa exercitation duis esse. Sint sint reprehenderit aute commodo reprehenderit minim id commodo non consectetur anim. Lorem cupidatat est deserunt est ad tempor aliquip. Non labore culpa reprehenderit irure eiusmod officia officia id est. Aliqua aliquip quis officia qui ad anim consectetur magna est nostrud eu ut laboris. Adipisicing culpa sint laborum ipsum est mollit aliqua veniam ad.\r\n",
+  "title": "Armstrong family",
+  "notes": [
+    {
+      "source": "cartographer",
+      "type": "physdesc",
+      "subnotes": [
+        {
+          "content": [
+            "consequat Lorem do esse ex quis",
+            "anim irure aliqua ullamco consectetur magna",
+            "velit consectetur amet voluptate aute aliqua",
+            "est ut eiusmod ex irure fugiat",
+            "elit nulla occaecat sint eiusmod deserunt"
+          ],
+          "type": "orderedlist"
+        }
+      ],
+      "title": "sint velit aute"
+    },
+    {
+      "source": "cartographer",
+      "type": "rights_statement",
+      "subnotes": [
+        {
+          "content": [
+            "est excepteur nulla et qui magna",
+            "sunt reprehenderit amet officia pariatur est"
+          ],
+          "type": "definedlist"
+        },
+        {
+          "content": [
+            "veniam proident irure deserunt exercitation non",
+            "nisi irure ipsum magna fugiat occaecat",
+            "dolore et culpa voluptate cupidatat sint",
+            "quis proident id ex non magna"
+          ],
+          "type": "definedlist"
+        },
+        {
+          "content": [
+            "sint enim in ullamco aute quis",
+            "elit eiusmod adipisicing sunt adipisicing laboris",
+            "pariatur et excepteur deserunt magna ad"
+          ],
+          "type": "text"
+        }
+      ],
+      "title": "fugiat incididunt mollit"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/44"
+    }
+  ],
+  "agent_type": "family",
+  "type": "agent",
+  "id": "5e1628f0f27c8caafa036fe0"
+}

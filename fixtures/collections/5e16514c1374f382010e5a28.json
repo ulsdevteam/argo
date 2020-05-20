@@ -1,0 +1,289 @@
+{
+  "index": 17,
+  "dates": [
+    {
+      "begin": "1927-06-25",
+      "end": "2000-12-12",
+      "type": "inclusive",
+      "label": "broadcast",
+      "source": "archivesspace",
+      "expression": "June 24, 1927 - December 11, 2000"
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/31"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/7"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "type": "terabytes",
+      "value": "0.50"
+    },
+    {
+      "type": "cubic_feet",
+      "value": "3.30"
+    }
+  ],
+  "level": "subgrp",
+  "notes": [
+    {
+      "source": "wikidata",
+      "type": "originalsloc",
+      "subnotes": [
+        {
+          "content": [
+            "nostrud est incididunt aliquip fugiat laborum",
+            "anim excepteur consectetur pariatur commodo consequat"
+          ],
+          "type": "definedlist"
+        }
+      ],
+      "title": "incididunt laboris eu"
+    },
+    {
+      "source": "wikipedia",
+      "type": "scopecontent",
+      "subnotes": [
+        {
+          "content": [
+            "enim do est incididunt dolore culpa",
+            "eu est cillum cillum sit aliqua",
+            "dolor Lorem veniam ea pariatur culpa",
+            "duis tempor in velit esse esse",
+            "enim duis ipsum aute tempor deserunt"
+          ],
+          "type": "definedlist"
+        }
+      ],
+      "title": "officia esse veniam"
+    }
+  ],
+  "title": "Exercitation non ad ad ex commodo nostrud incididunt nulla nulla velit eu ipsum ipsum.",
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/resources/17"
+    }
+  ],
+  "children": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/10"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/1"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/38"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "identifier": "eng",
+      "expression": "English"
+    },
+    {
+      "identifier": "epo",
+      "expression": "Spanish"
+    }
+  ],
+  "rights_statements": [
+    {
+      "begin": "1955-05-26",
+      "end": "1979-12-03",
+      "copyright_status": "copyrighted",
+      "notes": [],
+      "jurisdiction": "CN",
+      "other_basis": "consequat",
+      "rights_granted": [
+        {
+          "restriction": "allow",
+          "begin": "1915-05-13",
+          "end": "1997-04-25",
+          "notes": [],
+          "act": "delete"
+        },
+        {
+          "restriction": "disallow",
+          "begin": "1931-05-06",
+          "end": "1991-08-03",
+          "notes": [
+            {
+              "source": "wikidata",
+              "type": "permissions",
+              "subnotes": [
+                {
+                  "content": [
+                    "non occaecat culpa proident anim incididunt",
+                    "voluptate consectetur velit laborum fugiat consectetur",
+                    "proident eu non reprehenderit magna velit"
+                  ],
+                  "type": "text"
+                }
+              ],
+              "title": "nostrud anim labore"
+            }
+          ],
+          "act": "delete"
+        }
+      ],
+      "rights_status": "copyrighted",
+      "determination_date": "1952-04-10",
+      "type": "rights_statement",
+      "id": "5e16514c58b51bc4c8ac12b4",
+      "rights_type": "other"
+    },
+    {
+      "begin": "1926-02-25",
+      "end": "1977-11-11",
+      "copyright_status": "public domain",
+      "notes": [],
+      "jurisdiction": "FR",
+      "other_basis": "consequat",
+      "rights_granted": [
+        {
+          "restriction": "allow",
+          "begin": "1935-06-02",
+          "end": "1984-11-10",
+          "notes": [
+            {
+              "source": "wikidata",
+              "type": "expiration",
+              "subnotes": [
+                {
+                  "content": [
+                    "exercitation et nulla magna mollit ex"
+                  ],
+                  "type": "definedlist"
+                },
+                {
+                  "content": [
+                    "irure tempor voluptate minim laboris sunt",
+                    "nulla sit voluptate officia occaecat culpa",
+                    "voluptate amet deserunt id culpa proident"
+                  ],
+                  "type": "orderedlist"
+                }
+              ],
+              "title": "enim laboris non"
+            }
+          ],
+          "act": "replicate"
+        }
+      ],
+      "rights_status": "public domain",
+      "determination_date": "1928-12-24",
+      "type": "rights_statement",
+      "id": "5e16514c9d4357d8a0a62210",
+      "rights_type": "license"
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/25"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/29"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/42"
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/37"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/14"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/44"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/5"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/24"
+        }
+      ]
+    }
+  ],
+  "creators": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/28"
+        }
+      ]
+    }
+  ],
+  "type": "collection",
+  "id": "5e16514c1374f382010e5a28"
+}

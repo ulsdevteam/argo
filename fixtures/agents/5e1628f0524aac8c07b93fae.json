@@ -1,0 +1,49 @@
+{
+  "index": 21,
+  "dates": [
+    {
+      "begin": "1915-12-22",
+      "end": "1982-11-08",
+      "type": "bulk",
+      "label": "publication",
+      "source": "wikidata",
+      "expression": "December 21, 1915 - November 7, 1982"
+    },
+    {
+      "begin": "1928-04-10",
+      "end": "2018-07-08",
+      "type": "bulk",
+      "label": "issued",
+      "source": "wikidata",
+      "expression": "April 9, 1928 - July 7, 2018"
+    }
+  ],
+  "description": "Officia ad ex aliqua velit pariatur est cupidatat officia fugiat. Esse laboris duis sint enim nulla tempor labore ullamco. Consequat excepteur do Lorem eu consequat qui deserunt eiusmod voluptate.\r\n",
+  "title": "Cain family",
+  "notes": [
+    {
+      "source": "archivesspace",
+      "type": "physdesc",
+      "subnotes": [
+        {
+          "content": [
+            "deserunt cillum et id exercitation minim",
+            "deserunt irure voluptate aliqua nisi cupidatat",
+            "aliqua laboris proident laborum veniam Lorem"
+          ],
+          "type": "text"
+        }
+      ],
+      "title": "aliquip id esse"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/21"
+    }
+  ],
+  "agent_type": "family",
+  "type": "agent",
+  "id": "5e1628f0524aac8c07b93fae"
+}

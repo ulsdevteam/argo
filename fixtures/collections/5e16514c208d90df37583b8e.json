@@ -1,0 +1,133 @@
+{
+  "index": 25,
+  "dates": [
+    {
+      "begin": "1918-11-17",
+      "end": "2018-09-01",
+      "type": "inclusive",
+      "label": "copyright",
+      "source": "archivesspace",
+      "expression": "November 16, 1918 - August 31, 2018"
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/41"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "type": "document box(es)",
+      "value": "1.99"
+    }
+  ],
+  "level": "otherLevel",
+  "notes": [
+    {
+      "source": "archivesspace",
+      "type": "langmaterial",
+      "subnotes": [
+        {
+          "content": [
+            "sint excepteur et cupidatat amet adipisicing",
+            "consectetur tempor officia officia dolor amet",
+            "tempor et nisi non ex quis",
+            "sint ad esse reprehenderit incididunt irure"
+          ],
+          "type": "definedlist"
+        },
+        {
+          "content": [
+            "et enim aliquip minim sit quis",
+            "irure quis laborum anim sunt ad",
+            "ex elit pariatur ea qui sint",
+            "ex laboris proident sint elit cillum"
+          ],
+          "type": "text"
+        }
+      ],
+      "title": "proident fugiat labore"
+    }
+  ],
+  "title": "Qui sint nisi cillum sint dolore est velit aliqua cupidatat ullamco laboris commodo reprehenderit quis.",
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/resources/25"
+    }
+  ],
+  "children": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/12"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "identifier": "epo",
+      "expression": "Spanish"
+    },
+    {
+      "identifier": "spa",
+      "expression": "English"
+    }
+  ],
+  "rights_statements": [],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/24"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/8"
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/23"
+        }
+      ]
+    }
+  ],
+  "creators": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/1"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/16"
+        }
+      ]
+    }
+  ],
+  "type": "collection",
+  "id": "5e16514c208d90df37583b8e"
+}

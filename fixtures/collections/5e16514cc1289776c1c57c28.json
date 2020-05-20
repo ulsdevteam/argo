@@ -1,0 +1,272 @@
+{
+  "index": 33,
+  "dates": [
+    {
+      "begin": "1956-12-04",
+      "end": "1990-08-08",
+      "type": "bulk",
+      "label": "creation",
+      "source": "archivesspace",
+      "expression": "December 3, 1956 - August 7, 1990"
+    },
+    {
+      "begin": "1950-09-14",
+      "end": "1973-03-10",
+      "type": "single",
+      "label": "publication",
+      "source": "archivesspace",
+      "expression": "September 13, 1950 - March 9, 1973"
+    },
+    {
+      "begin": "1936-10-14",
+      "end": "1962-06-21",
+      "type": "inclusive",
+      "label": "usage",
+      "source": "archivesspace",
+      "expression": "October 13, 1936 - June 20, 1962"
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/22"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/9"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "type": "volumes",
+      "value": "9.03"
+    },
+    {
+      "type": "gigabytes",
+      "value": "6.14"
+    }
+  ],
+  "level": "collection",
+  "notes": [
+    {
+      "source": "archivesspace",
+      "type": "index",
+      "subnotes": [
+        {
+          "content": [
+            "Lorem est laborum amet incididunt exercitation",
+            "duis cillum exercitation laborum eiusmod enim",
+            "deserunt deserunt Lorem veniam cillum nisi",
+            "qui magna anim laboris voluptate in"
+          ],
+          "type": "orderedlist"
+        }
+      ],
+      "title": "in anim do"
+    }
+  ],
+  "title": "Occaecat consectetur anim velit enim amet adipisicing proident proident excepteur.",
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/resources/33"
+    }
+  ],
+  "children": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/44"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/43"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/45"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "identifier": "epo",
+      "expression": "Esperanto"
+    },
+    {
+      "identifier": "eng",
+      "expression": "Spanish"
+    },
+    {
+      "identifier": "spa",
+      "expression": "Esperanto"
+    }
+  ],
+  "rights_statements": [
+    {
+      "begin": "1918-10-07",
+      "end": "1976-11-25",
+      "copyright_status": "copyrighted",
+      "notes": [],
+      "jurisdiction": "FR",
+      "other_basis": "nulla",
+      "rights_granted": [
+        {
+          "restriction": "allow",
+          "begin": "1927-07-10",
+          "end": "1996-02-16",
+          "notes": [
+            {
+              "source": "wikipedia",
+              "type": "extension",
+              "subnotes": [
+                {
+                  "content": [
+                    "enim occaecat pariatur excepteur tempor nulla",
+                    "nisi enim labore velit labore magna",
+                    "nostrud officia ex consequat ut sint",
+                    "consequat adipisicing esse deserunt consectetur labore",
+                    "eu reprehenderit enim tempor tempor ea"
+                  ],
+                  "type": "orderedlist"
+                },
+                {
+                  "content": [
+                    "in commodo velit ea minim exercitation",
+                    "duis enim aute adipisicing officia eu",
+                    "laborum ipsum proident nisi elit mollit",
+                    "quis duis aute cillum pariatur excepteur"
+                  ],
+                  "type": "definedlist"
+                },
+                {
+                  "content": [
+                    "ut deserunt velit enim magna cillum",
+                    "elit deserunt cupidatat officia elit duis",
+                    "nulla velit laborum id voluptate mollit",
+                    "culpa proident occaecat aliqua magna aute",
+                    "ea velit dolor fugiat in aute"
+                  ],
+                  "type": "definedlist"
+                }
+              ],
+              "title": "exercitation voluptate proident"
+            }
+          ],
+          "act": "replicate"
+        }
+      ],
+      "rights_status": "public domain",
+      "determination_date": "1914-07-26",
+      "type": "rights_statement",
+      "id": "5e16514cd1206311f5ba194d",
+      "rights_type": "statute"
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/23"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/9"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/34"
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/15"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/41"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/48"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/20"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/50"
+        }
+      ]
+    }
+  ],
+  "creators": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/9"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/44"
+        }
+      ]
+    }
+  ],
+  "type": "collection",
+  "id": "5e16514cc1289776c1c57c28"
+}

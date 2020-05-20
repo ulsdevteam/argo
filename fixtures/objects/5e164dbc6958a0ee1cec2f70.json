@@ -1,0 +1,173 @@
+{
+  "index": 6,
+  "dates": [
+    {
+      "begin": "1947-10-03",
+      "end": "2010-03-21",
+      "type": "bulk",
+      "label": "modified",
+      "source": "archivesspace",
+      "expression": "October 2, 1947 - March 20, 2010"
+    },
+    {
+      "begin": "1921-06-20",
+      "end": "1986-08-05",
+      "type": "inclusive",
+      "label": "digitized",
+      "source": "archivesspace",
+      "expression": "June 19, 1921 - August 4, 1986"
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/10"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "type": "record cartons",
+      "value": "5.56"
+    }
+  ],
+  "title": "Magna excepteur veniam dolor amet reprehenderit veniam occaecat magna deserunt commodo ad excepteur velit.",
+  "notes": [
+    {
+      "source": "wikidata",
+      "type": "phystech",
+      "subnotes": [
+        {
+          "content": [
+            "ullamco aute velit incididunt est non",
+            "non anim nulla magna do Lorem",
+            "ad aute reprehenderit reprehenderit officia id"
+          ],
+          "type": "definedlist"
+        }
+      ],
+      "title": "quis sunt deserunt"
+    },
+    {
+      "source": "wikidata",
+      "type": "physloc",
+      "subnotes": [
+        {
+          "content": [
+            "minim magna dolor ex ullamco voluptate",
+            "consectetur ex cupidatat do laborum esse",
+            "amet do fugiat adipisicing deserunt excepteur"
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            "amet nostrud velit qui sit ipsum",
+            "labore et eu nostrud quis Lorem"
+          ],
+          "type": "text"
+        }
+      ],
+      "title": "dolore in mollit"
+    },
+    {
+      "source": "wikidata",
+      "type": "bibliography",
+      "subnotes": [
+        {
+          "content": [
+            "Lorem magna proident laborum laboris reprehenderit",
+            "nisi sunt culpa aute elit Lorem"
+          ],
+          "type": "orderedlist"
+        },
+        {
+          "content": [
+            "reprehenderit do laborum cillum deserunt veniam",
+            "minim esse do reprehenderit fugiat Lorem"
+          ],
+          "type": "orderedlist"
+        }
+      ],
+      "title": "irure pariatur reprehenderit"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/6"
+    }
+  ],
+  "languages": [
+    {
+      "identifier": "spa",
+      "expression": "Spanish"
+    },
+    {
+      "identifier": "epo",
+      "expression": "Spanish"
+    },
+    {
+      "identifier": "epo",
+      "expression": "Spanish"
+    }
+  ],
+  "rights_statements": [],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/31"
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/36"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/13"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/45"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/25"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/40"
+        }
+      ]
+    }
+  ],
+  "type": "object",
+  "id": "5e164dbc6958a0ee1cec2f70"
+}

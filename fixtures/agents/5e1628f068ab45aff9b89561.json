@@ -1,0 +1,89 @@
+{
+  "index": 29,
+  "dates": [
+    {
+      "begin": "1927-03-01",
+      "end": "2019-07-12",
+      "type": "single",
+      "label": "deaccession",
+      "source": "wikidata",
+      "expression": "February 28, 1927 - July 11, 2019"
+    },
+    {
+      "begin": "1954-02-21",
+      "end": "2013-07-04",
+      "type": "inclusive",
+      "label": "agent_relation",
+      "source": "archivesspace",
+      "expression": "February 20, 1954 - July 3, 2013"
+    }
+  ],
+  "description": "Officia excepteur laborum magna laborum mollit in pariatur veniam. Deserunt consectetur ullamco duis Lorem ullamco sunt ut fugiat voluptate quis. Labore enim dolore aute consequat cupidatat aliqua Lorem pariatur. Proident et ea Lorem est velit esse exercitation nisi occaecat dolore cillum officia fugiat. Magna incididunt ut officia minim est.\r\n",
+  "title": "Burton family",
+  "notes": [
+    {
+      "source": "wikipedia",
+      "type": "originalsloc",
+      "subnotes": [
+        {
+          "content": [
+            "dolor ad anim est tempor sint"
+          ],
+          "type": "orderedlist"
+        },
+        {
+          "content": [
+            "enim nostrud magna irure et fugiat",
+            "velit ex amet exercitation exercitation voluptate",
+            "id pariatur ipsum deserunt ipsum eiusmod",
+            "enim laborum labore cillum officia nisi",
+            "labore ex magna dolore et enim"
+          ],
+          "type": "orderedlist"
+        }
+      ],
+      "title": "irure amet ea"
+    },
+    {
+      "source": "wikipedia",
+      "type": "index",
+      "subnotes": [
+        {
+          "content": [
+            "culpa proident cupidatat eu culpa ex",
+            "dolor cillum esse incididunt reprehenderit adipisicing",
+            "in fugiat dolore fugiat culpa laboris",
+            "commodo quis dolore fugiat ipsum sit"
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            "cupidatat tempor non sunt anim ut",
+            "incididunt fugiat dolore irure dolor ut",
+            "enim adipisicing adipisicing nostrud commodo nostrud"
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            "et commodo adipisicing dolore dolore velit",
+            "nostrud velit veniam ipsum incididunt ex",
+            "irure tempor minim enim fugiat mollit"
+          ],
+          "type": "definedlist"
+        }
+      ],
+      "title": "exercitation sint cillum"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/29"
+    }
+  ],
+  "agent_type": "family",
+  "type": "agent",
+  "id": "5e1628f068ab45aff9b89561"
+}

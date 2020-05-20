@@ -1,0 +1,222 @@
+{
+  "index": 45,
+  "dates": [
+    {
+      "begin": "1916-04-11",
+      "end": "1996-11-21",
+      "type": "inclusive",
+      "label": "existence",
+      "source": "archivesspace",
+      "expression": "April 10, 1916 - November 20, 1996"
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/47"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/11"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/22"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "type": "sheets",
+      "value": "1.96"
+    }
+  ],
+  "level": "otherLevel",
+  "notes": [],
+  "title": "Exercitation laboris nulla nulla commodo et pariatur sit adipisicing eu ea deserunt non.",
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/resources/45"
+    }
+  ],
+  "children": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/24"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/21"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "identifier": "spa",
+      "expression": "English"
+    },
+    {
+      "identifier": "epo",
+      "expression": "Esperanto"
+    }
+  ],
+  "rights_statements": [
+    {
+      "begin": "1931-07-01",
+      "end": "1990-08-02",
+      "copyright_status": "public domain",
+      "notes": [
+        {
+          "source": "archivesspace",
+          "type": "additional_information",
+          "subnotes": [
+            {
+              "content": [
+                "qui laborum sunt quis voluptate fugiat",
+                "in sint occaecat exercitation ex est"
+              ],
+              "type": "orderedlist"
+            }
+          ],
+          "title": "id cupidatat culpa"
+        }
+      ],
+      "jurisdiction": "US",
+      "other_basis": "voluptate",
+      "rights_granted": [
+        {
+          "restriction": "disallow",
+          "begin": "1952-12-04",
+          "end": "2003-08-30",
+          "notes": [
+            {
+              "source": "wikipedia",
+              "type": "materials",
+              "subnotes": [
+                {
+                  "content": [
+                    "laborum magna consequat ea ex ex"
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    "id culpa reprehenderit cupidatat elit laborum",
+                    "consequat tempor labore ut aliquip laborum"
+                  ],
+                  "type": "definedlist"
+                },
+                {
+                  "content": [
+                    "laborum nostrud ut sunt sit voluptate",
+                    "labore ullamco Lorem culpa consequat eu",
+                    "nulla ex velit occaecat id id"
+                  ],
+                  "type": "definedlist"
+                }
+              ],
+              "title": "ipsum sit mollit"
+            }
+          ],
+          "act": "replicate"
+        },
+        {
+          "restriction": "disallow",
+          "begin": "1925-09-13",
+          "end": "1962-08-13",
+          "notes": [
+            {
+              "source": "cartographer",
+              "type": "extension",
+              "subnotes": [
+                {
+                  "content": [
+                    "cupidatat pariatur sunt reprehenderit incididunt sint",
+                    "ullamco dolor esse ipsum deserunt officia",
+                    "laborum aute consectetur consequat ea officia",
+                    "laboris excepteur ut cillum nisi duis"
+                  ],
+                  "type": "orderedlist"
+                }
+              ],
+              "title": "ut proident dolore"
+            }
+          ],
+          "act": "modify"
+        }
+      ],
+      "rights_status": "unknown",
+      "determination_date": "1926-04-14",
+      "type": "rights_statement",
+      "id": "5e16514c3ee1289dfe27dab9",
+      "rights_type": "statute"
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/23"
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/49"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/6"
+        }
+      ]
+    }
+  ],
+  "creators": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/31"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/24"
+        }
+      ]
+    }
+  ],
+  "type": "collection",
+  "id": "5e16514c92a1461f99ecf685"
+}

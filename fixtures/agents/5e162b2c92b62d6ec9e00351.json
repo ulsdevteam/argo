@@ -1,0 +1,55 @@
+{
+  "index": 1,
+  "dates": [
+    {
+      "begin": "1937-08-01",
+      "end": "1971-07-26",
+      "type": "inclusive",
+      "label": "existence",
+      "source": "wikidata",
+      "expression": "July 31, 1937 - July 25, 1971"
+    }
+  ],
+  "description": "Non qui Lorem aliqua tempor aute elit elit cupidatat non. Aliquip consectetur adipisicing veniam cupidatat duis consequat eiusmod dolor elit esse. Ad adipisicing magna veniam ipsum fugiat tempor aliquip quis aute aute ipsum magna ad ex. Ullamco aute magna cupidatat laborum occaecat commodo quis tempor quis. Consectetur culpa ullamco magna aliqua eiusmod non.\r\n",
+  "title": "Eaton Villarreal",
+  "notes": [
+    {
+      "source": "wikidata",
+      "type": "additional_information",
+      "subnotes": [
+        {
+          "content": [
+            "proident pariatur officia sint mollit dolor",
+            "aliquip mollit fugiat veniam deserunt culpa",
+            "nisi tempor ad Lorem irure anim"
+          ],
+          "type": "definedlist"
+        }
+      ],
+      "title": "ea magna nostrud"
+    },
+    {
+      "source": "archivesspace",
+      "type": "inscription",
+      "subnotes": [
+        {
+          "content": [
+            "cillum veniam anim ipsum nisi laborum",
+            "irure magna duis consequat esse irure"
+          ],
+          "type": "text"
+        }
+      ],
+      "title": "pariatur nulla ex"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_person/1"
+    }
+  ],
+  "agent_type": "person",
+  "type": "agent",
+  "id": "5e162b2c92b62d6ec9e00351"
+}

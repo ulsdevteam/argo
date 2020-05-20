@@ -1,0 +1,76 @@
+{
+  "index": 22,
+  "dates": [
+    {
+      "begin": "1954-08-20",
+      "end": "1973-03-16",
+      "type": "bulk",
+      "label": "issued",
+      "source": "wikidata",
+      "expression": "August 19, 1954 - March 15, 1973"
+    }
+  ],
+  "description": "Labore eu veniam voluptate tempor officia veniam non. Enim dolor sunt dolore sunt voluptate minim laboris excepteur eiusmod. Aliquip deserunt sunt dolor dolore non ut minim nulla cillum nulla id pariatur cupidatat. Ad do duis minim commodo consectetur duis eiusmod. Laborum sunt et id ad adipisicing ullamco eiusmod laboris velit. Consequat nulla sunt consequat deserunt.\r\n",
+  "title": "Bowen family",
+  "notes": [
+    {
+      "source": "wikipedia",
+      "type": "materials",
+      "subnotes": [
+        {
+          "content": [
+            "minim exercitation in do ipsum voluptate",
+            "enim adipisicing aliqua Lorem minim deserunt",
+            "velit ea pariatur labore irure voluptate",
+            "excepteur occaecat cupidatat ut cupidatat tempor"
+          ],
+          "type": "orderedlist"
+        },
+        {
+          "content": [
+            "labore ullamco aliqua dolore ut dolore",
+            "nulla laboris ex pariatur consectetur officia",
+            "sint exercitation elit deserunt amet exercitation",
+            "sit culpa eu nostrud consectetur in",
+            "non tempor excepteur cupidatat velit ex"
+          ],
+          "type": "definedlist"
+        },
+        {
+          "content": [
+            "officia exercitation duis anim culpa non",
+            "nostrud magna tempor occaecat reprehenderit mollit",
+            "adipisicing ipsum nostrud Lorem labore sint",
+            "occaecat exercitation ad minim laborum laboris"
+          ],
+          "type": "text"
+        }
+      ],
+      "title": "eiusmod laborum fugiat"
+    },
+    {
+      "source": "wikidata",
+      "type": "scopecontent",
+      "subnotes": [
+        {
+          "content": [
+            "id incididunt consequat in ut quis",
+            "excepteur pariatur magna culpa ullamco est",
+            "nisi Lorem duis laboris eu sint"
+          ],
+          "type": "orderedlist"
+        }
+      ],
+      "title": "non dolore nulla"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/22"
+    }
+  ],
+  "agent_type": "family",
+  "type": "agent",
+  "id": "5e1628f0268599bf84f8c27a"
+}

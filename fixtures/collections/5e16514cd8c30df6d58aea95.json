@@ -1,0 +1,208 @@
+{
+  "index": 7,
+  "dates": [
+    {
+      "begin": "1917-05-04",
+      "end": "2002-07-02",
+      "type": "single",
+      "label": "publication",
+      "source": "archivesspace",
+      "expression": "May 3, 1917 - July 1, 2002"
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/15"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "type": "cubic_feet",
+      "value": "0.20"
+    }
+  ],
+  "level": "recordgrp",
+  "notes": [
+    {
+      "source": "cartographer",
+      "type": "accruals",
+      "subnotes": [
+        {
+          "content": [
+            "veniam elit ad proident est qui",
+            "voluptate pariatur proident amet sunt id",
+            "ex officia in enim voluptate ut",
+            "tempor ea magna quis veniam incididunt"
+          ],
+          "type": "orderedlist"
+        },
+        {
+          "content": [
+            "nisi consequat ex quis et nulla",
+            "nulla et labore magna Lorem esse"
+          ],
+          "type": "text"
+        }
+      ],
+      "title": "pariatur amet adipisicing"
+    },
+    {
+      "source": "wikipedia",
+      "type": "additional_information",
+      "subnotes": [
+        {
+          "content": [
+            "magna officia minim tempor in est",
+            "mollit voluptate dolore officia magna magna"
+          ],
+          "type": "orderedlist"
+        }
+      ],
+      "title": "ipsum esse aliqua"
+    },
+    {
+      "source": "cartographer",
+      "type": "arrangement",
+      "subnotes": [
+        {
+          "content": [
+            "irure deserunt velit reprehenderit cupidatat officia",
+            "et non mollit pariatur in ipsum"
+          ],
+          "type": "definedlist"
+        },
+        {
+          "content": [
+            "nisi do velit consectetur id voluptate",
+            "laboris nisi sint ex mollit minim",
+            "nulla pariatur adipisicing velit consectetur commodo",
+            "deserunt ullamco et ea sint ipsum",
+            "irure velit exercitation culpa velit enim"
+          ],
+          "type": "text"
+        }
+      ],
+      "title": "mollit id nulla"
+    },
+    {
+      "source": "wikipedia",
+      "type": "additional_information",
+      "subnotes": [
+        {
+          "content": [
+            "do anim commodo labore veniam fugiat",
+            "minim reprehenderit adipisicing ut magna voluptate",
+            "voluptate ullamco officia sit minim voluptate"
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            "eu consectetur non tempor irure fugiat",
+            "cupidatat consequat commodo dolor nostrud officia",
+            "aute consequat elit exercitation ipsum dolore"
+          ],
+          "type": "text"
+        }
+      ],
+      "title": "eiusmod ullamco adipisicing"
+    }
+  ],
+  "title": "Laborum incididunt nostrud consequat anim adipisicing velit ex laborum commodo.",
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/resources/7"
+    }
+  ],
+  "children": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/1"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "identifier": "eng",
+      "expression": "Spanish"
+    },
+    {
+      "identifier": "eng",
+      "expression": "English"
+    }
+  ],
+  "rights_statements": [],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/2"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/12"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/29"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/14"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/41"
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/1"
+        }
+      ]
+    }
+  ],
+  "creators": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/42"
+        }
+      ]
+    }
+  ],
+  "type": "collection",
+  "id": "5e16514cd8c30df6d58aea95"
+}

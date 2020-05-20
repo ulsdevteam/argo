@@ -1,0 +1,315 @@
+{
+  "index": 47,
+  "dates": [
+    {
+      "begin": "1928-05-14",
+      "end": "2015-04-20",
+      "type": "bulk",
+      "label": "modified",
+      "source": "archivesspace",
+      "expression": "May 13, 1928 - April 19, 2015"
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/26"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/13"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/43"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "type": "cubic_feet",
+      "value": "4.56"
+    }
+  ],
+  "title": "Velit fugiat pariatur anim occaecat irure velit nisi.",
+  "notes": [
+    {
+      "source": "archivesspace",
+      "type": "arrangement",
+      "subnotes": [
+        {
+          "content": [
+            "occaecat et ullamco velit proident ad"
+          ],
+          "type": "text"
+        }
+      ],
+      "title": "duis veniam anim"
+    },
+    {
+      "source": "wikidata",
+      "type": "appraisal",
+      "subnotes": [
+        {
+          "content": [
+            "minim est aliqua magna commodo ipsum"
+          ],
+          "type": "orderedlist"
+        }
+      ],
+      "title": "mollit labore et"
+    },
+    {
+      "source": "cartographer",
+      "type": "appraisal",
+      "subnotes": [
+        {
+          "content": [
+            "do aute consequat sint fugiat pariatur",
+            "occaecat duis esse ad tempor exercitation",
+            "culpa enim est consectetur aliquip quis"
+          ],
+          "type": "orderedlist"
+        },
+        {
+          "content": [
+            "commodo pariatur quis ut officia deserunt",
+            "ea cupidatat labore pariatur Lorem cupidatat",
+            "officia qui aliqua qui consequat minim"
+          ],
+          "type": "text"
+        }
+      ],
+      "title": "veniam culpa minim"
+    },
+    {
+      "source": "archivesspace",
+      "type": "accruals",
+      "subnotes": [
+        {
+          "content": [
+            "qui deserunt voluptate ea eiusmod ex",
+            "ullamco do non laboris amet anim",
+            "aute dolore deserunt nostrud eiusmod laborum",
+            "tempor eu et officia consectetur nulla"
+          ],
+          "type": "orderedlist"
+        },
+        {
+          "content": [
+            "veniam occaecat et esse exercitation dolor"
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            "occaecat laboris mollit eiusmod laboris irure",
+            "deserunt ex fugiat laboris ea nostrud"
+          ],
+          "type": "definedlist"
+        }
+      ],
+      "title": "do sunt sint"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/47"
+    }
+  ],
+  "languages": [
+    {
+      "identifier": "spa",
+      "expression": "English"
+    }
+  ],
+  "rights_statements": [
+    {
+      "begin": "1931-08-19",
+      "end": "1989-10-11",
+      "copyright_status": "public domain",
+      "notes": [],
+      "jurisdiction": "CN",
+      "other_basis": "do",
+      "rights_granted": [
+        {
+          "restriction": "disallow",
+          "begin": "1922-12-11",
+          "end": "1975-12-15",
+          "notes": [
+            {
+              "source": "wikidata",
+              "type": "type_note",
+              "subnotes": [
+                {
+                  "content": [
+                    "in proident magna esse duis consectetur",
+                    "qui enim veniam consectetur ex magna",
+                    "labore id non elit culpa duis",
+                    "duis labore magna labore veniam aliqua",
+                    "fugiat excepteur aute quis velit ipsum"
+                  ],
+                  "type": "definedlist"
+                },
+                {
+                  "content": [
+                    "qui excepteur nisi magna mollit elit"
+                  ],
+                  "type": "text"
+                }
+              ],
+              "title": "cillum sunt mollit"
+            }
+          ],
+          "act": "delete"
+        },
+        {
+          "restriction": "allow",
+          "begin": "1919-08-04",
+          "end": "1997-10-19",
+          "notes": [],
+          "act": "replicate"
+        }
+      ],
+      "rights_status": "public domain",
+      "determination_date": "1959-08-23",
+      "type": "rights_statement",
+      "id": "5e164dbc3966fa0ae2422a59",
+      "rights_type": "license"
+    },
+    {
+      "begin": "1919-06-07",
+      "end": "2004-12-14",
+      "copyright_status": "copyrighted",
+      "notes": [
+        {
+          "source": "cartographer",
+          "type": "rights_statement",
+          "subnotes": [
+            {
+              "content": [
+                "in et commodo ad exercitation aliquip",
+                "aliquip ut ullamco consectetur consequat elit",
+                "exercitation excepteur pariatur dolor consequat proident"
+              ],
+              "type": "orderedlist"
+            }
+          ],
+          "title": "minim mollit commodo"
+        }
+      ],
+      "jurisdiction": "FR",
+      "other_basis": "excepteur",
+      "rights_granted": [
+        {
+          "restriction": "disallow",
+          "begin": "1956-09-29",
+          "end": "1993-11-14",
+          "notes": [
+            {
+              "source": "wikidata",
+              "type": "expiration",
+              "subnotes": [
+                {
+                  "content": [
+                    "nisi culpa labore dolore sunt velit"
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    "exercitation aliqua magna proident non est",
+                    "minim magna fugiat amet consequat duis",
+                    "incididunt cupidatat est adipisicing qui cillum",
+                    "ad do enim est minim mollit"
+                  ],
+                  "type": "orderedlist"
+                }
+              ],
+              "title": "non sit ad"
+            }
+          ],
+          "act": "delete"
+        },
+        {
+          "restriction": "disallow",
+          "begin": "1942-12-10",
+          "end": "1983-07-24",
+          "notes": [],
+          "act": "migrate"
+        }
+      ],
+      "rights_status": "unknown",
+      "determination_date": "1916-01-23",
+      "type": "rights_statement",
+      "id": "5e164dbcc0c5266e8aeb0e24",
+      "rights_type": "license"
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/8"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/4"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/44"
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/28"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/29"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/1"
+        }
+      ]
+    }
+  ],
+  "type": "object",
+  "id": "5e164dbcafecb8b6cb4d8f50"
+}

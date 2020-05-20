@@ -1,0 +1,325 @@
+{
+  "index": 40,
+  "dates": [
+    {
+      "begin": "1946-04-09",
+      "end": "2008-06-07",
+      "type": "inclusive",
+      "label": "record_keeping",
+      "source": "archivesspace",
+      "expression": "April 8, 1946 - June 6, 2008"
+    },
+    {
+      "begin": "1955-10-08",
+      "end": "2010-03-04",
+      "type": "bulk",
+      "label": "creation",
+      "source": "archivesspace",
+      "expression": "October 7, 1955 - March 3, 2010"
+    },
+    {
+      "begin": "1914-09-14",
+      "end": "2006-09-27",
+      "type": "single",
+      "label": "modified",
+      "source": "archivesspace",
+      "expression": "September 13, 1914 - September 26, 2006"
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/33"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/13"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/30"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "type": "volumes",
+      "value": "0.26"
+    }
+  ],
+  "level": "recordgrp",
+  "notes": [
+    {
+      "source": "archivesspace",
+      "type": "restrictions",
+      "subnotes": [
+        {
+          "content": [
+            "aliqua dolor irure Lorem laborum irure",
+            "laboris ex aliqua sit minim labore",
+            "consectetur amet ea est consequat esse"
+          ],
+          "type": "orderedlist"
+        },
+        {
+          "content": [
+            "non nulla velit laborum dolore ullamco",
+            "ipsum commodo aliquip magna do proident",
+            "eu quis elit elit occaecat voluptate",
+            "ut in officia culpa cupidatat adipisicing"
+          ],
+          "type": "definedlist"
+        }
+      ],
+      "title": "dolore ullamco tempor"
+    },
+    {
+      "source": "wikidata",
+      "type": "otherfindaid",
+      "subnotes": [
+        {
+          "content": [
+            "velit nulla labore do cupidatat anim",
+            "nostrud officia sit ad labore officia",
+            "dolore incididunt dolor dolor nisi incididunt"
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            "id consequat occaecat do non nostrud"
+          ],
+          "type": "text"
+        }
+      ],
+      "title": "commodo laborum sunt"
+    },
+    {
+      "source": "cartographer",
+      "type": "odd",
+      "subnotes": [
+        {
+          "content": [
+            "ipsum minim anim eiusmod labore ipsum",
+            "consectetur nostrud est ipsum ex Lorem"
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            "velit qui ipsum ut Lorem ex",
+            "labore enim cillum eiusmod cillum tempor",
+            "nostrud adipisicing cupidatat do eu fugiat",
+            "non laboris anim non ullamco et",
+            "duis proident et aliquip id id"
+          ],
+          "type": "text"
+        }
+      ],
+      "title": "nostrud quis commodo"
+    }
+  ],
+  "title": "Est qui enim mollit pariatur labore sint do laborum irure magna nostrud exercitation.",
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/resources/40"
+    }
+  ],
+  "children": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/49"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "identifier": "eng",
+      "expression": "Esperanto"
+    },
+    {
+      "identifier": "spa",
+      "expression": "Spanish"
+    }
+  ],
+  "rights_statements": [
+    {
+      "begin": "1941-03-15",
+      "end": "1963-01-24",
+      "copyright_status": "copyrighted",
+      "notes": [],
+      "jurisdiction": "CN",
+      "other_basis": "veniam",
+      "rights_granted": [
+        {
+          "restriction": "allow",
+          "begin": "1950-12-02",
+          "end": "1987-09-28",
+          "notes": [
+            {
+              "source": "archivesspace",
+              "type": "permissions",
+              "subnotes": [
+                {
+                  "content": [
+                    "amet est cupidatat eu ipsum aliqua",
+                    "ea cillum nostrud reprehenderit velit anim",
+                    "consequat consectetur nostrud id proident duis"
+                  ],
+                  "type": "orderedlist"
+                },
+                {
+                  "content": [
+                    "culpa cillum laboris incididunt nulla officia",
+                    "quis incididunt ut anim aute consectetur",
+                    "adipisicing in aliquip cupidatat deserunt dolor",
+                    "officia laboris minim eu magna fugiat"
+                  ],
+                  "type": "orderedlist"
+                },
+                {
+                  "content": [
+                    "esse nisi duis non dolore consequat",
+                    "Lorem cillum mollit deserunt tempor sint"
+                  ],
+                  "type": "text"
+                }
+              ],
+              "title": "ipsum fugiat proident"
+            }
+          ],
+          "act": "migrate"
+        },
+        {
+          "restriction": "disallow",
+          "begin": "1937-10-17",
+          "end": "1984-04-06",
+          "notes": [],
+          "act": "use"
+        }
+      ],
+      "rights_status": "copyrighted",
+      "determination_date": "1933-04-04",
+      "type": "rights_statement",
+      "id": "5e16514c8f62dac70a48865c",
+      "rights_type": "license"
+    },
+    {
+      "begin": "1931-11-09",
+      "end": "1976-04-09",
+      "copyright_status": "unknown",
+      "notes": [],
+      "jurisdiction": "CN",
+      "other_basis": "ad",
+      "rights_granted": [
+        {
+          "restriction": "disallow",
+          "begin": "1954-01-12",
+          "end": "1981-10-29",
+          "notes": [],
+          "act": "replicate"
+        },
+        {
+          "restriction": "allow",
+          "begin": "1949-01-25",
+          "end": "2011-11-10",
+          "notes": [
+            {
+              "source": "cartographer",
+              "type": "restrictions",
+              "subnotes": [
+                {
+                  "content": [
+                    "ullamco excepteur id consectetur nisi amet",
+                    "consectetur ex magna nulla enim qui",
+                    "reprehenderit officia duis incididunt officia dolore",
+                    "cupidatat dolore pariatur sunt ipsum id"
+                  ],
+                  "type": "text"
+                }
+              ],
+              "title": "anim cillum ea"
+            }
+          ],
+          "act": "delete"
+        }
+      ],
+      "rights_status": "public domain",
+      "determination_date": "1934-10-15",
+      "type": "rights_statement",
+      "id": "5e16514c665fdeb03f83a1b3",
+      "rights_type": "copyright"
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/39"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/40"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/39"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/29"
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/39"
+        }
+      ]
+    }
+  ],
+  "creators": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/7"
+        }
+      ]
+    }
+  ],
+  "type": "collection",
+  "id": "5e16514c599b1f6017527958"
+}

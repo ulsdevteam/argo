@@ -1,0 +1,58 @@
+{
+  "index": 23,
+  "dates": [
+    {
+      "begin": "1927-11-29",
+      "end": "2012-08-19",
+      "type": "single",
+      "label": "agent_relation",
+      "source": "archivesspace",
+      "expression": "November 28, 1927 - August 18, 2012"
+    },
+    {
+      "begin": "1939-08-21",
+      "end": "1993-03-11",
+      "type": "bulk",
+      "label": "other",
+      "source": "wikidata",
+      "expression": "August 20, 1939 - March 10, 1993"
+    }
+  ],
+  "description": "Deserunt laboris fugiat voluptate duis sit cupidatat ad ad dolor ut ut cupidatat. Id exercitation commodo sint veniam labore proident eu in pariatur qui non minim quis. Irure eiusmod excepteur ex eiusmod adipisicing in ea incididunt ipsum nostrud. Veniam ex eiusmod labore consectetur.\r\n",
+  "title": "Erickson Stokes",
+  "notes": [
+    {
+      "source": "archivesspace",
+      "type": "note",
+      "subnotes": [
+        {
+          "content": [
+            "quis in ea amet quis commodo",
+            "consequat minim veniam minim in in",
+            "exercitation adipisicing reprehenderit excepteur labore culpa",
+            "exercitation ad commodo Lorem nulla incididunt",
+            "excepteur in tempor deserunt sit commodo"
+          ],
+          "type": "orderedlist"
+        },
+        {
+          "content": [
+            "culpa deserunt elit sit pariatur sit",
+            "laborum velit consectetur deserunt laboris voluptate"
+          ],
+          "type": "definedlist"
+        }
+      ],
+      "title": "proident nulla non"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_person/23"
+    }
+  ],
+  "agent_type": "person",
+  "type": "agent",
+  "id": "5e162b2ca07f8f55d5d3765d"
+}

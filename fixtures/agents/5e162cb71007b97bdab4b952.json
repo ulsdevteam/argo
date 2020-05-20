@@ -1,0 +1,52 @@
+{
+  "index": 1,
+  "dates": [
+    {
+      "begin": "1916-06-20",
+      "end": "1979-06-05",
+      "type": "single",
+      "label": "creation",
+      "source": "wikidata",
+      "expression": "June 19, 1916 - June 4, 1979"
+    }
+  ],
+  "description": "Consectetur ipsum aute velit officia cillum ex commodo sit culpa enim esse ut. Proident ipsum minim aute cillum adipisicing nulla irure anim adipisicing. Sint nulla commodo magna duis cillum irure consequat cillum ullamco nulla in labore mollit. Incididunt nulla proident adipisicing non magna.\r\n",
+  "title": "Le Foundation",
+  "notes": [
+    {
+      "source": "cartographer",
+      "type": "rights_statement_act",
+      "subnotes": [
+        {
+          "content": [
+            "nisi amet exercitation magna fugiat proident",
+            "sint dolor pariatur enim laboris do",
+            "occaecat eiusmod consectetur in ut commodo",
+            "eu veniam voluptate consectetur sunt est"
+          ],
+          "type": "orderedlist"
+        },
+        {
+          "content": [
+            "mollit incididunt in ut sit Lorem",
+            "nulla cillum duis exercitation veniam sint",
+            "do elit voluptate eiusmod excepteur labore",
+            "magna proident est magna elit exercitation",
+            "sit sint cillum officia tempor minim"
+          ],
+          "type": "definedlist"
+        }
+      ],
+      "title": "nisi sunt culpa"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/1"
+    }
+  ],
+  "agent_type": "organization",
+  "type": "agent",
+  "id": "5e162cb71007b97bdab4b952"
+}

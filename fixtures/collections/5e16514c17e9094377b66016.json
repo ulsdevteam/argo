@@ -1,0 +1,261 @@
+{
+  "index": 11,
+  "dates": [
+    {
+      "begin": "1920-05-18",
+      "end": "1969-03-15",
+      "type": "bulk",
+      "label": "modified",
+      "source": "archivesspace",
+      "expression": "May 17, 1920 - March 14, 1969"
+    },
+    {
+      "begin": "1950-05-13",
+      "end": "1966-10-24",
+      "type": "single",
+      "label": "record_keeping",
+      "source": "archivesspace",
+      "expression": "May 12, 1950 - October 23, 1966"
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/20"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "type": "photographic_slides",
+      "value": "2.18"
+    }
+  ],
+  "level": "recordgrp",
+  "notes": [
+    {
+      "source": "archivesspace",
+      "type": "acquinfo",
+      "subnotes": [
+        {
+          "content": [
+            "deserunt cillum esse qui duis ut",
+            "occaecat adipisicing commodo dolore excepteur sit",
+            "ea nulla eiusmod esse qui laboris"
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            "nostrud irure nostrud ea cupidatat cupidatat",
+            "fugiat dolore nisi in consectetur nulla"
+          ],
+          "type": "orderedlist"
+        },
+        {
+          "content": [
+            "quis do culpa labore aute adipisicing",
+            "ex officia voluptate mollit in do"
+          ],
+          "type": "text"
+        }
+      ],
+      "title": "excepteur laboris duis"
+    },
+    {
+      "source": "wikidata",
+      "type": "bioghist",
+      "subnotes": [
+        {
+          "content": [
+            "ut magna culpa ad qui labore"
+          ],
+          "type": "orderedlist"
+        }
+      ],
+      "title": "ut et enim"
+    },
+    {
+      "source": "archivesspace",
+      "type": "summary",
+      "subnotes": [
+        {
+          "content": [
+            "ex id adipisicing qui est elit",
+            "cillum consectetur aliqua id commodo eu",
+            "veniam esse culpa pariatur laborum mollit"
+          ],
+          "type": "orderedlist"
+        }
+      ],
+      "title": "duis veniam cillum"
+    }
+  ],
+  "title": "Quis enim non culpa id.",
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/resources/11"
+    }
+  ],
+  "children": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/46"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/26"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "identifier": "eng",
+      "expression": "Spanish"
+    },
+    {
+      "identifier": "eng",
+      "expression": "English"
+    },
+    {
+      "identifier": "epo",
+      "expression": "English"
+    }
+  ],
+  "rights_statements": [
+    {
+      "begin": "1923-08-19",
+      "end": "1983-03-02",
+      "copyright_status": "unknown",
+      "notes": [],
+      "jurisdiction": "CN",
+      "other_basis": "eu",
+      "rights_granted": [
+        {
+          "restriction": "allow",
+          "begin": "1924-04-01",
+          "end": "2019-03-22",
+          "notes": [
+            {
+              "source": "wikidata",
+              "type": "expiration",
+              "subnotes": [
+                {
+                  "content": [
+                    "et excepteur nulla duis culpa nulla"
+                  ],
+                  "type": "text"
+                }
+              ],
+              "title": "duis ut qui"
+            }
+          ],
+          "act": "use"
+        },
+        {
+          "restriction": "disallow",
+          "begin": "1926-09-30",
+          "end": "1995-06-27",
+          "notes": [],
+          "act": "replicate"
+        }
+      ],
+      "rights_status": "unknown",
+      "determination_date": "1926-09-17",
+      "type": "rights_statement",
+      "id": "5e16514c00cc3879116f73d8",
+      "rights_type": "other"
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/35"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/2"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/30"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/39"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/10"
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/45"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/25"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/31"
+        }
+      ]
+    }
+  ],
+  "creators": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/13"
+        }
+      ]
+    }
+  ],
+  "type": "collection",
+  "id": "5e16514c17e9094377b66016"
+}

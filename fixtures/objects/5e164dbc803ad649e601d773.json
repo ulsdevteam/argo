@@ -1,0 +1,230 @@
+{
+  "index": 34,
+  "dates": [
+    {
+      "begin": "1948-03-16",
+      "end": "2013-12-21",
+      "type": "inclusive",
+      "label": "existence",
+      "source": "archivesspace",
+      "expression": "March 15, 1948 - December 20, 2013"
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/12"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "type": "files",
+      "value": "4.58"
+    },
+    {
+      "type": "linear_feet",
+      "value": "0.30"
+    }
+  ],
+  "title": "In voluptate tempor nisi aliquip labore Lorem nulla sunt esse sit cillum.",
+  "notes": [
+    {
+      "source": "wikipedia",
+      "type": "rights_statement_act",
+      "subnotes": [
+        {
+          "content": [
+            "pariatur culpa eiusmod laboris qui laborum"
+          ],
+          "type": "orderedlist"
+        },
+        {
+          "content": [
+            "cillum ipsum officia laborum aliqua in",
+            "incididunt est ullamco aliqua veniam excepteur"
+          ],
+          "type": "definedlist"
+        },
+        {
+          "content": [
+            "ut anim dolore occaecat eiusmod tempor",
+            "exercitation deserunt adipisicing enim magna voluptate",
+            "tempor non adipisicing magna consectetur ex",
+            "excepteur eu officia ut ea occaecat"
+          ],
+          "type": "text"
+        }
+      ],
+      "title": "nisi in commodo"
+    },
+    {
+      "source": "cartographer",
+      "type": "originalsloc",
+      "subnotes": [
+        {
+          "content": [
+            "officia ad adipisicing mollit labore nulla",
+            "esse pariatur sint do cupidatat eu",
+            "culpa id anim officia mollit aute",
+            "enim eiusmod voluptate reprehenderit laborum consequat"
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            "reprehenderit incididunt tempor cupidatat minim reprehenderit",
+            "exercitation tempor adipisicing eiusmod aliqua eiusmod",
+            "culpa excepteur quis et commodo eu"
+          ],
+          "type": "text"
+        }
+      ],
+      "title": "tempor ut non"
+    },
+    {
+      "source": "wikipedia",
+      "type": "scopecontent",
+      "subnotes": [
+        {
+          "content": [
+            "labore excepteur magna aute cupidatat cillum",
+            "cupidatat fugiat consequat aliquip ex ex",
+            "consectetur Lorem occaecat officia in fugiat",
+            "mollit nisi eiusmod anim ad enim"
+          ],
+          "type": "orderedlist"
+        }
+      ],
+      "title": "nisi consectetur Lorem"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/34"
+    }
+  ],
+  "languages": [
+    {
+      "identifier": "spa",
+      "expression": "Esperanto"
+    },
+    {
+      "identifier": "spa",
+      "expression": "English"
+    }
+  ],
+  "rights_statements": [
+    {
+      "begin": "1945-02-13",
+      "end": "2001-06-11",
+      "copyright_status": "public domain",
+      "notes": [],
+      "jurisdiction": "US",
+      "other_basis": "labore",
+      "rights_granted": [
+        {
+          "restriction": "allow",
+          "begin": "1916-02-27",
+          "end": "1983-07-14",
+          "notes": [
+            {
+              "source": "wikidata",
+              "type": "expiration",
+              "subnotes": [
+                {
+                  "content": [
+                    "excepteur anim quis officia mollit cillum",
+                    "ullamco id eiusmod do eu dolore",
+                    "commodo pariatur aute reprehenderit consectetur veniam"
+                  ],
+                  "type": "definedlist"
+                },
+                {
+                  "content": [
+                    "elit aliquip velit nulla commodo pariatur",
+                    "ea incididunt dolor dolor sunt sint",
+                    "elit in esse adipisicing sunt esse",
+                    "occaecat magna labore anim ea minim"
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    "laboris magna veniam consequat ad incididunt",
+                    "irure velit tempor dolor id qui"
+                  ],
+                  "type": "orderedlist"
+                }
+              ],
+              "title": "amet aliqua minim"
+            }
+          ],
+          "act": "migrate"
+        },
+        {
+          "restriction": "allow",
+          "begin": "1935-03-07",
+          "end": "1995-12-02",
+          "notes": [],
+          "act": "replicate"
+        }
+      ],
+      "rights_status": "public domain",
+      "determination_date": "1958-05-24",
+      "type": "rights_statement",
+      "id": "5e164dbc61d73db5a11f5054",
+      "rights_type": "other"
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/35"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/15"
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/13"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/15"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/22"
+        }
+      ]
+    }
+  ],
+  "type": "object",
+  "id": "5e164dbc803ad649e601d773"
+}

@@ -1,0 +1,84 @@
+{
+  "index": 27,
+  "dates": [
+    {
+      "begin": "1954-07-14",
+      "end": "1997-01-17",
+      "type": "bulk",
+      "label": "usage",
+      "source": "archivesspace",
+      "expression": "July 13, 1954 - January 16, 1997"
+    },
+    {
+      "begin": "1924-11-20",
+      "end": "2016-10-15",
+      "type": "single",
+      "label": "event",
+      "source": "wikidata",
+      "expression": "November 19, 1924 - October 14, 2016"
+    }
+  ],
+  "description": "Quis fugiat laborum laboris ad et consectetur non sunt voluptate. Fugiat irure qui proident aliqua incididunt non pariatur. Officia sit do fugiat nulla id esse. Sint id laboris quis incididunt. Mollit laborum incididunt nulla nisi culpa sint excepteur. Labore duis cupidatat labore adipisicing.\r\n",
+  "title": "Sheri Woodard",
+  "notes": [
+    {
+      "source": "wikipedia",
+      "type": "altformavail",
+      "subnotes": [
+        {
+          "content": [
+            "Lorem aliqua anim nostrud incididunt aliqua",
+            "dolor velit eiusmod est eiusmod sunt"
+          ],
+          "type": "definedlist"
+        },
+        {
+          "content": [
+            "adipisicing do eu commodo amet aliquip",
+            "pariatur esse sunt nulla dolor nulla",
+            "minim in ut eu commodo anim",
+            "deserunt ullamco Lorem excepteur exercitation laborum"
+          ],
+          "type": "definedlist"
+        }
+      ],
+      "title": "eiusmod amet fugiat"
+    },
+    {
+      "source": "cartographer",
+      "type": "accruals",
+      "subnotes": [
+        {
+          "content": [
+            "qui laborum sint labore laborum cupidatat",
+            "tempor Lorem fugiat excepteur velit laboris"
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            "dolor veniam quis incididunt irure esse"
+          ],
+          "type": "orderedlist"
+        },
+        {
+          "content": [
+            "nostrud tempor enim excepteur esse reprehenderit",
+            "pariatur fugiat ea dolore esse sint"
+          ],
+          "type": "text"
+        }
+      ],
+      "title": "ullamco proident elit"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_person/27"
+    }
+  ],
+  "agent_type": "person",
+  "type": "agent",
+  "id": "5e162b2c985fb8dd1aac45c3"
+}

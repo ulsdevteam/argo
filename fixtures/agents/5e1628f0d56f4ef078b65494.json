@@ -1,0 +1,47 @@
+{
+  "index": 40,
+  "dates": [
+    {
+      "begin": "1930-06-27",
+      "end": "1961-07-22",
+      "type": "inclusive",
+      "label": "modified",
+      "source": "wikidata",
+      "expression": "June 26, 1930 - July 21, 1961"
+    },
+    {
+      "begin": "1945-03-18",
+      "end": "1993-03-31",
+      "type": "inclusive",
+      "label": "creation",
+      "source": "archivesspace",
+      "expression": "March 17, 1945 - March 30, 1993"
+    }
+  ],
+  "description": "Velit sint eu quis aliquip fugiat tempor cillum ex fugiat proident. Nulla esse consequat id reprehenderit labore laboris nostrud commodo Lorem. Occaecat laboris nostrud elit culpa ea. Duis cupidatat veniam veniam laboris ex consectetur nostrud adipisicing pariatur consequat. Officia quis mollit nulla ut in aliquip. Mollit est culpa ad consectetur aliquip aliquip ad aliqua elit.\r\n",
+  "title": "Gibson family",
+  "notes": [
+    {
+      "source": "archivesspace",
+      "type": "userestrict",
+      "subnotes": [
+        {
+          "content": [
+            "laborum irure consectetur nisi nostrud quis"
+          ],
+          "type": "text"
+        }
+      ],
+      "title": "labore exercitation veniam"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/40"
+    }
+  ],
+  "agent_type": "family",
+  "type": "agent",
+  "id": "5e1628f0d56f4ef078b65494"
+}

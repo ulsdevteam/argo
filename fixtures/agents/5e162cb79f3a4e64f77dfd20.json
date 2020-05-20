@@ -1,0 +1,67 @@
+{
+  "index": 43,
+  "dates": [
+    {
+      "begin": "1917-06-20",
+      "end": "2002-03-16",
+      "type": "bulk",
+      "label": "issued",
+      "source": "wikidata",
+      "expression": "June 19, 1917 - March 15, 2002"
+    },
+    {
+      "begin": "1922-07-28",
+      "end": "2009-02-02",
+      "type": "single",
+      "label": "event",
+      "source": "wikidata",
+      "expression": "July 27, 1922 - February 1, 2009"
+    }
+  ],
+  "description": "Ex culpa ipsum laboris exercitation. Enim dolore cupidatat ullamco et elit commodo non. Voluptate id laborum consectetur tempor ullamco Lorem eu dolore.\r\n",
+  "title": "Weiss Foundation",
+  "notes": [
+    {
+      "source": "archivesspace",
+      "type": "accruals",
+      "subnotes": [
+        {
+          "content": [
+            "consectetur labore dolor laborum laboris officia",
+            "nulla commodo qui quis excepteur in"
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            "sunt adipisicing laborum laborum eiusmod nisi",
+            "Lorem tempor labore elit culpa veniam",
+            "laborum occaecat sint commodo incididunt incididunt",
+            "esse exercitation duis excepteur do nostrud",
+            "ipsum do culpa adipisicing quis culpa"
+          ],
+          "type": "definedlist"
+        },
+        {
+          "content": [
+            "nostrud commodo est tempor id ex",
+            "dolore laboris deserunt excepteur consectetur deserunt",
+            "amet pariatur irure id nulla laboris",
+            "qui excepteur ex sint nisi consequat"
+          ],
+          "type": "orderedlist"
+        }
+      ],
+      "title": "est ea enim"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/43"
+    }
+  ],
+  "agent_type": "organization",
+  "type": "agent",
+  "id": "5e162cb79f3a4e64f77dfd20"
+}

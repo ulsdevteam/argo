@@ -1,0 +1,228 @@
+{
+  "index": 5,
+  "dates": [
+    {
+      "begin": "1941-02-10",
+      "end": "1977-07-22",
+      "type": "single",
+      "label": "issued",
+      "source": "archivesspace",
+      "expression": "February 9, 1941 - July 21, 1977"
+    },
+    {
+      "begin": "1921-04-26",
+      "end": "1974-01-14",
+      "type": "inclusive",
+      "label": "existence",
+      "source": "archivesspace",
+      "expression": "April 25, 1921 - January 13, 1974"
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/45"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/19"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "type": "microform reels",
+      "value": "5.00"
+    },
+    {
+      "type": "gigabytes",
+      "value": "7.18"
+    }
+  ],
+  "level": "recordgrp",
+  "notes": [
+    {
+      "source": "wikidata",
+      "type": "inscription",
+      "subnotes": [
+        {
+          "content": [
+            "culpa laboris minim anim deserunt exercitation",
+            "nulla eiusmod proident do ipsum et"
+          ],
+          "type": "definedlist"
+        },
+        {
+          "content": [
+            "id aute do amet culpa minim",
+            "laboris do ipsum adipisicing laborum deserunt",
+            "minim proident reprehenderit incididunt voluptate fugiat",
+            "officia laborum incididunt sint veniam occaecat",
+            "nisi non fugiat sunt ullamco esse"
+          ],
+          "type": "text"
+        }
+      ],
+      "title": "enim consequat aliquip"
+    }
+  ],
+  "title": "Commodo mollit nulla voluptate aliquip irure nulla nostrud.",
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/resources/5"
+    }
+  ],
+  "children": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/20"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "identifier": "epo",
+      "expression": "Esperanto"
+    }
+  ],
+  "rights_statements": [
+    {
+      "begin": "1928-02-25",
+      "end": "1988-12-13",
+      "copyright_status": "copyrighted",
+      "notes": [
+        {
+          "source": "cartographer",
+          "type": "expiration",
+          "subnotes": [
+            {
+              "content": [
+                "excepteur tempor velit sint exercitation dolore",
+                "commodo deserunt officia esse irure culpa",
+                "velit id pariatur eu proident sit",
+                "mollit nisi irure nostrud est id"
+              ],
+              "type": "orderedlist"
+            }
+          ],
+          "title": "eiusmod irure aliqua"
+        }
+      ],
+      "jurisdiction": "FR",
+      "other_basis": "proident",
+      "rights_granted": [
+        {
+          "restriction": "allow",
+          "begin": "1932-09-02",
+          "end": "2018-09-09",
+          "notes": [],
+          "act": "modify"
+        }
+      ],
+      "rights_status": "unknown",
+      "determination_date": "1919-03-14",
+      "type": "rights_statement",
+      "id": "5e16514cf8301eeb0153d931",
+      "rights_type": "license"
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/6"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/28"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/41"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/11"
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/1"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/15"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/50"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/4"
+        }
+      ]
+    }
+  ],
+  "creators": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/31"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/46"
+        }
+      ]
+    }
+  ],
+  "type": "collection",
+  "id": "5e16514cdc05dd88893bc873"
+}

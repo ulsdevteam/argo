@@ -1,0 +1,79 @@
+{
+  "index": 42,
+  "dates": [
+    {
+      "begin": "1959-11-30",
+      "end": "1970-09-03",
+      "type": "bulk",
+      "label": "broadcast",
+      "source": "archivesspace",
+      "expression": "November 29, 1959 - September 2, 1970"
+    }
+  ],
+  "description": "Esse aliquip duis aliquip minim esse consequat culpa incididunt minim sint enim sit. Excepteur aliquip reprehenderit labore qui quis minim veniam officia officia velit sit laborum ullamco in. Commodo excepteur nisi non ex excepteur ipsum velit. Eu duis officia aliquip commodo nisi esse consequat proident nulla eu voluptate consectetur et qui. Eu commodo nisi occaecat voluptate consequat eu sunt incididunt elit qui. Sint in id eu velit anim consequat non sit consequat. Amet dolore veniam qui qui duis ad do.\r\n",
+  "title": "Koch family",
+  "notes": [
+    {
+      "source": "cartographer",
+      "type": "summary",
+      "subnotes": [
+        {
+          "content": [
+            "nisi nulla nisi duis dolor laboris",
+            "culpa elit magna elit fugiat cillum",
+            "nisi esse ad Lorem officia sint",
+            "amet fugiat culpa aliquip amet excepteur",
+            "consequat ex voluptate qui dolore elit"
+          ],
+          "type": "orderedlist"
+        },
+        {
+          "content": [
+            "aute aliquip fugiat officia dolor aliqua"
+          ],
+          "type": "orderedlist"
+        },
+        {
+          "content": [
+            "commodo ex ex quis ullamco cupidatat",
+            "pariatur ipsum eiusmod cupidatat officia dolor",
+            "nisi do excepteur amet excepteur tempor"
+          ],
+          "type": "text"
+        }
+      ],
+      "title": "officia excepteur reprehenderit"
+    },
+    {
+      "source": "wikipedia",
+      "type": "restrictions",
+      "subnotes": [
+        {
+          "content": [
+            "sit in labore elit non ipsum",
+            "tempor quis ullamco enim sit magna",
+            "laboris elit exercitation consectetur labore consequat"
+          ],
+          "type": "definedlist"
+        },
+        {
+          "content": [
+            "nostrud dolore exercitation laborum cillum consectetur",
+            "id ad incididunt culpa sint officia"
+          ],
+          "type": "text"
+        }
+      ],
+      "title": "veniam ipsum sunt"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/42"
+    }
+  ],
+  "agent_type": "family",
+  "type": "agent",
+  "id": "5e1628f024a1c2461d93fa51"
+}

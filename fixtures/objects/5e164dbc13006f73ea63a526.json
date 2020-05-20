@@ -1,0 +1,219 @@
+{
+  "index": 40,
+  "dates": [
+    {
+      "begin": "1941-08-24",
+      "end": "2011-07-18",
+      "type": "inclusive",
+      "label": "publication",
+      "source": "archivesspace",
+      "expression": "August 23, 1941 - July 17, 2011"
+    },
+    {
+      "begin": "1934-05-09",
+      "end": "1999-04-26",
+      "type": "single",
+      "label": "deaccession",
+      "source": "archivesspace",
+      "expression": "May 8, 1934 - April 25, 1999"
+    },
+    {
+      "begin": "1948-11-18",
+      "end": "2004-06-01",
+      "type": "bulk",
+      "label": "usage",
+      "source": "archivesspace",
+      "expression": "November 17, 1948 - May 31, 2004"
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/41"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/6"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "type": "cubic_feet",
+      "value": "3.78"
+    }
+  ],
+  "title": "Non Lorem eiusmod magna aute ex.",
+  "notes": [
+    {
+      "source": "archivesspace",
+      "type": "edition",
+      "subnotes": [
+        {
+          "content": [
+            "adipisicing culpa laboris officia cillum ullamco"
+          ],
+          "type": "definedlist"
+        },
+        {
+          "content": [
+            "est id officia consectetur ullamco nostrud",
+            "reprehenderit laborum exercitation tempor dolore incididunt"
+          ],
+          "type": "text"
+        }
+      ],
+      "title": "in et nulla"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/40"
+    }
+  ],
+  "languages": [
+    {
+      "identifier": "epo",
+      "expression": "English"
+    },
+    {
+      "identifier": "epo",
+      "expression": "Spanish"
+    }
+  ],
+  "rights_statements": [
+    {
+      "begin": "1926-11-02",
+      "end": "1979-01-04",
+      "copyright_status": "unknown",
+      "notes": [
+        {
+          "source": "wikidata",
+          "type": "additional_information",
+          "subnotes": [
+            {
+              "content": [
+                "aliqua pariatur tempor Lorem aliqua veniam",
+                "ipsum deserunt Lorem duis ea dolore",
+                "est sit sint veniam fugiat incididunt",
+                "proident mollit tempor quis ex duis"
+              ],
+              "type": "definedlist"
+            }
+          ],
+          "title": "eu aliquip laboris"
+        }
+      ],
+      "jurisdiction": "CN",
+      "other_basis": "tempor",
+      "rights_granted": [
+        {
+          "restriction": "disallow",
+          "begin": "1919-04-03",
+          "end": "1967-02-07",
+          "notes": [],
+          "act": "migrate"
+        }
+      ],
+      "rights_status": "copyrighted",
+      "determination_date": "1936-10-28",
+      "type": "rights_statement",
+      "id": "5e164dbc13d3b718f5319f34",
+      "rights_type": "other"
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/8"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/35"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/2"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/19"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/9"
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/44"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/11"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/19"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/43"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/41"
+        }
+      ]
+    }
+  ],
+  "type": "object",
+  "id": "5e164dbc13006f73ea63a526"
+}

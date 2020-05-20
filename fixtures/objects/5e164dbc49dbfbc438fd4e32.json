@@ -1,0 +1,301 @@
+{
+  "index": 11,
+  "dates": [
+    {
+      "begin": "1953-02-25",
+      "end": "1962-10-16",
+      "type": "inclusive",
+      "label": "digitized",
+      "source": "archivesspace",
+      "expression": "February 24, 1953 - October 15, 1962"
+    },
+    {
+      "begin": "1939-08-05",
+      "end": "2009-10-23",
+      "type": "inclusive",
+      "label": "issued",
+      "source": "archivesspace",
+      "expression": "August 4, 1939 - October 22, 2009"
+    },
+    {
+      "begin": "1929-06-13",
+      "end": "1968-12-01",
+      "type": "single",
+      "label": "copyright",
+      "source": "archivesspace",
+      "expression": "June 12, 1929 - November 30, 1968"
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/21"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/36"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/29"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "type": "microform reels",
+      "value": "0.72"
+    },
+    {
+      "type": "linear_feet",
+      "value": "4.38"
+    }
+  ],
+  "title": "Non tempor id voluptate non non ad cillum magna commodo sit eiusmod deserunt minim sit.",
+  "notes": [
+    {
+      "source": "archivesspace",
+      "type": "physdesc",
+      "subnotes": [
+        {
+          "content": [
+            "amet pariatur id nulla reprehenderit adipisicing",
+            "ut anim ut esse ut nisi",
+            "pariatur duis Lorem anim labore id",
+            "voluptate veniam Lorem elit magna mollit",
+            "eu elit occaecat esse non cupidatat"
+          ],
+          "type": "definedlist"
+        },
+        {
+          "content": [
+            "eu excepteur mollit officia qui consequat",
+            "amet qui cillum amet esse nostrud",
+            "amet ipsum aute id sint ea",
+            "commodo voluptate sunt deserunt labore ullamco"
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            "laborum consequat proident sint duis amet",
+            "sit pariatur ea excepteur velit et",
+            "dolor elit excepteur voluptate sint nisi",
+            "anim eiusmod esse exercitation ipsum sit",
+            "cupidatat tempor do non labore nulla"
+          ],
+          "type": "orderedlist"
+        }
+      ],
+      "title": "tempor velit duis"
+    },
+    {
+      "source": "archivesspace",
+      "type": "odd",
+      "subnotes": [
+        {
+          "content": [
+            "nostrud adipisicing laboris cupidatat et do",
+            "duis eu enim sint voluptate veniam",
+            "sint non labore sint do ipsum",
+            "laboris et dolore incididunt veniam ea"
+          ],
+          "type": "text"
+        }
+      ],
+      "title": "id pariatur fugiat"
+    },
+    {
+      "source": "wikidata",
+      "type": "userestrict",
+      "subnotes": [
+        {
+          "content": [
+            "magna aute pariatur nisi est ex",
+            "quis reprehenderit veniam nulla nisi aliquip",
+            "officia exercitation laboris voluptate do officia",
+            "magna sint adipisicing qui commodo ex",
+            "pariatur mollit duis aliquip cupidatat quis"
+          ],
+          "type": "orderedlist"
+        },
+        {
+          "content": [
+            "aliquip et anim sunt tempor velit",
+            "fugiat cillum cupidatat aute aliquip non",
+            "ex do labore ea mollit excepteur"
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            "consectetur elit id est dolore amet",
+            "ut in consectetur excepteur minim minim"
+          ],
+          "type": "definedlist"
+        }
+      ],
+      "title": "aliquip magna labore"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/11"
+    }
+  ],
+  "languages": [
+    {
+      "identifier": "spa",
+      "expression": "Spanish"
+    },
+    {
+      "identifier": "epo",
+      "expression": "English"
+    }
+  ],
+  "rights_statements": [
+    {
+      "begin": "1955-10-20",
+      "end": "2001-03-20",
+      "copyright_status": "unknown",
+      "notes": [],
+      "jurisdiction": "CN",
+      "other_basis": "commodo",
+      "rights_granted": [
+        {
+          "restriction": "allow",
+          "begin": "1919-06-05",
+          "end": "1985-12-02",
+          "notes": [
+            {
+              "source": "archivesspace",
+              "type": "expiration",
+              "subnotes": [
+                {
+                  "content": [
+                    "ex pariatur sint consectetur ad labore",
+                    "irure duis id dolore adipisicing mollit"
+                  ],
+                  "type": "orderedlist"
+                },
+                {
+                  "content": [
+                    "velit sit consequat ea qui in",
+                    "enim proident ad elit ipsum ex",
+                    "ut adipisicing duis ex magna et"
+                  ],
+                  "type": "definedlist"
+                }
+              ],
+              "title": "tempor amet qui"
+            }
+          ],
+          "act": "delete"
+        }
+      ],
+      "rights_status": "public domain",
+      "determination_date": "1942-12-09",
+      "type": "rights_statement",
+      "id": "5e164dbcd6821a6e031562d8",
+      "rights_type": "other"
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/36"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/30"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/33"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/34"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/35"
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/24"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/44"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/31"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/9"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/30"
+        }
+      ]
+    }
+  ],
+  "type": "object",
+  "id": "5e164dbc49dbfbc438fd4e32"
+}

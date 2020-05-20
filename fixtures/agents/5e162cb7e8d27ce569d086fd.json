@@ -1,0 +1,42 @@
+{
+  "index": 50,
+  "dates": [
+    {
+      "begin": "1933-08-29",
+      "end": "1967-12-10",
+      "type": "bulk",
+      "label": "digitized",
+      "source": "archivesspace",
+      "expression": "August 28, 1933 - December 9, 1967"
+    }
+  ],
+  "description": "Minim nisi ullamco ea cillum cillum duis. Duis cupidatat voluptate anim commodo consectetur minim Lorem aute nulla in reprehenderit dolor ad. Magna excepteur incididunt do ea amet dolor magna. Aliquip pariatur velit dolore laborum proident velit. Sint excepteur sint velit magna quis culpa.\r\n",
+  "title": "Daugherty Foundation",
+  "notes": [
+    {
+      "source": "cartographer",
+      "type": "prefercite",
+      "subnotes": [
+        {
+          "content": [
+            "officia voluptate excepteur ipsum eiusmod amet",
+            "non aliqua dolore qui cillum aliqua",
+            "et ullamco consequat proident nisi aute",
+            "consectetur non nulla ea nisi proident"
+          ],
+          "type": "text"
+        }
+      ],
+      "title": "in ex voluptate"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/50"
+    }
+  ],
+  "agent_type": "organization",
+  "type": "agent",
+  "id": "5e162cb7e8d27ce569d086fd"
+}

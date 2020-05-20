@@ -1,0 +1,73 @@
+{
+  "index": 30,
+  "dates": [
+    {
+      "begin": "1930-04-17",
+      "end": "1963-06-08",
+      "type": "bulk",
+      "label": "usage",
+      "source": "archivesspace",
+      "expression": "April 16, 1930 - June 7, 1963"
+    }
+  ],
+  "description": "Sit tempor dolor sit reprehenderit. Laborum eiusmod amet nostrud reprehenderit reprehenderit excepteur sunt consequat labore irure fugiat. Laboris velit anim esse occaecat elit aliquip consequat duis elit ad fugiat. Laborum et ipsum nisi sit consequat labore voluptate proident anim adipisicing sunt deserunt. Quis et nostrud nostrud voluptate elit duis quis pariatur mollit duis ut magna occaecat do. Excepteur veniam nisi veniam veniam ad.\r\n",
+  "title": "Delgado Foundation",
+  "notes": [
+    {
+      "source": "wikidata",
+      "type": "summary",
+      "subnotes": [
+        {
+          "content": [
+            "Lorem anim sunt in cillum cupidatat"
+          ],
+          "type": "orderedlist"
+        },
+        {
+          "content": [
+            "ad ea elit ut commodo elit",
+            "sint aute veniam ex voluptate proident",
+            "excepteur esse aute sit tempor tempor",
+            "tempor non culpa commodo sint cupidatat"
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            "magna do eiusmod aute minim fugiat",
+            "veniam elit occaecat ea quis dolore",
+            "elit anim id nisi incididunt minim"
+          ],
+          "type": "definedlist"
+        }
+      ],
+      "title": "laborum id reprehenderit"
+    },
+    {
+      "source": "wikidata",
+      "type": "physloc",
+      "subnotes": [
+        {
+          "content": [
+            "excepteur eu cupidatat ullamco magna eu",
+            "Lorem cillum aliquip qui irure culpa",
+            "esse laboris ut nulla velit non",
+            "elit adipisicing ut commodo nisi ad",
+            "elit aliqua deserunt laborum cillum sint"
+          ],
+          "type": "orderedlist"
+        }
+      ],
+      "title": "excepteur sit laborum"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/30"
+    }
+  ],
+  "agent_type": "organization",
+  "type": "agent",
+  "id": "5e162cb7efebff0ab90bb4ef"
+}

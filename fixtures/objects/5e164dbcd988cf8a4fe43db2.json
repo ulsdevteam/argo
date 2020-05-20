@@ -1,0 +1,178 @@
+{
+  "index": 44,
+  "dates": [
+    {
+      "begin": "1920-11-07",
+      "end": "2011-03-02",
+      "type": "inclusive",
+      "label": "modified",
+      "source": "archivesspace",
+      "expression": "November 6, 1920 - March 1, 2011"
+    },
+    {
+      "begin": "1946-06-15",
+      "end": "1999-04-03",
+      "type": "bulk",
+      "label": "agent_relation",
+      "source": "archivesspace",
+      "expression": "June 14, 1946 - April 2, 1999"
+    },
+    {
+      "begin": "1924-08-19",
+      "end": "1983-06-23",
+      "type": "single",
+      "label": "usage",
+      "source": "archivesspace",
+      "expression": "August 18, 1924 - June 22, 1983"
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/48"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/21"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/46"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "type": "reels",
+      "value": "8.08"
+    }
+  ],
+  "title": "Laboris cillum consectetur quis incididunt officia ut nisi incididunt non ea ullamco pariatur.",
+  "notes": [
+    {
+      "source": "cartographer",
+      "type": "originalsloc",
+      "subnotes": [
+        {
+          "content": [
+            "esse reprehenderit deserunt commodo et cillum"
+          ],
+          "type": "definedlist"
+        }
+      ],
+      "title": "aliqua non ipsum"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/44"
+    }
+  ],
+  "languages": [
+    {
+      "identifier": "epo",
+      "expression": "Spanish"
+    },
+    {
+      "identifier": "eng",
+      "expression": "Spanish"
+    },
+    {
+      "identifier": "spa",
+      "expression": "Esperanto"
+    }
+  ],
+  "rights_statements": [
+    {
+      "begin": "1915-06-25",
+      "end": "1982-05-16",
+      "copyright_status": "copyrighted",
+      "notes": [
+        {
+          "source": "archivesspace",
+          "type": "extension",
+          "subnotes": [
+            {
+              "content": [
+                "tempor incididunt excepteur laborum ut veniam"
+              ],
+              "type": "text"
+            }
+          ],
+          "title": "amet mollit ea"
+        }
+      ],
+      "jurisdiction": "CN",
+      "other_basis": "nulla",
+      "rights_granted": [
+        {
+          "restriction": "allow",
+          "begin": "1916-10-13",
+          "end": "1975-12-28",
+          "notes": [],
+          "act": "replicate"
+        }
+      ],
+      "rights_status": "copyrighted",
+      "determination_date": "1943-08-13",
+      "type": "rights_statement",
+      "id": "5e164dbcfa35e8036d5ad99e",
+      "rights_type": "copyright"
+    },
+    {
+      "begin": "1936-06-17",
+      "end": "1981-08-15",
+      "copyright_status": "copyrighted",
+      "notes": [],
+      "jurisdiction": "CN",
+      "other_basis": "velit",
+      "rights_granted": [
+        {
+          "restriction": "allow",
+          "begin": "1930-10-18",
+          "end": "2005-06-10",
+          "notes": [],
+          "act": "replicate"
+        }
+      ],
+      "rights_status": "public domain",
+      "determination_date": "1958-10-17",
+      "type": "rights_statement",
+      "id": "5e164dbc620e931029ac4ae5",
+      "rights_type": "other"
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/44"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/45"
+        }
+      ]
+    }
+  ],
+  "terms": [],
+  "type": "object",
+  "id": "5e164dbcd988cf8a4fe43db2"
+}

@@ -1,0 +1,199 @@
+{
+  "index": 32,
+  "dates": [
+    {
+      "begin": "1923-12-16",
+      "end": "1990-10-20",
+      "type": "single",
+      "label": "agent_relation",
+      "source": "archivesspace",
+      "expression": "December 15, 1923 - October 19, 1990"
+    },
+    {
+      "begin": "1925-07-14",
+      "end": "2014-12-05",
+      "type": "bulk",
+      "label": "deaccession",
+      "source": "archivesspace",
+      "expression": "July 13, 1925 - December 4, 2014"
+    },
+    {
+      "begin": "1956-09-25",
+      "end": "1986-08-28",
+      "type": "bulk",
+      "label": "modified",
+      "source": "archivesspace",
+      "expression": "September 24, 1956 - August 27, 1986"
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/1"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/12"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "type": "record cartons",
+      "value": "2.57"
+    },
+    {
+      "type": "microform reels",
+      "value": "5.05"
+    }
+  ],
+  "title": "Elit dolore eu ea nostrud nostrud voluptate et.",
+  "notes": [
+    {
+      "source": "wikidata",
+      "type": "rights_statement",
+      "subnotes": [
+        {
+          "content": [
+            "aliqua ex consequat laborum mollit dolor",
+            "ad laboris adipisicing laboris commodo nisi",
+            "ad officia sit sunt ad incididunt"
+          ],
+          "type": "definedlist"
+        }
+      ],
+      "title": "mollit adipisicing exercitation"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/32"
+    }
+  ],
+  "languages": [
+    {
+      "identifier": "spa",
+      "expression": "English"
+    },
+    {
+      "identifier": "epo",
+      "expression": "Esperanto"
+    }
+  ],
+  "rights_statements": [
+    {
+      "begin": "1914-01-23",
+      "end": "2010-07-12",
+      "copyright_status": "unknown",
+      "notes": [],
+      "jurisdiction": "FR",
+      "other_basis": "ea",
+      "rights_granted": [
+        {
+          "restriction": "disallow",
+          "begin": "1952-06-10",
+          "end": "1993-10-27",
+          "notes": [
+            {
+              "source": "wikidata",
+              "type": "additional_information",
+              "subnotes": [
+                {
+                  "content": [
+                    "nisi dolor eiusmod reprehenderit sunt eu",
+                    "cupidatat exercitation culpa excepteur nulla laborum"
+                  ],
+                  "type": "definedlist"
+                },
+                {
+                  "content": [
+                    "nostrud elit fugiat exercitation ullamco quis",
+                    "deserunt laboris nulla veniam quis minim"
+                  ],
+                  "type": "definedlist"
+                }
+              ],
+              "title": "Lorem culpa voluptate"
+            }
+          ],
+          "act": "migrate"
+        }
+      ],
+      "rights_status": "copyrighted",
+      "determination_date": "1932-04-23",
+      "type": "rights_statement",
+      "id": "5e164dbcc83e704e41213fcd",
+      "rights_type": "statute"
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/25"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/18"
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/15"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/11"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/10"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/26"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/14"
+        }
+      ]
+    }
+  ],
+  "type": "object",
+  "id": "5e164dbc30a353ab381d2b6b"
+}

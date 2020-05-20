@@ -1,0 +1,239 @@
+{
+  "index": 23,
+  "dates": [
+    {
+      "begin": "1937-06-04",
+      "end": "1960-09-14",
+      "type": "single",
+      "label": "creation",
+      "source": "archivesspace",
+      "expression": "June 3, 1937 - September 13, 1960"
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/27"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "type": "cubic_feet",
+      "value": "3.94"
+    }
+  ],
+  "title": "Nostrud est sint nostrud proident labore incididunt aute qui.",
+  "notes": [
+    {
+      "source": "archivesspace",
+      "type": "expiration",
+      "subnotes": [
+        {
+          "content": [
+            "deserunt id minim nulla nostrud laborum",
+            "in aliqua nulla sit aliquip amet",
+            "magna aliquip in cillum sit ut",
+            "dolor et anim aliqua sint sit",
+            "voluptate do est aliqua elit non"
+          ],
+          "type": "definedlist"
+        }
+      ],
+      "title": "minim consequat laboris"
+    },
+    {
+      "source": "wikidata",
+      "type": "summary",
+      "subnotes": [
+        {
+          "content": [
+            "velit do nostrud duis culpa aute"
+          ],
+          "type": "orderedlist"
+        },
+        {
+          "content": [
+            "quis eu tempor consequat anim fugiat",
+            "est laborum ad elit veniam commodo",
+            "deserunt culpa dolore ex incididunt eu"
+          ],
+          "type": "definedlist"
+        }
+      ],
+      "title": "duis velit in"
+    },
+    {
+      "source": "cartographer",
+      "type": "custodhist",
+      "subnotes": [
+        {
+          "content": [
+            "ut cupidatat id officia ad sit"
+          ],
+          "type": "orderedlist"
+        },
+        {
+          "content": [
+            "adipisicing sit nulla nulla voluptate velit",
+            "ipsum elit ullamco esse eiusmod cillum",
+            "voluptate exercitation sit aliquip eu occaecat"
+          ],
+          "type": "orderedlist"
+        }
+      ],
+      "title": "nisi cillum fugiat"
+    },
+    {
+      "source": "wikidata",
+      "type": "bioghist",
+      "subnotes": [
+        {
+          "content": [
+            "reprehenderit exercitation magna adipisicing minim laboris",
+            "id pariatur eiusmod labore exercitation tempor",
+            "cillum nisi eiusmod id voluptate consectetur",
+            "ipsum voluptate ea in consequat est"
+          ],
+          "type": "orderedlist"
+        }
+      ],
+      "title": "dolor tempor enim"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/23"
+    }
+  ],
+  "languages": [
+    {
+      "identifier": "epo",
+      "expression": "Esperanto"
+    }
+  ],
+  "rights_statements": [
+    {
+      "begin": "1958-10-06",
+      "end": "1960-08-28",
+      "copyright_status": "public domain",
+      "notes": [
+        {
+          "source": "archivesspace",
+          "type": "type_note",
+          "subnotes": [
+            {
+              "content": [
+                "exercitation magna labore aliqua proident aliqua",
+                "irure pariatur sunt ad nulla eiusmod",
+                "enim voluptate esse Lorem veniam velit"
+              ],
+              "type": "definedlist"
+            }
+          ],
+          "title": "sint reprehenderit do"
+        }
+      ],
+      "jurisdiction": "FR",
+      "other_basis": "pariatur",
+      "rights_granted": [
+        {
+          "restriction": "disallow",
+          "begin": "1920-03-24",
+          "end": "1970-05-13",
+          "notes": [
+            {
+              "source": "wikidata",
+              "type": "restrictions",
+              "subnotes": [
+                {
+                  "content": [
+                    "in reprehenderit occaecat aute ut mollit",
+                    "ex fugiat elit cillum voluptate nisi",
+                    "voluptate cillum occaecat sint magna magna",
+                    "non ipsum cupidatat mollit minim elit",
+                    "laboris ut consequat voluptate esse quis"
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    "incididunt ipsum irure velit id eiusmod",
+                    "ipsum laborum fugiat eiusmod anim proident",
+                    "dolore tempor cupidatat do sunt minim",
+                    "officia laboris occaecat tempor ut fugiat",
+                    "consectetur duis occaecat deserunt deserunt ea"
+                  ],
+                  "type": "text"
+                }
+              ],
+              "title": "aliquip veniam exercitation"
+            }
+          ],
+          "act": "modify"
+        },
+        {
+          "restriction": "disallow",
+          "begin": "1939-06-13",
+          "end": "2000-04-06",
+          "notes": [],
+          "act": "use"
+        }
+      ],
+      "rights_status": "unknown",
+      "determination_date": "1939-05-14",
+      "type": "rights_statement",
+      "id": "5e164dbcc749eac94126f1ff",
+      "rights_type": "statute"
+    }
+  ],
+  "agents": [],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/17"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/13"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/32"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/46"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/14"
+        }
+      ]
+    }
+  ],
+  "type": "object",
+  "id": "5e164dbc94ba0812467b25e0"
+}

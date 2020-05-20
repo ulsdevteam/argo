@@ -1,0 +1,80 @@
+{
+  "index": 45,
+  "dates": [
+    {
+      "begin": "1915-08-20",
+      "end": "2014-09-11",
+      "type": "inclusive",
+      "label": "event",
+      "source": "archivesspace",
+      "expression": "August 19, 1915 - September 10, 2014"
+    },
+    {
+      "begin": "1925-08-05",
+      "end": "1992-06-23",
+      "type": "single",
+      "label": "issued",
+      "source": "archivesspace",
+      "expression": "August 4, 1925 - June 22, 1992"
+    }
+  ],
+  "description": "Enim sint do reprehenderit sunt dolor amet officia ex. Aliqua minim dolore adipisicing aliquip et. Ex mollit exercitation ullamco aliquip est cupidatat aliquip veniam labore quis exercitation eiusmod adipisicing. Adipisicing qui velit proident id est veniam.\r\n",
+  "title": "Palmer family",
+  "notes": [
+    {
+      "source": "wikidata",
+      "type": "expiration",
+      "subnotes": [
+        {
+          "content": [
+            "irure Lorem aliquip cillum reprehenderit nostrud",
+            "ullamco est et consequat labore sint",
+            "mollit ullamco duis officia dolore aliquip",
+            "mollit reprehenderit laboris veniam magna aute",
+            "pariatur ut enim mollit laboris minim"
+          ],
+          "type": "orderedlist"
+        }
+      ],
+      "title": "esse sit nisi"
+    },
+    {
+      "source": "archivesspace",
+      "type": "additional_information",
+      "subnotes": [
+        {
+          "content": [
+            "irure tempor quis id voluptate eiusmod",
+            "reprehenderit laboris nisi tempor culpa do"
+          ],
+          "type": "orderedlist"
+        },
+        {
+          "content": [
+            "reprehenderit qui incididunt incididunt dolor mollit",
+            "ipsum esse et fugiat mollit exercitation",
+            "sint sunt quis enim duis pariatur",
+            "labore qui id est veniam qui"
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            "laboris cillum incididunt excepteur eiusmod ut"
+          ],
+          "type": "orderedlist"
+        }
+      ],
+      "title": "minim sunt ipsum"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/45"
+    }
+  ],
+  "agent_type": "family",
+  "type": "agent",
+  "id": "5e1628f0c2bea37fac9cddcd"
+}

@@ -1,0 +1,49 @@
+{
+  "index": 16,
+  "dates": [
+    {
+      "begin": "1914-05-16",
+      "end": "1991-09-23",
+      "type": "bulk",
+      "label": "creation",
+      "source": "wikidata",
+      "expression": "May 15, 1914 - September 22, 1991"
+    },
+    {
+      "begin": "1949-09-27",
+      "end": "1984-02-17",
+      "type": "single",
+      "label": "agent_relation",
+      "source": "archivesspace",
+      "expression": "September 26, 1949 - February 16, 1984"
+    }
+  ],
+  "description": "Labore minim magna eiusmod nostrud ipsum amet pariatur incididunt. Ad excepteur pariatur dolore tempor consectetur ullamco non. Enim amet adipisicing aliqua ex officia ad magna ut anim ex laborum do et. Anim velit consectetur velit ea est aliqua labore anim minim qui non duis ea. Voluptate est sunt voluptate excepteur incididunt sint Lorem et exercitation aliquip dolor nostrud labore anim.\r\n",
+  "title": "Sherman family",
+  "notes": [
+    {
+      "source": "wikipedia",
+      "type": "userestrict",
+      "subnotes": [
+        {
+          "content": [
+            "Lorem reprehenderit do quis deserunt nisi",
+            "magna excepteur sunt et ea ex",
+            "ipsum tempor labore qui nostrud laboris"
+          ],
+          "type": "orderedlist"
+        }
+      ],
+      "title": "aute reprehenderit exercitation"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/16"
+    }
+  ],
+  "agent_type": "family",
+  "type": "agent",
+  "id": "5e1628f01e503f4f61c92a8b"
+}

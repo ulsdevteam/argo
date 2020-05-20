@@ -1,0 +1,71 @@
+{
+  "index": 18,
+  "dates": [
+    {
+      "begin": "1950-09-05",
+      "end": "2009-10-25",
+      "type": "inclusive",
+      "label": "event",
+      "source": "wikidata",
+      "expression": "September 4, 1950 - October 24, 2009"
+    },
+    {
+      "begin": "1918-03-30",
+      "end": "1964-11-30",
+      "type": "bulk",
+      "label": "copyright",
+      "source": "archivesspace",
+      "expression": "March 29, 1918 - November 29, 1964"
+    }
+  ],
+  "description": "Cupidatat aliqua elit sint et ut irure excepteur ad. Duis incididunt reprehenderit adipisicing aliquip aliquip duis. Velit enim eiusmod ipsum pariatur. Sint labore irure incididunt proident in mollit do cillum cillum voluptate ut. Irure velit eu nostrud labore excepteur velit.\r\n",
+  "title": "Gardner Foundation",
+  "notes": [
+    {
+      "source": "cartographer",
+      "type": "extent",
+      "subnotes": [
+        {
+          "content": [
+            "elit minim adipisicing ea excepteur mollit",
+            "enim in duis officia sit commodo",
+            "ullamco exercitation occaecat aute proident eu"
+          ],
+          "type": "definedlist"
+        },
+        {
+          "content": [
+            "eiusmod proident enim fugiat quis magna",
+            "officia amet tempor ullamco adipisicing eu",
+            "voluptate duis dolore ipsum sit dolore",
+            "est officia quis magna proident voluptate"
+          ],
+          "type": "orderedlist"
+        }
+      ],
+      "title": "adipisicing tempor reprehenderit"
+    },
+    {
+      "source": "archivesspace",
+      "type": "odd",
+      "subnotes": [
+        {
+          "content": [
+            "elit dolore eiusmod et occaecat commodo"
+          ],
+          "type": "orderedlist"
+        }
+      ],
+      "title": "minim enim sit"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/18"
+    }
+  ],
+  "agent_type": "organization",
+  "type": "agent",
+  "id": "5e162cb774b180e09f4f0ec2"
+}

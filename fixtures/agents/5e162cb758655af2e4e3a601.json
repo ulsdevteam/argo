@@ -1,0 +1,66 @@
+{
+  "index": 27,
+  "dates": [
+    {
+      "begin": "1927-12-12",
+      "end": "2010-04-03",
+      "type": "single",
+      "label": "digitized",
+      "source": "archivesspace",
+      "expression": "December 11, 1927 - April 2, 2010"
+    },
+    {
+      "begin": "1930-06-15",
+      "end": "1979-01-18",
+      "type": "single",
+      "label": "publication",
+      "source": "archivesspace",
+      "expression": "June 14, 1930 - January 17, 1979"
+    }
+  ],
+  "description": "Aliquip magna officia ipsum est dolore officia exercitation labore ut exercitation voluptate deserunt ea aute. Fugiat cillum quis labore quis cillum cupidatat enim voluptate cupidatat anim eu. Ad sint exercitation eiusmod esse aliquip non ea est reprehenderit nostrud.\r\n",
+  "title": "Simmons Foundation",
+  "notes": [
+    {
+      "source": "wikipedia",
+      "type": "separatedmaterial",
+      "subnotes": [
+        {
+          "content": [
+            "ipsum voluptate laboris voluptate deserunt in",
+            "ullamco elit excepteur dolor laborum sit",
+            "reprehenderit proident quis eu cillum proident"
+          ],
+          "type": "orderedlist"
+        }
+      ],
+      "title": "dolore ex laboris"
+    },
+    {
+      "source": "wikipedia",
+      "type": "rights_statement_act",
+      "subnotes": [
+        {
+          "content": [
+            "non elit voluptate enim occaecat quis",
+            "enim reprehenderit proident mollit minim minim",
+            "duis excepteur dolore dolor sit laborum",
+            "occaecat enim nulla culpa aliqua excepteur",
+            "tempor aute consectetur aliquip ea id"
+          ],
+          "type": "text"
+        }
+      ],
+      "title": "deserunt voluptate occaecat"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/27"
+    }
+  ],
+  "agent_type": "organization",
+  "type": "agent",
+  "id": "5e162cb758655af2e4e3a601"
+}

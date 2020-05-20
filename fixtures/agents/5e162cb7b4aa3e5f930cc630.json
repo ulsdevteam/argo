@@ -1,0 +1,67 @@
+{
+  "index": 28,
+  "dates": [
+    {
+      "begin": "1942-12-30",
+      "end": "1968-07-30",
+      "type": "inclusive",
+      "label": "digitized",
+      "source": "archivesspace",
+      "expression": "December 29, 1942 - July 29, 1968"
+    }
+  ],
+  "description": "Minim anim aliquip id et amet esse non cupidatat proident ullamco esse. Sit aliqua ullamco occaecat id Lorem deserunt do officia do cillum dolore veniam ad. Ullamco adipisicing proident pariatur aliquip elit nulla.\r\n",
+  "title": "Mcdonald Foundation",
+  "notes": [
+    {
+      "source": "wikipedia",
+      "type": "bibliography",
+      "subnotes": [
+        {
+          "content": [
+            "laborum labore eiusmod aliqua ipsum enim",
+            "eu aute culpa non sint exercitation",
+            "adipisicing fugiat elit occaecat do do",
+            "esse quis reprehenderit consequat aliquip tempor",
+            "anim pariatur ipsum labore do consectetur"
+          ],
+          "type": "definedlist"
+        },
+        {
+          "content": [
+            "reprehenderit Lorem ullamco tempor proident dolore",
+            "Lorem aliqua ex fugiat pariatur enim",
+            "mollit fugiat culpa culpa laborum incididunt",
+            "sunt culpa duis est aute nostrud",
+            "quis consequat consectetur id velit tempor"
+          ],
+          "type": "text"
+        }
+      ],
+      "title": "sunt velit culpa"
+    },
+    {
+      "source": "cartographer",
+      "type": "separatedmaterial",
+      "subnotes": [
+        {
+          "content": [
+            "commodo ad labore nulla ex et",
+            "fugiat occaecat exercitation proident do sit"
+          ],
+          "type": "definedlist"
+        }
+      ],
+      "title": "minim pariatur labore"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_organization/28"
+    }
+  ],
+  "agent_type": "organization",
+  "type": "agent",
+  "id": "5e162cb7b4aa3e5f930cc630"
+}

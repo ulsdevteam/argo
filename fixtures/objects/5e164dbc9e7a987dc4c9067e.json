@@ -1,0 +1,191 @@
+{
+  "index": 31,
+  "dates": [
+    {
+      "begin": "1942-07-15",
+      "end": "1983-01-11",
+      "type": "inclusive",
+      "label": "other",
+      "source": "archivesspace",
+      "expression": "July 14, 1942 - January 10, 1983"
+    },
+    {
+      "begin": "1934-05-10",
+      "end": "1983-03-21",
+      "type": "inclusive",
+      "label": "deaccession",
+      "source": "archivesspace",
+      "expression": "May 9, 1934 - March 20, 1983"
+    },
+    {
+      "begin": "1946-10-15",
+      "end": "1973-11-01",
+      "type": "single",
+      "label": "issued",
+      "source": "archivesspace",
+      "expression": "October 14, 1946 - October 31, 1973"
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/8"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/5"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "type": "terabytes",
+      "value": "8.40"
+    },
+    {
+      "type": "cassettes",
+      "value": "1.11"
+    }
+  ],
+  "title": "Ipsum sit duis laborum labore aliquip mollit adipisicing exercitation laborum pariatur proident.",
+  "notes": [],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/31"
+    }
+  ],
+  "languages": [
+    {
+      "identifier": "spa",
+      "expression": "Esperanto"
+    },
+    {
+      "identifier": "eng",
+      "expression": "Esperanto"
+    }
+  ],
+  "rights_statements": [
+    {
+      "begin": "1922-08-30",
+      "end": "1992-08-05",
+      "copyright_status": "public domain",
+      "notes": [
+        {
+          "source": "wikipedia",
+          "type": "additional_information",
+          "subnotes": [
+            {
+              "content": [
+                "pariatur adipisicing eiusmod elit labore cillum",
+                "exercitation mollit sint nulla nisi tempor",
+                "id eu commodo minim pariatur do"
+              ],
+              "type": "text"
+            }
+          ],
+          "title": "aute consequat cillum"
+        }
+      ],
+      "jurisdiction": "FR",
+      "other_basis": "magna",
+      "rights_granted": [
+        {
+          "restriction": "disallow",
+          "begin": "1915-06-22",
+          "end": "1983-01-02",
+          "notes": [
+            {
+              "source": "wikipedia",
+              "type": "expiration",
+              "subnotes": [
+                {
+                  "content": [
+                    "aliqua laboris tempor occaecat qui dolore",
+                    "mollit est tempor duis nostrud dolor",
+                    "fugiat occaecat adipisicing qui eiusmod non",
+                    "laboris magna eu culpa est elit"
+                  ],
+                  "type": "definedlist"
+                },
+                {
+                  "content": [
+                    "minim qui enim ea officia minim",
+                    "anim exercitation non non fugiat excepteur",
+                    "dolor nostrud in velit ut laboris"
+                  ],
+                  "type": "text"
+                }
+              ],
+              "title": "aliqua ullamco et"
+            }
+          ],
+          "act": "use"
+        }
+      ],
+      "rights_status": "copyrighted",
+      "determination_date": "1913-12-23",
+      "type": "rights_statement",
+      "id": "5e164dbc484eda7ad42fd04b",
+      "rights_type": "copyright"
+    },
+    {
+      "begin": "1917-05-05",
+      "end": "1979-10-24",
+      "copyright_status": "unknown",
+      "notes": [
+        {
+          "source": "wikidata",
+          "type": "extension",
+          "subnotes": [
+            {
+              "content": [
+                "dolor in exercitation elit velit do",
+                "ullamco Lorem dolore dolor culpa anim",
+                "aliqua proident ex Lorem cupidatat laboris"
+              ],
+              "type": "text"
+            }
+          ],
+          "title": "sunt dolor consectetur"
+        }
+      ],
+      "jurisdiction": "CN",
+      "other_basis": "elit",
+      "rights_granted": [
+        {
+          "restriction": "allow",
+          "begin": "1940-11-08",
+          "end": "1971-08-01",
+          "notes": [],
+          "act": "use"
+        }
+      ],
+      "rights_status": "unknown",
+      "determination_date": "1927-11-13",
+      "type": "rights_statement",
+      "id": "5e164dbca34c5e12b227ac81",
+      "rights_type": "license"
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/29"
+        }
+      ]
+    }
+  ],
+  "terms": [],
+  "type": "object",
+  "id": "5e164dbc9e7a987dc4c9067e"
+}

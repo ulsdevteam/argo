@@ -1,0 +1,125 @@
+{
+  "index": 42,
+  "dates": [
+    {
+      "begin": "1932-12-12",
+      "end": "1988-01-20",
+      "type": "inclusive",
+      "label": "copyright",
+      "source": "archivesspace",
+      "expression": "December 11, 1932 - January 19, 1988"
+    },
+    {
+      "begin": "1955-12-18",
+      "end": "1978-10-30",
+      "type": "inclusive",
+      "label": "deaccession",
+      "source": "archivesspace",
+      "expression": "December 17, 1955 - October 29, 1978"
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/40"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/25"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "type": "terabytes",
+      "value": "6.05"
+    },
+    {
+      "type": "gigabytes",
+      "value": "8.42"
+    }
+  ],
+  "title": "Quis cupidatat ea do ad ullamco velit.",
+  "notes": [
+    {
+      "source": "archivesspace",
+      "type": "accruals",
+      "subnotes": [
+        {
+          "content": [
+            "amet eu irure culpa adipisicing et",
+            "consequat commodo ut et nisi pariatur",
+            "pariatur elit nostrud in pariatur magna",
+            "tempor in minim ut eu nostrud"
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            "excepteur laborum ex anim aliquip aute",
+            "anim laborum et in ex est",
+            "tempor officia consectetur labore est laborum",
+            "ex mollit eiusmod labore ex nisi",
+            "non laboris commodo sint cillum dolore"
+          ],
+          "type": "orderedlist"
+        }
+      ],
+      "title": "aliquip amet duis"
+    },
+    {
+      "source": "wikidata",
+      "type": "relatedmaterial",
+      "subnotes": [
+        {
+          "content": [
+            "sint ipsum ex incididunt irure aliquip",
+            "nisi magna veniam exercitation deserunt deserunt",
+            "magna adipisicing ut duis non ad",
+            "incididunt ad esse nostrud labore incididunt",
+            "excepteur aute quis do nostrud commodo"
+          ],
+          "type": "definedlist"
+        }
+      ],
+      "title": "labore proident veniam"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/42"
+    }
+  ],
+  "languages": [
+    {
+      "identifier": "spa",
+      "expression": "Spanish"
+    },
+    {
+      "identifier": "epo",
+      "expression": "Spanish"
+    }
+  ],
+  "rights_statements": [],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_family/13"
+        }
+      ]
+    }
+  ],
+  "terms": [],
+  "type": "object",
+  "id": "5e164dbc57b40fcee52faf4e"
+}

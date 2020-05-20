@@ -1,0 +1,75 @@
+{
+  "index": 41,
+  "dates": [
+    {
+      "begin": "1931-02-07",
+      "end": "1994-08-02",
+      "type": "inclusive",
+      "label": "copyright",
+      "source": "archivesspace",
+      "expression": "February 6, 1931 - August 1, 1994"
+    }
+  ],
+  "description": "Fugiat deserunt aute laborum sunt voluptate do consequat adipisicing cillum. Esse anim cupidatat cillum dolor elit nulla anim esse cillum fugiat. Incididunt amet exercitation ullamco ex tempor nisi commodo laborum elit cupidatat. Amet do ex nisi non excepteur id irure aliquip anim minim cupidatat.\r\n",
+  "title": "Woodard Wilkinson",
+  "notes": [
+    {
+      "source": "wikipedia",
+      "type": "physfacet",
+      "subnotes": [
+        {
+          "content": [
+            "proident fugiat elit consectetur enim minim"
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            "laboris dolore enim culpa sit laboris"
+          ],
+          "type": "definedlist"
+        }
+      ],
+      "title": "non magna aliqua"
+    },
+    {
+      "source": "wikipedia",
+      "type": "accessrestrict",
+      "subnotes": [
+        {
+          "content": [
+            "eu duis duis exercitation anim commodo",
+            "culpa ex ex magna et aliquip",
+            "ullamco et officia mollit fugiat tempor",
+            "id anim sit esse in dolore"
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            "irure velit nulla veniam dolore proident"
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            "laboris in veniam cillum id anim",
+            "duis sint occaecat ipsum in magna",
+            "elit duis aliqua sint laboris enim"
+          ],
+          "type": "orderedlist"
+        }
+      ],
+      "title": "consectetur irure culpa"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_person/41"
+    }
+  ],
+  "agent_type": "person",
+  "type": "agent",
+  "id": "5e162b2c79de2511ba56b991"
+}

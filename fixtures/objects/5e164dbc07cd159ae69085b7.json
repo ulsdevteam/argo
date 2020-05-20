@@ -1,0 +1,187 @@
+{
+  "index": 5,
+  "dates": [
+    {
+      "begin": "1916-03-16",
+      "end": "1984-11-04",
+      "type": "single",
+      "label": "event",
+      "source": "archivesspace",
+      "expression": "March 15, 1916 - November 3, 1984"
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/47"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/29"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "type": "linear_feet",
+      "value": "2.83"
+    }
+  ],
+  "title": "Ut ad reprehenderit et elit amet consequat magna dolore.",
+  "notes": [
+    {
+      "source": "wikidata",
+      "type": "dimensions",
+      "subnotes": [
+        {
+          "content": [
+            "officia nostrud laboris voluptate irure deserunt",
+            "aliqua et enim velit deserunt ullamco",
+            "anim quis sit ipsum aliquip do",
+            "dolore deserunt ut consequat pariatur qui",
+            "minim laborum et reprehenderit elit velit"
+          ],
+          "type": "definedlist"
+        },
+        {
+          "content": [
+            "veniam duis cillum laboris proident duis",
+            "amet fugiat eu amet exercitation fugiat"
+          ],
+          "type": "orderedlist"
+        },
+        {
+          "content": [
+            "cillum laborum officia sint culpa pariatur",
+            "irure in commodo culpa pariatur cillum",
+            "aliqua cupidatat ipsum voluptate ut occaecat",
+            "non dolor eiusmod consectetur consequat culpa",
+            "cillum nulla consectetur veniam qui excepteur"
+          ],
+          "type": "orderedlist"
+        }
+      ],
+      "title": "nostrud sit incididunt"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/5"
+    }
+  ],
+  "languages": [
+    {
+      "identifier": "eng",
+      "expression": "Spanish"
+    }
+  ],
+  "rights_statements": [
+    {
+      "begin": "1943-08-27",
+      "end": "1963-11-09",
+      "copyright_status": "copyrighted",
+      "notes": [
+        {
+          "source": "cartographer",
+          "type": "extension",
+          "subnotes": [
+            {
+              "content": [
+                "officia enim aute nisi minim nulla",
+                "dolore reprehenderit duis elit laboris id",
+                "ex dolor ex et deserunt do",
+                "magna ut minim ea aliqua ex",
+                "ipsum ullamco id voluptate reprehenderit veniam"
+              ],
+              "type": "text"
+            }
+          ],
+          "title": "do irure laboris"
+        }
+      ],
+      "jurisdiction": "CN",
+      "other_basis": "cupidatat",
+      "rights_granted": [
+        {
+          "restriction": "disallow",
+          "begin": "1935-12-12",
+          "end": "2001-06-09",
+          "notes": [
+            {
+              "source": "wikidata",
+              "type": "rights_statement_act",
+              "subnotes": [
+                {
+                  "content": [
+                    "mollit nisi sit anim aute ex",
+                    "esse sint non sint qui aliqua"
+                  ],
+                  "type": "definedlist"
+                },
+                {
+                  "content": [
+                    "ea sunt nostrud proident enim aute",
+                    "culpa veniam elit officia ex sit",
+                    "voluptate anim adipisicing mollit do ut"
+                  ],
+                  "type": "orderedlist"
+                },
+                {
+                  "content": [
+                    "sint sit eu culpa labore nulla",
+                    "incididunt occaecat aliqua aliqua quis commodo"
+                  ],
+                  "type": "definedlist"
+                }
+              ],
+              "title": "fugiat exercitation proident"
+            }
+          ],
+          "act": "disseminate"
+        }
+      ],
+      "rights_status": "copyrighted",
+      "determination_date": "1913-08-06",
+      "type": "rights_statement",
+      "id": "5e164dbc00725af12807424f",
+      "rights_type": "copyright"
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/23"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_organization/38"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/5"
+        }
+      ]
+    }
+  ],
+  "terms": [],
+  "type": "object",
+  "id": "5e164dbc07cd159ae69085b7"
+}

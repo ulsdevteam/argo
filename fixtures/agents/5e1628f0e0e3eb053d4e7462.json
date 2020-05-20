@@ -1,0 +1,63 @@
+{
+  "index": 32,
+  "dates": [
+    {
+      "begin": "1929-01-24",
+      "end": "1971-03-12",
+      "type": "bulk",
+      "label": "publication",
+      "source": "wikidata",
+      "expression": "January 23, 1929 - March 11, 1971"
+    }
+  ],
+  "description": "Nisi id nostrud minim nostrud reprehenderit id. Culpa adipisicing voluptate ea id enim aliqua exercitation est laboris ipsum elit duis. Laboris aliquip laboris anim magna excepteur irure veniam nulla eiusmod consequat est aute eu consectetur.\r\n",
+  "title": "Branch family",
+  "notes": [
+    {
+      "source": "wikidata",
+      "type": "arrangement",
+      "subnotes": [
+        {
+          "content": [
+            "incididunt laboris labore ea cupidatat anim",
+            "ullamco id eu duis velit eu"
+          ],
+          "type": "orderedlist"
+        },
+        {
+          "content": [
+            "ipsum elit proident reprehenderit sint ut",
+            "irure sit duis amet ipsum adipisicing",
+            "adipisicing cupidatat officia pariatur sint commodo"
+          ],
+          "type": "definedlist"
+        }
+      ],
+      "title": "est proident et"
+    },
+    {
+      "source": "archivesspace",
+      "type": "rights_statement_act",
+      "subnotes": [
+        {
+          "content": [
+            "amet labore nulla est dolore nostrud",
+            "et quis occaecat laborum consequat nostrud",
+            "laboris sunt dolore enim ex id"
+          ],
+          "type": "orderedlist"
+        }
+      ],
+      "title": "sit excepteur culpa"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_family/32"
+    }
+  ],
+  "agent_type": "family",
+  "type": "agent",
+  "id": "5e1628f0e0e3eb053d4e7462"
+}

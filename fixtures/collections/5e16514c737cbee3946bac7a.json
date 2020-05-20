@@ -1,0 +1,122 @@
+{
+  "index": 26,
+  "dates": [
+    {
+      "begin": "1921-07-29",
+      "end": "1962-01-31",
+      "type": "bulk",
+      "label": "other",
+      "source": "archivesspace",
+      "expression": "July 28, 1921 - January 30, 1962"
+    },
+    {
+      "begin": "1954-11-08",
+      "end": "1987-11-16",
+      "type": "inclusive",
+      "label": "other",
+      "source": "archivesspace",
+      "expression": "November 7, 1954 - November 15, 1987"
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/24"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/9"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/13"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "type": "reels",
+      "value": "5.82"
+    },
+    {
+      "type": "document box(es)",
+      "value": "0.13"
+    }
+  ],
+  "level": "collection",
+  "notes": [],
+  "title": "Ad ipsum esse sunt ullamco consequat dolor Lorem.",
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/resources/26"
+    }
+  ],
+  "children": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/18"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/21"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/3"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "identifier": "spa",
+      "expression": "Spanish"
+    }
+  ],
+  "rights_statements": [],
+  "agents": [],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/26"
+        }
+      ]
+    }
+  ],
+  "creators": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/19"
+        }
+      ]
+    }
+  ],
+  "type": "collection",
+  "id": "5e16514c737cbee3946bac7a"
+}

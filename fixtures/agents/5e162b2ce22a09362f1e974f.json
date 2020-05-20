@@ -1,0 +1,65 @@
+{
+  "index": 6,
+  "dates": [
+    {
+      "begin": "1930-11-12",
+      "end": "1969-11-18",
+      "type": "single",
+      "label": "copyright",
+      "source": "archivesspace",
+      "expression": "November 11, 1930 - November 17, 1969"
+    }
+  ],
+  "description": "Aute excepteur deserunt minim duis cupidatat deserunt pariatur id cupidatat sunt sit elit. Elit quis Lorem nulla id. Aliqua aliquip cillum elit fugiat sunt magna ad aliquip consequat cupidatat pariatur tempor.\r\n",
+  "title": "Pugh Wynn",
+  "notes": [
+    {
+      "source": "wikipedia",
+      "type": "extension",
+      "subnotes": [
+        {
+          "content": [
+            "do minim anim amet ipsum elit",
+            "cillum sunt cupidatat velit sint cillum"
+          ],
+          "type": "text"
+        }
+      ],
+      "title": "voluptate aliquip minim"
+    },
+    {
+      "source": "wikipedia",
+      "type": "edition",
+      "subnotes": [
+        {
+          "content": [
+            "adipisicing nostrud quis reprehenderit incididunt nisi",
+            "fugiat eu proident voluptate ipsum quis",
+            "nulla cupidatat adipisicing fugiat nulla excepteur"
+          ],
+          "type": "definedlist"
+        },
+        {
+          "content": [
+            "ex duis sunt in non do",
+            "enim irure amet ipsum incididunt ipsum",
+            "dolore occaecat sint eu eiusmod anim",
+            "aliqua do adipisicing proident officia do",
+            "tempor tempor eiusmod aliquip sunt enim"
+          ],
+          "type": "orderedlist"
+        }
+      ],
+      "title": "duis eiusmod elit"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_person/6"
+    }
+  ],
+  "agent_type": "person",
+  "type": "agent",
+  "id": "5e162b2ce22a09362f1e974f"
+}
