@@ -1,20 +1,18 @@
-from datetime import datetime
 import json
-from jsonschema import validate
 import os
 import random
-from functools import reduce
-import shortuuid
+from datetime import datetime
 
+from argo import settings
 from django.test import TestCase
 from django.urls import reverse
-from elasticsearch_dsl import connections, Search, Index, utils
-from rac_es.documents import Agent, BaseDescriptionComponent, Collection, Object, Term
+from elasticsearch_dsl import connections, utils
+from rac_es.documents import (Agent, BaseDescriptionComponent, Collection,
+                              Object, Term)
 from rac_schemas import is_valid
 from rest_framework.test import APIRequestFactory
 
 from .views import AgentViewSet, CollectionViewSet, ObjectViewSet, TermViewSet
-from argo import settings
 
 TYPE_MAP = (
     ('agents', Agent, AgentViewSet, 'agent'),
@@ -70,7 +68,7 @@ class TestAPI(TestCase):
 
     def get_random_word(self, word_list):
         """Returns a random lowercased word from a list."""
-        w = word_list[random.randint(0, len(word_list)-1)].lower()
+        w = word_list[random.randint(0, len(word_list) - 1)].lower()
         if w in STOP_WORDS:
             word_list.remove(w)
             print("{} found in stop words, trying again from list {}".format(w, word_list))

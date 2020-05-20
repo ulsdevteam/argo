@@ -1,28 +1,23 @@
-from django.http import Http404
-from django_elasticsearch_dsl_drf.constants import (
-    LOOKUP_FILTER_TERMS,
-    LOOKUP_FILTER_RANGE,
-    LOOKUP_FILTER_PREFIX,
-    LOOKUP_FILTER_WILDCARD,
-    LOOKUP_QUERY_IN,
-    LOOKUP_QUERY_GT,
-    LOOKUP_QUERY_GTE,
-    LOOKUP_QUERY_LT,
-    LOOKUP_QUERY_LTE,
-    LOOKUP_QUERY_EXCLUDE,
-)
-from django_elasticsearch_dsl_drf.filter_backends import (
-    FilteringFilterBackend,
-    OrderingFilterBackend,
-    DefaultOrderingFilterBackend,
-    CompoundSearchFilterBackend,
-    FacetedSearchFilterBackend,
-)
-from django_elasticsearch_dsl_drf.pagination import PageNumberPagination
-from elasticsearch_dsl import connections, Index, Search
-from rest_framework.viewsets import ReadOnlyModelViewSet
-
 from argo import settings
+from django.http import Http404
+from django_elasticsearch_dsl_drf.constants import (LOOKUP_FILTER_PREFIX,
+                                                    LOOKUP_FILTER_RANGE,
+                                                    LOOKUP_FILTER_TERMS,
+                                                    LOOKUP_FILTER_WILDCARD,
+                                                    LOOKUP_QUERY_EXCLUDE,
+                                                    LOOKUP_QUERY_GT,
+                                                    LOOKUP_QUERY_GTE,
+                                                    LOOKUP_QUERY_IN,
+                                                    LOOKUP_QUERY_LT,
+                                                    LOOKUP_QUERY_LTE)
+from django_elasticsearch_dsl_drf.filter_backends import (CompoundSearchFilterBackend,
+                                                          DefaultOrderingFilterBackend,
+                                                          FacetedSearchFilterBackend,
+                                                          FilteringFilterBackend,
+                                                          OrderingFilterBackend)
+from django_elasticsearch_dsl_drf.pagination import PageNumberPagination
+from elasticsearch_dsl import Index, Search, connections
+from rest_framework.viewsets import ReadOnlyModelViewSet
 
 STRING_LOOKUPS = [
     LOOKUP_FILTER_TERMS,
@@ -30,7 +25,7 @@ STRING_LOOKUPS = [
     LOOKUP_FILTER_WILDCARD,
     LOOKUP_QUERY_IN,
     LOOKUP_QUERY_EXCLUDE,
-    ]
+]
 
 NUMBER_LOOKUPS = [
     LOOKUP_FILTER_RANGE,

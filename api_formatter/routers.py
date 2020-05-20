@@ -1,4 +1,4 @@
-from rest_framework.routers import DefaultRouter, APIRootView, Route
+from rest_framework.routers import APIRootView, DefaultRouter
 
 
 class RACAPIRootView(APIRootView):
