@@ -3,25 +3,12 @@ from elasticsearch_dsl import DateHistogramFacet
 from rac_es.documents import Agent, Collection, Object, Term
 from rest_framework.viewsets import ReadOnlyModelViewSet
 
-from .view_helpers import (
-    STRING_LOOKUPS,
-    NUMBER_LOOKUPS,
-    FILTER_BACKENDS,
-    SEARCH_BACKENDS,
-    PAGINATION_CLASS,
-    SearchMixin,
-)
-from .serializers import (
-    HitSerializer,
-    AgentSerializer,
-    AgentListSerializer,
-    CollectionSerializer,
-    CollectionListSerializer,
-    ObjectSerializer,
-    ObjectListSerializer,
-    TermSerializer,
-    TermListSerializer,
-)
+from .serializers import (AgentListSerializer, AgentSerializer,
+                          CollectionListSerializer, CollectionSerializer,
+                          HitSerializer, ObjectListSerializer,
+                          ObjectSerializer, TermListSerializer, TermSerializer)
+from .view_helpers import (FILTER_BACKENDS, NUMBER_LOOKUPS, PAGINATION_CLASS,
+                           SEARCH_BACKENDS, STRING_LOOKUPS, SearchMixin)
 
 
 class DocumentViewSet(SearchMixin, ReadOnlyModelViewSet):

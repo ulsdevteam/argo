@@ -93,7 +93,8 @@ class AgentSerializer(BaseDetailSerializer):
     objects = ReferenceSerializer(many=True, allow_null=True)
 
 
-class AgentListSerializer(BaseListSerializer): pass
+class AgentListSerializer(BaseListSerializer):
+    pass
 
 
 class CollectionSerializer(BaseDetailSerializer):
@@ -110,7 +111,8 @@ class CollectionSerializer(BaseDetailSerializer):
     children = ReferenceSerializer(many=True, allow_null=True)
 
 
-class CollectionListSerializer(BaseListSerializer): pass
+class CollectionListSerializer(BaseListSerializer):
+    pass
 
 
 class ObjectSerializer(BaseDetailSerializer):
@@ -124,7 +126,8 @@ class ObjectSerializer(BaseDetailSerializer):
     ancestors = ReferenceSerializer(many=True, allow_null=True)
 
 
-class ObjectListSerializer(BaseListSerializer): pass
+class ObjectListSerializer(BaseListSerializer):
+    pass
 
 
 class TermSerializer(BaseDetailSerializer):
@@ -132,7 +135,8 @@ class TermSerializer(BaseDetailSerializer):
     objects = ReferenceSerializer(many=True, allow_null=True)
 
 
-class TermListSerializer(BaseListSerializer): pass
+class TermListSerializer(BaseListSerializer):
+    pass
 
 
 class HitSerializer(BaseListSerializer):
