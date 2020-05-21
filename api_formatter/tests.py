@@ -6,6 +6,7 @@ from datetime import datetime
 from argo import settings
 from django.test import TestCase
 from django.urls import reverse
+from elasticsearch.helpers import streaming_bulk
 from elasticsearch_dsl import connections, utils
 from rac_es.documents import (Agent, BaseDescriptionComponent, Collection,
                               Object, Term)
@@ -30,7 +31,7 @@ STOP_WORDS = ["a", "an", "and", "are", "as", "at", "be", "but", "by", "for", "if
 class TestAPI(TestCase):
     def setUp(self):
         self.factory = APIRequestFactory()
-        connections.create_connection(hosts=settings.ELASTICSEARCH_DSL['default']['hosts'], timeout=60)
+        self.connection = connections.create_connection(hosts=settings.ELASTICSEARCH_DSL['default']['hosts'], timeout=60)
         BaseDescriptionComponent.init()
 
     def validate_fixtures(self):
@@ -42,16 +43,22 @@ class TestAPI(TestCase):
                         instance = json.load(jf)
                         self.assertTrue(is_valid(instance, "{}.json".format(instance["type"])))
 
-    def index_fixture_data(self, source_filepath, doc_cls):
-        added_ids = []
+    def prepare_data(self, source_filepath, doc_cls):
         source_filepath = os.path.join(settings.BASE_DIR, source_filepath)
         for f in os.listdir(source_filepath):
             with open(os.path.join(source_filepath, f)) as jf:
                 data = json.load(jf)
-                object = doc_cls(**data)
-                object.meta.id = data['id']
-                object.save()
-                added_ids.append(data['id'])
+                doc = doc_cls(**data)
+                yield doc.prepare_streaming_dict(data["id"])
+
+    def index_fixture_data(self, source_filepath, doc_cls):
+        added_ids = []
+        for ok, result in streaming_bulk(self.connection, self.prepare_data(source_filepath, doc_cls), refresh=True):
+            action, result = result.popitem()
+            if not ok:
+                raise Exception("Failed to {} document {}: {}".format(action, result["_id"], result))
+            else:
+                added_ids.append(result["_id"])
         return added_ids
 
     def get_nested_value(self, key_list, obj):
@@ -161,7 +168,9 @@ class TestAPI(TestCase):
                     try:
                         for relation in obj.relations_in_self:
                             references = obj.get_references(relation=relation)
-                            self.assertEqual(len(data[relation]), len(references))
+                            self.assertEqual(
+                                len(data[relation]), len(references),
+                                "{} missing a reference to a {} in source data set {}".format(obj._id, relation, data[relation]))
                     except AttributeError:
                         pass
 
