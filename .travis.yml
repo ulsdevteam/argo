@@ -28,3 +28,5 @@ script:
 after_script:
   - docker-compose exec ${SERVICE_NAME} coverage xml
   - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
+notifications:
+  email: false
