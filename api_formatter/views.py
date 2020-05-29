@@ -24,8 +24,9 @@ class DocumentViewSet(SearchMixin, ReadOnlyModelViewSet):
 
     def get_queryset(self):
         """Returns only certain fields to improve performance of list views."""
-        return self.search.query().source(
-            ['type', 'title', 'component_reference'])
+        if self.action == "list":
+            return self.search.query().source(self.list_fields)
+        return self.search.query()
 
     def get_object(self):
         lookup_url_kwarg = self.lookup_url_kwarg or self.lookup_field
@@ -46,6 +47,10 @@ class DocumentViewSet(SearchMixin, ReadOnlyModelViewSet):
             for relation in self.relations:
                 setattr(obj, relation, obj.get_references(relation=relation))
             return obj
+
+    @property
+    def list_fields(self):
+        return list(set(list(self.filter_fields) + list(self.ordering_fields) + list(self.search_fields) + ["component_reference"]))
 
 
 class AgentViewSet(DocumentViewSet):
