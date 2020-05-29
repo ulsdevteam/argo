@@ -155,16 +155,16 @@ class TestAPI(TestCase):
 
     def test_documents(self):
         self.validate_fixtures()
-        for t in TYPE_MAP:
-            added_ids = self.index_fixture_data('fixtures/{}'.format(t[0]), t[1])
-            self.list_view(t[1], t[3], t[2], len(added_ids))
+        for path, doc_cls, viewset, view_name in TYPE_MAP:
+            added_ids = self.index_fixture_data('fixtures/{}'.format(path), doc_cls)
+            self.list_view(doc_cls, view_name, viewset, len(added_ids))
             for ident in added_ids:
-                self.detail_view(t[3], t[2], ident)
+                self.detail_view(view_name, viewset, ident)
         for t in TYPE_MAP:
-            for f in os.listdir(os.path.join('fixtures', t[0])):
-                with open(os.path.join('fixtures', t[0], f), 'r') as jf:
+            for f in os.listdir(os.path.join('fixtures', path)):
+                with open(os.path.join('fixtures', path, f), 'r') as jf:
                     data = json.load(jf)
-                    obj = t[1].get(id=data['id'])
+                    obj = doc_cls.get(id=data['id'])
                     try:
                         for relation in obj.relations_in_self:
                             references = obj.get_references(relation=relation)
