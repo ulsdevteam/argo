@@ -7,13 +7,12 @@ from .serializers import (AgentListSerializer, AgentSerializer,
                           CollectionListSerializer, CollectionSerializer,
                           HitSerializer, ObjectListSerializer,
                           ObjectSerializer, TermListSerializer, TermSerializer)
-from .view_helpers import (FILTER_BACKENDS, NUMBER_LOOKUPS, PAGINATION_CLASS,
-                           SEARCH_BACKENDS, STRING_LOOKUPS, SearchMixin)
+from .view_helpers import (FILTER_BACKENDS, NUMBER_LOOKUPS, SEARCH_BACKENDS,
+                           STRING_LOOKUPS, SearchMixin)
 
 
 class DocumentViewSet(SearchMixin, ReadOnlyModelViewSet):
     filter_backends = FILTER_BACKENDS
-    pagination_class = PAGINATION_CLASS
 
     def get_serializer_class(self):
         if self.action == "list":
@@ -170,7 +169,6 @@ class SearchView(DocumentViewSet):
     """
 
     list_serializer = HitSerializer
-    pagination_class = PAGINATION_CLASS
     filter_backends = SEARCH_BACKENDS
 
     # TODO: determine if we need filter fields here

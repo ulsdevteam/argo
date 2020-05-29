@@ -15,7 +15,6 @@ from django_elasticsearch_dsl_drf.filter_backends import (CompoundSearchFilterBa
                                                           FacetedSearchFilterBackend,
                                                           FilteringFilterBackend,
                                                           OrderingFilterBackend)
-from django_elasticsearch_dsl_drf.pagination import PageNumberPagination
 from elasticsearch_dsl import Index, Search, connections
 from rest_framework.viewsets import ReadOnlyModelViewSet
 
@@ -39,12 +38,9 @@ NUMBER_LOOKUPS = [
 FILTER_BACKENDS = [FilteringFilterBackend,
                    OrderingFilterBackend,
                    DefaultOrderingFilterBackend,
-                   CompoundSearchFilterBackend,
-                   ]
+                   CompoundSearchFilterBackend]
 
 SEARCH_BACKENDS = FILTER_BACKENDS + [FacetedSearchFilterBackend]
-
-PAGINATION_CLASS = PageNumberPagination
 
 
 class SearchMixin:
