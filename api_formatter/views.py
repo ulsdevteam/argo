@@ -23,7 +23,9 @@ class DocumentViewSet(SearchMixin, ReadOnlyModelViewSet):
         return self.serializer
 
     def get_queryset(self):
-        return self.search.query()
+        """Returns only certain fields to improve performance of list views."""
+        return self.search.query().source(
+            ['type', 'title', 'component_reference'])
 
     def get_object(self):
         lookup_url_kwarg = self.lookup_url_kwarg or self.lookup_field
