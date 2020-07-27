@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'corsheaders',
     'api_formatter',
     'rest_framework',
     'django_elasticsearch_dsl',
@@ -46,6 +47,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -133,3 +135,6 @@ REST_FRAMEWORK = {
 
 # Elasticsearch configuration
 ELASTICSEARCH_DSL = CF.ELASTICSEARCH_DSL
+
+# CORS settings
+CORS_ORIGIN_ALLOW_ALL = True
