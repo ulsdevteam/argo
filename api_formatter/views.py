@@ -44,8 +44,8 @@ class DocumentViewSet(SearchMixin, ReadOnlyModelViewSet):
             raise Http404(message)
         else:
             obj = hits[0]
-            for relation in self.relations:
-                setattr(obj, relation, obj.get_references(relation=relation))
+            # for relation in self.relations:
+            #     setattr(obj, relation, obj.get_references(relation=relation))
             return obj
 
     @property

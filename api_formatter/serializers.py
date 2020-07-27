@@ -64,7 +64,7 @@ class RightsStatementSerializer(serializers.Serializer):
 
 class ReferenceSerializer(serializers.Serializer):
     title = serializers.CharField()
-    uri = serializers.CharField()
+    identifier = serializers.CharField()
     order = serializers.IntegerField(allow_null=True)
     type = serializers.CharField(allow_null=True)
 
@@ -79,7 +79,7 @@ class BaseListSerializer(serializers.Serializer):
 
 
 class BaseDetailSerializer(serializers.Serializer):
-    id = serializers.CharField()
+    uri = serializers.CharField()
     title = serializers.CharField()
     type = serializers.CharField()
     external_identifiers = ExternalIdentifierSerializer(many=True)
