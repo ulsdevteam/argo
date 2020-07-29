@@ -24,9 +24,12 @@ class DocumentViewSet(SearchMixin, ReadOnlyModelViewSet):
 
     def get_queryset(self):
         """Returns only certain fields to improve performance of list views."""
+        query = self.search.query()
         if self.action == "list":
-            return self.search.query().source(self.list_fields)
-        return self.search.query()
+            query = query.source(self.list_fields)
+        if self.request.GET.get("limit"):
+            query = query[:int(self.request.GET.get("limit"))].execute()
+        return query
 
     def get_object(self):
         lookup_url_kwarg = self.lookup_url_kwarg or self.lookup_field
