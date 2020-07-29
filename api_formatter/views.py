@@ -44,13 +44,11 @@ class DocumentViewSet(SearchMixin, ReadOnlyModelViewSet):
             raise Http404(message)
         else:
             obj = hits[0]
-            # for relation in self.relations:
-            #     setattr(obj, relation, obj.get_references(relation=relation))
             return obj
 
     @property
     def list_fields(self):
-        return list(set(list(self.filter_fields) + list(self.ordering_fields) + list(self.search_fields) + ["component_reference"]))
+        return list(set(list(self.filter_fields) + list(self.ordering_fields) + list(self.search_fields) + ["type", "dates"]))
 
 
 class AgentViewSet(DocumentViewSet):

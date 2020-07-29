@@ -71,7 +71,9 @@ class ReferenceSerializer(serializers.Serializer):
 
 class BaseListSerializer(serializers.Serializer):
     uri = serializers.SerializerMethodField()
+    type = serializers.CharField()
     title = serializers.CharField()
+    dates = DateSerializer(many=True, allow_null=True)
 
     def get_uri(self, obj):
         basename = self.context.get('view').basename or obj.type
@@ -86,11 +88,10 @@ class BaseDetailSerializer(serializers.Serializer):
 
 
 class AgentSerializer(BaseDetailSerializer):
+    agent_type = serializers.CharField()
     description = serializers.CharField(allow_null=True)
     dates = DateSerializer(many=True, allow_null=True)
     notes = NoteSerializer(many=True, allow_null=True)
-    collections = ReferenceSerializer(many=True, allow_null=True)
-    objects = ReferenceSerializer(many=True, allow_null=True)
 
 
 class AgentListSerializer(BaseListSerializer):
@@ -131,6 +132,7 @@ class ObjectListSerializer(BaseListSerializer):
 
 
 class TermSerializer(BaseDetailSerializer):
+    term_type = serializers.CharField()
     collections = ReferenceSerializer(many=True, allow_null=True)
     objects = ReferenceSerializer(many=True, allow_null=True)
 
@@ -140,5 +142,4 @@ class TermListSerializer(BaseListSerializer):
 
 
 class HitSerializer(BaseListSerializer):
-    type = serializers.CharField()
-    dates = DateSerializer(many=True, allow_null=True)
+    pass
