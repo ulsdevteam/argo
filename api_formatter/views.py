@@ -101,6 +101,7 @@ class CollectionViewSet(DocumentViewSet):
         "start_date": {"field": "dates.begin", "lookups": NUMBER_LOOKUPS, },
         "end_date": {"field": "dates.end", "lookups": NUMBER_LOOKUPS, },
         "level": {"field": "level.keyword", "lookups": STRING_LOOKUPS, },
+        "ancestors": "ancestors"
     }
 
     search_fields = ("title",)
