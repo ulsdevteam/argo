@@ -1,4 +1,5 @@
 from django.http import Http404
+from django_elasticsearch_dsl_drf.pagination import LimitOffsetPagination
 from elasticsearch_dsl import DateHistogramFacet
 from rac_es.documents import Agent, Collection, Object, Term
 from rest_framework.viewsets import ReadOnlyModelViewSet
@@ -13,6 +14,7 @@ from .view_helpers import (FILTER_BACKENDS, NUMBER_LOOKUPS, SEARCH_BACKENDS,
 
 class DocumentViewSet(SearchMixin, ReadOnlyModelViewSet):
     filter_backends = FILTER_BACKENDS
+    pagination_class = LimitOffsetPagination
 
     def get_serializer_class(self):
         if self.action == "list":
@@ -27,8 +29,6 @@ class DocumentViewSet(SearchMixin, ReadOnlyModelViewSet):
         query = self.search.query()
         if self.action == "list":
             query = query.source(self.list_fields)
-        if self.request.GET.get("limit"):
-            query = query[:int(self.request.GET.get("limit"))].execute()
         return query
 
     def get_object(self):
