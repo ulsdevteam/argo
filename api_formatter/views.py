@@ -190,7 +190,6 @@ class SearchView(DocumentViewSet):
     ordering_fields = {"title": "title.keyword", "type": "type.keyword"}
     search_fields = ("title", "description", "type", "")
     faceted_search_fields = {
-        "type": "type.keyword",
         "start_date": {
             "field": "dates.begin",
             "facet": DateHistogramFacet,
