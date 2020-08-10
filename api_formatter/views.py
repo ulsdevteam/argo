@@ -1,7 +1,8 @@
 from django.http import Http404
 from django_elasticsearch_dsl_drf.pagination import LimitOffsetPagination
 from elasticsearch_dsl import DateHistogramFacet
-from rac_es.documents import Agent, Collection, Object, Term
+from rac_es.documents import (Agent, BaseDescriptionComponent, Collection,
+                              Object, Term)
 from rest_framework.viewsets import ReadOnlyModelViewSet
 
 from .serializers import (AgentListSerializer, AgentSerializer,
@@ -177,15 +178,18 @@ class SearchView(DocumentViewSet):
     Performs search queries across agents, collections, objects and terms.
     """
 
+    document = BaseDescriptionComponent
     list_serializer = HitSerializer
     filter_backends = SEARCH_BACKENDS
 
-    # TODO: determine if we need filter fields here
-    filter_fields = {}  # This requires a mapping
+    filter_fields = {
+        "type": {"field": "type", "lookups": STRING_LOOKUPS, },
+        "start_date": {"field": "dates.begin", "lookups": NUMBER_LOOKUPS, },
+        "end_date": {"field": "dates.end", "lookups": NUMBER_LOOKUPS, },
+    }
     ordering_fields = {"title": "title.keyword", "type": "type.keyword"}
     search_fields = ("title", "description", "type", "")
     faceted_search_fields = {
-        "type": "type.keyword",
         "start_date": {
             "field": "dates.begin",
             "facet": DateHistogramFacet,
