@@ -187,7 +187,8 @@ class SearchView(DocumentViewSet):
         "start_date": {"field": "dates.begin", "lookups": NUMBER_LOOKUPS},
         "end_date": {"field": "dates.end", "lookups": NUMBER_LOOKUPS},
         "genre": {"field": "formats", "lookups": STRING_LOOKUPS},
-        "creator": {"field": "creators.title.keyword", "lookups": STRING_LOOKUPS}
+        "creator": {"field": "creators.title.keyword", "lookups": STRING_LOOKUPS},
+        "online": "online"
     }
     ordering_fields = {"title": "title.keyword", "type": "type.keyword"}
     search_fields = ("title", "description", "type", "")
