@@ -1,6 +1,6 @@
 from django.http import Http404
 from django_elasticsearch_dsl_drf.pagination import LimitOffsetPagination
-from elasticsearch_dsl import DateHistogramFacet
+from elasticsearch_dsl import DateHistogramFacet, TermsFacet
 from rac_es.documents import (Agent, BaseDescriptionComponent, Collection,
                               Object, Term)
 from rest_framework.viewsets import ReadOnlyModelViewSet
@@ -186,7 +186,7 @@ class SearchView(DocumentViewSet):
         "type": {"field": "type", "lookups": STRING_LOOKUPS, },
         "start_date": {"field": "dates.begin", "lookups": NUMBER_LOOKUPS, },
         "end_date": {"field": "dates.end", "lookups": NUMBER_LOOKUPS, },
-        "genre": {"field": "format", "lookups": STRING_LOOKUPS},
+        "genre": {"field": "formats", "lookups": STRING_LOOKUPS},
     }
     ordering_fields = {"title": "title.keyword", "type": "type.keyword"}
     search_fields = ("title", "description", "type", "")
@@ -201,6 +201,10 @@ class SearchView(DocumentViewSet):
             "facet": DateHistogramFacet,
             "options": {"interval": "year", },
         },
+        "genre": {
+            "field": "formats.keyword",
+            "facet": TermsFacet,
+        }
     }
     search_nested_fields = {
         "notes": {"path": "notes", "fields": ["subnotes.content"]},
