@@ -81,10 +81,14 @@ class BaseListSerializer(serializers.Serializer):
 
 
 class BaseDetailSerializer(serializers.Serializer):
-    uri = serializers.CharField()
+    uri = serializers.SerializerMethodField()
     title = serializers.CharField()
     type = serializers.CharField()
     external_identifiers = ExternalIdentifierSerializer(many=True)
+
+    def get_uri(self, obj):
+        basename = self.context.get('view').basename or obj.type
+        return reverse('{}-detail'.format(basename), kwargs={"pk": obj.meta.id})
 
 
 class AgentSerializer(BaseDetailSerializer):

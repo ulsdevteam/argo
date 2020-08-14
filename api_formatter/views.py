@@ -1,6 +1,6 @@
 from django.http import Http404
 from django_elasticsearch_dsl_drf.pagination import LimitOffsetPagination
-from elasticsearch_dsl import DateHistogramFacet
+from elasticsearch_dsl import DateHistogramFacet, TermsFacet
 from rac_es.documents import (Agent, BaseDescriptionComponent, Collection,
                               Object, Term)
 from rest_framework.viewsets import ReadOnlyModelViewSet
@@ -102,7 +102,7 @@ class CollectionViewSet(DocumentViewSet):
         "start_date": {"field": "dates.begin", "lookups": NUMBER_LOOKUPS, },
         "end_date": {"field": "dates.end", "lookups": NUMBER_LOOKUPS, },
         "level": {"field": "level.keyword", "lookups": STRING_LOOKUPS, },
-        "ancestors": "ancestors"
+        "top_collection": {"field": "top_collection.keyword", "lookups": STRING_LOOKUPS, }
     }
 
     search_fields = ("title",)
@@ -183,9 +183,12 @@ class SearchView(DocumentViewSet):
     filter_backends = SEARCH_BACKENDS
 
     filter_fields = {
-        "type": {"field": "type", "lookups": STRING_LOOKUPS, },
-        "start_date": {"field": "dates.begin", "lookups": NUMBER_LOOKUPS, },
-        "end_date": {"field": "dates.end", "lookups": NUMBER_LOOKUPS, },
+        "type": {"field": "type", "lookups": STRING_LOOKUPS},
+        "start_date": {"field": "dates.begin", "lookups": NUMBER_LOOKUPS},
+        "end_date": {"field": "dates.end", "lookups": NUMBER_LOOKUPS},
+        "genre": {"field": "formats", "lookups": STRING_LOOKUPS},
+        "creator": {"field": "creators.title.keyword", "lookups": STRING_LOOKUPS},
+        "online": "online"
     }
     ordering_fields = {"title": "title.keyword", "type": "type.keyword"}
     search_fields = ("title", "description", "type", "")
@@ -199,6 +202,14 @@ class SearchView(DocumentViewSet):
             "field": "dates.end",
             "facet": DateHistogramFacet,
             "options": {"interval": "year", },
+        },
+        "genre": {
+            "field": "formats.keyword",
+            "facet": TermsFacet
+        },
+        "creator": {
+            "field": "creators.title.keyword",
+            "facet": TermsFacet
         },
     }
     search_nested_fields = {

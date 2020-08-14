@@ -5,47 +5,38 @@ services:
     image: postgres:10.4
     volumes:
       - argodbvolume:/var/lib/postgresql/data/
-    # networks:
-    #   - microservices
   argo-web:
     build: .
     entrypoint: /code/entrypoint.sh
     volumes:
       - .:/code
-    # networks:
-    #   - microservices
     ports:
       - "8000:8000"
     depends_on:
       - argo-db
 
-  # elasticsearch:
-  #   image: elasticsearch:7.0.0
-  #   environment:
-  #     - node.name=elasticsearch
-  #     - discovery.seed_hosts=elasticsearch
-  #     - cluster.initial_master_nodes=elasticsearch
-  #     - cluster.name=docker-cluster
-  #     - bootstrap.memory_lock=true
-  #     - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
-  #     - http.cors.enabled=true
-  #     - http.cors.allow-origin=http://localhost:8000
-  #     - http.cors.allow-headers=Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
-  #     - http.cors.allow-credentials=true
-  #   ulimits:
-  #     memlock:
-  #       soft: -1
-  #       hard: -1
-  #   volumes:
-  #     - elasticsearch:/usr/share/elasticsearch/data
-  #   networks:
-  #     - microservices
-  #   ports:
-  #     - 9200:9200
+  elasticsearch:
+    image: elasticsearch:7.0.0
+    environment:
+      - node.name=elasticsearch
+      - discovery.seed_hosts=elasticsearch
+      - cluster.initial_master_nodes=elasticsearch
+      - cluster.name=docker-cluster
+      - bootstrap.memory_lock=true
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+      - http.cors.enabled=true
+      - http.cors.allow-origin=http://localhost:8000
+      - http.cors.allow-headers=Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+      - http.cors.allow-credentials=true
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    volumes:
+      - elasticsearch:/usr/share/elasticsearch/data
+    ports:
+      - 9200:9200
 
 volumes:
   argodbvolume:
-  # elasticsearch:
-
-# networks:
-#   microservices:
+  elasticsearch:
