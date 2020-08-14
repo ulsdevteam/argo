@@ -34,8 +34,6 @@ services:
         hard: -1
     volumes:
       - elasticsearch:/usr/share/elasticsearch/data
-    networks:
-      - microservices
     ports:
       - 9200:9200
 
