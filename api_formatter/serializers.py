@@ -146,4 +146,9 @@ class TermListSerializer(BaseListSerializer):
 
 
 class HitSerializer(BaseListSerializer):
-    pass
+    # TODO: rework this serializer so it displays the containing collection
+    hit_count = serializers.SerializerMethodField()
+    top_collection = serializers.CharField(allow_null=True)
+
+    def get_hit_count(self, obj):
+        return obj.meta.inner_hits.collection_hits.hits.total.value

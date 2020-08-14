@@ -211,10 +211,26 @@ class SearchView(DocumentViewSet):
             "field": "creators.title.keyword",
             "facet": TermsFacet
         },
+        # "top_collection":  {
+        #     "field": "top_collection.keyword",
+        #     "facet": TermsFacet,
+        #     "enabled": True,
+        #     "options": {
+        #         "aggs": {
+        #             "group_hits": "top_hits",
+        #         }
+        # }
+        # }
     }
     search_nested_fields = {
         "notes": {"path": "notes", "fields": ["subnotes.content"]},
     }
 
     def get_queryset(self):
-        return self.search.query()
+        collapse_params = {
+            "field": "top_collection.keyword",
+            "inner_hits": {
+                "name": "collection_hits",
+                "_source": ["title"]
+            }}
+        return self.search.extra(collapse=collapse_params).query()
