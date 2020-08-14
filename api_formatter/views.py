@@ -102,7 +102,7 @@ class CollectionViewSet(DocumentViewSet):
         "start_date": {"field": "dates.begin", "lookups": NUMBER_LOOKUPS, },
         "end_date": {"field": "dates.end", "lookups": NUMBER_LOOKUPS, },
         "level": {"field": "level.keyword", "lookups": STRING_LOOKUPS, },
-        "ancestors": "ancestors"
+        "ancestors": {"field": "ancestors", "lookups": STRING_LOOKUPS, }
     }
 
     search_fields = ("title",)
@@ -203,8 +203,8 @@ class SearchView(DocumentViewSet):
         },
         "genre": {
             "field": "formats.keyword",
-            "facet": TermsFacet,
-        }
+            "facet": TermsFacet
+        },
     }
     search_nested_fields = {
         "notes": {"path": "notes", "fields": ["subnotes.content"]},
