@@ -145,10 +145,18 @@ class TermListSerializer(BaseListSerializer):
     pass
 
 
-class HitSerializer(BaseListSerializer):
+class CollectionHitSerializer(serializers.Serializer):
     # TODO: rework this serializer so it displays the containing collection
+    # this will require indexing additional data
+    uri = serializers.CharField(source="grouping.uri")
+    type = serializers.CharField(source="grouping.type")
+    title = serializers.CharField(source="grouping.title")
+    dates = DateSerializer(source="grouping.dates", many=True, allow_null=True)
     hit_count = serializers.SerializerMethodField()
     top_collection = serializers.CharField(allow_null=True)
+
+    def get_uri(self, obj):
+        return reverse('collection-detail', kwargs={"pk": obj.meta.id})
 
     def get_hit_count(self, obj):
         return obj.meta.inner_hits.collection_hits.hits.total.value

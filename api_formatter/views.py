@@ -6,8 +6,8 @@ from rac_es.documents import (Agent, BaseDescriptionComponent, Collection,
 from rest_framework.viewsets import ReadOnlyModelViewSet
 
 from .serializers import (AgentListSerializer, AgentSerializer,
-                          CollectionListSerializer, CollectionSerializer,
-                          HitSerializer, ObjectListSerializer,
+                          CollectionHitSerializer, CollectionListSerializer,
+                          CollectionSerializer, ObjectListSerializer,
                           ObjectSerializer, TermListSerializer, TermSerializer)
 from .view_helpers import (FILTER_BACKENDS, NUMBER_LOOKUPS, SEARCH_BACKENDS,
                            STRING_LOOKUPS, SearchMixin)
@@ -179,7 +179,7 @@ class SearchView(DocumentViewSet):
     """
 
     document = BaseDescriptionComponent
-    list_serializer = HitSerializer
+    list_serializer = CollectionHitSerializer
     filter_backends = SEARCH_BACKENDS
 
     filter_fields = {
@@ -192,6 +192,7 @@ class SearchView(DocumentViewSet):
     }
     ordering_fields = {"title": "title.keyword", "type": "type.keyword"}
     search_fields = ("title", "description", "type", "")
+    # TODO: move these facets to their own view and disable results
     faceted_search_fields = {
         "start_date": {
             "field": "dates.begin",
@@ -211,16 +212,6 @@ class SearchView(DocumentViewSet):
             "field": "creators.title.keyword",
             "facet": TermsFacet
         },
-        # "top_collection":  {
-        #     "field": "top_collection.keyword",
-        #     "facet": TermsFacet,
-        #     "enabled": True,
-        #     "options": {
-        #         "aggs": {
-        #             "group_hits": "top_hits",
-        #         }
-        # }
-        # }
     }
     search_nested_fields = {
         "notes": {"path": "notes", "fields": ["subnotes.content"]},
@@ -230,7 +221,16 @@ class SearchView(DocumentViewSet):
         collapse_params = {
             "field": "top_collection.keyword",
             "inner_hits": {
+                "size": 0,
                 "name": "collection_hits",
-                "_source": ["title"]
+                "_source": False
             }}
         return self.search.extra(collapse=collapse_params).query()
+
+# class SearchView(MainSearchMixin, APIView):
+#
+#     def get(self, request, *args, **kwargs):
+#         self.search.aggs.bucket("top_collection", "terms", field="top_collection.keyword", size="10000").metric("hits", "top_hits", _source=["title"], size=1)
+#         search = self.search.query().execute()
+#         serialized = BucketSerializer(search.aggs["top_collection"], many=True)
+#         return Response(serialized.data)
