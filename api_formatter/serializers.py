@@ -146,17 +146,31 @@ class TermListSerializer(BaseListSerializer):
 
 
 class CollectionHitSerializer(serializers.Serializer):
-    # TODO: rework this serializer so it displays the containing collection
-    # this will require indexing additional data
-    uri = serializers.CharField(source="grouping.uri")
-    type = serializers.CharField(source="grouping.type")
-    title = serializers.CharField(source="grouping.title")
-    dates = DateSerializer(source="grouping.dates", many=True, allow_null=True)
+    """Serializes data for collapsed hits.
+
+    This requires secondary resolution of hits when they are loaded.
+    """
+    uri = serializers.SerializerMethodField()
     hit_count = serializers.SerializerMethodField()
-    top_collection = serializers.CharField(allow_null=True)
 
     def get_uri(self, obj):
-        return reverse('collection-detail', kwargs={"pk": obj.meta.id})
+        if getattr(obj, "group", None):
+            return obj.group[0]
+        else:
+            return None
 
     def get_hit_count(self, obj):
         return obj.meta.inner_hits.collection_hits.hits.total.value
+
+
+class FacetSerializer(serializers.Serializer):
+    """Serializes facets."""
+
+    def to_representation(self, instance):
+        # TODO: see if this can be cleaned up a bit
+        facet_name = list(instance.to_dict())[1]
+        buckets = getattr(instance, facet_name).buckets
+        return {facet_name: [self.serialize_bucket(b) for b in buckets]}
+
+    def serialize_bucket(self, instance):
+        return instance.to_dict()
