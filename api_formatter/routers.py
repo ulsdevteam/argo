@@ -6,8 +6,8 @@ class RACAPIRootView(APIRootView):
     name = "Rockefeller Archive Center API"
 
     def get(self, request, *args, **kwargs):
-        # Add Search and Schema endpoints to API Root
-        self.api_root_dict.update([('search', 'search'), ('schema', 'schema')])
+        """Adds additional endpoints."""
+        self.api_root_dict.update([('facets', 'facets'), ('search', 'search'), ('schema', 'schema')])
         return super(RACAPIRootView, self).get(request, *args, **kwargs)
 
 
