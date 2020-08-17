@@ -1,14 +1,16 @@
 from django.http import Http404
 from django_elasticsearch_dsl_drf.pagination import LimitOffsetPagination
-from elasticsearch_dsl import DateHistogramFacet, TermsFacet
+from elasticsearch_dsl import TermsFacet
 from rac_es.documents import (Agent, BaseDescriptionComponent, Collection,
                               Object, Term)
+from rest_framework.response import Response
 from rest_framework.viewsets import ReadOnlyModelViewSet
 
 from .serializers import (AgentListSerializer, AgentSerializer,
                           CollectionHitSerializer, CollectionListSerializer,
-                          CollectionSerializer, ObjectListSerializer,
-                          ObjectSerializer, TermListSerializer, TermSerializer)
+                          CollectionSerializer, FacetSerializer,
+                          ObjectListSerializer, ObjectSerializer,
+                          TermListSerializer, TermSerializer)
 from .view_helpers import (FILTER_BACKENDS, NUMBER_LOOKUPS, SEARCH_BACKENDS,
                            STRING_LOOKUPS, SearchMixin)
 
@@ -174,13 +176,9 @@ class TermViewSet(DocumentViewSet):
 
 
 class SearchView(DocumentViewSet):
-    """
-    Performs search queries across agents, collections, objects and terms.
-    """
-
+    """Performs search queries across agents, collections, objects and terms."""
     document = BaseDescriptionComponent
     list_serializer = CollectionHitSerializer
-    filter_backends = SEARCH_BACKENDS
 
     filter_fields = {
         "type": {"field": "type", "lookups": STRING_LOOKUPS},
@@ -192,45 +190,60 @@ class SearchView(DocumentViewSet):
     }
     ordering_fields = {"title": "title.keyword", "type": "type.keyword"}
     search_fields = ("title", "description", "type", "")
-    # TODO: move these facets to their own view and disable results
-    faceted_search_fields = {
-        "start_date": {
-            "field": "dates.begin",
-            "facet": DateHistogramFacet,
-            "options": {"interval": "year", },
-        },
-        "end_date": {
-            "field": "dates.end",
-            "facet": DateHistogramFacet,
-            "options": {"interval": "year", },
-        },
-        "genre": {
-            "field": "formats.keyword",
-            "facet": TermsFacet
-        },
-        "creator": {
-            "field": "creators.title.keyword",
-            "facet": TermsFacet
-        },
-    }
     search_nested_fields = {
         "notes": {"path": "notes", "fields": ["subnotes.content"]},
     }
 
     def get_queryset(self):
+        """Uses `collapse` to group hits based on `group` attribute."""
         collapse_params = {
-            "field": "top_collection.keyword",
+            "field": "group",
             "inner_hits": {
                 "size": 0,
                 "name": "collection_hits",
                 "_source": False
-            }}
+            }
+        }
         return self.search.extra(collapse=collapse_params).query()
 
-# class SearchView(MainSearchMixin, APIView):
-#
-#     def get(self, request, *args, **kwargs):
-#         self.search.aggs.bucket("top_collection", "terms", field="top_collection.keyword", size="10000").metric("hits", "top_hits", _source=["title"], size=1)
-#         search = self.search.query().execute()
-#         serialized = BucketSerializer(search.aggs["top_collection"], many=True)
-#         return Response(serialized.data)
+
+class FacetView(SearchView):
+    """Returns facets based on search terms."""
+    filter_backends = SEARCH_BACKENDS
+    list_serializer = FacetSerializer
+
+    faceted_search_fields = {
+        # TODO: do we need date facets?
+        # "start_date": {
+        #     "field": "dates.begin",
+        #     "facet": DateHistogramFacet,
+        #     "options": {"interval": "year", },
+        #     "enabled": True
+        # },
+        # "end_date": {
+        #     "field": "dates.end",
+        #     "facet": DateHistogramFacet,
+        #     "options": {"interval": "year", },
+        #     "enabled": True
+        # },
+        "genre": {
+            "field": "formats.keyword",
+            "facet": TermsFacet,
+            "enabled": True
+        },
+        "creator": {
+            "field": "creators.title.keyword",
+            "facet": TermsFacet,
+            "enabled": True
+        },
+    }
+
+    def get_queryset(self):
+        """Sets an empty size to return only facets."""
+        return self.search.extra(size=0)
+
+    def list(self, request, *args, **kwargs):
+        queryset = self.filter_queryset(self.get_queryset())
+        results = queryset.execute()
+        serializer = self.get_serializer(results.aggregations, many=True)
+        return Response(serializer.data)
