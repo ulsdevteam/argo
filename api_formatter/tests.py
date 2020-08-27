@@ -1,7 +1,7 @@
+import datetime
 import json
 import os
 import random
-from datetime import datetime
 
 from argo import settings
 from django.test import TestCase
@@ -16,10 +16,10 @@ from rest_framework.test import APIRequestFactory
 from .views import AgentViewSet, CollectionViewSet, ObjectViewSet, TermViewSet
 
 TYPE_MAP = (
-    ('agents', Agent, AgentViewSet, 'agent'),
-    ('collections', Collection, CollectionViewSet, 'collection'),
-    ('objects', Object, ObjectViewSet, 'object'),
-    ('terms', Term, TermViewSet, 'term'),
+    ('agent', Agent, AgentViewSet),
+    ('collection', Collection, CollectionViewSet),
+    ('object', Object, ObjectViewSet),
+    ('term', Term, TermViewSet),
 )
 
 STOP_WORDS = ["a", "an", "and", "are", "as", "at", "be", "but", "by", "for", "if",
@@ -49,7 +49,7 @@ class TestAPI(TestCase):
             with open(os.path.join(source_filepath, f)) as jf:
                 data = json.load(jf)
                 doc = doc_cls(**data)
-                yield doc.prepare_streaming_dict(data["id"])
+                yield doc.prepare_streaming_dict(data["uri"].split("/")[-1])
 
     def index_fixture_data(self, source_filepath, doc_cls):
         added_ids = []
@@ -69,8 +69,8 @@ class TestAPI(TestCase):
                 return self.get_nested_value(key_list, child_obj[0])
             else:
                 return self.get_nested_value(key_list, child_obj)
-        if isinstance(child_obj, datetime):
-            return child_obj.strftime('%Y-%m-%d')
+        if (isinstance(child_obj, datetime.datetime) or isinstance(child_obj, datetime.date)):
+            return child_obj.strftime('%Y')
         return (child_obj if child_obj else "")
 
     def get_random_word(self, word_list):
@@ -155,16 +155,16 @@ class TestAPI(TestCase):
 
     def test_documents(self):
         self.validate_fixtures()
-        for path, doc_cls, viewset, view_name in TYPE_MAP:
-            added_ids = self.index_fixture_data('fixtures/{}'.format(path), doc_cls)
-            self.list_view(doc_cls, view_name, viewset, len(added_ids))
+        for doc_type, doc_cls, viewset in TYPE_MAP:
+            added_ids = self.index_fixture_data('fixtures/{}'.format(doc_type), doc_cls)
+            self.list_view(doc_cls, doc_type, viewset, len(added_ids))
             for ident in added_ids:
-                self.detail_view(view_name, viewset, ident)
+                self.detail_view(doc_type, viewset, ident)
         for t in TYPE_MAP:
-            for f in os.listdir(os.path.join('fixtures', path)):
-                with open(os.path.join('fixtures', path, f), 'r') as jf:
+            for f in os.listdir(os.path.join('fixtures', doc_type)):
+                with open(os.path.join('fixtures', doc_type, f), 'r') as jf:
                     data = json.load(jf)
-                    obj = doc_cls.get(id=data['id'])
+                    obj = doc_cls.get(id=data["uri"].split("/")[-1])
                     try:
                         for relation in obj.relations_in_self:
                             references = obj.get_references(relation=relation)

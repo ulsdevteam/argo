@@ -68,7 +68,6 @@ class AgentViewSet(DocumentViewSet):
     relations = ("collections", "objects")
 
     filter_fields = {
-        "id": {"field": "id", "lookups": STRING_LOOKUPS, },
         "title": {"field": "title.keyword", "lookups": STRING_LOOKUPS, },
         "agent_type": {"field": "agent_type", "lookups": STRING_LOOKUPS, },
         "start_date": {"field": "dates.begin", "lookups": NUMBER_LOOKUPS, },
@@ -99,12 +98,10 @@ class CollectionViewSet(DocumentViewSet):
     relations = ("ancestors", "children", "creators", "terms", "agents")
 
     filter_fields = {
-        "id": {"field": "id", "lookups": STRING_LOOKUPS, },
         "title": {"field": "title.keyword", "lookups": STRING_LOOKUPS, },
         "start_date": {"field": "dates.begin", "lookups": NUMBER_LOOKUPS, },
         "end_date": {"field": "dates.end", "lookups": NUMBER_LOOKUPS, },
         "level": {"field": "level.keyword", "lookups": STRING_LOOKUPS, },
-        "top_collection": {"field": "top_collection.keyword", "lookups": STRING_LOOKUPS, }
     }
 
     search_fields = ("title",)
@@ -131,7 +128,6 @@ class ObjectViewSet(DocumentViewSet):
     relations = ("ancestors", "terms", "agents")
 
     filter_fields = {
-        "id": {"field": "id", "lookups": STRING_LOOKUPS, },
         "title": {"field": "title.keyword", "lookups": STRING_LOOKUPS, },
         "start_date": {"field": "dates.begin", "lookups": NUMBER_LOOKUPS, },
         "end_date": {"field": "dates.end", "lookups": NUMBER_LOOKUPS, },
@@ -163,7 +159,6 @@ class TermViewSet(DocumentViewSet):
     )
 
     filter_fields = {
-        "id": {"field": "id", "lookups": STRING_LOOKUPS, },
         "title": {"field": "title.keyword", "lookups": STRING_LOOKUPS, },
         "term_type": {"field": "term_type", "lookups": STRING_LOOKUPS, },
     }
@@ -181,12 +176,13 @@ class SearchView(DocumentViewSet):
     list_serializer = CollectionHitSerializer
 
     filter_fields = {
-        "type": {"field": "type", "lookups": STRING_LOOKUPS},
-        "start_date": {"field": "dates.begin", "lookups": NUMBER_LOOKUPS},
+        "category": {"field": "category", "lookups": STRING_LOOKUPS},
+        "creator": {"field": "creators.title.keyword", "lookups": STRING_LOOKUPS},
         "end_date": {"field": "dates.end", "lookups": NUMBER_LOOKUPS},
         "genre": {"field": "formats", "lookups": STRING_LOOKUPS},
-        "creator": {"field": "creators.title.keyword", "lookups": STRING_LOOKUPS},
-        "online": "online"
+        "online": "online",
+        "start_date": {"field": "dates.begin", "lookups": NUMBER_LOOKUPS},
+        "type": {"field": "type", "lookups": STRING_LOOKUPS},
     }
     ordering_fields = {"title": "title.keyword", "type": "type.keyword"}
     search_fields = ("title", "description", "type", "")
