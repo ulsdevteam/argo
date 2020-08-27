@@ -181,12 +181,13 @@ class SearchView(DocumentViewSet):
     list_serializer = CollectionHitSerializer
 
     filter_fields = {
-        "type": {"field": "type", "lookups": STRING_LOOKUPS},
-        "start_date": {"field": "dates.begin", "lookups": NUMBER_LOOKUPS},
+        "category": {"field": "category", "lookups": STRING_LOOKUPS},
+        "creator": {"field": "creators.title.keyword", "lookups": STRING_LOOKUPS},
         "end_date": {"field": "dates.end", "lookups": NUMBER_LOOKUPS},
         "genre": {"field": "formats", "lookups": STRING_LOOKUPS},
-        "creator": {"field": "creators.title.keyword", "lookups": STRING_LOOKUPS},
-        "online": "online"
+        "online": "online",
+        "start_date": {"field": "dates.begin", "lookups": NUMBER_LOOKUPS},
+        "type": {"field": "type", "lookups": STRING_LOOKUPS},
     }
     ordering_fields = {"title": "title.keyword", "type": "type.keyword"}
     search_fields = ("title", "description", "type", "")
