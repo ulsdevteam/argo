@@ -1,7 +1,7 @@
+import datetime
 import json
 import os
 import random
-import datetime
 
 from argo import settings
 from django.test import TestCase
