@@ -10,5 +10,5 @@ SQL_ENGINE = "django.db.backends.postgresql"
 SQL_DATABASE = "postgres"
 SQL_USER = "postgres"
 SQL_PASSWORD = "postgres"
-SQL_HOST = "pisces-db"
+SQL_HOST = "argo-db"
 SQL_PORT = 5432
