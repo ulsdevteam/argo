@@ -28,5 +28,30 @@ script:
 after_script:
   - docker-compose exec ${SERVICE_NAME} coverage xml
   - ./cc-test-reporter after-build --exit-code $TRAVIS_TEST_RESULT
+before_deploy:
+- sudo deploy_scripts/substitute_env.sh
+- sudo deploy_scripts/make_zip.sh $DEPLOY_ZIP_DIR $DEPLOY_ZIP_NAME
+deploy:
+- provider: s3
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: $AWS_SECRET_KEY
+  local_dir: $DEPLOY_ZIP_DIR
+  skip_cleanup: true
+  on: &development
+    repo: RockefellerArchiveCenter/${APPLICATION_NAME}
+    branch: development
+  bucket: $AWS_BUCKET_NAME
+  region: us-east-1
+- provider: codedeploy
+  wait_until_deployed: true
+  bucket: $AWS_BUCKET_NAME
+  key: $DEPLOY_ZIP_NAME
+  bundle_type: zip
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key: $AWS_SECRET_KEY
+  application: ${APPLICATION_NAME}
+  deployment_group: ArgoDevelopment
+  region: us-east-1
+  on: *development
 notifications:
   email: false
