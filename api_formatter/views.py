@@ -1,11 +1,12 @@
 from django.http import Http404
 from django_elasticsearch_dsl_drf.pagination import LimitOffsetPagination
-from elasticsearch_dsl import TermsFacet
+from elasticsearch_dsl import A, TermsFacet
 from rac_es.documents import (Agent, BaseDescriptionComponent, Collection,
                               Object, Term)
 from rest_framework.response import Response
 from rest_framework.viewsets import ReadOnlyModelViewSet
 
+from .pagination import CollapseLimitOffsetPagination
 from .serializers import (AgentListSerializer, AgentSerializer,
                           CollectionHitSerializer, CollectionListSerializer,
                           CollectionSerializer, FacetSerializer,
@@ -174,6 +175,7 @@ class SearchView(DocumentViewSet):
     """Performs search queries across agents, collections, objects and terms."""
     document = BaseDescriptionComponent
     list_serializer = CollectionHitSerializer
+    pagination_class = CollapseLimitOffsetPagination
 
     filter_fields = {
         "category": {"field": "category", "lookups": STRING_LOOKUPS},
@@ -200,6 +202,8 @@ class SearchView(DocumentViewSet):
                 "_source": False
             }
         }
+        a = A("cardinality", field="group.keyword")
+        self.search.aggs.bucket("total", a)
         return self.search.extra(collapse=collapse_params).query()
 
 
