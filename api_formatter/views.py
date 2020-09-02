@@ -193,7 +193,7 @@ class SearchView(DocumentViewSet):
     def get_queryset(self):
         """Uses `collapse` to group hits based on `group` attribute."""
         collapse_params = {
-            "field": "group",
+            "field": "group.keyword",
             "inner_hits": {
                 "size": 0,
                 "name": "collection_hits",
