@@ -84,6 +84,7 @@ class BaseDetailSerializer(serializers.Serializer):
     uri = serializers.SerializerMethodField()
     title = serializers.CharField()
     type = serializers.CharField()
+    category = serializers.CharField()
     external_identifiers = ExternalIdentifierSerializer(many=True)
 
     def get_uri(self, obj):
@@ -155,7 +156,7 @@ class CollectionHitSerializer(serializers.Serializer):
 
     def get_uri(self, obj):
         if getattr(obj, "group", None):
-            return obj.group[0]
+            return obj.group
         else:
             return None
 
