@@ -84,7 +84,7 @@ class BaseDetailSerializer(serializers.Serializer):
     uri = serializers.SerializerMethodField()
     title = serializers.CharField()
     type = serializers.CharField()
-    category = serializers.CharField()
+    category = serializers.CharField(allow_null=True)
     external_identifiers = ExternalIdentifierSerializer(many=True)
 
     def get_uri(self, obj):
