@@ -5,10 +5,8 @@ class CollapseLimitOffsetPagination(LimitOffsetPagination):
     """Customized limit/offset pagination which handles collapsed results."""
 
     def get_paginated_response_context(self, data):
-        """Get paginated response data.
-        :param data:
-        :return:
-        """
+        """Overrides `get_paginated_response_context` to ignore facets."""
+
         return [
             ('count', self.count),
             ('next', self.get_next_link()),
