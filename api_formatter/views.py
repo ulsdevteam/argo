@@ -195,14 +195,14 @@ class SearchView(DocumentViewSet):
     def get_queryset(self):
         """Uses `collapse` to group hits based on `group` attribute."""
         collapse_params = {
-            "field": "group.keyword",
+            "field": "group",
             "inner_hits": {
                 "size": 0,
                 "name": "collection_hits",
                 "_source": False
             }
         }
-        a = A("cardinality", field="group.keyword")
+        a = A("cardinality", field="group")
         self.search.aggs.bucket("total", a)
         return self.search.extra(collapse=collapse_params).query()
 

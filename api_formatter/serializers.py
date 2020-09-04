@@ -156,7 +156,7 @@ class CollectionHitSerializer(serializers.Serializer):
 
     def get_uri(self, obj):
         if getattr(obj, "group", None):
-            return obj.group
+            return obj.group[0]
         else:
             return None
 
