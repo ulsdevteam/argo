@@ -1,23 +1,14 @@
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
-        'USER': 'postgres',
-        'HOST': 'argo-db',
-        'PORT': 5432,
-    }
-}
-
-ALLOWED_HOSTS = ['localhost', 'argo-web']
-
-BASE_DIR = ''
-
-STATIC_URL = '/static/'
-
-ELASTICSEARCH_DSL = {
-    'default': {
-        'hosts': ['elasticsearch:9200'],
-        'index': 'default',
-        'connection': 'default'
-    },
-}
+DJANGO_DEBUG = True
+DJANGO_PORT = 8007
+DJANGO_SECRET_KEY = "sx6mf&q*eifhk^(cx197+=*cuq0guy$43!+hy#g1l4orkklx$g"
+DJANGO_STATIC_URL = "/static/"
+DJANGO_ALLOWED_HOSTS = ["localhost", "argo-web"]
+ELASTICSEARCH_HOSTS = ["elasticsearch:9200"]
+ELASTICSEARCH_INDEX = "default"
+ELASTICSEARCH_CONNECTION = "default"
+SQL_ENGINE = "django.db.backends.postgresql"
+SQL_DATABASE = "postgres"
+SQL_USER = "postgres"
+SQL_PASSWORD = "postgres"
+SQL_HOST = "argo-db"
+SQL_PORT = 5432
