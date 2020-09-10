@@ -155,10 +155,7 @@ class CollectionHitSerializer(serializers.Serializer):
     hit_count = serializers.SerializerMethodField()
 
     def get_uri(self, obj):
-        if getattr(obj, "group", None):
-            return obj.group[0]
-        else:
-            return None
+        return obj.group.identifier
 
     def get_hit_count(self, obj):
         return obj.meta.inner_hits.collection_hits.hits.total.value
@@ -172,6 +169,8 @@ class FacetSerializer(serializers.Serializer):
         for k, v in instance.aggregations.to_dict().items():
             if "buckets" in v:
                 resp[k] = v["buckets"]
+            elif "name" in v:  # move nested aggregations up one level
+                resp[k] = v["name"]["buckets"]
             else:
                 resp[k] = v
         return resp
