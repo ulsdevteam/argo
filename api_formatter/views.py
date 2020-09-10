@@ -1,6 +1,6 @@
 from django.http import Http404
 from django_elasticsearch_dsl_drf.pagination import LimitOffsetPagination
-from elasticsearch_dsl import A, TermsFacet
+from elasticsearch_dsl import A, Q
 from rac_es.documents import (Agent, BaseDescriptionComponent, Collection,
                               Object, Term)
 from rest_framework.response import Response
@@ -12,8 +12,8 @@ from .serializers import (AgentListSerializer, AgentSerializer,
                           CollectionSerializer, FacetSerializer,
                           ObjectListSerializer, ObjectSerializer,
                           TermListSerializer, TermSerializer)
-from .view_helpers import (FILTER_BACKENDS, NUMBER_LOOKUPS, SEARCH_BACKENDS,
-                           STRING_LOOKUPS, SearchMixin)
+from .view_helpers import (FILTER_BACKENDS, NUMBER_LOOKUPS, STRING_LOOKUPS,
+                           SearchMixin)
 
 
 class DocumentViewSet(SearchMixin, ReadOnlyModelViewSet):
@@ -195,55 +195,42 @@ class SearchView(DocumentViewSet):
     def get_queryset(self):
         """Uses `collapse` to group hits based on `group` attribute."""
         collapse_params = {
-            "field": "group",
+            "field": "group.identifier",
             "inner_hits": {
                 "size": 0,
                 "name": "collection_hits",
                 "_source": False
             }
         }
-        a = A("cardinality", field="group")
+        a = A("cardinality", field="group.identifier")
         self.search.aggs.bucket("total", a)
         return self.search.extra(collapse=collapse_params).query()
 
 
 class FacetView(SearchView):
     """Returns facets based on search terms."""
-    filter_backends = SEARCH_BACKENDS
-    list_serializer = FacetSerializer
-
-    faceted_search_fields = {
-        # TODO: do we need date facets?
-        # "start_date": {
-        #     "field": "dates.begin",
-        #     "facet": DateHistogramFacet,
-        #     "options": {"interval": "year", },
-        #     "enabled": True
-        # },
-        # "end_date": {
-        #     "field": "dates.end",
-        #     "facet": DateHistogramFacet,
-        #     "options": {"interval": "year", },
-        #     "enabled": True
-        # },
-        "genre": {
-            "field": "formats.keyword",
-            "facet": TermsFacet,
-            "enabled": True
-        },
-        "creator": {
-            "field": "creators.title.keyword",
-            "facet": TermsFacet,
-            "enabled": True
-        },
-    }
+    serializer = FacetSerializer
 
     def get_queryset(self):
-        """Sets an empty size to return only facets."""
+        """Adds aggregations and sets an empty size to return only facets."""
+        creator = A("nested", path="creators")
+        creator_name = A("terms", field="creators.title.keyword", size=100)
+        subject = A("nested", path="terms")
+        subject_name = A("terms", field="terms.title.keyword", size=100)
+        format = A("terms", field="formats.keyword")
+        max_date = A("max", field="dates.end", format="epoch_millis")
+        min_date = A("min", field="dates.begin", format="epoch_millis")
+        online = A('filter', Q('terms', online=[True]))
+        self.search.aggs.bucket('creator', creator).bucket("name", creator_name)
+        self.search.aggs.bucket('subject', subject).bucket("name", subject_name)
+        self.search.aggs.bucket('format', format)
+        self.search.aggs.bucket("max_date", max_date)
+        self.search.aggs.bucket("min_date", min_date)
+        self.search.aggs.bucket("online", online)
         return self.search.extra(size=0)
 
-    def list(self, request, *args, **kwargs):
+    def retrieve(self, request, *args, **kwargs):
         queryset = self.filter_queryset(self.get_queryset())
         results = queryset.execute()
-        serializer = self.get_serializer(results.aggregations, many=True)
+        serializer = self.get_serializer(results)
         return Response(serializer.data)
