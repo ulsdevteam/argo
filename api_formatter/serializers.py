@@ -168,10 +168,10 @@ class FacetSerializer(serializers.Serializer):
     """Serializes facets."""
 
     def to_representation(self, instance):
-        # TODO: see if this can be cleaned up a bit
-        facet_name = list(instance.to_dict())[1]
-        buckets = getattr(instance, facet_name).buckets
-        return {facet_name: [self.serialize_bucket(b) for b in buckets]}
-
-    def serialize_bucket(self, instance):
-        return instance.to_dict()
+        resp = {}
+        for k, v in instance.aggregations.to_dict().items():
+            if "buckets" in v:
+                resp[k] = v["buckets"]
+            else:
+                resp[k] = v
+        return resp
