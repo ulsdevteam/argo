@@ -151,14 +151,20 @@ class CollectionHitSerializer(serializers.Serializer):
 
     This requires secondary resolution of hits when they are loaded.
     """
-    uri = serializers.SerializerMethodField()
-    hit_count = serializers.SerializerMethodField()
+    dates = serializers.SerializerMethodField()
+    hit_count = serializers.CharField(source="meta.inner_hits.collection_hits.hits.total.value")
+    title = serializers.CharField(source="group.title")
+    uri = serializers.CharField(source="group.identifier")
+    creators = serializers.SerializerMethodField()
 
-    def get_uri(self, obj):
-        return obj.group.identifier
+    def get_dates(self, obj):
+        return [d.expression for d in obj.group.dates]
 
-    def get_hit_count(self, obj):
-        return obj.meta.inner_hits.collection_hits.hits.total.value
+    def get_creators(self, obj):
+        if getattr(obj.group, "creators", None):
+            return [c.title for c in obj.group.creators]
+        else:
+            return []
 
 
 class FacetSerializer(serializers.Serializer):

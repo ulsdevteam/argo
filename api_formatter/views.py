@@ -190,7 +190,15 @@ class SearchView(DocumentViewSet):
             "path": "creators"
         }
     }
-    ordering_fields = {"title": "title.keyword", "type": "type.keyword"}
+    ordering_fields = {
+        "title": "group.title",
+        "start_date": "group.dates.begin",
+        "end_date": "group.dates.end",
+        "creator": {
+            "field": "group.creators.title.keyword",
+            "path": "group.creators"
+        }
+    }
     search_fields = ("title", "description", "type", "")
     search_nested_fields = {
         "notes": {"path": "notes", "fields": ["subnotes.content"]},

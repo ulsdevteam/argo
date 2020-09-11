@@ -35,13 +35,6 @@ NUMBER_LOOKUPS = [
     LOOKUP_QUERY_LTE,
 ]
 
-FILTER_BACKENDS = [FilteringFilterBackend,
-                   OrderingFilterBackend,
-                   DefaultOrderingFilterBackend,
-                   CompoundSearchFilterBackend]
-
-SEARCH_BACKENDS = FILTER_BACKENDS + [NestedFilteringFilterBackend, ]
-
 
 class SearchMixin:
     """Mixin that provides a search object for views."""
@@ -63,3 +56,38 @@ class SearchMixin:
                 doc_type=['_all']
             )
         super(ReadOnlyModelViewSet, self).__init__(*args, **kwargs)
+
+
+class CustomOrderingBackend(OrderingFilterBackend):
+
+    @classmethod
+    def transform_ordering_params(cls, ordering_params, ordering_fields):
+        """Overrides existing transform_ordering_params method, which presumes
+        that all nested sort paths are completely nested.
+
+        This code could be removed if https://github.com/barseghyanartur/django-elasticsearch-dsl-drf/issues/212 is addressed.
+        """
+        _ordering_params = []
+        for ordering_param in ordering_params:
+            key = ordering_param.lstrip('-')
+            direction = 'desc' if ordering_param.startswith('-') else 'asc'
+            if key in ordering_fields:
+                field = ordering_fields[key]
+                entry = {
+                    field['field']: {
+                        'order': direction,
+                    }
+                }
+                if 'path' in field:
+                    entry[field['field']].update(
+                        {"nested": {"path": field["path"]}})  # this is the line that has changed
+                _ordering_params.append(entry)
+        return _ordering_params
+
+
+FILTER_BACKENDS = [FilteringFilterBackend,
+                   CustomOrderingBackend,
+                   DefaultOrderingFilterBackend,
+                   CompoundSearchFilterBackend]
+
+SEARCH_BACKENDS = FILTER_BACKENDS + [NestedFilteringFilterBackend, ]
