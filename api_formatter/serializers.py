@@ -158,7 +158,7 @@ class CollectionHitSerializer(serializers.Serializer):
     creators = serializers.SerializerMethodField()
 
     def get_dates(self, obj):
-        return [d.expression for d in obj.group.dates]
+        return [d.to_dict() for d in obj.group.dates]
 
     def get_creators(self, obj):
         if getattr(obj.group, "creators", None):
