@@ -12,8 +12,8 @@ from .serializers import (AgentListSerializer, AgentSerializer,
                           CollectionSerializer, FacetSerializer,
                           ObjectListSerializer, ObjectSerializer,
                           TermListSerializer, TermSerializer)
-from .view_helpers import (FILTER_BACKENDS, NUMBER_LOOKUPS, STRING_LOOKUPS,
-                           SearchMixin)
+from .view_helpers import (FILTER_BACKENDS, NUMBER_LOOKUPS, SEARCH_BACKENDS,
+                           STRING_LOOKUPS, SearchMixin)
 
 
 class DocumentViewSet(SearchMixin, ReadOnlyModelViewSet):
@@ -96,7 +96,6 @@ class CollectionViewSet(DocumentViewSet):
     document = Collection
     list_serializer = CollectionListSerializer
     serializer = CollectionSerializer
-    relations = ("ancestors", "children", "creators", "terms", "agents")
 
     filter_fields = {
         "title": {"field": "title.keyword", "lookups": STRING_LOOKUPS, },
@@ -126,7 +125,6 @@ class ObjectViewSet(DocumentViewSet):
     document = Object
     list_serializer = ObjectListSerializer
     serializer = ObjectSerializer
-    relations = ("ancestors", "terms", "agents")
 
     filter_fields = {
         "title": {"field": "title.keyword", "lookups": STRING_LOOKUPS, },
@@ -154,10 +152,6 @@ class TermViewSet(DocumentViewSet):
     document = Term
     list_serializer = TermListSerializer
     serializer = TermSerializer
-    relations = (
-        "collections",
-        "objects",
-    )
 
     filter_fields = {
         "title": {"field": "title.keyword", "lookups": STRING_LOOKUPS, },
@@ -176,15 +170,25 @@ class SearchView(DocumentViewSet):
     document = BaseDescriptionComponent
     list_serializer = CollectionHitSerializer
     pagination_class = CollapseLimitOffsetPagination
+    filter_backends = SEARCH_BACKENDS
 
     filter_fields = {
         "category": {"field": "category", "lookups": STRING_LOOKUPS},
-        "creator": {"field": "creators.title.keyword", "lookups": STRING_LOOKUPS},
         "end_date": {"field": "dates.end", "lookups": NUMBER_LOOKUPS},
         "genre": {"field": "formats", "lookups": STRING_LOOKUPS},
         "online": "online",
         "start_date": {"field": "dates.begin", "lookups": NUMBER_LOOKUPS},
         "type": {"field": "type", "lookups": STRING_LOOKUPS},
+    }
+    nested_filter_fields = {
+        "subject": {
+            "field": "terms.title.keyword",
+            "path": "terms",
+        },
+        "creator": {
+            "field": "creators.title.keyword",
+            "path": "creators"
+        }
     }
     ordering_fields = {"title": "title.keyword", "type": "type.keyword"}
     search_fields = ("title", "description", "type", "")

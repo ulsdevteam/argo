@@ -12,8 +12,8 @@ from django_elasticsearch_dsl_drf.constants import (LOOKUP_FILTER_PREFIX,
                                                     LOOKUP_QUERY_LTE)
 from django_elasticsearch_dsl_drf.filter_backends import (CompoundSearchFilterBackend,
                                                           DefaultOrderingFilterBackend,
-                                                          FacetedSearchFilterBackend,
                                                           FilteringFilterBackend,
+                                                          NestedFilteringFilterBackend,
                                                           OrderingFilterBackend)
 from elasticsearch_dsl import Index, Search, connections
 from rest_framework.viewsets import ReadOnlyModelViewSet
@@ -40,7 +40,7 @@ FILTER_BACKENDS = [FilteringFilterBackend,
                    DefaultOrderingFilterBackend,
                    CompoundSearchFilterBackend]
 
-SEARCH_BACKENDS = FILTER_BACKENDS + [FacetedSearchFilterBackend]
+SEARCH_BACKENDS = FILTER_BACKENDS + [NestedFilteringFilterBackend, ]
 
 
 class SearchMixin:
