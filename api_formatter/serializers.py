@@ -151,6 +151,7 @@ class CollectionHitSerializer(serializers.Serializer):
 
     This requires secondary resolution of hits when they are loaded.
     """
+    category = serializers.CharField(source="group.category")
     dates = serializers.SerializerMethodField()
     hit_count = serializers.CharField(source="meta.inner_hits.collection_hits.hits.total.value")
     title = serializers.CharField(source="group.title")
@@ -158,7 +159,7 @@ class CollectionHitSerializer(serializers.Serializer):
     creators = serializers.SerializerMethodField()
 
     def get_dates(self, obj):
-        return [d.expression for d in obj.group.dates]
+        return [d.to_dict() for d in obj.group.dates]
 
     def get_creators(self, obj):
         if getattr(obj.group, "creators", None):
