@@ -68,6 +68,13 @@ class ReferenceSerializer(serializers.Serializer):
     order = serializers.IntegerField(allow_null=True)
     type = serializers.CharField(allow_null=True)
     hit_count = serializers.IntegerField(allow_null=True)
+    uri = serializers.SerializerMethodField()
+
+    def get_uri(seofl, obj):
+        prefix = obj.type
+        if obj.type in ["person", "organization", "family"]:
+            prefix = "agent"
+        return "/{}s/{}".format(prefix, obj.identifier)
 
 
 class BaseListSerializer(serializers.Serializer):
