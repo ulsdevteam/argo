@@ -116,6 +116,21 @@ class CollectionViewSet(DocumentViewSet):
         "end_date": "dates.end",
     }
 
+    def get_object(self):
+        obj = super(CollectionViewSet, self).get_object()
+        if self.request.GET.get("query"):
+            query = self.request.GET["query"]
+            for c in obj.children:
+                q = Q("bool",
+                      should=[
+                          Q("nested", path="notes", query=Q("match", notes__subnotes__content=query)),
+                          Q("match", title=query)],
+                      must=[Q("nested", path="ancestors", query=Q("match", ancestors__identifier=c.identifier))],
+                      minimum_should_match=1)
+                self.search.query = q
+                c.hit_count = self.search.query().count()
+        return obj
+
 
 class ObjectViewSet(DocumentViewSet):
     """

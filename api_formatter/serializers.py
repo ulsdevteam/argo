@@ -67,6 +67,7 @@ class ReferenceSerializer(serializers.Serializer):
     identifier = serializers.CharField()
     order = serializers.IntegerField(allow_null=True)
     type = serializers.CharField(allow_null=True)
+    hit_count = serializers.IntegerField(allow_null=True)
 
 
 class BaseListSerializer(serializers.Serializer):
