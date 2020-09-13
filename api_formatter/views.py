@@ -96,12 +96,25 @@ class CollectionViewSet(DocumentViewSet):
     document = Collection
     list_serializer = CollectionListSerializer
     serializer = CollectionSerializer
+    filter_backends = SEARCH_BACKENDS
 
     filter_fields = {
-        "title": {"field": "title.keyword", "lookups": STRING_LOOKUPS, },
-        "start_date": {"field": "dates.begin", "lookups": NUMBER_LOOKUPS, },
-        "end_date": {"field": "dates.end", "lookups": NUMBER_LOOKUPS, },
+        "category": {"field": "category", "lookups": STRING_LOOKUPS},
         "level": {"field": "level.keyword", "lookups": STRING_LOOKUPS, },
+        "end_date": {"field": "dates.end", "lookups": NUMBER_LOOKUPS},
+        "genre": {"field": "formats", "lookups": STRING_LOOKUPS},
+        "online": "online",
+        "start_date": {"field": "dates.begin", "lookups": NUMBER_LOOKUPS},
+    }
+    nested_filter_fields = {
+        "subject": {
+            "field": "terms.title.keyword",
+            "path": "terms",
+        },
+        "creator": {
+            "field": "creators.title.keyword",
+            "path": "creators"
+        }
     }
 
     search_fields = ("title",)
