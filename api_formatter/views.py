@@ -117,17 +117,21 @@ class CollectionViewSet(DocumentViewSet):
     }
 
     def get_object(self):
+        """Fetches the hit count for each child components of a collection.
+
+        If a query parameter exists, searches for hits which include the
+        identifier of each child in the document's ancestors array. Removes
+        default filtering on `type` field.
+        """
+        base_query = self.search.query()
         obj = super(CollectionViewSet, self).get_object()
         if self.request.GET.get("query"):
-            query = self.request.GET["query"]
             for c in obj.children:
-                q = Q("bool",
-                      should=[
-                          Q("nested", path="notes", query=Q("match", notes__subnotes__content=query)),
-                          Q("match", title=query)],
-                      must=[Q("nested", path="ancestors", query=Q("match", ancestors__identifier=c.identifier))],
-                      minimum_should_match=1)
-                self.search.query = q
+                q = Q("nested", path="ancestors", query=Q("match", ancestors__identifier=c.identifier))
+                queryset = base_query.query(q)
+                query_dict = self.filter_queryset(queryset).to_dict()
+                query_dict["query"]["bool"].pop("filter", None)
+                self.search.query = query_dict["query"]
                 c.hit_count = self.search.query().count()
         return obj
 
