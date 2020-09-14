@@ -71,6 +71,8 @@ class TestAPI(TestCase):
                 return self.get_nested_value(key_list, child_obj)
         if (isinstance(child_obj, datetime.datetime) or isinstance(child_obj, datetime.date)):
             return child_obj.strftime('%Y')
+        if isinstance(child_obj, utils.AttrList):
+            child_obj = child_obj[0]
         return (child_obj if child_obj else "")
 
     def get_random_word(self, word_list):
