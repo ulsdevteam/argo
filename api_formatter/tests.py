@@ -88,6 +88,19 @@ class TestAPI(TestCase):
         uuid = random.choice(obj_list.data.get('results')).get('uri').split('/')[2]
         return cls.get(id=uuid)
 
+    def find_in_dict(self, dictionary, key):
+        for k, v in dictionary.items():
+            if k == key:
+                yield v
+            elif isinstance(v, dict):
+                for result in self.find_in_dict(v, key):
+                    yield result
+            elif isinstance(v, list):
+                for d in v:
+                    if isinstance(d, dict):
+                        for result in self.find_in_dict(d, key):
+                            yield result
+
     def sort_fields(self, viewset, basename, base_url):
         """
         Tests ascending and descending sort on ordering fields
@@ -154,6 +167,8 @@ class TestAPI(TestCase):
             response.status_code, 200,
             "View {}-detail in ViewSet {} did not return 200 for document {}".format(
                 basename, viewset, pk))
+        for uri in self.find_in_dict(response.data, "uri"):
+            self.assertFalse(uri.endswith("/"))
 
     def test_documents(self):
         self.validate_fixtures()
@@ -162,19 +177,6 @@ class TestAPI(TestCase):
             self.list_view(doc_cls, doc_type, viewset, len(added_ids))
             for ident in added_ids:
                 self.detail_view(doc_type, viewset, ident)
-        for t in TYPE_MAP:
-            for f in os.listdir(os.path.join('fixtures', doc_type)):
-                with open(os.path.join('fixtures', doc_type, f), 'r') as jf:
-                    data = json.load(jf)
-                    obj = doc_cls.get(id=data["uri"].split("/")[-1])
-                    try:
-                        for relation in obj.relations_in_self:
-                            references = obj.get_references(relation=relation)
-                            self.assertEqual(
-                                len(data[relation]), len(references),
-                                "{} missing a reference to a {} in source data set {}".format(obj._id, relation, data[relation]))
-                    except AttributeError:
-                        pass
 
     def test_schema(self):
         schema = self.client.get(reverse('schema'))

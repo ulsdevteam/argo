@@ -70,11 +70,9 @@ class ReferenceSerializer(serializers.Serializer):
     hit_count = serializers.IntegerField(allow_null=True)
     uri = serializers.SerializerMethodField()
 
-    def get_uri(seofl, obj):
-        prefix = obj.type
-        if obj.type in ["person", "organization", "family"]:
-            prefix = "agent"
-        return "/{}s/{}".format(prefix, obj.identifier)
+    def get_uri(self, obj):
+        basename = self.context.get('view').basename or obj.type
+        return reverse('{}-detail'.format(basename), kwargs={"pk": obj.identifier}).rstrip("/")
 
 
 class GroupSerializer(serializers.Serializer):
@@ -90,7 +88,7 @@ class BaseListSerializer(serializers.Serializer):
 
     def get_uri(self, obj):
         basename = self.context.get('view').basename or obj.type
-        return reverse('{}-detail'.format(basename), kwargs={"pk": obj.meta.id})
+        return reverse('{}-detail'.format(basename), kwargs={"pk": obj.meta.id}).rstrip("/")
 
 
 class BaseDetailSerializer(serializers.Serializer):
@@ -103,7 +101,7 @@ class BaseDetailSerializer(serializers.Serializer):
 
     def get_uri(self, obj):
         basename = self.context.get('view').basename or obj.type
-        return reverse('{}-detail'.format(basename), kwargs={"pk": obj.meta.id})
+        return reverse('{}-detail'.format(basename), kwargs={"pk": obj.meta.id}).rstrip("/")
 
 
 class AgentSerializer(BaseDetailSerializer):
@@ -169,7 +167,7 @@ class CollectionHitSerializer(serializers.Serializer):
     dates = serializers.SerializerMethodField()
     hit_count = serializers.CharField(source="meta.inner_hits.collection_hits.hits.total.value")
     title = serializers.CharField(source="group.title")
-    uri = serializers.CharField(source="group.identifier")
+    uri = serializers.SerializerMethodField()
     creators = serializers.SerializerMethodField()
 
     def get_dates(self, obj):
@@ -180,6 +178,9 @@ class CollectionHitSerializer(serializers.Serializer):
             return [c.title for c in obj.group.creators]
         else:
             return []
+
+    def get_uri(self, obj):
+        return obj.group.identifier.rstrip("/")
 
 
 class FacetSerializer(serializers.Serializer):
