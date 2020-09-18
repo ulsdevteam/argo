@@ -77,6 +77,11 @@ class ReferenceSerializer(serializers.Serializer):
         return "/{}s/{}".format(prefix, obj.identifier)
 
 
+class GroupSerializer(serializers.Serializer):
+    identifier = serializers.CharField()
+    title = serializers.CharField()
+
+
 class BaseListSerializer(serializers.Serializer):
     uri = serializers.SerializerMethodField()
     type = serializers.CharField()
@@ -93,6 +98,7 @@ class BaseDetailSerializer(serializers.Serializer):
     title = serializers.CharField()
     type = serializers.CharField()
     category = serializers.CharField(allow_null=True)
+    group = GroupSerializer()
     external_identifiers = ExternalIdentifierSerializer(many=True)
 
     def get_uri(self, obj):
