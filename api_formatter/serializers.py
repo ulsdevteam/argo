@@ -1,3 +1,5 @@
+from datetime import datetime
+
 from django.urls import reverse
 from rest_framework import serializers
 
@@ -193,6 +195,8 @@ class FacetSerializer(serializers.Serializer):
                 resp[k] = v["buckets"]
             elif "name" in v:  # move nested aggregations up one level
                 resp[k] = v["name"]["buckets"]
+            if k in ["max_date", "min_date"]:  # convert timestamps to year
+                resp[k] = {"value": datetime.fromtimestamp(v["value"] / 1000.0).year}
             else:
                 resp[k] = v
         return resp
