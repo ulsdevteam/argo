@@ -73,7 +73,14 @@ class ReferenceSerializer(serializers.Serializer):
     description = serializers.CharField(allow_null=True)
 
     def get_uri(self, obj):
-        return reverse('{}-detail'.format(obj.type), kwargs={"pk": obj.identifier}).rstrip("/")
+        basename = obj.type
+        if basename in ["person", "organization", "family", "software"]:
+            basename = "agent"
+        elif basename in ["cultural_context", "function", "geographic",
+                          "genre_form", "occupation", "style_period", "technique",
+                          "temporal", "topical", "object", "collection"]:
+            basename = "term"
+        return reverse('{}-detail'.format(basename), kwargs={"pk": obj.identifier}).rstrip("/")
 
 
 class GroupSerializer(serializers.Serializer):
