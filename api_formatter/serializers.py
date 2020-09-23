@@ -73,8 +73,7 @@ class ReferenceSerializer(serializers.Serializer):
     description = serializers.CharField(allow_null=True)
 
     def get_uri(self, obj):
-        basename = self.context.get('view').basename or obj.type
-        return reverse('{}-detail'.format(basename), kwargs={"pk": obj.identifier}).rstrip("/")
+        return reverse('{}-detail'.format(obj.type), kwargs={"pk": obj.identifier}).rstrip("/")
 
 
 class GroupSerializer(serializers.Serializer):
