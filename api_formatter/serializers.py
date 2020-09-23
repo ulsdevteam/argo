@@ -66,11 +66,11 @@ class RightsStatementSerializer(serializers.Serializer):
 
 class ReferenceSerializer(serializers.Serializer):
     title = serializers.CharField()
-    identifier = serializers.CharField()
-    order = serializers.IntegerField(allow_null=True)
     type = serializers.CharField(allow_null=True)
     hit_count = serializers.IntegerField(allow_null=True)
     uri = serializers.SerializerMethodField()
+    dates = serializers.CharField(allow_null=True)
+    description = serializers.CharField(allow_null=True)
 
     def get_uri(self, obj):
         basename = self.context.get('view').basename or obj.type
