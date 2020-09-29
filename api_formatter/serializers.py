@@ -206,3 +206,22 @@ class FacetSerializer(serializers.Serializer):
             else:
                 resp[k] = v
         return resp
+
+
+class AncestorsSerializer(serializers.Serializer):
+    """Provides a nested dictionary representation of ancestors"""
+
+    def serialize_ancestors(self, ancestor_list, tree, idx):
+        ancestor = ancestor_list[idx]
+        serialized = ReferenceSerializer(ancestor).data
+        new_tree = {ancestor.identifier: {**serialized, **tree}}
+        if idx == len(ancestor_list) - 1:
+            return new_tree
+        else:
+            return self.serialize_ancestors(ancestor_list, new_tree, idx + 1)
+
+    def to_representation(self, instance):
+        resp = {}
+        if instance:
+            resp = self.serialize_ancestors(instance, {}, 0)
+        return resp

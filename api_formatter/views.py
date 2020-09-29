@@ -3,17 +3,31 @@ from django_elasticsearch_dsl_drf.pagination import LimitOffsetPagination
 from elasticsearch_dsl import A, Q
 from rac_es.documents import (Agent, BaseDescriptionComponent, Collection,
                               Object, Term)
+from rest_framework.decorators import action
 from rest_framework.response import Response
 from rest_framework.viewsets import ReadOnlyModelViewSet
 
 from .pagination import CollapseLimitOffsetPagination
 from .serializers import (AgentListSerializer, AgentSerializer,
-                          CollectionHitSerializer, CollectionListSerializer,
-                          CollectionSerializer, FacetSerializer,
-                          ObjectListSerializer, ObjectSerializer,
-                          TermListSerializer, TermSerializer)
+                          AncestorsSerializer, CollectionHitSerializer,
+                          CollectionListSerializer, CollectionSerializer,
+                          FacetSerializer, ObjectListSerializer,
+                          ObjectSerializer, TermListSerializer, TermSerializer)
 from .view_helpers import (FILTER_BACKENDS, NUMBER_LOOKUPS, SEARCH_BACKENDS,
                            STRING_LOOKUPS, SearchMixin)
+
+
+class AncestorMixin(object):
+    @action(detail=True)
+    def ancestors(self, request, pk=None):
+        obj = self.document.get(id=pk)
+        ancestors = list(getattr(obj, "ancestors", []))
+        if ancestors:
+            resource = Collection.get(id=obj.ancestors[-1].identifier)
+            if getattr(resource, "ancestors"):
+                ancestors += list(resource.ancestors)
+        serializer = AncestorsSerializer(ancestors)
+        return Response(serializer.data)
 
 
 class DocumentViewSet(SearchMixin, ReadOnlyModelViewSet):
@@ -88,7 +102,7 @@ class AgentViewSet(DocumentViewSet):
     }
 
 
-class CollectionViewSet(DocumentViewSet):
+class CollectionViewSet(DocumentViewSet, AncestorMixin):
     """
     Returns data about collections, or intellectually significant groups of archival records.
     """
@@ -149,7 +163,7 @@ class CollectionViewSet(DocumentViewSet):
         return obj
 
 
-class ObjectViewSet(DocumentViewSet):
+class ObjectViewSet(DocumentViewSet, AncestorMixin):
     """
     Returns data about objects, or groups of archival records which have no children.
     """
