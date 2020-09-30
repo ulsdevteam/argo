@@ -18,6 +18,12 @@ from .view_helpers import (FILTER_BACKENDS, NUMBER_LOOKUPS, SEARCH_BACKENDS,
 
 
 class AncestorMixin(object):
+    """Provides an ancestors detail route.
+
+    Returns a nested dictionary representation of the complete ancestor tree for
+    a collection or object.
+    """
+
     @action(detail=True)
     def ancestors(self, request, pk=None):
         obj = self.document.get(id=pk)
@@ -73,9 +79,7 @@ class DocumentViewSet(SearchMixin, ReadOnlyModelViewSet):
 
 
 class AgentViewSet(DocumentViewSet):
-    """
-    Returns data about agents, including people, organizations and families.
-    """
+    """Returns data about agents, including people, organizations and families."""
 
     document = Agent
     list_serializer = AgentListSerializer
@@ -103,9 +107,7 @@ class AgentViewSet(DocumentViewSet):
 
 
 class CollectionViewSet(DocumentViewSet, AncestorMixin):
-    """
-    Returns data about collections, or intellectually significant groups of archival records.
-    """
+    """Returns data about collections, or intellectually significant groups of archival records."""
 
     document = Collection
     list_serializer = CollectionListSerializer
