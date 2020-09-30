@@ -133,7 +133,6 @@ class CollectionSerializer(BaseDetailSerializer):
     agents = ReferenceSerializer(many=True, allow_null=True)
     creators = ReferenceSerializer(many=True, allow_null=True)
     terms = ReferenceSerializer(many=True, allow_null=True)
-    ancestors = ReferenceSerializer(many=True, allow_null=True)
     children = ReferenceSerializer(many=True, allow_null=True)
 
 
@@ -149,7 +148,6 @@ class ObjectSerializer(BaseDetailSerializer):
     rights_statements = RightsStatementSerializer(many=True, allow_null=True)
     agents = ReferenceSerializer(many=True, allow_null=True)
     terms = ReferenceSerializer(many=True, allow_null=True)
-    ancestors = ReferenceSerializer(many=True, allow_null=True)
 
 
 class ObjectListSerializer(BaseListSerializer):
@@ -205,4 +203,25 @@ class FacetSerializer(serializers.Serializer):
                 resp[k] = {"value": datetime.fromtimestamp(v["value"] / 1000.0).year}
             else:
                 resp[k] = v
+        return resp
+
+
+class AncestorsSerializer(serializers.Serializer):
+    """Provides a nested dictionary representation of ancestors."""
+
+    def serialize_ancestors(self, ancestor_list, tree, idx):
+        ancestor = ancestor_list[idx]
+        serialized = ReferenceSerializer(ancestor).data
+        tree_data = {**serialized, **tree}
+        if idx == len(ancestor_list) - 1:
+            new_tree = tree_data
+            return new_tree
+        else:
+            new_tree = {"child": tree_data}
+            return self.serialize_ancestors(ancestor_list, new_tree, idx + 1)
+
+    def to_representation(self, instance):
+        resp = {}
+        if instance:
+            resp = self.serialize_ancestors(instance, {}, 0)
         return resp
