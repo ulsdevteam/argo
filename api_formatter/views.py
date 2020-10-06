@@ -30,7 +30,7 @@ class AncestorMixin(object):
     def ancestors(self, request, pk=None):
         base_query = self.search.query()
         obj = self.resolve_object(self.document, pk, source_fields=["ancestors"])
-        ancestors = list(getattr(obj, "ancestors", None))
+        ancestors = list(getattr(obj, "ancestors", []))
         if ancestors:
             resource = self.resolve_object(Collection, obj.ancestors[-1].identifier, source_fields=["ancestors"])
             if getattr(resource, "ancestors", None):
