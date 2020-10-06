@@ -194,7 +194,8 @@ class TestAPI(TestCase):
             self.list_view(doc_cls, doc_type, viewset, len(added_ids))
             for ident in added_ids:
                 self.detail_view(doc_type, viewset, ident)
-                self.ancestors_view(doc_type, viewset, ident)
+                if doc_type in ["collection", "object"]:
+                    self.ancestors_view(doc_type, viewset, ident)
                 if doc_type == "collection":
                     self.children_view(viewset, ident)
 
