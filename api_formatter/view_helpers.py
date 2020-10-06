@@ -15,6 +15,7 @@ from django_elasticsearch_dsl_drf.filter_backends import (CompoundSearchFilterBa
                                                           FilteringFilterBackend,
                                                           NestedFilteringFilterBackend,
                                                           OrderingFilterBackend)
+from django_elasticsearch_dsl_drf.pagination import LimitOffsetPagination
 from elasticsearch_dsl import Index, Search, connections
 from rest_framework.viewsets import ReadOnlyModelViewSet
 
@@ -91,3 +92,23 @@ FILTER_BACKENDS = [FilteringFilterBackend,
                    CompoundSearchFilterBackend]
 
 SEARCH_BACKENDS = FILTER_BACKENDS + [NestedFilteringFilterBackend, ]
+
+
+class ChildrenPaginator(LimitOffsetPagination):
+
+    def paginate_queryset(self, queryset, request):
+        """Custom method to paginate lists of children."""
+        self.request = request
+        self.limit = int(self.request.GET["limit"]) if self.request.GET.get("limit") else len(queryset)
+        self.offset = int(self.request.GET["offset"]) if self.request.GET.get("offset") else 0
+        self.count = len(queryset)
+        if self.count == 0 or self.offset > self.count:
+            return []
+        return list(queryset[self.offset:self.offset + self.limit])
+
+
+def text_from_notes(notes, note_type):
+    description_strings = []
+    for note in [n for n in notes if all([n.type == note_type, getattr(n, "publish", None)])]:
+        description_strings += [sn.content for sn in note.subnotes]
+    return ", ".join(description_strings) if description_strings else None

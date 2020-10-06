@@ -168,7 +168,24 @@ class TestAPI(TestCase):
             "View {}-detail in ViewSet {} did not return 200 for document {}".format(
                 basename, viewset, pk))
         for uri in self.find_in_dict(response.data, "uri"):
-            self.assertFalse(uri.endswith("/"))
+            self.assertFalse(uri.endswith("/"))\
+
+
+    def ancestors_view(self, basename, viewset, pk):
+        request = self.factory.get(reverse("{}-ancestors".format(basename), args=[pk]))
+        response = viewset.as_view(actions={"get": "retrieve"}, basename=basename)(request, pk=pk)
+        self.assertEqual(
+            response.status_code, 200,
+            "View {}-ancestors in ViewSet {} did not return 200 for document {}".format(
+                basename, viewset, pk))
+
+    def children_view(self, viewset, pk):
+        request = self.factory.get(reverse("collection-children", args=[pk]))
+        response = viewset.as_view(actions={"get": "retrieve"}, basename="collection")(request, pk=pk)
+        self.assertEqual(
+            response.status_code, 200,
+            "View collection-children in ViewSet {} did not return 200 for document {}".format(
+                viewset, pk))
 
     def test_documents(self):
         self.validate_fixtures()
@@ -177,6 +194,10 @@ class TestAPI(TestCase):
             self.list_view(doc_cls, doc_type, viewset, len(added_ids))
             for ident in added_ids:
                 self.detail_view(doc_type, viewset, ident)
+                if doc_type in ["collection", "object"]:
+                    self.ancestors_view(doc_type, viewset, ident)
+                if doc_type == "collection":
+                    self.children_view(viewset, ident)
 
     def test_schema(self):
         schema = self.client.get(reverse('schema'))
