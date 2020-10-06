@@ -64,6 +64,11 @@ class RightsStatementSerializer(serializers.Serializer):
     rights_granted = RightsGrantedSerializer(many=True)
 
 
+class GroupSerializer(serializers.Serializer):
+    identifier = serializers.CharField()
+    title = serializers.CharField()
+
+
 class ReferenceSerializer(serializers.Serializer):
     title = serializers.CharField()
     type = serializers.CharField(allow_null=True)
@@ -71,6 +76,7 @@ class ReferenceSerializer(serializers.Serializer):
     uri = serializers.SerializerMethodField()
     dates = serializers.CharField(allow_null=True)
     description = serializers.CharField(allow_null=True)
+    group = GroupSerializer(allow_null=True)
 
     def get_uri(self, obj):
         basename = obj.type
@@ -81,11 +87,6 @@ class ReferenceSerializer(serializers.Serializer):
                           "temporal", "topical"]:
             basename = "term"
         return reverse('{}-detail'.format(basename), kwargs={"pk": obj.identifier}).rstrip("/")
-
-
-class GroupSerializer(serializers.Serializer):
-    identifier = serializers.CharField()
-    title = serializers.CharField()
 
 
 class BaseListSerializer(serializers.Serializer):

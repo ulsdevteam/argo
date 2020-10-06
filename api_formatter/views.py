@@ -12,9 +12,11 @@ from .serializers import (AgentListSerializer, AgentSerializer,
                           AncestorsSerializer, CollectionHitSerializer,
                           CollectionListSerializer, CollectionSerializer,
                           FacetSerializer, ObjectListSerializer,
-                          ObjectSerializer, TermListSerializer, TermSerializer)
+                          ObjectSerializer, ReferenceSerializer,
+                          TermListSerializer, TermSerializer)
 from .view_helpers import (FILTER_BACKENDS, NUMBER_LOOKUPS, SEARCH_BACKENDS,
-                           STRING_LOOKUPS, SearchMixin)
+                           STRING_LOOKUPS, ChildrenPaginator, SearchMixin,
+                           text_from_notes)
 
 
 class AncestorMixin(object):
@@ -26,12 +28,17 @@ class AncestorMixin(object):
 
     @action(detail=True)
     def ancestors(self, request, pk=None):
-        obj = self.document.get(id=pk)
-        ancestors = list(getattr(obj, "ancestors", []))
+        base_query = self.search.query()
+        obj = self.resolve_object(self.document, pk, source_fields=["ancestors"])
+        ancestors = list(getattr(obj, "ancestors", None))
         if ancestors:
-            resource = Collection.get(id=obj.ancestors[-1].identifier)
-            if getattr(resource, "ancestors"):
+            resource = self.resolve_object(Collection, obj.ancestors[-1].identifier, source_fields=["ancestors"])
+            if getattr(resource, "ancestors", None):
                 ancestors += list(resource.ancestors)
+        for a in ancestors:
+            a.description = self.get_description(Collection, a.identifier)
+            if self.request.GET.get("query"):
+                a.hit_count = self.get_hit_count(a.identifier, base_query)
         serializer = AncestorsSerializer(ancestors)
         return Response(serializer.data)
 
@@ -53,9 +60,10 @@ class DocumentViewSet(SearchMixin, ReadOnlyModelViewSet):
         query = self.search.query()
         if self.action == "list":
             query = query.source(self.list_fields)
-        return query
+        return query.source(exclude=["ancestors"])
 
     def get_object(self):
+        """Returns a specific object."""
         lookup_url_kwarg = self.lookup_url_kwarg or self.lookup_field
         queryset = self.get_queryset().filter(
             "match_phrase", **{"_id": self.kwargs[lookup_url_kwarg]}
@@ -70,8 +78,34 @@ class DocumentViewSet(SearchMixin, ReadOnlyModelViewSet):
             )
             raise Http404(message)
         else:
-            obj = hits[0]
-            return obj
+            return hits[0]
+
+    def resolve_object(self, object_type, identifier, source_fields=None):
+        """Returns an object based on object type and identifier.
+
+        Provides `source_fields` argument to allow for performant retrieval of
+        specific fields.
+
+        Returns an empty dictionary if object is not found.
+        """
+        queryset = object_type.search(using=self.client).query().filter(
+            "match_phrase", **{"_id": identifier}
+        )
+        hits = queryset.source(source_fields).execute().hits if source_fields else queryset.execute().hits
+        count = len(hits)
+        if count != 1:
+            return {}
+        else:
+            return hits[0]
+
+    def get_hit_count(self, identifier, base_query):
+        """Gets the number of hits that are childrend of a specific component."""
+        q = Q("nested", path="ancestors", query=Q("match", ancestors__identifier=identifier))
+        queryset = base_query.query(q)
+        query_dict = self.filter_queryset(queryset).to_dict()
+        query_dict["query"]["bool"].pop("filter", None)
+        self.search.query = query_dict["query"]
+        return self.search.query().count()
 
     @property
     def list_fields(self):
@@ -144,6 +178,43 @@ class CollectionViewSet(DocumentViewSet, AncestorMixin):
         "start_date": "dates.begin",
         "end_date": "dates.end",
     }
+
+    def get_description(self, object_type, identifier):
+        """Gets text from all published Abstracts or Scope and Contents notes."""
+        resolved = self.resolve_object(object_type, identifier, source_fields=["notes"])
+        notes = getattr(resolved, "notes", [])
+        return text_from_notes(notes, "abstract") if text_from_notes(notes, "abstract") else text_from_notes(notes, "scopecontent")
+
+    def prepare_children(self, children, group):
+        """Appends additional data to each child object.
+
+        Adds `group` information from the parent collection and a `description`
+        field (either the abstract or scope and contents) from child objects.
+
+        If a query parameter exists, fetches the hit count. Removes default
+        filtering on `type` field."""
+        base_query = self.search.query()
+        for c in children:
+            c.group = group  # append group from parent collection
+            obj_type = Object if c.type == "object" else Collection
+            c.description = self.get_description(obj_type, c.identifier)
+            if self.request.GET.get("query"):
+                c.hit_count = self.get_hit_count(c.identifier, base_query)
+        return children
+
+    @action(detail=True)
+    def children(self, request, pk=None):
+        """Provides a detail endpoint for a collection's children."""
+        obj = self.resolve_object(Collection, pk, source_fields=["children", "group"])
+        paginator = ChildrenPaginator()
+        page = paginator.paginate_queryset(obj.children, request)
+        if page is not None:
+            page = self.prepare_children(page, obj.group)
+            serializer = ReferenceSerializer(page, many=True)
+            return paginator.get_paginated_response(serializer.data)
+        children = self.prepare_children(obj.children, obj.group)
+        serializer = ReferenceSerializer(children, many=True)
+        return paginator.get_paginated_response(serializer.data)
 
     def get_object(self):
         """Fetches the hit count for each child components of a collection.
