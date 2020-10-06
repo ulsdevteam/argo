@@ -98,6 +98,12 @@ class DocumentViewSet(SearchMixin, ReadOnlyModelViewSet):
         else:
             return hits[0]
 
+    def get_description(self, object_type, identifier):
+        """Gets text from all published Abstracts or Scope and Contents notes."""
+        resolved = self.resolve_object(object_type, identifier, source_fields=["notes"])
+        notes = getattr(resolved, "notes", [])
+        return text_from_notes(notes, "abstract") if text_from_notes(notes, "abstract") else text_from_notes(notes, "scopecontent")
+
     def get_hit_count(self, identifier, base_query):
         """Gets the number of hits that are childrend of a specific component."""
         q = Q("nested", path="ancestors", query=Q("match", ancestors__identifier=identifier))
@@ -178,12 +184,6 @@ class CollectionViewSet(DocumentViewSet, AncestorMixin):
         "start_date": "dates.begin",
         "end_date": "dates.end",
     }
-
-    def get_description(self, object_type, identifier):
-        """Gets text from all published Abstracts or Scope and Contents notes."""
-        resolved = self.resolve_object(object_type, identifier, source_fields=["notes"])
-        notes = getattr(resolved, "notes", [])
-        return text_from_notes(notes, "abstract") if text_from_notes(notes, "abstract") else text_from_notes(notes, "scopecontent")
 
     def prepare_children(self, children, group):
         """Appends additional data to each child object.
