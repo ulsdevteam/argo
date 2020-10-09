@@ -128,6 +128,7 @@ class CollectionSerializer(BaseDetailSerializer):
     level = serializers.CharField()
     languages = LanguageSerializer(many=True, allow_null=True)
     extents = ExtentSerializer(many=True)
+    formats = serializers.ListField()
     dates = DateSerializer(many=True, allow_null=True)
     notes = NoteSerializer(many=True, allow_null=True)
     rights_statements = RightsStatementSerializer(many=True, allow_null=True)
@@ -144,6 +145,7 @@ class CollectionListSerializer(BaseListSerializer):
 class ObjectSerializer(BaseDetailSerializer):
     languages = LanguageSerializer(many=True, allow_null=True)
     extents = ExtentSerializer(many=True, allow_null=True)
+    formats = serializers.ListField()
     dates = DateSerializer(many=True, allow_null=True)
     notes = NoteSerializer(many=True, allow_null=True)
     rights_statements = RightsStatementSerializer(many=True, allow_null=True)
