@@ -201,7 +201,8 @@ class FacetSerializer(serializers.Serializer):
             elif "name" in v:  # move nested aggregations up one level
                 resp[k] = v["name"]["buckets"]
             elif k in ["max_date", "min_date"]:  # convert timestamps to year
-                resp[k] = {"value": datetime.fromtimestamp(v["value"] / 1000.0).year}
+                value = (datetime.fromtimestamp(v["value"] / 1000.0).year) if v["value"] else None
+                resp[k] = {"value": value}
             else:
                 resp[k] = v
         return resp
