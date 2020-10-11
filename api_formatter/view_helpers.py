@@ -109,6 +109,6 @@ class ChildrenPaginator(LimitOffsetPagination):
 
 def text_from_notes(notes, note_type):
     description_strings = []
-    for note in [n for n in notes if all([n.type == note_type, getattr(n, "publish", None)])]:
-        description_strings += [sn.content for sn in note.subnotes]
-    return ", ".join(description_strings) if description_strings else None
+    for note in [n for n in notes if n["type"] == note_type]:
+        description_strings += [" ".join(sn["content"]) for sn in note["subnotes"]]
+    return " ".join(description_strings) if description_strings else None
