@@ -94,17 +94,18 @@ class DocumentViewSet(SearchMixin, ReadOnlyModelViewSet):
         hits = queryset.source(source_fields).execute().hits if source_fields else queryset.execute().hits
         count = len(hits)
         if count != 1:
-            return None
+            raise Http404("No object matches the given query.")
         else:
             return hits[0]
 
     def get_description(self, object_type, identifier):
         """Gets text from Abstracts or Scope and Contents notes."""
-        resolved = self.resolve_object(object_type, identifier, source_fields=["notes"])
-        if resolved:
+        try:
+            resolved = self.resolve_object(object_type, identifier, source_fields=["notes"])
             notes = resolved.to_dict().get("notes", [])
             return text_from_notes(notes, "abstract") if text_from_notes(notes, "abstract") else text_from_notes(notes, "scopecontent")
-        return None
+        except Http404:
+            return None
 
     def get_hit_count(self, identifier, base_query):
         """Gets the number of hits that are childrend of a specific component."""
