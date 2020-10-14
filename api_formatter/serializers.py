@@ -72,11 +72,15 @@ class GroupSerializer(serializers.Serializer):
 class ReferenceSerializer(serializers.Serializer):
     title = serializers.CharField()
     type = serializers.CharField(allow_null=True)
+    online = serializers.SerializerMethodField()
     hit_count = serializers.IntegerField(allow_null=True)
     uri = serializers.SerializerMethodField()
     dates = serializers.CharField(allow_null=True)
     description = serializers.CharField(allow_null=True)
     group = GroupSerializer(allow_null=True)
+
+    def get_online(self, obj):
+        return getattr(obj, "online", False)
 
     def get_uri(self, obj):
         basename = obj.type
@@ -129,6 +133,7 @@ class CollectionSerializer(BaseDetailSerializer):
     languages = LanguageSerializer(many=True, allow_null=True)
     extents = ExtentSerializer(many=True)
     formats = serializers.ListField()
+    online = serializers.BooleanField()
     dates = DateSerializer(many=True, allow_null=True)
     notes = NoteSerializer(many=True, allow_null=True)
     rights_statements = RightsStatementSerializer(many=True, allow_null=True)
@@ -146,6 +151,7 @@ class ObjectSerializer(BaseDetailSerializer):
     languages = LanguageSerializer(many=True, allow_null=True)
     extents = ExtentSerializer(many=True, allow_null=True)
     formats = serializers.ListField()
+    online = serializers.BooleanField()
     dates = DateSerializer(many=True, allow_null=True)
     notes = NoteSerializer(many=True, allow_null=True)
     rights_statements = RightsStatementSerializer(many=True, allow_null=True)

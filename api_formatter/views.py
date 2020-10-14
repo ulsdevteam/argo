@@ -36,7 +36,9 @@ class AncestorMixin(object):
             if getattr(resource, "ancestors", None):
                 ancestors += list(resource.ancestors)
         for a in ancestors:
-            a.description = self.get_description(Collection, a.identifier)
+            description, online = self.get_object_data(Collection, a.identifier)
+            a.description = description
+            a.online = online
             if self.request.GET.get("query"):
                 a.hit_count = self.get_hit_count(a.identifier, base_query)
         serializer = AncestorsSerializer(ancestors)
@@ -98,14 +100,19 @@ class DocumentViewSet(SearchMixin, ReadOnlyModelViewSet):
         else:
             return hits[0]
 
-    def get_description(self, object_type, identifier):
-        """Gets text from Abstracts or Scope and Contents notes."""
+    def get_object_data(self, object_type, identifier):
+        """Gets additional data from an object.
+
+        Return text from Abstracts or Scope and Contents notes and a boolean
+        indicator of a digital surrogate."""
         try:
-            resolved = self.resolve_object(object_type, identifier, source_fields=["notes"])
+            resolved = self.resolve_object(object_type, identifier, source_fields=["notes", "online"])
             notes = resolved.to_dict().get("notes", [])
-            return text_from_notes(notes, "abstract") if text_from_notes(notes, "abstract") else text_from_notes(notes, "scopecontent")
+            description = text_from_notes(notes, "abstract") if text_from_notes(notes, "abstract") else text_from_notes(notes, "scopecontent")
+            online = getattr(resolved, "online", False)
+            return description, online
         except Http404:
-            return None
+            return None, False
 
     def get_hit_count(self, identifier, base_query):
         """Gets the number of hits that are childrend of a specific component."""
@@ -191,8 +198,10 @@ class CollectionViewSet(DocumentViewSet, AncestorMixin):
     def prepare_children(self, children, group):
         """Appends additional data to each child object.
 
-        Adds `group` information from the parent collection and a `description`
-        field (either the abstract or scope and contents) from child objects.
+        Adds `group` information from the parent collection, along with an
+        `online` flag indicating the presence of an accessible digital surrogate,
+        and a `description` field (either the abstract or scope and contents)
+        from child objects.
 
         If a query parameter exists, fetches the hit count. Removes default
         filtering on `type` field."""
@@ -200,7 +209,9 @@ class CollectionViewSet(DocumentViewSet, AncestorMixin):
         for c in children:
             c.group = group  # append group from parent collection
             obj_type = Object if c.type == "object" else Collection
-            c.description = self.get_description(obj_type, c.identifier)
+            description, online = self.get_object_data(obj_type, c.identifier)
+            c.description = description
+            c.online = online
             if self.request.GET.get("query"):
                 c.hit_count = self.get_hit_count(c.identifier, base_query)
         return children
