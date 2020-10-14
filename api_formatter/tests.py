@@ -187,8 +187,8 @@ class TestAPI(TestCase):
             response.status_code, 200,
             "View collection-children in ViewSet {} did not return 200 for document {}".format(
                 viewset, pk))
-        for child in response.data["results"]:
-            self.assertTrue(isinstance(child["online"], bool))
+        for online in self.find_in_dict(response.data, "online"):
+            self.assertTrue(isinstance(online, bool))
 
     def test_documents(self):
         self.validate_fixtures()
