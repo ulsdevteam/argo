@@ -169,7 +169,8 @@ class TestAPI(TestCase):
                 basename, viewset, pk))
         for uri in self.find_in_dict(response.data, "uri"):
             self.assertFalse(uri.endswith("/"))
-        self.assertTrue(isinstance(response.data["online"], bool))
+        if basename in ["collection", "object"]:
+            self.assertTrue(isinstance(response.data["online"], bool))
 
     def ancestors_view(self, basename, viewset, pk):
         request = self.factory.get(reverse("{}-ancestors".format(basename), args=[pk]))
