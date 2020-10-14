@@ -168,8 +168,9 @@ class TestAPI(TestCase):
             "View {}-detail in ViewSet {} did not return 200 for document {}".format(
                 basename, viewset, pk))
         for uri in self.find_in_dict(response.data, "uri"):
-            self.assertFalse(uri.endswith("/"))\
-
+            self.assertFalse(uri.endswith("/"))
+        if basename in ["collection", "object"]:
+            self.assertTrue(isinstance(response.data["online"], bool))
 
     def ancestors_view(self, basename, viewset, pk):
         request = self.factory.get(reverse("{}-ancestors".format(basename), args=[pk]))
@@ -186,6 +187,8 @@ class TestAPI(TestCase):
             response.status_code, 200,
             "View collection-children in ViewSet {} did not return 200 for document {}".format(
                 viewset, pk))
+        for online in self.find_in_dict(response.data, "online"):
+            self.assertTrue(isinstance(online, bool))
 
     def test_documents(self):
         self.validate_fixtures()
