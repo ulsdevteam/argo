@@ -119,7 +119,9 @@ class DocumentViewSet(SearchMixin, ReadOnlyModelViewSet):
         q = Q("nested", path="ancestors", query=Q("match", ancestors__identifier=identifier)) | Q("ids", values=[identifier])
         queryset = base_query.query(q)
         query_dict = self.filter_queryset(queryset).to_dict()
-        del query_dict["query"]["bool"]["filter"][0]  # remove type from query, which limits results to the document type. This feels janky
+        # remove type from query, which limits results to the document type
+        processed_filter = list(filter(lambda i: "term" not in i, query_dict["query"]["bool"]["filter"]))
+        query_dict["query"]["bool"]["filter"] = processed_filter
         self.search.query = query_dict["query"]
         return self.search.query().count()
 
