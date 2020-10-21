@@ -137,7 +137,12 @@ class AgentViewSet(DocumentViewSet):
     list_serializer = AgentListSerializer
     serializer = AgentSerializer
 
-    filter_fields = FILTER_FIELDS
+    filter_fields = {
+        "title": {"field": "title.keyword", "lookups": STRING_LOOKUPS, },
+        "agent_type": {"field": "agent_type", "lookups": STRING_LOOKUPS, },
+        "start_date": {"field": "dates.begin", "lookups": NUMBER_LOOKUPS, },
+        "end_date": {"field": "dates.end", "lookups": NUMBER_LOOKUPS, },
+    }
     search_fields = ("title", "description")
     search_nested_fields = {
         "notes": {"path": "notes", "fields": ["subnotes.content"]},
