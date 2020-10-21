@@ -14,9 +14,10 @@ from .serializers import (AgentListSerializer, AgentSerializer,
                           FacetSerializer, ObjectListSerializer,
                           ObjectSerializer, ReferenceSerializer,
                           TermListSerializer, TermSerializer)
-from .view_helpers import (FILTER_BACKENDS, NUMBER_LOOKUPS, SEARCH_BACKENDS,
-                           STRING_LOOKUPS, ChildrenPaginator, SearchMixin,
-                           date_string, text_from_notes)
+from .view_helpers import (FILTER_BACKENDS, FILTER_FIELDS,
+                           NESTED_FILTER_FIELDS, NUMBER_LOOKUPS,
+                           SEARCH_BACKENDS, STRING_LOOKUPS, ChildrenPaginator,
+                           SearchMixin, date_string, text_from_notes)
 
 
 class AncestorMixin(object):
@@ -40,7 +41,7 @@ class AncestorMixin(object):
             a.dates = data["dates"]
             a.description = data["description"]
             a.online = data["online"]
-            if self.request.GET.get("query"):
+            if len(self.request.GET):
                 a.hit_count = self.get_hit_count(a.identifier, base_query)
         serializer = AncestorsSerializer(ancestors)
         return Response(serializer.data)
@@ -123,7 +124,9 @@ class DocumentViewSet(SearchMixin, ReadOnlyModelViewSet):
         q = Q("nested", path="ancestors", query=Q("match", ancestors__identifier=identifier)) | Q("ids", values=[identifier])
         queryset = base_query.query(q)
         query_dict = self.filter_queryset(queryset).to_dict()
-        query_dict["query"]["bool"].pop("filter", None)
+        # remove type from query, which limits results to the document type
+        processed_filter = list(filter(lambda i: "term" not in i, query_dict["query"]["bool"]["filter"]))
+        query_dict["query"]["bool"]["filter"] = processed_filter
         self.search.query = query_dict["query"]
         return self.search.query().count()
 
@@ -138,7 +141,6 @@ class AgentViewSet(DocumentViewSet):
     document = Agent
     list_serializer = AgentListSerializer
     serializer = AgentSerializer
-    relations = ("collections", "objects")
 
     filter_fields = {
         "title": {"field": "title.keyword", "lookups": STRING_LOOKUPS, },
@@ -146,12 +148,10 @@ class AgentViewSet(DocumentViewSet):
         "start_date": {"field": "dates.begin", "lookups": NUMBER_LOOKUPS, },
         "end_date": {"field": "dates.end", "lookups": NUMBER_LOOKUPS, },
     }
-
     search_fields = ("title", "description")
     search_nested_fields = {
         "notes": {"path": "notes", "fields": ["subnotes.content"]},
     }
-
     ordering_fields = {
         "title": "title.keyword",
         "type": "type.keyword",
@@ -168,24 +168,8 @@ class CollectionViewSet(DocumentViewSet, AncestorMixin):
     serializer = CollectionSerializer
     filter_backends = SEARCH_BACKENDS
 
-    filter_fields = {
-        "category": {"field": "category", "lookups": STRING_LOOKUPS},
-        "level": {"field": "level.keyword", "lookups": STRING_LOOKUPS, },
-        "end_date": {"field": "dates.end", "lookups": NUMBER_LOOKUPS},
-        "genre": {"field": "formats", "lookups": STRING_LOOKUPS},
-        "online": "online",
-        "start_date": {"field": "dates.begin", "lookups": NUMBER_LOOKUPS},
-    }
-    nested_filter_fields = {
-        "subject": {
-            "field": "terms.title.keyword",
-            "path": "terms",
-        },
-        "creator": {
-            "field": "creators.title.keyword",
-            "path": "creators"
-        }
-    }
+    filter_fields = FILTER_FIELDS
+    nested_filter_fields = NESTED_FILTER_FIELDS
 
     search_fields = ("title",)
     search_nested_fields = {
@@ -217,7 +201,7 @@ class CollectionViewSet(DocumentViewSet, AncestorMixin):
             c.dates = data["dates"]
             c.description = data["description"]
             c.online = data["online"]
-            if self.request.GET.get("query"):
+            if len(self.request.GET):
                 c.hit_count = self.get_hit_count(c.identifier, base_query)
         return children
 
@@ -244,12 +228,16 @@ class ObjectViewSet(DocumentViewSet, AncestorMixin):
     document = Object
     list_serializer = ObjectListSerializer
     serializer = ObjectSerializer
+    filter_backends = SEARCH_BACKENDS
 
     filter_fields = {
-        "title": {"field": "title.keyword", "lookups": STRING_LOOKUPS, },
-        "start_date": {"field": "dates.begin", "lookups": NUMBER_LOOKUPS, },
-        "end_date": {"field": "dates.end", "lookups": NUMBER_LOOKUPS, },
+        "category": {"field": "category", "lookups": STRING_LOOKUPS},
+        "end_date": {"field": "dates.end", "lookups": NUMBER_LOOKUPS},
+        "genre": {"field": "formats", "lookups": STRING_LOOKUPS},
+        "online": "online",
+        "start_date": {"field": "dates.begin", "lookups": NUMBER_LOOKUPS},
     }
+    nested_filter_fields = NESTED_FILTER_FIELDS
 
     search_fields = ("title",)
     search_nested_fields = {
