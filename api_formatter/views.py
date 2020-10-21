@@ -14,7 +14,8 @@ from .serializers import (AgentListSerializer, AgentSerializer,
                           FacetSerializer, ObjectListSerializer,
                           ObjectSerializer, ReferenceSerializer,
                           TermListSerializer, TermSerializer)
-from .view_helpers import (FILTER_BACKENDS, FILTER_FIELDS, NUMBER_LOOKUPS,
+from .view_helpers import (FILTER_BACKENDS, FILTER_FIELDS,
+                           NESTED_FILTER_FIELDS, NUMBER_LOOKUPS,
                            SEARCH_BACKENDS, STRING_LOOKUPS, ChildrenPaginator,
                            SearchMixin, date_string, text_from_notes)
 
@@ -168,16 +169,7 @@ class CollectionViewSet(DocumentViewSet, AncestorMixin):
     filter_backends = SEARCH_BACKENDS
 
     filter_fields = FILTER_FIELDS
-    nested_filter_fields = {
-        "subject": {
-            "field": "terms.title.keyword",
-            "path": "terms",
-        },
-        "creator": {
-            "field": "creators.title.keyword",
-            "path": "creators"
-        }
-    }
+    nested_filter_fields = NESTED_FILTER_FIELDS
 
     search_fields = ("title",)
     search_nested_fields = {
@@ -239,6 +231,8 @@ class ObjectViewSet(DocumentViewSet, AncestorMixin):
     filter_backends = SEARCH_BACKENDS
 
     filter_fields = FILTER_FIELDS
+    nested_filter_fields = NESTED_FILTER_FIELDS
+
     search_fields = ("title",)
     search_nested_fields = {
         "notes": {"path": "notes", "fields": ["subnotes.content"]},
