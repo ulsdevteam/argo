@@ -107,15 +107,16 @@ class DocumentViewSet(SearchMixin, ReadOnlyModelViewSet):
         Returns a dict containing a date string, text from Abstracts or Scope
         and Contents notes and a boolean indicator of a digital surrogate.
         """
+        data = {"dates": None, "description": None, "online": False}
         try:
             resolved = self.resolve_object(object_type, identifier, source_fields=["notes", "online", "dates"])
             notes = resolved.to_dict().get("notes", [])
-            description = text_from_notes(notes, "abstract") if text_from_notes(notes, "abstract") else text_from_notes(notes, "scopecontent")
-            online = getattr(resolved, "online", False)
-            dates = date_string(resolved.to_dict().get("dates", []))
-            return {"dates": dates, "description": description, "online": online}
+            data["description"] = text_from_notes(notes, "abstract") if text_from_notes(notes, "abstract") else text_from_notes(notes, "scopecontent")
+            data["online"] = getattr(resolved, "online", False)
+            data["dates"] = date_string(resolved.to_dict().get("dates", []))
+            return data
         except Http404:
-            return None
+            return data
 
     def get_hit_count(self, identifier, base_query):
         """Gets the number of hits that are childrend of a specific component."""
