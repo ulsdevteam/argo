@@ -140,7 +140,6 @@ class CollectionSerializer(BaseDetailSerializer):
     agents = ReferenceSerializer(many=True, allow_null=True)
     creators = ReferenceSerializer(many=True, allow_null=True)
     terms = ReferenceSerializer(many=True, allow_null=True)
-    children = ReferenceSerializer(many=True, allow_null=True)
 
 
 class CollectionListSerializer(BaseListSerializer):

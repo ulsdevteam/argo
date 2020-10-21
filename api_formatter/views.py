@@ -62,7 +62,7 @@ class DocumentViewSet(SearchMixin, ReadOnlyModelViewSet):
         query = self.search.query()
         if self.action == "list":
             query = query.source(self.list_fields)
-        return query.source(exclude=["ancestors"])
+        return query.source(exclude=["ancestors", "children"])
 
     def get_object(self):
         """Returns a specific object."""
