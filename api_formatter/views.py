@@ -116,7 +116,7 @@ class DocumentViewSet(SearchMixin, ReadOnlyModelViewSet):
 
     def get_hit_count(self, identifier, base_query):
         """Gets the number of hits that are childrend of a specific component."""
-        q = Q("nested", path="ancestors", query=Q("match", ancestors__identifier=identifier))
+        q = Q("nested", path="ancestors", query=Q("match", ancestors__identifier=identifier)) | Q("ids", values=[identifier])
         queryset = base_query.query(q)
         query_dict = self.filter_queryset(queryset).to_dict()
         query_dict["query"]["bool"].pop("filter", None)
