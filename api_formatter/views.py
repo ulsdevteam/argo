@@ -16,7 +16,7 @@ from .serializers import (AgentListSerializer, AgentSerializer,
                           TermListSerializer, TermSerializer)
 from .view_helpers import (FILTER_BACKENDS, NUMBER_LOOKUPS, SEARCH_BACKENDS,
                            STRING_LOOKUPS, ChildrenPaginator, SearchMixin,
-                           text_from_notes)
+                           date_string, text_from_notes)
 
 
 class AncestorMixin(object):
@@ -36,9 +36,10 @@ class AncestorMixin(object):
             if getattr(resource, "ancestors", None):
                 ancestors += list(resource.ancestors)
         for a in ancestors:
-            description, online = self.get_object_data(Collection, a.identifier)
-            a.description = description
-            a.online = online
+            data = self.get_object_data(Collection, a.identifier)
+            a.dates = data["dates"]
+            a.description = data["description"]
+            a.online = data["online"]
             if self.request.GET.get("query"):
                 a.hit_count = self.get_hit_count(a.identifier, base_query)
         serializer = AncestorsSerializer(ancestors)
@@ -103,16 +104,18 @@ class DocumentViewSet(SearchMixin, ReadOnlyModelViewSet):
     def get_object_data(self, object_type, identifier):
         """Gets additional data from an object.
 
-        Return text from Abstracts or Scope and Contents notes and a boolean
-        indicator of a digital surrogate."""
+        Returns a dict containing a date string, text from Abstracts or Scope
+        and Contents notes and a boolean indicator of a digital surrogate.
+        """
         try:
-            resolved = self.resolve_object(object_type, identifier, source_fields=["notes", "online"])
+            resolved = self.resolve_object(object_type, identifier, source_fields=["notes", "online", "dates"])
             notes = resolved.to_dict().get("notes", [])
             description = text_from_notes(notes, "abstract") if text_from_notes(notes, "abstract") else text_from_notes(notes, "scopecontent")
             online = getattr(resolved, "online", False)
-            return description, online
+            dates = date_string(resolved.to_dict().get("dates", []))
+            return {"dates": dates, "description": description, "online": online}
         except Http404:
-            return None, False
+            return None
 
     def get_hit_count(self, identifier, base_query):
         """Gets the number of hits that are childrend of a specific component."""
@@ -209,9 +212,10 @@ class CollectionViewSet(DocumentViewSet, AncestorMixin):
         for c in children:
             c.group = group  # append group from parent collection
             obj_type = Object if c.type == "object" else Collection
-            description, online = self.get_object_data(obj_type, c.identifier)
-            c.description = description
-            c.online = online
+            data = self.get_object_data(obj_type, c.identifier)
+            c.dates = data["dates"]
+            c.description = data["description"]
+            c.online = data["online"]
             if self.request.GET.get("query"):
                 c.hit_count = self.get_hit_count(c.identifier, base_query)
         return children

@@ -108,7 +108,28 @@ class ChildrenPaginator(LimitOffsetPagination):
 
 
 def text_from_notes(notes, note_type):
+    """Returns a content string for a specific note from an array of notes.
+
+    Args:
+        notes (list): note list
+        note_type (str): note type
+    """
     description_strings = []
     for note in [n for n in notes if n["type"] == note_type]:
         description_strings += [" ".join(sn["content"]) for sn in note["subnotes"]]
     return " ".join(description_strings) if description_strings else None
+
+
+def date_string(dates):
+    """Returns a date string from an array of dates."""
+    date_strings = []
+    for date in dates:
+        try:
+            expression = date["expression"]
+        except KeyError:
+            if date.get("end"):
+                expression = "{0}-{1}".format(date["begin"], date["end"])
+            else:
+                expression = date["begin"]
+        date_strings.append(expression)
+    return ", ".join(date_strings)
