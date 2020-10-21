@@ -230,7 +230,13 @@ class ObjectViewSet(DocumentViewSet, AncestorMixin):
     serializer = ObjectSerializer
     filter_backends = SEARCH_BACKENDS
 
-    filter_fields = FILTER_FIELDS
+    filter_fields = {
+        "category": {"field": "category", "lookups": STRING_LOOKUPS},
+        "end_date": {"field": "dates.end", "lookups": NUMBER_LOOKUPS},
+        "genre": {"field": "formats", "lookups": STRING_LOOKUPS},
+        "online": "online",
+        "start_date": {"field": "dates.begin", "lookups": NUMBER_LOOKUPS},
+    }
     nested_filter_fields = NESTED_FILTER_FIELDS
 
     search_fields = ("title",)
