@@ -91,6 +91,15 @@ FILTER_BACKENDS = [FilteringFilterBackend,
                    DefaultOrderingFilterBackend,
                    CompoundSearchFilterBackend]
 
+FILTER_FIELDS = {
+    "category": {"field": "category", "lookups": STRING_LOOKUPS},
+    "level": {"field": "level.keyword", "lookups": STRING_LOOKUPS, },
+    "end_date": {"field": "dates.end", "lookups": NUMBER_LOOKUPS},
+    "genre": {"field": "formats", "lookups": STRING_LOOKUPS},
+    "online": "online",
+    "start_date": {"field": "dates.begin", "lookups": NUMBER_LOOKUPS},
+}
+
 SEARCH_BACKENDS = FILTER_BACKENDS + [NestedFilteringFilterBackend, ]
 
 
