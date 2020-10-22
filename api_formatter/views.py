@@ -41,6 +41,7 @@ class AncestorMixin(object):
             a.dates = data["dates"]
             a.description = data["description"]
             a.online = data["online"]
+            a.title = data["title"]
             if len(self.request.GET):
                 a.hit_count = self.get_hit_count(a.identifier, base_query)
         serializer = AncestorsSerializer(ancestors)
@@ -110,11 +111,12 @@ class DocumentViewSet(SearchMixin, ReadOnlyModelViewSet):
         """
         data = {"dates": None, "description": None, "online": False}
         try:
-            resolved = self.resolve_object(object_type, identifier, source_fields=["notes", "online", "dates"])
+            resolved = self.resolve_object(object_type, identifier, source_fields=["dates", "notes", "online", "title"])
             notes = resolved.to_dict().get("notes", [])
             data["description"] = text_from_notes(notes, "abstract") if text_from_notes(notes, "abstract") else text_from_notes(notes, "scopecontent")
             data["online"] = getattr(resolved, "online", False)
             data["dates"] = date_string(resolved.to_dict().get("dates", []))
+            data["title"] = resolved.title
             return data
         except Http404:
             return data
@@ -201,6 +203,7 @@ class CollectionViewSet(DocumentViewSet, AncestorMixin):
             c.dates = data["dates"]
             c.description = data["description"]
             c.online = data["online"]
+            c.title = data["title"]
             if len(self.request.GET):
                 c.hit_count = self.get_hit_count(c.identifier, base_query)
         return children
