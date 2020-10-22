@@ -109,7 +109,7 @@ class DocumentViewSet(SearchMixin, ReadOnlyModelViewSet):
         Returns a dict containing a date string, text from Abstracts or Scope
         and Contents notes and a boolean indicator of a digital surrogate.
         """
-        data = {"dates": None, "description": None, "online": False}
+        data = {"dates": None, "description": None, "online": False, "title": None}
         try:
             resolved = self.resolve_object(object_type, identifier, source_fields=["dates", "notes", "online", "title"])
             notes = resolved.to_dict().get("notes", [])
@@ -200,10 +200,10 @@ class CollectionViewSet(DocumentViewSet, AncestorMixin):
             c.group = group  # append group from parent collection
             obj_type = Object if c.type == "object" else Collection
             data = self.get_object_data(obj_type, c.identifier)
-            c.dates = data["dates"]
+            c.dates = data["dates"] if data["dates"] else c.dates
             c.description = data["description"]
             c.online = data["online"]
-            c.title = data["title"]
+            c.title = data["title"] if data["title"] else c.title
             if len(self.request.GET):
                 c.hit_count = self.get_hit_count(c.identifier, base_query)
         return children
