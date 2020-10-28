@@ -5,6 +5,7 @@ from rac_es.documents import (Agent, BaseDescriptionComponent, Collection,
                               Object, Term)
 from rest_framework.decorators import action
 from rest_framework.response import Response
+from rest_framework.views import APIView
 from rest_framework.viewsets import ReadOnlyModelViewSet
 
 from .pagination import CollapseLimitOffsetPagination
@@ -48,7 +49,29 @@ class AncestorMixin(object):
         return Response(serializer.data)
 
 
-class DocumentViewSet(SearchMixin, ReadOnlyModelViewSet):
+class ObjectResolverMixin(object):
+    """Provides a `resolve_object` method, which returns an object based on object type and identifier."""
+
+    def resolve_object(self, object_type, identifier, source_fields=None):
+        """Returns an object based on object type and identifier.
+
+        Provides `source_fields` argument to allow for performant retrieval of
+        specific fields.
+
+        Returns an empty dictionary if object is not found.
+        """
+        queryset = object_type.search(using=self.client).query().filter(
+            "match_phrase", **{"_id": identifier}
+        )
+        hits = queryset.source(source_fields).execute().hits if source_fields else queryset.execute().hits
+        count = len(hits)
+        if count != 1:
+            raise Http404("No object matches the given query.")
+        else:
+            return hits[0]
+
+
+class DocumentViewSet(SearchMixin, ObjectResolverMixin, ReadOnlyModelViewSet):
     filter_backends = FILTER_BACKENDS
     pagination_class = LimitOffsetPagination
 
@@ -82,24 +105,6 @@ class DocumentViewSet(SearchMixin, ReadOnlyModelViewSet):
                 else "Multiple results matches the given query. Expected a single result."
             )
             raise Http404(message)
-        else:
-            return hits[0]
-
-    def resolve_object(self, object_type, identifier, source_fields=None):
-        """Returns an object based on object type and identifier.
-
-        Provides `source_fields` argument to allow for performant retrieval of
-        specific fields.
-
-        Returns an empty dictionary if object is not found.
-        """
-        queryset = object_type.search(using=self.client).query().filter(
-            "match_phrase", **{"_id": identifier}
-        )
-        hits = queryset.source(source_fields).execute().hits if source_fields else queryset.execute().hits
-        count = len(hits)
-        if count != 1:
-            raise Http404("No object matches the given query.")
         else:
             return hits[0]
 
@@ -356,3 +361,36 @@ class FacetView(SearchView):
         results = queryset.execute()
         serializer = self.get_serializer(results)
         return Response(serializer.data)
+
+
+class MyListView(SearchMixin, ObjectResolverMixin, APIView):
+    """Returns a formatted MyList view.
+
+    Takes a list of URIs, resolves saved items, and groups them by collection.
+    """
+
+    def post(self, request, format=None):
+        list = request.data.get("list", [])
+        resp = []
+        resolved_list = []
+        for uri in list:
+            object_type, ident = uri.lstrip("/").split("/")
+            resolved = self.resolve_object(Collection if object_type == "collection" else Object, ident,
+                                           source_fields=["ancestors", "title", "uri", "dates", "group", "notes", "online", "external_identifiers"])
+            resolved_list.append(resolved)
+        collection_titles = set(map(lambda x: x.group.title, resolved_list))
+        for title in collection_titles:
+            collection_objects = [obj.to_dict() for obj in resolved_list if obj.group.title == title]
+            items = [
+                {
+                    "title": obj["title"],
+                    "uri": obj["uri"],
+                    "dates": obj["dates"],
+                    "notes": [note for note in obj.get("notes", []) if note["type"] in ["scopecontent", "abstract"]],
+                    "parent": obj["ancestors"][0]["title"],
+                    "parent_ref": "/collections/{}".format(obj["ancestors"][0]["identifier"]),
+                    "online": obj["online"],
+                    "archivesspace_uri": [ident["identifier"] for ident in obj["external_identifiers"] if ident["source"] == "archivesspace"][0]
+                } for obj in collection_objects]
+            resp.append({"title": title, "items": items})
+        return Response(resp)

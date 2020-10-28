@@ -13,7 +13,8 @@ from rac_es.documents import (Agent, BaseDescriptionComponent, Collection,
 from rac_schemas import is_valid
 from rest_framework.test import APIRequestFactory
 
-from .views import AgentViewSet, CollectionViewSet, ObjectViewSet, TermViewSet
+from .views import (AgentViewSet, CollectionViewSet, MyListView, ObjectViewSet,
+                    TermViewSet)
 
 TYPE_MAP = (
     ('agent', Agent, AgentViewSet),
@@ -190,6 +191,14 @@ class TestAPI(TestCase):
         for online in self.find_in_dict(response.data, "online"):
             self.assertTrue(isinstance(online, bool))
 
+    def mylist_view(self, added_ids):
+        list = random.sample(added_ids, 5)
+        request = self.factory.post(reverse("mylist"), {"list": list}, format="json")
+        response = MyListView.as_view()(request)
+        self.assertEqual(
+            response.status_code, 200, "MyList returned an error: {}".format(response.data))
+        self.assertIsNot(response.data, [])
+
     def test_documents(self):
         self.validate_fixtures()
         for doc_type, doc_cls, viewset in TYPE_MAP:
@@ -201,6 +210,8 @@ class TestAPI(TestCase):
                     self.ancestors_view(doc_type, viewset, ident)
                 if doc_type == "collection":
                     self.children_view(viewset, ident)
+            if doc_type == "object":
+                self.mylist_view(["/objects/{}".format(i) for i in added_ids])
 
     def test_schema(self):
         schema = self.client.get(reverse('schema'))
