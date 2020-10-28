@@ -56,7 +56,8 @@ class SearchMixin:
                 index=self.index,
                 doc_type=['_all']
             )
-        super(ReadOnlyModelViewSet, self).__init__(*args, **kwargs)
+        if issubclass(type(self), ReadOnlyModelViewSet):
+            super(ReadOnlyModelViewSet, self).__init__(*args, **kwargs)
 
 
 class CustomOrderingBackend(OrderingFilterBackend):
