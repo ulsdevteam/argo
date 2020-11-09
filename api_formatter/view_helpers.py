@@ -9,12 +9,15 @@ from django_elasticsearch_dsl_drf.constants import (LOOKUP_FILTER_PREFIX,
                                                     LOOKUP_QUERY_GTE,
                                                     LOOKUP_QUERY_IN,
                                                     LOOKUP_QUERY_LT,
-                                                    LOOKUP_QUERY_LTE)
-from django_elasticsearch_dsl_drf.filter_backends import (CompoundSearchFilterBackend,
-                                                          DefaultOrderingFilterBackend,
+                                                    LOOKUP_QUERY_LTE,
+                                                    MATCHING_OPTION_SHOULD)
+from django_elasticsearch_dsl_drf.filter_backends import (DefaultOrderingFilterBackend,
                                                           FilteringFilterBackend,
+                                                          MultiMatchSearchFilterBackend,
                                                           NestedFilteringFilterBackend,
                                                           OrderingFilterBackend)
+from django_elasticsearch_dsl_drf.filter_backends.search.query_backends import (MultiMatchQueryBackend,
+                                                                                NestedQueryBackend)
 from django_elasticsearch_dsl_drf.pagination import LimitOffsetPagination
 from elasticsearch_dsl import Index, Search, connections
 from rest_framework.viewsets import ReadOnlyModelViewSet
@@ -87,14 +90,23 @@ class CustomOrderingBackend(OrderingFilterBackend):
         return _ordering_params
 
 
+class CustomSearchBackend(MultiMatchSearchFilterBackend):
+    search_param = "query"
+    matching = MATCHING_OPTION_SHOULD
+    query_backends = [
+        MultiMatchQueryBackend,
+        NestedQueryBackend
+    ]
+
+
 FILTER_BACKENDS = [FilteringFilterBackend,
                    CustomOrderingBackend,
                    DefaultOrderingFilterBackend,
-                   CompoundSearchFilterBackend]
+                   CustomSearchBackend]
 
 FILTER_FIELDS = {
     "category": {"field": "category", "lookups": STRING_LOOKUPS},
-    "level": {"field": "level.keyword", "lookups": STRING_LOOKUPS, },
+    "level": {"field": "level.keyword", "lookups": STRING_LOOKUPS},
     "end_date": {"field": "dates.end", "lookups": NUMBER_LOOKUPS},
     "genre": {"field": "formats", "lookups": STRING_LOOKUPS},
     "online": "online",
