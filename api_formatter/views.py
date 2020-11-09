@@ -314,8 +314,8 @@ class SearchView(DocumentViewSet):
             "path": "group.creators"
         }
     }
-    multi_match_search_fields = {"title": {"boost": 2}, "description": None}
-    multi_match_options = {"operator": "and"}
+    simple_query_string_search_fields = {"title": {"boost": 2}, "description": None}
+    simple_query_string_options = {"default_operator": "and"}
     search_nested_fields = {
         "notes": {"path": "notes", "fields": ["subnotes.content"]},
     }
