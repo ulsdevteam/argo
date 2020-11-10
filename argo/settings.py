@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/2.0/ref/settings/
 
 import os
 
-import argo.config as CF
+from . import config
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -22,12 +22,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'sx6mf&q*eifhk^(cx197+=*cuq0guy$43!+hy#g1l4orkklx$g'
+SECRET_KEY = config.DJANGO_SECRET_KEY
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = config.DJANGO_DEBUG
 
-ALLOWED_HOSTS = CF.ALLOWED_HOSTS
+ALLOWED_HOSTS = config.DJANGO_ALLOWED_HOSTS
 
 
 # Application definition
@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'corsheaders',
     'api_formatter',
     'rest_framework',
     'django_elasticsearch_dsl',
@@ -46,6 +47,7 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE = [
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -79,7 +81,16 @@ WSGI_APPLICATION = 'argo.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
 
-DATABASES = CF.DATABASES
+DATABASES = {
+    "default": {
+        "ENGINE": config.SQL_ENGINE,
+        "NAME": config.SQL_DATABASE,
+        "USER": config.SQL_USER,
+        "PASSWORD": config.SQL_PASSWORD,
+        "HOST": config.SQL_HOST,
+        "PORT": config.SQL_PORT,
+    }
+}
 
 
 # Password validation
@@ -118,18 +129,27 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
-STATIC_URL = CF.STATIC_URL
-# STATIC_ROOT = '/static/'
+STATIC_URL = config.DJANGO_STATIC_URL
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 AUTH_USER_MODEL = 'api_formatter.User'
 
 REST_FRAMEWORK = {
     'DEFAULT_PAGINATION_CLASS':
         'rest_framework.pagination.PageNumberPagination',
-    'PAGE_SIZE': 100,
+    'PAGE_SIZE': 50,
     'SEARCH_PARAM': 'query',
     'ORDERING_PARAM': 'sort',
 }
 
 # Elasticsearch configuration
-ELASTICSEARCH_DSL = CF.ELASTICSEARCH_DSL
+ELASTICSEARCH_DSL = {
+    "default": {
+        "hosts": config.ELASTICSEARCH_HOSTS,
+        "index": config.ELASTICSEARCH_INDEX,
+        "connection": config.ELASTICSEARCH_CONNECTION
+    }
+}
+
+# CORS settings
+CORS_ORIGIN_ALLOW_ALL = True

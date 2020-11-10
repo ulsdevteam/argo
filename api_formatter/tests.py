@@ -1,7 +1,7 @@
+import datetime
 import json
 import os
 import random
-from datetime import datetime
 
 from argo import settings
 from django.test import TestCase
@@ -13,19 +13,20 @@ from rac_es.documents import (Agent, BaseDescriptionComponent, Collection,
 from rac_schemas import is_valid
 from rest_framework.test import APIRequestFactory
 
-from .views import AgentViewSet, CollectionViewSet, ObjectViewSet, TermViewSet
+from .views import (AgentViewSet, CollectionViewSet, MyListView, ObjectViewSet,
+                    TermViewSet)
 
 TYPE_MAP = (
-    ('agents', Agent, AgentViewSet, 'agent'),
-    ('collections', Collection, CollectionViewSet, 'collection'),
-    ('objects', Object, ObjectViewSet, 'object'),
-    ('terms', Term, TermViewSet, 'term'),
+    ('agent', Agent, AgentViewSet),
+    ('collection', Collection, CollectionViewSet),
+    ('object', Object, ObjectViewSet),
+    ('term', Term, TermViewSet),
 )
 
 STOP_WORDS = ["a", "an", "and", "are", "as", "at", "be", "but", "by", "for", "if",
               "in", "into", "is", "it", "no", "not", "of", "on", "or", "such",
               "that", "the", "their", "then", "there", "these", "they", "this",
-              "to", "was", "will", "with"]
+              "to", "was", "will", "with", "-", "--"]
 
 
 class TestAPI(TestCase):
@@ -49,7 +50,7 @@ class TestAPI(TestCase):
             with open(os.path.join(source_filepath, f)) as jf:
                 data = json.load(jf)
                 doc = doc_cls(**data)
-                yield doc.prepare_streaming_dict(data["id"])
+                yield doc.prepare_streaming_dict(data["uri"].split("/")[-1])
 
     def index_fixture_data(self, source_filepath, doc_cls):
         added_ids = []
@@ -69,8 +70,10 @@ class TestAPI(TestCase):
                 return self.get_nested_value(key_list, child_obj[0])
             else:
                 return self.get_nested_value(key_list, child_obj)
-        if isinstance(child_obj, datetime):
-            return child_obj.strftime('%Y-%m-%d')
+        if (isinstance(child_obj, datetime.datetime) or isinstance(child_obj, datetime.date)):
+            return child_obj.strftime('%Y')
+        if isinstance(child_obj, utils.AttrList):
+            child_obj = child_obj[0]
         return (child_obj if child_obj else "")
 
     def get_random_word(self, word_list):
@@ -85,6 +88,19 @@ class TestAPI(TestCase):
     def get_random_obj(self, obj_list, cls):
         uuid = random.choice(obj_list.data.get('results')).get('uri').split('/')[2]
         return cls.get(id=uuid)
+
+    def find_in_dict(self, dictionary, key):
+        for k, v in dictionary.items():
+            if k == key:
+                yield v
+            elif isinstance(v, dict):
+                for result in self.find_in_dict(v, key):
+                    yield result
+            elif isinstance(v, list):
+                for d in v:
+                    if isinstance(d, dict):
+                        for result in self.find_in_dict(d, key):
+                            yield result
 
     def sort_fields(self, viewset, basename, base_url):
         """
@@ -152,27 +168,50 @@ class TestAPI(TestCase):
             response.status_code, 200,
             "View {}-detail in ViewSet {} did not return 200 for document {}".format(
                 basename, viewset, pk))
+        for uri in self.find_in_dict(response.data, "uri"):
+            self.assertFalse(uri.endswith("/"))
+        if basename in ["collection", "object"]:
+            self.assertTrue(isinstance(response.data["online"], bool))
+
+    def ancestors_view(self, basename, viewset, pk):
+        request = self.factory.get(reverse("{}-ancestors".format(basename), args=[pk]))
+        response = viewset.as_view(actions={"get": "retrieve"}, basename=basename)(request, pk=pk)
+        self.assertEqual(
+            response.status_code, 200,
+            "View {}-ancestors in ViewSet {} did not return 200 for document {}".format(
+                basename, viewset, pk))
+
+    def children_view(self, viewset, pk):
+        request = self.factory.get(reverse("collection-children", args=[pk]))
+        response = viewset.as_view(actions={"get": "retrieve"}, basename="collection")(request, pk=pk)
+        self.assertEqual(
+            response.status_code, 200,
+            "View collection-children in ViewSet {} did not return 200 for document {}".format(
+                viewset, pk))
+        for online in self.find_in_dict(response.data, "online"):
+            self.assertTrue(isinstance(online, bool))
+
+    def mylist_view(self, added_ids):
+        list = random.sample(added_ids, 5)
+        request = self.factory.post(reverse("mylist"), {"list": list}, format="json")
+        response = MyListView.as_view()(request)
+        self.assertEqual(
+            response.status_code, 200, "MyList returned an error: {}".format(response.data))
+        self.assertIsNot(response.data, [])
 
     def test_documents(self):
         self.validate_fixtures()
-        for path, doc_cls, viewset, view_name in TYPE_MAP:
-            added_ids = self.index_fixture_data('fixtures/{}'.format(path), doc_cls)
-            self.list_view(doc_cls, view_name, viewset, len(added_ids))
+        for doc_type, doc_cls, viewset in TYPE_MAP:
+            added_ids = self.index_fixture_data('fixtures/{}'.format(doc_type), doc_cls)
+            self.list_view(doc_cls, doc_type, viewset, len(added_ids))
             for ident in added_ids:
-                self.detail_view(view_name, viewset, ident)
-        for t in TYPE_MAP:
-            for f in os.listdir(os.path.join('fixtures', path)):
-                with open(os.path.join('fixtures', path, f), 'r') as jf:
-                    data = json.load(jf)
-                    obj = doc_cls.get(id=data['id'])
-                    try:
-                        for relation in obj.relations_in_self:
-                            references = obj.get_references(relation=relation)
-                            self.assertEqual(
-                                len(data[relation]), len(references),
-                                "{} missing a reference to a {} in source data set {}".format(obj._id, relation, data[relation]))
-                    except AttributeError:
-                        pass
+                self.detail_view(doc_type, viewset, ident)
+                if doc_type in ["collection", "object"]:
+                    self.ancestors_view(doc_type, viewset, ident)
+                if doc_type == "collection":
+                    self.children_view(viewset, ident)
+            if doc_type == "object":
+                self.mylist_view(["/objects/{}".format(i) for i in added_ids])
 
     def test_schema(self):
         schema = self.client.get(reverse('schema'))

@@ -5,15 +5,11 @@ services:
     image: postgres:10.4
     volumes:
       - argodbvolume:/var/lib/postgresql/data/
-    networks:
-      - microservices
   argo-web:
     build: .
     entrypoint: /code/entrypoint.sh
     volumes:
       - .:/code
-    networks:
-      - microservices
     ports:
       - "8000:8000"
     depends_on:
@@ -38,14 +34,9 @@ services:
         hard: -1
     volumes:
       - elasticsearch:/usr/share/elasticsearch/data
-    networks:
-      - microservices
     ports:
       - 9200:9200
 
 volumes:
   argodbvolume:
   elasticsearch:
-
-networks:
-  microservices:
