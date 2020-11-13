@@ -1,3 +1,4 @@
+from argo import settings
 from django.http import Http404
 from django_elasticsearch_dsl_drf.pagination import LimitOffsetPagination
 from elasticsearch_dsl import A, Q
@@ -330,7 +331,7 @@ class SearchView(DocumentViewSet):
         return self.search.extra(collapse=collapse_params).query()
 
     def filter_queryset(self, queryset):
-        query = self.request.GET.get("query")
+        query = self.request.GET.get(settings.REST_FRAMEWORK["SEARCH_PARAM"])
         queryset.query = Q("bool",
                            should=[
                                Q("simple_query_string",
