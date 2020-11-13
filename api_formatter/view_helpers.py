@@ -9,11 +9,15 @@ from django_elasticsearch_dsl_drf.constants import (LOOKUP_FILTER_PREFIX,
                                                     LOOKUP_QUERY_GTE,
                                                     LOOKUP_QUERY_IN,
                                                     LOOKUP_QUERY_LT,
-                                                    LOOKUP_QUERY_LTE)
+                                                    LOOKUP_QUERY_LTE,
+                                                    MATCHING_OPTION_SHOULD)
 from django_elasticsearch_dsl_drf.filter_backends import (DefaultOrderingFilterBackend,
                                                           FilteringFilterBackend,
                                                           NestedFilteringFilterBackend,
-                                                          OrderingFilterBackend)
+                                                          OrderingFilterBackend,
+                                                          SimpleQueryStringSearchFilterBackend)
+from django_elasticsearch_dsl_drf.filter_backends.search.query_backends import (NestedQueryBackend,
+                                                                                SimpleQueryStringQueryBackend)
 from django_elasticsearch_dsl_drf.pagination import LimitOffsetPagination
 from elasticsearch_dsl import Index, Search, connections
 from rest_framework.viewsets import ReadOnlyModelViewSet
@@ -86,9 +90,19 @@ class CustomOrderingBackend(OrderingFilterBackend):
         return _ordering_params
 
 
+class CustomSearchBackend(SimpleQueryStringSearchFilterBackend):
+    search_param = "query"
+    matching = MATCHING_OPTION_SHOULD
+    query_backends = [
+        SimpleQueryStringQueryBackend,
+        NestedQueryBackend
+    ]
+
+
 FILTER_BACKENDS = [FilteringFilterBackend,
                    CustomOrderingBackend,
-                   DefaultOrderingFilterBackend]
+                   DefaultOrderingFilterBackend,
+                   CustomSearchBackend]
 
 FILTER_FIELDS = {
     "category": {"field": "category", "lookups": STRING_LOOKUPS},
