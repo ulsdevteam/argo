@@ -336,7 +336,7 @@ class SearchView(DocumentViewSet):
                                Q("simple_query_string",
                                  query=query,
                                  fields=["title^5", "description"],
-                                   default_operator="and"),
+                                 default_operator="and"),
                                Q("nested",
                                  path="notes",
                                  query=Q("simple_query_string",
