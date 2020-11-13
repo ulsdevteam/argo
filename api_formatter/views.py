@@ -1,3 +1,4 @@
+from argo import settings
 from django.http import Http404
 from django_elasticsearch_dsl_drf.pagination import LimitOffsetPagination
 from elasticsearch_dsl import A, Q
@@ -314,11 +315,6 @@ class SearchView(DocumentViewSet):
             "path": "group.creators"
         }
     }
-    simple_query_string_search_fields = {"title": {"boost": 2}, "description": None}
-    simple_query_string_options = {"default_operator": "and"}
-    search_nested_fields = {
-        "notes": {"path": "notes", "fields": ["subnotes.content"]},
-    }
 
     def get_queryset(self):
         """Uses `collapse` to group hits based on `group` attribute."""
@@ -333,6 +329,22 @@ class SearchView(DocumentViewSet):
         a = A("cardinality", field="group.identifier")
         self.search.aggs.bucket("total", a)
         return self.search.extra(collapse=collapse_params).query()
+
+    def filter_queryset(self, queryset):
+        query = self.request.GET.get(settings.REST_FRAMEWORK["SEARCH_PARAM"])
+        queryset.query = Q("bool",
+                           should=[
+                               Q("simple_query_string",
+                                 query=query,
+                                 fields=["title^5", "description"],
+                                 default_operator="and"),
+                               Q("nested",
+                                 path="notes",
+                                 query=Q("simple_query_string",
+                                         query=query,
+                                         fields=["notes.subnotes.content"],
+                                         default_operator="and"))])
+        return queryset
 
 
 class FacetView(SearchView):
