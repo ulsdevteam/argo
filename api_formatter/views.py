@@ -130,13 +130,28 @@ class DocumentViewSet(SearchMixin, ObjectResolverMixin, ReadOnlyModelViewSet):
     def get_hit_count(self, identifier, base_query):
         """Gets the number of hits that are childrend of a specific component."""
         q = Q("nested", path="ancestors", query=Q("match", ancestors__identifier=identifier)) | Q("ids", values=[identifier])
-        queryset = base_query.query(q)
+        queryset = base_query.query(self.get_structured_query()).query(q)
         query_dict = self.filter_queryset(queryset).to_dict()
         # remove type from query, which limits results to the document type
         processed_filter = list(filter(lambda i: "term" not in i, query_dict["query"]["bool"]["filter"]))
         query_dict["query"]["bool"]["filter"] = processed_filter
         self.search.query = query_dict["query"]
         return self.search.query().count()
+
+    def get_structured_query(self):
+        query = self.request.GET.get(settings.REST_FRAMEWORK["SEARCH_PARAM"])
+        return Q("bool",
+                 should=[
+                     Q("simple_query_string",
+                       query=query,
+                       fields=["title^5", "description"],
+                       default_operator="and"),
+                     Q("nested",
+                         path="notes",
+                         query=Q("simple_query_string",
+                                 query=query,
+                                 fields=["notes.subnotes.content"],
+                                 default_operator="and"))])
 
     @property
     def list_fields(self):
@@ -331,19 +346,7 @@ class SearchView(DocumentViewSet):
         return self.search.extra(collapse=collapse_params).query()
 
     def filter_queryset(self, queryset):
-        query = self.request.GET.get(settings.REST_FRAMEWORK["SEARCH_PARAM"])
-        queryset.query = Q("bool",
-                           should=[
-                               Q("simple_query_string",
-                                 query=query,
-                                 fields=["title^5", "description"],
-                                 default_operator="and"),
-                               Q("nested",
-                                 path="notes",
-                                 query=Q("simple_query_string",
-                                         query=query,
-                                         fields=["notes.subnotes.content"],
-                                         default_operator="and"))])
+        queryset.query = self.get_structured_query()
         return queryset
 
 
