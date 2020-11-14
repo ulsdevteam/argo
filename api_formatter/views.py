@@ -351,7 +351,8 @@ class SearchView(DocumentViewSet):
         return self.search.extra(collapse=collapse_params).query()
 
     def filter_queryset(self, queryset):
-        queryset.query = self.get_structured_query()
+        if self.request.GET.get(settings.REST_FRAMEWORK["SEARCH_PARAM"]):
+            queryset.query = self.get_structured_query()
         filtered = super(DocumentViewSet, self).filter_queryset(queryset)
         return filtered
 
