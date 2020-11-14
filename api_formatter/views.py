@@ -347,7 +347,8 @@ class SearchView(DocumentViewSet):
 
     def filter_queryset(self, queryset):
         queryset.query = self.get_structured_query()
-        return queryset
+        filtered = super(DocumentViewSet, self).filter_queryset(queryset)
+        return filtered
 
 
 class FacetView(SearchView):
