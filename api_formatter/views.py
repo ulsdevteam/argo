@@ -399,16 +399,19 @@ class MyListView(SearchMixin, ObjectResolverMixin, APIView):
         for uri in list:
             object_type, ident = uri.lstrip("/").split("/")
             resolved = self.resolve_object(Collection if object_type == "collection" else Object, ident,
-                                           source_fields=["ancestors", "title", "uri", "dates", "group", "notes", "online", "external_identifiers"])
+                                           source_fields=["ancestors", "title", "uri", "dates", "extents",
+                                                          "group", "notes", "online", "external_identifiers"])
             resolved_list.append(resolved)
         collection_titles = set(map(lambda x: x.group.title, resolved_list))
         for title in collection_titles:
             collection_objects = [obj.to_dict() for obj in resolved_list if obj.group.title == title]
+            print(collection_objects)
             items = [
                 {
                     "title": obj["title"],
                     "uri": obj["uri"],
                     "dates": obj["dates"],
+                    "extents": obj.get("extents"),
                     "notes": [note for note in obj.get("notes", []) if note["type"] in ["scopecontent", "abstract"]],
                     "parent": obj["ancestors"][0]["title"],
                     "parent_ref": "/collections/{}".format(obj["ancestors"][0]["identifier"]),
