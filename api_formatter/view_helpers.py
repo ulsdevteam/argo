@@ -118,9 +118,9 @@ class ChildrenPaginator(LimitOffsetPagination):
     def paginate_queryset(self, queryset, request):
         """Custom method to paginate lists of children."""
         self.request = request
-        self.limit = int(self.request.GET["limit"]) if self.request.GET.get("limit") else len(queryset)
+        self.limit = int(self.request.GET["limit"]) if self.request.GET.get("limit") else settings.REST_FRAMEWORK["PAGE_SIZE"]
         self.offset = int(self.request.GET["offset"]) if self.request.GET.get("offset") else 0
-        self.count = len(queryset)
+        self.count = queryset.count()
         if self.count == 0 or self.offset > self.count:
             return []
         return list(queryset[self.offset:self.offset + self.limit])
@@ -152,3 +152,7 @@ def date_string(dates):
                 expression = date["begin"]
         date_strings.append(expression)
     return ", ".join(date_strings)
+
+
+def description_from_notes(notes):
+    return text_from_notes(notes, "abstract") if text_from_notes(notes, "abstract") else text_from_notes(notes, "scopecontent")
