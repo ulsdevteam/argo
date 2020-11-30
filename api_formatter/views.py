@@ -19,7 +19,7 @@ from .serializers import (AgentListSerializer, AgentSerializer,
 from .view_helpers import (FILTER_BACKENDS, FILTER_FIELDS,
                            NESTED_FILTER_FIELDS, NUMBER_LOOKUPS,
                            SEARCH_BACKENDS, STRING_LOOKUPS, ChildrenPaginator,
-                           SearchMixin, date_string, text_from_notes)
+                           SearchMixin, date_string, description_from_notes)
 
 
 class AncestorMixin(object):
@@ -118,8 +118,7 @@ class DocumentViewSet(SearchMixin, ObjectResolverMixin, ReadOnlyModelViewSet):
         data = {"dates": None, "description": None, "online": False, "title": None}
         try:
             resolved = self.resolve_object(object_type, identifier, source_fields=["dates", "notes", "online", "title"])
-            notes = resolved.to_dict().get("notes", [])
-            data["description"] = text_from_notes(notes, "abstract") if text_from_notes(notes, "abstract") else text_from_notes(notes, "scopecontent")
+            data["description"] = description_from_notes(resolved.to_dict().get("notes", []))
             data["online"] = getattr(resolved, "online", False)
             data["dates"] = date_string(resolved.to_dict().get("dates", []))
             data["title"] = resolved.title
@@ -130,20 +129,25 @@ class DocumentViewSet(SearchMixin, ObjectResolverMixin, ReadOnlyModelViewSet):
     def get_hit_count(self, identifier, base_query):
         """Gets the number of hits that are childrend of a specific component.
 
-        If no query string exists in the request, returns None.
+        If no query string exists in the request, returns None. If the query
+        filters on an object type, removes that portion of the query so that
+        results for all object types are returned.
         """
         if self.request.GET.get(settings.REST_FRAMEWORK["SEARCH_PARAM"]):
             q = Q("nested", path="ancestors", query=Q("match", ancestors__identifier=identifier)) | Q("ids", values=[identifier])
             queryset = base_query.query(self.get_structured_query()).query(q)
             query_dict = self.filter_queryset(queryset).to_dict()
             # remove type from query, which limits results to the document type
-            processed_filter = list(filter(lambda i: "term" not in i, query_dict["query"]["bool"]["filter"]))
-            query_dict["query"]["bool"]["filter"] = processed_filter
+            if query_dict["query"]["bool"].get("filter"):
+                processed_filter = list(filter(lambda i: "term" not in i, query_dict["query"]["bool"]["filter"]))
+                query_dict["query"]["bool"]["filter"] = processed_filter
             self.search.query = query_dict["query"]
             return self.search.query().count()
         return None
 
     def get_structured_query(self):
+        """Returns default query structure."""
+
         query = self.request.GET.get(settings.REST_FRAMEWORK["SEARCH_PARAM"])
         return Q("bool",
                  should=[
@@ -214,45 +218,43 @@ class CollectionViewSet(DocumentViewSet, AncestorMixin):
     def prepare_children(self, children, group):
         """Appends additional data to each child object.
 
-        Adds `group` information from the parent collection, along with an
-        `online` flag indicating the presence of an accessible digital surrogate,
-        and a `description` field (either the abstract or scope and contents)
-        from child objects.
+        Adds `group` information from the parent collection, along with strings
+        for dates and description.
 
-        If a query parameter exists, fetches the hit count. Removes default
-        filtering on `type` field."""
+        If a query parameter exists, fetches the hit count.
+        """
         base_query = self.search.query()
         for c in children:
             c.group = group  # append group from parent collection
-            obj_type = Object if c.type == "object" else Collection
-            data = self.get_object_data(obj_type, c.identifier)
-            c.dates = data["dates"] if data["dates"] else c.dates
-            c.description = data["description"]
-            c.online = data["online"]
-            c.title = data["title"] if data["title"] else c.title
+            c.dates = date_string(c.to_dict().get("dates", []))
+            c.description = description_from_notes(c.to_dict().get("notes", []))
             if len(self.request.GET):
-                c.hit_count = self.get_hit_count(c.identifier, base_query)
+                c.hit_count = self.get_hit_count(c.uri, base_query)
         return children
 
     @action(detail=True)
     def children(self, request, pk=None):
         """Provides a detail endpoint for a collection's children."""
-        obj = self.resolve_object(Collection, pk, source_fields=["children", "group"])
+
+        self.search.query = Q("match_phrase", parent=pk)
+        child_hits = self.search.source(
+            ["group", "type", "uri", "dates", "notes", "online", "position", "title"]
+        ).sort("position")
+        obj = self.resolve_object(Collection, pk, source_fields=["group"])
         paginator = ChildrenPaginator()
-        page = paginator.paginate_queryset(obj.children, request)
+        queryset = super(DocumentViewSet, self).filter_queryset(child_hits)
+        page = paginator.paginate_queryset(queryset, request)
         if page is not None:
             page = self.prepare_children(page, obj.group)
             serializer = ReferenceSerializer(page, many=True)
             return paginator.get_paginated_response(serializer.data)
-        children = self.prepare_children(obj.children, obj.group)
+        children = self.prepare_children(child_hits, obj.group)
         serializer = ReferenceSerializer(children, many=True)
         return paginator.get_paginated_response(serializer.data)
 
 
 class ObjectViewSet(DocumentViewSet, AncestorMixin):
-    """
-    Returns data about objects, or groups of archival records which have no children.
-    """
+    """Returns data about objects, or groups of archival records without children."""
 
     document = Object
     list_serializer = ObjectListSerializer

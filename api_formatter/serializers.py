@@ -83,6 +83,8 @@ class ReferenceSerializer(serializers.Serializer):
         return getattr(obj, "online", False)
 
     def get_uri(self, obj):
+        if getattr(obj, "uri", None):
+            return obj.uri
         basename = obj.type
         if basename in ["person", "organization", "family", "software"]:
             basename = "agent"
