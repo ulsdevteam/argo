@@ -248,8 +248,7 @@ class CollectionViewSet(DocumentViewSet, AncestorMixin):
         ).sort("position")
         obj = self.resolve_object(Collection, pk, source_fields=["group"])
         paginator = ChildrenPaginator()
-        queryset = super(DocumentViewSet, self).filter_queryset(child_hits)
-        page = paginator.paginate_queryset(queryset, request)
+        page = paginator.paginate_queryset(child_hits, request)
         if page is not None:
             page = self.prepare_children(page, obj.group)
             serializer = ReferenceSerializer(page, many=True)
