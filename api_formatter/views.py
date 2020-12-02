@@ -126,14 +126,15 @@ class DocumentViewSet(SearchMixin, ObjectResolverMixin, ReadOnlyModelViewSet):
         except Http404:
             return data
 
-    def get_hit_count(self, identifier, base_query):
+    def get_hit_count(self, uri, base_query):
         """Gets the number of hits that are childrend of a specific component.
 
         If no query string exists in the request, returns None. If the query
-        filters on an object type, removes that portion of the query so that
-        results for all object types are returned.
+        filters on an object, removes that portion of the query so that results
+        for all object types are returned.
         """
         if self.request.GET.get(settings.REST_FRAMEWORK["SEARCH_PARAM"]):
+            identifier = uri.lstrip("/").split("/")[-1]
             q = Q("nested", path="ancestors", query=Q("match", ancestors__identifier=identifier)) | Q("ids", values=[identifier])
             queryset = base_query.query(self.get_structured_query()).query(q)
             query_dict = self.filter_queryset(queryset).to_dict()
@@ -215,7 +216,7 @@ class CollectionViewSet(DocumentViewSet, AncestorMixin):
         "end_date": "dates.end",
     }
 
-    def prepare_children(self, children, group):
+    def prepare_children(self, children, group, base_query):
         """Appends additional data to each child object.
 
         Adds `group` information from the parent collection, along with strings
@@ -223,7 +224,6 @@ class CollectionViewSet(DocumentViewSet, AncestorMixin):
 
         If a query parameter exists, fetches the hit count.
         """
-        base_query = self.search.query()
         for c in children:
             c.group = group  # append group from parent collection
             c.dates = date_string(c.to_dict().get("dates", []))
@@ -235,20 +235,19 @@ class CollectionViewSet(DocumentViewSet, AncestorMixin):
     @action(detail=True)
     def children(self, request, pk=None):
         """Provides a detail endpoint for a collection's children."""
-
+        base_query = self.search.query()
         self.search.query = Q("match_phrase", parent=pk)
         child_hits = self.search.source(
             ["group", "type", "uri", "dates", "notes", "online", "position", "title"]
         ).sort("position")
         obj = self.resolve_object(Collection, pk, source_fields=["group"])
         paginator = ChildrenPaginator()
-        queryset = super(DocumentViewSet, self).filter_queryset(child_hits)
-        page = paginator.paginate_queryset(queryset, request)
+        page = paginator.paginate_queryset(child_hits, request)
         if page is not None:
-            page = self.prepare_children(page, obj.group)
+            page = self.prepare_children(page, obj.group, base_query)
             serializer = ReferenceSerializer(page, many=True)
             return paginator.get_paginated_response(serializer.data)
-        children = self.prepare_children(child_hits, obj.group)
+        children = self.prepare_children(child_hits, obj.group, base_query)
         serializer = ReferenceSerializer(children, many=True)
         return paginator.get_paginated_response(serializer.data)
 
