@@ -130,8 +130,8 @@ class DocumentViewSet(SearchMixin, ObjectResolverMixin, ReadOnlyModelViewSet):
         """Gets the number of hits that are childrend of a specific component.
 
         If no query string exists in the request, returns None. If the query
-        filters on an object type or a parent, removes that portion of the query
-        so that results for all object types are returned.
+        filters on an object, removes that portion of the query so that results
+        for all object types are returned.
         """
         if self.request.GET.get(settings.REST_FRAMEWORK["SEARCH_PARAM"]):
             identifier = uri.lstrip("/").split("/")[-1]
@@ -142,11 +142,6 @@ class DocumentViewSet(SearchMixin, ObjectResolverMixin, ReadOnlyModelViewSet):
             if query_dict["query"]["bool"].get("filter"):
                 processed_filter = list(filter(lambda i: "term" not in i, query_dict["query"]["bool"]["filter"]))
                 query_dict["query"]["bool"]["filter"] = processed_filter
-            # remove parent filter from query
-            if query_dict["query"]["bool"].get("must"):
-                must = query_dict["query"]["bool"]["must"]
-                processed_filter = list(filter(lambda i: not i.get("match_phrase", {}).get("parent"), must))
-                query_dict["query"]["bool"]["must"] = processed_filter
             self.search.query = query_dict["query"]
             return self.search.query().count()
         return None
@@ -221,7 +216,7 @@ class CollectionViewSet(DocumentViewSet, AncestorMixin):
         "end_date": "dates.end",
     }
 
-    def prepare_children(self, children, group):
+    def prepare_children(self, children, group, base_query):
         """Appends additional data to each child object.
 
         Adds `group` information from the parent collection, along with strings
@@ -229,7 +224,6 @@ class CollectionViewSet(DocumentViewSet, AncestorMixin):
 
         If a query parameter exists, fetches the hit count.
         """
-        base_query = self.search.query()
         for c in children:
             c.group = group  # append group from parent collection
             c.dates = date_string(c.to_dict().get("dates", []))
@@ -241,7 +235,7 @@ class CollectionViewSet(DocumentViewSet, AncestorMixin):
     @action(detail=True)
     def children(self, request, pk=None):
         """Provides a detail endpoint for a collection's children."""
-
+        base_query = self.search.query()
         self.search.query = Q("match_phrase", parent=pk)
         child_hits = self.search.source(
             ["group", "type", "uri", "dates", "notes", "online", "position", "title"]
@@ -250,10 +244,10 @@ class CollectionViewSet(DocumentViewSet, AncestorMixin):
         paginator = ChildrenPaginator()
         page = paginator.paginate_queryset(child_hits, request)
         if page is not None:
-            page = self.prepare_children(page, obj.group)
+            page = self.prepare_children(page, obj.group, base_query)
             serializer = ReferenceSerializer(page, many=True)
             return paginator.get_paginated_response(serializer.data)
-        children = self.prepare_children(child_hits, obj.group)
+        children = self.prepare_children(child_hits, obj.group, base_query)
         serializer = ReferenceSerializer(children, many=True)
         return paginator.get_paginated_response(serializer.data)
 
