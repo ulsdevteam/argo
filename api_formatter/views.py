@@ -126,14 +126,15 @@ class DocumentViewSet(SearchMixin, ObjectResolverMixin, ReadOnlyModelViewSet):
         except Http404:
             return data
 
-    def get_hit_count(self, identifier, base_query):
+    def get_hit_count(self, uri, base_query):
         """Gets the number of hits that are childrend of a specific component.
 
         If no query string exists in the request, returns None. If the query
-        filters on an object type, removes that portion of the query so that
-        results for all object types are returned.
+        filters on an object type or a parent, removes that portion of the query
+        so that results for all object types are returned.
         """
         if self.request.GET.get(settings.REST_FRAMEWORK["SEARCH_PARAM"]):
+            identifier = uri.lstrip("/").split("/")[-1]
             q = Q("nested", path="ancestors", query=Q("match", ancestors__identifier=identifier)) | Q("ids", values=[identifier])
             queryset = base_query.query(self.get_structured_query()).query(q)
             query_dict = self.filter_queryset(queryset).to_dict()
@@ -141,6 +142,11 @@ class DocumentViewSet(SearchMixin, ObjectResolverMixin, ReadOnlyModelViewSet):
             if query_dict["query"]["bool"].get("filter"):
                 processed_filter = list(filter(lambda i: "term" not in i, query_dict["query"]["bool"]["filter"]))
                 query_dict["query"]["bool"]["filter"] = processed_filter
+            # remove parent filter from query
+            if query_dict["query"]["bool"].get("must"):
+                must = query_dict["query"]["bool"]["must"]
+                processed_filter = list(filter(lambda i: not i.get("match_phrase", {}).get("parent"), must))
+                query_dict["query"]["bool"]["must"] = processed_filter
             self.search.query = query_dict["query"]
             return self.search.query().count()
         return None
