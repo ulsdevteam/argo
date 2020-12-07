@@ -161,6 +161,12 @@ class DocumentViewSet(SearchMixin, ObjectResolverMixin, ReadOnlyModelViewSet):
                          query=Q("simple_query_string",
                                  query=query,
                                  fields=["notes.subnotes.content"],
+                                 default_operator="and")),
+                     Q("nested",
+                         path="terms",
+                         query=Q("simple_query_string",
+                                 query=query,
+                                 fields=["terms.title"],
                                  default_operator="and"))])
 
     @property
