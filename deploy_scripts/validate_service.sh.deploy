@@ -2,7 +2,7 @@
 set -e
 
 # get status endpoint
-if [ "$TRAVIS_BRANCH" == "base"]
+if [ ${TRAVIS_BRANCH} == "base"]
   then
     curl http://api.rockarch.org/status/
   else
