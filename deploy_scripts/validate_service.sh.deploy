@@ -2,4 +2,9 @@
 set -e
 
 # get status endpoint
-curl http://api.rockarch.org/status/
+if [ "$TRAVIS_BRANCH" == "base"]
+  then
+    curl http://api.rockarch.org/status/
+  else
+    curl http://localhost:${DJANGO_PORT}/status/
+fi
