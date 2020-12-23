@@ -415,7 +415,6 @@ class MyListView(SearchMixin, ObjectResolverMixin, APIView):
         collection_titles = set(map(lambda x: x.group.title, resolved_list))
         for title in collection_titles:
             collection_objects = [obj.to_dict() for obj in resolved_list if obj.group.title == title]
-            print(collection_objects)
             items = [
                 {
                     "title": obj["title"],
