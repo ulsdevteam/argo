@@ -23,7 +23,6 @@ from .view_helpers import (FILTER_BACKENDS, FILTER_FIELDS,
 
 class AncestorMixin(object):
     """Provides an ancestors detail route.
-
     Returns a nested dictionary representation of the complete ancestor tree for
     a collection or object.
     """
@@ -54,10 +53,8 @@ class ObjectResolverMixin(object):
 
     def resolve_object(self, object_type, identifier, source_fields=None):
         """Returns an object based on object type and identifier.
-
         Provides `source_fields` argument to allow for performant retrieval of
         specific fields.
-
         Returns an empty dictionary if object is not found.
         """
         queryset = object_type.search(using=self.client).query().filter(
@@ -110,7 +107,6 @@ class DocumentViewSet(SearchMixin, ObjectResolverMixin, ReadOnlyModelViewSet):
 
     def get_object_data(self, object_type, identifier):
         """Gets additional data from an object.
-
         Returns a dict containing a date string, text from Abstracts or Scope
         and Contents notes and a boolean indicator of a digital surrogate.
         """
@@ -192,12 +188,10 @@ class CollectionViewSet(DocumentViewSet, AncestorMixin):
 
     def prepare_children(self, children, group):
         """Appends additional data to each child object.
-
         Adds `group` information from the parent collection, along with an
         `online` flag indicating the presence of an accessible digital surrogate,
         and a `description` field (either the abstract or scope and contents)
         from child objects.
-
         If a query parameter exists, fetches the hit count. Removes default
         filtering on `type` field."""
         base_query = self.search.query()
@@ -366,7 +360,6 @@ class FacetView(SearchView):
 
 class MyListView(SearchMixin, ObjectResolverMixin, APIView):
     """Returns a formatted MyList view.
-
     Takes a list of URIs, resolves saved items, and groups them by collection.
     """
 
