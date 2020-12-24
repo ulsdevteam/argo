@@ -25,6 +25,7 @@ from .view_helpers import (FILTER_BACKENDS, FILTER_FIELDS,
 class AncestorMixin(object):
     """Provides an ancestors detail route.
 
+
     Returns a nested dictionary representation of the complete ancestor tree for
     a collection or object.
     """
