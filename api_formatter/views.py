@@ -1,3 +1,4 @@
+from argo import settings
 from django.http import Http404
 from django_elasticsearch_dsl_drf.pagination import LimitOffsetPagination
 from elasticsearch_dsl import A, Q
@@ -18,11 +19,12 @@ from .serializers import (AgentListSerializer, AgentSerializer,
 from .view_helpers import (FILTER_BACKENDS, FILTER_FIELDS,
                            NESTED_FILTER_FIELDS, NUMBER_LOOKUPS,
                            SEARCH_BACKENDS, STRING_LOOKUPS, ChildrenPaginator,
-                           SearchMixin, date_string, text_from_notes)
+                           SearchMixin, date_string, description_from_notes)
 
 
 class AncestorMixin(object):
     """Provides an ancestors detail route.
+
     Returns a nested dictionary representation of the complete ancestor tree for
     a collection or object.
     """
@@ -53,8 +55,10 @@ class ObjectResolverMixin(object):
 
     def resolve_object(self, object_type, identifier, source_fields=None):
         """Returns an object based on object type and identifier.
+
         Provides `source_fields` argument to allow for performant retrieval of
         specific fields.
+
         Returns an empty dictionary if object is not found.
         """
         queryset = object_type.search(using=self.client).query().filter(
@@ -107,14 +111,14 @@ class DocumentViewSet(SearchMixin, ObjectResolverMixin, ReadOnlyModelViewSet):
 
     def get_object_data(self, object_type, identifier):
         """Gets additional data from an object.
+
         Returns a dict containing a date string, text from Abstracts or Scope
         and Contents notes and a boolean indicator of a digital surrogate.
         """
         data = {"dates": None, "description": None, "online": False, "title": None}
         try:
             resolved = self.resolve_object(object_type, identifier, source_fields=["dates", "notes", "online", "title"])
-            notes = resolved.to_dict().get("notes", [])
-            data["description"] = text_from_notes(notes, "abstract") if text_from_notes(notes, "abstract") else text_from_notes(notes, "scopecontent")
+            data["description"] = description_from_notes(resolved.to_dict().get("notes", []))
             data["online"] = getattr(resolved, "online", False)
             data["dates"] = date_string(resolved.to_dict().get("dates", []))
             data["title"] = resolved.title
@@ -122,16 +126,51 @@ class DocumentViewSet(SearchMixin, ObjectResolverMixin, ReadOnlyModelViewSet):
         except Http404:
             return data
 
-    def get_hit_count(self, identifier, base_query):
-        """Gets the number of hits that are childrend of a specific component."""
-        q = Q("nested", path="ancestors", query=Q("match", ancestors__identifier=identifier)) | Q("ids", values=[identifier])
-        queryset = base_query.query(q)
-        query_dict = self.filter_queryset(queryset).to_dict()
-        # remove type from query, which limits results to the document type
-        processed_filter = list(filter(lambda i: "term" not in i, query_dict["query"]["bool"]["filter"]))
-        query_dict["query"]["bool"]["filter"] = processed_filter
-        self.search.query = query_dict["query"]
-        return self.search.query().count()
+    def get_hit_count(self, uri, base_query):
+        """Gets the number of hits that are childrend of a specific component.
+
+        If no query string exists in the request, returns None. If the query
+        filters on an object, removes that portion of the query so that results
+        for all object types are returned.
+        """
+        if self.request.GET.get(settings.REST_FRAMEWORK["SEARCH_PARAM"]):
+            identifier = uri.lstrip("/").split("/")[-1]
+            q = Q("nested", path="ancestors", query=Q("match", ancestors__identifier=identifier)) | Q("ids", values=[identifier])
+            queryset = base_query.query(self.get_structured_query()).query(q)
+            query_dict = self.filter_queryset(queryset).to_dict()
+            # remove type from query, which limits results to the document type
+            if query_dict["query"]["bool"].get("filter"):
+                processed_filter = list(filter(lambda i: "term" not in i, query_dict["query"]["bool"]["filter"]))
+                query_dict["query"]["bool"]["filter"] = processed_filter
+            self.search.query = query_dict["query"]
+            return self.search.query().count()
+        return None
+
+    def get_structured_query(self):
+        """Returns default query structure."""
+
+        query = self.request.GET.get(settings.REST_FRAMEWORK["SEARCH_PARAM"])
+        return Q("bool",
+                 should=[
+                     Q("simple_query_string",
+                         analyze_wildcard=True,
+                         query=query,
+                         fields=["title^5", "description"],
+                         default_operator="and"),
+                     Q("nested",
+                         path="notes",
+                         query=Q("simple_query_string",
+                                 analyze_wildcard=True,
+                                 query=query,
+                                 fields=["notes.subnotes.content"],
+                                 default_operator="and")),
+                     Q("nested",
+                         path="terms",
+                         query=Q("simple_query_string",
+                                 analyze_wildcard=True,
+                                 query=query,
+                                 fields=["terms.title"],
+                                 default_operator="and"))])
 
     @property
     def list_fields(self):
@@ -186,46 +225,44 @@ class CollectionViewSet(DocumentViewSet, AncestorMixin):
         "end_date": "dates.end",
     }
 
-    def prepare_children(self, children, group):
+    def prepare_children(self, children, group, base_query):
         """Appends additional data to each child object.
-        Adds `group` information from the parent collection, along with an
-        `online` flag indicating the presence of an accessible digital surrogate,
-        and a `description` field (either the abstract or scope and contents)
-        from child objects.
-        If a query parameter exists, fetches the hit count. Removes default
-        filtering on `type` field."""
-        base_query = self.search.query()
+
+        Adds `group` information from the parent collection, along with strings
+        for dates and description.
+
+        If a query parameter exists, fetches the hit count.
+        """
         for c in children:
             c.group = group  # append group from parent collection
-            obj_type = Object if c.type == "object" else Collection
-            data = self.get_object_data(obj_type, c.identifier)
-            c.dates = data["dates"] if data["dates"] else c.dates
-            c.description = data["description"]
-            c.online = data["online"]
-            c.title = data["title"] if data["title"] else c.title
+            c.dates = date_string(c.to_dict().get("dates", []))
+            c.description = description_from_notes(c.to_dict().get("notes", []))
             if len(self.request.GET):
-                c.hit_count = self.get_hit_count(c.identifier, base_query)
+                c.hit_count = self.get_hit_count(c.uri, base_query)
         return children
 
     @action(detail=True)
     def children(self, request, pk=None):
         """Provides a detail endpoint for a collection's children."""
-        obj = self.resolve_object(Collection, pk, source_fields=["children", "group"])
+        base_query = self.search.query()
+        self.search.query = Q("match_phrase", parent=pk)
+        child_hits = self.search.source(
+            ["group", "type", "uri", "dates", "notes", "online", "position", "title"]
+        ).sort("position")
+        obj = self.resolve_object(Collection, pk, source_fields=["group"])
         paginator = ChildrenPaginator()
-        page = paginator.paginate_queryset(obj.children, request)
+        page = paginator.paginate_queryset(child_hits, request)
         if page is not None:
-            page = self.prepare_children(page, obj.group)
+            page = self.prepare_children(page, obj.group, base_query)
             serializer = ReferenceSerializer(page, many=True)
             return paginator.get_paginated_response(serializer.data)
-        children = self.prepare_children(obj.children, obj.group)
+        children = self.prepare_children(child_hits, obj.group, base_query)
         serializer = ReferenceSerializer(children, many=True)
         return paginator.get_paginated_response(serializer.data)
 
 
 class ObjectViewSet(DocumentViewSet, AncestorMixin):
-    """
-    Returns data about objects, or groups of archival records which have no children.
-    """
+    """Returns data about objects, or groups of archival records without children."""
 
     document = Object
     list_serializer = ObjectListSerializer
@@ -308,11 +345,6 @@ class SearchView(DocumentViewSet):
             "path": "group.creators"
         }
     }
-    simple_query_string_search_fields = {"title": {"boost": 2}, "description": None}
-    simple_query_string_options = {"default_operator": "and"}
-    search_nested_fields = {
-        "notes": {"path": "notes", "fields": ["subnotes.content"]},
-    }
 
     def get_queryset(self):
         """Uses `collapse` to group hits based on `group` attribute."""
@@ -327,6 +359,12 @@ class SearchView(DocumentViewSet):
         a = A("cardinality", field="group.identifier")
         self.search.aggs.bucket("total", a)
         return self.search.extra(collapse=collapse_params).query()
+
+    def filter_queryset(self, queryset):
+        if self.request.GET.get(settings.REST_FRAMEWORK["SEARCH_PARAM"]):
+            queryset.query = self.get_structured_query()
+        filtered = super(DocumentViewSet, self).filter_queryset(queryset)
+        return filtered
 
 
 class FacetView(SearchView):
@@ -360,6 +398,7 @@ class FacetView(SearchView):
 
 class MyListView(SearchMixin, ObjectResolverMixin, APIView):
     """Returns a formatted MyList view.
+
     Takes a list of URIs, resolves saved items, and groups them by collection.
     """
 
@@ -370,7 +409,8 @@ class MyListView(SearchMixin, ObjectResolverMixin, APIView):
         for uri in list:
             object_type, ident = uri.lstrip("/").split("/")
             resolved = self.resolve_object(Collection if object_type == "collection" else Object, ident,
-                                           source_fields=["ancestors", "title", "uri", "dates", "group", "notes", "online", "external_identifiers"])
+                                           source_fields=["ancestors", "title", "uri", "dates", "extents",
+                                                          "group", "notes", "online", "external_identifiers"])
             resolved_list.append(resolved)
         collection_titles = set(map(lambda x: x.group.title, resolved_list))
         for title in collection_titles:
@@ -380,6 +420,7 @@ class MyListView(SearchMixin, ObjectResolverMixin, APIView):
                     "title": obj["title"],
                     "uri": obj["uri"],
                     "dates": obj["dates"],
+                    "extents": obj.get("extents"),
                     "notes": [note for note in obj.get("notes", []) if note["type"] in ["scopecontent", "abstract"]],
                     "parent": obj["ancestors"][0]["title"],
                     "parent_ref": "/collections/{}".format(obj["ancestors"][0]["identifier"]),
