@@ -195,7 +195,7 @@ class AgentViewSet(DocumentViewSet):
     }
     search_fields = SEARCH_FIELDS + ("description",)
     search_nested_fields = SEARCH_NESTED_FIELDS
-    ordering_fields = ORDERING_FIELDS.update({"type": "type.keyword"})
+    ordering_fields = {**ORDERING_FIELDS, **{"type": "type.keyword"}}
 
 
 class CollectionViewSet(DocumentViewSet, AncestorMixin):
@@ -289,14 +289,16 @@ class SearchView(DocumentViewSet):
     list_serializer = CollectionHitSerializer
     pagination_class = CollapseLimitOffsetPagination
     filter_backends = SEARCH_BACKENDS
-    filter_fields = FILTER_FIELDS.update({"type": {"field": "type", "lookups": STRING_LOOKUPS}, })
+    filter_fields = {**FILTER_FIELDS, **{"type": {"field": "type", "lookups": STRING_LOOKUPS}}}
     nested_filter_fields = NESTED_FILTER_FIELDS
-    ordering_fields = ORDERING_FIELDS.update({
+    search_fields = SEARCH_FIELDS
+    search_nested_fields = SEARCH_NESTED_FIELDS
+    ordering_fields = {** ORDERING_FIELDS, **{
         "creator": {
             "field": "group.creators.title.keyword",
             "path": "group.creators"
         }
-    })
+    }}
 
     def get_queryset(self):
         """Uses `collapse` to group hits based on `group` attribute."""
