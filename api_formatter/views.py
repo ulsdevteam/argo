@@ -18,8 +18,10 @@ from .serializers import (AgentListSerializer, AgentSerializer,
                           TermListSerializer, TermSerializer)
 from .view_helpers import (FILTER_BACKENDS, FILTER_FIELDS,
                            NESTED_FILTER_FIELDS, NUMBER_LOOKUPS,
-                           SEARCH_BACKENDS, STRING_LOOKUPS, ChildrenPaginator,
-                           SearchMixin, date_string, description_from_notes)
+                           ORDERING_FIELDS, SEARCH_BACKENDS, SEARCH_FIELDS,
+                           SEARCH_NESTED_FIELDS, STRING_LOOKUPS,
+                           ChildrenPaginator, SearchMixin, date_string,
+                           description_from_notes)
 
 
 class AncestorMixin(object):
@@ -128,7 +130,7 @@ class DocumentViewSet(SearchMixin, ObjectResolverMixin, ReadOnlyModelViewSet):
             return data
 
     def get_hit_count(self, uri, base_query):
-        """Gets the number of hits that are childrend of a specific component.
+        """Gets the number of hits that are children of a specific component.
 
         If no query string exists in the request, returns None. If the query
         filters on an object, removes that portion of the query so that results
@@ -191,16 +193,9 @@ class AgentViewSet(DocumentViewSet):
         "start_date": {"field": "dates.begin", "lookups": NUMBER_LOOKUPS, },
         "end_date": {"field": "dates.end", "lookups": NUMBER_LOOKUPS, },
     }
-    search_fields = ("title", "description")
-    search_nested_fields = {
-        "notes": {"path": "notes", "fields": ["subnotes.content"]},
-    }
-    ordering_fields = {
-        "title": "title.keyword",
-        "type": "type.keyword",
-        "start_date": "dates.begin",
-        "end_date": "dates.end",
-    }
+    search_fields = SEARCH_FIELDS + ("description",)
+    search_nested_fields = SEARCH_NESTED_FIELDS
+    ordering_fields = ORDERING_FIELDS.update({"type": "type.keyword"})
 
 
 class CollectionViewSet(DocumentViewSet, AncestorMixin):
@@ -213,18 +208,9 @@ class CollectionViewSet(DocumentViewSet, AncestorMixin):
 
     filter_fields = FILTER_FIELDS
     nested_filter_fields = NESTED_FILTER_FIELDS
-
-    search_fields = ("title",)
-    search_nested_fields = {
-        "notes": {"path": "notes", "fields": ["subnotes.content"]},
-    }
-
-    ordering_fields = {
-        "title": "title.keyword",
-        "level": "level.keyword",
-        "start_date": "dates.begin",
-        "end_date": "dates.end",
-    }
+    search_fields = SEARCH_FIELDS
+    search_nested_fields = SEARCH_NESTED_FIELDS
+    ordering_fields = ORDERING_FIELDS
 
     def prepare_children(self, children, group, base_query):
         """Appends additional data to each child object.
@@ -269,26 +255,11 @@ class ObjectViewSet(DocumentViewSet, AncestorMixin):
     list_serializer = ObjectListSerializer
     serializer = ObjectSerializer
     filter_backends = SEARCH_BACKENDS
-
-    filter_fields = {
-        "category": {"field": "category", "lookups": STRING_LOOKUPS},
-        "end_date": {"field": "dates.end", "lookups": NUMBER_LOOKUPS},
-        "genre": {"field": "formats", "lookups": STRING_LOOKUPS},
-        "online": "online",
-        "start_date": {"field": "dates.begin", "lookups": NUMBER_LOOKUPS},
-    }
+    filter_fields = FILTER_FIELDS
     nested_filter_fields = NESTED_FILTER_FIELDS
-
-    search_fields = ("title",)
-    search_nested_fields = {
-        "notes": {"path": "notes", "fields": ["subnotes.content"]},
-    }
-
-    ordering_fields = {
-        "title": "title.keyword",
-        "start_date": "dates.begin",
-        "end_date": "dates.end",
-    }
+    search_fields = SEARCH_FIELDS
+    search_nested_fields = SEARCH_NESTED_FIELDS
+    ordering_fields = ORDERING_FIELDS
 
 
 class TermViewSet(DocumentViewSet):
@@ -305,7 +276,7 @@ class TermViewSet(DocumentViewSet):
         "term_type": {"field": "term_type", "lookups": STRING_LOOKUPS, },
     }
 
-    search_fields = ("title", "type")
+    search_fields = SEARCH_FIELDS + ("type",)
 
     ordering_fields = {
         "title": "title.keyword",
@@ -318,34 +289,14 @@ class SearchView(DocumentViewSet):
     list_serializer = CollectionHitSerializer
     pagination_class = CollapseLimitOffsetPagination
     filter_backends = SEARCH_BACKENDS
-
-    filter_fields = {
-        "category": {"field": "category", "lookups": STRING_LOOKUPS},
-        "end_date": {"field": "dates.end", "lookups": NUMBER_LOOKUPS},
-        "genre": {"field": "formats.keyword", "lookups": STRING_LOOKUPS},
-        "online": "online",
-        "start_date": {"field": "dates.begin", "lookups": NUMBER_LOOKUPS},
-        "type": {"field": "type", "lookups": STRING_LOOKUPS},
-    }
-    nested_filter_fields = {
-        "subject": {
-            "field": "terms.title.keyword",
-            "path": "terms",
-        },
-        "creator": {
-            "field": "creators.title.keyword",
-            "path": "creators"
-        }
-    }
-    ordering_fields = {
-        "title": "group.title",
-        "start_date": "group.dates.begin",
-        "end_date": "group.dates.end",
+    filter_fields = FILTER_FIELDS.update({"type": {"field": "type", "lookups": STRING_LOOKUPS}, })
+    nested_filter_fields = NESTED_FILTER_FIELDS
+    ordering_fields = ORDERING_FIELDS.update({
         "creator": {
             "field": "group.creators.title.keyword",
             "path": "group.creators"
         }
-    }
+    })
 
     def get_queryset(self):
         """Uses `collapse` to group hits based on `group` attribute."""
