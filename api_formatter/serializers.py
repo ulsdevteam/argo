@@ -3,6 +3,8 @@ from datetime import datetime
 from django.urls import reverse
 from rest_framework import serializers
 
+from .view_helpers import description_from_notes
+
 
 class ExternalIdentifierSerializer(serializers.Serializer):
     identifier = serializers.CharField()
@@ -133,6 +135,7 @@ class AgentListSerializer(BaseListSerializer):
 class CollectionSerializer(BaseDetailSerializer):
     level = serializers.CharField()
     languages = LanguageSerializer(many=True, allow_null=True)
+    description = serializers.SerializerMethodField()
     extents = ExtentSerializer(many=True)
     formats = serializers.ListField()
     online = serializers.BooleanField()
@@ -143,6 +146,9 @@ class CollectionSerializer(BaseDetailSerializer):
     creators = ReferenceSerializer(many=True, allow_null=True)
     terms = ReferenceSerializer(many=True, allow_null=True)
 
+    def get_description(self, obj):
+        return description_from_notes(getattr(obj, "notes", []))
+
 
 class CollectionListSerializer(BaseListSerializer):
     pass
@@ -150,6 +156,7 @@ class CollectionListSerializer(BaseListSerializer):
 
 class ObjectSerializer(BaseDetailSerializer):
     languages = LanguageSerializer(many=True, allow_null=True)
+    description = serializers.SerializerMethodField()
     extents = ExtentSerializer(many=True, allow_null=True)
     formats = serializers.ListField()
     online = serializers.BooleanField()
@@ -158,6 +165,9 @@ class ObjectSerializer(BaseDetailSerializer):
     rights_statements = RightsStatementSerializer(many=True, allow_null=True)
     agents = ReferenceSerializer(many=True, allow_null=True)
     terms = ReferenceSerializer(many=True, allow_null=True)
+
+    def get_description(self, obj):
+        return description_from_notes(getattr(obj, "notes", []))
 
 
 class ObjectListSerializer(BaseListSerializer):
