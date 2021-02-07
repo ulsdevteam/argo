@@ -151,7 +151,7 @@
                 }
             ],
             "title": "Biographical/Historical note",
-            "type": "multipart"
+            "type": "bioghist"
         },
         {
             "source": "archivesspace",
@@ -165,35 +165,7 @@
                 }
             ],
             "title": "Biographical/Historical note",
-            "type": "multipart"
-        },
-        {
-            "source": "archivesspace",
-            "subnotes": [
-                {
-                    "content": [
-                        "Information regarding the Rockefeller Archive Center's preferred elements and forms of citation can be found at <a href=\"http://www.rockarch.org/research/citations.php\">http://www.rockarch.org/research/citations.php</a>"
-                    ],
-                    "items": [],
-                    "type": "text"
-                }
-            ],
-            "title": "Preferred Citation note",
-            "type": "multipart"
-        },
-        {
-            "source": "archivesspace",
-            "subnotes": [
-                {
-                    "content": [
-                        "Former Classification: III 04 J.2"
-                    ],
-                    "items": [],
-                    "type": "text"
-                }
-            ],
-            "title": "File Plan note",
-            "type": "multipart"
+            "type": "bioghist"
         },
         {
             "source": "archivesspace",
@@ -207,7 +179,7 @@
                 }
             ],
             "title": "Processing Information note",
-            "type": "multipart"
+            "type": "processinfo"
         },
         {
             "source": "archivesspace",
@@ -221,7 +193,7 @@
                 }
             ],
             "title": "Conditions Governing Use note",
-            "type": "multipart"
+            "type": "userestrict"
         },
         {
             "source": "archivesspace",
@@ -235,7 +207,7 @@
                 }
             ],
             "title": "Conditions Governing Access note",
-            "type": "multipart"
+            "type": "accessrestrict"
         },
         {
             "source": "archivesspace",
@@ -249,21 +221,7 @@
                 }
             ],
             "title": "Arrangement note",
-            "type": "multipart"
-        },
-        {
-            "source": "archivesspace",
-            "subnotes": [
-                {
-                    "content": [
-                        "Detailed finding aids for each series of this collection are available:\n\n<a href=\"../FA338/overview\">Nelson A. Rockefeller papers, Activities (FA338)</a>\n\n<a href=\"../FA339/overview\">Nelson A. Rockefeller Papers, AIA-IBEC (FA339)</a>\n\n<a href=\"../FA340/overview\">Nelson A. Rockefeller Papers, Art (FA340)</a>\n\n<a href=\"../FA341/overview\">Nelson A. Rockefeller Papers, Countries (FA341)</a>\n\n<a href=\"../FA342/overview\">Nelson A. Rockefeller Papers, DNA (FA342)</a>\n\n<a href=\"../FA343/overview\">Nelson A. Rockefeller Papers, Family and Friends (FA343)</a>\n\n<a href=\"../FA344/overview\">Nelson A. Rockefeller Papers, Oral Histories (FA344)</a>\n\n<a href=\"../FA345/overview\">Nelson A. Rockefeller Papers, Politics - New York City Office (FA345)</a>\n\n<a href=\"../FA347/overview\">Nelson A. Rockefeller Papers, Politics - Oscar M. Ruebhausen (FA347)</a>\n\n<a href=\"../FA348/overview\">Nelson A. Rockefeller Papers, Projects (FA348)</a>\n\n<a href=\"../FA349/overview\">Nelson A. Rockefeller Papers, Speeches, Post-Vice Presidential (FA349)</a>\n\n<a href=\"../FA350/overview\">Nelson A. Rockefeller Papers, Washington, DC (FA350)</a>\n\n<a href=\"../FA351/overview\">Nelson A. Rockefeller Papers, Ann C. Whitman - Politics (FA351)</a>\n\n<a href=\"../FA352/overview\">Nelson A. Rockefeller Papers, Hugh Morrow Interviews (FA352)</a>"
-                    ],
-                    "items": [],
-                    "type": "text"
-                }
-            ],
-            "title": "Other Finding Aids note",
-            "type": "multipart"
+            "type": "arrangement"
         },
         {
             "source": "archivesspace",
@@ -277,7 +235,7 @@
                 }
             ],
             "title": "Processing Information note",
-            "type": "multipart"
+            "type": "processinfo"
         },
         {
             "source": "archivesspace",
@@ -291,7 +249,7 @@
                 }
             ],
             "title": "Scope and Contents",
-            "type": "multipart"
+            "type": "scopecontent"
         }
     ],
     "online": false,
@@ -324,6 +282,7 @@
             "type": "person"
         }
     ],
+    "position": 0,
     "rights": [],
     "terms": [
         {
