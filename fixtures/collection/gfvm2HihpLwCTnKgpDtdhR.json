@@ -167,7 +167,7 @@
                 }
             ],
             "title": "Conditions Governing Access",
-            "type": "multipart"
+            "type": "accessrestrict"
         },
         {
             "source": "archivesspace",
@@ -181,21 +181,7 @@
                 }
             ],
             "title": "Arrangement",
-            "type": "multipart"
-        },
-        {
-            "source": "archivesspace",
-            "subnotes": [
-                {
-                    "content": [
-                        "Information regarding the Rockefeller Archive Center's preferred elements and forms of citation can be found at <a xlink:href=\"http://www.rockarch.org/research/citations.php\">http://www.rockarch.org/research/citations.php</a>"
-                    ],
-                    "items": [],
-                    "type": "text"
-                }
-            ],
-            "title": "Preferred Citation",
-            "type": "multipart"
+            "type": "arrangement"
         },
         {
             "source": "archivesspace",
@@ -209,21 +195,7 @@
                 }
             ],
             "title": "Scope and Contents",
-            "type": "multipart"
-        },
-        {
-            "source": "archivesspace",
-            "subnotes": [
-                {
-                    "content": [
-                        "Papers were transferred to RAC in 2012 by the estate of Cary Reich."
-                    ],
-                    "items": [],
-                    "type": "text"
-                }
-            ],
-            "title": "Immediate Source of Acquisition",
-            "type": "multipart"
+            "type": "scopecontent"
         },
         {
             "source": "archivesspace",
@@ -237,7 +209,7 @@
                 }
             ],
             "title": "Conditions Governing Use",
-            "type": "multipart"
+            "type": "userestrict"
         },
         {
             "source": "archivesspace",
@@ -251,7 +223,7 @@
                 }
             ],
             "title": "Processing Information",
-            "type": "multipart"
+            "type": "processinfo"
         },
         {
             "source": "archivesspace",
@@ -265,7 +237,7 @@
                 }
             ],
             "title": "Processing Information",
-            "type": "multipart"
+            "type": "processinfo"
         }
     ],
     "online": false,
@@ -298,6 +270,7 @@
             "type": "person"
         }
     ],
+    "position": 0,
     "rights": [],
     "terms": [
         {

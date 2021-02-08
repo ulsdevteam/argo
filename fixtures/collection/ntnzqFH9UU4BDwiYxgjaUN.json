@@ -125,21 +125,7 @@
                 }
             ],
             "title": "Conditions Governing Access",
-            "type": "multipart"
-        },
-        {
-            "source": "archivesspace",
-            "subnotes": [
-                {
-                    "content": [
-                        "Information regarding the Rockefeller Archive Center's preferred elements and forms of citation can be found at <a href=\"http://www.rockarch.org/research/citations.php\">http://www.rockarch.org/research/citations.php</a>"
-                    ],
-                    "items": [],
-                    "type": "text"
-                }
-            ],
-            "title": "Preferred Citation",
-            "type": "multipart"
+            "type": "accessrestrict"
         },
         {
             "source": "archivesspace",
@@ -153,7 +139,7 @@
                 }
             ],
             "title": "Scope and Contents",
-            "type": "multipart"
+            "type": "scopecontent"
         },
         {
             "source": "archivesspace",
@@ -167,7 +153,7 @@
                 }
             ],
             "title": "Arrangement",
-            "type": "multipart"
+            "type": "arrangement"
         }
     ],
     "online": false,
@@ -187,6 +173,7 @@
         }
     ],
     "people": [],
+    "position": 1,
     "rights": [],
     "terms": [
         {
