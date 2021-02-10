@@ -8,14 +8,14 @@ class CollapseLimitOffsetPagination(LimitOffsetPagination):
         """Overrides `get_paginated_response_context` to ignore facets."""
 
         return [
-            ('count', self.count),
+            ('count', self.get_count()),
             ('next', self.get_next_link()),
             ('previous', self.get_previous_link()),
             ('results', data),
         ]
 
-    def get_count(self, es_response):
+    def get_count(self):
         if self.facets:
             return self.facets.total.value
         else:
-            return super(LimitOffsetPagination, self).get_count(es_response)
+            return self.count
