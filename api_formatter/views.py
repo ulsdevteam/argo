@@ -368,7 +368,7 @@ class MyListView(SearchMixin, ObjectResolverMixin, APIView):
                                                               "group", "notes", "online", "external_identifiers"])
                 resolved_list.append(resolved)
             except Http404:
-                pass
+                pass  # missing objects are ignored
         collection_titles = set(map(lambda x: x.group.title, resolved_list))
         for title in collection_titles:
             collection_objects = [obj.to_dict() for obj in resolved_list if obj.group.title == title]
