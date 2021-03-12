@@ -362,10 +362,13 @@ class MyListView(SearchMixin, ObjectResolverMixin, APIView):
         resolved_list = []
         for uri in list:
             object_type, ident = uri.lstrip("/").split("/")
-            resolved = self.resolve_object(Collection if object_type == "collection" else Object, ident,
-                                           source_fields=["ancestors", "title", "uri", "dates", "extents",
-                                                          "group", "notes", "online", "external_identifiers"])
-            resolved_list.append(resolved)
+            try:
+                resolved = self.resolve_object(Collection if object_type == "collection" else Object, ident,
+                                               source_fields=["ancestors", "title", "uri", "dates", "extents",
+                                                              "group", "notes", "online", "external_identifiers"])
+                resolved_list.append(resolved)
+            except Http404:
+                pass
         collection_titles = set(map(lambda x: x.group.title, resolved_list))
         for title in collection_titles:
             collection_objects = [obj.to_dict() for obj in resolved_list if obj.group.title == title]
