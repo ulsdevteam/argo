@@ -13,7 +13,8 @@ from django_elasticsearch_dsl_drf.constants import (LOOKUP_FILTER_PREFIX,
 from django_elasticsearch_dsl_drf.filter_backends import (DefaultOrderingFilterBackend,
                                                           FilteringFilterBackend,
                                                           NestedFilteringFilterBackend,
-                                                          OrderingFilterBackend)
+                                                          OrderingFilterBackend,
+                                                          SuggesterFilterBackend)
 from django_elasticsearch_dsl_drf.pagination import LimitOffsetPagination
 from elasticsearch_dsl import Index, Search, connections
 from rest_framework.viewsets import ReadOnlyModelViewSet
@@ -120,7 +121,7 @@ ORDERING_FIELDS = {
     "end_date": "dates.end",
 }
 
-SEARCH_BACKENDS = FILTER_BACKENDS + [NestedFilteringFilterBackend, ]
+SEARCH_BACKENDS = FILTER_BACKENDS + [NestedFilteringFilterBackend, SuggesterFilterBackend]
 
 
 class ChildrenPaginator(LimitOffsetPagination):

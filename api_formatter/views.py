@@ -1,11 +1,13 @@
 from argo import settings
 from django.http import Http404
+from django_elasticsearch_dsl_drf.constants import SUGGESTER_TERM
 from django_elasticsearch_dsl_drf.pagination import LimitOffsetPagination
 from elasticsearch_dsl import A, Q
 from rac_es.documents import (Agent, BaseDescriptionComponent, Collection,
                               Object, Term)
 from rest_framework.decorators import action
 from rest_framework.response import Response
+from rest_framework.status import HTTP_400_BAD_REQUEST
 from rest_framework.views import APIView
 from rest_framework.viewsets import ReadOnlyModelViewSet
 
@@ -286,13 +288,20 @@ class TermViewSet(DocumentViewSet):
 class SearchView(DocumentViewSet):
     """Performs search queries across agents, collections, objects and terms."""
     document = BaseDescriptionComponent
-    list_serializer = CollectionHitSerializer
+    serializer = CollectionHitSerializer
     pagination_class = CollapseLimitOffsetPagination
     filter_backends = SEARCH_BACKENDS
     filter_fields = {**FILTER_FIELDS, **{"type": {"field": "type", "lookups": STRING_LOOKUPS}}}
     nested_filter_fields = NESTED_FILTER_FIELDS
     search_fields = SEARCH_FIELDS
     search_nested_fields = SEARCH_NESTED_FIELDS
+    suggester_fields = {
+        "title_suggest": {
+            "field": "title",
+            "suggesters": [SUGGESTER_TERM],
+            "default_suggester": SUGGESTER_TERM,
+        }
+    }
     ordering_fields = {** ORDERING_FIELDS, **{
         "creator": {
             "field": "group.creators.title.keyword",
@@ -313,12 +322,29 @@ class SearchView(DocumentViewSet):
         a = A("cardinality", field="group.identifier")
         self.search.aggs.bucket("total", a)
         return self.search.extra(collapse=collapse_params).query()
+        return self.search.query()
 
     def filter_queryset(self, queryset):
         if self.request.GET.get(settings.REST_FRAMEWORK["SEARCH_PARAM"]):
             queryset.query = self.get_structured_query()
         filtered = super(DocumentViewSet, self).filter_queryset(queryset)
         return filtered
+
+    def original_get_queryset(self):
+        super(DocumentViewSet, self).get_queryset()
+
+    @action(detail=False)
+    def suggest(self, request):
+        """Suggest functionality."""
+        queryset = self.filter_queryset(self.get_queryset())
+        print(queryset.to_dict())
+        is_suggest = getattr(queryset, '_suggest', False)
+        if not is_suggest:
+            return Response(
+                status=HTTP_400_BAD_REQUEST
+            )
+        page = self.paginate_queryset(queryset)
+        return Response(page)
 
 
 class FacetView(SearchView):
