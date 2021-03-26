@@ -14,7 +14,7 @@ from rac_schemas import is_valid
 from rest_framework.test import APIRequestFactory
 
 from .views import (AgentViewSet, CollectionViewSet, MyListView, ObjectViewSet,
-                    TermViewSet)
+                    SearchView, TermViewSet)
 
 TYPE_MAP = (
     ('agent', Agent, AgentViewSet),
@@ -198,6 +198,12 @@ class TestAPI(TestCase):
         self.assertEqual(
             response.status_code, 200, "MyList returned an error: {}".format(response.data))
         self.assertIsNot(response.data, [])
+
+    def test_suggest_view(self):
+        suggest = self.get_random_word(["inhibita", "foobar"])
+        request = self.factory.get(reverse("search-suggest"), args=suggest)
+        response = SearchView.as_view(actions={"get": "list"}, basename="search")(request)
+        self.assertEqual(response.status_code, 200, "Suggest view returned an error: {}".format(response.data))
 
     def test_documents(self):
         self.validate_fixtures()
