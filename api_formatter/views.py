@@ -305,7 +305,8 @@ class SearchView(DocumentViewSet):
     ordering_fields = {** ORDERING_FIELDS, **{
         "creator": {
             "field": "group.creators.title.keyword",
-            "path": "group.creators"
+            "path": "group.creators",
+            "split_path": False,
         }
     }}
 
