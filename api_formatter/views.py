@@ -330,14 +330,10 @@ class SearchView(DocumentViewSet):
         filtered = super(DocumentViewSet, self).filter_queryset(queryset)
         return filtered
 
-    def original_get_queryset(self):
-        super(DocumentViewSet, self).get_queryset()
-
     @action(detail=False)
     def suggest(self, request):
         """Suggest functionality."""
         queryset = self.filter_queryset(self.get_queryset())
-        print(queryset.to_dict())
         is_suggest = getattr(queryset, '_suggest', False)
         if not is_suggest:
             return Response(
