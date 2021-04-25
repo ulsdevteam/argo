@@ -323,7 +323,6 @@ class SearchView(DocumentViewSet):
         a = A("cardinality", field="group.identifier")
         self.search.aggs.bucket("total", a)
         return self.search.extra(collapse=collapse_params).query()
-        return self.search.query()
 
     def filter_queryset(self, queryset):
         if self.request.GET.get(settings.REST_FRAMEWORK["SEARCH_PARAM"]):
