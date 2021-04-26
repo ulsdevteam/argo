@@ -50,7 +50,7 @@ class AncestorMixin(object):
             a.online = data["online"]
             a.title = data["title"]
             if len(self.request.GET):
-                a.hit_count = self.get_hit_count(a.identifier, base_query)
+                a.hit_count, a.online_hit_count = self.get_hit_counts(a.identifier, base_query)
         serializer = AncestorsSerializer(ancestors)
         return Response(serializer.data)
 
@@ -131,7 +131,7 @@ class DocumentViewSet(SearchMixin, ObjectResolverMixin, ReadOnlyModelViewSet):
         except Http404:
             return data
 
-    def get_hit_count(self, uri, base_query):
+    def get_hit_counts(self, uri, base_query):
         """Gets the number of hits that are children of a specific component.
 
         If no query string exists in the request, returns None. If the query
@@ -148,8 +148,12 @@ class DocumentViewSet(SearchMixin, ObjectResolverMixin, ReadOnlyModelViewSet):
                 processed_filter = list(filter(lambda i: "term" not in i, query_dict["query"]["bool"]["filter"]))
                 query_dict["query"]["bool"]["filter"] = processed_filter
             self.search.query = query_dict["query"]
-            return self.search.query().count()
-        return None
+            hit_count = self.search.query().count()
+            query_dict["query"]["bool"]["filter"] = [{"term": {"online": True}}]
+            self.search.query = query_dict["query"]
+            online_hit_count = self.search.query().count()
+            return hit_count, online_hit_count
+        return None, None
 
     def get_structured_query(self):
         """Returns default query structure."""
@@ -227,7 +231,7 @@ class CollectionViewSet(DocumentViewSet, AncestorMixin):
             c.dates = date_string(c.to_dict().get("dates", []))
             c.description = description_from_notes(c.to_dict().get("notes", []))
             if len(self.request.GET):
-                c.hit_count = self.get_hit_count(c.uri, base_query)
+                c.hit_count, c.online_hit_count = self.get_hit_counts(c.uri, base_query)
         return children
 
     @action(detail=True)
@@ -311,7 +315,7 @@ class SearchView(DocumentViewSet):
     }}
 
     def get_queryset(self):
-        """Uses `collapse` to group hits based on `group` attribute."""
+        """Uses `collapse` to group hits based on `group.identifier` attribute."""
         collapse_params = {
             "field": "group.identifier",
             "inner_hits": {

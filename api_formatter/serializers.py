@@ -76,6 +76,7 @@ class ReferenceSerializer(serializers.Serializer):
     type = serializers.CharField(allow_null=True)
     online = serializers.SerializerMethodField()
     hit_count = serializers.IntegerField(allow_null=True)
+    online_hit_count = serializers.IntegerField(allow_null=True)
     uri = serializers.SerializerMethodField()
     dates = serializers.CharField(allow_null=True)
     description = serializers.CharField(allow_null=True)
@@ -185,10 +186,7 @@ class TermListSerializer(BaseListSerializer):
 
 
 class CollectionHitSerializer(serializers.Serializer):
-    """Serializes data for collapsed hits.
-
-    This requires secondary resolution of hits when they are loaded.
-    """
+    """Serializes data for collapsed hits."""
     category = serializers.CharField(source="group.category")
     dates = serializers.SerializerMethodField()
     hit_count = serializers.IntegerField(source="meta.inner_hits.collection_hits.hits.total.value")
