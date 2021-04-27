@@ -189,7 +189,8 @@ class CollectionHitSerializer(serializers.Serializer):
     """Serializes data for collapsed hits."""
     category = serializers.CharField(source="group.category")
     dates = serializers.SerializerMethodField()
-    hit_count = serializers.IntegerField(source="meta.inner_hits.collection_hits.hits.total.value")
+    hit_count = serializers.IntegerField()
+    online_hit_count = serializers.IntegerField(allow_null=True)
     title = serializers.CharField(source="group.title")
     uri = serializers.SerializerMethodField()
     creators = serializers.SerializerMethodField()
