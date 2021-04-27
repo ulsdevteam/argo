@@ -143,8 +143,6 @@ class DocumentViewSet(SearchMixin, ObjectResolverMixin, ReadOnlyModelViewSet):
             q = Q("nested", path="ancestors", query=Q("match", ancestors__identifier=identifier)) | Q("ids", values=[identifier])
             queryset = base_query.query(self.get_structured_query()).query(q)
             query_dict = self.filter_queryset(queryset).to_dict()
-            # set minimum_should_match to zero since this query now has a `must` clause
-            query_dict["query"]["bool"]["minimum_should_match"] = 0
             # remove type from query, which limits results to the document type
             if query_dict["query"]["bool"].get("filter"):
                 processed_filter = list(filter(lambda i: "term" not in i, query_dict["query"]["bool"]["filter"]))
@@ -344,7 +342,7 @@ class SearchView(DocumentViewSet):
         page = self.paginate_queryset(queryset)
         if page is not None:
             for p in page:
-                p.hit_count, p.online_hit_count = self.get_hit_counts(p.uri, queryset)
+                p.hit_count, p.online_hit_count = self.get_hit_counts(p.group.identifier, queryset)
             serializer = self.get_serializer(page, many=True)
             return self.get_paginated_response(serializer.data)
         for q in queryset:
