@@ -32,7 +32,7 @@ STOP_WORDS = ["a", "an", "and", "are", "as", "at", "be", "but", "by", "for", "if
 class TestAPI(TestCase):
     def setUp(self):
         self.factory = APIRequestFactory()
-        self.connection = connections.create_connection(hosts=settings.ELASTICSEARCH_DSL['default']['hosts'], timeout=60)
+        self.connection = connections.create_connection(hosts="http://elasticsearch:9200", timeout=60)
         BaseDescriptionComponent.init()
 
     def validate_fixtures(self):
