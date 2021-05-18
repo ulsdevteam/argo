@@ -441,11 +441,12 @@ class FacetView(SearchView):
         self.search.aggs.bucket("max_date", max_date)
         self.search.aggs.bucket("min_date", min_date)
         self.search.aggs.bucket("online", online)
-        return self.search.extra(size=0)
+        return (self.search.extra(size=0).query(self.get_structured_query())
+                if self.request.GET.get(settings.REST_FRAMEWORK["SEARCH_PARAM"])
+                else self.search.extra(size=0))
 
     def retrieve(self, request, *args, **kwargs):
-        queryset = self.filter_queryset(self.get_queryset())
-        results = queryset.execute()
+        results = self.get_queryset().execute()
         serializer = self.get_serializer(results)
         return Response(serializer.data)
 
