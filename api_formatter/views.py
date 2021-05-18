@@ -234,6 +234,11 @@ class CollectionViewSet(DocumentViewSet, AncestorMixin):
                 c.hit_count, c.online_hit_count = self.get_hit_counts(c.uri, base_query)
         return children
 
+    def get_children_count(self, identifier):
+        """Returns a count of the number of children of a given collection."""
+        self.search.query = Q("nested", path="ancestors", query=Q("match", ancestors__identifier=identifier))
+        return self.search.query().source([]).count()
+
     @action(detail=True)
     def children(self, request, pk=None):
         """Provides a detail endpoint for a collection's children."""
@@ -252,6 +257,59 @@ class CollectionViewSet(DocumentViewSet, AncestorMixin):
         children = self.prepare_children(child_hits, obj.group, base_query)
         serializer = ReferenceSerializer(children, many=True)
         return paginator.get_paginated_response(serializer.data)
+
+    @action(detail=True)
+    def minimap(self, request, pk=None):
+        """Returns data for search results location minimaps.
+
+        For each hit, calculates the counts of the immediate ancestors of the hit,
+        then sums that with the previous top ancestors of the collection.
+        """
+
+        data = {"hits": []}
+
+        # Get top ancestors count and position
+        top_ancestors = []
+        self.search.query = Q("match_phrase", parent=pk)
+        for top_ancestor in self.search.source(["uri", "position"]).scan():
+            identifier = top_ancestor.uri.split("/")[-1]
+            count = self.get_children_count(identifier)
+            top_ancestors.append({
+                "identifier": identifier,
+                "count": count,
+                "position": top_ancestor.position})
+
+        data["total"] = sum([t["count"] for t in top_ancestors])
+
+        # TODO: this works but is incredibly inefficient. See if there's a way
+        # to only calculate these child counts once? Or maybe we need to index
+        # this data to begin with?
+
+        # Calculate index for each result
+        self.search.query = self.get_structured_query() & Q("nested", path="ancestors", query=Q("match", ancestors__identifier=pk))
+        for result in self.search.source(["position", "uri", "title", "online", "ancestors"]).scan():
+            immediate_ancestor_count = result.position
+            immediate_ancestor_position = 0
+            if result.ancestors:
+                for a in result.ancestors[:-1]:  # Iterate ancestors from the botton up, except for the top level
+                    ancestor_data = self.resolve_object(Collection, a.identifier, source_fields=["position", "parent"])
+                    immediate_ancestor_count += ancestor_data.position
+                    if ancestor_data.position > 0:
+                        self.search.query = Q("match_phrase", parent=ancestor_data.parent) & Q("range", position={'gt': ancestor_data.position})
+                        for sibling in self.search.source(["position", "uri"]).scan():
+                            # TODO: see how much removing this improves performance
+                            immediate_ancestor_count += self.get_children_count(sibling.uri.split("/")[-1])
+                    if not ancestor_data.parent:
+                        immediate_ancestor_position = ancestor_data.position
+
+            previous_top_ancestors_count = sum([t["count"] for t in top_ancestors if t["position"] < immediate_ancestor_position])
+            index = immediate_ancestor_count + previous_top_ancestors_count
+            data["hits"].append({
+                "index": index,
+                "uri": result.uri,
+                "title": result.title,
+                "online": result.online})
+        return Response(data)
 
 
 class ObjectViewSet(DocumentViewSet, AncestorMixin):
