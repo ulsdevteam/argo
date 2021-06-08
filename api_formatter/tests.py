@@ -103,9 +103,7 @@ class TestAPI(TestCase):
                             yield result
 
     def sort_fields(self, viewset, basename, base_url):
-        """
-        Tests ascending and descending sort on ordering fields
-        """
+        """Tests ascending and descending sort on ordering fields."""
         for field in viewset.ordering_fields:
             for sort in [field, "-{}".format(field)]:
                 url = "{}?sort={}".format(base_url, sort)
@@ -145,6 +143,7 @@ class TestAPI(TestCase):
                 self.assertTrue(search_response.data.get('count') > 0)
 
     def list_view(self, model_cls, basename, viewset, obj_length):
+        """Asserts list views for each document return expected results."""
         base_url = reverse("{}-list".format(basename))
         base_viewset = viewset.as_view(actions={"get": "list"}, basename=basename)
         request = self.factory.get(base_url)
@@ -222,6 +221,7 @@ class TestAPI(TestCase):
             self.assertEqual(len(response.data["title_suggest"][0]["options"]), expected)
 
     def test_documents(self):
+        """Main test method for documents."""
         self.validate_fixtures()
         for doc_type, doc_cls, viewset in TYPE_MAP:
             added_ids = self.index_fixture_data('fixtures/{}'.format(doc_type), doc_cls)
@@ -236,11 +236,13 @@ class TestAPI(TestCase):
                 self.mylist_view(["/objects/{}".format(i) for i in added_ids])
 
     def test_search(self):
+        """Assert specific searches return expected number of results."""
         for query_term, expected_count in [("rockefeller", 34), ("nelson", 5), ("cary reich", 2), ("", 175)]:
             request = self.factory.get("{}?query={}".format(reverse("search-list"), query_term))
             response = SearchView.as_view(actions={"get": "list"}, basename="search")(request)
             self.assertEqual(response.data["count"], expected_count)
 
     def test_schema(self):
+        """Assert the schema view returns the correct status code."""
         schema = self.client.get(reverse('schema'))
         self.assertEqual(schema.status_code, 200, "Wrong HTTP code")
