@@ -295,7 +295,7 @@ class CollectionViewSet(DocumentViewSet, AncestorMixin):
                     ancestor_data = self.resolve_object(Collection, a.identifier, source_fields=["position", "parent"])
                     immediate_ancestor_count += ancestor_data.position
                     if ancestor_data.position > 0:
-                        self.search.query = Q("match_phrase", parent=ancestor_data.parent) & Q("range", position={'gt': ancestor_data.position})
+                        self.search.query = Q("match_phrase", parent=ancestor_data.parent) & Q("range", position={'lt': ancestor_data.position})
                         for sibling in self.search.source(["position", "uri"]).scan():
                             # TODO: see how much removing this improves performance
                             immediate_ancestor_count += self.get_children_count(sibling.uri.split("/")[-1])
