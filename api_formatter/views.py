@@ -1,11 +1,13 @@
 from argo import settings
 from django.http import Http404
+from django_elasticsearch_dsl_drf.constants import SUGGESTER_TERM
 from django_elasticsearch_dsl_drf.pagination import LimitOffsetPagination
 from elasticsearch_dsl import A, Q
 from rac_es.documents import (Agent, BaseDescriptionComponent, Collection,
                               Object, Term)
 from rest_framework.decorators import action
 from rest_framework.response import Response
+from rest_framework.status import HTTP_400_BAD_REQUEST
 from rest_framework.views import APIView
 from rest_framework.viewsets import ReadOnlyModelViewSet
 
@@ -48,7 +50,7 @@ class AncestorMixin(object):
             a.online = data["online"]
             a.title = data["title"]
             if len(self.request.GET):
-                a.hit_count = self.get_hit_count(a.identifier, base_query)
+                a.hit_count, a.online_hit_count = self.get_hit_counts(a.identifier, base_query)
         serializer = AncestorsSerializer(ancestors)
         return Response(serializer.data)
 
@@ -92,7 +94,7 @@ class DocumentViewSet(SearchMixin, ObjectResolverMixin, ReadOnlyModelViewSet):
         query = self.search.query()
         if self.action == "list":
             query = query.source(self.list_fields)
-        return query.source(exclude=["ancestors", "children"])
+        return query.source(excludes=["ancestors", "children"])
 
     def get_object(self):
         """Returns a specific object."""
@@ -129,7 +131,7 @@ class DocumentViewSet(SearchMixin, ObjectResolverMixin, ReadOnlyModelViewSet):
         except Http404:
             return data
 
-    def get_hit_count(self, uri, base_query):
+    def get_hit_counts(self, uri, base_query):
         """Gets the number of hits that are children of a specific component.
 
         If no query string exists in the request, returns None. If the query
@@ -146,8 +148,12 @@ class DocumentViewSet(SearchMixin, ObjectResolverMixin, ReadOnlyModelViewSet):
                 processed_filter = list(filter(lambda i: "term" not in i, query_dict["query"]["bool"]["filter"]))
                 query_dict["query"]["bool"]["filter"] = processed_filter
             self.search.query = query_dict["query"]
-            return self.search.query().count()
-        return None
+            hit_count = self.search.query().count()
+            query_dict["query"]["bool"]["filter"] = [{"term": {"online": True}}]
+            self.search.query = query_dict["query"]
+            online_hit_count = self.search.query().count()
+            return hit_count, online_hit_count
+        return None, None
 
     def get_structured_query(self):
         """Returns default query structure."""
@@ -225,7 +231,7 @@ class CollectionViewSet(DocumentViewSet, AncestorMixin):
             c.dates = date_string(c.to_dict().get("dates", []))
             c.description = description_from_notes(c.to_dict().get("notes", []))
             if len(self.request.GET):
-                c.hit_count = self.get_hit_count(c.uri, base_query)
+                c.hit_count, c.online_hit_count = self.get_hit_counts(c.uri, base_query)
         return children
 
     @action(detail=True)
@@ -286,22 +292,35 @@ class TermViewSet(DocumentViewSet):
 class SearchView(DocumentViewSet):
     """Performs search queries across agents, collections, objects and terms."""
     document = BaseDescriptionComponent
-    list_serializer = CollectionHitSerializer
+    serializer = CollectionHitSerializer
     pagination_class = CollapseLimitOffsetPagination
     filter_backends = SEARCH_BACKENDS
     filter_fields = {**FILTER_FIELDS, **{"type": {"field": "type", "lookups": STRING_LOOKUPS}}}
     nested_filter_fields = NESTED_FILTER_FIELDS
     search_fields = SEARCH_FIELDS
     search_nested_fields = SEARCH_NESTED_FIELDS
+    suggester_fields = {
+        "title_suggest": {
+            "field": "title",
+            "suggesters": [SUGGESTER_TERM],
+            "default_suggester": SUGGESTER_TERM,
+        }
+    }
     ordering_fields = {** ORDERING_FIELDS, **{
         "creator": {
             "field": "group.creators.title.keyword",
-            "path": "group.creators"
+            "path": "group.creators",
+            "split_path": False,
         }
     }}
 
     def get_queryset(self):
-        """Uses `collapse` to group hits based on `group` attribute."""
+        """Sets up base params for search.
+
+        Uses `collapse` to group hits based on `group.identifier` attribute.
+        Adds a `cardinality` aggregation to get the total count of grouped
+        results, and finally appends the structured query."""
+
         collapse_params = {
             "field": "group.identifier",
             "inner_hits": {
@@ -312,13 +331,36 @@ class SearchView(DocumentViewSet):
         }
         a = A("cardinality", field="group.identifier")
         self.search.aggs.bucket("total", a)
-        return self.search.extra(collapse=collapse_params).query()
+        return (self.search.extra(collapse=collapse_params).query(self.get_structured_query())
+                if self.request.GET.get(settings.REST_FRAMEWORK["SEARCH_PARAM"])
+                else self.search.extra(collapse=collapse_params).query())
 
-    def filter_queryset(self, queryset):
-        if self.request.GET.get(settings.REST_FRAMEWORK["SEARCH_PARAM"]):
-            queryset.query = self.get_structured_query()
-        filtered = super(DocumentViewSet, self).filter_queryset(queryset)
-        return filtered
+    def list(self, request, *args, **kwargs):
+        """Overrides default `list` behavior to add `hit_count` and `online_hit_count` attributes."""
+
+        queryset = self.filter_queryset(self.get_queryset())
+        page = self.paginate_queryset(queryset)
+        if page is not None:
+            for p in page:
+                p.hit_count, p.online_hit_count = self.get_hit_counts(p.group.identifier, queryset)
+            serializer = self.get_serializer(page, many=True)
+            return self.get_paginated_response(serializer.data)
+        for q in queryset:
+            q.hit_count, q.online_hit_count = self.get_hit_counts(q.uri, queryset)
+        serializer = self.get_serializer(queryset, many=True)
+        return Response(serializer.data)
+
+    @action(detail=False)
+    def suggest(self, request):
+        """Suggest functionality."""
+        queryset = self.filter_queryset(self.get_queryset())
+        is_suggest = getattr(queryset, '_suggest', False)
+        if not is_suggest:
+            return Response(
+                status=HTTP_400_BAD_REQUEST
+            )
+        page = self.paginate_queryset(queryset)
+        return Response(page)
 
 
 class FacetView(SearchView):
@@ -341,11 +383,12 @@ class FacetView(SearchView):
         self.search.aggs.bucket("max_date", max_date)
         self.search.aggs.bucket("min_date", min_date)
         self.search.aggs.bucket("online", online)
-        return self.search.extra(size=0)
+        return (self.search.extra(size=0).query(self.get_structured_query())
+                if self.request.GET.get(settings.REST_FRAMEWORK["SEARCH_PARAM"])
+                else self.search.extra(size=0))
 
     def retrieve(self, request, *args, **kwargs):
-        queryset = self.filter_queryset(self.get_queryset())
-        results = queryset.execute()
+        results = self.get_queryset().execute()
         serializer = self.get_serializer(results)
         return Response(serializer.data)
 
