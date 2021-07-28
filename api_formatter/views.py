@@ -112,6 +112,7 @@ class DocumentViewSet(SearchMixin, ObjectResolverMixin, ReadOnlyModelViewSet):
             )
             raise Http404(message)
         else:
+            hits[0].offset = self.get_offset(hits[0])
             return hits[0]
 
     def get_object_data(self, object_type, identifier):
@@ -130,6 +131,15 @@ class DocumentViewSet(SearchMixin, ObjectResolverMixin, ReadOnlyModelViewSet):
             return data
         except Http404:
             return data
+
+    def get_offset(self, data):
+        """Calculates the offset of an object or collection in a list of children."""
+        offset = None
+        if getattr(data, "position", None):
+            search = self.search
+            search.query = Q("match_phrase", parent=data.parent)
+            offset = search.filter("range", position={'lt': data.position}).count()
+        return offset
 
     def get_hit_counts(self, uri, base_query):
         """Gets the number of hits that are children of a specific component.

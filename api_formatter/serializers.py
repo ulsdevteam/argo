@@ -114,6 +114,7 @@ class BaseDetailSerializer(serializers.Serializer):
     title = serializers.CharField()
     type = serializers.CharField()
     category = serializers.CharField(allow_null=True)
+    offset = serializers.CharField(allow_null=True)
     group = GroupSerializer()
     external_identifiers = ExternalIdentifierSerializer(many=True)
 
