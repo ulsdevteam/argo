@@ -28,6 +28,13 @@ Or, if you want to remove all data
     $ docker-compose down -v
 
 
+## Configuring
+
+Argo configurations are stored in `/argo/config.py`. This file is excluded from version control, and you will need to update this file with values for your local instance.
+
+The first time the container is started, the example config file (`/argo/config.py.example`) will be copied to create the config file if it doesn't already exist.
+
+
 ## Routes
 
 | Method | URL | Parameters | Response  | Behavior  |
