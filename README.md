@@ -4,7 +4,7 @@ API middleware which provides a simplified API of data stored in Elasticsearch.
 
 argo is part of [Project Electron](https://github.com/RockefellerArchiveCenter/project_electron), an initiative to build sustainable, open and user-centered infrastructure for the archival management of digital records at the [Rockefeller Archive Center](http://rockarch.org/).
 
-[![Build Status](https://travis-ci.com/RockefellerArchiveCenter/argo.svg?branch=master)](https://travis-ci.org/RockefellerArchiveCenter/argo)
+[![Build Status](https://travis-ci.com/RockefellerArchiveCenter/argo.svg?branch=base)](https://travis-ci.org/RockefellerArchiveCenter/argo)
 
 ## Setup
 
