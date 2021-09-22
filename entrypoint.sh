@@ -1,8 +1,17 @@
 #!/bin/bash
 
-# Apply database migrations
+./wait-for-it.sh db:5432 -- echo "Running entrypoint.sh"
+
+if [ ! -f manage.py ]; then
+  cd argo
+fi
+
+if [ ! -f argo/config.py ]; then
+    cp argo/config.py.example argo/config.py
+fi
+
 echo "Apply database migrations"
-./wait-for-it.sh db:5432 -- python manage.py migrate
+python manage.py migrate
 
 #Start server
 echo "Starting server"

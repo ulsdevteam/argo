@@ -4,7 +4,7 @@ API middleware which provides a simplified API of data stored in Elasticsearch.
 
 argo is part of [Project Electron](https://github.com/RockefellerArchiveCenter/project_electron), an initiative to build sustainable, open and user-centered infrastructure for the archival management of digital records at the [Rockefeller Archive Center](http://rockarch.org/).
 
-[![Build Status](https://travis-ci.com/RockefellerArchiveCenter/argo.svg?branch=master)](https://travis-ci.org/RockefellerArchiveCenter/argo)
+[![Build Status](https://travis-ci.com/RockefellerArchiveCenter/argo.svg?branch=base)](https://travis-ci.org/RockefellerArchiveCenter/argo)
 
 ## Setup
 
@@ -26,6 +26,13 @@ When you're done, shut down docker-compose
 Or, if you want to remove all data
 
     $ docker-compose down -v
+
+
+## Configuring
+
+Argo configurations are stored in `/argo/config.py`. This file is excluded from version control, and you will need to update this file with values for your local instance.
+
+The first time the container is started, the example config file (`/argo/config.py.example`) will be copied to create the config file if it doesn't already exist.
 
 
 ## Routes
