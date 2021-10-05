@@ -137,8 +137,11 @@ class DocumentViewSet(SearchMixin, ObjectResolverMixin, ReadOnlyModelViewSet):
         offset = None
         if getattr(data, "position", None):
             search = self.search
-            search.query = Q("match_phrase", parent=data.parent)
-            offset = search.filter("range", position={'lt': data.position}).count()
+            if not getattr(data, 'parent', None):
+                offset = 0
+            else:
+                search.query = Q("match_phrase", parent=data.parent)
+                offset = search.filter("range", position={'lt': data.position}).count()
         return offset
 
     def get_hit_counts(self, uri, base_query):
