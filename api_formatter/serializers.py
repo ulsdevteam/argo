@@ -114,6 +114,7 @@ class BaseDetailSerializer(serializers.Serializer):
     title = serializers.CharField()
     type = serializers.CharField()
     category = serializers.CharField(allow_null=True)
+    offset = serializers.IntegerField(allow_null=True)
     group = GroupSerializer()
     external_identifiers = ExternalIdentifierSerializer(many=True)
 
@@ -135,6 +136,7 @@ class AgentListSerializer(BaseListSerializer):
 
 class CollectionSerializer(BaseDetailSerializer):
     level = serializers.CharField()
+    parent = serializers.CharField(allow_null=True)
     languages = LanguageSerializer(many=True, allow_null=True)
     description = serializers.SerializerMethodField()
     extents = ExtentSerializer(many=True)
@@ -157,6 +159,7 @@ class CollectionListSerializer(BaseListSerializer):
 
 class ObjectSerializer(BaseDetailSerializer):
     languages = LanguageSerializer(many=True, allow_null=True)
+    parent = serializers.CharField(allow_null=True)
     description = serializers.SerializerMethodField()
     extents = ExtentSerializer(many=True, allow_null=True)
     formats = serializers.ListField()

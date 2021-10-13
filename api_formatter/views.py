@@ -112,6 +112,7 @@ class DocumentViewSet(SearchMixin, ObjectResolverMixin, ReadOnlyModelViewSet):
             )
             raise Http404(message)
         else:
+            hits[0].offset = self.get_offset(hits[0])
             return hits[0]
 
     def get_object_data(self, object_type, identifier):
@@ -130,6 +131,18 @@ class DocumentViewSet(SearchMixin, ObjectResolverMixin, ReadOnlyModelViewSet):
             return data
         except Http404:
             return data
+
+    def get_offset(self, data):
+        """Calculates the offset of an object or collection in a list of children."""
+        offset = None
+        if getattr(data, "position", None):
+            search = self.search
+            if not getattr(data, 'parent', None):
+                offset = 0
+            else:
+                search.query = Q("match_phrase", parent=data.parent)
+                offset = search.filter("range", position={'lt': data.position}).count()
+        return offset
 
     def get_hit_counts(self, uri, base_query):
         """Gets the number of hits that are children of a specific component.
@@ -234,6 +247,11 @@ class CollectionViewSet(DocumentViewSet, AncestorMixin):
                 c.hit_count, c.online_hit_count = self.get_hit_counts(c.uri, base_query)
         return children
 
+    def get_children_count(self, identifier):
+        """Returns a count of the number of children of a given collection."""
+        self.search.query = Q("nested", path="ancestors", query=Q("match", ancestors__identifier=identifier))
+        return self.search.query().source([]).count()
+
     @action(detail=True)
     def children(self, request, pk=None):
         """Provides a detail endpoint for a collection's children."""
@@ -252,6 +270,25 @@ class CollectionViewSet(DocumentViewSet, AncestorMixin):
         children = self.prepare_children(child_hits, obj.group, base_query)
         serializer = ReferenceSerializer(children, many=True)
         return paginator.get_paginated_response(serializer.data)
+
+    @action(detail=True)
+    def minimap(self, request, pk=None):
+        """Returns data for search results minimap."""
+
+        data = {"hits": []}
+        ancestors_query = Q("nested", path="ancestors", query=Q("match", ancestors__identifier=pk))
+
+        self.search.query = ancestors_query
+        data["total"] = self.search.count()
+
+        self.search.query = ancestors_query & self.get_structured_query()
+        for result in self.search.source(["position", "uri", "title", "online"]).scan():
+            data["hits"].append({
+                "index": result.position,
+                "uri": result.uri,
+                "title": result.title,
+                "online": result.online})
+        return Response(data)
 
 
 class ObjectViewSet(DocumentViewSet, AncestorMixin):
