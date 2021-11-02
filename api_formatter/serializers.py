@@ -87,7 +87,7 @@ class ReferenceSerializer(serializers.Serializer):
 
     def get_uri(self, obj):
         if getattr(obj, "uri", None):
-            return obj.uri
+            return f"{obj.uri.rstrip('/')}/"
         basename = obj.type
         if basename in ["person", "organization", "family", "software"]:
             basename = "agent"
@@ -95,7 +95,7 @@ class ReferenceSerializer(serializers.Serializer):
                           "genre_form", "occupation", "style_period", "technique",
                           "temporal", "topical"]:
             basename = "term"
-        return reverse('{}-detail'.format(basename), kwargs={"pk": obj.identifier}).rstrip("/")
+        return reverse('{}-detail'.format(basename), kwargs={"pk": obj.identifier})
 
 
 class BaseListSerializer(serializers.Serializer):
@@ -106,7 +106,7 @@ class BaseListSerializer(serializers.Serializer):
 
     def get_uri(self, obj):
         basename = self.context.get('view').basename or obj.type
-        return reverse('{}-detail'.format(basename), kwargs={"pk": obj.meta.id}).rstrip("/")
+        return reverse('{}-detail'.format(basename), kwargs={"pk": obj.meta.id})
 
 
 class BaseDetailSerializer(serializers.Serializer):
@@ -120,7 +120,7 @@ class BaseDetailSerializer(serializers.Serializer):
 
     def get_uri(self, obj):
         basename = self.context.get('view').basename or obj.type
-        return reverse('{}-detail'.format(basename), kwargs={"pk": obj.meta.id}).rstrip("/")
+        return reverse('{}-detail'.format(basename), kwargs={"pk": obj.meta.id})
 
 
 class AgentSerializer(BaseDetailSerializer):
@@ -208,7 +208,7 @@ class CollectionHitSerializer(serializers.Serializer):
             return []
 
     def get_uri(self, obj):
-        return obj.group.identifier.rstrip("/")
+        return f'{obj.group.identifier.rstrip("/")}/'
 
 
 class FacetSerializer(serializers.Serializer):
