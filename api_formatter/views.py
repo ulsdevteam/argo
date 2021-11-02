@@ -455,13 +455,13 @@ class MyListView(SearchMixin, ObjectResolverMixin, APIView):
             items = [
                 {
                     "title": obj["title"],
-                    "uri": obj["uri"],
+                    "uri": f'{obj["uri"].rstrip("/")}/',
                     "dates": date_string(obj.get("dates", [])),
                     "description": description_from_notes(obj.get("notes", [])),
                     "extents": obj.get("extents"),
                     "notes": [note for note in obj.get("notes", []) if note["type"] in ["scopecontent", "abstract"]],
                     "parent": obj["ancestors"][0]["title"],
-                    "parent_ref": "/collections/{}".format(obj["ancestors"][0]["identifier"]),
+                    "parent_ref": "/collections/{}/".format(obj["ancestors"][0]["identifier"]),
                     "online": obj["online"],
                     "archivesspace_uri": [ident["identifier"] for ident in obj["external_identifiers"] if ident["source"] == "archivesspace"][0]
                 } for obj in collection_objects]

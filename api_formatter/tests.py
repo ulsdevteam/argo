@@ -111,6 +111,7 @@ class TestAPI(TestCase):
                 sort_response = viewset.as_view(actions={"get": "list"}, basename=basename)(sorted)
                 self.assertEqual(sort_response.status_code, 200)
                 self.assertTrue(sort_response.data.get('count') > 0)
+                self.assertTrue(all([r["uri"].endswith("/") for r in sort_response.data.get('results')]))
 
     def filter_fields(self, viewset, base_url, basename, obj):
         """
@@ -125,6 +126,7 @@ class TestAPI(TestCase):
             filter_response = viewset.as_view(actions={"get": "list"}, basename=basename)(filtered)
             self.assertEqual(filter_response.status_code, 200)
             self.assertTrue(filter_response.data.get('count') > 0)
+            self.assertTrue(all([r["uri"].endswith("/") for r in filter_response.data.get('results')]))
 
     def search_fields(self, viewset, base_url, basename, obj):
         """
@@ -141,6 +143,7 @@ class TestAPI(TestCase):
                 search_response = viewset.as_view(actions={"get": "list"}, basename=basename)(search)
                 self.assertEqual(search_response.status_code, 200)
                 self.assertTrue(search_response.data.get('count') > 0)
+                self.assertTrue(all([r["uri"].endswith("/") for r in search_response.data.get('results')]))
 
     def list_view(self, model_cls, basename, viewset, obj_length):
         """Asserts list views for each document return expected results."""
@@ -148,6 +151,7 @@ class TestAPI(TestCase):
         base_viewset = viewset.as_view(actions={"get": "list"}, basename=basename)
         request = self.factory.get(base_url)
         response = base_viewset(request)
+        self.assertTrue(all([r["uri"].endswith("/") for r in response.data.get('results')]))
         self.assertEqual(
             obj_length, int(response.data['count']),
             "Number of documents in index for View {} did not match number indexed".format(
@@ -167,7 +171,7 @@ class TestAPI(TestCase):
                 "View {}-detail in ViewSet {} did not return 200 for document {}".format(
                     basename, viewset, pk))
             for uri in self.find_in_dict(response.data, "uri"):
-                self.assertFalse(uri.endswith("/"))
+                self.assertTrue(uri.endswith("/"))
             if basename in ["collection", "object"]:
                 self.assertTrue(isinstance(response.data["online"], bool))
 
@@ -177,6 +181,8 @@ class TestAPI(TestCase):
         for uri in [base_uri, "{}?query=rockefeller".format(base_uri)]:
             request = self.factory.get(uri)
             response = viewset.as_view(actions={"get": "ancestors"}, basename=basename)(request, pk=pk)
+            if response.data.get("uri"):
+                self.assertTrue(response.data["uri"].endswith("/"))
             self.assertEqual(
                 response.status_code, 200,
                 "View {}-ancestors in ViewSet {} did not return 200 for document {}".format(
@@ -195,6 +201,7 @@ class TestAPI(TestCase):
         for uri in [base_uri, "{}?query=rockefeller".format(base_uri)]:
             request = self.factory.get(uri)
             response = viewset.as_view(actions={"get": "children"}, basename="collection")(request, pk=pk)
+            self.assertTrue(all([r["uri"].endswith("/") for r in response.data.get('results')]))
             self.assertEqual(
                 response.status_code, 200,
                 "View collection-children in ViewSet {} did not return 200 for document {}".format(
@@ -241,6 +248,7 @@ class TestAPI(TestCase):
             request = self.factory.get("{}?query={}".format(reverse("search-list"), query_term))
             response = SearchView.as_view(actions={"get": "list"}, basename="search")(request)
             self.assertEqual(response.data["count"], expected_count)
+            self.assertTrue(all([r["uri"].endswith("/") for r in response.data.get('results')]))
 
     def test_schema(self):
         """Assert the schema view returns the correct status code."""
