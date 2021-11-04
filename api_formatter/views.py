@@ -285,7 +285,7 @@ class CollectionViewSet(DocumentViewSet, AncestorMixin):
         for result in self.search.source(["position", "uri", "title", "online"]).scan():
             data["hits"].append({
                 "index": result.position,
-                "uri": result.uri,
+                "uri": f"{result.uri.rstrip('/')}/",
                 "title": result.title,
                 "online": result.online})
         return Response(data)
