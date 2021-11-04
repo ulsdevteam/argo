@@ -441,7 +441,7 @@ class MyListView(SearchMixin, ObjectResolverMixin, APIView):
         resp = []
         resolved_list = []
         for uri in list:
-            object_type, ident = uri.lstrip("/").split("/")
+            object_type, ident, *rest = uri.lstrip("/").split("/")
             try:
                 resolved = self.resolve_object(Collection if object_type == "collection" else Object, ident,
                                                source_fields=["ancestors", "title", "uri", "dates", "extents",
