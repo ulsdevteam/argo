@@ -22,7 +22,7 @@ script:
   - docker-compose exec $CONTAINER coverage run manage.py test
   - docker-compose exec $CONTAINER coverage report --omit=*/migrations/* -m
 before_deploy:
-  - git clone git@github.com:RockefellerArchiveCenter/argo.git
+  - git clone git@github.com:RockefellerArchiveCenter/deploy_scripts.git
   - sudo deploy_scripts/substitute_env.sh
   - sudo deploy_scripts/make_zip_django.sh $DEPLOY_ZIP_DIR $DEPLOY_ZIP_NAME
 deploy:
