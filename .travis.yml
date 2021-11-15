@@ -9,22 +9,22 @@ env:
   global:
     - CONTAINER: argo-web
     - APPLICATION_NAME: argo
-    - DJANGO_PORT: 8007
+    - PORT: 8007
 before_install:
   - cp ${APPLICATION_NAME}/config.py.example ${APPLICATION_NAME}/config.py
   - echo "${DOCKER_PASSWORD}" | docker login -u "${DOCKER_USERNAME}" --password-stdin
   - docker-compose up -d
 install:
   - pip install pre-commit && pre-commit install
-  - ./wait-for-it.sh $CONTAINER:$DJANGO_PORT -- docker-compose exec $CONTAINER pip install coverage
+  - ./wait-for-it.sh $CONTAINER:$PORT -- docker-compose exec $CONTAINER pip install coverage
 script:
   - pre-commit run --all-files --show-diff-on-failure
   - docker-compose exec $CONTAINER coverage run manage.py test
-after_script:
   - docker-compose exec $CONTAINER coverage report --omit=*/migrations/* -m
 before_deploy:
-- sudo deploy_scripts/substitute_env.sh
-- sudo deploy_scripts/make_zip.sh $DEPLOY_ZIP_DIR $DEPLOY_ZIP_NAME
+  - git clone git@github.com:RockefellerArchiveCenter/argo.git
+  - sudo deploy_scripts/substitute_env.sh
+  - sudo deploy_scripts/make_zip_django.sh $DEPLOY_ZIP_DIR $DEPLOY_ZIP_NAME
 deploy:
 - provider: s3
   access_key_id: $AWS_ACCESS_KEY
@@ -38,7 +38,6 @@ deploy:
   bucket: $AWS_BUCKET_NAME
   region: us-east-1
 - provider: codedeploy
-  wait_until_deployed: true
   bucket: $AWS_BUCKET_NAME
   key: $DEPLOY_ZIP_NAME
   bundle_type: zip
@@ -51,7 +50,6 @@ deploy:
     repo: RockefellerArchiveCenter/${APPLICATION_NAME}
     branch: base
 - provider: codedeploy
-  wait_until_deployed: true
   bucket: $AWS_BUCKET_NAME
   key: $DEPLOY_ZIP_NAME
   bundle_type: zip
