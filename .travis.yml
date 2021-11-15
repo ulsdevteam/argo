@@ -9,14 +9,14 @@ env:
   global:
     - CONTAINER: argo-web
     - APPLICATION_NAME: argo
-    - DJANGO_PORT: 8007
+    - PORT: 8007
 before_install:
   - cp ${APPLICATION_NAME}/config.py.example ${APPLICATION_NAME}/config.py
   - echo "${DOCKER_PASSWORD}" | docker login -u "${DOCKER_USERNAME}" --password-stdin
   - docker-compose up -d
 install:
   - pip install pre-commit && pre-commit install
-  - ./wait-for-it.sh $CONTAINER:$DJANGO_PORT -- docker-compose exec $CONTAINER pip install coverage
+  - ./wait-for-it.sh $CONTAINER:$PORT -- docker-compose exec $CONTAINER pip install coverage
 script:
   - pre-commit run --all-files --show-diff-on-failure
   - docker-compose exec $CONTAINER coverage run manage.py test
