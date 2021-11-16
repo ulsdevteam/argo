@@ -13,6 +13,7 @@ from rac_es.documents import (Agent, BaseDescriptionComponent, Collection,
 from rac_schemas import is_valid
 from rest_framework.test import APIRequestFactory
 
+from .view_helpers import date_string
 from .views import (AgentViewSet, CollectionViewSet, MyListView, ObjectViewSet,
                     SearchView, TermViewSet)
 
@@ -254,3 +255,20 @@ class TestAPI(TestCase):
         """Assert the schema view returns the correct status code."""
         schema = self.client.get(reverse('schema'))
         self.assertEqual(schema.status_code, 200, "Wrong HTTP code")
+
+    def test_facets(self):
+        """Asserts the facet view is correctly structured."""
+        response = self.client.get("{}?query=rockefeller".format(reverse("facets"))).json()
+        for key in ["creator", "subject", "format"]:
+            self.assertTrue(isinstance(response.get(key), list))
+        for key in ["max_date", "min_date", "online"]:
+            self.assertTrue(isinstance(response.get(key), dict))
+
+    def test_date_string(self):
+        """Asserts the date string helper produces the desired results."""
+        for input, expected in [
+                ([{"expression": "1945"}], "1945"),
+                ([{"expression": "1945"}, {"expression": "1950"}], "1945, 1950"),
+                ([{"begin": "1945"}, {"expression": "1950"}], "1945, 1950"),
+                ([{"begin": "1945", "end": "1946"}, {"expression": "1950"}], "1945-1946, 1950")]:
+            self.assertEqual(date_string(input), expected)
