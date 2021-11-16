@@ -211,6 +211,14 @@ class TestAPI(TestCase):
                 self.assertTrue(isinstance(online, bool))
             self.assertEqual(EXPECTED_CHILDREN[pk], response.data["count"])
 
+    def minimap_view(self, pk):
+        """Asserts the minimap view is correctly structured."""
+        response = self.client.get("{}?query=rockefeller".format(reverse("collection-minimap", args=[pk]))).json()
+        self.assertTrue(isinstance(response.get("hits"), list))
+        for result in response.get("hits"):
+            for key in ["index", "uri", "title", "online"]:
+                self.assertIsNot(result.get(key), None)
+
     def mylist_view(self, added_ids):
         """Asserts the MyList view returns the expected response status and results."""
         list = random.sample(added_ids, 5)
@@ -240,6 +248,7 @@ class TestAPI(TestCase):
                     self.ancestors_view(doc_type, viewset, ident)
                 if doc_type == "collection":
                     self.children_view(viewset, ident)
+                    self.minimap_view(ident)
             if doc_type == "object":
                 self.mylist_view(["/objects/{}".format(i) for i in added_ids])
 
@@ -256,7 +265,7 @@ class TestAPI(TestCase):
         schema = self.client.get(reverse('schema'))
         self.assertEqual(schema.status_code, 200, "Wrong HTTP code")
 
-    def test_facets(self):
+    def test_facet_view(self):
         """Asserts the facet view is correctly structured."""
         response = self.client.get("{}?query=rockefeller".format(reverse("facets"))).json()
         for key in ["creator", "subject", "format"]:
