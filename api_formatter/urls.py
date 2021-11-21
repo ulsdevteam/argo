@@ -5,7 +5,7 @@ from .routers import RACRouter
 from .views import (AgentViewSet, CollectionViewSet, FacetView, ObjectViewSet,
                     SearchView, TermViewSet)
 
-router = RACRouter()
+router = RACRouter(trailing_slash=False)
 router.register(r'agents', AgentViewSet, basename='agent')
 router.register(r'collections', CollectionViewSet, basename='collection')
 router.register(r'objects', ObjectViewSet, basename='object')
@@ -19,6 +19,6 @@ schema_view = get_schema_view(
 
 urlpatterns = [
     url(r'^', include(router.urls)),
-    url(r'facets/', FacetView.as_view({'get': 'retrieve'}), name='facets'),
-    url(r'^schema/', schema_view, name='schema'),
+    url(r'facets', FacetView.as_view({'get': 'retrieve'}), name='facets'),
+    url(r'^schema', schema_view, name='schema'),
 ]
