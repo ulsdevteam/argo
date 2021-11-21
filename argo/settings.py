@@ -62,7 +62,7 @@ ROOT_URLCONF = 'argo.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR, os.path.join(BASE_DIR, 'api_formatter', 'templates')],
+        'DIRS': [],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
