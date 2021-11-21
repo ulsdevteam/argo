@@ -2,7 +2,7 @@ from rest_framework.routers import APIRootView, DefaultRouter
 
 
 class RACAPIRootView(APIRootView):
-    """Root of the Rockefeller Archive Center API"""
+    """Root of the Rockefeller Archive Center API."""
     name = "Rockefeller Archive Center API"
 
     def get(self, request, *args, **kwargs):
