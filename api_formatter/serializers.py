@@ -87,7 +87,7 @@ class ReferenceSerializer(serializers.Serializer):
 
     def get_uri(self, obj):
         if getattr(obj, "uri", None):
-            return f"{obj.uri.rstrip('/')}/"
+            return obj.uri.rstrip('/')
         basename = obj.type
         if basename in ["person", "organization", "family", "software"]:
             basename = "agent"
@@ -208,7 +208,7 @@ class CollectionHitSerializer(serializers.Serializer):
             return []
 
     def get_uri(self, obj):
-        return f'{obj.group.identifier.rstrip("/")}/'
+        return obj.group.identifier.rstrip("/")
 
 
 class FacetSerializer(serializers.Serializer):
