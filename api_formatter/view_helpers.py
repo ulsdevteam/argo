@@ -60,8 +60,56 @@ class SearchMixin:
             super(ReadOnlyModelViewSet, self).__init__(*args, **kwargs)
 
 
-FILTER_BACKENDS = [FilteringFilterBackend,
-                   OrderingFilterBackend,
+class CustomFilteringFilterBackend(FilteringFilterBackend):
+    """Provides search filter parameters to schema."""
+
+    def get_schema_operation_parameters(self, view):
+        params = []
+        for filter_param in view.filter_fields:
+            params.append(
+                {
+                    'name': filter_param,
+                    'required': False,
+                    'in': 'query',
+                    'description': f'Filter results by {filter_param}.',
+                    'schema': {
+                        'type': 'string',
+                    },
+                }
+            )
+        params.append(
+            {
+                'name': settings.REST_FRAMEWORK["SEARCH_PARAM"],
+                'required': False,
+                'in': 'query',
+                'description': 'Query string for full-text search.',
+                'schema': {
+                    'type': 'string',
+                },
+            }
+        )
+        return params
+
+
+class CustomOrderingFilterBackend(OrderingFilterBackend):
+    """Provides ordering parameters to schema."""
+
+    def get_schema_operation_parameters(self, view):
+        sort_fields = ", ".join([f for f in view.ordering_fields])
+        return [
+            {
+                'name': settings.REST_FRAMEWORK["ORDERING_PARAM"],
+                'required': False,
+                'in': 'query',
+                'description': f'Sort results by {sort_fields}.  By default the named property will be sorted ascending. Descending order can be achieved by appending a - to the start of the property.',
+                'schema': {
+                    'type': 'string',
+                },
+            }]
+
+
+FILTER_BACKENDS = [CustomFilteringFilterBackend,
+                   CustomOrderingFilterBackend,
                    DefaultOrderingFilterBackend]
 
 FILTER_FIELDS = {
