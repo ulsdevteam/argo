@@ -98,7 +98,7 @@ class CustomOrderingFilterBackend(OrderingFilterBackend):
         sort_fields = ", ".join([f for f in view.ordering_fields])
         return [
             {
-                'name': settings.REST_FRAMEWORK["ORDERING_PARAM"],
+                'name': self.ordering_param,
                 'required': False,
                 'in': 'query',
                 'description': f'Sort results by {sort_fields}.  By default the named property will be sorted ascending. Descending order can be achieved by appending a - to the start of the property.',
