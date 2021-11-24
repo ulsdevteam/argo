@@ -9,7 +9,7 @@ An API (Application Programming Interface) is a set of instructions that tells o
 
 ## Who can use our API? 
 
-Anyone can use it! We have made it publicly available to enable people like you to freely access the data. There is no sign up or authentication required, although you may want to browse this documentation, which shows you have to make requests. [The best place to start is...]
+Anyone can use it! We have made it publicly available to enable people like you to freely access the data. There is no sign up or authentication required, although you may want to browse this documentation, which shows you how to make requests. [The best place to start is...]
 
 ### What is the data and where does it come from? 
 
@@ -20,7 +20,7 @@ Our archival holdings are arranged and described by Rockefeller Archive Center a
 3. Relevant biographical, historical, or administrative activities
 4. The relationships between these records, agents and activities.
 
-All of this information is managed in its own system, and it is made available in the API. The API also includes data used specifically in the DIMES website that improves search and discovery on the site.
+All of this information is managed in its own system and made available via the API. The API also includes data used specifically in the DIMES website to improve search and discovery on the site.
 
 Learn more about what data is available by [browsing the available endpoints](#) *[add link]*, or points of entry to communicate with the API about specific resources.
 
