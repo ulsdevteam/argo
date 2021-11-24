@@ -1,0 +1,9 @@
+public: true
+type: "docs"
+category: reference and outreach
+tags: workflow
+
+title: Using our Collections API
+description: Guide to using the Rockefeller Archive Center API to access our collections data.
+pages:
+  - ["Using our Collections API", "index"]
