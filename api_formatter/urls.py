@@ -13,8 +13,9 @@ router.register(r'terms', TermViewSet, basename='term')
 router.register(r'search', SearchView, basename='search')
 
 schema_view = get_schema_view(
-    title="Rockefeller Archive Center API",
-    description="API for Rockefeller Archive Center collections data.",
+    title="Rockefeller Archive Center Collections API",
+    description="The Rockefeller Archive Center Collections API provides data about the archival collections we hold and the individuals and organizations associated with them.",
+    version="1.0.0",
     patterns=router.urls,
 )
 
