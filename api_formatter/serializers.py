@@ -81,6 +81,7 @@ class ReferenceSerializer(serializers.Serializer):
     dates = serializers.CharField(allow_null=True)
     description = serializers.CharField(allow_null=True)
     group = GroupSerializer(allow_null=True)
+    index = serializers.IntegerField(source="position", allow_null=True)
 
     def get_online(self, obj):
         return getattr(obj, "online", False)
