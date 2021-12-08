@@ -8,7 +8,7 @@ elasticsearch-dsl==7.3.0
 jsonschema==3.2.0
 psycopg2-binary==2.9.1
 PyYAML==5.4.1
-rac-schemas==0.26
+pitt_schemas==0.2
 rac_es==0.17.2
 shortuuid==1.0.1
 uritemplate==3.0.1
