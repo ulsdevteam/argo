@@ -47,7 +47,6 @@ class AncestorMixin(object):
             data = self.get_object_data(Collection, a.identifier)
             a.dates = data["dates"]
             a.description = data["description"]
-            a.online = data["online"]
             a.title = data["title"]
             if len(self.request.GET):
                 a.hit_count, a.online_hit_count = self.get_hit_counts(a.identifier, base_query)
@@ -121,11 +120,10 @@ class DocumentViewSet(SearchMixin, ObjectResolverMixin, ReadOnlyModelViewSet):
         Returns a dict containing a date string, text from Abstracts or Scope
         and Contents notes and a boolean indicator of a digital surrogate.
         """
-        data = {"dates": None, "description": None, "online": False, "title": None}
+        data = {"dates": None, "description": None, "title": None}
         try:
-            resolved = self.resolve_object(object_type, identifier, source_fields=["dates", "notes", "online", "title"])
+            resolved = self.resolve_object(object_type, identifier, source_fields=["dates", "notes", "title"])
             data["description"] = description_from_notes(resolved.to_dict().get("notes", []))
-            data["online"] = getattr(resolved, "online", False)
             data["dates"] = date_string(resolved.to_dict().get("dates", []))
             data["title"] = resolved.title
             return data
@@ -258,7 +256,7 @@ class CollectionViewSet(DocumentViewSet, AncestorMixin):
         base_query = self.search.query()
         self.search.query = Q("match_phrase", parent=pk)
         child_hits = self.search.source(
-            ["group", "type", "uri", "dates", "notes", "online", "position", "title"]
+            ["group", "type", "uri", "dates", "notes", "position", "title"]
         ).sort("position")
         obj = self.resolve_object(Collection, pk, source_fields=["group"])
         paginator = ChildrenPaginator()
@@ -413,13 +411,11 @@ class FacetView(SearchView):
         format = A("terms", field="formats.keyword")
         max_date = A("max", field="dates.end", format="epoch_millis")
         min_date = A("min", field="dates.begin", format="epoch_millis")
-        online = A('filter', Q('terms', online=[True]))
         self.search.aggs.bucket('creator', creator).bucket("name", creator_name)
         self.search.aggs.bucket('subject', subject).bucket("name", subject_name)
         self.search.aggs.bucket('format', format)
         self.search.aggs.bucket("max_date", max_date)
         self.search.aggs.bucket("min_date", min_date)
-        self.search.aggs.bucket("online", online)
         return (self.search.extra(size=0).query(self.get_structured_query())
                 if self.request.GET.get(settings.REST_FRAMEWORK["SEARCH_PARAM"])
                 else self.search.extra(size=0))
@@ -445,7 +441,7 @@ class MyListView(SearchMixin, ObjectResolverMixin, APIView):
             try:
                 resolved = self.resolve_object(Collection if object_type == "collection" else Object, ident,
                                                source_fields=["ancestors", "title", "uri", "dates", "extents",
-                                                              "group", "notes", "online", "external_identifiers"])
+                                                              "group", "notes", "external_identifiers"])
                 resolved_list.append(resolved)
             except Http404:
                 pass  # missing objects are ignored
@@ -462,7 +458,6 @@ class MyListView(SearchMixin, ObjectResolverMixin, APIView):
                     "notes": [note for note in obj.get("notes", []) if note["type"] in ["scopecontent", "abstract"]],
                     "parent": obj["ancestors"][0]["title"],
                     "parent_ref": "/collections/{}".format(obj["ancestors"][0]["identifier"]),
-                    "online": obj["online"],
                     "archivesspace_uri": [ident["identifier"] for ident in obj["external_identifiers"] if ident["source"] == "archivesspace"][0]
                 } for obj in collection_objects]
             resp.append({"title": title, "items": items})
