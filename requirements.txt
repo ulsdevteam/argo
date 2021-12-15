@@ -10,7 +10,7 @@ attrs==21.2.0
     # via jsonschema
 certifi==2021.10.8
     # via elasticsearch
-django==3.2.9
+django==3.2.10
     # via
     #   -r requirements.in
     #   django-cors-headers
@@ -73,7 +73,7 @@ six==1.16.0
     #   python-dateutil
 sqlparse==0.4.2
     # via django
-typing-extensions==4.0.0
+typing-extensions==4.0.1
     # via
     #   asgiref
     #   importlib-metadata
