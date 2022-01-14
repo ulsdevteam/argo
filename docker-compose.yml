@@ -8,10 +8,12 @@ services:
   argo-web:
     build: .
     entrypoint: /code/entrypoint.sh
+    environment:
+      - APPLICATION_PORT=${APPLICATION_PORT:-8014}
     volumes:
       - .:/code
     ports:
-      - "8000:8000"
+      - "${APPLICATION_PORT:-8014}:${APPLICATION_PORT:-8014s}"
     depends_on:
       - argo-db
 

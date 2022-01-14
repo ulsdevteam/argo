@@ -29,13 +29,13 @@ from .view_helpers import (FILTER_BACKENDS, FILTER_FIELDS,
 class AncestorMixin(object):
     """Provides an ancestors detail route.
 
-
     Returns a nested dictionary representation of the complete ancestor tree for
     a collection or object.
     """
 
     @action(detail=True)
     def ancestors(self, request, pk=None):
+        """Returns the ancestors of a collection or object."""
         base_query = self.search.query()
         obj = self.resolve_object(self.document, pk, source_fields=["ancestors"])
         ancestors = list(getattr(obj, "ancestors", []))
@@ -200,7 +200,13 @@ class DocumentViewSet(SearchMixin, ObjectResolverMixin, ReadOnlyModelViewSet):
 
 
 class AgentViewSet(DocumentViewSet):
-    """Returns data about agents, including people, organizations and families."""
+    """
+    list:
+    Returns a list of agents. Agents are people, organizations or families.
+
+    retrieve:
+    Returns data about an individual agent. Agents are people, organizations or families.
+    """
 
     document = Agent
     list_serializer = AgentListSerializer
@@ -218,7 +224,13 @@ class AgentViewSet(DocumentViewSet):
 
 
 class CollectionViewSet(DocumentViewSet, AncestorMixin):
-    """Returns data about collections, or intellectually significant groups of archival records."""
+    """
+    list:
+    Returns a list of collections. Collections are intellectually significant groups of records.
+
+    retrieve:
+    Returns data about an individual collection. Collections are intellectually significant groups of records.
+    """
 
     document = Collection
     list_serializer = CollectionListSerializer
@@ -254,7 +266,7 @@ class CollectionViewSet(DocumentViewSet, AncestorMixin):
 
     @action(detail=True)
     def children(self, request, pk=None):
-        """Provides a detail endpoint for a collection's children."""
+        """Returns the direct children of a collection."""
         base_query = self.search.query()
         self.search.query = Q("match_phrase", parent=pk)
         child_hits = self.search.source(
@@ -273,7 +285,7 @@ class CollectionViewSet(DocumentViewSet, AncestorMixin):
 
     @action(detail=True)
     def minimap(self, request, pk=None):
-        """Returns data for search results minimap."""
+        """Returns search results minimap data."""
 
         data = {"hits": []}
         ancestors_query = Q("nested", path="ancestors", query=Q("match", ancestors__identifier=pk))
@@ -281,18 +293,27 @@ class CollectionViewSet(DocumentViewSet, AncestorMixin):
         self.search.query = ancestors_query
         data["total"] = self.search.count()
 
-        self.search.query = ancestors_query & self.get_structured_query()
-        for result in self.search.source(["position", "uri", "title", "online"]).scan():
+        self.search.query = (ancestors_query & self.get_structured_query()
+                             if self.request.GET.get(settings.REST_FRAMEWORK["SEARCH_PARAM"])
+                             else ancestors_query)
+
+        for result in self.filter_queryset(self.search).source(["position", "uri", "title", "online"]).scan():
             data["hits"].append({
                 "index": result.position,
-                "uri": result.uri,
+                "uri": f"{result.uri.rstrip('/')}",
                 "title": result.title,
                 "online": result.online})
         return Response(data)
 
 
 class ObjectViewSet(DocumentViewSet, AncestorMixin):
-    """Returns data about objects, or groups of archival records without children."""
+    """
+    list:
+    Returns a list of objects. Objects are intellectually significant groups of records that do not have children.
+
+    retrieve:
+    Returns data about an individual object. Objects are intellectually significant groups of records that do not have children.
+    """
 
     document = Object
     list_serializer = ObjectListSerializer
@@ -307,7 +328,13 @@ class ObjectViewSet(DocumentViewSet, AncestorMixin):
 
 class TermViewSet(DocumentViewSet):
     """
-    Returns data about terms, including subjects, geographic areas and more.
+    list:
+    Returns a list of terms. Terms are controlled values describing topics,
+    geographic places or record formats.
+
+    retrieve:
+    Returns data about an individual term. Terms are controlled values describing
+    topics, geographic places or record formats.
     """
 
     document = Term
@@ -373,10 +400,9 @@ class SearchView(DocumentViewSet):
                 else self.search.extra(collapse=collapse_params).query())
 
     def list(self, request, *args, **kwargs):
-        """Overrides default `list` behavior to add `hit_count` and `online_hit_count` attributes."""
-
         queryset = self.filter_queryset(self.get_queryset())
         page = self.paginate_queryset(queryset)
+        """Overrides default `list` behavior to add `hit_count` and `online_hit_count` attributes."""
         if page is not None:
             for p in page:
                 p.hit_count, p.online_hit_count = self.get_hit_counts(p.group.identifier, queryset)
@@ -389,7 +415,7 @@ class SearchView(DocumentViewSet):
 
     @action(detail=False)
     def suggest(self, request):
-        """Suggest functionality."""
+        """Returns suggested search terms."""
         queryset = self.filter_queryset(self.get_queryset())
         is_suggest = getattr(queryset, '_suggest', False)
         if not is_suggest:
@@ -431,7 +457,7 @@ class FacetView(SearchView):
 
 
 class MyListView(SearchMixin, ObjectResolverMixin, APIView):
-    """Returns a formatted MyList view.
+    """Returns data formatted for a MyList page in DIMES.
 
     Takes a list of URIs, resolves saved items, and groups them by collection.
     """
@@ -441,7 +467,7 @@ class MyListView(SearchMixin, ObjectResolverMixin, APIView):
         resp = []
         resolved_list = []
         for uri in list:
-            object_type, ident = uri.lstrip("/").split("/")
+            object_type, ident, *rest = uri.lstrip("/").split("/")
             try:
                 resolved = self.resolve_object(Collection if object_type == "collection" else Object, ident,
                                                source_fields=["ancestors", "title", "uri", "dates", "extents",
@@ -455,13 +481,13 @@ class MyListView(SearchMixin, ObjectResolverMixin, APIView):
             items = [
                 {
                     "title": obj["title"],
-                    "uri": obj["uri"],
+                    "uri": f'{obj["uri"].rstrip("/")}',
                     "dates": date_string(obj.get("dates", [])),
                     "description": description_from_notes(obj.get("notes", [])),
                     "extents": obj.get("extents"),
                     "notes": [note for note in obj.get("notes", []) if note["type"] in ["scopecontent", "abstract"]],
                     "parent": obj["ancestors"][0]["title"],
-                    "parent_ref": "/collections/{}".format(obj["ancestors"][0]["identifier"]),
+                    "parent_ref": f'/collections/{obj["ancestors"][0]["identifier"].rstrip("/")}',
                     "online": obj["online"],
                     "archivesspace_uri": [ident["identifier"] for ident in obj["external_identifiers"] if ident["source"] == "archivesspace"][0]
                 } for obj in collection_objects]

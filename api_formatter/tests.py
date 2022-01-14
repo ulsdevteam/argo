@@ -13,6 +13,7 @@ from rac_es.documents import (Agent, BaseDescriptionComponent, Collection,
 from rac_schemas import is_valid
 from rest_framework.test import APIRequestFactory
 
+from .view_helpers import date_string
 from .views import (AgentViewSet, CollectionViewSet, MyListView, ObjectViewSet,
                     SearchView, TermViewSet)
 
@@ -111,6 +112,7 @@ class TestAPI(TestCase):
                 sort_response = viewset.as_view(actions={"get": "list"}, basename=basename)(sorted)
                 self.assertEqual(sort_response.status_code, 200)
                 self.assertTrue(sort_response.data.get('count') > 0)
+                self.assertFalse(all([r["uri"].endswith("/") for r in sort_response.data.get('results')]))
 
     def filter_fields(self, viewset, base_url, basename, obj):
         """
@@ -125,6 +127,7 @@ class TestAPI(TestCase):
             filter_response = viewset.as_view(actions={"get": "list"}, basename=basename)(filtered)
             self.assertEqual(filter_response.status_code, 200)
             self.assertTrue(filter_response.data.get('count') > 0)
+            self.assertFalse(all([r["uri"].endswith("/") for r in filter_response.data.get('results')]))
 
     def search_fields(self, viewset, base_url, basename, obj):
         """
@@ -141,6 +144,7 @@ class TestAPI(TestCase):
                 search_response = viewset.as_view(actions={"get": "list"}, basename=basename)(search)
                 self.assertEqual(search_response.status_code, 200)
                 self.assertTrue(search_response.data.get('count') > 0)
+                self.assertFalse(all([r["uri"].endswith("/") for r in search_response.data.get('results')]))
 
     def list_view(self, model_cls, basename, viewset, obj_length):
         """Asserts list views for each document return expected results."""
@@ -148,6 +152,7 @@ class TestAPI(TestCase):
         base_viewset = viewset.as_view(actions={"get": "list"}, basename=basename)
         request = self.factory.get(base_url)
         response = base_viewset(request)
+        self.assertFalse(all([r["uri"].endswith("/") for r in response.data.get('results')]))
         self.assertEqual(
             obj_length, int(response.data['count']),
             "Number of documents in index for View {} did not match number indexed".format(
@@ -177,6 +182,8 @@ class TestAPI(TestCase):
         for uri in [base_uri, "{}?query=rockefeller".format(base_uri)]:
             request = self.factory.get(uri)
             response = viewset.as_view(actions={"get": "ancestors"}, basename=basename)(request, pk=pk)
+            if response.data.get("uri"):
+                self.assertFalse(response.data["uri"].endswith("/"))
             self.assertEqual(
                 response.status_code, 200,
                 "View {}-ancestors in ViewSet {} did not return 200 for document {}".format(
@@ -195,6 +202,8 @@ class TestAPI(TestCase):
         for uri in [base_uri, "{}?query=rockefeller".format(base_uri)]:
             request = self.factory.get(uri)
             response = viewset.as_view(actions={"get": "children"}, basename="collection")(request, pk=pk)
+            if len(response.data.get("results")):
+                self.assertFalse(all([r["uri"].endswith("/") for r in response.data.get('results')]))
             self.assertEqual(
                 response.status_code, 200,
                 "View collection-children in ViewSet {} did not return 200 for document {}".format(
@@ -202,6 +211,14 @@ class TestAPI(TestCase):
             for online in self.find_in_dict(response.data, "online"):
                 self.assertTrue(isinstance(online, bool))
             self.assertEqual(EXPECTED_CHILDREN[pk], response.data["count"])
+
+    def minimap_view(self, pk):
+        """Asserts the minimap view is correctly structured."""
+        response = self.client.get("{}?query=rockefeller".format(reverse("collection-minimap", args=[pk]))).json()
+        self.assertTrue(isinstance(response.get("hits"), list))
+        for result in response.get("hits"):
+            for key in ["index", "uri", "title", "online"]:
+                self.assertIsNot(result.get(key), None)
 
     def mylist_view(self, added_ids):
         """Asserts the MyList view returns the expected response status and results."""
@@ -232,6 +249,7 @@ class TestAPI(TestCase):
                     self.ancestors_view(doc_type, viewset, ident)
                 if doc_type == "collection":
                     self.children_view(viewset, ident)
+                    self.minimap_view(ident)
             if doc_type == "object":
                 self.mylist_view(["/objects/{}".format(i) for i in added_ids])
 
@@ -241,8 +259,26 @@ class TestAPI(TestCase):
             request = self.factory.get("{}?query={}".format(reverse("search-list"), query_term))
             response = SearchView.as_view(actions={"get": "list"}, basename="search")(request)
             self.assertEqual(response.data["count"], expected_count)
+            self.assertFalse(all([r["uri"].endswith("/") for r in response.data.get('results')]))
 
     def test_schema(self):
         """Assert the schema view returns the correct status code."""
         schema = self.client.get(reverse('schema'))
         self.assertEqual(schema.status_code, 200, "Wrong HTTP code")
+
+    def test_facet_view(self):
+        """Asserts the facet view is correctly structured."""
+        response = self.client.get("{}?query=rockefeller".format(reverse("facets"))).json()
+        for key in ["creator", "subject", "format"]:
+            self.assertTrue(isinstance(response.get(key), list))
+        for key in ["max_date", "min_date", "online"]:
+            self.assertTrue(isinstance(response.get(key), dict))
+
+    def test_date_string(self):
+        """Asserts the date string helper produces the desired results."""
+        for input, expected in [
+                ([{"expression": "1945"}], "1945"),
+                ([{"expression": "1945"}, {"expression": "1950"}], "1945, 1950"),
+                ([{"begin": "1945"}, {"expression": "1950"}], "1945, 1950"),
+                ([{"begin": "1945", "end": "1946"}, {"expression": "1950"}], "1945-1946, 1950")]:
+            self.assertEqual(date_string(input), expected)
