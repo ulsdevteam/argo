@@ -13,7 +13,7 @@ services:
     volumes:
       - .:/code
     ports:
-      - "${APPLICATION_PORT:-8014}:${APPLICATION_PORT:-8014s}"
+      - "${APPLICATION_PORT:-8014}:${APPLICATION_PORT:-8014}"
     depends_on:
       - argo-db
 
