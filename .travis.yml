@@ -9,7 +9,6 @@ env:
   global:
     - CONTAINER: argo-web
     - APPLICATION_NAME: argo
-    - APPLICATION_PORT: 8014
 before_install:
   - cp ${APPLICATION_NAME}/config.py.example ${APPLICATION_NAME}/config.py
   - echo "${DOCKER_PASSWORD}" | docker login -u "${DOCKER_USERNAME}" --password-stdin
