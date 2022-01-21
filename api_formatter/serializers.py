@@ -81,13 +81,14 @@ class ReferenceSerializer(serializers.Serializer):
     dates = serializers.CharField(allow_null=True)
     description = serializers.CharField(allow_null=True)
     group = GroupSerializer(allow_null=True)
+    index = serializers.IntegerField(source="position", allow_null=True)
 
     #def get_online(self, obj):
     #    return getattr(obj, "online", True)
 
     def get_uri(self, obj):
         if getattr(obj, "uri", None):
-            return obj.uri
+            return obj.uri.rstrip('/')
         basename = obj.type
         if basename in ["person", "organization", "family", "software"]:
             basename = "agent"
@@ -95,7 +96,7 @@ class ReferenceSerializer(serializers.Serializer):
                           "genre_form", "occupation", "style_period", "technique",
                           "temporal", "topical"]:
             basename = "term"
-        return reverse('{}-detail'.format(basename), kwargs={"pk": obj.identifier}).rstrip("/")
+        return reverse('{}-detail'.format(basename), kwargs={"pk": obj.identifier})
 
 
 class BaseListSerializer(serializers.Serializer):
@@ -106,7 +107,7 @@ class BaseListSerializer(serializers.Serializer):
 
     def get_uri(self, obj):
         basename = self.context.get('view').basename or obj.type
-        return reverse('{}-detail'.format(basename), kwargs={"pk": obj.meta.id}).rstrip("/")
+        return reverse('{}-detail'.format(basename), kwargs={"pk": obj.meta.id})
 
 
 class BaseDetailSerializer(serializers.Serializer):
@@ -120,7 +121,7 @@ class BaseDetailSerializer(serializers.Serializer):
 
     def get_uri(self, obj):
         basename = self.context.get('view').basename or obj.type
-        return reverse('{}-detail'.format(basename), kwargs={"pk": obj.meta.id}).rstrip("/")
+        return reverse('{}-detail'.format(basename), kwargs={"pk": obj.meta.id})
 
 
 class AgentSerializer(BaseDetailSerializer):
