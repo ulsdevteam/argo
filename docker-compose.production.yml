@@ -6,12 +6,9 @@ services:
     volumes:
       - argodbvolume:/var/lib/postgresql/data/
   argo-web:
-    build: .
-    entrypoint: /code/entrypoint.sh
-    environment:
-      - APPLICATION_PORT=${APPLICATION_PORT:-8014}
-    volumes:
-      - .:/code
+    build:
+      context: .
+      dockerfile: Dockerfile
     ports:
       - "8001:8001"
     depends_on:
