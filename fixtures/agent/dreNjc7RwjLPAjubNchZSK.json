@@ -1,5 +1,6 @@
 {
     "agent_type": "organization",
+    "authorized_name": "Test Respository",
     "category": "organization",
     "dates": [],
     "description": null,

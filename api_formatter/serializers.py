@@ -126,6 +126,7 @@ class BaseDetailSerializer(serializers.Serializer):
 
 class AgentSerializer(BaseDetailSerializer):
     agent_type = serializers.CharField()
+    authorized_name = serializers.CharField()
     description = serializers.CharField(allow_null=True)
     dates = DateSerializer(many=True, allow_null=True)
     notes = NoteSerializer(many=True, allow_null=True)

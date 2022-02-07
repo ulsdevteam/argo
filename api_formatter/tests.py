@@ -41,8 +41,11 @@ class TestAPI(TestCase):
             if os.path.isdir(os.path.join(settings.BASE_DIR, 'fixtures', dir)):
                 for f in os.listdir(os.path.join(settings.BASE_DIR, 'fixtures', dir)):
                     with open(os.path.join(settings.BASE_DIR, 'fixtures', dir, f), 'r') as jf:
-                        instance = json.load(jf)
-                        self.assertTrue(is_valid(instance, "{}.json".format(instance["type"])))
+                        try:
+                            instance = json.load(jf)
+                        except json.decoder.JSONDecodeError:
+                            print("{}/{} is not valid JSON".format(dir, f))
+                        self.assertTrue(is_valid(instance, "{}.json".format(instance["type"])), "{}/{}".format(dir, f))
         print("Fixtures are all valid")
 
     def prepare_data(self, source_filepath, doc_cls):
