@@ -1,5 +1,6 @@
 {
     "agent_type": "person",
+    "authorized_name": "Whitman, Ann",
     "category": "person",
     "dates": [
         {
@@ -66,7 +67,7 @@
             "type": "person"
         }
     ],
-    "title": "Whitman, Ann",
+    "title": "Ann Whitman",
     "type": "agent",
     "uri": "/agents/2qq5gjQEPwerbwS7vU3tgA"
 }
