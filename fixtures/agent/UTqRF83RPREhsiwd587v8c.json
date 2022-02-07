@@ -1,5 +1,6 @@
 {
     "agent_type": "family",
+    "authorized_name": "Gregg, Alan",
     "category": "person",
     "dates": [],
     "description": null,
@@ -20,7 +21,7 @@
             "identifier": "UTqRF83RPREhsiwd587v8c",
             "relator": null,
             "role": "creator",
-            "title": "Rockefeller Foundation",
+            "title": "Gregg, Alan",
             "type": "family"
         }
     ],

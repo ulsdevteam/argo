@@ -1,5 +1,6 @@
 {
     "agent_type": "person",
+    "authorized_name": "Administrator",
     "category": "person",
     "dates": [],
     "description": null,
