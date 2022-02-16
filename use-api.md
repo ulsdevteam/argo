@@ -84,18 +84,19 @@ Use our [browseable API](https://api.rockarch.org) to see which parameters are a
 
 | Parameter | Description | Example |
 |------|------|------|------|
-|id|Identifier that can be used in an endpoint path to point to a specific collection, object, agent, or term.|/collections/2HnhFZfibK6SVVu86skz3k|
 |limit|Number of results to return per page.|limit=50|
 |offset|Number of results to return per page.|offset=50|
-|title|Filter or sort results by title.|title=ford foundation records|
+|id|Unique identifier. The id is used in an endpoint path to point to a specific collection, object, agents, etc.|/collections/2HnhFZfibK6SVVu86skz3k|
+|title|Filter or sort results by title.|title=world health organization|
 |start_date|Filter results by start date.|start_date=1932|
 |end_date|Filter results by start date.|end_date=1975|
-|query|Query for full-text search|query=yellow fever|
-|category|Filter results by agent category, including `person`, `collection`, or `organization`|category=person|
+|category|Filter results by category term, including `person`, `collection`, or `organization`|category=person|
+|subject|Filter results by subject/topic term|subject=public health|
+|creator|Filter results by creator. Creators are the people, organizations, and families responsible for creating the records.|creator=adams, lillian|
 |online|Filter results by objects that are digital and available to view online.|online=true|
-|genre|Filters results by the genre of an archival object, including `documents`, `photographs`, `moving image`, and `audio`.|genre=moving image|
+|genre|Filters results by genre/format term, including `documents`, `photographs`, `moving image`, and `audio`.|genre=moving image|
+|query|Query for full-text search|query=yellow fever|
 |sort|Sort results by title, start_date, end_date, or type. By default the named property will be sorted ascending. Descending order can be achieved by appending an en dash (`-`) to the start of the property.|sort=title|
-
 
 ## Example queries
 1. Use the `/search` endpoint to return the number of search matches for the query term "agriculture" that are in collections and have been categorized as photographs with dates between 1940 and 1950:
@@ -112,8 +113,10 @@ https://api.rockarch.org/search?&query=agriculture&category=collection&genre=pho
 https://api.rockarch.org/collections/2HnhFZfibK6SVVu86skz3k/minimap?query=agriculture
 ```
 
-3. Write a Python script using the [rac_api_client](https://pypi.org/project/rac-api-client/) to identify the creators (people or organizations) of collections that contain keyword search matches for "green revolution". The `/search` endpoint performs search queries across agents, collections, objects, and terms (terms are controlled values describing topics, geographic places or record formats). 
+3. Write a Python script using the [rac_api_client](https://pypi.org/project/rac-api-client/) to identify the creators of collections that contain keyword search matches for "green revolution". The `/search` endpoint performs search queries across agents, collections, objects, and terms.
 
+Creators are the people, organizations, or families responsible for creating the records.
+Terms are controlled values describing topics, geographic places, or record formats.
 ```
 # import rac_api_client module
 from rac_api_client import Client
@@ -122,7 +125,7 @@ from rac_api_client import Client
 client = Client()
 response = client.get("/search", params={"query": "green revolution"})
 
-# create a list of creators (people or organization) of collections that contain search matches for the query
+# compile a list of creators of collections that contain search matches for the query
 creator_list = []
 
 for collection in response["results"]:
