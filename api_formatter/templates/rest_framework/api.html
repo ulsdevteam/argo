@@ -122,6 +122,9 @@
         {% for field in view.filter_fields %}
           <li>{{field}}</li>
         {% endfor %}
+        {% for field in view.nested_filter_fields %}
+          <li>{{field}}</li>
+        {% endfor %}
         </ul>
         </div>
         {% endif %}
