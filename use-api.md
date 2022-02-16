@@ -75,8 +75,6 @@ See the full OpenAPI schema at [https://api.rockarch.org/schema](https://api.roc
 |/objects|Returns a list of objects. Objects are intellectually significant groups of records that do not have children.|
 |/objects/{id}|Returns data about an individual object.|
 |/objects/{id}/ancestors|Returns the ancestors of an object.|
-|/terms|Returns a list of terms. Terms are controlled values describing topics, geographic places or record formats.|
-|/terms/{id}|Returns data about an individual term.|
 |/search|Performs search queries across agents, collections, objects and terms.|
 |/search/{id}|Performs search queries across a specific agent, collection, object or term.
 |/schema/|Returns the OpenAPI schema for the RAC API.|
@@ -114,7 +112,7 @@ https://api.rockarch.org/search?&query=agriculture&category=collection&genre=pho
 https://api.rockarch.org/collections/2HnhFZfibK6SVVu86skz3k/minimap?query=agriculture
 ```
 
-3. Write a Python script using the [rac_api_client](https://pypi.org/project/rac-api-client/) to identify the creators (people or organizations) of collections that contain keyword search matches for "green revolution". The `/search` endpoint performs search queries across agents, collections, objects and terms. 
+3. Write a Python script using the [rac_api_client](https://pypi.org/project/rac-api-client/) to identify the creators (people or organizations) of collections that contain keyword search matches for "green revolution". The `/search` endpoint performs search queries across agents, collections, objects, and terms (terms are controlled values describing topics, geographic places or record formats). 
 
 ```
 # import rac_api_client module
