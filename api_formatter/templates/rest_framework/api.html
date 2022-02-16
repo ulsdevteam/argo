@@ -162,12 +162,12 @@
     {% endif %}
 
     <div class="request-info" style="clear: both" aria-label="{% trans "request info" %}">
-      <pre class="prettyprint"><b>{{ request.method }}</b> {{ request.get_full_path }}</pre>
+      <pre class="prettyprint"><span class=font-weight-bold>{{ request.method }}</span> {{ request.get_full_path }}</pre>
     </div>
 
     <div class="response-info" aria-label="{% trans "response info" %}">
-      <pre class="prettyprint"><span class="meta nocode"><b>HTTP {{ response.status_code }} {{ response.status_text }}</b>{% autoescape off %}{% for key, val in response_headers|items %}
-<b>{{ key }}:</b> <span class="lit">{{ val|break_long_headers|urlize }}</span>{% endfor %}
+      <pre class="prettyprint"><span class="meta nocode"><span class="font-weight-bold">HTTP {{ response.status_code }} {{ response.status_text }}</span>{% autoescape off %}{% for key, val in response_headers|items %}
+<span class="font-weight-bold">{{ key }}:</span> <span class="lit">{{ val|break_long_headers|urlize }}</span>{% endfor %}
 
 </span>{{ content|urlize }}</pre>{% endautoescape %}
     </div>
