@@ -9,19 +9,18 @@ from django.urls import reverse
 from elasticsearch.helpers import streaming_bulk
 from elasticsearch_dsl import connections, utils
 from rac_es.documents import (Agent, BaseDescriptionComponent, Collection,
-                              Object, Term)
+                              Object)
 from rac_schemas import is_valid
 from rest_framework.test import APIRequestFactory
 
 from .view_helpers import date_string
 from .views import (AgentViewSet, CollectionViewSet, MyListView, ObjectViewSet,
-                    SearchView, TermViewSet)
+                    SearchView)
 
 TYPE_MAP = (
     ('agent', Agent, AgentViewSet),
     ('collection', Collection, CollectionViewSet),
     ('object', Object, ObjectViewSet),
-    ('term', Term, TermViewSet),
 )
 
 STOP_WORDS = ["a", "an", "and", "are", "as", "at", "be", "but", "by", "for", "if",

@@ -42,7 +42,6 @@ The first time the container is started, the example config file (`/argo/config.
 |GET|/agents||200|Returns data about Agents|
 |GET|/collections||200|Returns data about Collections|
 |GET|/objects||200|Returns data about Objects|
-|GET|/terms||200|Returns data about Terms|
 |GET|/search||200|Returns search data|
 |GET|/schema/||200|Returns the OpenAPI schema|
 

@@ -326,33 +326,6 @@ class ObjectViewSet(DocumentViewSet, AncestorMixin):
     ordering_fields = ORDERING_FIELDS
 
 
-class TermViewSet(DocumentViewSet):
-    """
-    list:
-    Returns a list of terms. Terms are controlled values describing topics,
-    geographic places or record formats.
-
-    retrieve:
-    Returns data about an individual term. Terms are controlled values describing
-    topics, geographic places or record formats.
-    """
-
-    document = Term
-    list_serializer = TermListSerializer
-    serializer = TermSerializer
-
-    filter_fields = {
-        "title": {"field": "title.keyword", "lookups": STRING_LOOKUPS, },
-        "term_type": {"field": "term_type", "lookups": STRING_LOOKUPS, },
-    }
-
-    search_fields = SEARCH_FIELDS + ("type",)
-
-    ordering_fields = {
-        "title": "title.keyword",
-    }
-
-
 class SearchView(DocumentViewSet):
     """Performs search queries across agents, collections, objects and terms."""
     document = BaseDescriptionComponent
