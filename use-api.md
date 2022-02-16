@@ -114,5 +114,27 @@ https://api.rockarch.org/search?&query=agriculture&category=collection&genre=pho
 https://api.rockarch.org/collections/2HnhFZfibK6SVVu86skz3k/minimap?query=agriculture
 ```
 
+3. Write a Python script using the [rac_api_client](https://pypi.org/project/rac-api-client/) to identify the creators (people or organizations) of collections that contain keyword search matches for "green revolution". The `/search` endpoint performs search queries across agents, collections, objects and terms. 
+
+```
+# import rac_api_client module
+from rac_api_client import Client
+
+# search across agents, collections, objects and terms for "green revolution"
+client = Client()
+response = client.get("/search", params={"query": "green revolution"})
+
+# create a list of creators (people or organization) of collections that contain search matches for the query
+creator_list = []
+
+for collection in response["results"]:
+  for creator in (collection["creators"]):
+    if creator not in creator_list:
+      creator_list.append(creator)
+
+# print list of creators
+print(creator_list)
+```
+
 ## Bulk download 
 You can access [exports of our public collections data](https://github.com/RockefellerArchiveCenter/data) on GitHub. The data is generally exported on a bi-monthly basis.
