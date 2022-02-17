@@ -331,6 +331,7 @@ class TermViewSet(DocumentViewSet):
     list:
     Returns a list of terms. Terms are controlled values describing topics,
     geographic places or record formats.
+
     retrieve:
     Returns data about an individual term. Terms are controlled values describing
     topics, geographic places or record formats.
