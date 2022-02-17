@@ -4,7 +4,7 @@ from django_elasticsearch_dsl_drf.constants import SUGGESTER_TERM
 from django_elasticsearch_dsl_drf.pagination import LimitOffsetPagination
 from elasticsearch_dsl import A, Q
 from rac_es.documents import (Agent, BaseDescriptionComponent, Collection,
-                              Object, Term)
+                              Object)
 from rest_framework.decorators import action
 from rest_framework.response import Response
 from rest_framework.status import HTTP_400_BAD_REQUEST
@@ -16,8 +16,7 @@ from .serializers import (AgentListSerializer, AgentSerializer,
                           AncestorsSerializer, CollectionHitSerializer,
                           CollectionListSerializer, CollectionSerializer,
                           FacetSerializer, ObjectListSerializer,
-                          ObjectSerializer, ReferenceSerializer,
-                          TermListSerializer, TermSerializer)
+                          ObjectSerializer, ReferenceSerializer)
 from .view_helpers import (FILTER_BACKENDS, FILTER_FIELDS,
                            NESTED_FILTER_FIELDS, NUMBER_LOOKUPS,
                            ORDERING_FIELDS, SEARCH_BACKENDS, SEARCH_FIELDS,
