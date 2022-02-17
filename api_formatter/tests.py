@@ -258,7 +258,7 @@ class TestAPI(TestCase):
 
     def test_search(self):
         """Assert specific searches return expected number of results."""
-        for query_term, expected_count in [("rockefeller", 34), ("nelson", 5), ("cary reich", 2), ("", 175)]:
+        for query_term, expected_count in [("rockefeller", 34), ("nelson", 5), ("cary reich", 2), ("", 92)]:
             request = self.factory.get("{}?query={}".format(reverse("search-list"), query_term))
             response = SearchView.as_view(actions={"get": "list"}, basename="search")(request)
             self.assertEqual(response.data["count"], expected_count)

@@ -394,9 +394,10 @@ class SearchView(DocumentViewSet):
         }
         a = A("cardinality", field="group.identifier")
         self.search.aggs.bucket("total", a)
-        return (self.search.extra(collapse=collapse_params).query(self.get_structured_query())
-                if self.request.GET.get(settings.REST_FRAMEWORK["SEARCH_PARAM"])
-                else self.search.extra(collapse=collapse_params).query())
+        queryset = (self.search.extra(collapse=collapse_params).query(self.get_structured_query())
+                    if self.request.GET.get(settings.REST_FRAMEWORK["SEARCH_PARAM"])
+                    else self.search.extra(collapse=collapse_params).query())
+        return queryset.exclude('terms', type=['term'])
 
     def list(self, request, *args, **kwargs):
         queryset = self.filter_queryset(self.get_queryset())
