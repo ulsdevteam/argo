@@ -4,7 +4,7 @@ from django_elasticsearch_dsl_drf.constants import SUGGESTER_TERM
 from django_elasticsearch_dsl_drf.pagination import LimitOffsetPagination
 from elasticsearch_dsl import A, Q
 from rac_es.documents import (Agent, BaseDescriptionComponent, Collection,
-                              Object)
+                              Object, Term)
 from rest_framework.decorators import action
 from rest_framework.response import Response
 from rest_framework.status import HTTP_400_BAD_REQUEST
@@ -16,7 +16,8 @@ from .serializers import (AgentListSerializer, AgentSerializer,
                           AncestorsSerializer, CollectionHitSerializer,
                           CollectionListSerializer, CollectionSerializer,
                           FacetSerializer, ObjectListSerializer,
-                          ObjectSerializer, ReferenceSerializer)
+                          ObjectSerializer, ReferenceSerializer,
+                          TermListSerializer, TermSerializer)
 from .view_helpers import (FILTER_BACKENDS, FILTER_FIELDS,
                            NESTED_FILTER_FIELDS, NUMBER_LOOKUPS,
                            ORDERING_FIELDS, SEARCH_BACKENDS, SEARCH_FIELDS,
@@ -323,6 +324,32 @@ class ObjectViewSet(DocumentViewSet, AncestorMixin):
     search_fields = SEARCH_FIELDS
     search_nested_fields = SEARCH_NESTED_FIELDS
     ordering_fields = ORDERING_FIELDS
+
+
+class TermViewSet(DocumentViewSet):
+    """
+    list:
+    Returns a list of terms. Terms are controlled values describing topics,
+    geographic places or record formats.
+    retrieve:
+    Returns data about an individual term. Terms are controlled values describing
+    topics, geographic places or record formats.
+    """
+
+    document = Term
+    list_serializer = TermListSerializer
+    serializer = TermSerializer
+
+    filter_fields = {
+        "title": {"field": "title.keyword", "lookups": STRING_LOOKUPS, },
+        "term_type": {"field": "term_type", "lookups": STRING_LOOKUPS, },
+    }
+
+    search_fields = SEARCH_FIELDS + ("type",)
+
+    ordering_fields = {
+        "title": "title.keyword",
+    }
 
 
 class SearchView(DocumentViewSet):
