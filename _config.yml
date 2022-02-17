@@ -7,3 +7,4 @@ title: Getting Started with our Collections API
 description: Guide to using the Rockefeller Archive Center API to access our collections data.
 pages:
   - ["Getting Started with our Collections API", "index"]
+  - ["How to Use the API"]
