@@ -17,20 +17,22 @@ If you are new to scripting or working with APIs, consider using a tool like [Ho
 ## Quick start 
 Data is accessed through GET requests using API endpoints. For a list of available endpoints, see the [endpoints and parameters](#endpoints-and-parameters) section of this document.
 
-Examples:
-
-1. Use the `/collections` endpoint to get a list of all of our archival collections, which are intellectually significant groups of records:
+Example 1:
+Use the `/collections` endpoint to get a list of all of our archival collections, which are intellectually significant groups of records:
 ```
 GET https://api.rockarch.org/collections
 ```
-2. Get data about one specific collection, replacing {id} with the collection's identifier (example id: `H45i6yf7MUHuaRwQVupvg5`):
+
+Example 2:
+Get data about one specific collection, replacing {id} with the collection's identifier (example id: `H45i6yf7MUHuaRwQVupvg5`):
 
 ```
 GET https://api.rockarch.org/collections/{id}
 ```
 See what a response looks like in the browseable API by opening the link in your browser: [https://api.rockarch.org/collections/H45i6yf7MUHuaRwQVupvg5](https://api.rockarch.org/collections/H45i6yf7MUHuaRwQVupvg5).
 
-3. Use the `/objects` endpoint and `online` parameter to get data for all archival objects that have digital versions available. Objects are defined as intellectually significant groups of records in a collection that do not have children:
+Example 3:
+Use the `/objects` endpoint and `online` parameter to get data for all archival objects that have digital versions available. Objects are defined as intellectually significant groups of records in a collection that do not have children:
 
 ```
 GET https://api.rockarch.org/objects?online=true
@@ -63,7 +65,7 @@ See the full OpenAPI schema at [https://api.rockarch.org/schema](https://api.roc
 
 ### Endpoints
 
-| Endpoint | Description  |
+| Endpoint | Description |
 |------|------|
 |/agents|Returns a list of agents. Agents are people, organizations or families.|
 |/agents/{id}|Returns data about an individual agent.|
@@ -85,7 +87,7 @@ See the full OpenAPI schema at [https://api.rockarch.org/schema](https://api.roc
 Use our [browseable API](https://api.rockarch.org) to see which parameters are available for which endpoints. For example, [https://api.rockarch.org/collections](https://api.rockarch.org/collections) lists the filter and sort fields, or parameters, that are available for that endpoint at the top of the webpage.
 
 | Parameter | Description | Example |
-|------|------|------|------|
+|------|------|------|
 |limit|Number of results to return per page.|limit=50|
 |offset|Number of results to return per page.|offset=50|
 |id|Unique identifier. The id is used in an endpoint path to point to a specific collection, object, agents, etc.|/collections/2HnhFZfibK6SVVu86skz3k|
@@ -101,43 +103,81 @@ Use our [browseable API](https://api.rockarch.org) to see which parameters are a
 |sort|Sort results by title, start_date, end_date, or type. By default the named property will be sorted ascending. Descending order can be achieved by appending an en dash (`-`) to the start of the property.|sort=title|
 
 ## Example queries
-1. Use the `/search` endpoint to return the number of search matches for the query term "agriculture" that are in collections and have been categorized as photographs with dates between 1940 and 1950:
+
+### Using URLS
+
+Example 1:
+Use the `/search` endpoint to return the number of search matches for the query term "agriculture" that are in collections and have been categorized as photographs with dates between 1940 and 1950:
 
 ```
 https://api.rockarch.org/search?&query=agriculture&category=collection&genre=photographs&start_date__gte=1940&end_date__lte=1950
 ```
 
-**Note**: Appending `__gte` and `__lte` to the date parameters function as `greater than or equal to` and `less than or equal to`, allowing us to include any start and end dates in this decade instead of limiting ourselves to specific start and end dates. Similarly, `gt`= greater than and `ls`= less than.
+**Note**: Appending `__gte` and `__lte` to the date parameters function as `greater than or equal to` and `less than or equal to`, allowing us to include any start and end dates in this decade instead of limiting ourselves to specific start and end dates. Similarly, `gt`= greater than and `lt`= less than.
 
-2. Use the `/minimap` endpoint to return collections and objects with search hits for the query term "agriculture" within the Ford Foundation records collection:
+Example 2:
+Use the `/minimap` endpoint to return collections and objects with search hits for the query term "agriculture" within the Ford Foundation records collection:
 
 ```
 https://api.rockarch.org/collections/2HnhFZfibK6SVVu86skz3k/minimap?query=agriculture
 ```
 
-3. Write a Python script using the [rac_api_client](https://pypi.org/project/rac-api-client/) to identify the creators of collections that contain keyword search matches for "green revolution". The `/search` endpoint performs search queries across agents, collections, objects, and terms.
+### Using the API client with Python
+Example Python scripts that uses the [RAC API client](https://pypi.org/project/rac-api-client/):
 
-Creators are the people, organizations, or families responsible for creating the records.
-Terms are controlled values describing topics, geographic places, or record formats.
+Example 1:
+Find out the physical size (called extent) of the Social Science Research Council records collection in the archives.
 
 ```python
+
+# get the collection data about the Social Science Research Council records using the collection id.
+client = Client()
+response = client.get("/collections/iNo7dbyWw2GwSwKsC3nDj3")
+
+# print collection title
+print(response["title"])
+
+#print collection extent value and type to get size
+print(response["extents"][0]["value"], response["extents"][0]["type"])
+```
+
+Result:
+
+```
+Social Science Research Council records
+509.06 Cubic Feet
+```
+
+Example 2:
+Identify the creators of collections that contain keyword search matches for "public television". The `/search` endpoint performs search queries across agents, collections, objects, and terms.
+
+Creators are the people, organizations, or families responsible for creating the records. Terms are controlled values describing topics, geographic places, or record formats.
+
+```python
+
 # import rac_api_client module
 from rac_api_client import Client
 
-# search across agents, collections, objects and terms for "green revolution"
-client = Client()
-response = client.get("/search", params={"query": "green revolution"})
-
-# compile a list of creators of collections that contain search matches for the query
+# create an empty list of creators (people or organization) of collections that contain search matches for the query
 creator_list = []
 
-for collection in response["results"]:
-  for creator in (collection["creators"]):
-    if creator not in creator_list:
-      creator_list.append(creator)
+# search across agents, collections, objects and terms for "green revolution"
+client = Client()
+for response in client.get_paged("/search", params={"query": "public television"}):
+  for creator in (response["creators"]):
+    creator_list.append(creator)
 
-# print list of creators
-print(creator_list)
+# get a list of creators with no duplicated names
+dedup_creator_list = list(set(creator_list))
+
+# print deduplicated list of creators
+print(dedup_creator_list)
+```
+
+Result:
+
+```
+['Rockefeller, David (1915-2017)', 'Knowles, John H. (1926-1979)', 'Ford Foundation', 'Reich, Cary', 'Rockefeller Foundation', 'John and Mary R. Markle Foundation', 'Rockefeller, Nelson A. (Nelson Aldrich)', 'Foundation for Child Development', 'Linden, Patricia', 'Asian Cultural Council', 'Rockefeller, John D., III (John Davison), 1906-1978', 'Rockefeller, Laurance Spelman', 'Arts in Education Program (U.S.)', 'National Committee on United States-China Relations', 'JDR 3rd Fund', 'Downtown Lower Manhattan Association', 'Henry Luce Foundation', 'Rockefeller, John D., Jr. (John Davison), 1874-1960', 'Grant, W. T. (William Thomas)', 'Knight Foundation', 'William T. Grant Foundation']
 ```
 
 ## Bulk download 

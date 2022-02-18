@@ -5,7 +5,7 @@ title:  "Getting Started with our Collections API"
 
 ## What is an API? 
 
-An API (Application Programming Interface) is a set of instructions that tells one software application how to "talk to", or transmit data, to another. If you have used [DIMES](https://dimes.rockarch.org/), our site to enable search and access to our collections, you have seen our API in action. For example, when you initiate a search for something in DIMES, your browser makes a request to the API, which delivers the data as the search results. 
+An API (Application Programming Interface) is a set of instructions that tells one software application how to "talk to", or transmit data, to another. If you have used [DIMES](https://dimes.rockarch.org/), our site to enable search and access to our collections, you have used an API. For example, when you initiate a search for something in DIMES, your browser makes a request to the API, which delivers the data as the search results. 
 
 With the API, you can bypass the website interface and instead send requests directly to get the data. With this direct access, you can explore the data in different ways and build new things.
 
@@ -32,7 +32,7 @@ This data is released under a Creative Commons Zero (CC0) public domain dedicati
 
 ## What can I do with the API? 
 
-You can use the API to get our collections data, and you can use that data in any way you like. Build applications, visualize and analyze data in new ways, search and browse, and generally make new connections. 
+You can use the API to get our collections data, and you can use that data in any way you like: build applications, visualize and analyze data in new ways, search and browse, and generally make new connections. 
 
 Example project: [Read our blog post](#) about an experiment to explore Rockefeller Archive Center collections through various visualizations. 
 
