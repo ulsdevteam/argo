@@ -9,19 +9,19 @@ from django.urls import reverse
 from elasticsearch.helpers import streaming_bulk
 from elasticsearch_dsl import connections, utils
 from rac_es.documents import (Agent, BaseDescriptionComponent, Collection,
-                              Object, Term)
+                              Object)
 from rac_schemas import is_valid
 from rest_framework.test import APIRequestFactory
 
 from .view_helpers import date_string
 from .views import (AgentViewSet, CollectionViewSet, MyListView, ObjectViewSet,
-                    SearchView, TermViewSet)
+                    SearchView)
 
 TYPE_MAP = (
     ('agent', Agent, AgentViewSet),
     ('collection', Collection, CollectionViewSet),
     ('object', Object, ObjectViewSet),
-    ('term', Term, TermViewSet),
+    # ('term', Term, TermViewSet),
 )
 
 STOP_WORDS = ["a", "an", "and", "are", "as", "at", "be", "but", "by", "for", "if",
@@ -174,7 +174,7 @@ class TestAPI(TestCase):
                 response.status_code, 200,
                 "View {}-detail in ViewSet {} did not return 200 for document {}".format(
                     basename, viewset, pk))
-            for uri in self.find_in_dict(response.data, "uri"):
+            for uri in list(filter(None, self.find_in_dict(response.data, "uri"))):
                 self.assertFalse(uri.endswith("/"))
             if basename in ["collection", "object"]:
                 self.assertTrue(isinstance(response.data["online"], bool))
@@ -258,7 +258,7 @@ class TestAPI(TestCase):
 
     def test_search(self):
         """Assert specific searches return expected number of results."""
-        for query_term, expected_count in [("rockefeller", 34), ("nelson", 5), ("cary reich", 2), ("", 175)]:
+        for query_term, expected_count in [("rockefeller", 34), ("nelson", 5), ("cary reich", 2), ("", 92)]:
             request = self.factory.get("{}?query={}".format(reverse("search-list"), query_term))
             response = SearchView.as_view(actions={"get": "list"}, basename="search")(request)
             self.assertEqual(response.data["count"], expected_count)

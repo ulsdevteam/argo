@@ -3,13 +3,12 @@ from rest_framework.schemas import get_schema_view
 
 from .routers import RACRouter
 from .views import (AgentViewSet, CollectionViewSet, FacetView, ObjectViewSet,
-                    SearchView, TermViewSet)
+                    SearchView)
 
 router = RACRouter(trailing_slash=False)
 router.register(r'agents', AgentViewSet, basename='agent')
 router.register(r'collections', CollectionViewSet, basename='collection')
 router.register(r'objects', ObjectViewSet, basename='object')
-router.register(r'terms', TermViewSet, basename='term')
 router.register(r'search', SearchView, basename='search')
 
 schema_view = get_schema_view(
