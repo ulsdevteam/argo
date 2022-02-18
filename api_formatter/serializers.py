@@ -95,8 +95,7 @@ class ReferenceSerializer(serializers.Serializer):
         elif basename in ["cultural_context", "function", "geographic",
                           "genre_form", "occupation", "style_period", "technique",
                           "temporal", "topical"]:
-            # basename = "term"
-            return None
+            basename = "term"
         return reverse('{}-detail'.format(basename), kwargs={"pk": obj.identifier})
 
 
