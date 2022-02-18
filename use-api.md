@@ -75,6 +75,8 @@ See the full OpenAPI schema at [https://api.rockarch.org/schema](https://api.roc
 |/objects|Returns a list of objects. Objects are intellectually significant groups of records that do not have children.|
 |/objects/{id}|Returns data about an individual object.|
 |/objects/{id}/ancestors|Returns the ancestors of an object.|
+|/terms|Returns a list of terms. Terms are controlled values describing topics, geographic places or record formats.|
+|/terms/{id}|Returns data about an individual term.|
 |/search|Performs search queries across agents, collections, objects and terms.|
 |/search/{id}|Performs search queries across a specific agent, collection, object or term.
 |/schema/|Returns the OpenAPI schema for the RAC API.|
