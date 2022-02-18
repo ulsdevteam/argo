@@ -4,18 +4,18 @@ title:  "How to Use the API"
 ---
 
 ## Access methods 
-The API is public and available for GET requests at https://api.rockarch.org. 
+The API is public and available for GET requests at [https://api.rockarch.org](https://api.rockarch.org). 
 
-Get started with your favorite API tool or script. We do not require an API key, but please limit your request rate to __ per __. We will throttle requests beyond that to maintain performance and broad access.
+Get started with your favorite API tool or script. We do not require an API key.
 
 If you are new to scripting or working with APIs, consider using a tool like [Hoppscotch](https://hoppscotch.io/) or [Postman](https://www.postman.com/).
 
-- We provide an API client to simplify requests if you are writing Python scripts: [rac_api_client](https://pypi.org/project/rac-api-client/)
+- We provide an [API client](https://pypi.org/project/rac-api-client/) to simplify requests if you are writing Python scripts.
 - Browse the API online at [https://api.rockarch.org](https://api.rockarch.org)
 
 
 ## Quick start 
-Data is accessed through GET requests using API endpoints. For a list of available endpoints, see the [endpoints and parameters](endpoints-and-parameters) section of this document.
+Data is accessed through GET requests using API endpoints. For a list of available endpoints, see the [endpoints and parameters](#endpoints-and-parameters) section of this document.
 
 Examples:
 
@@ -119,7 +119,8 @@ https://api.rockarch.org/collections/2HnhFZfibK6SVVu86skz3k/minimap?query=agricu
 
 Creators are the people, organizations, or families responsible for creating the records.
 Terms are controlled values describing topics, geographic places, or record formats.
-```
+
+```python
 # import rac_api_client module
 from rac_api_client import Client
 
