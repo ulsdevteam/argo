@@ -19,6 +19,7 @@ Data is accessed through GET requests using API endpoints. For a list of availab
 
 Example 1:
 Use the `/collections` endpoint to get a list of all of our archival collections, which are intellectually significant groups of records:
+
 ```
 GET https://api.rockarch.org/collections
 ```
@@ -130,17 +131,17 @@ Find out the physical size (called extent) of the Social Science Research Counci
 
 ```python
 
-# get the collection data about the Social Science Research Council records using the collection id.
+# get the collection data about the Social Science Research Council 
+# records using the collection id.
 client = Client()
-response = client.get("/collections/iNo7dbyWw2GwSwKsC3nDj3")
+collection = client.get("/collections/iNo7dbyWw2GwSwKsC3nDj3")
 
 # print collection title
-print(response["title"])
+print(collection["title"])
 
 # print collection extent value and type to get size
-for extent in response["extents"]:
+for extent in collection["extents"]:
     print(extent["value"], extent["type"])
-
 ```
 
 Result:
@@ -160,17 +161,18 @@ Creators are the people, organizations, or families responsible for creating the
 # import rac_api_client module
 from rac_api_client import Client
 
-# create an empty list of creators (people or organization) of collections that contain search matches for the query
-creator_list = []
+# create an empty set of creators (people or organization) of collections 
+# that contain search matches for the query
+creator_set = set()
 
-# search across agents, collections, objects and terms for "green revolution"
+# search across agents, collections, objects and terms for "public television"
+# add the associated creators to the creator set
 client = Client()
-for response in client.get_paged("/search", params={"query": "public television"}):
-  for creator in (response["creators"]):
-    creator_list.append(creator)
+for records in client.get_paged("/search", params={"query": "public television"}):
+  creator_set.add(*records["creators"])
 
-# get a list of creators with no duplicated names
-dedup_creator_list = list(set(creator_list))
+# convert the set to a list of creators with no duplicated names
+dedup_creator_list = list(creator_set)
 
 # print deduplicated list of creators
 print(dedup_creator_list)
