@@ -129,6 +129,8 @@ Example Python scripts that uses the [RAC API client](https://pypi.org/project/r
 Find out the physical size (called extent) of the Social Science Research Council records collection in the archives.
 
 ```python
+# import rac_api_client module
+from rac_api_client import Client
 
 # get the collection data about the Social Science Research Council 
 # records using the collection id.
@@ -156,7 +158,6 @@ Identify the creators of collections that contain keyword search matches for "pu
 Creators are the people, organizations, or families responsible for creating the records. Terms are controlled values describing topics, geographic places, or record formats.
 
 ```python
-
 # import rac_api_client module
 from rac_api_client import Client
 
