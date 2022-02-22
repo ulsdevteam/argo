@@ -106,7 +106,7 @@ Use our [browseable API](https://api.rockarch.org) to see which parameters are a
 
 ### Using URLS
 
-Example 1:
+#### Example 1
 Use the `/search` endpoint to return the number of search matches for the query term "agriculture" that are in collections and have been categorized as photographs with dates between 1940 and 1950:
 
 ```
@@ -115,7 +115,7 @@ https://api.rockarch.org/search?&query=agriculture&category=collection&genre=pho
 
 **Note**: Appending `__gte` and `__lte` to the date parameters function as `greater than or equal to` and `less than or equal to`, allowing us to include any start and end dates in this decade instead of limiting ourselves to specific start and end dates. Similarly, `gt`= greater than and `lt`= less than.
 
-Example 2:
+#### Example 2
 Use the `/minimap` endpoint to return collections and objects with search hits for the query term "agriculture" within the Ford Foundation records collection:
 
 ```
@@ -125,7 +125,7 @@ https://api.rockarch.org/collections/2HnhFZfibK6SVVu86skz3k/minimap?query=agricu
 ### Using the API client with Python
 Example Python scripts that uses the [RAC API client](https://pypi.org/project/rac-api-client/):
 
-Example 1:
+#### Example 1
 Find out the physical size (called extent) of the Social Science Research Council records collection in the archives.
 
 ```python
@@ -137,8 +137,10 @@ response = client.get("/collections/iNo7dbyWw2GwSwKsC3nDj3")
 # print collection title
 print(response["title"])
 
-#print collection extent value and type to get size
-print(response["extents"][0]["value"], response["extents"][0]["type"])
+# print collection extent value and type to get size
+for extent in response["extents"]:
+    print(extent["value"], extent["type"])
+
 ```
 
 Result:
@@ -148,7 +150,7 @@ Social Science Research Council records
 509.06 Cubic Feet
 ```
 
-Example 2:
+#### Example 2
 Identify the creators of collections that contain keyword search matches for "public television". The `/search` endpoint performs search queries across agents, collections, objects, and terms.
 
 Creators are the people, organizations, or families responsible for creating the records. Terms are controlled values describing topics, geographic places, or record formats.
