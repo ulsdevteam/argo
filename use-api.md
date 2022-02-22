@@ -8,10 +8,9 @@ The API is public and available for GET requests at [https://api.rockarch.org](h
 
 Get started with your favorite API tool or script. We do not require an API key.
 
-If you are new to scripting or working with APIs, consider using a tool like [Hoppscotch](https://hoppscotch.io/) or [Postman](https://www.postman.com/).
-
+- If you are new to scripting or working with APIs, consider using a tool like [Hoppscotch](https://hoppscotch.io/) or [Postman](https://www.postman.com/).
+- Browse the API online at [https://api.rockarch.org](https://api.rockarch.org).
 - We provide an [API client](https://pypi.org/project/rac-api-client/) to simplify requests if you are writing Python scripts.
-- Browse the API online at [https://api.rockarch.org](https://api.rockarch.org)
 
 
 ## Quick start 
