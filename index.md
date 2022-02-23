@@ -13,7 +13,7 @@ With the API, you can bypass the website interface and instead send requests dir
 
 Anyone can use it! We have made it publicly available for people like you to freely access. There is no sign up or authentication required.
 
-### What is the data and where does it come from? 
+## What is the data and where does it come from? 
 
 Our archival holdings are arranged and described by Rockefeller Archive Center archivists to make them accessible and facilitate use by providing information about their content and context. Archivists create descriptive information about: 
 
@@ -26,7 +26,7 @@ All of this information is managed in its own system and made available via the 
 
 Learn more about what data is available by [browsing the available API endpoints](https://api.rockarch.org), or points of entry to communicate with the API.
 
-### Licensing 
+## Licensing 
 
 This data is released under a Creative Commons Zero (CC0) public domain dedication. See our [full licensing statement](https://docs.rockarch.org/archival-description-license/) for specific license terms as well as best practices for repurposing this data.
 
