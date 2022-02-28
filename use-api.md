@@ -44,6 +44,22 @@ Note that `online` is a query parameter. By convention, these are included after
 https://api.rockarch.org/objects?online=true&start_date=1950
 ```
 
+### Example 4: Search
+Use the `/search` endpoint to return the number of search matches for the query term "agriculture" that are in collections and have been categorized as photographs with dates between 1940 and 1950:
+
+```
+https://api.rockarch.org/search?&query=agriculture&category=collection&genre=photographs&start_date__gte=1940&end_date__lte=1950
+```
+
+**Note**: Appending `__gte` and `__lte` to the date parameters function as `greater than or equal to` and `less than or equal to`, allowing us to include any start and end dates in this decade instead of limiting ourselves to specific start and end dates. Similarly, `gt`= greater than and `lt`= less than.
+
+### Example 5: Minimap
+Use the `/minimap` endpoint to return collections and objects with search hits for the query term "agriculture" within the Ford Foundation records collection:
+
+```
+https://api.rockarch.org/collections/2HnhFZfibK6SVVu86skz3k/minimap?query=agriculture
+```
+
 ## Understanding the data that comes back 
 We provide [JSON](https://www.json.org/json-en.html)-formatted data.
 
@@ -57,30 +73,10 @@ Example: get the **second** page of agent records consisting of **10** records:
 GET https://api.rockarch.org/agents?limit=10&offset=10
 ```
 
-## Example queries
-
-### Using URLS
-
-#### Example 1: Search
-Use the `/search` endpoint to return the number of search matches for the query term "agriculture" that are in collections and have been categorized as photographs with dates between 1940 and 1950:
-
-```
-https://api.rockarch.org/search?&query=agriculture&category=collection&genre=photographs&start_date__gte=1940&end_date__lte=1950
-```
-
-**Note**: Appending `__gte` and `__lte` to the date parameters function as `greater than or equal to` and `less than or equal to`, allowing us to include any start and end dates in this decade instead of limiting ourselves to specific start and end dates. Similarly, `gt`= greater than and `lt`= less than.
-
-#### Example 2: Minimap
-Use the `/minimap` endpoint to return collections and objects with search hits for the query term "agriculture" within the Ford Foundation records collection:
-
-```
-https://api.rockarch.org/collections/2HnhFZfibK6SVVu86skz3k/minimap?query=agriculture
-```
-
-### Using the API client with Python
+## Using the API client with Python
 Example Python scripts that uses the [RAC API client](https://pypi.org/project/rac-api-client/):
 
-#### Example 1: Size of collection
+### Example 1: Size of collection
 Find out the physical size (called extent) of the Social Science Research Council records collection in the archives.
 
 ```python
@@ -107,7 +103,7 @@ Social Science Research Council records
 509.06 Cubic Feet
 ```
 
-#### Example 2: Collection creators
+### Example 2: Collection creators
 Identify the creators of collections that contain keyword search matches for "public television". The `/search` endpoint performs search queries across agents, collections, objects, and terms.
 
 Creators are the people, organizations, or families responsible for creating the records. Terms are controlled values describing topics, geographic places, or record formats.
