@@ -3,9 +3,13 @@ layout: docs
 title:  "Getting Started with our Collections API"
 ---
 
+## How do I use this guide?
+
+This guide contains some definitions, context, examples, and technical documentation to get you started working with our collections data API. We encourage folks from all experience levels to explore and feel free to skip to the sections that are most useful for you.
+
 ## What is an API? 
 
-An API (Application Programming Interface) is a set of instructions that tells one software application how to "talk to", or transmit data, to another. If you have used [DIMES](https://dimes.rockarch.org/), our site to enable search and access to our collections, you have used an API. For example, when you initiate a search for something in DIMES, your browser makes a request to the API, which delivers the data as the search results. 
+An API (Application Programming Interface) is a set of instructions that tells one software application how to "talk to", or transmit data, to another. If you have used [DIMES](https://dimes.rockarch.org/), the Rockefeller Archive Center's site to enable search and access to our collections, you have used an API. For example, when you initiate a search for something in DIMES, your browser makes a request to the API, which delivers the data as the search results. 
 
 With the API, you can bypass the website interface and instead send requests directly to get the data. With this direct access, you can explore the data in different ways and build things.
 
@@ -34,7 +38,7 @@ This data is released under a Creative Commons Zero (CC0) public domain dedicati
 
 You can use the API to get our collections data, and you can use that data in any way you like: build applications, visualize and analyze data in new ways, search and browse, and generally make connections. 
 
-Example project: [Read our blog post](#) about an experiment to explore Rockefeller Archive Center collections through various visualizations. 
+Example project: [Read our blog post](https://blog.rockarch.org/using-the-rac-collections-api-to-create-visualizations) about an experiment to explore Rockefeller Archive Center collections through various visualizations. 
 
 ## Where can I report an issue?
 
@@ -42,3 +46,6 @@ Please let us know if something isn't working as expected! You can either file a
 
 ## Create something? Share with us! 
 Keep in touch. We'd love to hear about how you're using our data. [Find us on Twitter](https://twitter.com/rockarch_org) or email archive@rockarch.org. 
+
+## Bulk data download 
+You can also access [exports of our public collections data](https://github.com/RockefellerArchiveCenter/data) on GitHub. The data is generally exported on a bi-monthly basis.

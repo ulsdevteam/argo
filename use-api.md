@@ -2,19 +2,19 @@
 layout: docs
 title:  "How to Use the API"
 ---
-
 ## Access methods 
 The API is public and available for GET requests at [https://api.rockarch.org](https://api.rockarch.org). 
 
 Get started with your favorite API tool or script. We do not require an API key.
 
-- If you are new to scripting or working with APIs, consider using a tool like [Hoppscotch](https://hoppscotch.io/) or [Postman](https://www.postman.com/).
 - Browse the API online at [https://api.rockarch.org](https://api.rockarch.org).
+- If you are new to scripting or working with APIs, consider using a tool like [Hoppscotch](https://hoppscotch.io/) or [Postman](https://www.postman.com/).
 - We provide an [API client](https://pypi.org/project/rac-api-client/) to simplify requests if you are writing Python scripts.
 
-
 ## Quick start 
-Data is accessed through GET requests using API endpoints. For a list of available endpoints, see the [endpoints and parameters](/argo/endpoints-parameters) section of this document.
+The best way to learn what is available via the API is to start making API requests and exploring what comes back, whether in the [browsable API](https://api.rockarch.org) with URLs or using another interface. Data is accessed through GET requests using API endpoints. For a list of available endpoints, see the [endpoints and parameters](/argo/endpoints-parameters) section of this document.
+
+This section includes some basic examples to show you how to construct queries and start exploring.
 
 ### Example 1: Get all collections
 Use the `/collections` endpoint to get a list of all of our archival collections, which are intellectually significant groups of records:
@@ -134,6 +134,3 @@ Result:
 ```
 ['Rockefeller, David (1915-2017)', 'Knowles, John H. (1926-1979)', 'Ford Foundation', 'Reich, Cary', 'Rockefeller Foundation', 'John and Mary R. Markle Foundation', 'Rockefeller, Nelson A. (Nelson Aldrich)', 'Foundation for Child Development', 'Linden, Patricia', 'Asian Cultural Council', 'Rockefeller, John D., III (John Davison), 1906-1978', 'Rockefeller, Laurance Spelman', 'Arts in Education Program (U.S.)', 'National Committee on United States-China Relations', 'JDR 3rd Fund', 'Downtown Lower Manhattan Association', 'Henry Luce Foundation', 'Rockefeller, John D., Jr. (John Davison), 1874-1960', 'Grant, W. T. (William Thomas)', 'Knight Foundation', 'William T. Grant Foundation']
 ```
-
-## Bulk download 
-You can access [exports of our public collections data](https://github.com/RockefellerArchiveCenter/data) on GitHub. The data is generally exported on a bi-monthly basis.
