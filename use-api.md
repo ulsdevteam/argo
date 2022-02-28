@@ -16,14 +16,14 @@ Get started with your favorite API tool or script. We do not require an API key.
 ## Quick start 
 Data is accessed through GET requests using API endpoints. For a list of available endpoints, see the [endpoints and parameters](/argo/endpoints-parameters) section of this document.
 
-Example 1:
+### Example 1: Get all collections
 Use the `/collections` endpoint to get a list of all of our archival collections, which are intellectually significant groups of records:
 
 ```
 GET https://api.rockarch.org/collections
 ```
 
-Example 2:
+### Example 2: Get a specific collection
 Get data about one specific collection, replacing {id} with the collection's identifier (example id: `H45i6yf7MUHuaRwQVupvg5`). Collection identifiers can be found in the `/collections` or `/search` endpoints as the URI value of a collection. They can also be found in DIMES URLs, since DIMES uses the API. For example: `https://dimes.rockarch.org/collections/H45i6yf7MUHuaRwQVupvg5`: 
 
 ```
@@ -31,7 +31,7 @@ GET https://api.rockarch.org/collections/{id}
 ```
 See what a response looks like in the browsable API by opening the link in your browser: [https://api.rockarch.org/collections/H45i6yf7MUHuaRwQVupvg5](https://api.rockarch.org/collections/H45i6yf7MUHuaRwQVupvg5).
 
-Example 3:
+### Example 3: Get objects that are available to view online
 Use the `/objects` endpoint and `online` parameter to get data for all archival objects that have digital versions available. Objects are defined as intellectually significant groups of records in a collection that do not have children:
 
 ```
@@ -61,7 +61,7 @@ GET https://api.rockarch.org/agents?limit=10&offset=10
 
 ### Using URLS
 
-#### Example 1
+#### Example 1: Search
 Use the `/search` endpoint to return the number of search matches for the query term "agriculture" that are in collections and have been categorized as photographs with dates between 1940 and 1950:
 
 ```
@@ -70,7 +70,7 @@ https://api.rockarch.org/search?&query=agriculture&category=collection&genre=pho
 
 **Note**: Appending `__gte` and `__lte` to the date parameters function as `greater than or equal to` and `less than or equal to`, allowing us to include any start and end dates in this decade instead of limiting ourselves to specific start and end dates. Similarly, `gt`= greater than and `lt`= less than.
 
-#### Example 2
+#### Example 2: Minimap
 Use the `/minimap` endpoint to return collections and objects with search hits for the query term "agriculture" within the Ford Foundation records collection:
 
 ```
@@ -80,7 +80,7 @@ https://api.rockarch.org/collections/2HnhFZfibK6SVVu86skz3k/minimap?query=agricu
 ### Using the API client with Python
 Example Python scripts that uses the [RAC API client](https://pypi.org/project/rac-api-client/):
 
-#### Example 1
+#### Example 1: Size of collection
 Find out the physical size (called extent) of the Social Science Research Council records collection in the archives.
 
 ```python
@@ -107,7 +107,7 @@ Social Science Research Council records
 509.06 Cubic Feet
 ```
 
-#### Example 2
+#### Example 2: Collection creators
 Identify the creators of collections that contain keyword search matches for "public television". The `/search` endpoint performs search queries across agents, collections, objects, and terms.
 
 Creators are the people, organizations, or families responsible for creating the records. Terms are controlled values describing topics, geographic places, or record formats.
