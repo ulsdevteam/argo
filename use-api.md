@@ -24,7 +24,7 @@ GET https://api.rockarch.org/collections
 ```
 
 Example 2:
-Get data about one specific collection, replacing {id} with the collection's identifier (example id: `H45i6yf7MUHuaRwQVupvg5`):
+Get data about one specific collection, replacing {id} with the collection's identifier (example id: `H45i6yf7MUHuaRwQVupvg5`). Collection identifiers can be found in the `/collections` or `/search` endpoints as the URI value of a collection. They can also be found in DIMES URLs, since DIMES uses the API. For example: `https://dimes.rockarch.org/collections/H45i6yf7MUHuaRwQVupvg5`: 
 
 ```
 GET https://api.rockarch.org/collections/{id}
