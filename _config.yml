@@ -8,3 +8,4 @@ description: Guide to using the Rockefeller Archive Center API to access our col
 pages:
   - ["Getting Started with our Collections API", "index"]
   - ["How to Use the API", "use-api"]
+  - ["Endpoints and Parameters", "endpoints-parameters"]
