@@ -45,3 +45,13 @@ Use our [browsable API](https://api.rockarch.org) to see which parameters are av
 |genre|Filters results by genre/format term, including `documents`, `photographs`, `moving image`, and `audio`.|genre=moving image|
 |query|Query for full-text search|query=yellow fever|
 |sort|Sort results by title, start_date, end_date, or type. By default the named property will be sorted ascending. Descending order can be achieved by appending an en dash (`-`) to the start of the property.|sort=title|
+
+### Refining dates
+Specify dates and date ranges by appending conditions to the start and end date parameters separated by a double underscore: `__`. For example, `start_date__gte=1940&end_date__lt=1950` includes all dates from 1940 to 1949.
+
+| Parameter condition | Description |
+|------|------|
+|gt|greater than|
+|lt|less than|
+|gte|greater than or equal to|
+|lte|less than or equal to|

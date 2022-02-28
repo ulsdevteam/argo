@@ -51,7 +51,7 @@ Use the `/search` endpoint to return the number of search matches for the query 
 https://api.rockarch.org/search?&query=agriculture&category=collection&genre=photographs&start_date__gte=1940&end_date__lte=1950
 ```
 
-**Note**: Appending `__gte` and `__lte` to the date parameters function as `greater than or equal to` and `less than or equal to`, allowing us to include any start and end dates in this decade instead of limiting ourselves to specific start and end dates. Similarly, `gt`= greater than and `lt`= less than.
+**Note**: As documented in the [parameters section](/argo/endpoints-parameters#parameters), appending `__gte` and `__lte` to the date parameters function as `greater than or equal to` and `less than or equal to`, allowing us to include any start and end dates in this decade instead of limiting ourselves to specific start and end dates.
 
 ### Example 5: Minimap
 Use the `/minimap` endpoint to return collections and objects with search hits for the query term "agriculture" within the Ford Foundation records collection:
