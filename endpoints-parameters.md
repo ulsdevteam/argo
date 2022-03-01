@@ -9,19 +9,24 @@ See the full OpenAPI schema at [https://api.rockarch.org/schema](https://api.roc
 
 ## Endpoints
 
+**Agents**: People, organizations or families.
+**Collections**: Intellectually significant groups of records.
+**Objects**: Intellectually significant groups of records that do not have children.
+**Terms**: Controlled values describing topics, geographic places or record formats.
+
 | Endpoint | Description |
 |------|------|
-|/agents|Returns a list of agents. Agents are people, organizations or families.|
+|/agents|Returns a list of agents.|
 |/agents/{id}|Returns data about an individual agent.|
-|/collections|Returns a list of collections. Collections are intellectually significant groups of records.|
+|/collections|Returns a list of collections.|
 |/collections/{id}|Returns data about an individual collection.|
 |/collections/{id}/ancestors|Returns the ancestors of a collection.|
-|/collections/{id}/children|Returns the children of a collection.|
+|/collections/{id}/children|Returns the children of a collection. Children of collections can be collections or objects.|
 |/collections/{id}/minimap|Returns data about where search hits are located within a collection.|
-|/objects|Returns a list of objects. Objects are intellectually significant groups of records that do not have children.|
+|/objects|Returns a list of objects.|
 |/objects/{id}|Returns data about an individual object.|
 |/objects/{id}/ancestors|Returns the ancestors of an object.|
-|/terms|Returns a list of terms. Terms are controlled values describing topics, geographic places or record formats.|
+|/terms|Returns a list of terms.|
 |/terms/{id}|Returns data about an individual term.|
 |/search|Performs search queries across agents, collections, objects and terms.|
 |/search/{id}|Performs search queries across a specific agent, collection, object or term.

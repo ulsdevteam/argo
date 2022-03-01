@@ -5,7 +5,7 @@ title:  "Getting Started with our Collections API"
 
 ## How do I use this guide?
 
-This guide contains some definitions, context, examples, and technical documentation to get you started working with our collections data API. We encourage folks from all experience levels to explore and feel free to skip to the sections that are most useful for you.
+This guide contains some definitions, context, examples, and technical documentation to get you started working with our collections data API. We encourage folks from all experience levels to explore and feel free to skip to the sections that are useful for you.
 
 ## What is an API? 
 
