@@ -9,10 +9,10 @@ See the full OpenAPI schema at [https://api.rockarch.org/schema](https://api.roc
 
 ## Endpoints
 
-**Agents**: People, organizations or families.
-**Collections**: Intellectually significant groups of records.
-**Objects**: Intellectually significant groups of records that do not have children.
-**Terms**: Controlled values describing topics, geographic places or record formats.
+**Agents**: People, organizations or families.  
+**Collections**: Intellectually significant groups of records.  
+**Objects**: Intellectually significant groups of records that do not have children.  
+**Terms**: Controlled values describing topics, geographic places or record formats.  
 
 | Endpoint | Description |
 |------|------|
