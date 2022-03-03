@@ -5,7 +5,7 @@ title:  "Getting Started with our Collections API"
 
 ## How do I use this guide?
 
-This guide contains some definitions, context, examples, and technical documentation to get you started working with our collections data API. We encourage folks from all experience levels to explore and feel free to skip to the sections that are useful for you.
+This guide contains some definitions, context, examples, and technical documentation to get you started working with our collections data API. We encourage folks from all experience levels to explore, and you should feel free to skip to the sections that are useful for you.
 
 ## What is an API? 
 
@@ -27,7 +27,7 @@ Our archival holdings are arranged and described by Rockefeller Archive Center a
 1. Archival records.
 2. Agents, who are records creators and other people, organizations, and families related to the records.
 3. Relevant biographical, historical, or administrative activities.
-4. The relationships between these records, agents and activities.
+4. The relationships between these records, agents, and activities.
 
 All of this information is managed in its own system and made available via the API. The API also includes data used specifically in the DIMES website to improve search and discovery on the site.
 
