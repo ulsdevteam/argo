@@ -3,7 +3,6 @@ import json
 import os
 import random
 
-from argo import settings
 from django.test import TestCase
 from django.urls import reverse
 from elasticsearch.helpers import streaming_bulk
@@ -12,6 +11,8 @@ from rac_es.documents import (Agent, BaseDescriptionComponent, Collection,
                               Object, Term)
 from rac_schemas import is_valid
 from rest_framework.test import APIRequestFactory
+
+from argo import settings
 
 from .view_helpers import date_string
 from .views import (AgentViewSet, CollectionViewSet, MyListView, ObjectViewSet,

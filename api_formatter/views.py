@@ -1,4 +1,3 @@
-from argo import settings
 from django.http import Http404
 from django_elasticsearch_dsl_drf.constants import SUGGESTER_TERM
 from django_elasticsearch_dsl_drf.pagination import LimitOffsetPagination
@@ -10,6 +9,8 @@ from rest_framework.response import Response
 from rest_framework.status import HTTP_400_BAD_REQUEST
 from rest_framework.views import APIView
 from rest_framework.viewsets import ReadOnlyModelViewSet
+
+from argo import settings
 
 from .pagination import CollapseLimitOffsetPagination
 from .serializers import (AgentListSerializer, AgentSerializer,
