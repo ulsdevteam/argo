@@ -10,7 +10,7 @@ attrs==21.2.0
     # via jsonschema
 certifi==2021.10.8
     # via elasticsearch
-django==4.0.2
+django==4.0.3
     # via
     #   -r requirements.in
     #   django-cors-headers
