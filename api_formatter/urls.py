@@ -1,4 +1,4 @@
-from django.conf.urls import include, url
+from django.urls import include, re_path
 from rest_framework.schemas import get_schema_view
 
 from .routers import RACRouter
@@ -20,7 +20,7 @@ schema_view = get_schema_view(
 )
 
 urlpatterns = [
-    url(r'^', include(router.urls)),
-    url(r'facets', FacetView.as_view({'get': 'retrieve'}), name='facets'),
-    url(r'^schema', schema_view, name='schema'),
+    re_path(r'^', include(router.urls)),
+    re_path(r'facets', FacetView.as_view({'get': 'retrieve'}), name='facets'),
+    re_path(r'^schema', schema_view, name='schema'),
 ]

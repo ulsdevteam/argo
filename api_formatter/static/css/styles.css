@@ -7,3 +7,35 @@ html {
     background-color: #f7f7f9;
     border: 1px solid #e1e1e8;
 }
+
+/* improve color contrast */
+a {
+  color: #0069d9;
+}
+
+.breadcrumb-item.active {
+  color: #616A70;
+}
+
+.page-link {
+  color: #0069d9;
+}
+
+.btn-primary, .page-item.active {
+  background-color: #0069d9;
+  border-color: #0069d9;
+}
+
+.btn-primary:hover, .btn-outline-primary:hover {
+    background-color: #004FA3;
+    border-color: #004FA3;
+}
+
+.btn-outline-primary {
+  border-color: #0069d9;
+  color: #0069d9;
+}
+
+.nav-link:hover, .page-link:hover {
+  text-decoration: underline;
+}
