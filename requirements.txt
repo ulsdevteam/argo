@@ -8,21 +8,21 @@ asgiref==3.5.2
     # via django
 attrs==21.4.0
     # via jsonschema
-certifi==2022.5.18.1
+certifi==2022.6.15
     # via elasticsearch
-django==4.0.5
+django==4.0.6
     # via
     #   -r requirements.in
     #   django-cors-headers
     #   django-nine
     #   djangorestframework
-django-cors-headers==3.12.0
+django-cors-headers==3.13.0
     # via -r requirements.in
 django-elasticsearch-dsl==7.2.2
     # via
     #   -r requirements.in
     #   django-elasticsearch-dsl-drf
-django-elasticsearch-dsl-drf==0.22.4
+django-elasticsearch-dsl-drf==0.22.5
     # via -r requirements.in
 django-nine==0.2.5
     # via django-elasticsearch-dsl-drf
@@ -30,7 +30,7 @@ djangorestframework==3.13.1
     # via
     #   -r requirements.in
     #   django-elasticsearch-dsl-drf
-elasticsearch==7.17.0
+elasticsearch==7.17.4
     # via
     #   -r requirements.in
     #   django-elasticsearch-dsl-drf
@@ -42,7 +42,7 @@ elasticsearch-dsl==7.4.0
     #   django-elasticsearch-dsl
     #   django-elasticsearch-dsl-drf
     #   rac-es
-jsonschema==4.4.0
+jsonschema==4.7.2
     # via
     #   -r requirements.in
     #   rac-schemas
@@ -56,7 +56,7 @@ pytz==2022.1
     # via djangorestframework
 pyyaml==6.0
     # via -r requirements.in
-rac-es==0.18
+rac-es==1.0.0
     # via -r requirements.in
 rac-schemas==0.30
     # via -r requirements.in
@@ -72,5 +72,5 @@ sqlparse==0.4.2
     # via django
 uritemplate==4.1.1
     # via -r requirements.in
-urllib3==1.26.9
+urllib3==1.26.10
     # via elasticsearch
