@@ -11,3 +11,5 @@ SQL_USER = "postgres"  # name of the application database user (string)
 SQL_PASSWORD = "postgres"  # password for the application database (string)
 SQL_HOST = "argo-db"  # host for the application database (string)
 SQL_PORT = 5432  # port on which the application database can be reached (integer)
+USE_X_FORWARDED_HOST = False # True if the application is behind a reverse proxy
+SECURE_PROXY_SSL_HEADER = ["HTTP_X_FORWARDED_PROTO", "https"] # If the application is being a reverse proxy, and if a header value indicates an HTTPS connection proxied over HTTP, name that header and value
