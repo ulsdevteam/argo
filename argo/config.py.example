@@ -11,3 +11,9 @@ SQL_USER = "postgres"  # name of the application database user (string)
 SQL_PASSWORD = "postgres"  # password for the application database (string)
 SQL_HOST = "argo-db"  # host for the application database (string)
 SQL_PORT = 5432  # port on which the application database can be reached (integer)
+USE_X_FORWARDED_HOST=True # Whether the application is behind a reverse proxy
+USE_X_FORWARDED_PORT=True # Whether the application is behind a reveres proxy on another port (e.g. HTTPS?)
+SECURE_PROXY_SSL_HEADER=['HTTP_X_FORWARDED_PROTO', 'https'] # What header should be considered to respond with HTTPS urls
+DJANGO_CORS_ALLOW_ALL_ORIGINS=False # Legacy (risky) setting to allow all CORS origins
+DJANGO_CORS_ALLOWED_ORIGINS=["http://localhost", "http://localhost:3000"] # A list of allowed CORS origins
+
