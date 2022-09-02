@@ -46,6 +46,17 @@ The first time the container is started, the example config file (`/argo/config.
 |GET|/schema/||200|Returns the OpenAPI schema|
 
 
+### Schemas
+
+This service depends on JSON schemas defined for your archival data.  [Rockefeller Archive Center's schemas](https://github.com/RockefellerArchiveCenter/rac_schemas) can be used as a basis for your schemas.  An easy way to incorporate your own schemas is to fork Rockefeller Archive Center's repository, clone it into this directory under the rac-schema folder, and edit the requirements.in to use this local repository.
+
+For example:
+```
+git clone https://github.com/ulsdevteam/rac_schemas rac-schemas
+sed 's/rac-schemas/.\/rac-schemas/' -i requirements.in
+```
+
+
 ## Development
 
 This repository contains a configuration file for git [pre-commit](https://pre-commit.com/) hooks which help ensure that code is linted before it is checked into version control. It is strongly recommended that you install these hooks locally by installing pre-commit and running `pre-commit install`.
