@@ -10,7 +10,7 @@ attrs==22.1.0
     # via jsonschema
 certifi==2022.9.24
     # via elasticsearch
-django==4.0.7
+django==4.0.8
     # via
     #   -r requirements.in
     #   django-cors-headers
@@ -30,7 +30,7 @@ djangorestframework==3.14.0
     # via
     #   -r requirements.in
     #   django-elasticsearch-dsl-drf
-elasticsearch==7.17.6
+elasticsearch==7.17.7
     # via
     #   -r requirements.in
     #   django-elasticsearch-dsl-drf
@@ -46,13 +46,13 @@ jsonschema==4.16.0
     # via
     #   -r requirements.in
     #   rac-schemas
-psycopg2-binary==2.9.3
+psycopg2-binary==2.9.5
     # via -r requirements.in
-pyrsistent==0.18.1
+pyrsistent==0.19.1
     # via jsonschema
 python-dateutil==2.8.2
     # via elasticsearch-dsl
-pytz==2022.2.1
+pytz==2022.6
     # via djangorestframework
 pyyaml==6.0
     # via -r requirements.in
