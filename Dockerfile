@@ -5,6 +5,6 @@ RUN mkdir /code
 WORKDIR /code
 ADD requirements.txt /code/
 RUN apt-get install libpq-dev
-ENV PATH="${PATH}:/usr/bin"
+ENV PATH="${PATH}:/usr/lib"
 RUN pip install --upgrade pip && pip install -r requirements.txt
 ADD . /code/
