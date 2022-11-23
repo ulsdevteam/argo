@@ -6,7 +6,7 @@ djangorestframework~=3.13
 elasticsearch~=7.17
 elasticsearch-dsl~=7.4
 jsonschema~=4.7
-psycopg2-binary==2.9.3
+psycopg2~=2.9
 PyYAML~=6.0
 rac-schemas~=0.30
 rac_es~=1.0
