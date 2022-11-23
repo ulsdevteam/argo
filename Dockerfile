@@ -5,6 +5,6 @@ RUN mkdir /code
 WORKDIR /code
 ADD requirements.txt /code/
 RUN \
-  apt install libpq-dev && \
+  apt install postgresql-libs && \
   pip install --upgrade pip && pip install -r requirements.txt
 ADD . /code/
