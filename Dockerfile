@@ -4,7 +4,7 @@ ENV PYTHONUNBUFFERED 1
 RUN mkdir /code
 WORKDIR /code
 ADD requirements.txt /code/
-RUN \
-  apt-get install libpq-dev && \
-  pip install --upgrade pip && pip install -r requirements.txt
+RUN apt-get install libpq-dev
+ENV PATH="${PATH}:/usr/bin"
+RUN pip install --upgrade pip && pip install -r requirements.txt
 ADD . /code/
