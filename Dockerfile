@@ -4,9 +4,5 @@ ENV PYTHONUNBUFFERED 1
 RUN mkdir /code
 WORKDIR /code
 ADD requirements.txt /code/
-RUN \
-  apk add --no-cache postgresql-libs && \
-  apk add --no-cache --virtual .build-deps gcc musl-dev postgresql-dev && \
-  pip install --upgrade pip && pip install -r requirements.txt
-  apk --purge del .build-deps
+RUN pip install --upgrade pip && pip install -r requirements.txt
 ADD . /code/
