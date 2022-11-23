@@ -5,6 +5,6 @@ RUN mkdir /code
 WORKDIR /code
 ADD requirements.txt /code/
 RUN \
-  apt-get install postgresql-dev && \
+  apt-get install postgresql && \
   pip install --upgrade pip && pip install -r requirements.txt
 ADD . /code/
