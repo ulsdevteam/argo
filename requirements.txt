@@ -42,11 +42,11 @@ elasticsearch-dsl==7.4.0
     #   django-elasticsearch-dsl
     #   django-elasticsearch-dsl-drf
     #   rac-es
-jsonschema==4.17.0
+jsonschema==4.17.1
     # via
     #   -r requirements.in
     #   rac-schemas
-psycopg2-binary==2.9.3
+psycopg2==2.9.5
     # via -r requirements.in
 pyrsistent==0.19.2
     # via jsonschema
