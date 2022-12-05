@@ -24,7 +24,7 @@ django-elasticsearch-dsl==7.2.2
     #   django-elasticsearch-dsl-drf
 django-elasticsearch-dsl-drf==0.22.5
     # via -r requirements.in
-django-nine==0.2.6
+django-nine==0.2.7
     # via django-elasticsearch-dsl-drf
 djangorestframework==3.14.0
     # via
@@ -46,8 +46,12 @@ jsonschema==4.17.3
     # via
     #   -r requirements.in
     #   rac-schemas
+packaging==21.3
+    # via django-nine
 psycopg2==2.9.5
     # via -r requirements.in
+pyparsing==3.0.9
+    # via packaging
 pyrsistent==0.19.2
     # via jsonschema
 python-dateutil==2.8.2
