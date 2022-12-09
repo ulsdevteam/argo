@@ -8,7 +8,7 @@ asgiref==3.5.2
     # via django
 attrs==22.1.0
     # via jsonschema
-certifi==2022.9.24
+certifi==2022.12.7
     # via elasticsearch
 django==4.0.8
     # via
@@ -30,7 +30,7 @@ djangorestframework==3.14.0
     # via
     #   -r requirements.in
     #   django-elasticsearch-dsl-drf
-elasticsearch==7.17.7
+elasticsearch==7.17.8
     # via
     #   -r requirements.in
     #   django-elasticsearch-dsl-drf
@@ -46,12 +46,10 @@ jsonschema==4.17.3
     # via
     #   -r requirements.in
     #   rac-schemas
-packaging==21.3
+packaging==22.0
     # via django-nine
 psycopg2==2.9.5
     # via -r requirements.in
-pyparsing==3.0.9
-    # via packaging
 pyrsistent==0.19.2
     # via jsonschema
 python-dateutil==2.8.2
