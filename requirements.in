@@ -1,5 +1,6 @@
 Django~=4.0.7
 django-cors-headers~=3.13
+django-csp~=3.7
 django-elasticsearch-dsl~=7.2
 django-elasticsearch-dsl-drf~=0.22
 djangorestframework~=3.13

@@ -18,7 +18,7 @@ services:
       - argo-db
 
   elasticsearch:
-    image: elasticsearch:7.0.0
+    image: elasticsearch:7.9.3
     environment:
       - node.name=elasticsearch
       - discovery.seed_hosts=elasticsearch
