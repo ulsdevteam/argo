@@ -1,0 +1,3 @@
+[submodule "rac-schemas"]
+	path = rac-schemas
+	url = ssh://git@proxy.it.pitt.edu:4022/ulsdevteam/rac_schemas
