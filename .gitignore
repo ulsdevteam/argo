@@ -12,11 +12,6 @@ db.sqlite3
 media
 config.py
 
-### Configs ###
-*.conf
-*.production
-*.prod
-
 ### Environments ###
 *.env
 env/*
