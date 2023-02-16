@@ -51,7 +51,7 @@ jsonschema==4.17.3
     #   rac-schemas
 packaging==23.0
     # via django-nine
-psycopg2-binary==2.9.5
+psycopg2==2.9.5
     # via -r requirements.in
 pyrsistent==0.19.3
     # via jsonschema
