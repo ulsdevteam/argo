@@ -74,7 +74,7 @@ class GroupSerializer(serializers.Serializer):
 class ReferenceSerializer(serializers.Serializer):
     title = serializers.CharField()
     type = serializers.CharField(allow_null=True)
-    online = serializers.SerializerMethodField()
+    #online = serializers.SerializerMethodField()
     hit_count = serializers.IntegerField(allow_null=True)
     online_hit_count = serializers.IntegerField(allow_null=True)
     uri = serializers.SerializerMethodField()
@@ -83,8 +83,8 @@ class ReferenceSerializer(serializers.Serializer):
     group = GroupSerializer(allow_null=True)
     index = serializers.IntegerField(source="position", allow_null=True)
 
-    def get_online(self, obj):
-        return getattr(obj, "online", False)
+    #def get_online(self, obj):
+    #    return getattr(obj, "online", True)
 
     def get_uri(self, obj):
         if getattr(obj, "uri", None):
@@ -143,7 +143,7 @@ class CollectionSerializer(BaseDetailSerializer):
     description = serializers.SerializerMethodField()
     extents = ExtentSerializer(many=True)
     formats = serializers.ListField()
-    online = serializers.BooleanField()
+    #online = serializers.BooleanField()
     dates = DateSerializer(many=True, allow_null=True)
     notes = NoteSerializer(many=True, allow_null=True)
     rights_statements = RightsStatementSerializer(many=True, allow_null=True)
@@ -165,7 +165,7 @@ class ObjectSerializer(BaseDetailSerializer):
     description = serializers.SerializerMethodField()
     extents = ExtentSerializer(many=True, allow_null=True)
     formats = serializers.ListField()
-    online = serializers.BooleanField()
+    #online = serializers.BooleanField()
     dates = DateSerializer(many=True, allow_null=True)
     notes = NoteSerializer(many=True, allow_null=True)
     rights_statements = RightsStatementSerializer(many=True, allow_null=True)
