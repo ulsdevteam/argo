@@ -1,0 +1,3 @@
+[submodule "rac-schemas"]
+	path = rac-schemas
+	url = https://github.com/ulsdevteam/rac_schemas

@@ -1,4 +1,3 @@
-from argo import settings
 from django.http import Http404
 from django_elasticsearch_dsl_drf.constants import (LOOKUP_FILTER_PREFIX,
                                                     LOOKUP_FILTER_RANGE,
@@ -10,14 +9,15 @@ from django_elasticsearch_dsl_drf.constants import (LOOKUP_FILTER_PREFIX,
                                                     LOOKUP_QUERY_IN,
                                                     LOOKUP_QUERY_LT,
                                                     LOOKUP_QUERY_LTE)
-from django_elasticsearch_dsl_drf.filter_backends import (DefaultOrderingFilterBackend,
-                                                          FilteringFilterBackend,
-                                                          NestedFilteringFilterBackend,
-                                                          OrderingFilterBackend,
-                                                          SuggesterFilterBackend)
+from django_elasticsearch_dsl_drf.filter_backends import (
+    DefaultOrderingFilterBackend, FilteringFilterBackend,
+    NestedFilteringFilterBackend, OrderingFilterBackend,
+    SuggesterFilterBackend)
 from django_elasticsearch_dsl_drf.pagination import LimitOffsetPagination
 from elasticsearch_dsl import Index, Search, connections
 from rest_framework.viewsets import ReadOnlyModelViewSet
+
+from argo import settings
 
 STRING_LOOKUPS = [
     LOOKUP_FILTER_TERMS,
