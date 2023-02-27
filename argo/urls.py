@@ -19,7 +19,7 @@ from django.urls import include, path
 from api_formatter.views import MyListView
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    path('admin', admin.site.urls),
     path('mylist', MyListView.as_view(), name='mylist'),
     path('', include('api_formatter.urls'))
 

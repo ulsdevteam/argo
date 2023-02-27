@@ -31,7 +31,6 @@ ALLOWED_HOSTS = config.DJANGO_ALLOWED_HOSTS
 USE_X_FORWARDED_HOST = config.USE_X_FORWARDED_HOST
 SECURE_PROXY_SSL_HEADER = config.SECURE_PROXY_SSL_HEADER
 
-
 # Application definition
 
 INSTALLED_APPS = [
@@ -57,6 +56,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'csp.middleware.CSPMiddleware',
 ]
 
 ROOT_URLCONF = 'argo.urls'
@@ -157,3 +157,8 @@ ELASTICSEARCH_DSL = {
 CORS_ORIGIN_ALLOW_ALL = True
 
 DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
+
+# Content Security Policy
+CSP_IMG_SRC = ("'self'")
+CSP_STYLE_SRC = ("'self'", "'unsafe-inline'")
+CSP_SCRIPT_SRC = ("'self'", "'unsafe-inline'", 'https://cdnjs.cloudflare.com/')
