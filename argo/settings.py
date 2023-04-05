@@ -168,3 +168,6 @@ CSP_STYLE_SRC = ("'self'", "'unsafe-inline'")
 CSP_SCRIPT_SRC = ("'self'", "'unsafe-inline'", 'https://cdnjs.cloudflare.com/')
 CSP_FRAME_SRC = ("'none'")
 CSP_FRAME_ANCESTORS = ("'none'")
+
+# Strict Transport Security
+SECURE_HSTS_SECONDS = 3600
