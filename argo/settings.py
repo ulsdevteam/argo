@@ -139,6 +139,10 @@ AUTH_USER_MODEL = 'api_formatter.User'
 REST_FRAMEWORK = {
     'DEFAULT_PAGINATION_CLASS':
         'rest_framework.pagination.PageNumberPagination',
+    'DEFAULT_RENDERER_CLASSES': (
+        'api_formatter.renderers.CharsetJSONRenderer',
+        'rest_framework.renderers.BrowsableAPIRenderer',
+    ),
     'PAGE_SIZE': 50,
     'SEARCH_PARAM': 'query',
     'ORDERING_PARAM': 'sort',
