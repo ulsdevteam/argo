@@ -139,6 +139,10 @@ AUTH_USER_MODEL = 'api_formatter.User'
 REST_FRAMEWORK = {
     'DEFAULT_PAGINATION_CLASS':
         'rest_framework.pagination.PageNumberPagination',
+    'DEFAULT_RENDERER_CLASSES': (
+        'api_formatter.renderers.CharsetJSONRenderer',
+        'rest_framework.renderers.BrowsableAPIRenderer',
+    ),
     'PAGE_SIZE': 50,
     'SEARCH_PARAM': 'query',
     'ORDERING_PARAM': 'sort',
@@ -162,3 +166,8 @@ DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
 CSP_IMG_SRC = ("'self'")
 CSP_STYLE_SRC = ("'self'", "'unsafe-inline'")
 CSP_SCRIPT_SRC = ("'self'", "'unsafe-inline'", 'https://cdnjs.cloudflare.com/')
+CSP_FRAME_SRC = ("'none'")
+CSP_FRAME_ANCESTORS = ("'none'")
+
+# Strict Transport Security
+SECURE_HSTS_SECONDS = 3600
