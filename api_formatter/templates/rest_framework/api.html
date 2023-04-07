@@ -106,7 +106,7 @@
 {% endif %}
 
 {% if filter_form %}
-  <button style="float: right; margin-right: 10px" data-toggle="modal" data-target="#filtersModal" class="btn btn-default">
+  <button data-toggle="modal" data-target="#filtersModal" class="btn btn-default">
     <span class="glyphicon glyphicon-wrench" aria-hidden="true"></span>
     {% trans "Filters" %}
   </button>
@@ -117,7 +117,7 @@
     <div class="page-header">
       <h1>{{ name }}</h1>
     </div>
-    <div style="float:left">
+    <div>
       {% block description %}
         {{ description }}
         <div class="row">
@@ -165,12 +165,12 @@
     </div>
 
     {% if paginator %}
-      <nav style="float: right">
+      <nav>
         {% get_pagination_html paginator %}
       </nav>
     {% endif %}
 
-    <div class="request-info" style="clear: both" aria-label="{% trans "request info" %}">
+    <div class="request-info" aria-label="{% trans "request info" %}">
       <pre class="prettyprint"><span class="font-weight-bold">{{ request.method }}</span> {{ request.get_full_path }}</pre>
     </div>
 
@@ -280,22 +280,13 @@
 {% endblock content %}
 
 {% block script %}
-  <script>
-    window.drf = {
-      csrfHeaderName: "{{ csrf_header_name|default:'X-CSRFToken' }}",
-      csrfCookieName: "{{ csrf_cookie_name|default:'csrftoken' }}"
-    };
-  </script>
+  <script src="{% static "js/csrf_setup.js" %}"></script>
   <script src="{% static "dist/jquery/jquery-3.3.1.min.js" %}"></script>
   <script src="{% static "rest_framework/js/ajax-form.js" %}"></script>
   <script src="{% static "rest_framework/js/csrf.js" %}"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="{% static "js/popper.min.js" %}"></script>
   <script src="{% static "bootstrap/js/bootstrap.min.js" %}"></script>
   <script src="{% static "rest_framework/js/prettify-min.js" %}"></script>
   <script src="{% static "rest_framework/js/default.js" %}"></script>
-  <script>
-    $(document).ready(function() {
-      $('form').ajaxForm();
-    });
-  </script>
+  <script src="{% static "js/custom.js" %}"></script>
 {% endblock %}
