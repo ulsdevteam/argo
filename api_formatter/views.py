@@ -10,6 +10,8 @@ from rest_framework.status import HTTP_400_BAD_REQUEST
 from rest_framework.views import APIView
 from rest_framework.viewsets import ReadOnlyModelViewSet
 
+from django.utils.translation import gettext as _
+
 from argo import settings
 
 from .pagination import CollapseLimitOffsetPagination
@@ -73,7 +75,7 @@ class ObjectResolverMixin(object):
         hits = queryset.source(source_fields).execute().hits if source_fields else queryset.execute().hits
         count = len(hits)
         if count != 1:
-            raise Http404("No object matches the given query.")
+            raise Http404(_("No object matches the given query."))
         else:
             return hits[0]
 
@@ -107,9 +109,9 @@ class DocumentViewSet(SearchMixin, ObjectResolverMixin, ReadOnlyModelViewSet):
         count = len(hits)
         if count != 1:
             message = (
-                "No object matches the given query."
+                _("No object matches the given query.")
                 if count == 0
-                else "Multiple results matches the given query. Expected a single result."
+                else _("Multiple results matches the given query. Expected a single result.")
             )
             raise Http404(message)
         else:

@@ -1,4 +1,5 @@
 from django.http import Http404
+from django.utils.translation import gettext as _
 from django_elasticsearch_dsl_drf.constants import (LOOKUP_FILTER_PREFIX,
                                                     LOOKUP_FILTER_RANGE,
                                                     LOOKUP_FILTER_TERMS,
@@ -46,7 +47,7 @@ class SearchMixin:
             settings.ELASTICSEARCH_DSL['default']['connection']
         )
         if not Index(self.index).exists():
-            raise Http404("Index `{}` does not exist".format(self.index))
+            raise Http404(_('Index %(index_number) does not exist') % {'index_number':self.index})
         try:
             self.mapping = self.document._doc_type.mapping.properties.name
             self.search = self.document.search(using=self.client)
@@ -71,7 +72,7 @@ class CustomFilteringFilterBackend(FilteringFilterBackend):
                     'name': filter_param,
                     'required': False,
                     'in': 'query',
-                    'description': f'Filter results by {filter_param}.',
+                    'description': _('Filter results by %(filter_param).') % {'filter_param': filter_param},
                     'schema': {
                         'type': 'string',
                     },
@@ -82,7 +83,7 @@ class CustomFilteringFilterBackend(FilteringFilterBackend):
                 'name': settings.REST_FRAMEWORK["SEARCH_PARAM"],
                 'required': False,
                 'in': 'query',
-                'description': 'Query string for full-text search.',
+                'description': _('Query string for full-text search.'),
                 'schema': {
                     'type': 'string',
                 },
@@ -101,7 +102,7 @@ class CustomOrderingFilterBackend(OrderingFilterBackend):
                 'name': self.ordering_param,
                 'required': False,
                 'in': 'query',
-                'description': f'Sort results by {sort_fields}.  By default the named property will be sorted ascending. Descending order can be achieved by appending a - to the start of the property.',
+                'description': _('Sort results by %(sort_fields).  By default the named property will be sorted ascending. Descending order can be achieved by appending a - to the start of the property.') % {'sort_fields': sort_fields},
                 'schema': {
                     'type': 'string',
                 },

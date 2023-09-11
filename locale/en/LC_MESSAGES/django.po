@@ -1,0 +1,81 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-29 14:49-0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+#: .\api_formatter\templates\rest_framework\api.html:16
+msgid "navbar"
+msgstr ""
+
+#: .\api_formatter\templates\rest_framework\api.html:55
+msgid "request form"
+msgstr ""
+
+#: .\api_formatter\templates\rest_framework\api.html:111
+msgid "Filters"
+msgstr ""
+
+#: .\api_formatter\templates\rest_framework\api.html:116
+msgid "main content"
+msgstr ""
+
+#: .\api_formatter\templates\rest_framework\api.html:173
+msgid "request info"
+msgstr ""
+
+#: .\api_formatter\templates\rest_framework\api.html:177
+msgid "response info"
+msgstr ""
+
+#: .\api_formatter\urls.py:17
+msgid "Rockefeller Archive Center Collections API"
+msgstr ""
+
+#: .\api_formatter\urls.py:18
+msgid ""
+"The Rockefeller Archive Center Collections API provides data about the "
+"archival collections we hold and the individuals and organizations "
+"associated with them."
+msgstr ""
+
+#: .\api_formatter\view_helpers.py:50
+#, python-format
+msgid "Index %(index_number) does not exist"
+msgstr ""
+
+#: .\api_formatter\view_helpers.py:75
+msgid "Filter results by %(filter_param)."
+msgstr ""
+
+#: .\api_formatter\view_helpers.py:86
+msgid "Query string for full-text search."
+msgstr ""
+
+#: .\api_formatter\view_helpers.py:105
+msgid ""
+"Sort results by %(sort_fields).  By default the named property will be "
+"sorted ascending. Descending order can be achieved by appending a - to the "
+"start of the property."
+msgstr ""
+
+#: .\api_formatter\views.py:78 .\api_formatter\views.py:112
+msgid "No object matches the given query."
+msgstr ""
+
+#: .\api_formatter\views.py:114
+msgid "Multiple results matches the given query. Expected a single result."
+msgstr ""
