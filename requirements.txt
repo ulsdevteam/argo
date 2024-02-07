@@ -12,7 +12,7 @@ attrs==23.2.0
     #   referencing
 certifi==2023.11.17
     # via elasticsearch
-django==4.2.8
+django==4.2.9
     # via
     #   -r requirements.in
     #   django-cors-headers
@@ -47,7 +47,7 @@ elasticsearch-dsl==7.4.1
     #   django-elasticsearch-dsl
     #   django-elasticsearch-dsl-drf
     #   rac-es
-jsonschema==4.20.0
+jsonschema==4.21.1
     # via
     #   -r requirements.in
     #   rac-schema-validator
@@ -59,7 +59,7 @@ psycopg2==2.9.9
     # via -r requirements.in
 python-dateutil==2.8.2
     # via elasticsearch-dsl
-pytz==2023.3.post1
+pytz==2023.4
     # via djangorestframework
 pyyaml==6.0.1
     # via -r requirements.in
@@ -67,11 +67,11 @@ rac-es==1.0.0
     # via -r requirements.in
 rac-schema-validator==0.1
     # via -r requirements.in
-referencing==0.32.0
+referencing==0.33.0
     # via
     #   jsonschema
     #   jsonschema-specifications
-rpds-py==0.16.2
+rpds-py==0.17.1
     # via
     #   jsonschema
     #   referencing
