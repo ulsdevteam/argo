@@ -4,15 +4,15 @@
 #
 #    pip-compile
 #
-asgiref==3.7.2
+asgiref==3.8.0
     # via django
 attrs==23.2.0
     # via
     #   jsonschema
     #   referencing
-certifi==2023.11.17
+certifi==2024.2.2
     # via elasticsearch
-django==4.2.9
+django==4.2.11
     # via
     #   -r requirements.in
     #   django-cors-headers
@@ -21,7 +21,7 @@ django==4.2.9
     #   djangorestframework
 django-cors-headers==3.14.0
     # via -r requirements.in
-django-csp==3.7
+django-csp==3.8
     # via -r requirements.in
 django-elasticsearch-dsl==7.4
     # via
@@ -31,7 +31,7 @@ django-elasticsearch-dsl-drf==0.22.5
     # via -r requirements.in
 django-nine==0.2.7
     # via django-elasticsearch-dsl-drf
-djangorestframework==3.14.0
+djangorestframework==3.15.0
     # via
     #   -r requirements.in
     #   django-elasticsearch-dsl-drf
@@ -53,29 +53,27 @@ jsonschema==4.21.1
     #   rac-schema-validator
 jsonschema-specifications==2023.12.1
     # via jsonschema
-packaging==23.2
+packaging==24.0
     # via django-nine
 psycopg2==2.9.9
     # via -r requirements.in
-python-dateutil==2.8.2
+python-dateutil==2.9.0.post0
     # via elasticsearch-dsl
-pytz==2023.4
-    # via djangorestframework
 pyyaml==6.0.1
     # via -r requirements.in
 rac-es==1.0.0
     # via -r requirements.in
 rac-schema-validator==0.1
     # via -r requirements.in
-referencing==0.33.0
+referencing==0.34.0
     # via
     #   jsonschema
     #   jsonschema-specifications
-rpds-py==0.17.1
+rpds-py==0.18.0
     # via
     #   jsonschema
     #   referencing
-shortuuid==1.0.11
+shortuuid==1.0.13
     # via -r requirements.in
 six==1.16.0
     # via
@@ -85,7 +83,7 @@ six==1.16.0
     #   python-dateutil
 sqlparse==0.4.4
     # via django
-typing-extensions==4.9.0
+typing-extensions==4.10.0
     # via asgiref
 uritemplate==4.1.1
     # via -r requirements.in
