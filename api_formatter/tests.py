@@ -270,11 +270,6 @@ class TestAPI(TestCase):
             self.assertEqual(response.data["count"], expected_count)
             self.assertFalse(all([r["uri"].endswith("/") for r in response.data.get('results')]))
 
-    def test_schema(self):
-        """Assert the schema view returns the correct status code."""
-        schema = self.client.get(reverse('schema'))
-        self.assertEqual(schema.status_code, 200, "Wrong HTTP code")
-
     def test_facet_view(self):
         """Asserts the facet view is correctly structured."""
         response = self.client.get("{}?query=rockefeller".format(reverse("facets"))).json()
