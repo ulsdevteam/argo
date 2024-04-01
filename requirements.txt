@@ -4,7 +4,7 @@
 #
 #    pip-compile
 #
-asgiref==3.8.0
+asgiref==3.8.1
     # via django
 attrs==23.2.0
     # via
@@ -31,7 +31,7 @@ django-elasticsearch-dsl-drf==0.22.5
     # via -r requirements.in
 django-nine==0.2.7
     # via django-elasticsearch-dsl-drf
-djangorestframework==3.15.0
+djangorestframework==3.15.1
     # via
     #   -r requirements.in
     #   django-elasticsearch-dsl-drf
