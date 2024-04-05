@@ -202,11 +202,13 @@ class DocumentViewSet(SearchMixin, ObjectResolverMixin, ReadOnlyModelViewSet):
 
 class AgentViewSet(DocumentViewSet):
     """
-    list:
-    Returns a list of agents. Agents are people, organizations or families.
+    Agents are people, organizations or families.
 
-    retrieve:
-    Returns data about an individual agent. Agents are people, organizations or families.
+    ## list:
+    Returns a list of agents.
+
+    ## retrieve:
+    Returns data about an individual agent.
     """
 
     document = Agent
@@ -226,11 +228,13 @@ class AgentViewSet(DocumentViewSet):
 
 class CollectionViewSet(DocumentViewSet, AncestorMixin):
     """
-    list:
-    Returns a list of collections. Collections are intellectually significant groups of records.
+    Collections are intellectually significant groups of records
 
-    retrieve:
-    Returns data about an individual collection. Collections are intellectually significant groups of records.
+    ## list:
+    Returns a list of collections.
+
+    ## retrieve:
+    Returns data about an individual collection.
     """
 
     document = Collection
@@ -309,11 +313,13 @@ class CollectionViewSet(DocumentViewSet, AncestorMixin):
 
 class ObjectViewSet(DocumentViewSet, AncestorMixin):
     """
-    list:
-    Returns a list of objects. Objects are intellectually significant groups of records that do not have children.
+    Objects are intellectually significant groups of records that do not have children.
 
-    retrieve:
-    Returns data about an individual object. Objects are intellectually significant groups of records that do not have children.
+    ## list:
+    Returns a list of objects.
+
+    ## retrieve:
+    Returns data about an individual object.
     """
 
     document = Object
@@ -329,13 +335,14 @@ class ObjectViewSet(DocumentViewSet, AncestorMixin):
 
 class TermViewSet(DocumentViewSet):
     """
-    list:
-    Returns a list of terms. Terms are controlled values describing topics,
+    Terms are controlled values describing topics,
     geographic places or record formats.
 
-    retrieve:
-    Returns data about an individual term. Terms are controlled values describing
-    topics, geographic places or record formats.
+    ## list:
+    Returns a list of terms.
+
+    ## retrieve:
+    Returns data about an individual term.
     """
 
     document = Term

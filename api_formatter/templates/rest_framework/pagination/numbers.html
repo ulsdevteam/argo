@@ -1,46 +1,46 @@
-<ul class="pagination">
+<ul class="pagination__list">
   {% if previous_url %}
-    <li class="page-item">
-      <a class="page-link" href="{{ previous_url }}" aria-label="Previous">
-        <span aria-hidden="true">&laquo;</span>
+    <li class="pagination__button">
+      <a href="{{ previous_url }}" class="material-icon" aria-disabled="false" aria-label="Previous page" rel="prev">
+        keyboard_arrow_left
       </a>
     </li>
   {% else %}
-    <li class="disabled page-item">
-      <a class="page-link" href="#" aria-label="Previous">
-        <span aria-hidden="true">&laquo;</span>
+    <li class="pagination__button disabled">
+      <a class="material-icon" aria-disabled="true" aria-label="Previous page" rel="prev" >
+        keyboard_arrow_left
       </a>
     </li>
   {% endif %}
 
   {% for page_link in page_links %}
     {% if page_link.is_break %}
-      <li class="disabled page-item">
-        <a class="page-link" href="#"><span aria-hidden="true">&hellip;</span></a>
+      <li class="pagination__break disabled">
+        <a aria-disabled="true" aria-label="truncated pages">...</a>
       </li>
     {% else %}
       {% if page_link.is_active %}
-        <li class="active page-item">
-          <a class="page-link" href="{{ page_link.url }}">{{ page_link.number }}</a>
+        <li class="pagination__page page__active">
+          <a rel="canonical" aria-label="Page {{page_link.number}} is your current page" aria-current="page" href="{{ page_link.url }}">{{ page_link.number }}</a>
         </li>
       {% else %}
-        <li  class="page-item">
-          <a class="page-link" href="{{ page_link.url }}">{{ page_link.number }}</a>
+        <li  class="pagination__page">
+          <a href="{{ page_link.url }}">{{ page_link.number }}</a>
         </li>
       {% endif %}
     {% endif %}
   {% endfor %}
 
   {% if next_url %}
-    <li class="page-item">
-      <a class="page-link" href="{{ next_url }}" aria-label="Next">
-        <span aria-hidden="true">&raquo;</span>
+    <li class="pagination__button">
+      <a href="{{ next_url }}" class="material-icon" aria-label="Next page" aria-disabled="false" rel="next">
+        keyboard_arrow_right
       </a>
     </li>
   {% else %}
-    <li class="disabled page-item">
-      <a class="page-link" href="#" aria-label="Next">
-        <span aria-hidden="true">&raquo;</span>
+    <li class="pagination__button disabled">
+      <a class="material-icon" aria-disabled="true" aria-label="Next page" rel="next" >
+        keyboard_arrow_right
       </a>
     </li>
   {% endif %}
