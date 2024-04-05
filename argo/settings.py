@@ -163,8 +163,9 @@ CORS_ORIGIN_ALLOW_ALL = True
 DEFAULT_AUTO_FIELD = 'django.db.models.AutoField'
 
 # Content Security Policy
-CSP_IMG_SRC = ("'self'")
-CSP_STYLE_SRC = ("'self'")
+CSP_IMG_SRC = ("'self'", "https://assets.rockarch.org")
+CSP_STYLE_SRC = ("'self'", "https://assets.rockarch.org")
 CSP_SCRIPT_SRC = ("'self'")
+CSP_FONT_SRC = ("'self'", "https://assets.rockarch.org")
 CSP_FRAME_SRC = ("'none'")
 CSP_FRAME_ANCESTORS = ("'none'")

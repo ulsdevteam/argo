@@ -1,0 +1,12 @@
+{% load rest_framework %}
+{% for field in form %}
+    {% if field.name == '_content' %}
+        {{ field.label_tag }}
+        {{ field }}
+    {% elif field.name == '_content_type' %}
+        <div class="select">
+            {{ field.label_tag }}
+            {{ field|add_class }}
+        </div>
+    {% endif %}
+{% endfor %}
