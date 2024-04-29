@@ -7,7 +7,7 @@
 {% block style %}
 <!-- <link rel="stylesheet" type="text/css" href="{% static "bootstrap/css/bootstrap.min.css" %}"> -->
 <link rel="icon" type="image/x-icon" href="https://assets.rockarch.org/assets/img/favicon.ico">
-<link rel="stylesheet" type="text/css" href="https://assets.rockarch.org/v0.8.1/main.min.css">
+<link rel="stylesheet" type="text/css" href="https://assets.rockarch.org/v0.10.0/main.min.css">
 <link rel="stylesheet" href="{% static "css/styles.css" %}">
 {% endblock %}
 
@@ -55,22 +55,22 @@
         </button>
         <ul id="nav-toggle-menu" class="dropdown__list dropdown__list--mobile list--unstyled dropdown__list--navy dropdown__list--slide-left closed">
           <li>
-            <a id="menu-item-agents" class="btn btn--navy dropdown__btn dropdown__btn--mobile" href="{% url 'agent-list' %}">
+            <a id="menu-item-agents" class="btn btn--navy dropdown__btn dropdown__btn--mobile" href="{% url 'agent-list' %}" tabindex="-1">
               Agents
             </a>
           </li>
           <li>
-            <a id="menu-item-collections" class="btn btn--navy dropdown__btn dropdown__btn--mobile" href="{% url 'collection-list' %}">
+            <a id="menu-item-collections" class="btn btn--navy dropdown__btn dropdown__btn--mobile" href="{% url 'collection-list' %}" tabindex="-1">
               Collections
             </a>
           </li>
           <li>
-            <a id="menu-item-objects" class="btn btn--navy dropdown__btn dropdown__btn--mobile" href="{% url 'object-list' %}">
+            <a id="menu-item-objects" class="btn btn--navy dropdown__btn dropdown__btn--mobile" href="{% url 'object-list' %}" tabindex="-1">
               Objects
             </a>
           </li>
           <li>
-            <a id="menu-item-documentation" class="btn btn--navy dropdown__btn dropdown__btn--mobile" href="https://docs.rockarch.org/argo-docs">
+            <a id="menu-item-documentation" class="btn btn--navy dropdown__btn dropdown__btn--mobile" href="https://docs.rockarch.org/argo-docs" tabindex="-1">
               Documentation
             </a>
           </li>
@@ -159,13 +159,13 @@
       </nav>
     {% endif %}
 
-    <div class="request-info card mb-20">
-      <pre class="prettyprint"><span class="font-weight-bold">{{ request.method }}</span> {{ request.get_full_path }}</pre>
+    <div class="request-info card card--container mb-20">
+      <pre class="prettyprint"><span class="text--bold">{{ request.method }}</span> {{ request.get_full_path }}</pre>
     </div>
 
-    <div class="response-info card mb-20">
-      <pre class="prettyprint"><span class="meta nocode"><span class="font-weight-bold">HTTP {{ response.status_code }} {{ response.status_text }}</span>{% autoescape off %}{% for key, val in response_headers|items %}
-<span class="font-weight-bold">{{ key }}:</span> <span class="lit">{{ val|break_long_headers|urlize }}</span>{% endfor %}
+    <div class="response-info card card--container mb-20">
+      <pre class="prettyprint"><span class="meta nocode"><span class="text--bold">HTTP {{ response.status_code }} {{ response.status_text }}</span>{% autoescape off %}{% for key, val in response_headers|items %}
+<span class="text--bold">{{ key }}:</span> <span class="lit">{{ val|break_long_headers|urlize }}</span>{% endfor %}
 </span>{{ content|urlize }}</pre>{% endautoescape %}
     </div>
 
