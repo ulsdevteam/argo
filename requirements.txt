@@ -47,13 +47,13 @@ elasticsearch-dsl==7.4.1
     #   django-elasticsearch-dsl
     #   django-elasticsearch-dsl-drf
     #   rac-es
-jsonschema==4.21.1
+jsonschema==4.22.0
     # via
     #   -r requirements.in
     #   rac-schema-validator
 jsonschema-specifications==2023.12.1
     # via jsonschema
-markdown==3.5.2
+markdown==3.6
     # via -r requirements.in
 packaging==24.0
     # via django-nine
@@ -67,7 +67,7 @@ rac-es==1.0.0
     # via -r requirements.in
 rac-schema-validator==0.1
     # via -r requirements.in
-referencing==0.34.0
+referencing==0.35.0
     # via
     #   jsonschema
     #   jsonschema-specifications
@@ -83,9 +83,9 @@ six==1.16.0
     #   django-elasticsearch-dsl-drf
     #   elasticsearch-dsl
     #   python-dateutil
-sqlparse==0.4.4
+sqlparse==0.5.0
     # via django
-typing-extensions==4.10.0
+typing-extensions==4.11.0
     # via asgiref
 uritemplate==4.1.1
     # via -r requirements.in
