@@ -12,7 +12,7 @@ attrs==23.2.0
     #   referencing
 certifi==2024.2.2
     # via elasticsearch
-django==4.2.11
+django==4.2.13
     # via
     #   -r requirements.in
     #   django-cors-headers
@@ -67,11 +67,11 @@ rac-es==1.0.0
     # via -r requirements.in
 rac-schema-validator==0.1
     # via -r requirements.in
-referencing==0.35.0
+referencing==0.35.1
     # via
     #   jsonschema
     #   jsonschema-specifications
-rpds-py==0.18.0
+rpds-py==0.18.1
     # via
     #   jsonschema
     #   referencing
@@ -85,7 +85,7 @@ six==1.16.0
     #   python-dateutil
 sqlparse==0.5.0
     # via django
-typing-extensions==4.11.0
+typing-extensions==4.12.0
     # via asgiref
 uritemplate==4.1.1
     # via -r requirements.in
