@@ -6,13 +6,13 @@
 #
 asgiref==3.8.1
     # via django
-attrs==23.2.0
+attrs==24.2.0
     # via
     #   jsonschema
     #   referencing
-certifi==2024.7.4
+certifi==2024.8.30
     # via elasticsearch
-django==4.2.14
+django==4.2.15
     # via
     #   -r requirements.in
     #   django-cors-headers
@@ -53,7 +53,7 @@ jsonschema==4.23.0
     #   rac-schema-validator
 jsonschema-specifications==2023.12.1
     # via jsonschema
-markdown==3.6
+markdown==3.7
     # via -r requirements.in
 packaging==24.1
     # via django-nine
@@ -61,9 +61,9 @@ psycopg2==2.9.9
     # via -r requirements.in
 python-dateutil==2.9.0.post0
     # via elasticsearch-dsl
-pyyaml==6.0.1
+pyyaml==6.0.2
     # via -r requirements.in
-rac-es==1.0.0
+rac-es==1.1.0
     # via -r requirements.in
 rac-schema-validator==0.1
     # via -r requirements.in
@@ -71,7 +71,7 @@ referencing==0.35.1
     # via
     #   jsonschema
     #   jsonschema-specifications
-rpds-py==0.19.1
+rpds-py==0.20.0
     # via
     #   jsonschema
     #   referencing
@@ -89,5 +89,5 @@ typing-extensions==4.12.2
     # via asgiref
 uritemplate==4.1.1
     # via -r requirements.in
-urllib3==1.26.19
+urllib3==1.26.20
     # via elasticsearch
