@@ -10,7 +10,6 @@ jsonschema~=4.7
 markdown~=3.5
 psycopg2~=2.9
 PyYAML~=6.0
-./rac-schemas
 rac-schema-validator~=0.1
 rac_es~=1.0
 shortuuid~=1.0
