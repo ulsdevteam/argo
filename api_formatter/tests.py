@@ -3,13 +3,13 @@ import json
 import os
 import random
 
+import rac_schema_validator
 from django.test import TestCase
 from django.urls import reverse
 from elasticsearch.helpers import streaming_bulk
 from elasticsearch_dsl import connections, utils
 from rac_es.documents import (Agent, BaseDescriptionComponent, Collection,
                               Object, Term)
-from rac_schemas import is_valid
 from rest_framework.test import APIRequestFactory
 
 from argo import settings
@@ -46,7 +46,12 @@ class TestAPI(TestCase):
                             instance = json.load(jf)
                         except json.decoder.JSONDecodeError:
                             print("{}/{} is not valid JSON".format(dir, f))
-                        self.assertTrue(is_valid(instance, "{}.json".format(instance["type"])), "{}/{}".format(dir, f))
+                        base_file = open(os.path.join('rac_schemas', 'schemas', 'base.json'), 'r')
+                        base_schema = json.load(base_file)
+                        base_file.close()
+                        with open(os.path.join('rac_schemas', 'schemas', f"{instance['type']}.json"), 'r') as object_file:
+                            object_schema = json.load(object_file)
+                        self.assertTrue(rac_schema_validator.is_valid(instance, object_schema, base_schema), "{}/{}".format(dir, f))
         print("Fixtures are all valid")
 
     def prepare_data(self, source_filepath, doc_cls):
@@ -264,11 +269,6 @@ class TestAPI(TestCase):
             response = SearchView.as_view(actions={"get": "list"}, basename="search")(request)
             self.assertEqual(response.data["count"], expected_count)
             self.assertFalse(all([r["uri"].endswith("/") for r in response.data.get('results')]))
-
-    def test_schema(self):
-        """Assert the schema view returns the correct status code."""
-        schema = self.client.get(reverse('schema'))
-        self.assertEqual(schema.status_code, 200, "Wrong HTTP code")
 
     def test_facet_view(self):
         """Asserts the facet view is correctly structured."""

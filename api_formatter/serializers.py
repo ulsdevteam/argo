@@ -24,6 +24,12 @@ class ExtentSerializer(serializers.Serializer):
     type = serializers.CharField()
 
 
+class FileObjectSerializer(serializers.Serializer):
+    title = serializers.CharField()
+    download = serializers.CharField()
+    manifest = serializers.CharField()
+
+
 class LanguageSerializer(serializers.Serializer):
     expression = serializers.CharField()
     identifier = serializers.CharField()
@@ -164,6 +170,7 @@ class ObjectSerializer(BaseDetailSerializer):
     parent = serializers.CharField(allow_null=True)
     description = serializers.SerializerMethodField()
     extents = ExtentSerializer(many=True, allow_null=True)
+    files = FileObjectSerializer(many=True, default=[])
     formats = serializers.ListField()
     #online = serializers.BooleanField()
     dates = DateSerializer(many=True, allow_null=True)
