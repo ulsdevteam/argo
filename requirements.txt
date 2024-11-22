@@ -55,7 +55,7 @@ jsonschema-specifications==2024.10.1
     # via jsonschema
 markdown==3.7
     # via -r requirements.in
-packaging==24.1
+packaging==24.2
     # via django-nine
 psycopg2==2.9.10
     # via -r requirements.in
@@ -65,13 +65,13 @@ pyyaml==6.0.2
     # via -r requirements.in
 rac-es==1.1.0
     # via -r requirements.in
-rac-schema-validator==0.1
+rac-schema-validator==1.0
     # via -r requirements.in
 referencing==0.35.1
     # via
     #   jsonschema
     #   jsonschema-specifications
-rpds-py==0.20.1
+rpds-py==0.21.0
     # via
     #   jsonschema
     #   referencing
@@ -83,7 +83,7 @@ six==1.16.0
     #   django-elasticsearch-dsl-drf
     #   elasticsearch-dsl
     #   python-dateutil
-sqlparse==0.5.1
+sqlparse==0.5.2
     # via django
 typing-extensions==4.12.2
     # via asgiref
