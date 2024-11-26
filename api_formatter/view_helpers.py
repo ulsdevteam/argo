@@ -188,3 +188,23 @@ def date_string(dates):
 
 def description_from_notes(notes):
     return text_from_notes(notes, "abstract") if text_from_notes(notes, "abstract") else text_from_notes(notes, "scopecontent")
+
+
+def flatten_ancestors(ancestors):
+    ancestors_list = []
+    for key, value in ancestors.items():
+        if isinstance(value, dict):
+            ancestors_list += flatten_ancestors(value)
+        elif key == 'title':
+            ancestors_list.append(value)
+    return ancestors_list
+
+
+def citation_title(title, date_string):
+    if all([title, date_string]):
+        if title != date_string:
+            return f"{title}, {date_string}"
+        else:
+            return date_string
+    else:
+        return [t for t in [title, date_string] if t][0]
