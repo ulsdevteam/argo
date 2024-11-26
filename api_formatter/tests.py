@@ -14,7 +14,7 @@ from rest_framework.test import APIRequestFactory
 
 from argo import settings
 
-from .view_helpers import date_string
+from .view_helpers import citation_title, date_string, flatten_ancestors
 from .views import (AgentViewSet, CollectionViewSet, MyListView, ObjectViewSet,
                     SearchView, TermViewSet)
 
@@ -229,6 +229,14 @@ class TestAPI(TestCase):
             for key in ["index", "uri", "title", "online"]:
                 self.assertIsNot(result.get(key), None)
 
+    def citation_view(self, basename, pk):
+        """Asserts citation is generated."""
+        response = self.client.get(reverse(f"{basename}-citation", args=[pk])).json()
+        self.assertIsInstance(response, str)
+        self.assertIn(settings.CITATION_REPOSITORY_NAME, response)
+        self.assertIn(settings.CITATION_REPOSITORY_BASEURL, response)
+        self.assertIn(settings.CITATION_SEPARATOR, response)
+
     def mylist_view(self, added_ids):
         """Asserts the MyList view returns the expected response status and results."""
         list = random.sample(added_ids, 5)
@@ -253,6 +261,7 @@ class TestAPI(TestCase):
             added_ids = self.index_fixture_data('fixtures/{}'.format(doc_type), doc_cls)
             self.list_view(doc_cls, doc_type, viewset, len(added_ids))
             for ident in added_ids:
+                self.citation_view(doc_type, ident)
                 self.detail_view(doc_type, viewset, ident)
                 if doc_type in ["collection", "object"]:
                     self.ancestors_view(doc_type, viewset, ident)
@@ -286,3 +295,18 @@ class TestAPI(TestCase):
                 ([{"begin": "1945"}, {"expression": "1950"}], "1945, 1950"),
                 ([{"begin": "1945", "end": "1946"}, {"expression": "1950"}], "1945-1946, 1950")]:
             self.assertEqual(date_string(input), expected)
+
+    def test_flatten_ancestors(self):
+        input = {"title": "top level", "child": {"title": "second level", "child": {"title": "third level"}}}
+        output = flatten_ancestors(input)
+        self.assertEqual(output, ["top level", "second level", "third level"])
+
+    def test_citation_title(self):
+        for input, expected in [
+            (["foo", "bar"], "foo, bar"),
+            (["foo", None], "foo"),
+            ([None, "bar"], "bar"),
+            (["foo", "foo"], "foo"),
+        ]:
+            output = citation_title(*input)
+            self.assertEqual(output, expected)
