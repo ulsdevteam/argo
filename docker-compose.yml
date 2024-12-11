@@ -22,7 +22,7 @@ services:
       - argo-db
 
   elasticsearch:
-    image: elasticsearch:7.9.3
+    image: elasticsearch:7.17.25
     environment:
       - node.name=elasticsearch
       - discovery.seed_hosts=elasticsearch

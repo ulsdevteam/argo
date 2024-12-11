@@ -157,6 +157,9 @@ ELASTICSEARCH_DSL = {
     }
 }
 
+if config.ELASTICSEARCH_AUTHENTICATION == True:
+    ELASTICSEARCH_DSL['default']['api_key'] = config.ELASTICSEARCH_API_KEY
+
 # CORS settings
 CORS_ORIGIN_ALLOW_ALL = True
 
