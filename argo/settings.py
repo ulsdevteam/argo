@@ -153,7 +153,8 @@ ELASTICSEARCH_DSL = {
     "default": {
         "hosts": config.ELASTICSEARCH_HOSTS,
         "index": config.ELASTICSEARCH_INDEX,
-        "connection": config.ELASTICSEARCH_CONNECTION
+        "connection": config.ELASTICSEARCH_CONNECTION,
+        "api_key": getattr(config, 'ELASTICSEARCH_API_KEY', None)
     }
 }
 
