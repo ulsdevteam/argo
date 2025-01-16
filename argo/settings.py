@@ -153,12 +153,10 @@ ELASTICSEARCH_DSL = {
     "default": {
         "hosts": config.ELASTICSEARCH_HOSTS,
         "index": config.ELASTICSEARCH_INDEX,
-        "connection": config.ELASTICSEARCH_CONNECTION
+        "connection": config.ELASTICSEARCH_CONNECTION,
+        "api_key": config.get('ELASTICSEARCH_API_KEY')
     }
 }
-
-if config.ELASTICSEARCH_AUTHENTICATION:
-    ELASTICSEARCH_DSL['default']['api_key'] = config.ELASTICSEARCH_API_KEY
 
 # CORS settings
 CORS_ORIGIN_ALLOW_ALL = True

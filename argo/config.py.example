@@ -2,11 +2,10 @@ DJANGO_DEBUG = True  # run Django in debug mode, which outputs stack traces to t
 DJANGO_SECRET_KEY = "sx6mf&q*eifhk^(cx197+=*cuq0guy$43!+hy#g1l4orkklx$g"  # used by Django to create hashes (string)
 DJANGO_STATIC_URL = "/static/"  # URL for static assets used by Django (string)
 DJANGO_ALLOWED_HOSTS = ["localhost", "argo-web"]  # hosts Argo will respond to (list of strings)
-ELASTICSEARCH_AUTHENTICATION = False # Boolean to value to tell Argo whether it needs to authenticate to access the Elasticsearch cluster
 ELASTICSEARCH_HOSTS = ["elasticsearch:9200"]  # hostnames (including ports, if applicable) at which Elasticsearch is available (list of strings)
 ELASTICSEARCH_INDEX = "default"  # name of Elasticsearch index to target (string)
 ELASTICSEARCH_CONNECTION = "default"  # name of Elasticsearch connection to use (string)
-ELASTICSEARCH_API_KEY = "FvWxPqRwTUI1Zlc2c09iRW1oJ632ajZqeWMtV2hSZFd1RHRzQUxQVXZqQQnn" # Encoded API Key provided by Elasticsearch
+ELASTICSEARCH_API_KEY =  # Encoded string API Key provided by Elasticsearch
 SQL_ENGINE = "django.db.backends.postgresql" # the database engine used by Argo (string, one of django.db.backends)
 SQL_DATABASE = "postgres"  # name of the application database (string)
 SQL_USER = "postgres"  # name of the application database user (string)
