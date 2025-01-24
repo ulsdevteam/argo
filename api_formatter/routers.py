@@ -2,8 +2,8 @@ from rest_framework.routers import APIRootView, DefaultRouter
 
 
 class RACAPIRootView(APIRootView):
-    """The Collections API of the Rockefeller Archive Center."""
-    name = "api.rockarch.org"
+    """The Collections API of University Library System Archive & Special Collections ."""
+    name = "University Library System"
 
     def get(self, request, *args, **kwargs):
         """Adds additional endpoints."""

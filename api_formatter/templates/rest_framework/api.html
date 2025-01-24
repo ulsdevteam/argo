@@ -11,16 +11,16 @@
 <link rel="stylesheet" href="{% static "css/styles.css" %}">
 {% endblock %}
 
-{% block title %}{% if name %}{{ name }} – {% endif %}api.rockarch.org{% endblock %}
+{% block title %}{% if name %}{{ name }} – {% endif %}UNIVERSITY LIBRARY SYSTEM{% endblock %}
 
 {% block navbar %}
 <header class="header header--blue">
   <div class="wrapper">
     <div class="container flex">
       <div class="header__brand header__brand--text">
-        <a href="/" class="header__brand-title">api.rockarch.org</a>
+        <a href="/" class="header__brand-title">UNIVERSITY LIBRARY SYSTEM</a>
         <div class="header__brand-subtitle">
-          The Collections API of the Rockefeller Archive Center
+          The Collections API of UNIVERSITY OF PITTSBURGH
         </div>
     </div>
 
@@ -39,11 +39,6 @@
         <li class="nav__item btn--navy">
           <a class="nav__link" href="{% url 'object-list' %}" id="objects">
             Objects
-          </a>
-        </li>
-        <li class="nav__item btn--navy">
-          <a class="nav__link" href="https://docs.rockarch.org/argo-docs" id="docs">
-            Documentation
           </a>
         </li>
       </ul>
@@ -66,11 +61,6 @@
           <li>
             <a id="menu-item-objects" class="btn btn--navy dropdown__btn dropdown__btn--mobile" href="{% url 'object-list' %}" tabindex="-1">
               Objects
-            </a>
-          </li>
-          <li>
-            <a id="menu-item-documentation" class="btn btn--navy dropdown__btn dropdown__btn--mobile" href="https://docs.rockarch.org/argo-docs" tabindex="-1">
-              Documentation
             </a>
           </li>
         </ul>
@@ -197,29 +187,34 @@
     <div class="wrapper">
       <div class="grid container">
         <h2
-          aria-label="Rockefeller Archive Center"
+          aria-label="University Library System"
           class="footer-primary__title heading--dotted-border"
         >
           <span aria-hidden="true">
-            Rockefeller
-            <br />
-            Archive Center
+            University Library System
           </span>
         </h2>
         <div class="footer-primary__address">
           <p class="footer-primary__text">
-            15 Dayton Avenue
+	    A&SC at Hillman Library
+	    <br />
+	    320 Hillman Library, University of Pittsburgh
+	    <br />
+	    3960 Forbes Avenue, Pittsburgh, PA 15260
+          </p>
+	    <p class="footer-primary__text">
+            A&SC at the Archives Service Center
             <br />
-            Sleepy Hollow, New York 10591
+            7500 Thomas Boulevard
+            <br />
+            Pittsburgh, PA 15208
           </p>
           <p class="footer-primary__text">
-            Phone: (914) 366-6300
-            <br />
-            Fax: (914) 631-6017
+            Phone: (412) 648-8190
             <br />
             E-mail:
-            <a class="footer-primary__link" href="mailto:archive@rockarch.org">
-              archive@rockarch.org
+            <a class="footer-primary__link" href="mailto:archives-ref@pitt.edu">
+              archives-ref@pitt.edu
             </a>
           </p>
         </div>
@@ -228,11 +223,11 @@
           <p class="footer-primary__text">
             Monday-Friday
             <br />
-            9:30 a.m. to 5:00 p.m.
+            9:00 a.m. to 5:00 p.m.
             <br />
             <a
               class="footer-primary__link"
-              href="https://rockarch.org/collections/access-and-request-materials/"
+              href="https://www.library.pitt.edu/asc-doing-research"
             >
               How to access and request materials
             </a>
@@ -240,7 +235,7 @@
           </p>
           <a
             class="footer-primary__link"
-            href="https://rockarch.org/collections/access-and-request-materials/holiday-schedule/"
+            href="https://www.library.pitt.edu/hours"
           >
             See holiday schedule
           </a>
@@ -248,7 +243,7 @@
         <div class="footer-primary__social">
           <div class="social-icons">
             <a
-              href="https://www.facebook.com/RockefellerArchiveCenter"
+              href="https://www.facebook.com/pittarchivesandspecialcollections/"
               aria-label="Facebook"
             >
               <span class="social-icons__icon">
@@ -269,7 +264,7 @@
               </span>
             </a>
             <a
-              href="https://www.instagram.com/rockefellerarchivecenter"
+              href="https://www.instagram.com/pittarchives/"
               aria-label="Instagram"
             >
               <span class="social-icons__icon">
@@ -289,7 +284,7 @@
                 </svg>
               </span>
             </a>
-            <a href="https://www.linkedin.com/company/rockefeller-archive-center" aria-label="LinkedIn">
+            <a href="https://www.linkedin.com/company/university-of-pittsburgh-library-system-uls" aria-label="LinkedIn">
               <span class="social-icons__icon">
                 <svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
                   <title>LinkedIn Logo</title>
@@ -300,7 +295,7 @@
               </span>
             </a>
             <a
-              href="https://www.youtube.com/channel/UCks9ctz4OF9tMNOTrRkWIZg"
+              href="https://pittarchives.tumblr.com/"
               aria-label="YouTube"
             >
               <span class="social-icons__icon">
@@ -312,7 +307,28 @@
                   height="24"
                   viewBox="0 0 24 24"
                 >
-                  <title>YouTube Logo</title>
+                  <title>Tumblr: Archives &amp; Manuscripts @ Pitt</title>
+                  <path
+                    fill="#192E49"
+                    d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"
+                  ></path>
+                </svg>
+              </span>
+            </a>
+             <a
+              href="https://pittrarebooks.tumblr.com/"
+              aria-label="YouTube"
+            >
+              <span class="social-icons__icon">
+                <svg
+                  aria-hidden="true"
+                  focusable="false"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                >
+                  <title>Tumblr: Rare Books @ Pitt</title>
                   <path
                     fill="#192E49"
                     d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"
@@ -322,27 +338,7 @@
             </a>
           </div>
           <p class="footer-primary__text">
-            <a
-              class="footer-primary__link footer-primary__policy-link"
-              href="https://rockarch.org/about-us/accessibility/"
-            >
-              Accessibility Statement
-            </a>
-            <a
-              class="footer-primary__link footer-primary__policy-link"
-              href="https://rockarch.org/about-us/privacy-policy/"
-            >
-              Privacy Policy
-            </a>
-            <a
-              class="footer-primary__link footer-primary__policy-link"
-              href="https://docs.rockarch.org"
-            >
-              RAC Policies
-            </a>
-          </p>
-          <p class="footer-primary__text">
-            Copyright © Rockefeller Archive Center. All rights reserved.
+            Copyright © University of Pittsburgh. All rights reserved.
           </p>
         </div>
       </div>
