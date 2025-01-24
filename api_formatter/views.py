@@ -1,4 +1,5 @@
 from django.http import Http404
+from django.urls import reverse
 from django_elasticsearch_dsl_drf.constants import SUGGESTER_TERM
 from django_elasticsearch_dsl_drf.pagination import LimitOffsetPagination
 from elasticsearch_dsl import A, Q
@@ -23,8 +24,9 @@ from .view_helpers import (FILTER_BACKENDS, FILTER_FIELDS,
                            NESTED_FILTER_FIELDS, NUMBER_LOOKUPS,
                            ORDERING_FIELDS, SEARCH_BACKENDS, SEARCH_FIELDS,
                            SEARCH_NESTED_FIELDS, STRING_LOOKUPS,
-                           ChildrenPaginator, SearchMixin, date_string,
-                           description_from_notes)
+                           ChildrenPaginator, SearchMixin, citation_title,
+                           date_string, description_from_notes,
+                           flatten_ancestors)
 
 
 class AncestorMixin(object):
@@ -196,6 +198,27 @@ class DocumentViewSet(SearchMixin, ObjectResolverMixin, ReadOnlyModelViewSet):
     @property
     def list_fields(self):
         return list(set(list(self.filter_fields) + list(self.ordering_fields) + list(self.search_fields) + ["type", "dates"]))
+
+    @action(detail=True)
+    def citation(self, request, pk):
+        """Returns a citation for a document"""
+        resolved = self.resolve_object(self.document, pk, source_fields=["dates", "title"])
+        dates = date_string(resolved.to_dict().get("dates", []))
+        title = resolved.title
+        object_path = reverse('object-detail', kwargs={'pk': pk}).lstrip('/')
+        url = f"{settings.CITATION_REPOSITORY_BASEURL.rstrip('/')}/{object_path}"
+        ancestors = []
+        if getattr(self, 'ancestors', False):
+            ancestors = settings.CITATION_SEPARATOR.join(
+                flatten_ancestors(self.ancestors(request, pk).data)
+            )
+
+        citation = [
+            citation_title(title, dates),
+            ancestors,
+            settings.CITATION_REPOSITORY_NAME,
+            url]
+        return Response(settings.CITATION_SEPARATOR.join([c for c in citation if c]))
 
 
 class AgentViewSet(DocumentViewSet):

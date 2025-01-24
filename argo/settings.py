@@ -153,7 +153,8 @@ ELASTICSEARCH_DSL = {
     "default": {
         "hosts": config.ELASTICSEARCH_HOSTS,
         "index": config.ELASTICSEARCH_INDEX,
-        "connection": config.ELASTICSEARCH_CONNECTION
+        "connection": config.ELASTICSEARCH_CONNECTION,
+        "api_key": getattr(config, 'ELASTICSEARCH_API_KEY', None)
     }
 }
 
@@ -169,3 +170,7 @@ CSP_SCRIPT_SRC = ("'self'")
 CSP_FONT_SRC = ("'self'", "https://assets.rockarch.org")
 CSP_FRAME_SRC = ("'none'")
 CSP_FRAME_ANCESTORS = ("'none'")
+
+CITATION_REPOSITORY_NAME = config.CITATION_REPOSITORY_NAME
+CITATION_REPOSITORY_BASEURL = config.CITATION_REPOSITORY_BASEURL
+CITATION_SEPARATOR = config.CITATION_SEPARATOR
